@@ -2,6 +2,8 @@ import { publishedGuides } from "@/data/pc-articles";
 import { draftBuyingGuides } from "@/data/pc-buying-guides";
 import { psuCluster } from "@/data/clusters/psu-cluster";
 import { composePsuGuide } from "@/lib/pc-compose/psu";
+import { batch2 } from "@/data/clusters/batch2";
+import { composeGuide } from "@/lib/pc-compose/generic";
 import { fixtures } from "@/data/fixtures/pc-fixtures";
 import type { PcArticle, PcCategory } from "./types";
 import { CATEGORY_LABELS } from "./types";
@@ -10,7 +12,7 @@ import { validateArticle, type ValidationIssue } from "./validate";
 export * from "./types";
 
 /** Registry of all article records. Add new articles here. */
-const allArticles: PcArticle[] = [...publishedGuides, ...draftBuyingGuides, ...psuCluster.map(composePsuGuide)];
+const allArticles: PcArticle[] = [...publishedGuides, ...draftBuyingGuides, ...psuCluster.map(composePsuGuide), ...batch2.map((b) => composeGuide(b.cfg, b.schema, b.facts))];
 
 export const registry: readonly PcArticle[] = allArticles;
 
