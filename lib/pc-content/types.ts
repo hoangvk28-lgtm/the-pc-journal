@@ -1,9 +1,9 @@
 /**
  * Content model for The PC Journal articles.
  *
- * Two templates share one foundation:
- *   - "guide":         informational, helps a reader understand or act without buying
- *   - "buying-guide":  researched Best X / comparison article with product sections
+ * Two templates:
+ *   - "guide":       informational, helps a reader understand or act without buying
+ *   - "best-guide":  Best X roundup rendered with The Office Journal editorial template
  *
  * Every evidence-bearing field records its basis so the template can keep
  * manufacturer specifications, attributed third-party tests, our own documented
@@ -21,7 +21,7 @@ export const CATEGORY_LABELS: Record<PcCategory, string> = {
   peripherals: "Peripherals",
 };
 
-export type ContentType = "guide" | "buying-guide";
+export type ContentType = "guide" | "best-guide";
 
 /**
  * published: public, in sitemap and homepage.
@@ -106,68 +106,54 @@ export interface InformationalGuide extends ArticleBase {
   modules: GuideModule[];
 }
 
-/* ──────────────────────────── Best X Buying Guide ─────────────────────────── */
+/* ──────────────────────── Best X guide (The Office Journal template) ─────────────────────── */
 
-export interface SpecColumn {
-  key: string;
-  label: string;
-  unit?: string;
-}
-
-export interface SpecValue {
-  value: string | number;
-  /** Specs default to manufacturer data; must cite a source. */
-  sourceId: string;
-}
-
-export interface RetailerLink {
-  retailer: "amazon" | "other";
-  url: string;
-  label?: string;
-}
-
-export interface ProductRecommendation {
+/** One pick. Shape matches components/guide/RichGuidePage GuideProduct so the editorial components render it unchanged. */
+export interface BestProduct {
   id: string;
-  /** Exact model name, including variant/revision where it matters. */
-  model: string;
-  /** Optional label such as "Best for 1440p". Requires labelReason. */
-  label?: string;
-  labelReason?: string;
-  verdict: string;
-  bestFor: string;
-  skipIf: string;
-  image?: ArticleImage;
-  /** Category-specific specs, keyed by the article's specColumns. */
-  specs: Record<string, SpecValue>;
-  compatibilityChecks: string[];
-  evidence: EvidenceItem[];
+  rank: number;
+  /** Pick label, e.g. "Quietest Measured". */
+  badge: string;
+  /** Exact product name. */
+  name: string;
+  asin: string;
+  /** Kept for internal reference only; never rendered. */
+  price: string;
+  imageUrl: string;
+  amazonUrl: string;
+  /** First sentence = verdict pull quote; the rest ("
+
+"-separated) = "Why we like it". */
+  description: string;
+  specs: string[];
   pros: string[];
   cons: string[];
-  alternative?: { model: string; tradeOff: string; href?: string };
-  /** Only rendered when a retailer is configured for this publication. */
-  retailer?: RetailerLink;
-  /** Only rendered when the article declares a documented scoring system. */
-  score?: number;
+  bestFor: string;
+  skipIf?: string;
+  /** One-line reason the pick is in the guide (Quick Picks). */
+  summary?: string;
 }
 
-export interface BuyingGuide extends ArticleBase {
-  type: "buying-guide";
-  /** What the guide covers and for whom, e.g. "Graphics cards for 1440p gaming on a mid-range budget". */
-  scope: string;
-  /** How the picks were researched. Never implies hands-on testing unless testingRecord exists. */
-  researchBasis: string;
-  /** Present only if we documented our own measurements (method, equipment, dates). */
-  testingRecord?: { method: string; equipment: string; period: string };
-  /** Present only if a documented PC-specific evaluation system exists. */
-  scoringSystem?: { name: string; methodologyUrl: string; scale: number };
-  specColumns: SpecColumn[];
-  products: ProductRecommendation[];
-  compatibilityChecklist: string[];
-  howWeChose: { title: string; body: string }[];
-  whatToLookFor: { title: string; body: string }[];
-  alsoConsidered?: { model: string; reason: string }[];
-  conclusion: { summary: string; paths: { if: string; then: string }[] };
-  limitations: string[];
+export interface HowToChooseSection {
+  subheading: string;
+  intro?: string;
+  table?: { headers: string[]; rows: string[][] };
+  cards?: { label: string; text: string }[];
+  note?: string;
 }
 
-export type PcArticle = InformationalGuide | BuyingGuide;
+export interface BestGuide extends ArticleBase {
+  type: "best-guide";
+  /** Short label for breadcrumbs, e.g. "Best 850W Power Supplies". */
+  breadcrumbLabel: string;
+  mainKeyword: string;
+  introParagraphs: string[];
+  products: BestProduct[];
+  howWeEvaluated: { title: string; description: string }[];
+  buyingCriteria: { criterion: string; explanation: string }[];
+  howToChoose: HowToChooseSection[];
+  faq: { q: string; a: string }[];
+  bottomLine: string[];
+}
+
+export type PcArticle = InformationalGuide | BestGuide;

@@ -1,9 +1,9 @@
 import type { PcArticle } from "@/lib/pc-content";
 import { GuideTemplate } from "./GuideTemplate";
-import { BuyingGuideTemplate } from "./BuyingGuideTemplate";
+import { BestGuidePage } from "./BestGuidePage";
 
 export function ArticleTemplate({ article, sample }: { article: PcArticle; sample?: "fixture" | "draft" }) {
-  return article.type === "buying-guide"
-    ? <BuyingGuideTemplate article={article} sample={sample} />
+  return article.type === "best-guide"
+    ? <BestGuidePage article={article} sample={sample} />
     : <GuideTemplate article={article} sample={sample} />;
 }

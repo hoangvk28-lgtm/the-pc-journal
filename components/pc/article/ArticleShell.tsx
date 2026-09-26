@@ -16,7 +16,7 @@ export function headingId(text: string): string {
   return text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 
-const typeLabel = { guide: "Guide", "buying-guide": "Buying Guide" } as const;
+const typeLabel = { guide: "Guide", "best-guide": "Buying Guide" } as const;
 
 function ArticleSchema({ article, path }: { article: PcArticle; path: string }) {
   const url = `${SITE_URL}${path}`;
@@ -44,12 +44,6 @@ function ArticleSchema({ article, path }: { article: PcArticle; path: string }) 
       ],
     },
   ];
-  if (article.type === "buying-guide") {
-    graph.push({
-      "@type": "ItemList",
-      itemListElement: article.products.map((p, i) => ({ "@type": "ListItem", position: i + 1, name: p.model, url: `${url}#${headingId(p.model)}` })),
-    });
-  }
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@graph": graph }) }} />;
 }
 

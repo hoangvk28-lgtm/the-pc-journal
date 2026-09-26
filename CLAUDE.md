@@ -67,18 +67,17 @@ All articles are typed records. **Never hand-write an article page. Add a record
 ### Informational Guide (`type: "guide"`)
 `modules[]`, used only where relevant: `key-takeaway` (renders above the TOC, so it answers the question first), `check-your-pc`, `explanation` (optional `evidence`), `steps` (no heading means each step becomes its own H2 and TOC entry), `compatibility`, `decision-table`, `choose-if`, `mistakes`, `next-steps`, `callout`. Never hard-code universal advice. Outcomes depend on workload and current configuration.
 
-### Best X Buying Guide (`type: "buying-guide"`)
-`scope`, `researchBasis`, `specColumns` (**category-specific, with units**; columns nobody fills are dropped), `products[]`, `compatibilityChecklist`, `howWeChose`, `whatToLookFor`, `alsoConsidered?`, `conclusion { summary, paths }`, `limitations`, and optionally `testingRecord` and `scoringSystem`.
-Each product: exact `model`, `label?` + `labelReason` (required together, no duplicates, **never auto-assign "Best Overall" to the first pick**), `verdict`, `bestFor`, `skipIf`, `specs` (each value cites a `sourceId`), `compatibilityChecks` (≥1), `evidence[]`, `pros`, `cons`, `alternative?`, `retailer?`, `score?`.
+### Best X guide (`type: "best-guide"`) — The Office Journal template, no substitutes
+Best X articles render with `components/pc/article/BestGuidePage.tsx`, a direct adaptation of The Office Journal's `components/guide/RichGuidePage.tsx` using the same editorial components (`GuideQuickPicks`, `GuideProductPick`, `GuideToc`). Section order: header (breadcrumb, eyebrow, H1, dek, byline, disclosure) → intro → Quick Picks → Our Picks → How We Chose → What to Look For → How to Choose (tables, incl. "By price at the time of writing") → FAQ → Bottom Line → Related Guides, with the sticky "On this page" rail. **Do not invent a different Best X layout.**
+Data lives in `data/pc-buying-guides.ts` (`BestGuide`/`BestProduct` in `types.ts`): per pick `badge`, exact `name`, `asin`, `summary`, `description` (first sentence = verdict pull quote, then "
 
-### Evidence, testing, scores, affiliate links (enforced in code)
-- Evidence basis is one of `manufacturer-spec | third-party-test | pcj-measurement | editorial`, and is shown to the reader as a label.
-- `third-party-test` needs a valid source **and** `conditions` (system, settings, resolution, driver/firmware). `pcj-measurement` needs the article's `testingRecord`. Anything missing is **hidden and flagged**, never rendered with an empty citation.
-- "Tested", "our benchmarks", "hands-on review", "in our lab", "we measured" are validation errors unless `testingRecord` exists. The default is **research-based, no hands-on testing claimed**.
-- **Never generate** FPS, temperatures, noise, power draw, scores or test conditions. Numbers come from a cited source or they do not appear.
-- The Office Journal Fit Score is **not** used here. A `score` renders only if the article declares a documented `scoringSystem`.
-- Retailer CTAs render only when `AMAZON_PAAPI_PARTNER_TAG` (this site's own tag) is set and the URL is a valid Amazon URL. The affiliate disclosure shows only when at least one CTA renders. Never reuse the Office Journal tag. Articles must read fine with no CTA.
-- No retailer "buy" buttons on the homepage. It links to editorial guides.
+" paragraphs = Why we like it), `bestFor`, `skipIf`, `specs`, `pros` (≥3), `cons`. At least 3 picks, 5 buying criteria, 5 FAQs, a bottom line. Labels must be unique and justified in the copy; no automatic "Best Overall".
+
+### Product data comes from the Amazon Creators API — not web scraping
+- Credentials live only in `.env.local` (gitignored): `AMAZON_PAAPI_ACCESS_KEY`, `AMAZON_PAAPI_SECRET_KEY`, `AMAZON_PAAPI_PARTNER_TAG=smartspacep0b-20`.
+- Run `node scripts/pcj-amazon-search.mjs <out.json> "exact model 1" "exact model 2" …` to get ASIN, title, image, price and feature bullets, then record the picks in `data/pc-amazon-snapshot.ts`. Images and `amazonUrl` come from that snapshot; prices are never rendered except as "at the time of writing" tiers.
+- Use web research sparingly, only for measured third-party data (e.g. Cybenetics via Hardware Busters, TFTCentral), and attribute it inline in the copy. Products not sold on Amazon cannot be picks.
+- Never display Amazon star ratings or review counts.
 
 ### Validate before every publish
 ```bash

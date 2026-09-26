@@ -61,7 +61,7 @@ function Module({ m, article }: { m: GuideModule; article: InformationalGuide })
         <section>
           {H}
           <div className="mt-3 space-y-4">{m.paragraphs.map((p, i) => <p key={i} className="leading-8">{p}</p>)}</div>
-          {m.evidence && <div className="mt-5"><EvidenceList items={m.evidence} sources={article.sources} article={article} /></div>}
+          {m.evidence && <div className="mt-5"><EvidenceList items={m.evidence} sources={article.sources} /></div>}
         </section>
       );
     case "steps":

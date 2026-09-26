@@ -9,8 +9,8 @@ export const EVIDENCE_LABELS: Record<EvidenceBasis, string> = {
 };
 
 /** Shows each claim with its basis. Claims missing a required source or test conditions are not rendered. */
-export function EvidenceList({ items, sources, article }: { items: EvidenceItem[]; sources?: SourceRef[]; article: object }) {
-  const shown = items.filter((e) => displayableEvidence(e, sources, article));
+export function EvidenceList({ items, sources }: { items: EvidenceItem[]; sources?: SourceRef[] }) {
+  const shown = items.filter((e) => displayableEvidence(e, sources));
   if (shown.length === 0) return null;
   return (
     <ul className="space-y-3">

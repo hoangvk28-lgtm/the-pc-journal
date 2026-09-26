@@ -37,7 +37,7 @@ export default function HomePage() {
     return [{ step: s.step, reason: s.reason, href: articleHref(a), title: a.title }];
   });
 
-  const buyingGuides = publishedArticles.filter((a) => a.type === "buying-guide" && !used.has(a.slug)).slice(0, 4);
+  const buyingGuides = publishedArticles.filter((a) => a.type === "best-guide" && !used.has(a.slug)).slice(0, 4);
   buyingGuides.forEach((a) => used.add(a.slug));
 
   const latest = publishedArticles.filter((a) => a.type === "guide" && !used.has(a.slug)).slice(0, 4);
