@@ -79,6 +79,14 @@ Data lives in `data/pc-buying-guides.ts` (`BestGuide`/`BestProduct` in `types.ts
 - Use web research sparingly, only for measured third-party data (e.g. Cybenetics via Hardware Busters, TFTCentral), and attribute it inline in the copy. Products not sold on Amazon cannot be picks.
 - Never display Amazon star ratings or review counts.
 
+### Batch pipeline for keyword clusters (Best X at scale)
+1. **Pool (append-only):** `node scripts/pcj-amazon-search.mjs data/pcj-pool/<cluster>.json "query" …` merges results by ASIN; never overwrite.
+2. **Facts:** `node scripts/pcj-extract-psu-facts.mjs <pool> ASIN…` proposes fields; review by hand into `data/pc-facts/<cluster>.ts`. Leave a field undefined when the listing omits or contradicts it. One record per ASIN, reused across articles.
+3. **Config:** `data/clusters/<cluster>-cluster.ts`: slug, titles, meta, tags (sub-cluster), ASINs in editorial rank order, editorial `labels` (reason must be a fact), intro and bottom line written per article. No two articles may share an identical product set; avoid 3+ shared picks. Merge near-synonym keywords instead of forcing different products.
+4. **Descriptions:** write per article in `data/clusters/<cluster>-descriptions.ts` from the fact sheet. The composer's template text is only a fallback and the validator flags it.
+5. **Compose:** `lib/pc-compose/<cluster>.ts` assigns rule labels only to strict winners, builds specs/pros/cons/skip-if from facts, rotates criteria and FAQ from `lib/pc-compose/<cluster>-pool.ts` by slug seed and sub-cluster tags, and builds the How to Choose tables. Register the composed guides in `lib/pc-content/index.ts`.
+6. **Check:** `npx tsx scripts/validate-pc-content.ts` (per-article rules plus cross-article product overlap, 8-word phrases repeated in 4+ guides, listing-bullet artifacts, truncation, template fallbacks), then build and open several pages at 390px and desktop.
+
 ### Validate before every publish
 ```bash
 npx tsx scripts/validate-pc-content.ts   # exits 1 on any error in a non-fixture article

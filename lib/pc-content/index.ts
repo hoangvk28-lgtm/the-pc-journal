@@ -1,5 +1,7 @@
 import { publishedGuides } from "@/data/pc-articles";
 import { draftBuyingGuides } from "@/data/pc-buying-guides";
+import { psuCluster } from "@/data/clusters/psu-cluster";
+import { composePsuGuide } from "@/lib/pc-compose/psu";
 import { fixtures } from "@/data/fixtures/pc-fixtures";
 import type { PcArticle, PcCategory } from "./types";
 import { CATEGORY_LABELS } from "./types";
@@ -8,7 +10,9 @@ import { validateArticle, type ValidationIssue } from "./validate";
 export * from "./types";
 
 /** Registry of all article records. Add new articles here. */
-const allArticles: PcArticle[] = [...publishedGuides, ...draftBuyingGuides];
+const allArticles: PcArticle[] = [...publishedGuides, ...draftBuyingGuides, ...psuCluster.map(composePsuGuide)];
+
+export const registry: readonly PcArticle[] = allArticles;
 
 /** Published articles that pass validation with no errors. */
 export const publishedArticles: PcArticle[] = (() => {
