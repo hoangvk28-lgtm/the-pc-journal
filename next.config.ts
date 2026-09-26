@@ -1,4 +1,4 @@
-import type { NextConfig } from "next";
+﻿import type { NextConfig } from "next";
 import path from "path";
 
 const nextConfig: NextConfig = {
@@ -29,30 +29,7 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
-      // non-www → www (301 permanent — tells Google which is canonical)
-      {
-        source: "/:path*",
-        has: [{ type: "host", value: "theofficejournal.com" }],
-        destination: "https://www.theofficejournal.com/:path*",
-        permanent: true,
-      },
-      {
-        source: "/about",
-        destination: "/about-workcocoon",
-        permanent: true,
-      },
-      // Fix 404: broken guide URL → correct slug
-      {
-        source: "/guide/best-monitor-stand-for-small-desk",
-        destination: "/guide/monitor-stands-small-desks",
-        permanent: true,
-      },
-      // Fix 404: /author listing page → about page
-      {
-        source: "/author",
-        destination: "/about-workcocoon",
-        permanent: true,
-      },
+      { source: "/about", destination: "/about-the-pc-journal", permanent: true },
     ];
   },
   experimental: {
@@ -92,3 +69,4 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+

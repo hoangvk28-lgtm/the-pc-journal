@@ -1,17 +1,17 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
-const SITE_NAME = "The Office Journal";
+const SITE_NAME = "The PC Journal";
 // Prefer env var so the same build can be deployed to any domain without code changes.
-// Use `||` (not `??`) — Vercel can create an env var that's *set but empty*
+// Use `||` (not `??`) â€” Vercel can create an env var that's *set but empty*
 // (e.g. auto-detected from .env.example with no value filled in), and
 // `"".replace(...)` is falsy-but-not-nullish, so `??` alone doesn't fall
 // through and `new URL("")` crashes the build.
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-  "https://www.theofficejournal.com";
+  "https://thepcjournal.com";
 const SITE_DESCRIPTION =
-  "Independent guides, reviews and workspace ideas covering office furniture, desk setups, lighting, ergonomics and better ways to work.";
-const TWITTER_HANDLE = "@theofficejournal";
+  "Understand PC hardware, check compatibility and make sensible build and upgrade decisions.";
+const TWITTER_HANDLE = "";
 
 export function buildMetadata({
   title,
@@ -28,8 +28,8 @@ export function buildMetadata({
   noIndex?: boolean;
   type?: "website" | "article";
 }): Metadata {
-  // Build the display title once, with "| The Office Journal" appended if not already present.
-  // Use { absolute } so the root layout template (%s | The Office Journal) never wraps it again.
+  // Build the display title once, with this publication name appended if needed.
+  // Use { absolute } so the root layout template never wraps it again.
   const fullTitle = title.includes(SITE_NAME)
     ? title
     : `${title} | ${SITE_NAME}`;
@@ -39,7 +39,7 @@ export function buildMetadata({
     ? image.startsWith("http")
       ? image
       : `${SITE_URL}${image}`
-    : `${SITE_URL}/og-default.png`;
+    : `${SITE_URL}/pc-og.svg`;
 
   return {
     title: { absolute: fullTitle },
@@ -62,9 +62,9 @@ export function buildMetadata({
       title: fullTitle,
       description,
       images: [ogImage],
-      site: TWITTER_HANDLE,
+      ...(TWITTER_HANDLE ? { site: TWITTER_HANDLE } : {}),
     },
-    robots: noIndex
+    robots: noIndex || process.env.SITE_LAUNCHED !== "true"
       ? { index: false, follow: false }
       : {
           index: true,
@@ -90,3 +90,5 @@ export const defaultMetadata: Metadata = buildMetadata({
 });
 
 export { SITE_NAME, SITE_URL, SITE_DESCRIPTION, TWITTER_HANDLE };
+
+

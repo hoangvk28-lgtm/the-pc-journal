@@ -12,7 +12,7 @@ export function SafeImage({ alt, ...props }: ImageProps) {
   if (failed) {
     return (
       <span aria-hidden className="absolute inset-0 grid place-items-center font-[family-name:var(--font-display)] text-2xl text-border-dark">
-        TOJ
+        PCJ
       </span>
     );
   }

@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# The PC Journal
 
-## Getting Started
+A PC hardware publication built from The Office Journal codebase. Public pages focus on components, builds, upgrades, monitors and peripherals. The inherited Office Journal content is retained in the repository for review and is blocked from public routes.
 
-First, run the development server:
+## Run locally
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Copy `.env.example` to `.env.local` and keep `SITE_LAUNCHED=false`.
+2. Run `npm ci`.
+3. Run `npm run dev`.
+4. Open `http://localhost:3000`.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Editorial and launch status
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+See [docs/PCJ-LAUNCH-AUDIT.md](docs/PCJ-LAUNCH-AUDIT.md) for the content inventory, held integrations and launch gate. Product-specific rankings are not yet published. No affiliate tag, analytics ID, publisher email, or production database has been assumed for this site.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Validation
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Run `npx tsc --noEmit`, `npm run lint`, and `npm run build` after changes. Public page allowlisting is in `proxy.ts`; update it and the sitemap when new content has passed editorial review.

@@ -70,10 +70,10 @@ export const DEFAULT_HOMEPAGE_SETTINGS: HomepageSettings = {
 };
 
 export const DEFAULT_GLOBAL_SETTINGS: GlobalSettings = {
-  siteName: "The Office Journal",
+  siteName: "The PC Journal",
   siteTagline: "A Calmer Way to Work at Home",
   header: {
-    logoText: "The Office Journal",
+    logoText: "The PC Journal",
     showDealsButton: true,
     dealsButtonText: "Today's Deals",
   },
@@ -81,18 +81,18 @@ export const DEFAULT_GLOBAL_SETTINGS: GlobalSettings = {
 
 export const DEFAULT_AFFILIATE_SETTINGS: AffiliateSettings = {
   disclosureShort:
-    "The Office Journal earns a small commission on qualifying Amazon purchases at no extra cost to you.",
+    "The PC Journal earns a small commission on qualifying Amazon purchases at no extra cost to you.",
   disclosureFull:
-    "The Office Journal is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. When you click a product link and make a purchase, we may earn a small commission at no additional cost to you. Our editorial opinions are independent and are never influenced by affiliate relationships.",
+    "The PC Journal is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. When you click a product link and make a purchase, we may earn a small commission at no additional cost to you. Our editorial opinions are independent and are never influenced by affiliate relationships.",
   disclosureBannerText:
     "We may earn a commission when you buy through Amazon links. Our recommendations are based on product specs, buyer feedback, use cases, and clear comparison criteria.",
-  amazonTag: "theofficejournal-20", // TODO: replace with the real Amazon Associates tag once approved for this domain
+  amazonTag: "", // TODO: replace with the real Amazon Associates tag once approved for this domain
 };
 
 export const DEFAULT_FOOTER_SETTINGS: FooterSettings = {
   description:
-    "Thoughtful guides and product recommendations for better workspaces.",
-  copyrightText: "The Office Journal. All rights reserved.",
+    "Research-based guidance for PC builds and upgrades.",
+  copyrightText: "The PC Journal. All rights reserved.",
   showAffiliateDisclosure: true,
 };
 
@@ -128,3 +128,4 @@ export async function getPublicFooterSettings(): Promise<FooterSettings> {
   const { getFooterSettings } = await import("@/lib/site-settings-store");
   return safeFetch(getFooterSettings, DEFAULT_FOOTER_SETTINGS);
 }
+

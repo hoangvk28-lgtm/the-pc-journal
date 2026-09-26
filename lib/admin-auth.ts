@@ -1,4 +1,4 @@
-import { getIronSession } from "iron-session";
+﻿import { getIronSession } from "iron-session";
 import { cookies } from "next/headers";
 
 export interface AdminSessionData {
@@ -6,11 +6,11 @@ export interface AdminSessionData {
   adminEmail?: string;
 }
 
-// `||` not `??` — an env var that's set-but-empty (e.g. Vercel auto-detected
+// `||` not `??` â€” an env var that's set-but-empty (e.g. Vercel auto-detected
 // it from .env.example with no value filled in) is falsy but not nullish.
 const SESSION_SECRET =
   process.env.SESSION_SECRET ||
-  "workcocoon-admin-fallback-secret-change-in-production-32chars";
+  "pcjournal-admin-disabled-without-config-32chars";
 
 export const sessionOptions = {
   password: SESSION_SECRET,
@@ -33,3 +33,4 @@ export async function requireAdminSession() {
   const session = await getAdminSession();
   return session.isLoggedIn === true ? session : null;
 }
+

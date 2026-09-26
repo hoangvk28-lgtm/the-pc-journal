@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#faf9f6"/>
+  <rect x="72" y="72" width="88" height="88" rx="14" fill="#252b35"/>
+  <text x="89" y="128" fill="#fff" font-family="Arial,sans-serif" font-size="32" font-weight="700">PCJ</text>
+  <rect x="72" y="205" width="1056" height="2" fill="#d9dfe9"/>
+  <text x="72" y="305" fill="#252b35" font-family="Arial,sans-serif" font-size="72" font-weight="700">THE PC JOURNAL</text>
+  <text x="72" y="390" fill="#315fc3" font-family="Arial,sans-serif" font-size="36">Understand your hardware. Build with confidence.</text>
+  <text x="72" y="535" fill="#596271" font-family="Arial,sans-serif" font-size="26">Components  /  Builds  /  Upgrades  /  Monitors</text>
+</svg>

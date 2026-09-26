@@ -42,7 +42,7 @@ export function MobileNav() {
         onClick={() => setOpen((o) => !o)}
         aria-expanded={open}
         aria-controls={panelId}
-        className="grid h-10 w-10 place-items-center text-ink focus-ring"
+        className="grid h-11 w-11 place-items-center text-ink focus-ring"
       >
         <span className="sr-only">{open ? "Close menu" : "Open menu"}</span>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} aria-hidden className="h-6 w-6">
@@ -53,10 +53,10 @@ export function MobileNav() {
       {open && (
         <div
           id={panelId}
-          className="fixed inset-x-0 bottom-0 top-16 z-50 overflow-y-auto border-t border-border bg-bg lg:top-20"
+          className="fixed inset-x-0 bottom-0 top-16 sm:top-[72px] z-50 overflow-y-auto border-t border-border bg-bg"
         >
           <nav aria-label="Mobile" className="mx-auto max-w-[1280px] px-4 pb-10 pt-4 sm:px-6">
-            <p className="eyebrow !text-ink-secondary">Departments</p>
+            <p className="eyebrow !text-ink-secondary">Topics</p>
             <ul className="mt-2 divide-y divide-border border-b border-border">
               {departmentNav.map((item) => (
                 <li key={item.href}>

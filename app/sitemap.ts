@@ -1,174 +1,23 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/seo";
-import { products as staticProducts } from "@/data/products";
-import { guides as staticGuides } from "@/data/guides";
-import { categories } from "@/data/categories";
-import { isSupabaseConfigured } from "@/lib/supabase/server";
-import { silos } from "@/data/silos";
-import { MIGRATED_CATEGORY_TO_SILO, siloForGuide } from "@/lib/migrated-silos";
+import { articleHref, articlesInCategory, categoryHref, PC_CATEGORIES, publishedArticles } from "@/lib/pc-content";
 
-// Try to load published slugs from Supabase; merge with static data so no slug is ever missing.
-async function getPublishedProductSlugs(): Promise<{ slug: string; updatedAt: string }[]> {
-  const staticEntries = staticProducts.map((p) => ({ slug: p.slug, updatedAt: new Date().toISOString() }));
-
-  if (!isSupabaseConfigured()) return staticEntries;
-
-  try {
-    const { createAdminClient } = await import("@/lib/supabase/server");
-    const supabase = createAdminClient();
-    const { data } = await supabase
-      .from("products")
-      .select("slug,updated_at")
-      .eq("status", "published")
-      .eq("archived", false)
-      .order("updated_at", { ascending: false });
-    if (data && data.length > 0) {
-      // Merge: Supabase entries take precedence (have real updated_at), static fills the gaps.
-      const supabaseSlugs = new Set(data.map((r) => r.slug as string));
-      const dbEntries = data.map((r) => ({ slug: r.slug as string, updatedAt: r.updated_at as string }));
-      const staticOnly = staticEntries.filter((e) => !supabaseSlugs.has(e.slug));
-      return [...dbEntries, ...staticOnly];
-    }
-  } catch {
-    // fall through to static fallback
-  }
-  return staticEntries;
-}
-
-interface GuideSitemapEntry {
-  slug: string;
-  updatedAt: string;
-  categorySlug: string;
-  subcategorySlug: string;
-}
-
-async function getPublishedGuideSlugs(): Promise<GuideSitemapEntry[]> {
-  // Always start with static guides — these are the source of truth for all published pages.
-  const staticEntries = staticGuides.map((g) => ({
-    slug: g.slug,
-    updatedAt: g.lastUpdated,
-    categorySlug: g.categorySlug,
-    subcategorySlug: g.subcategorySlug,
-  }));
-
-  if (!isSupabaseConfigured()) return staticEntries;
-
-  try {
-    const { createAdminClient } = await import("@/lib/supabase/server");
-    const supabase = createAdminClient();
-    const { data } = await supabase
-      .from("guides")
-      .select("slug,updated_at,category_slug,subcategory_slug")
-      .eq("status", "published")
-      .eq("archived", false)
-      .order("updated_at", { ascending: false });
-
-    if (data && data.length > 0) {
-      // Merge: Supabase entries take precedence (have real updated_at), static fills the gaps.
-      const supabaseSlugs = new Set(data.map((r) => r.slug as string));
-      const dbEntries = data.map((r) => ({
-        slug: r.slug as string,
-        updatedAt: r.updated_at as string,
-        categorySlug: (r.category_slug as string) ?? "",
-        subcategorySlug: (r.subcategory_slug as string) ?? "",
-      }));
-      const staticOnly = staticEntries.filter((e) => !supabaseSlugs.has(e.slug));
-      return [...dbEntries, ...staticOnly];
-    }
-  } catch {
-    // fall through to static fallback
-  }
-
-  return staticEntries;
-}
-
-export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const now = new Date().toISOString();
-
-  const [productSlugs, guideSlugs] = await Promise.all([
-    getPublishedProductSlugs(),
-    getPublishedGuideSlugs(),
-  ]);
-
-  // Static pages
-  const staticPages: MetadataRoute.Sitemap = [
-    { url: SITE_URL,                               lastModified: now, changeFrequency: "weekly",  priority: 1.0 },
-    { url: `${SITE_URL}/guide`,                     lastModified: now, changeFrequency: "weekly",  priority: 0.9 },
-    { url: `${SITE_URL}/reviews`,                  lastModified: now, changeFrequency: "weekly",  priority: 0.8 },
-    { url: `${SITE_URL}/compare`,                  lastModified: now, changeFrequency: "weekly",  priority: 0.8 },
-    { url: `${SITE_URL}/categories`,               lastModified: now, changeFrequency: "weekly",  priority: 0.7 },
-    { url: `${SITE_URL}/deals`,                    lastModified: now, changeFrequency: "daily",   priority: 0.7 },
-    { url: `${SITE_URL}/how-we-review`,            lastModified: now, changeFrequency: "monthly", priority: 0.6 },
-    { url: `${SITE_URL}/about-workcocoon`,           lastModified: now, changeFrequency: "monthly", priority: 0.5 },
-    { url: `${SITE_URL}/contact`,                  lastModified: now, changeFrequency: "yearly",  priority: 0.4 },
-    { url: `${SITE_URL}/affiliate-disclosure`,     lastModified: now, changeFrequency: "yearly",  priority: 0.3 },
-    { url: `${SITE_URL}/privacy-policy`,           lastModified: now, changeFrequency: "yearly",  priority: 0.3 },
-  ];
-
-  // Topic-first silo root pages
-  const siloPages: MetadataRoute.Sitemap = silos.map((s) => ({
-    url: `${SITE_URL}/${s.slug}`,
-    lastModified: now,
-    changeFrequency: "weekly",
-    priority: 0.8,
-  }));
-
-  // Published buying guide pages (Supabase or static fallback). A guide whose
-  // category/subcategory has been migrated into a silo lives at its final
-  // /<silo>/<slug> URL here — never list the legacy /guide/<slug> URL, which
-  // now just 308-redirects there.
-  const guidePages: MetadataRoute.Sitemap = guideSlugs.map(({ slug, updatedAt, categorySlug, subcategorySlug }) => {
-    const silo = siloForGuide(categorySlug, subcategorySlug);
-    return {
-      url: silo ? `${SITE_URL}/${silo}/${slug}` : `${SITE_URL}/guide/${slug}`,
-      lastModified: updatedAt,
-      changeFrequency: "monthly" as const,
-      priority: 0.9,
-    };
-  });
-
-  // Published product review pages (Supabase or static fallback)
-  const reviewPages: MetadataRoute.Sitemap = productSlugs.map(({ slug, updatedAt }) => ({
-    url: `${SITE_URL}/reviews/${slug}`,
-    lastModified: updatedAt,
-    changeFrequency: "monthly",
-    priority: 0.8,
-  }));
-
-  // Category hub pages — skip any category that now 308-redirects to a
-  // migrated silo (its silo root is already listed above via siloPages).
-  const categoryPages: MetadataRoute.Sitemap = categories
-    .filter((cat) => !MIGRATED_CATEGORY_TO_SILO[cat.slug])
-    .map((cat) => ({
-      url: `${SITE_URL}/categories/${cat.slug}`,
-      lastModified: now,
-      changeFrequency: "weekly" as const,
-      priority: 0.7,
-    }));
-
-  // Category compare pages
-  const comparePages: MetadataRoute.Sitemap = categories.map((cat) => ({
-    url: `${SITE_URL}/compare/${cat.slug}`,
-    lastModified: now,
-    changeFrequency: "weekly",
-    priority: 0.6,
-  }));
-
-  // Static VS compare articles (not category-based)
-  const vsComparePages: MetadataRoute.Sitemap = [
-    { url: `${SITE_URL}/compare/monitor-stand-vs-monitor-arm`,         lastModified: "2026-05-27", changeFrequency: "monthly", priority: 0.8 },
-    { url: `${SITE_URL}/compare/usb-c-hub-vs-docking-station`,         lastModified: "2026-06-06", changeFrequency: "monthly", priority: 0.8 },
-    { url: `${SITE_URL}/compare/lap-desk-vs-standing-desk-converter`,  lastModified: "2026-06-06", changeFrequency: "monthly", priority: 0.8 },
-    { url: `${SITE_URL}/compare/desk-mat-vs-mouse-pad`,                lastModified: "2026-06-06", changeFrequency: "monthly", priority: 0.8 },
-  ];
-
+export default function sitemap(): MetadataRoute.Sitemap {
+  if (process.env.SITE_LAUNCHED !== "true") return [];
   return [
-    ...staticPages,
-    ...siloPages,
-    ...guidePages,
-    ...reviewPages,
-    ...categoryPages,
-    ...comparePages,
-    ...vsComparePages,
+    { url: SITE_URL, priority: 1, changeFrequency: "weekly" },
+    { url: `${SITE_URL}/guides`, priority: 0.9, changeFrequency: "monthly" },
+    { url: `${SITE_URL}/about-the-pc-journal`, priority: 0.5, changeFrequency: "monthly" },
+    { url: `${SITE_URL}/how-we-review`, priority: 0.6, changeFrequency: "monthly" },
+    { url: `${SITE_URL}/affiliate-disclosure`, priority: 0.3, changeFrequency: "yearly" },
+    { url: `${SITE_URL}/privacy-policy`, priority: 0.3, changeFrequency: "yearly" },
+    // Topic pages are listed only once they have published articles.
+    ...PC_CATEGORIES.filter((c) => articlesInCategory(c).length > 0).map((c) => ({ url: `${SITE_URL}${categoryHref(c)}`, priority: 0.7, changeFrequency: "monthly" as const })),
+    ...publishedArticles.map((a) => ({
+      url: `${SITE_URL}${articleHref(a)}`,
+      priority: 0.8,
+      changeFrequency: "monthly" as const,
+      ...(a.updatedAt ? { lastModified: a.updatedAt } : {}),
+    })),
   ];
 }

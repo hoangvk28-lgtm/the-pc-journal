@@ -1,23 +1,10 @@
-import type { Metadata } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+﻿import type { Metadata } from "next";
 import "./globals.css";
 import { SITE_NAME, SITE_DESCRIPTION, SITE_URL, TWITTER_HANDLE } from "@/lib/seo";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { BackToTopButton } from "@/components/BackToTopButton";
 
-const GOOGLE_ANALYTICS_ID = "G-EK2NY0FM2C";
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-  display: "swap",
-});
-
-const playfair = Playfair_Display({
-  variable: "--font-playfair",
-  subsets: ["latin"],
-  display: "swap",
-});
+const GOOGLE_ANALYTICS_ID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -28,12 +15,14 @@ export const metadata: Metadata = {
   description: SITE_DESCRIPTION,
   icons: {
     icon: [
-      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/pc-icon-512.png", sizes: "512x512", type: "image/png" },
     ],
     apple: [
-      { url: "/apple-icon.png", type: "image/png" },
+      { url: "/pc-apple-icon.png", type: "image/png" },
     ],
-    shortcut: "/icon.png",
+    shortcut: "/favicon-32x32.png",
   },
   openGraph: {
     type: "website",
@@ -47,12 +36,12 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: SITE_NAME,
     description: SITE_DESCRIPTION,
-    site: TWITTER_HANDLE,
+    ...(TWITTER_HANDLE ? { site: TWITTER_HANDLE } : {}),
   },
   robots: {
-    index: true,
-    follow: true,
-    googleBot: { index: true, follow: true, "max-snippet": -1 },
+    index: process.env.SITE_LAUNCHED === "true",
+    follow: process.env.SITE_LAUNCHED === "true",
+    googleBot: { index: process.env.SITE_LAUNCHED === "true", follow: process.env.SITE_LAUNCHED === "true" },
   },
   // Set NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION to this site's own Search Console token.
   ...(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
@@ -66,9 +55,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const isProd = process.env.NODE_ENV === "production";
   const clarityId = process.env.NEXT_PUBLIC_CLARITY_ID;
   return (
-    <html lang="en" className={`${inter.variable} ${playfair.variable} h-full`}>
+    <html lang="en" className="h-full">
       <head>
-        {isProd && (
+        {isProd && GOOGLE_ANALYTICS_ID && (
           <>
             <script async src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ANALYTICS_ID}`} />
             <script dangerouslySetInnerHTML={{ __html: `
@@ -97,3 +86,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
+
+
+

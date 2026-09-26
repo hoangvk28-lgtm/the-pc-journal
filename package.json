@@ -1,9 +1,9 @@
 {
-  "name": "the-office-journal",
+  "name": "the-pc-journal",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "NODE_OPTIONS=--max-old-space-size=5120 next dev --webpack --disable-source-maps",
+    "dev": "next dev --webpack --disable-source-maps",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
@@ -46,3 +46,4 @@
     "typescript": "^5"
   }
 }
+

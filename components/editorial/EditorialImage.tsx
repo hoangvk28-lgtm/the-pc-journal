@@ -32,7 +32,7 @@ export function EditorialImage({ src, alt, sizes, aspect = "aspect-[3/2]", prior
         />
       ) : (
         <div aria-hidden className="absolute inset-0 grid place-items-center font-[family-name:var(--font-display)] text-3xl text-border-dark">
-          TOJ
+          PCJ
         </div>
       )}
     </div>

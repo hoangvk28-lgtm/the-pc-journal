@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/layout/SiteHeader";
+﻿import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { SITE_NAME, SITE_DESCRIPTION, SITE_URL } from "@/lib/seo";
 
@@ -13,7 +13,7 @@ const siteSchema = {
       description: SITE_DESCRIPTION,
       logo: {
         "@type": "ImageObject",
-        url: `${SITE_URL}/logo-icon.png`,
+        url: `${SITE_URL}/pc-icon-512.png`,
       },
     },
     {
@@ -40,3 +40,4 @@ export default function SiteLayout({ children }: { children: React.ReactNode }) 
     </div>
   );
 }
+

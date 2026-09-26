@@ -1,11 +1,11 @@
-﻿export const AMAZON_TAG = "theofficejournal-20";
+﻿export const AMAZON_TAG = process.env.AMAZON_PAAPI_PARTNER_TAG || "";
 
 /**
  * Central URL builder - swap out AMAZON_TAG once your Associates account is approved.
  * ASIN is the 10-character Amazon product identifier (e.g. "B076HCCQZQ").
  */
 export function buildAmazonUrl(asin: string): string {
-  return `https://www.amazon.com/dp/${asin}?tag=${AMAZON_TAG}`;
+  const url = new URL(`https://www.amazon.com/dp/${asin}`); if (AMAZON_TAG) url.searchParams.set("tag", AMAZON_TAG); return url.toString();
 }
 
 /**
@@ -24,7 +24,7 @@ export function withAmazonTag(url: string): string {
   try {
     const parsed = new URL(url);
     if (!/(^|\.)amazon\.[a-z.]+$/i.test(parsed.hostname)) return url;
-    parsed.searchParams.set("tag", AMAZON_TAG);
+    if (AMAZON_TAG) parsed.searchParams.set("tag", AMAZON_TAG); else parsed.searchParams.delete("tag");
     return parsed.toString();
   } catch {
     return url;
@@ -32,7 +32,10 @@ export function withAmazonTag(url: string): string {
 }
 
 export const DISCLOSURE_SHORT =
-  "The Office Journal earns a small commission on qualifying Amazon purchases at no extra cost to you.";
+  "The PC Journal may earn a commission from qualifying retailer links when affiliate tracking is configured.";
 
 export const DISCLOSURE_FULL =
-  "The Office Journal is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. When you click a product link and make a purchase, we may earn a small commission at no additional cost to you. Our editorial opinions are independent and are never influenced by affiliate relationships.";
+  "The PC Journal is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. When you click a product link and make a purchase, we may earn a small commission at no additional cost to you. Our editorial opinions are independent and are never influenced by affiliate relationships.";
+
+
+

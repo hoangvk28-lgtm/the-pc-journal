@@ -1,44 +1,44 @@
-@import "tailwindcss";
+﻿@import "tailwindcss";
 
-/* ─── Design Tokens ─────────────────────────────────────── */
+/* â”€â”€â”€ Design Tokens â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 @theme inline {
-  /* The Office Journal — restrained editorial palette.
+  /* The PC Journal â€” restrained editorial palette.
      Legacy token names (brand/cta/accent) are kept so existing guide/review
      templates re-theme without markup changes. */
-  --color-brand: #c2572e;        /* burnt orange — editorial accent, use sparingly */
-  --color-brand-dark: #9f4522;
-  --color-brand-light: #f6ebe4;
-  --color-brand-muted: #ecd6c9;
+  --color-brand: #315fc3;        /* cobalt blue â€” editorial accent, use sparingly */
+  --color-brand-dark: #234a9c;
+  --color-brand-light: #eaf0fb;
+  --color-brand-muted: #cbd9f5;
 
-  --color-olive: #6b735b;
-  --color-olive-dark: #555c47;
-  --color-olive-light: #eceee6;
+  --color-olive: #315fc3;
+  --color-olive-dark: #234a9c;
+  --color-olive-light: #eaf0fb;
 
-  /* Commerce CTA — charcoal, deliberately quieter than the editorial accent */
-  --color-cta: #24231f;
+  /* Commerce CTA â€” charcoal, deliberately quieter than the editorial accent */
+  --color-cta: #252b35;
   --color-cta-dark: #000000;
-  --color-cta-light: #efece5;
+  --color-cta-light: #e8eff3;
 
-  --color-accent: #6b735b;
-  --color-accent-dark: #555c47;
-  --color-accent-light: #eceee6;
+  --color-accent: #315fc3;
+  --color-accent-dark: #234a9c;
+  --color-accent-light: #eaf0fb;
 
   --color-surface: #ffffff;
-  --color-bg: #f8f6f1;
-  --color-border: #ddd8ce;
-  --color-border-dark: #c4bdb0;
+  --color-bg: #faf9f6;
+  --color-border: #e3e3df;
+  --color-border-dark: #b8bfca;
 
-  --color-ink: #24231f;
-  --color-ink-secondary: #68665f;
-  --color-ink-muted: #7d7a72;
-  --color-ink-inverse: #f8f6f1;
+  --color-ink: #252b35;
+  --color-ink-secondary: #596271;
+  --color-ink-muted: #77808d;
+  --color-ink-inverse: #faf9f6;
 
   --color-score-high: #5b6a47;
   --color-score-mid: #a8875a;
   --color-score-low: #b5543f;
 
-  --font-display: var(--font-playfair), "Playfair Display", Georgia, serif;
-  --font-body: var(--font-inter), "Inter", system-ui, sans-serif;
+  --font-display: Georgia, "Times New Roman", serif;
+  --font-body: "Segoe UI", Arial, system-ui, sans-serif;
 
   --radius-card: 0.25rem;
   --radius-btn: 0.125rem;
@@ -48,12 +48,12 @@
   --shadow-card-hover: 0 1px 2px 0 rgb(36 35 31 / 0.06);
 }
 
-/* ─── Anchor scroll offset (for jump nav) ───────────────── */
+/* â”€â”€â”€ Anchor scroll offset (for jump nav) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 [id] {
   scroll-margin-top: 5rem;
 }
 
-/* ─── Base ──────────────────────────────────────────────── */
+/* â”€â”€â”€ Base â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 @layer base {
   *,
   *::before,
@@ -77,7 +77,7 @@
     overflow-x: hidden;
   }
 
-  /* ─── Typography ────────────────────────────────────────── */
+  /* â”€â”€â”€ Typography â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
     font-weight: 600;
@@ -107,7 +107,7 @@
   }
 }
 
-/* ─── Prose (article body) ──────────────────────────────── */
+/* â”€â”€â”€ Prose (article body) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .prose {
   max-width: 72ch;
   color: var(--color-ink-secondary);
@@ -186,7 +186,7 @@
   background: var(--color-bg);
 }
 
-/* ─── Utilities ─────────────────────────────────────────── */
+/* â”€â”€â”€ Utilities â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -205,7 +205,7 @@
   border-radius: 4px;
 }
 
-/* ─── Editorial helpers ─────────────────────────────────── */
+/* â”€â”€â”€ Editorial helpers â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .eyebrow {
   font-family: var(--font-body);
   font-size: 0.75rem;
@@ -221,3 +221,14 @@
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
 }
+
+.pc-hero { background: #eef1f6; }
+.pc-hero-panel { padding: clamp(1.5rem, 4vw, 2.5rem); border: 1px solid #d8deea; background: #ffffff; box-shadow: none; }
+.pc-kicker, .pc-section-kicker { font-size: .75rem; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; }
+.pc-kicker { color: #315fc3; }
+.pc-section-kicker { color: #315fc3; }
+
+
+
+
+
