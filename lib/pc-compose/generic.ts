@@ -153,6 +153,14 @@ function tradeOff(f: Fact, facts: Fact[], schema: CategorySchema, seed: string):
   return undefined;
 }
 
+/** Builds the four-layer "Why we like it" text for one pick (used by category-specific composers too). */
+export function buildWhy(f: Fact, facts: Fact[], schema: CategorySchema, seed: string, take: string): string {
+  const takeWords = new Set(take.toLowerCase().match(/[a-z0-9]{4,}/g) ?? []);
+  const freshNotes = f.notes.filter((n) => { const w = n.toLowerCase().match(/[a-z0-9]{4,}/g) ?? []; return w.filter((x) => takeWords.has(x)).length < Math.max(1, Math.ceil(w.length / 2)); });
+  const notes = freshNotes.length ? pick([`The listing also highlights ${listJoin(freshNotes)}.`, `Other listed details include ${listJoin(freshNotes)}.`, `The maker also lists ${listJoin(freshNotes)}.`], seed + "n") : "";
+  return [take, [...rankingSentences(f, facts, schema, seed), notes].filter(Boolean).join(" "), schema.compat(f, facts).join(" "), tradeOff(f, facts, schema, seed) ?? ""].filter((x) => x.trim()).join("\n\n");
+}
+
 export function composeGuide(cfg: GenericArticleConfig, schema: CategorySchema, factsById: Record<string, Fact>): BestGuide {
   const facts = cfg.asins.map((a) => { const f = factsById[a]; if (!f) throw new Error(`No fact sheet for ${a}`); return f; });
 

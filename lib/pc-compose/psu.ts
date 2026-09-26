@@ -7,6 +7,39 @@ import { psuDescriptions } from "@/data/clusters/psu-descriptions";
 /** Picks that fell back to the template description (reported by the validator). */
 export const templatedDescriptions: string[] = [];
 import { cap, hash, listJoin, pick, shuffle } from "./seed";
+import { buildWhy, type CategorySchema, type Fact } from "./generic";
+
+const EFF_NAMES = ["", "Bronze", "Gold", "Platinum", "Titanium"];
+/** Field definitions for the shared four-layer "Why we like it" builder. */
+const psuWhySchema: CategorySchema = {
+  id: "psu", plural: "Power supplies",
+  fields: [
+    { key: "eff", label: "Efficiency", noun: "efficiency tier", better: "higher", superlative: ["highest", "lowest"], fmt: (v) => `${EFF_NAMES[Number(v)]}` },
+    { key: "warranty", label: "Warranty", noun: "warranty", better: "higher", superlative: ["longest", "shortest"], fmt: (v) => `${v}-year` },
+    { key: "depth", label: "Length", noun: "length", better: "lower", superlative: ["shortest", "longest"], fmt: (v) => `${v}mm` },
+    { key: "pcie", label: "PCIe 6+2", noun: "PCIe 6+2 connector count", better: "higher", superlative: ["highest", "lowest"], fmt: (v) => `${v}` },
+    { key: "fan", label: "Fan", noun: "fan size", better: "higher", superlative: ["largest", "smallest"], fmt: (v) => `${v}mm` },
+  ],
+  compat: (f, facts) => {
+    const s: string[] = [];
+    const k = f.asin + facts.map((x) => x.asin).join("");
+    const hp = Number(f.specs.hpwr ?? 0), pc = Number(f.specs.pcie ?? 0);
+    const cab = hp === 2 ? "two native 12V-2x6 cables" : "a native 12V-2x6 cable";
+    if (hp && pc) s.push(pick([
+      `For the graphics card, it lists ${cab} and ${pc} PCIe 6+2 connectors, so count the sockets on your exact card before buying.`,
+      `GPU power comes from ${cab} plus ${pc} PCIe 6+2 leads; match those against the sockets on your card.`,
+      `A 16-pin card uses its ${cab.replace(/^(a|two) native /, "")}, and an 8-pin card can draw on ${pc} PCIe 6+2 connectors.`,
+      `Count your card's power sockets first: this unit supplies ${cab} and ${pc} PCIe 6+2 connectors.`,
+    ], f.name + k));
+    if (f.specs.form === "SFX" || f.specs.form === "SFX-L") s.push(`Confirm your case accepts ${f.specs.form}; many small cases take SFX but not the longer SFX-L.`);
+    else if (f.specs.depth !== undefined) s.push(`Compare its ${f.specs.depth}mm length with your case's maximum PSU length, leaving room for the modular plugs.`);
+    if (f.specs.atx === undefined) s.push(pick(["Confirm the exact revision supports ATX 3.1, since the listing is not consistent about it.", "The listing mixes ATX 3.0 and 3.1 wording, so check the revision printed on the unit's label or spec page.", "Check which ATX revision your unit ships as; the listing is inconsistent."], k + "a"));
+    return s;
+  },
+  criteria: [], faq: [], evaluated: [],
+};
+const toWhyFact = (f: PsuFact): Fact => ({ asin: f.asin, name: f.name, short: shortName(f), notes: f.notes,
+  specs: { eff: effOf(f) || undefined, warranty: f.warrantyYears, depth: f.depthMm, pcie: f.pcie8, fan: f.fanMm, hpwr: f.hpwr, form: f.form, atx: f.atx } });
 
 /**
  * Composes a Best X PSU guide from fact sheets (data/pc-facts/psu.ts) and the shared pool.
@@ -291,7 +324,7 @@ export function composePsuGuide(cfg: PsuArticleConfig): BestGuide {
       imageUrl: poolData[asin]?.img ?? "",
       amazonUrl: `https://www.amazon.com/dp/${asin}`,
       summary: rule ? cap(rule.reason(f, facts)) + "." : `${cap(strengths(f)[0] ?? "A balanced option")}, among other listed strengths.`,
-      description: psuDescriptions[cfg.slug]?.[asin] ?? (templatedDescriptions.push(`${cfg.slug}:${asin}`), [verdict, p2, p3].filter(Boolean).join("\n\n")),
+      description: psuDescriptions[cfg.slug]?.[asin] ? buildWhy(toWhyFact(f), facts.map(toWhyFact), psuWhySchema, seed, psuDescriptions[cfg.slug][asin].replace(/\n\n/g, " ")) : (templatedDescriptions.push(`${cfg.slug}:${asin}`), [verdict, p2, p3].filter(Boolean).join("\n\n")),
       bestFor: (rule ? pick(rule.bestFor, seed + "b") : undefined) ?? `A ${f.watts}W ${f.form} build that values ${strengths(f).slice(0, 2).map((s) => s.toLowerCase()).join(" and ")}.`,
       skipIf: skipIf(w),
       specs: specsOf(f),
