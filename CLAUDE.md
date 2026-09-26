@@ -111,6 +111,38 @@ Every slot resolves against `publishedArticles`, and nothing is invented to fill
 
 ---
 
+## 5b. Lessons Learned (September 2026 sessions) — read before building or batching guides
+
+**Templates and scope**
+- Best X articles must use The Office Journal layout (`BestGuidePage`, adapted from `RichGuidePage`). A custom "buying guide" template was built once and rejected by the user. Check existing repo components and the user's reference articles before designing anything new.
+- Filter keyword lists to real "best" roundups inside the five topics. Drop vs/comparison, deals/Black Friday, "is it worth it", how-to, laptops and software. Merge near-synonym keywords (e.g. "keyboard for work" + "keyboard for office work") instead of forcing different products.
+
+**Data sourcing and token cost**
+- Get product data from the Amazon Creators API first (`scripts/pcj-amazon-search.mjs`, one call per query, append-only pools). Heavy WebFetch/WebSearch burned session usage and many review sites (RTINGS, TechSpot, PC Gamer, MSI) block or truncate fetches anyway.
+- Use web research only for a few measured third-party figures, attributed inline. Products not sold on Amazon (e.g. Wooting) cannot be picks.
+- Credentials live only in `.env.local`; the site tag is `thepcjournal-20`. Never commit keys.
+
+**Facts must be verified, not assumed**
+- Listings contradict themselves (ATX 3.0 vs 3.1 in title vs bullets), carry reseller errors (an MX Master 3S listing claimed "ambidextrous" and "laser sensor"), or are empty (Turtle Beach Stealth 600 Gen 3). Leave a field undefined, pick the official listing, or drop the product.
+- Regex extraction is only a proposal: it misread a 450W GPU-rail figure as the PSU wattage and a fan size as a depth. Review every extracted field.
+- Do not add plausible details the listing doesn't state (retractable or detachable mics, flip-to-mute, fan counts, Bluetooth). Drop prices that look anomalous (a $160 550W unit) rather than recommend them.
+- If too few products have a verified spec, drop the topic (the "140mm compact PSU" article was cut) instead of padding it.
+
+**Writing quality**
+- Template sentences cannot avoid cross-article duplication at scale: even with 3-5 variants, 8-word phrases repeated across 5-10 guides. The validator catches this; fix it with data-driven sentences and per-article writing, not more synonyms.
+- "Why we like it" needs substance (target 100+ words per pick). Use the four-layer structure: an editorial take (2-3 sentences, product-specific), ranking against every other pick on each listed spec with the leader named, category compatibility checks, and a trade-off naming the pick that covers the weakness.
+- Do not copy the Best Finds Reviews pattern: its longer text came from pasted marketing bullets, truncated pros, identical filler sentences and invented hands-on impressions ("learning curve eases after a few uses"). Length is not value.
+- Labels: rules assign a label only to a strict winner; otherwise write an editorial label whose reason is a listed fact. Never auto-assign "Best Overall" to rank 1; rank order is editorial, not rule order.
+- Avoid redundancy: notes already covered by the editorial take are skipped; avoid doubled nouns ("2.5-slot slot width") and awkward skip-if phrasing.
+- Do not pad pros/cons or specs to hit a count when a listing is thin; a validator warning is acceptable.
+
+**Technical gotchas**
+- An `sr-only` span inside a horizontally scrollable table escaped the scroll box and caused mobile page overflow. Scroll wrappers must be `relative`.
+- Git Bash rewrites "/" paths passed to node (e.g. to "C:/Program Files/Git/"); use `MSYS_NO_PATHCONV=1`.
+- Chrome headless has a minimum window width, so use the DevTools-protocol script with device emulation to check 360-430px layouts.
+- Rebuild before restarting `next start`; stale `.next/types` can reference renamed routes.
+- The user wants review links at the real URL (`/guides/<slug>`), not a preview route.
+
 ## 6. SEO Rules
 
 - Always use `buildMetadata({ title, description, path, image?, noIndex?, type? })` from `lib/seo.ts`. Never append `| The PC Journal` yourself.
