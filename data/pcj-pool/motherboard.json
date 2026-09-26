@@ -20,7 +20,11 @@
       "MSI MAG X870E Tomahawk WiFi",
       "ASUS ROG Strix B850-I Gaming WiFi",
       "MSI MPG B850I Edge TI WiFi",
-      "MSI MAG Z890 Tomahawk WiFi"
+      "MSI MAG Z890 Tomahawk WiFi",
+      "B850 motherboard",
+      "MSI B760 Gaming Plus WiFi",
+      "MSI MAG Z790 Tomahawk WiFi",
+      "MSI X670E Tomahawk"
     ]
   },
   "B0G3SVRLT3": {
@@ -57,7 +61,8 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "MSI MAG B850 Tomahawk WiFi",
-      "MSI MAG Z890 Tomahawk WiFi"
+      "MSI MAG Z890 Tomahawk WiFi",
+      "MSI X670E Tomahawk"
     ]
   },
   "B0GSH3M4RQ": {
@@ -114,7 +119,10 @@
       "MSI PRO B850-P WiFi",
       "ASUS ROG Strix X870E-E Gaming WiFi",
       "Gigabyte X870E AORUS Master",
-      "Gigabyte B850I AORUS Pro"
+      "Gigabyte B850I AORUS Pro",
+      "B850 motherboard",
+      "Gigabyte B760 Aorus Elite AX",
+      "Gigabyte Z790 Aorus Elite AX"
     ]
   },
   "B0BHCCNSRH": {
@@ -134,7 +142,9 @@
     "queries": [
       "MSI MAG B850 Tomahawk WiFi",
       "MSI MAG Z890 Tomahawk WiFi",
-      "MSI B650 Gaming Plus WiFi"
+      "MSI B650 Gaming Plus WiFi",
+      "MSI MAG Z790 Tomahawk WiFi",
+      "MSI X670E Tomahawk"
     ]
   },
   "B0DG3HK897": {
@@ -155,7 +165,9 @@
       "MSI MAG B850 Tomahawk WiFi",
       "MSI MPG X870E Carbon WiFi",
       "MSI MAG X870E Tomahawk WiFi",
-      "MSI MAG Z890 Tomahawk WiFi"
+      "MSI MAG Z890 Tomahawk WiFi",
+      "MSI MAG Z790 Tomahawk WiFi",
+      "MSI X670E Tomahawk"
     ]
   },
   "B0DQLHLVLK": {
@@ -203,7 +215,7 @@
     "asin": "B0DPLPLR88",
     "title": "ASUS TUF Gaming B850-PLUS WiFi AMD AM5 B850 ATX Motherboard, 14+2+1 80A Stages, AI Ready, DDR5, PCIe 5.0, 3X M.2, Wi-Fi 7, 2.5Gb LAN, DisplayPort, HDMI™, USB 10Gbps & 20Gbps Type-C®, BIOS Flashback™",
     "brand": "ASUS",
-    "price": "$208.96",
+    "price": "$208.93",
     "img": "https://m.media-amazon.com/images/I/416d6gx2wHL._SL500_.jpg",
     "features": [
       "Ready for Advanced AI PC: Designed for the future of AI computing, with the power and connectivity needed for demanding AI applications",
@@ -216,7 +228,10 @@
     "queries": [
       "ASUS TUF Gaming B850-PLUS WiFi",
       "ASRock B850 Steel Legend WiFi",
-      "ASUS ROG Strix B850-I Gaming WiFi"
+      "ASUS ROG Strix B850-I Gaming WiFi",
+      "B850 motherboard",
+      "ASUS motherboard AM5",
+      "ASUS TUF B760-Plus WiFi"
     ]
   },
   "B0DGB8Q19Y": {
@@ -237,7 +252,10 @@
       "ASUS TUF Gaming B850-PLUS WiFi",
       "ASUS ROG Strix X870E-E Gaming WiFi",
       "ASUS ProArt X870E-Creator WiFi",
-      "ASUS TUF Gaming Z890-Plus WiFi"
+      "ASUS TUF Gaming Z890-Plus WiFi",
+      "X870 motherboard wifi 7",
+      "ASUS motherboard AM5",
+      "ASUS TUF B760-Plus WiFi"
     ]
   },
   "B0DPLP33YR": {
@@ -259,7 +277,10 @@
       "ASRock B850 Steel Legend WiFi",
       "MSI PRO B850-P WiFi",
       "ASUS ROG Strix B850-I Gaming WiFi",
-      "MSI MPG B850I Edge TI WiFi"
+      "MSI MPG B850I Edge TI WiFi",
+      "B850 motherboard",
+      "ASUS motherboard AM5",
+      "ASUS ROG Strix X670E"
     ]
   },
   "B0FTNXMLRQ": {
@@ -313,7 +334,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "ASUS TUF Gaming B850-PLUS WiFi"
+      "ASUS TUF Gaming B850-PLUS WiFi",
+      "ASUS TUF B760-Plus WiFi"
     ]
   },
   "B0F6HB62B4": {
@@ -401,7 +423,9 @@
       "Gigabyte B850 AORUS Elite WiFi7",
       "ASRock B850 Steel Legend WiFi",
       "Gigabyte B850I AORUS Pro",
-      "MSI MPG B850I Edge TI WiFi"
+      "MSI MPG B850I Edge TI WiFi",
+      "B850 motherboard",
+      "Gigabyte Z790 Aorus Elite AX"
     ]
   },
   "B0DGVC3DDW": {
@@ -420,7 +444,9 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Gigabyte B850 AORUS Elite WiFi7",
-      "MSI MPG X870E Carbon WiFi"
+      "MSI MPG X870E Carbon WiFi",
+      "X870 motherboard wifi 7",
+      "X670E motherboard"
     ]
   },
   "B0DQM7H82V": {
@@ -478,7 +504,8 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Gigabyte B850 AORUS Elite WiFi7",
-      "MSI MPG B850I Edge TI WiFi"
+      "MSI MPG B850I Edge TI WiFi",
+      "B850 motherboard"
     ]
   },
   "B0BH7GTY9C": {
@@ -497,7 +524,10 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Gigabyte B850 AORUS Elite WiFi7",
-      "MSI B650 Gaming Plus WiFi"
+      "MSI B650 Gaming Plus WiFi",
+      "B650 motherboard ATX wifi",
+      "Gigabyte B760 Aorus Elite AX",
+      "Gigabyte Z790 Aorus Elite AX"
     ]
   },
   "B0DGVGRVLQ": {
@@ -627,7 +657,8 @@
     "queries": [
       "ASRock B850 Steel Legend WiFi",
       "ASRock B850I Lightning WiFi",
-      "ASRock B650M Pro RS WiFi"
+      "ASRock B650M Pro RS WiFi",
+      "ASRock B760 Pro RS"
     ]
   },
   "B0DRTV5QK8": {
@@ -722,7 +753,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "MSI PRO B850-P WiFi"
+      "MSI PRO B850-P WiFi",
+      "B850 motherboard"
     ]
   },
   "B0FC97YJBR": {
@@ -766,7 +798,11 @@
       "ASUS ROG Strix X870E-E Gaming WiFi",
       "MSI MPG X870E Carbon WiFi",
       "ASRock X870E Taichi",
-      "ASUS ProArt X870E-Creator WiFi"
+      "ASUS ProArt X870E-Creator WiFi",
+      "X870 motherboard wifi 7",
+      "ASUS motherboard AM5",
+      "X670E motherboard",
+      "ASUS ROG Strix X670E"
     ]
   },
   "B0GWNS77NT": {
@@ -809,7 +845,11 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "ASUS ROG Strix X870E-E Gaming WiFi"
+      "ASUS ROG Strix X870E-E Gaming WiFi",
+      "X870 motherboard wifi 7",
+      "ASUS motherboard AM5",
+      "ASUS ROG Strix Z790-A",
+      "ASUS ROG Strix X670E"
     ]
   },
   "B0GS3JDMGD": {
@@ -828,7 +868,9 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "ASUS ROG Strix X870E-E Gaming WiFi",
-      "ASUS ProArt X870E-Creator WiFi"
+      "ASUS ProArt X870E-Creator WiFi",
+      "ASUS ROG Strix Z790-A",
+      "ASUS ROG Strix X670E"
     ]
   },
   "B0GGMFPWZZ": {
@@ -884,7 +926,8 @@
     "queries": [
       "ASUS ROG Strix X870E-E Gaming WiFi",
       "ASRock X870E Taichi",
-      "ASUS ProArt X870E-Creator WiFi"
+      "ASUS ProArt X870E-Creator WiFi",
+      "ASUS motherboard AM5"
     ]
   },
   "B0DG3QW9TJ": {
@@ -1000,7 +1043,8 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "MSI MPG X870E Carbon WiFi",
-      "MSI MAG X870E Tomahawk WiFi"
+      "MSI MAG X870E Tomahawk WiFi",
+      "MSI X670E Tomahawk"
     ]
   },
   "B0DGVSW4FD": {
@@ -1305,7 +1349,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "ASUS ProArt X870E-Creator WiFi"
+      "ASUS ProArt X870E-Creator WiFi",
+      "Z890 motherboard"
     ]
   },
   "B0H3XRHB7W": {
@@ -1344,7 +1389,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "MSI MAG X870E Tomahawk WiFi"
+      "MSI MAG X870E Tomahawk WiFi",
+      "MSI X670E Tomahawk"
     ]
   },
   "B0GRL3PGDP": {
@@ -1380,7 +1426,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "MSI MAG X870E Tomahawk WiFi"
+      "MSI MAG X870E Tomahawk WiFi",
+      "MSI B760 Gaming Plus WiFi"
     ]
   },
   "B0DHCQ1MPZ": {
@@ -1423,7 +1470,8 @@
       "ASUS ROG Strix B850-I Gaming WiFi",
       "Gigabyte B850I AORUS Pro",
       "MSI MPG B850I Edge TI WiFi",
-      "ASRock B850I Lightning WiFi"
+      "ASRock B850I Lightning WiFi",
+      "MSI MPG Z790 Edge"
     ]
   },
   "B0CKWVHW69": {
@@ -1534,7 +1582,7 @@
     "asin": "B0DT58PFRG",
     "title": "MSI MPG B850 Edge TI WiFi Motherboard, ATX - Supports AMD Ryzen 9000/8000 / 7000 Processors, AM5-80A SPS VRM, DDR5 Memory Boost (8400+MT/s OC), PCIe 5.0 x16, M.2 Gen5, Wi-Fi 7, 5G LAN",
     "brand": "msi",
-    "price": "$301.98",
+    "price": "$295.98",
     "img": "https://m.media-amazon.com/images/I/51xqkB0DHkL._SL500_.jpg",
     "features": [
       "ULTRA POWER - SUPPORTS THE LATEST RYZEN 9000 PROCESSORS IN HIGH PERFORMANCE - The MPG B850 EDGE TI WIFI employs a 14 Duet Rail Power System (80A, SPS) VRM for the AMD B850 chipset (AM5, Ryzen 9000 / 8000 / 7000) with Core Boost architecture",
@@ -1545,7 +1593,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "MSI MPG B850I Edge TI WiFi"
+      "MSI MPG B850I Edge TI WiFi",
+      "MSI MPG Z790 Edge"
     ]
   },
   "B0H862GP41": {
@@ -1676,7 +1725,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "ASRock B850I Lightning WiFi"
+      "ASRock B850I Lightning WiFi",
+      "X870 motherboard wifi 7"
     ]
   },
   "B0BQWQ9QPK": {
@@ -1731,7 +1781,9 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "ASUS ROG Strix Z890-I Gaming WiFi",
-      "ASUS TUF Gaming Z890-Plus WiFi"
+      "ASUS TUF Gaming Z890-Plus WiFi",
+      "Z890 motherboard",
+      "ASUS ROG Strix Z790-A"
     ]
   },
   "B0DJDFZNVL": {
@@ -1752,7 +1804,7 @@
     "asin": "B0DGWHZKMC",
     "title": "ASUS ROG STRIX Z890-A GAMING WIFI Z890 LGA 1851 ATX motherboard, Intel® Core™ Ultra Series 2 Ready, Advanced AI PC-ready, 16+2+1+2 stages, DDR5, WiFi 7, 2.5G, 5x M.2, Thunderbolt™ 4, USB Type-C, AI OC",
     "brand": "ASUS",
-    "price": "$288.98",
+    "price": "$283.35",
     "img": "https://m.media-amazon.com/images/I/41tRLNtvMfL._SL500_.jpg",
     "features": [
       "Ready for Advanced AI PCs: Designed for the future of AI computing, with the power and connectivity needed for demanding AI applications",
@@ -1764,7 +1816,9 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "ASUS ROG Strix Z890-I Gaming WiFi",
-      "ASUS TUF Gaming Z890-Plus WiFi"
+      "ASUS TUF Gaming Z890-Plus WiFi",
+      "Z890 motherboard",
+      "ASUS ROG Strix Z790-A"
     ]
   },
   "B0DTCR75Z3": {
@@ -1782,7 +1836,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "ASUS ROG Strix Z890-I Gaming WiFi"
+      "ASUS ROG Strix Z890-I Gaming WiFi",
+      "Z890 motherboard"
     ]
   },
   "B09J4X4DCQ": {
@@ -1801,7 +1856,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "ASUS ROG Strix Z890-I Gaming WiFi"
+      "ASUS ROG Strix Z890-I Gaming WiFi",
+      "ASUS ROG Strix X670E"
     ]
   },
   "B0H2B5NTL5": {
@@ -1819,7 +1875,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "MSI MAG Z890 Tomahawk WiFi"
+      "MSI MAG Z890 Tomahawk WiFi",
+      "Z890 motherboard"
     ]
   },
   "B0GYNGG24M": {
@@ -1875,7 +1932,9 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "MSI MAG Z890 Tomahawk WiFi",
-      "ASUS TUF Gaming Z890-Plus WiFi"
+      "ASUS TUF Gaming Z890-Plus WiFi",
+      "Z890 motherboard",
+      "ASUS TUF B760-Plus WiFi"
     ]
   },
   "B0DJPTRP57": {
@@ -1954,7 +2013,10 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "ASUS TUF Gaming Z890-Plus WiFi"
+      "ASUS TUF Gaming Z890-Plus WiFi",
+      "Z790 motherboard DDR5",
+      "ASRock Z790 motherboard",
+      "MSI MPG Z790 Edge"
     ]
   },
   "B0C5Y4SRKF": {
@@ -1971,7 +2033,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "ASRock B650M Pro RS WiFi"
+      "ASRock B650M Pro RS WiFi",
+      "B650 motherboard ATX wifi"
     ]
   },
   "B0C6HWFVNS": {
@@ -2017,7 +2080,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "ASRock B650M Pro RS WiFi"
+      "ASRock B650M Pro RS WiFi",
+      "ASRock B760 Pro RS"
     ]
   },
   "B0BH4KPQP8": {
@@ -2035,7 +2099,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "ASRock B650M Pro RS WiFi"
+      "ASRock B650M Pro RS WiFi",
+      "ASRock B760 Pro RS"
     ]
   },
   "B0CJTB2QV2": {
@@ -2079,7 +2144,8 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "ASRock B650M Pro RS WiFi",
-      "MSI B650 Gaming Plus WiFi"
+      "MSI B650 Gaming Plus WiFi",
+      "B650 motherboard ATX wifi"
     ]
   },
   "B0DS6KRZQ9": {
@@ -2102,7 +2168,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "ASRock B650M Pro RS WiFi"
+      "ASRock B650M Pro RS WiFi",
+      "ASRock B760 Pro RS"
     ]
   },
   "B0CB6XZ7RH": {
@@ -2120,7 +2187,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "MSI B650 Gaming Plus WiFi"
+      "MSI B650 Gaming Plus WiFi",
+      "B650 motherboard ATX wifi"
     ]
   },
   "B0CVLHNB7D": {
@@ -2150,7 +2218,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "MSI B650 Gaming Plus WiFi"
+      "MSI B650 Gaming Plus WiFi",
+      "B650 motherboard ATX wifi"
     ]
   },
   "B0BHMW8R6S": {
@@ -2168,7 +2237,9 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "MSI B650 Gaming Plus WiFi"
+      "MSI B650 Gaming Plus WiFi",
+      "B650 motherboard ATX wifi",
+      "ASUS motherboard AM5"
     ]
   },
   "B0BHN7GGBQ": {
@@ -2188,7 +2259,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "MSI B650 Gaming Plus WiFi"
+      "MSI B650 Gaming Plus WiFi",
+      "B650 motherboard ATX wifi"
     ]
   },
   "B0F7VZS6FG": {
@@ -2210,7 +2282,1242 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "MSI B650 Gaming Plus WiFi"
+      "MSI B650 Gaming Plus WiFi",
+      "B650 motherboard ATX wifi",
+      "ASUS motherboard AM5",
+      "ASUS TUF B760-Plus WiFi"
+    ]
+  },
+  "B0FBMMDMY6": {
+    "asin": "B0FBMMDMY6",
+    "title": "ASUS TUF GAMING B650E-E WIFI AMD AM5 B650 ATX motherboard, 8+2+1 80A DrMOS stage, DDR5, PCIe 5.0 Ready, 3x M.2, Wi-Fi 6E, 2.5 Gb LAN, DisplayPort, HDMI™, USB 20Gbps Type-C®, BIOS FlashBack™, Aura Sync",
+    "brand": "ASUS",
+    "price": "$145.99",
+    "img": "https://m.media-amazon.com/images/I/41xBqbDFGuL._SL500_.jpg",
+    "features": [
+      "Ready for Advanced AI PC: Designed for the future of AI computing, with the power and connectivity needed for demanding AI applications",
+      "AMD AM5 Socket: Ready for AMD Socket AM5 for AMD Ryzen 9000 & 8000 & 7000 Series Desktop Processors",
+      "Enhanced Power Solution: 8+2+1 80A DrMOS power stages, 8-layer PCB, 8+4 pin ProCool power connectors, alloy chokes and durable capacitors for stable power delivery",
+      "Latest M.2 Support: One onboard PCIe 5.0 M.2 slot and two PCIe 4.0 M.2 slots",
+      "Ultrafast Connectivity: Wi-Fi 6E, PCIe 5.0 x16 slot, Realtek 2.5Gb Ethernet, front USB 20Gbps Type-C connector, and rear USB 10Gbps Type-C port support",
+      "Comprehensive Cooling: Enlarged VRM heatsink, flexible M.2 heatsink, PCH heatsink, hybrid fan headers and Fan Xpert 4",
+      "DIY Friendly Design: PCIe Slot Q-Release, M.2 Q-Latch, Q-Antenna, Q-LED, BIOS FlashBack and Pre-mounted I/O shield",
+      "Unmatched Personalization: Three Addressable RGB Gen 2 headers, all configurable with ASUS-exclusive Aura Sync RGB lighting",
+      "Renowned Software: Two-Way Al Noise cancellation, Al Suite 3, ASUS DriverHub"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "B650 motherboard ATX wifi"
+    ]
+  },
+  "B0F25ML4CK": {
+    "asin": "B0F25ML4CK",
+    "title": "ASUS B650E MAX Gaming WiFi W – AMD B650 AM5 ATX Motherboard, White PCB, DDR5, PCIe 5.0, 3X M.2, Wi-Fi 6E, 2.5Gb LAN, USB 10Gbps Type-C, DisplayPort, HDMI™, BIOS Flashback™, Aura Sync, Advanced AI PC",
+    "brand": "ASUS",
+    "price": "$168.32",
+    "img": "https://m.media-amazon.com/images/I/41j7XrER2BL._SL500_.jpg",
+    "features": [
+      "Ready for Advanced AI PC: Designed for the future of AI computing, with the power and connectivity needed for demanding AI applications",
+      "AMD AM5 Socket: Ready for AMD Socket AM5 for AMD Ryzen 9000 & 8000 & 7000 Series Desktop Processors",
+      "Enhanced Power Solution: 8+2+1 phase power design, 6-layer PCB, alloy chokes and durable capacitors for stable power delivery",
+      "Ultrafast Connectivity: Wi-Fi 6E, PCIe 5.0 x16 slot, PCIe 5.0 M.2 slot, Realtek 2.5Gb Ethernet, rear USB 10Gbps Type-A & Type-C ports, and front USB 5Gbps Type-C support",
+      "Comprehensive Cooling: VRM and M.2 heatsinks, PCH heatsink, hybrid fan headers and Fan Xpert 2+",
+      "DIY Friendly Design: Pre-mounted I/O shield, BIOS FlashBack, Q-Antenna, Q-LED Core",
+      "Unmatched Personalization: Three Addressable RGB Gen 2 headers, all configurable with ASUS-exclusive Aura Sync RGB lighting",
+      "CEC Tier II ready"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "B650 motherboard ATX wifi"
+    ]
+  },
+  "B0DS6M1ZRN": {
+    "asin": "B0DS6M1ZRN",
+    "title": "ASRock B850 Pro-A AMD AM5 ATX Motherboard, Supports AMD Ryzen 9000/8000/7000 Series Processors, DDR5 8000+ (OC), PCIe 5.0, 2.5G LAN, BIOS Flashback, 14+2+1 Power Phase",
+    "brand": "ASRock",
+    "price": "$119.99",
+    "img": "https://m.media-amazon.com/images/I/41pEnTryHXL._SL500_.jpg",
+    "features": [
+      "B850 Pro-A",
+      "Ergonomic design",
+      "High Quality Products"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "B850 motherboard"
+    ]
+  },
+  "B0DQLJWRDX": {
+    "asin": "B0DQLJWRDX",
+    "title": "GIGABYTE B850 Eagle WIFI6E AMD AM5 ATX Motherboard, Support AMD Ryzen 9000/8000/7000 Series, DDR5, 8+2+2 Power Phase, 3X M.2, PCIe 5.0, USB-C, WIFI6E, GbE LAN, EZ-Latch, 5-Year Warranty",
+    "brand": "GIGABYTE",
+    "price": "$167.99",
+    "img": "https://m.media-amazon.com/images/I/41bYEl5q3dL._SL500_.jpg",
+    "features": [
+      "AMD Socket AM5: Supports AMD Ryzen 9000 / Ryzen 8000 / Ryzen 7000 Series Processors",
+      "DDR5 Compatible: 4*DIMMs",
+      "Power Design: 8+2+2",
+      "Thermals: Fully Covered MOSFET Heatsinks",
+      "Connectivity: PCIe 5.0, 3x M.2 Slots, USB-C"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "B850 motherboard"
+    ]
+  },
+  "B0DPLQWLBD": {
+    "asin": "B0DPLQWLBD",
+    "title": "ASUS ROG Strix B850-F Gaming WiFi AMD AM5 B850-F ATX Motherboard 16+2+2 Power Stages, AI PC, DDR5 AEMP, WiFi 7, 4X M.2, PCIe® 5.0, Total Support of 19 USB, 20Gbps Type-C®, AI Networking II, Aura Sync",
+    "brand": "ASUS",
+    "price": "$209.99",
+    "img": "https://m.media-amazon.com/images/I/51DN0g5MmsL._SL500_.jpg",
+    "features": [
+      "Ready for Advanced AI PC: Designed for the future of AI computing, with the power and connectivity needed for demanding AI applications",
+      "AMD AM5 Socket: Ready for AMD Ryzen 9000, 8000 and 7000 Series Desktop Processors",
+      "Intelligent Control: ASUS-exclusive AI Advisor, AI Networking II and AEMP to simplify setup and improve performance",
+      "Robust Power Solution: 16+2+2 power solution rated for 80A per stage with dual ProCool power connectors, high-quality alloy chokes and durable capacitors to support multi-core processors",
+      "Optimized Thermal Design: Massive heatsinks with integrated I/O cover, and high-conductivity thermal pad"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "B850 motherboard",
+      "ASUS motherboard AM5"
+    ]
+  },
+  "B0DG4FK9HP": {
+    "asin": "B0DG4FK9HP",
+    "title": "ASRock X870 Steel Legend WiFi 7 AMD Ryzen Socket AM5 ATX Motherboard DDR5 DIMMs 8000 MHz 256 GB SATA3 6.0 Gb/s USB4 M.2",
+    "brand": "ASRock",
+    "price": "$169.99",
+    "img": "https://m.media-amazon.com/images/I/41lmtkisTLL._SL500_.jpg",
+    "features": [
+      "14+2+1 Power Phase Design",
+      "Exclusive 20K Cap with 1000uF Capacitance",
+      "Dual USB4 Type-C",
+      "Toolless Multi-Layer M.2 Haeatsink",
+      "Wi-Fi 7 802.11be",
+      "M.2 Bottom Heatsink"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "X870 motherboard wifi 7"
+    ]
+  },
+  "B0FCP1RKTG": {
+    "asin": "B0FCP1RKTG",
+    "title": "ASRock X870 Pro-A WiFi ATX Motherboard - AMD AM5 Ryzen 9000/8000/7000, DDR5 8000+(OC), PCIe 5.0, Dual USB4 Type-C, Wi-Fi 7, 2.5GbE",
+    "brand": "ASRock",
+    "price": "$169.99",
+    "img": "https://m.media-amazon.com/images/I/41PtJ-uWK+L._SL500_.jpg",
+    "features": [
+      "***Not compatible with all built-in computers or systems",
+      "Supports AMD Socket AM5 Ryzen 9000, 8000 and 7000 Series Processors",
+      "16+2+1 Power Phase, 80A Dr.MOS for VCore+SOC+MISC",
+      "4 x DDR5 DIMMs Supports Dual Channel, up to 8000+ (OC)",
+      "1 PCIe 5.0 x16, 3 PCIe 4.0 x16 1 Blazing M.2 (PCIe Gen5x4) 1 Hyper M.2 (PCIe Gen4x4) 1 M.2 (PCIe Gen3x2 & SATA3) 4 SATA3",
+      "Graphics Output Options: 1 HDMI, 2 USB4 Type-C Realtek ALC897 7.1 CH HD Audio Codec, Nahimic Audio",
+      "2 USB4 Type-C (Rear) 2 USB 3.2 Gen2 (Rear) 1 USB 3.2 Gen1 Type-C (Front) 5 USB 3.2 Gen1 (1 Rear, 4 Front) 8 USB 2.0 (4 Rear, 4 Front)",
+      "Realtek 2.5GbE LAN 802.11be Wi-Fi 7 + Bluetooth",
+      "Supports M.2 Bottom Heatsink",
+      "If any questions about the product, contact us on amazon."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "X870 motherboard wifi 7"
+    ]
+  },
+  "B0DG3SSGLF": {
+    "asin": "B0DG3SSGLF",
+    "title": "MSI PRO X870-P WiFi ProSeries Motherboard (AMD Ryzen 9000/8000/7000 Series Processors, AM5, DDR5, PCIe 5.0, M.2 Gen5, SATA 6Gb/s, USB 40Gbps, HDMI/DP, Wi-Fi 7, Bluetooth 5.4, 5Gbps LAN, ATX)",
+    "brand": "msi",
+    "price": "$179.99",
+    "img": "https://m.media-amazon.com/images/I/51cNjw3kK2L._SL500_.jpg",
+    "features": [
+      "Supports AMD Ryzen 9000/8000/7000 Series Desktop Processors",
+      "Wi-Fi 7: the latest wireless solution with a new 320MHz channel",
+      "Pre-installed I/O Shielding: Better EMI protection and more convenient for installation",
+      "Frozr AI Cooling: Detect CPU and GPU temperatures and automatically adjust system fan duty to a proper value",
+      "Triple M.2 Connectors: Onboard triple M.2 connectors with PCIe 4.0 solution"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "X870 motherboard wifi 7"
+    ]
+  },
+  "B0DGVMYTW6": {
+    "asin": "B0DGVMYTW6",
+    "title": "GIGABYTE X870 Eagle WIFI7 AMD AM5 LGA 1718 Motherboard, ATX, DDR5, 4X M.2, PCIe 5.0, USB4, WIFI7, 2.5GbE LAN, EZ-Latch, 5-Year Warranty",
+    "brand": "GIGABYTE",
+    "price": "$189.99",
+    "img": "https://m.media-amazon.com/images/I/418lPfX42kL._SL500_.jpg",
+    "features": [
+      "AMD Socket AM5: Supports AMD Ryzen 9000 / Ryzen 8000 / Ryzen 7000 Series Processors",
+      "DDR5 Compatible: 4*DIMMs with AMD EXPO Support",
+      "Power Design: 14+2+2",
+      "Thermals: VRM and M.2 Thermal Guard",
+      "Connectivity: PCIe 5.0, 3x M.2 Slots, Dual USB4, Front and Rear USB-C"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "X870 motherboard wifi 7"
+    ]
+  },
+  "B0F8JZJ2ZJ": {
+    "asin": "B0F8JZJ2ZJ",
+    "title": "ASUS X870 MAX GAMING WIFI7 W AMD AM5 ATX Motherboard, 8-layer White PCB, 12+2+1 80A DrMOS, DDR5, PCIe 5.0 x16 Q-Release, 3x M.2, Wi-Fi 7 Q-Antenna, USB4® Type-C®, 2.5Gb LAN, BIOS FlashBack™, Aura Sync",
+    "brand": "ASUS",
+    "price": "$215.00",
+    "img": "https://m.media-amazon.com/images/I/41LdlO8M0vL._SL500_.jpg",
+    "features": [
+      "Ready for Advanced AI PC: Designed for the future of AI computing, with the power and connectivity needed for demanding AI applications",
+      "AMD AM5 Socket: Ready for AMD Socket AM5 for AMD Ryzen 9000 & 8000 & 7000 Series Desktop Processors",
+      "Enhanced Power Solution: 12+2+1 80A DrMOS power stages, 8-layer PCB, ProCool connectors, alloy chokes and durable capacitors for stable power delivery",
+      "Ultrafast Connectivity: Wi-Fi 7, PCIe 5.0 x16 slot, PCIe 5.0 M.2 slot, Realtek 2.5Gb Ethernet, USB4 (40Gbps) Type-C ports, front USB 20Gbps Type-C port",
+      "Comprehensive Cooling: Large VRM heatsinks, M.2 and PCH heatsinks, hybrid fan headers and Fan Xpert 4 with AI Cooling II",
+      "DIY-Friendly Design: Pre-mounted I/O shield, PCIe Slot Q-Release, BIOSFlashBack, Q-Antenna, Flexible M.2 heatsink, Q-Dashboard, Q-LED Core",
+      "Unmatched Personalization: Three Addressable RGB Gen 2 headers, all configurable with ASUS-exclusive Aura Sync RGB lighting",
+      "Renowned Software: Armoury Crate, ASUS AI Advisor, ASUS DriverHub, ASUS GlideX",
+      "CEC Tier II Ready",
+      "For Windows 11, Wi-Fi 7 will require 24H2 or later version for full functions, Windows 11 21H2/22H2/23H2 only supports Wi-Fi 6E. For Windows 10, only Wi-Fi 6 is supported."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "X870 motherboard wifi 7"
+    ]
+  },
+  "B0DPY5WKGF": {
+    "asin": "B0DPY5WKGF",
+    "title": "MSI PRO Z890-S WiFi White Motherboard, ATX - Supports Intel Core Ultra Processors (Series 2), LGA 1851 - DDR5 Memory Boost (8600+ MT/s OC), PCIe 5.0 x16 & 4.0 x16, M.2 Gen5, Wi-Fi 7, 2.5G LAN",
+    "brand": "msi",
+    "price": "$169.99",
+    "img": "https://m.media-amazon.com/images/I/41Q+T2RuOkL._SL500_.jpg",
+    "features": [
+      "ULTRA POWER - SUPPORTS THE LATEST INTEL CORE ULTRA PROCESSORS (Series 2) IN HIGH PERFORMANCE - The PRO Z890-S WIFI WHITE employs a 12 Duet Rail Power System (P-PAK) VRM for the Intel Z890 chipset with Core Boost architecture",
+      "FROZR GUARD - Excellent cooling features such as 7W/mK MOSFET thermal pads, extra choke thermal pads and an Extended Heatsink; Includes chipset heatsink, M.2 Shield Frozr, a Combo-fan (for pump & system) header (3A)",
+      "DDR5 MEMORY, PCIe 5.0 x16 SLOT - 4 x DDR5 DIMM SMT slots enable extreme memory overclocking speeds (1DPC 1R, 8600+ MT/s OC); 1 x PCIe 5.0 x16 SMT slot (128GB/s) with Steel Armor supports cutting-edge graphics cards",
+      "TRIPLE M.2 CONNECTORS - Storage options include 1 x M.2 Gen5 x4 128Gbps slot with M.2 Shield Frozr to prevent thermal throttling and 2 x M.2 Gen4 x4 64Gbps slots",
+      "HIGH-SPEED CONNECTIVITY - Network hardware includes a full-speed Wi-Fi 7 module with Bluetooth 5.4 & 2.5Gbps LAN; Rear ports include Thunderbolt 4 Type-C with display output and 7.1 HD Audio with Audio Boost"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Z890 motherboard"
+    ]
+  },
+  "B0DJDFM619": {
+    "asin": "B0DJDFM619",
+    "title": "ASUS ROG Maximus Z890 Hero Intel Z890 LGA1851 DDR5 9200 HDMI 2xUSB4 6X M2 USB3.2 WiFi 7 + BT Aura RGB 5Gbit + 2.5Gbit LAN ATX 22+1+2+2 Power Phases, Motherboard",
+    "brand": "ASUS",
+    "price": "$364.35",
+    "img": "https://m.media-amazon.com/images/I/41vnP-7hZ-L._SL500_.jpg",
+    "features": [
+      "AI Networking II combines intelligent technologies to optimize network performance Designed to provide reliable and seamless connectivity Aimed to unlock the speed of WiFi 7 technology",
+      "ASUS AI Advisor uses AI technology to understand natural language questions or scenario descriptions Enables users to explore the functionality and advanced features of ASUS motherboards Enables simple and understandable to learn motherboard features",
+      "Integrated NPU on Intel Core Ultra processors (Series 2) accelerates AI-Intelligence workflows NPU performance can be enhanced with NPU Boost Capability This BIOS feature can overclock NPU to boost performance by up to 24 percent"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Z890 motherboard"
+    ]
+  },
+  "B0DGWWRTPV": {
+    "asin": "B0DGWWRTPV",
+    "title": "ASUS ROG Maximus Z890 Hero Intel® Z890 LGA 1851 ATX Motherboard, Advanced AI PC-Ready, 22+2+1+2 Stages, DDR5, WiFi 7, 3X PCIe® 5.0 M.2, Thunderbolt™ 4, USB Type-C®, AI Overclocking/Cooling/Networking",
+    "brand": "ASUS",
+    "price": "$349.99",
+    "img": "https://m.media-amazon.com/images/I/41JxCmAV4vL._SL500_.jpg",
+    "features": [
+      "Ready for Advanced AI PCs: Designed for the future of AI computing, with the power and connectivity needed for demanding AI applications",
+      "Intel LGA 1851 Socket: Ready for Intel Core Ultra Processors (series 2)",
+      "Exclusive AI Technologies: ASUS AI Advisor, ASUS-exclusive AI Overclocking, AI Cooling II, and AI Networking II to simplify setup and improve performance",
+      "Exclusive Overclocking & Memory Technologies: NitroPath DRAM Technology, NPU Boost, DIMM Fit, DIMM Flex and AEMP III to simplify setup and improve performance",
+      "Robust Power Solution: 22(110A)+2(90A)+1(90A)+2(80A) power stages with ProCool II power connectors, MicroFine alloy chokes and premium metallic capacitors"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Z890 motherboard"
+    ]
+  },
+  "B0BZTB5LKJ": {
+    "asin": "B0BZTB5LKJ",
+    "title": "ASUS Prime B760M-A AX LGA 1700(Intel® 12th&13th Gen) microATX Motherboard (PCIe® 4.0, 2xM.2 Slots, DDR5,Realtek 2.5 Gb LAN,WiFi 6, DP,Rear USB 3.2 Gen 2, Front USB 3.2 Gen 1 Type-C®)",
+    "brand": "ASUS",
+    "price": "$129.99",
+    "img": "https://m.media-amazon.com/images/I/51iIQdDc0eL._SL500_.jpg",
+    "features": [
+      "Intel LGA 1700 Socket: Ready for 13th Gen and 12th Gen Intel processors",
+      "Ultrafast Connectivity: PCIe 4.0, DDR5, two M.2 slots, Realtek 2.5Gb Ethernet, Wi-Fi 6, rear USB 3.2 Gen 2, front USB 3.2 Gen 1 Type-C",
+      "Comprehensive Cooling: VRM heatsink, M.2 heatsink, PCH heatsink, hybrid fan headers and Fan Xpert 2+",
+      "ASUS OptiMem II: Careful routing of traces and vias, plus ground layer optimizations to preserve signal integrity for improved memory overclocking",
+      "Aura Sync RGB Lighting: Onboard Addressable Gen 2 headers and Aura RGB header for RGB LED strips, easily synced with Aura Sync-capable hardware"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "B760 motherboard DDR5"
+    ]
+  },
+  "B0CK582LX5": {
+    "asin": "B0CK582LX5",
+    "title": "ASRock B760M PG Riptide WiFi Micro-ATX Motherboard | Supports 14th/13th/12th Gen Intel | DDR5 7200+ (OC) | WiFi 6E | 2.5G LAN | 14+1+1 Power Phase | Front & Rear USB-C",
+    "brand": "ASRock",
+    "price": "$119.99",
+    "img": "https://m.media-amazon.com/images/I/41OqAPsU4iL._SL500_.jpg",
+    "features": [
+      "Supports 13th Gen & 12th Gen and next gen Intel Core Processors (LGA1700)",
+      "14+1+1 Power Phase",
+      "Supports DDR5 7200MHz (OC)",
+      "1 PCIe 4.0 x16, 1 PCIe 4.0 x1",
+      "Graphics Output Options: HDMI, DisplayPort"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "B760 motherboard DDR5"
+    ]
+  },
+  "B0CTP26DB1": {
+    "asin": "B0CTP26DB1",
+    "title": "MSI PRO B760-VC WiFi ProSeries Motherboard (Supports 12th/13th Gen Intel Processors, LGA 1700, DDR5, PCIe 4.0, M.2, 2.5Gbps LAN, USB 3.2 Gen2, Wi-Fi 5, ATX) (Renewed)",
+    "brand": "msi",
+    "price": "$85.31",
+    "img": "https://m.media-amazon.com/images/I/41XtIwDutjL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "B760 motherboard DDR5"
+    ]
+  },
+  "B0FBB9TQ5L": {
+    "asin": "B0FBB9TQ5L",
+    "title": "ASUS Z790-AYW WiFi W II Intel Z790 (LGA 1700) ATX Motherboard with PCIe® 5.0, 3X M.2, 12+1 DrMOS, DDR5, WiFi 6, 2.5Gb LAN, HDMI, USB 10Gbps Type-C®, USB 10Gbps Type-C®, Thunderbolt™, USB4®, Aura Sync",
+    "brand": "ASUS",
+    "price": "$199.99",
+    "img": "https://m.media-amazon.com/images/I/41TtAsq2c+L._SL500_.jpg",
+    "features": [
+      "Intel LGA 1700 socket: Ready for Intel Core 14th & 13th Gen Processors, Intel Core 12th Gen, Pentium Gold and Celeron Processors",
+      "Enhanced power solution: 12+1 DrMOS, 6-layer PCB, ProCool connectors, alloy chokes and durable capacitors for stable power delivery",
+      "Next-gen connectivity: DDR5 memory, Wi-Fi 6, PCIe 5.0 x16 slot, PCIe 4.0 M.2 slots, rear USB 10Gbps Type-C and Type-A, front panel USB 10Gbps Type-C, Thunderbolt (USB4) header support",
+      "Exclusive Memory Technology: ASUS Enhanced Memory Profile II and ASUS OptiMem II",
+      "Comprehensive cooling: Large VRM heatsinks, M.2 heatsinks, PCH heatsink, hybrid fan headers and Fan Xpert 4 with AI Cooling II"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Z790 motherboard DDR5",
+      "ASUS ROG Strix Z790-A",
+      "ASRock Z790 motherboard",
+      "MSI MPG Z790 Edge"
+    ]
+  },
+  "B0CTNPZLNH": {
+    "asin": "B0CTNPZLNH",
+    "title": "GIGABYTE Z790 Eagle AX LGA 1700 ATX Motherboard, Support Intel Core 14th/13th/12th Gen, DDR5, 12+1+1 Power Phase, 3X M.2, PCIe 5.0, USB-C 3.2, WIFI6E, 2.5GbE, Q-Flash, EZ-Latch, RGB Fusion",
+    "brand": "GIGABYTE",
+    "price": "$169.99",
+    "img": "https://m.media-amazon.com/images/I/41qA3EATMEL._SL500_.jpg",
+    "features": [
+      "Intel LGA 1700 Socket: Supports Intel Core 14th/13th/12th Gen processors",
+      "DDR5 Compatible: Dual Channel DDR5, 4 DIMMs",
+      "Sturdy Power Design: Twin 12*+1+1 Phases Digital VRM Solution",
+      "Comprehensive Thermal Design: Advanced Thermal Design, Enlarged MOSFET Heatsinks, M.2 Thermal Guard",
+      "Next Gen Connectivity: PCIe 4.0, NVMe M.2, USB 3.2 Gen 2x2 Type-C"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Z790 motherboard DDR5",
+      "Gigabyte Z790 Aorus Elite AX"
+    ]
+  },
+  "B0G3TWBHYC": {
+    "asin": "B0G3TWBHYC",
+    "title": "MSI PRO Z790-A WiFi II Motherboard, ATX - Supports Intel Core 14th, 13th & 12th Gen Processors, LGA 1700-80A SPS VRM, DDR5 Memory Boost 7800+MT/s/OC, PCIe 5.0 x16, 4 x M.2 Gen4, Wi-Fi 6E, 2.5G LAN",
+    "brand": "msi",
+    "price": "$189.99",
+    "img": "https://m.media-amazon.com/images/I/51b1oasogxL._SL500_.jpg",
+    "features": [
+      "Intel Core 14th Gen - The PRO Z790-A WIFI II (ATX) employs a 16 Duet Rail Power System (80A, SPS) VRM for the Intel Z790 chipset (LGA 1700, Intel Core 14th, 13th, and 12th Gen); The VRM features MSI Core Boost technology for improved performance",
+      "INTEGRATED COOLING - VRM cooling features 7W/mK MOSFET thermal pads and an extended heatsink; Includes chipset heatsink, M.2 Shield Frozr, a dedicated pump-fan cooling header & 6-layer server grade PCB with 2 oz. thickened copper",
+      "DDR5 MEMORY, PCIe 5.0 SLOT - 4 x DDR5 DIMM slots with Memory Boost isolated circuitry for overclocking (1DPC 1R, 7800+ MT/s); Primary PCIe x16 slot supports PCIe 5.0 (128GB/s) and includes Steel Armor",
+      "QUADRUPLE M.2 CONNECTORS - Storage options include 4 x M.2 Gen4 x4 64Gbps slots with Shield Frozr to prevent thermal throttling during hyper-fast SSD access",
+      "WI-FI 6E CONNECTIVITY - Network hardware includes a Wi-Fi 6E module with BT 5.3 & 2.5Gbps LAN controller; Rear ports include USB 20Gbps Type-C, HDMI 2.1, DP 1.4, and 7.1 USB High Performance Audio with Audio Boost 5 (supports S/PDIF output)"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Z790 motherboard DDR5",
+      "MSI MAG Z790 Tomahawk WiFi",
+      "Gigabyte Z790 Aorus Elite AX"
+    ]
+  },
+  "B0D8STYFCN": {
+    "asin": "B0D8STYFCN",
+    "title": "MSI Z790 GAMING PLUS WIFI-AMZ Gaming Motherboard (Support 14th/13th/12th Gen Intel Processors, LGA 1700, DDR5, PCIe 5.0, M.2 Slots, 2.5Gbps LAN, USB 3.2 Gen2, Wi-Fi 6E, Bluetooth 5.3, ATX) (Renewed)",
+    "brand": "msi",
+    "price": "$126.56",
+    "img": "https://m.media-amazon.com/images/I/51BWwbQmKJL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Z790 motherboard DDR5",
+      "MSI MAG Z790 Tomahawk WiFi",
+      "Gigabyte Z790 Aorus Elite AX"
+    ]
+  },
+  "B0DD5RJLZ8": {
+    "asin": "B0DD5RJLZ8",
+    "title": "ASUS Z790 GAMING WIFI7 (LGA 1700) ATX motherboard with PCIe 5.0, three M.2 slots, 14+1 DrMOS, DDR5, Realtek 1Gb LAN, HDMI TM, USB 3.2 Gen 2x2 Type-C, front USB 3.2 Gen 1 Type-C, Thunderbolt, Aura Sync",
+    "brand": "ASUS",
+    "price": "$169.99",
+    "img": "https://m.media-amazon.com/images/I/41LnssMyagL._SL500_.jpg",
+    "features": [
+      "Intel LGA 1700 socket: Ready for Intel Core 14th & 13th Gen Processors, Intel Core 12th Gen, Pentium Gold and Celeron Processors",
+      "Enhanced power solution: 14+1 DrMOS, 6-layer PCB, ProCool connectors, alloy chokes and durable capacitors for stable power delivery",
+      "Next-gen connectivity: DDR5 memory, Wi-Fi 7, PCIe 5.0, USB 3.2 Gen2x2 Type-C, front panel USB 3.2 Gen 1 Type-C, Thunderbolt (USB4) header support, 3 PCIe 4.0 M.2",
+      "Exclusive Memory Technology: ASUS Enhanced Memory Profile II and ASUS OptiMem II",
+      "Comprehensive cooling: Large VRM heatsinks, PCH heatsink, hybrid fan headers and Fan Xpert 4 with AI Cooling II"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Z790 motherboard DDR5",
+      "ASUS ROG Strix Z790-A"
+    ]
+  },
+  "B0GKR5WNWB": {
+    "asin": "B0GKR5WNWB",
+    "title": "ASUS ROG Crosshair X870E Dark Hero AM5 ATX Motherboard, DDR5, DIMM Fit, WiFi 7, 10Gb & 5Gb LAN, PCIe 5.0, 5X M.2, 2X USB4, AIO Q-Connector",
+    "brand": "ASUS",
+    "price": "$678.99",
+    "img": "https://m.media-amazon.com/images/I/41y7dVdqOPL._SL500_.jpg",
+    "features": [
+      "Ready for Advanced AI PC: Designed for the future of AI computing, with the power and connectivity needed for demanding AI applications",
+      "AMD AM5 Socket: Ready for AMD Ryzen 9000 & 8000 & 7000 Series Desktop Processors. Renowned Software: BIOS 64 MB, ASUS DriverHub, Dolby Atmos, GlideX, HWiNFO, exclusive 1-year Internet Security subscription, and bundled 1-year AIDA64 Extreme subscription Ready for Advanced AI PC: Designed for the future of AI computing, with the power and connectivity needed for demanding AI applications",
+      "Intelligent Control: ASUS-exclusive AI Cache Boost, ASUS AI Advisor, AI Overclocking, AI Cooling II, AI Networking II, and AEMP to simplify setup and improve performance",
+      "ROG Overclocking Technologies: Dynamic OC Switcher, Core Flex, Asynchronous Clock and PBO Enhancement",
+      "Robust Power Solution: 20(110A)+2(110A)+2 power stages with ProCool II power connectors, MicroFine alloy chokes and premium metallic capacitors",
+      "Optimized Thermal Design: 3D VC M.2 heatsink for one PCIe 5.0 M.2 slot, Massive heatsinks integrated with the I/O cover, joined by an L-shaped heatpipe and connected to the power stages with high-conductivity thermal pads",
+      "Latest M.2 Support: Two onboard PCIe 5.0 M.2 slots and three PCIe 4.0 M.2 slots, all with substantial cooling solutions. Unmatched Personalization: I/O cover with Polymo Lighting II, three Gen 2 ARGB headers, all configurable with ASUS-exclusive Aura Sync RGB lighting",
+      "Abundant Connectivity: Dual USB4 Type-C ports, two USB 20Gbps Type-C front-panel connectors (one with Quick Charge 4+ up to 60W and USB Wattage Watcher), nine additional USB 10Gbps ports, two PCIe 5.0 x16 SafeSlots, HDMI port",
+      "High-Performance Networking: On-board Wi-Fi 7 (802.11be) with ASUS WiFi Q-Antenna, Realtek 10Gb Ethernet and Realtek 5Gb Ethernet. Immersive Audio: ROG SupremeFX ALC4082 codec with ESS ES9219 Quad DAC for up to 32-Bit/384 kHz playback",
+      "DIY Friendly Design: AIO Q-Connector, PCIe Slot Q-Release, new M.2 Q-Latch, M.2 Q-Release, M.2 Q-Slide, Q-Antenna, Q-Dashboard, Q-Code, Q-LED, FlexKey button, Start button, BIOS FlashBack button, Clear CMOS button and pre-mounted I/O shield"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS motherboard AM5"
+    ]
+  },
+  "B0FBTJZJ9F": {
+    "asin": "B0FBTJZJ9F",
+    "title": "MSI B760 Gaming Plus WiFi Gaming Motherboard V1 (DDR5 Memory ONLY) for 12th/13th/14th Gen Intel Processors, LGA 1700, PCIe 4.0, M.2, 2.5Gbps LAN, USB 3.2 Gen2, HDMI/DP, Wi-Fi 6E, Bluetooth 5.3, ATX",
+    "brand": "msi",
+    "price": "$119.99",
+    "img": "https://m.media-amazon.com/images/I/51lLktu5Z3L._SL500_.jpg",
+    "features": [
+      "14TH, 13TH & 12TH GEN CORE - The B760 GAMING PLUS WIFI (ATX) employs a 12 Duet Rail Power System (P-PAK) VRM for the Intel B760 chipset (LGA 1700, 14th, 13th & 12th Gen); The VRM features MSI Core Boost technology for improved stability & performance",
+      "INTEGRATED COOLING - VRM cooling features 7W/mK MOSFET thermal pads and an extended heatsink; Additional cooling includes chipset heatsink, M.2 Shield Frozr, a dedicated pump-fan cooling header & 6-layer PCB with 2 oz. thickened copper",
+      "DDR5 MEMORY, DUAL PCIe 4.0 x16 SLOTS - 4 x DDR5 DIMM slots with Memory Boost isolated circuitry for overclocking (1DPC 1R, 6800+ MHz); 2 x PCIe 4.0 x16 slots (64GB/s) supports graphics cards, primary PCIe x16 slot includes Steel Armor",
+      "DUAL M.2 CONNECTORS - Storage options include 2 x M.2 Gen4 x4 64Gbps slots with Shield Frozr on the primary slot to prevent thermal throttling during hyper-fast SSD access",
+      "WI-FI 6E CONNECTIVITY - Network hardware includes an Intel Wi-Fi 6E module with Bluetooth 5.3 & 2.5Gbps LAN; Rear ports include USB 3.2 Gen 2 Type-C & Type-A (10Gbps), HDMI 2.1 & DisplayPort 1.4, and 7.1 HD Audio with Audio Boost (supports S/PDIF output)"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "MSI B760 Gaming Plus WiFi"
+    ]
+  },
+  "B0BZD3BMZL": {
+    "asin": "B0BZD3BMZL",
+    "title": "MSI B760 Gaming Plus WiFi Motherboard Intel B760 LGA 1700 ATX",
+    "brand": "msi",
+    "price": "$80.00",
+    "img": "https://m.media-amazon.com/images/I/51lLktu5Z3L._SL500_.jpg",
+    "features": [
+      "High performance of the 14th Generation – The Z790 Gaming Pro WiFi uses a 12+1+1 Duet Rail Power System with DrMOS for the Intel Z790 chipset (12th, 13th & 14. generation)",
+      "Built-in cooling: advanced heatsink design with 7W/mK MOSFET thermal pads and M.2 Shield Frozr are designed for high performance systems and non-stop work",
+      "Supports DDR5 memory, up to 6800+ (OC) MHz with Memory Boost",
+      "Dual M.2 ports: storage options include 2 x M.2 Gen4 slots with x4 64Gbps and Shield Frozr on the primary slot",
+      "WI-FI 6E: An Intel Wi-Fi 6E module with Bluetooth 5.3 & 2.5Gbps LAN ensures stable and fast connections"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "MSI B760 Gaming Plus WiFi"
+    ]
+  },
+  "B0BRQSWSFQ": {
+    "asin": "B0BRQSWSFQ",
+    "title": "MSI PRO B760-P WiFi DDR4 ProSeries Motherboard - Supports 12th/13th/14th Gen Intel Processors, LGA 1700, DDR4, PCIe 4.0, M.2, 2.5Gbps LAN, USB 3.2 Gen2, HDMI/DP, Wi-Fi 6E, Bluetooth 5.3, ATX",
+    "brand": "msi",
+    "price": "$138.99",
+    "img": "https://m.media-amazon.com/images/I/513oOzycC+L._SL500_.jpg",
+    "features": [
+      "Supports 12th/13th Gen Intel Core, Pentium Gold and Celeron processors for LGA 1700 socket",
+      "Supports DDR4 Memory, Dual Channel DDR4 5333+MHz (OC)",
+      "Enhanced Power Design: 12+1 Duet Rail Power System with P-PAK, 8-pin + 4-pin CPU power connectors, Core Boost, Memory Boost",
+      "Premium Thermal Solution: Extended Heatsink, MOSFET thermal pads rated for 7W/mK, additional choke thermal pads and M.2 Shield Frozr are built for high performance system and non-stop gaming experience",
+      "High Quality PCB: 6-layer PCB made by 2oz thickened copper and server grade level material"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "MSI B760 Gaming Plus WiFi"
+    ]
+  },
+  "B0BZ9T4KF6": {
+    "asin": "B0BZ9T4KF6",
+    "title": "MSI PRO B760M-P DDR4 ProSeries Motherboard (Supports 12th/13th/14th Gen Intel Processors, LGA 1700, DDR4, PCIe 4.0, M.2, USB 3.2 Gen2, HDMI/DP, mATX)",
+    "brand": "msi",
+    "price": "$109.99",
+    "img": "https://m.media-amazon.com/images/I/51zqom322mL._SL500_.jpg",
+    "features": [
+      "Supports 12th/13th Gen Intel Core, Pentium Gold and Celeron processors for LGA 1700 socket",
+      "Supports DDR4 Memory, Dual Channel DDR4 4800+MHz (OC)",
+      "Core Boost : With premium layout and digital power design to support more cores and provide better performance",
+      "Memory Boost: Advanced technology to deliver pure data signals for the best performance, stability and compatibility",
+      "Lightning Fast Experience: PCIe 4.0, Lightning Gen4 x4 M.2 with M.2 Shield Frozr"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "MSI B760 Gaming Plus WiFi"
+    ]
+  },
+  "B0FP3MRTC1": {
+    "asin": "B0FP3MRTC1",
+    "title": "ASUS B760M-AYW WiFi D4 II Intel® B760 (LGA 1700) microATX mATX Motherboard, PCIe 5.0 x16 Support, Two M.2 Slots, DDR4, Realtek 2.5Gb Ethernet, Wi-Fi 6, HDMI, SATA 6 Gbps, Front USB 5Gbps, Aura Sync",
+    "brand": "ASUS",
+    "price": "$109.00",
+    "img": "https://m.media-amazon.com/images/I/41-jkmJ5SaL._SL500_.jpg",
+    "features": [
+      "Intel LGA 1700 Socket: Ready for Intel Core 14th & 13th Gen Processors, Intel Core 12th Gen, Pentium Gold and Celeron Processors",
+      "Ultrafast Connectivity: PCIe 5.0, two M.2 slots, Realtek 2.5Gb Ethernet, Wi-Fi 6, rear USB 5Gbps Type-A, front USB 5Gbps support",
+      "Comprehensive Cooling: VRM heatsink, PCH heatsink, hybrid fan headers and Fan Xpert 2+",
+      "Aura Sync RGB Lighting: Onboard Addressable Gen 2 headers for RGB LED strips, easily synced with Aura Sync-capable hardware"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "MSI B760 Gaming Plus WiFi"
+    ]
+  },
+  "B0BSB6MZ2L": {
+    "asin": "B0BSB6MZ2L",
+    "title": "GIGABYTE B760 AORUS Elite AX Intel LGA 1700 ATX Motherboard, Supports Intel Core 14th/13th/12th Gen, DDR5, 12+1+1 Power Phase, 3X M.2, PCIe 4.0, USB-C, WIFI6E, 2.5GbE LAN, Q-Flash Plus, PCIe EZ-Latch",
+    "brand": "GIGABYTE",
+    "price": "$138.48",
+    "img": "https://m.media-amazon.com/images/I/519NrPCkkXL._SL500_.jpg",
+    "features": [
+      "Intel LGA 1700 Socket: Ready to support 14th, 13th, and 12th Gen Intel Core Processors.",
+      "Enhanced Power Solution: Twin Digital 12+1+1 Power Phase with 6-layer PCB premium chokes and capacitors for steady power delivery.",
+      "Advanced Thermal Armor: Advanced VRM heatsinks and M.2 Thermal Guard for better heat dissipation. Integrated I/O Shield for quicker PC DIY assembly.",
+      "Boost Your Memory: Compatible with DDR5 and supports 4 DIMMs with Intel XMP Memory Module support.",
+      "Comprehensive Connectivity: 1x PCIe 4.0 x16 slot with reinforced PCIe UD armor, 3x PCIe 4.0 M.2 slots, 1x USB 3.2 Gen 2 Type-C, 1x USB 3.2 Gen 2 Type-A, and 4x USB 3.2 Gen 1 Type-A ports for hassle free setup."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Gigabyte B760 Aorus Elite AX"
+    ]
+  },
+  "B0CMNCVYR9": {
+    "asin": "B0CMNCVYR9",
+    "title": "GIGABYTE B760 AORUS Elite AX (LGA 1700/ Intel/ B760/ ATX/ DDR5/ Triple M.2/ PCIe 4.0/ USB 3.2 Gen2X2 Type-C/WiFi 6E/ 2.5GbE LAN/Q-Flash Plus/PCIe EZ-Latch/Gaming Motherboard) (Renewed)",
+    "brand": "GIGABYTE",
+    "price": "$119.99",
+    "img": "https://m.media-amazon.com/images/I/519NrPCkkXL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Gigabyte B760 Aorus Elite AX"
+    ]
+  },
+  "B0BZ54DR5L": {
+    "asin": "B0BZ54DR5L",
+    "title": "GIGABYTE B760 Gaming X AX (LGA 1700/ Intel/ B760/ ATX/DDR5/ M.2/ PCIe 4.0/ USB 3.2 Gen2X2 Type-C/AMD WiFi 6E/ 2.5GbE LAN/Q-Flash Plus/PCIe EZ-Latch/Motherboard)",
+    "brand": "GIGABYTE",
+    "price": "$225.00",
+    "img": "https://m.media-amazon.com/images/I/51FcNgCBqyL._SL500_.jpg",
+    "features": [
+      "Intel LGA 1700 Socket: Supports 13th and 12th Gen Intel Core Series Processors",
+      "DDR5 Compatible: Dual Channel DDR5, 4 DIMMs",
+      "Sturdy Power Design: Hybrid 8+1+1 Phases Digital VRM Solution",
+      "Comprehensive Thermal Design: Advanced Thermal Design & M.2 Thermal Guard",
+      "Next Gen Connectivity: PCIe 4.0, M.2, USB 3.2 Gen 2 Type-C",
+      "Fast Networking: 2.5GbE LAN, AMD WiFi 6E",
+      "Fine Tuning Features: RGB FUSION 2.0, Supports Addressable LED & RGB LED Strips, Smart Fan 6, Q-Flash Plus Update BIOS without installing, CPU, Memory, and GPU"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Gigabyte B760 Aorus Elite AX"
+    ]
+  },
+  "B08KGVH7YC": {
+    "asin": "B08KGVH7YC",
+    "title": "GIGABYTE B550 AORUS Elite AX V2 AMD AM4 ATX Motherboard, Supports Ryzen 5000/4000/3000 Processors, DDR4, 12+2 Power Phase, 2X M.2, PCIe 4.0, Front USB-C, WIFI6, 2.5 GbE LAN, Q-Flash Plus, RGB Fusion",
+    "brand": "GIGABYTE",
+    "price": "$164.99",
+    "img": "https://m.media-amazon.com/images/I/41WLS35yqTL._SL500_.jpg",
+    "features": [
+      "AMD Socket AM4: Ready to support AMD Ryzen 5000/4000/3000 Series Processors.",
+      "Enhanced Power Solution: Digital Twin 12+2 Power Phase and premium chokes and capacitors for steady power delivery.",
+      "Advanced Thermal Armor: Advanced VRM heatsink and M.2 Thermal Guard for better heat dissipation. Integrated I/O Shield for quicker PC DIY assembly.",
+      "Boost Your Memory: Compatible with DDR4 Memory and supports 4 DIMMs with Extreme Memory Profile support.",
+      "Comprehensive Connectivity: 1x PCIe 4.0 x16 with reinforced PCIe UD Armor, 1x PCIe 4.0 M.2 slot, 1x PCIe 3.0 M.2 slot, 2x USB 3.2 Gen 2 Type-A, 3x USB 3.2 Gen 1 Type-A, and 1x Front USB 3.2 Gen 1 Type-C for hassle free setup."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Gigabyte B760 Aorus Elite AX"
+    ]
+  },
+  "B0BVKYWPFT": {
+    "asin": "B0BVKYWPFT",
+    "title": "ASUS TUF Gaming B760-PLUS WiFi Intel B760 LGA1700 DDR5 7200 DP HDMI 3X M2 USB3.2 AX WiFi + BT 2.5Gbit LAN up to ATX 128GB ram Support, ASUS 5X TUF Motherboard Protection III",
+    "brand": "ASUS",
+    "price": "$192.18",
+    "img": "https://m.media-amazon.com/images/I/51aOVW9BLuL._SL500_.jpg",
+    "features": [
+      "TUF GAMING B760-PLUS WIFI takes core elements of Intel processors and combines them with game-ready features and proven durability"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS TUF B760-Plus WiFi"
+    ]
+  },
+  "B0FVB76FH2": {
+    "asin": "B0FVB76FH2",
+    "title": "ASUS TUF Gaming BE6500 WiFi 7 Router - Dual-Band, Up to 6.5 Gbps Wireless, Game Accelerator, Multi-Link Operation (MLO), (x4) 2.5GbE Ports, Mesh + VPN Compatible, & Subscription-Free Network Security",
+    "brand": "ASUS",
+    "price": "$150.00",
+    "img": "https://m.media-amazon.com/images/I/31s79KgGhCL._SL500_.jpg",
+    "features": [
+      "WiFi 7 Gaming Router - WiFi 7 (802.11be) dual-band gaming router boosts speeds up to 6500 Mbps, with 4096-QAM increasing a single frequency band's transmission speed by 1.2 times.",
+      "Game Tough with Stability & Low Latency - Multi-link operation (MLO) link up to multi-band at the same time to ensure the stable internet connection and increase the efficiency.",
+      "Quad 2.5G Port - Traffic via 2.5G ports has top priority, supported by 1* WAN and 3* LAN port configurations to maximize wired internet connectivity.",
+      "One Router. All Game Types - TUF Gaming BE6500 provides gamers with different features for different game types, including a one-tap mobile game packet prioritization, a dedicated Gaming Port that ensures your device remains at the front of the queue for optimal performance, and Open NAT that simplifies multiplayer setups with easy port forwarding in just 3 steps.",
+      "Comprehensive Security System - Support the latest ASUS security system, give you a wonderful protection from any network threaten.",
+      "Tested Durability and Stable Operation - TUF Gaming BE6500 is built to be durable and undergoes verified testing to ensure reliable, stable operation."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS TUF B760-Plus WiFi"
+    ]
+  },
+  "B0997N7P12": {
+    "asin": "B0997N7P12",
+    "title": "ASUS TUF Gaming A520M-PLUS (WiFi) AMD AM4 (3rd Gen Ryzen™) microATX Gaming Motherboard (M.2 Support, 802.11ac Wi-Fi, DisplayPort, HDMI, D-Sub, USB 3.2 Gen 1 Type-A and Aura Addressable Gen 2 headers)",
+    "brand": "ASUS",
+    "price": "$99.99",
+    "img": "https://m.media-amazon.com/images/I/51ycpqcuJwL._SL500_.jpg",
+    "features": [
+      "AMD AM4 Socket: l Ready for Ryzen 5000 Series/ 4000 G-Series/ 3000 Series Desktop Processors",
+      "Comprehensive cooling: Large VRM heatsink, PCH heatsink and Fan Xpert 2+",
+      "Made for online gaming: 802.11ac Wi-Fi, TUF LANGuard and TurboLAN technology",
+      "Gaming Connectivity: BIOS FlashBack button, USB 3.2 Gen 1 Type-A, 32Gb/s M.2 onboard, SATA 6Gb/s, 802.11ac Wi-Fi, DisplayPort/HDMI/D-Sub",
+      "Gaming Look and Feel: ASUS-exclusive Aura Sync RGB lighting, including RGB headers and a Gen 2 addressable RGB header for greater customization"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS TUF B760-Plus WiFi"
+    ]
+  },
+  "B0BH97W2N4": {
+    "asin": "B0BH97W2N4",
+    "title": "Asus ROG Strix Z790-A Gaming WiFi D4 Intel Z790 LGA 1700 ATX DDR4-SDRAM Motherboard",
+    "brand": "ASUS",
+    "price": "$724.00",
+    "img": "https://m.media-amazon.com/images/I/41xRSy7GVrL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Strix Z790-A"
+    ]
+  },
+  "B0BG6KQPWD": {
+    "asin": "B0BG6KQPWD",
+    "title": "ASUS ROG Strix Z790-E Gaming WiFi 6E LGA 1700(Intel 14th,13th&12th Gen) ATX gaming motherboard(PCIe 5.0, DDR5,18+1 power stages,2.5 Gb LAN,Thunderbolt 4,5xM.2, 1xPCIe 5.0 M.2,Front panel USB 3.2 port)",
+    "brand": "ASUS",
+    "price": "$279.99",
+    "img": "https://m.media-amazon.com/images/I/41jtIyebwaL._SL500_.jpg",
+    "features": [
+      "Intel LGA 1700 socket: Ready for 14th, 13th and12th Gen Intel Core processors, support PCIe 5.0,DDR5 and out-of-box Windows 11 ready",
+      "AI Motherboard : AI Overclocking, AI cooling II, AI networking(GameFirst VI) and AI noise cancellation",
+      "Robust Power Solution: 18+1 90A power stages with ProCool II power connector, high-quality alloy chokes and durable capacitors to support multi-core processors",
+      "Optimized Thermal Design: VRM heatsink, PCH fanless heatsink, double-sided M.2 heatsink, hybrid fan headers and Fan Xpert 4 utility",
+      "High-performance Gaming Networking: On-board WiFi 6E and Intel 2.5 Gb Ethernet with ASUS LANGuard"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Strix Z790-A"
+    ]
+  },
+  "B0BH94Z782": {
+    "asin": "B0BH94Z782",
+    "title": "Asus Sparepart Rog Strix Z790-I Gaming WiFi Intel Z790 Lga 1700 Mini Itx, W128279244 (Intel Z790 Lga 1700 Mini Itx)",
+    "brand": "ASUS",
+    "price": "$573.73",
+    "img": "https://m.media-amazon.com/images/I/41dHtd6r5JL._SL500_.jpg",
+    "features": [
+      "AMD LGA 1700 Intel Celeron, Intel Core i3, Intel Core i5, Intel Core i7, Intel Core i9, Intel Pentium Gold",
+      "PC mini ITX Intel Z790",
+      "DDR5-SDRAM 2 DIMM Non-ECC Maximum internal memory: 64 GB"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Strix Z790-A"
+    ]
+  },
+  "B0CJSL89T2": {
+    "asin": "B0CJSL89T2",
+    "title": "MSI MAG Z790 Tomahawk MAX WiFi Gaming Motherboard (Supports 12th/13th/14th Gen Intel Processors, LGA 1700, DDR5, PCIe 5.0, M.2, SATA 6G, 2.5Gbps LAN, USB 3.2 Gen2, Wi-Fi 7, Bluetooth 5.4, ATX)",
+    "brand": "msi",
+    "price": "$174.99",
+    "img": "https://m.media-amazon.com/images/I/51Nm+eCDx9L._SL500_.jpg",
+    "features": [
+      "Supports Intel Core Next-gen/13th Gen/12th Gen Pentium Gold and Celeron processors for LGA 1700 socket",
+      "Supports DDR5 Memory, up to 7800+(OC) MHz",
+      "Enhanced Power Design: 16+1+1 Mirrored Power Arrangement, dual 8-pin CPU power connectors, Core Boost, Memory Boost",
+      "Lightning Fast Game experience: PCIe 5.0 slot, Lightning Gen 5 M.2, USB 3.2 Gen 2x2",
+      "Premium Thermal Solution: Extended Heatsink Design and M.2 Shield Frozr are built for high performance system and non-stop works"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "MSI MAG Z790 Tomahawk WiFi"
+    ]
+  },
+  "B0C2ZWVHDF": {
+    "asin": "B0C2ZWVHDF",
+    "title": "MSI MAG Z790 Tomahawk WiFi Computer Gaming Motherboard (Supports 12th/13th Gen Intel Processors, LGA 1700, DDR5, PCIe 5.0, M.2, USB 3.2 Gen2, Wi-Fi 6E, ATX) Intel Gaming PC Motherboards (Renewed)",
+    "brand": "msi",
+    "price": "$139.88",
+    "img": "https://m.media-amazon.com/images/I/41tOb78QiWL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "MSI MAG Z790 Tomahawk WiFi"
+    ]
+  },
+  "B09Y1FJBHX": {
+    "asin": "B09Y1FJBHX",
+    "title": "MSI MAG MAG Z790 Tomahawk Gaming Desktop Motherboard - Intel Z790 Chipset - Socket LGA-1700 - ATX",
+    "brand": "msi",
+    "price": "$139.99",
+    "img": "https://m.media-amazon.com/images/I/516zc9SKucL._SL500_.jpg",
+    "features": [
+      "Supports 13th /12th Gen Intel® Core™ / Pentium® / Celeron® processors for LGA 1700 socket",
+      "Supports DDR5 Memory, up to 7200+(OC) MHz",
+      "Lightning Fast Game experience: PCIe 5.0 slot, Lightning Gen 5 x4 M.2, USB 3.2 Gen 2x3",
+      "2.5G LAN and Intel Wi-Fi 6E Solution: Upgraded network solution for professional and multimedia use. Delivers a secure, stable and fast network connection"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "MSI MAG Z790 Tomahawk WiFi"
+    ]
+  },
+  "B0BS5KZJ57": {
+    "asin": "B0BS5KZJ57",
+    "title": "GIGABYTE Z790 AORUS Elite AX (LGA 1700/ Intel Z790/ ATX/ DDR5/ Quad M.2/ PCIe 5.0/ USB 3.2 Gen2X2 Type-C/Intel WiFi 6E/ 2.5GbE LAN/Q-Flash Plus/PCIe EZ-Latch/Gaming Motherboard) (Renewed)",
+    "brand": "Gigabyte",
+    "price": "$139.00",
+    "img": "https://m.media-amazon.com/images/I/51HZ7bYOxhL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Gigabyte Z790 Aorus Elite AX"
+    ]
+  },
+  "B0BH28M64J": {
+    "asin": "B0BH28M64J",
+    "title": "GIGABYTE Z790 AORUS Elite AX 1.0 Intel LGA 1700 ATX Motherboard, 4X DDR5~128GB, 3X PCI-E x16, 4X M.2, 6X SATA, 5X USB 3.2, 1x USB-C, 4X USB 2.0",
+    "brand": "GIGABYTE",
+    "img": "https://m.media-amazon.com/images/I/41YVIl-+FTL._SL500_.jpg",
+    "features": [
+      "Z790 A ELITE AX I"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Gigabyte Z790 Aorus Elite AX"
+    ]
+  },
+  "B0BYB3PGQW": {
+    "asin": "B0BYB3PGQW",
+    "title": "MSI MAG X670E Tomahawk WiFi Gaming Motherboard (AMD Ryzen 9000/8000/7000 Series Processors, AM5, DDR5, PCIe 5.0, SATA 6Gb/s, M.2, USB 3.2 Gen 2, Wi-Fi 6E, Bluetooth 5.3, 2.5Gbps LAN, HDMI/DP, ATX)",
+    "brand": "msi",
+    "price": "$109.99",
+    "img": "https://m.media-amazon.com/images/I/41sDbT8MooL._SL500_.jpg",
+    "features": [
+      "Support AMD Ryzen 7000 Series Desktop Processors",
+      "Supports DDR5 Memory, up to 6600+(OC) MHz",
+      "Enhanced Power Design: 14+2+1 Duet Rail Power System, dual 8-pin CPU power connectors, Core Boost, Memory Boost",
+      "Lightning Fast Game experience: PCIe 5.0 slot, Lightning Gen5 M.2, USB 3.2 Gen 2x2",
+      "Premium Thermal Solution: Extended Heatsink Design and M.2 Shield Frozr are built for high performance system and non-stop works"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "X670E motherboard",
+      "MSI X670E Tomahawk"
+    ]
+  },
+  "B0BDTHQTJV": {
+    "asin": "B0BDTHQTJV",
+    "title": "ASUS ROG STRIX X670E-E GAMING WIFI AMD X670 AM5 Ryzen™ Desktop 9000 8000 & 7000 ATX motherboard, 18+2 power stages, DDR5, 4x M.2 slots with heatsink, PCIe® 5.0, USB 3.2 Gen 2x2, WiFi 6E, AI Cooling II",
+    "brand": "ASUS",
+    "price": "$429.99",
+    "img": "https://m.media-amazon.com/images/I/41sPRYUb+wL._SL500_.jpg",
+    "features": [
+      "AM5 Socket: Ready for AMD Ryzen Desktop 9000*, 8000*, and 7000 Series Processors",
+      "*BIOS Update maybe required when used with AMD Ryzen Desktop 9000 and 8000 Series CPU Processors",
+      "Robust Power Solution: 18 + 2 teamed power stages with 8+8 pin ProCool II power connectors, high-quality alloy chokes and durable capacitors to support multi-core processors",
+      "Optimized Thermal Design: Massive VRM heatsinks plus integrated aluminum I/O cover, high-conductivity thermal pad, L-shaped heatpipe, M.2 Combo-sink and M.2 backplate for the PCIe 5.0 M.2_1 slot, three onboard M.2 heatsinks, plus a massive M.2 heatsink as an accessory",
+      "Overclocking technologies: Dynamic OC Switcher, Core Flex, Asynchronous Clock and PBO Enhancement",
+      "High-Performance Networking: Onboard WiFi 6E, Intel 2.5 Gb Ethernet and ASUS LANGuard",
+      "Fastest Gaming Connectivity: Two PCIe 5.0 expansion slots, three onboard PCIe 5.0 M.2 slots, USB 3.2 Gen 2x2 front-panel connector and Thunderbolt header",
+      "Industry-Leading Audio: ROG SupremeFX ALC4080 with Savitech SV3H712 amplifier, along with DTS Sound Unbound and Sonic Studio III",
+      "Unmatched Personalization: ASUS-exclusive Aura Sync RGB lighting, including one RGB header and three addressable Gen 2 RGB headers",
+      "DIY-Friendly Design: Power button, Pre-mounted I/O shield, PCIe Slot Q-Release, M.2 Q-Latch, Q-Code, Q-LED, BIOS FlashBack, Clr CMOS Button, FlexKey, SafeSlot and SafeDIMM"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "X670E motherboard",
+      "ASUS ROG Strix X670E"
+    ]
+  },
+  "B0BDV6RR2K": {
+    "asin": "B0BDV6RR2K",
+    "title": "ASUS ROG STRIX X670E-A GAMING WIFI AMD X670 AM5 Ryzen™ Desktop 9000 8000 & 7000 ATX motherboard, 16+2 power stages, PCIe® 5.0, DDR5, 4x M.2 slots with heatsink, USB 3.2 Gen 2x2, WiFi 6E, AI Cooling II",
+    "brand": "ASUS",
+    "price": "$384.59",
+    "img": "https://m.media-amazon.com/images/I/41tYiMZhJWL._SL500_.jpg",
+    "features": [
+      "AM5 Socket: Ready for AMD Ryzen Desktop 9000*, 8000*, and 7000 Series Processors",
+      "*BIOS Update maybe required when used with AMD Ryzen Desktop 9000 and 8000 Series CPU Processors",
+      "Robust Power Solution: 16 + 2 teamed power stages with 8+8 pin ProCool II power connectors, high-quality alloy chokes and durable capacitors to support multi-core processors",
+      "Optimized Thermal Design: Massive VRM heatsinks plus integrated aluminum I/O cover, high-conductivity thermal pad, four onboard M.2 heatsinks and one M.2 backplate for the M.2_1 slot",
+      "Overclocking technologies: Dynamic OC Switcher, Core Flex and PBO Enhancement"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "X670E motherboard",
+      "ASUS ROG Strix X670E"
+    ]
+  },
+  "B0BDTJFHKJ": {
+    "asin": "B0BDTJFHKJ",
+    "title": "ASUS TUF Gaming X670E-PLUS WiFi 6E Socket AM5 (LGA 1718) Ryzen 7000 ATX Gaming Motherboard(16 Power Stages, PCIe® 5.0, DDR5 Memory, Four M.2 Slots,2.5 Gb LAN,USB 4, Aura RGB Lighting).",
+    "brand": "ASUS",
+    "price": "$119.99",
+    "img": "https://m.media-amazon.com/images/I/51gHdaJX3bL._SL500_.jpg",
+    "features": [
+      "AM5 Socket: Ready for AMD Ryzen Desktop 9000*, 8000*, and 7000 Series Processors",
+      "*BIOS Update maybe required when used with AMD Ryzen Desktop 9000 and 8000 Series CPU Processors",
+      "Enhanced power solution: 14+2 teamed power stages, eight-layer PCB, 8+8 ProCool sockets, alloy chokes and durable capacitors for stable power delivery",
+      "Next-gen connectivity: PCIe 5.0, USB 3.2 Gen2x2 Type-C, front USB 3.2 Gen 2 Type-C, Thunderbolt (USB4) header support",
+      "Made for online Gaming: Realtek 2.5 Gb Ethernet, WiFi 6E and TUF LANGuard"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "X670E motherboard"
+    ]
+  },
+  "B0C2JKZSXD": {
+    "asin": "B0C2JKZSXD",
+    "title": "ASUS TUF Gaming X670E-PLUS WiFi 6E Socket AM5 (LGA 1718) Ryzen 7000 ATX Gaming Motherboard(16 Power Stages, PCIe® 5.0, DDR5 Memory, Four M.2 Slots,2.5 Gb LAN,USB 4, Aura RGB Lighting) (Renewed)",
+    "brand": "ASUS",
+    "price": "$159.99",
+    "img": "https://m.media-amazon.com/images/I/51gHdaJX3bL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "X670E motherboard"
+    ]
+  },
+  "B0CRF81BBC": {
+    "asin": "B0CRF81BBC",
+    "title": "MSI X670E GAMING PLUS WIFI Gaming Motherboard (AMD Ryzen 9000/8000/7000 Series Processors, AM5, DDR5, PCIe 5.0, SATA 6Gb/s, M.2 slots, USB 3.2 Gen 2, Wi-Fi 6E, Bluetooth 5.3, 2.5Gbps LAN, HDMI/DP,ATX)",
+    "brand": "msi",
+    "price": "$157.99",
+    "img": "https://m.media-amazon.com/images/I/51IBqF7SXKL._SL500_.jpg",
+    "features": [
+      "Supports AMD Ryzen 7000 Series Desktop Processors",
+      "Supports DDR5 Memory, up to 7800+(OC) MHz",
+      "Enhanced Power Design: 14+2+1 Duet Rail Power System, dual 8-pin CPU power connectors, Core Boost, Memory Boost",
+      "Lightning Fast Game experience: PCIe 5.0 slot, Lightning Gen5 M.2, USB 3.2 Gen 2x2",
+      "Premium Thermal Solution: Extended Heatsink Design and M.2 Shield Frozr are built for high performance system and non-stop works"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "X670E motherboard",
+      "MSI X670E Tomahawk"
+    ]
+  },
+  "B0BGPGH6WG": {
+    "asin": "B0BGPGH6WG",
+    "title": "ASRock X670E Taichi Carrara Support AMD AM5 RYZEN 7000 Series Processors Motherboard",
+    "brand": "ASRock",
+    "price": "$549.99",
+    "img": "https://m.media-amazon.com/images/I/41ZSboKI-rL._SL500_.jpg",
+    "features": [
+      "CPU:SUPPORT AMD AM5 RYZEN 7000 SERIES PROCESSORS",
+      "CHIPSET:AMD X670",
+      "MEMORY:DUAL CHANNEL;4*DDR5;MAX 128GB",
+      "SLOT:2*PCIE5.0X16;1*VERTICAL M.2",
+      "GRAPHICS:INTEGRATED AMD RDNATM2 GRAPHICS(ACTUAL SUPPORTY VARY BY CPU)"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "X670E motherboard"
+    ]
+  },
+  "B0BF6VKQP4": {
+    "asin": "B0BF6VKQP4",
+    "title": "ASUS Prime X670E-PRO WiFi AMD X670 AM5 Ryzen™ Desktop 9000 8000 & 7000 ATX Motherboard with PCIe® 5.0, Four M.2 Slots, DDR5 Slots, USB 3.2 Gen 2x2 Type-C®, USB4® Support, WiFi 6E, and 2.5G Ethernet",
+    "brand": "ASUS",
+    "price": "$369.99",
+    "img": "https://m.media-amazon.com/images/I/51W55Yc7DbL._SL500_.jpg",
+    "features": [
+      "AM5 Socket: Ready for AMD Ryzen Desktop 9000*, 8000*, and 7000 Series Processors",
+      "*BIOS Update maybe required when used with AMD Ryzen Desktop 9000 and 8000 Series CPU Processors",
+      "Enhanced power solution: 14+2 teamed power stages, ProCool sockets, alloy chokes and durable capacitors for stable power delivery",
+      "Next-gen connectivity: PCIe 5.0, USB 3.2 Gen2x2 Type-C, front USB 3.2 Gen 2 Type-C, USB4 header support, WiFi 6E, Realtek 2.5 Gb Ethernet, and LANGuard",
+      "Exclusive overclocking technology: AI Overclocking, Dynamic OC Switcher, and Ryzen Core Flex"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "X670E motherboard"
+    ]
+  },
+  "B0BF5B847D": {
+    "asin": "B0BF5B847D",
+    "title": "ASUS ROG STRIX X670E-F GAMING WIFI AMD X670 Socket AM5 ATX",
+    "brand": "ASUS",
+    "price": "$439.88",
+    "img": "https://m.media-amazon.com/images/I/41HAF8S7LAL._SL500_.jpg",
+    "features": [
+      "AMD Socket AM5 for AMD Ryzen 7000 Series Desktop Processors",
+      "Intelligent control: ASUS exclusive tools such as AI Cooling II, AI Networking and Two-Way AI Noise Cancelation for easy configuration.",
+      "AI Cooling II uniquely balances noise and thermals for your system with a single click",
+      "Dynamic clocking to simultaneously maximize Ryzen gaming and compute performance"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Strix X670E"
+    ]
+  },
+  "B0BDTK4SLH": {
+    "asin": "B0BDTK4SLH",
+    "title": "ASUS ROG STRIX X670E-F GAMING WIFI AMD X670 AM5 Ryzen™ Desktop 9000 8000 & 7000 ATX motherboard, 18+2 power stages, DDR5, 4x M.2 slots with heatsink, PCIe® 5.0, USB 3.2 Gen 2x2, WiFi 6E, AI Cooling II",
+    "brand": "ASUS",
+    "price": "$429.99",
+    "img": "https://m.media-amazon.com/images/I/41HAF8S7LAL._SL500_.jpg",
+    "features": [
+      "AM5 Socket: Ready for AMD Ryzen Desktop 9000*, 8000*, and 7000 Series Processors",
+      "*BIOS Update maybe required when used with AMD Ryzen Desktop 9000 and 8000 Series CPU Processors",
+      "Robust Power Solution: 18 + 2 teamed power stages with 8+8 pin ProCool II power connectors, high-quality alloy chokes and durable capacitors to support multi-core processors",
+      "Optimized Thermal Design: Massive VRM heatsinks plus integrated aluminum I/O cover, high-conductivity thermal pad, L-shaped heatpipe, M.2 Combo-sink and M.2 backplate for the PCIe 5.0 M.2_1 slot, three onboard M.2 heatsinks, plus a massive M.2 heatsink as an accessory",
+      "Overclocking technologies: Dynamic OC Switcher, Core Flex, Asynchronous Clock and PBO Enhancement"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Strix X670E"
+    ]
+  },
+  "B0BDTVCJF8": {
+    "asin": "B0BDTVCJF8",
+    "title": "ASUS ROG Strix X670E-I Gaming WiFi AMD X670 AM5 Ryzen™ Desktop 9000 & 7000 mini-ITX mITX Motherboard, 10+2 Power Stages, ROG Strix Hive, PBO Button, PCIe® 5.0, DDR5, Wi-Fi 6E, 2X M.2, 2X USB4® Type-C",
+    "brand": "ASUS",
+    "price": "$345.58",
+    "img": "https://m.media-amazon.com/images/I/41lRzGBaxiL._SL500_.jpg",
+    "features": [
+      "AM5 Socket: Ready for AMD Ryzen Desktop 9000*, 8000*, and 7000 Series Processors",
+      "*BIOS Update maybe required when used with AMD Ryzen Desktop 9000 and 8000 Series CPU Processors",
+      "Robust Power Solution: 10 + 2 power stages with ProCool II power connector, high-quality alloy chokes and durable capacitors to support multi-core processors",
+      "Optimized Thermal Design: Active VRM Heatsink with high conductivity thermal pads and an M.2 Gen 5 & Chipset Heatsink",
+      "Overclocking technologies: Dynamic OC Switcher, Core Flex and PBO Enhancement",
+      "High-performance Networking: On-board Wi-Fi 6E and Intel 2.5 Gb Ethernet with ASUS LANGuard",
+      "Fastest Gaming Connectivity: HDMI 2.1, PCIe 5.0, two M.2 slots and two USB4 Type-C ports",
+      "Industry-leading Audio: ROG Strix Hive external audio solution with Realtek ALC4050 codec and ESS SABRE 9260Q DAC, along with DTS Sound Unbound and Sonic Studio III",
+      "DIY Friendly Design: Bundled ROG FPS-II Card and ROG Strix Hive, EZ mode PBO button, M.2 Q-Latch, pre-mounted I/O shield and BIOS FlashBack button",
+      "Unmatched Personalization: ASUS-exclusive Aura Sync RGB lighting, including one RGB header and one addressable Gen 2 header"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Strix X670E"
+    ]
+  },
+  "B0B6Q4X5NF": {
+    "asin": "B0B6Q4X5NF",
+    "title": "MSI MEG X670E ACE Gaming Motherboard (AMD Ryzen 9000/8000/7000 Series Processors, AM5, DDR5, PCIe 5.0, SATA 6Gb/s, M.2, USB 3.2 Gen 2, Wi-Fi 6E, Bluetooth 5.3, HDMI/DP, EATX)",
+    "brand": "msi",
+    "price": "$465.95",
+    "img": "https://m.media-amazon.com/images/I/41FuEMOaXZL._SL500_.jpg",
+    "features": [
+      "Support AMD Ryzen 7000 Series Desktop Processors",
+      "Supports 4 DIMMs, Dual Channel DDR5-5600+ (OC)",
+      "Mystic Light Infinity: Customize and set up your own color scheme with MSI Mystic Light, combining exclusive mirror reflection to generate the special endless light effects, the ACE makes your system come alive and infinity",
+      "Lightning Fast Game experience: PCIe 5.0, Triple Lightning Gen5 x4 M.2 with M.2 Shield Frozr, StoreMI, AMD Turbo USB 3.2 Gen2",
+      "Gbps LAN with latest Wi-Fi 6E solution: Onboard 2.5G plus Gigabit LAN with gaming LAN manager, combining latest Wi-Fi 6 solution which supports MU-MIMO and BSS color technology, delivering the best online gaming experience"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "MSI X670E Tomahawk"
+    ]
+  },
+  "B0BM38QB9W": {
+    "asin": "B0BM38QB9W",
+    "title": "ASRock Z790 Pro RS WiFi LGA1700 ATX Motherboard, Supports 14th/13th/12th Gen Intel Core Processors, DDR5 7200+ (OC), PCIe 5.0, 2.5G LAN, WiFi 6E, 14+1+1 Power Phase, 4X M.2 Slots",
+    "brand": "ASRock",
+    "price": "$139.99",
+    "img": "https://m.media-amazon.com/images/I/41escPAesdL._SL500_.jpg",
+    "features": [
+      "Comprehensive Intel Support: Fully compatible with 14th, 13th, and 12th Gen Intel Core processors (LGA1700 socket) for exceptional gaming and productivity performance",
+      "Robust Power Design: 14+1+1 phase power design with Dr.MOS technology ensures stable and efficient power delivery for demanding workloads",
+      "High-Speed DDR5 Memory: 4 DDR5 DIMM slots support dual-channel configurations and overclocked speeds up to 7200+ (OC)",
+      "PCIe 5.0 Ready: Features one PCIe 5.0 x16 slot for next-generation graphics cards, ensuring future-proof performance",
+      "Extensive Storage Options: Four Hyper M.2 (PCIe Gen4x4) slots and eight SATA3 ports provide massive storage expansion capabilities",
+      "Advanced Networking: Realtek 2.5G LAN and WiFi 6E with Bluetooth deliver high-speed wired and wireless connectivity",
+      "Premium Audio Experience: Realtek ALC897 7.1 CH HD Audio Codec with Nahimic Audio provides immersive sound quality",
+      "Comprehensive Connectivity: Multiple high-speed USB ports including front and rear USB 3.2 Gen2x2 Type-C, plus HDMI and DisplayPort outputs",
+      "System Compatibility Note: This standard ATX motherboard may not be compatible with all cases; please verify chassis specifications before purchase",
+      "Dedicated Support: Contact us directly through Amazon for any product questions or assistance"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASRock Z790 motherboard"
+    ]
+  },
+  "B0BJYYFP3X": {
+    "asin": "B0BJYYFP3X",
+    "title": "ASRock Z790 PG Sonic LGA1700 Motherboard, Intel 14th/13th/12th Gen Support, DDR5 7200+ OC, PCIe 5.0, Killer 2.5G LAN, Sonic Themed Design, 14+1+1 Power Phase",
+    "brand": "ASRock",
+    "price": "$159.99",
+    "img": "https://m.media-amazon.com/images/I/51W-APohb0L._SL500_.jpg",
+    "features": [
+      "Lightning Gaming Ports - Mice/Keyboard control with lower jitter and latency",
+      "Nahimic Audio - Offers you the most engaging listening experience, vibrant and rich with details",
+      "Polychrome SYNC - Allows users to synchronize RGB LED devices and create their own unique lighting effects"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASRock Z790 motherboard"
+    ]
+  },
+  "B0BJDZ4YZR": {
+    "asin": "B0BJDZ4YZR",
+    "title": "ASRock Z790 Pro RS Intel Z790 Series CPU (LGA1700) DDR5 Memory Compatible Z790 ATX Motherboard",
+    "brand": "ASRock",
+    "price": "$279.90",
+    "img": "https://m.media-amazon.com/images/I/51AtBbTl9zL._SL500_.jpg",
+    "features": [
+      "Supports 13th Gen & 12th Gen Intel Core Processors",
+      "14+1+1 Phase Power Design, Dr.MOS for VCore+GT",
+      "4 x DDR5 DIMMs, supports up to 6800+(OC)",
+      "1 PCIe 5.0 x16, 1 PCIe 4.0 x16, 2 PCIe 3.0 x1, 1 M.2 Key-E for WiFi",
+      "Graphics Output Options: 1 HDMI, 1 DisplayPort, eDP"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASRock Z790 motherboard"
+    ]
+  },
+  "B0BJZF7XNW": {
+    "asin": "B0BJZF7XNW",
+    "title": "Asro Z790 Taichi Carrara Z790",
+    "brand": "ASRock",
+    "price": "$279.99",
+    "img": "https://m.media-amazon.com/images/I/41Xhy8jUybL._SL500_.jpg",
+    "features": [
+      "Supports 13th Gen & 12th Gen Intel Core Processors",
+      "24+1+2 Phase Power Design, SPS for VCore+GT",
+      "4 x DDR5 DIMMs, supports up to 7400+(OC)",
+      "2 PCIe 5.0 x16, 1 PCIe 4.0 x16, 1 M.2 Key-E for WiFi",
+      "Graphics Output Options: 2 USB4 Type-C, 1 HDMI"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASRock Z790 motherboard"
+    ]
+  },
+  "B0CLCST131": {
+    "asin": "B0CLCST131",
+    "title": "ASRock Z790 Lightning WiFi LGA1700 Motherboard, Intel 14th/13th/12th Gen Support, DDR5 7600+ OC, PCIe 5.0, Killer WiFi 6E, 2.5G LAN, 16+1+1 Power Phase, 8-Layer PCB",
+    "brand": "ASRock",
+    "price": "$99.99",
+    "img": "https://m.media-amazon.com/images/I/51NR8Tal0uL._SL500_.jpg",
+    "features": [
+      "Premium Power Design: 16+1+1 phase power architecture with Dr.MOS and 8-layer PCB for extreme stability and overclocking",
+      "High-Speed Memory Support: Four DDR5 DIMM slots support dual-channel configurations up to 7600+ (OC)",
+      "Next-Gen Connectivity: PCIe 5.0 x16 slot ready for future graphics cards with enhanced bandwidth",
+      "Advanced Thermal Management: Toolless multi-layer M.2 heatsink ensures optimal cooling for high-speed SSDs",
+      "Killer Networking Suite: Intel Killer 2.5G LAN and Killer WiFi 6E with Bluetooth for lag-free connectivity",
+      "Comprehensive Storage: Three Hyper M.2 PCIe 4.0 x4 slots and six SATA3 ports for expansive storage options",
+      "High-Speed USB Connectivity: USB 3.2 Gen2x2 Type-C (20Gbps), multiple USB 3.2 Gen2/Gen1 ports, and front-panel Type-C",
+      "Enhanced Audio Solution: Realtek ALC897 7.1 CH HD Audio Codec with Nahimic Audio for immersive sound",
+      "Compatibility Note: Verify CPU compatibility and ensure proper cooling for high-speed DDR5 overclocking",
+      "⚠️\"BUYER PLEASE BE AWARE THIS IS A USED/LIKE NEW ITEM. IT MAY NOT CONTAIN ALL ACCESSORIES THAT COME IN A NEW RETAIL PACKAGE. PLEASE REACH OUT TO US ON AMAZON'S MESSAGING PLATFORM IF REPLACEMENT PARTS ARE NEEDED.\""
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASRock Z790 motherboard"
+    ]
+  },
+  "B0BJF1RS19": {
+    "asin": "B0BJF1RS19",
+    "title": "ASRock MB ASROCK | Z790 Steel Legend WiFi",
+    "brand": "ASRock",
+    "price": "$367.99",
+    "img": "https://m.media-amazon.com/images/I/51yMm17oaqL._SL500_.jpg",
+    "features": [
+      "Supports 13th Gen & 12th Gen Intel Core Processors",
+      "16+1+1 Phase Power Design, SPS for VCore+GT",
+      "4 x DDR5 DIMMs, supports up to 6800+(OC)",
+      "1 PCIe 5.0 x16, 1 PCIe 4.0 x16, 1 PCIe 3.0 x16, 1 M.2 Key-E for WiFi",
+      "Graphics Output Options: 1 HDMI, 1 DisplayPort, eDP"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASRock Z790 motherboard"
+    ]
+  },
+  "B0BJDZRGRW": {
+    "asin": "B0BJDZRGRW",
+    "title": "ASRock MB ASROCK | Z790 PG Lightning Motherboard",
+    "brand": "ASRock",
+    "price": "$223.00",
+    "img": "https://m.media-amazon.com/images/I/410GHUOaFvL._SL500_.jpg",
+    "features": [
+      "Supports 13th Gen & 12th Gen Intel Core Processors",
+      "14+1+1 Phase Power Design, Dr.MOS for VCore+GT",
+      "4 x DDR5 DIMMs, supports up to 6800+(OC)",
+      "1 PCIe 5.0 x16, 1 PCIe 4.0 x16, 3 PCIe 3.0 x1, 1 M.2 Key-E for WiFi",
+      "Graphics Output Options: 1 HDMI, eDP"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASRock Z790 motherboard"
+    ]
+  },
+  "B0BL92SPJQ": {
+    "asin": "B0BL92SPJQ",
+    "title": "MSI MPG Z790 Edge WiFi Gaming Motherboard (Supports 12th/13th/14th Gen Intel Processors, LGA 1700, DDR5, PCIe 5.0, M.2, 2.5Gbps LAN, USB 3.2 Gen2, Wi-Fi 6E, Bluetooth 5.3, ATX)",
+    "brand": "msi",
+    "price": "$425.75",
+    "img": "https://m.media-amazon.com/images/I/41RT-47xVoL._SL500_.jpg",
+    "features": [
+      "Supports 12th/13th Gen Intel Core, Pentium Gold and Celeron processors for LGA 1700 socket",
+      "Supports DDR5 Memory, up to 7200+(OC) MHz",
+      "Lightning Fast Game experience: PCIe 5.0 slot, Lightning Gen 4 x4 M.2, USB 3.2 Gen 2x2",
+      "Enhanced Power Design: 16+1+1 Duet Rail Power System, dual 8-pin CPU power connectors, Core Boost, Memory Boost",
+      "Premium Thermal Solution: Enlarged heatsink with heat-pipe, MOSFET thermal pads rated for 7W/mk, additional choke thermal pads and M.2 Shield Frozr are built for high performance system and non-stop gaming experience"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "MSI MPG Z790 Edge"
+    ]
+  },
+  "B0CFWL42ZG": {
+    "asin": "B0CFWL42ZG",
+    "title": "MSI MPG Z790 Edge WiFi Gaming Motherboard (Supports 12th/13th Gen Intel Processors, LGA 1700, DDR5, PCIe 5.0, M.2, 2.5Gbps LAN, USB 3.2 Gen2, Wi-Fi 6E, ATX) (Renewed)",
+    "brand": "msi",
+    "price": "$148.44",
+    "img": "https://m.media-amazon.com/images/I/51VQmVnjkkL._SL500_.jpg",
+    "features": [
+      "Supports Intel 12th and 13th Generation Core processors with the LGA 1700 socket and DDR5 memory compatibility for modern desktop PC builds.",
+      "Features PCIe 5.0 expansion support and multiple M.2 storage slots for high-speed storage and next-generation component compatibility.",
+      "Integrated Wi-Fi 6E and 2.5 Gigabit LAN provide flexible wired and wireless networking options for home, office, and gaming environments.",
+      "ATX form factor motherboard designed with multiple connectivity options, including USB 3.2 ports and expansion support for compatible peripherals.",
+      "Renewed product professionally inspected and tested to verify functionality and performance standards prior to resale."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "MSI MPG Z790 Edge"
+    ]
+  },
+  "B0F258T33W": {
+    "asin": "B0F258T33W",
+    "title": "MSI MPG Z790 Carbon MAX WiFi II Gaming Motherboard (Supports 12th/13th/14th Gen Intel Processors, LGA 1700, DDR5, PCIe 5.0, M.2, 2.5Gbps LAN, USB 4, Wi-Fi 7, ATX) (Renewed)",
+    "brand": "msi",
+    "price": "$249.95",
+    "img": "https://m.media-amazon.com/images/I/51o4mYhkY0L._SL500_.jpg",
+    "features": [
+      "Support Intel Core 14th/13th/12th Gen Processors, Intel Pentium Gold and Celeron Processors for LGA 1700 socket",
+      "Supports DDR5 Memory, up to 7800+(OC) MHz",
+      "Lightning Fast Game experience: PCIe 5.0 slot, Lightning Gen 5 x4 M.2, USB 3.2 Gen 2x2",
+      "Enhanced Power Design: Direct 19+1+1 phases power, Core Boost, Memory Boost",
+      "2.5G LAN and Wi-Fi 7 Solution: Upgraded network solution for professional and multimedia use. Delivers a secure, stable and fast network connection"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "MSI MPG Z790 Edge"
+    ]
+  },
+  "B0D3V237N5": {
+    "asin": "B0D3V237N5",
+    "title": "Msi MPGZ790EDGEMONSTERHUNTEREDITION Mb Msimpg Z790 Edge Monster Hunter Edition R",
+    "brand": "msi",
+    "price": "$545.90",
+    "img": "https://m.media-amazon.com/images/I/51pQ5AYaDLL._SL500_.jpg",
+    "features": [
+      "Support Intel Core 14th/ 13th/ 12th Gen Processors, Intel Pentium Gold and Celeron Processors for LGA 1700 socket",
+      "Supports DDR5 Memory, up to 7800+(OC) MHz Lightning Fast Game experience: PCIe 5.0 slot, Lightning Gen 5 x4 M.2, USB 3.2 Gen 2x2",
+      "Enhanced Power Design: 16+1+1 Mirrored Power Arrangement, dual 8-pin CPU power connectors, Core Boost, Memory Boost",
+      "Premium Thermal Solution: Enlarged heatsink with heat-pipe, MOSFET thermal pads rated for 7W/mk, additional choke thermal pads and M.2 Shield Frozr are built for high performance system and non-stop gaming experience",
+      "2.5G LAN and Wi-Fi 7 Solution: Upgraded network solution for professional and multimedia use. Delivers a secure, stable and fast network connection"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "MSI MPG Z790 Edge"
+    ]
+  },
+  "B0BQWRCNT8": {
+    "asin": "B0BQWRCNT8",
+    "title": "ASRock B760 Pro RS ATX Motherboard | Supports 14th/13th/12th Gen Intel | DDR5 7200+ (OC) | PCIe 5.0 | 2.5G LAN | 10+1+1 Power Phase | Front & Rear USB-C",
+    "brand": "ASRock",
+    "price": "$172.53",
+    "img": "https://m.media-amazon.com/images/I/41415+s9rgL._SL500_.jpg",
+    "features": [
+      "Supports 13th Gen & 12th Gen Intel Core Processors (LGA1700)",
+      "10+1+1 Power Phase, Dr.MOS for VCore+GT",
+      "Supports DDR5 7200MHz (OC)",
+      "1 PCIe 5.0 x16, 1 PCIe 4.0 x16, 1 PCIe 3.0 x16, 1 PCIe 3.0 x1, 1 M.2 Key E for WiFi",
+      "Graphics Output Options: HDMI, DisplayPort, eDP"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASRock B760 Pro RS"
+    ]
+  },
+  "B0CX1GPFW4": {
+    "asin": "B0CX1GPFW4",
+    "title": "ASRock B760M Pro-A/D4 WiFi Micro ATX Motherboard, Intel LGA1700, DDR4 5333+ (OC), PCIe 4.0, 2.5G LAN, Wi-Fi 6E, 7+1+1 Dr.MOS",
+    "brand": "ASRock",
+    "price": "$119.99",
+    "img": "https://m.media-amazon.com/images/I/51TwgQiqFfL._SL500_.jpg",
+    "features": [
+      "System Compatibility Note: This Micro-ATX form factor (9.6-in x 9.6-in) is designed for compact and standard chassis; please verify case specifications before purchase.",
+      "Dedicated Support: Please contact us directly through Amazon for any product questions or assistance you may require.",
+      "Modern Intel Platform: Supports 14th, 13th & 12th Gen Intel Core processors (LGA1700), delivering reliable performance for gaming, productivity, and everyday computing tasks.",
+      "Efficient Power Design: 7+1+1 power phase with Dr.MOS for VCore+GT ensures stable and efficient power delivery, providing enhanced performance for demanding applications.",
+      "High-Speed DDR4 Memory: Four DDR4 DIMM slots support dual-channel configurations and overclocked speeds up to 5333+ (OC) with Intel XMP 2.0, delivering excellent memory bandwidth for responsive multitasking.",
+      "PCIe 4.0 Ready for Modern Components: Features two PCIe 4.0 x16 slots and one PCIe 4.0 x1 slot, providing full bandwidth compatibility with the latest graphics cards and expansion devices.",
+      "Dual Hyper M.2 Storage: Equipped with two Hyper M.2 slots supporting PCIe Gen4x4 NVMe SSDs (one with a dedicated heatsink), plus four SATA3 ports for flexible and high-speed storage configurations.",
+      "Ultra-Fast Dual Networking: Integrated Dragon 2.5G LAN and Killer 802.11axe Wi-Fi 6E module with Bluetooth 5.3 deliver ultra-low latency wired and reliable high-speed wireless connectivity.",
+      "Comprehensive USB Connectivity: Features a rear USB 3.2 Gen1 Type-C port, additional USB 3.2 Gen1 Type-A ports, and six USB 2.0 ports covering all your peripheral needs.",
+      "Versatile Dual Display Outputs: Includes HDMI 2.1 (4K 60Hz) and DisplayPort 1.4 (4K@60Hz) outputs for flexible multi-monitor setups with compatible processors."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASRock B760 Pro RS"
+    ]
+  },
+  "B0D2CZGTSY": {
+    "asin": "B0D2CZGTSY",
+    "title": "ASRock B760M Pro-A D4 Micro ATX Motherboard, Intel 14th/13th/12th Gen, 7+1+1 Dr.MOS, DDR4 5333+ (OC), PCIe 4.0, 2.5G LAN, Dual M.2",
+    "brand": "ASRock",
+    "price": "$109.99",
+    "img": "https://m.media-amazon.com/images/I/41FaLuDQULL._SL500_.jpg",
+    "features": [
+      "System Compatibility: Micro-ATX (9.6x9.6in); verify case clearance.",
+      "Dedicated support: Contact us via Amazon for product assistance.",
+      "Supports 14th, 13th & 12th Gen Intel Core CPUs (LGA1700).",
+      "7+1+1 Power Phase with Dr.MOS for VCore+GT, stable power.",
+      "4 x DDR4 DIMMs, dual channel, OC up to 5333+ MHz (XMP 2.0).",
+      "2 x PCIe 4.0 x16 slots (x16/x4), plus PCIe 4.0 x1 slot.",
+      "2 x Hyper M.2 (PCIe Gen4x4) & 4 x SATA3 ports, RAID 0/1/5/10.",
+      "Dragon 2.5G LAN, supports bandwidth control optimization.",
+      "1 x Rear USB-C, 1 x Front USB-C, 5 x USB-A, 6 x USB 2.0.",
+      "HDMI 2.1 & DisplayPort 1.4 outputs for integrated graphics."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASRock B760 Pro RS"
     ]
   }
 }

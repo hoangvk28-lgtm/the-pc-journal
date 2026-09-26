@@ -2160,7 +2160,9 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Corsair K70 RGB PRO",
-      "Corsair K100 RGB"
+      "Corsair K100 RGB",
+      "ASUS ROG Strix Scope II keyboard",
+      "ASUS TUF Gaming K3 Gen II"
     ]
   },
   "B09N42ZMDM": {
@@ -2382,7 +2384,10 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "Corsair K100 RGB"
+      "Corsair K100 RGB",
+      "ASUS ROG Strix Scope II keyboard",
+      "ASUS ROG Azoth keyboard",
+      "ASUS TUF Gaming K3 Gen II"
     ]
   },
   "B0G3PN1VS4": {
@@ -2422,7 +2427,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "Corsair K100 RGB"
+      "Corsair K100 RGB",
+      "ASUS ROG Strix Scope II keyboard"
     ]
   },
   "B0CNL7XMC3": {
@@ -2443,7 +2449,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "Corsair K100 RGB"
+      "Corsair K100 RGB",
+      "ASUS ROG Strix Scope II keyboard"
     ]
   },
   "B0DRFGNWV1": {
@@ -6725,6 +6732,926 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Razer BlackShark V3 Pro"
+    ]
+  },
+  "B0CLHLLFBP": {
+    "asin": "B0CLHLLFBP",
+    "title": "ASUS ROG Strix Scope II Gaming Keyboard, pre-lubed ROG RX Red Linear Optical switches, Sound-dampening Foam, PBT doubleshot keycaps, Streaming hotkeys, Multi-Function Controls, Wrist Rest",
+    "brand": "ASUS",
+    "price": "$109.99",
+    "img": "https://m.media-amazon.com/images/I/41XwwvddIOL._SL500_.jpg",
+    "features": [
+      "ROG RX optical switches: Pre-lubed RX switches feature centralized lighting and provide consistent wobble-free keystrokes with near-zero debounce delay",
+      "IP57-rated: Waterproof and dust resistant for long-lasting durability",
+      "Hotkeys: F1–F5 keys are pre-programmed as hotkeys for Xbox Game Bar and recording",
+      "Intuitive controls: Multifunction button and three-way knob for media playback, volume, and keyboard lighting",
+      "Sound-dampening foam: Integrated foam absorbs pinging noises and echoes for improved acoustics"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Strix Scope II keyboard"
+    ]
+  },
+  "B0GMZ5Z9G4": {
+    "asin": "B0GMZ5Z9G4",
+    "title": "ASUS ROG Strix Scope II 96 RX Wireless Optical Gaming Keyboard - Black",
+    "brand": "ASUS",
+    "price": "$132.99",
+    "img": "https://m.media-amazon.com/images/I/41J3vKURwgL._SL500_.jpg",
+    "features": [
+      "96% layout: Retains all function and number keys in a more compact and efficient layout that frees up desk space, with a form factor that is only 1 cm wider than a standard 80% keyboard",
+      "ROG RX optical switches: Light actuated for consistent wobble-free keystrokes with near-zero debounce delay",
+      "ROG-themed keycaps: UV-coated keycaps with special ROG elements for unique look",
+      "Support ROG Polling Rate Booster: Achieves 8000 Hz polling rate and provides a 0.125 ms response time - up to 8X faster than other leading gaming keyboards",
+      "Tri-mode connection: Connect using Bluetooth (up to three devices), 2.4 GHz with ROG SpeedNova wireless technology (up to 378 hours of battery life) or wired USB",
+      "Sound-dampening foam: Unique, integrated dampening foam structure absorbs pinging noises and echoes for improved keystroke acoustics",
+      "Enhanced typing experience: Pre-lubed keyboard stabilizers produce less friction for smoother keystrokes and stability for longer keys; durable ROG PBT doubleshot keycaps offer a premium feel and shine resistance",
+      "Hotkeys: F1–F5 keys are pre-programmed as hotkeys for Xbox Game Bar and recording",
+      "Intuitive controls: Multi-function button and multiwheel for media playback, volume, and keyboard lighting",
+      "ROG Omni Receiver: Connect to multiple supported devices wirelessly with a single receiver. Ergonomic design: Three tilt positions and a detachable wrist rest"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Strix Scope II keyboard"
+    ]
+  },
+  "B0CR9V39RC": {
+    "asin": "B0CR9V39RC",
+    "title": "ASUS ROG Strix Scope II 96 Wireless Gaming Keyboard & ROG Spatha X Wireless Gaming Mouse (Magnetic Charging Stand",
+    "brand": "ASUS",
+    "price": "$248.99",
+    "img": "https://m.media-amazon.com/images/I/31yTo7M-V+L._SL500_.jpg",
+    "features": [
+      "Product 1: 96% layout: Retains all function and number keys in a more compact and efficient layout that frees up desk space",
+      "Product 1: Hot-swappable switches: Pre-lubed NX Snow linear switches and ROG NX Storm clicky switches with walled stem design to enhance keystroke stability and are tuned for great acoustics",
+      "Product 1: Tri-mode connection: Connect using Bluetooth (up to three devices), 2.4 GHz with ROG SpeedNova wireless technology or wired USB",
+      "Product 1: Sound-dampening foam with switch-dampening pads: Unique, integrated dampening foam with added switch-dampening pad structure absorbs pinging noises and echoes for improved keystroke acoustics.",
+      "Product 2: Dual-mode Connectivity - ROG Spatha X Wireless Gaming Mouse allows you play wirelessly with 2.4 GHzRF, or with a wired USB-C cable connection",
+      "Product 2: Ultimate Accuracy - 19,000 DPI optical sensor provides unmatched accuracy. The DPI On-The-Scroll feature lets you easily adjust the sensitivity of the wireless mouse without accessing software",
+      "Product 2: Programmable Gaming Mouse - The 12 programmable buttons are positioned within easy reach, all designed to provide intuitive, responsive control",
+      "Product 2: Durable Switches & Put-fit Switch Sockets - Gold-plated electro-junction, provides a 70-million clicks; Exclusive put-in switch sockets allow you to easily replace switches based on your preference"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Strix Scope II keyboard"
+    ]
+  },
+  "B0GVQ98YCF": {
+    "asin": "B0GVQ98YCF",
+    "title": "ASUS ROG Strix Scope II Gaming Keyboard, ABS Double-Shot keycaps",
+    "brand": "ASUS",
+    "price": "$139.99",
+    "img": "https://m.media-amazon.com/images/I/41Vz3Ik6uiL._SL500_.jpg",
+    "features": [
+      "ROG RX optical switches: Pre-lubed RX switches feature centralized lighting and provide consistent wobble-free keystrokes with near-zero debounce delay.",
+      "IP57-rated: Waterproof and dust resistant for long-lasting durability.",
+      "Intuitive controls: Multifunction button and three-way knob for media playback, volume, and keyboard lighting.",
+      "Sound-dampening foam: Integrated foam absorbs pinging noises and echoes for improved acoustics.",
+      "ABS keycaps: Soft matte-like UV-coated ABS keycaps for a clean, refined feel.",
+      "Unique ROG-themed space bar: UV-coated spacebar with special ROG markings and three underside RGB LEDs",
+      "Ergonomic design: Three tilt positions and a detachable wrist rest"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Strix Scope II keyboard"
+    ]
+  },
+  "B0FCPMS1R3": {
+    "asin": "B0FCPMS1R3",
+    "title": "ASUS ROG Azoth X Wireless Mechanical Gaming Keyboard - 75% TKL, PBT Keycaps",
+    "brand": "ASUS",
+    "price": "$188.99",
+    "img": "https://m.media-amazon.com/images/I/41F+yH60-dL._SL500_.jpg",
+    "features": [
+      "Tri-mode connectvity: Seamlessly connect to three devices via Bluetooth. Experience ultra-low latency gameplay with ROG SpeedNova wireless technology in 2.4 GHz RF mode (1600+ hours battery life with OLED & RGB off), or utilize a standard wired USB connection.",
+      "Deep, Crisp Typing Sounds & Comfortable Feel: Enjoy sublime acoustics thanks to the gasket mount and five-layer dampening design. A silicone layer and four PORON layers absorb vibrations and switch ping, while the FR4 positioning plate provides a more flexible typing feel and low-pitched, crisp sound.",
+      "Hot Swappable, Pre-Lubricated Mechanical Switches: Choose between upgraded ROG NX V2 Snow linear switches (buttery smooth and thocky) or ROG NX V2 Storm clicky switches (crisp, tactile feedback). Durable PBT doubleshot keycaps provide a premium feel.",
+      "Premium Aesthetics & Customization: The south-facing PCB maximizes keycap compatibility, allowing for personalized setups and advanced lighting effects. Stellar-themed ROG keycaps enhance the RGB lighting with a semi-translucent design. Further personalize your custom gaming keyboard style with the hot-swappable keycaps.",
+      "OLED Display & Intuitive Controls: Monitor CPU/GPU stats, media playback, custom animations, PC/Mac mode indicators, and other keyboard settings in real-time on the integrated 2-inch OLED screen. A multi-function control knob provides tactile adjustment for volume, lighting, and more, offering unparalleled command."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Strix Scope II keyboard",
+      "ASUS ROG Azoth keyboard",
+      "ASUS TUF Gaming K3 Gen II"
+    ]
+  },
+  "B0CP6J59XB": {
+    "asin": "B0CP6J59XB",
+    "title": "ASUS ROG Azoth Wireless Mechanical Gaming Keyboard – 75% TKL, Tri-Mode Connectivity, Hot Swappable Pre-lubed ROG NX Snow Linear Switches, PBT Keycaps, RGB, OLED Display, PC/Mac Support - Black",
+    "brand": "ASUS",
+    "price": "$189.99",
+    "img": "https://m.media-amazon.com/images/I/413XFSjowlL._SL500_.jpg",
+    "features": [
+      "Tri-mode connectvity: Seamlessly connect to three devices via Bluetooth. Experience ultra-low latency gameplay with ROG SpeedNova wireless technology in 2.4 GHz RF mode (2000+ hours battery life with OLED & RGB off), or utilize a standard wired USB connection.",
+      "Gasket Mount & Premium Sound Tuning: A silicone gasket mount and three layers of integrated dampening foam work in harmony to absorb vibrations and eliminate pinging noises, creating a uniquely satisfying sound signature and a consistent, flex-free typing feel.",
+      "Hot Swappable, Pre-Lubricated Mechanical Switches: Customize your keystrokes with ROG NX Snow linear switches (buttery smooth and thocky out-of-the-box) or ROG NX Storm clicky switches (crisp, tactile feedback). Durable PBT doubleshot keycaps provide a premium feel.",
+      "Complete Custom Keyboard / DIY Kit: Dive into keyboard customization with confidence. The hot-swap PCB allows for easy installation of your preferred 3-pin switches. The included professional kit provides everything you need: Krytox GPL-205-GD0 lubricant, switch opener, pullers, lube station, and brush. Perfect for beginners and experienced modders alike.",
+      "OLED Screen & Intuitive Controls: Monitor CPU/GPU stats, media playback, and keyboard settings in real-time on the integrated 2-inch OLED screen. A multi-function control knob provides tactile adjustment for volume, lighting, and more, offering unparalleled command.",
+      "Mac support: Easily toggle between Windows and MacOS modes",
+      "Included accessories: ROG switch opener, keycap and switch pullers, a lube station and brush, Krytox GPL-205-GD0 lubricant, 3 ROG NX switches, 8 stabilizer mats, a USB dongle and extender, a USB cable, a ROG sticker, a quick start guide, and a warranty booklet."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Strix Scope II keyboard",
+      "ASUS ROG Azoth keyboard"
+    ]
+  },
+  "B0D45ZHYZJ": {
+    "asin": "B0D45ZHYZJ",
+    "title": "ASUS ROG Azoth Extreme Wireless Mechanical Gaming Keyboard – 75% TKL, ROG NX Snow Linear Switches, PBT Keycaps, Aluminum Chassis, Carbon Fiber, Gasket Mount, Color OLED Screen, PC/Mac Support - Black",
+    "brand": "ASUS",
+    "price": "$399.99",
+    "img": "https://m.media-amazon.com/images/I/41j2mMxaICL._SL500_.jpg",
+    "features": [
+      "Tri-Mode Connectivity: Connect via 2.4 GHz RF wireless with ROG SpeedNova, Bluetooth (up to 3 devices), and wired USB-C mode. Enjoy ultra-low-latency and up to 1600 hours of battery life with RGB and OLED off, ideal for gaming and everyday productivity",
+      "Premium Aluminum Build & 75% Layout: Durable and refined design crafted from a solid aluminum-alloy chassis and metal frame with 12-step CNC process. Compact 75 percent layout saves space while maintaining full functionality for gaming and productivity",
+      "Speed Tap Mode for Competitive Gaming: Speed Tap Mode enables instant directional changes in FPS and esports titles, eliminating input delays for precise aim and fluid counter-strafing. Perfect for players who demand maximum responsiveness",
+      "ROG Polling Rate Booster & Omni Receiver: Achieve 8K Hz polling rate in both wired and wireless modes with the ROG Polling Rate Booster. Pair keyboard and mouse simultaneously via the ROG Omni Receiver for a cleaner, more efficient setup",
+      "Carbon-Fiber Plate & Three-Layer Dampening: Carbon-fiber positioning plate offers crisp yet controlled keystrokes. Dual PORON foams and a silicone pad absorb vibrations for a refined sound profile and smooth feel",
+      "Full-Color OLED Touchscreen & Intuitive Controls: A 1.47-inch OLED touch display shows battery, system stats, and animations. Use the multi-function knob and side button to adjust volume, lighting, and modes on the fly",
+      "Hot-Swappable Mechanical Switches & PBT Keycaps: Choose between pre-lubed ROG NX Snow (linear, smooth, thocky) or ROG NX Storm (clicky, tactile) switches. Supports 3-pin hot-swap customization and durable doubleshot PBT keycaps for a premium finish",
+      "Complete Custom/DIY Keyboard: Includes a silicone wrist rest with aluminum base, ROG Polling Rate Booster, magnetic feet, ROG NX switches, Ctrl keycap, pullers, USB dongle + extender, USB-C to A cable, silicone pins, foam stabilizer pads, and ROG Sticker"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Azoth keyboard"
+    ]
+  },
+  "B0CLF3WYGC": {
+    "asin": "B0CLF3WYGC",
+    "title": "ASUS ROG Azoth Wireless Mechanical Gaming Keyboard – 75% TKL, Tri-Mode Connectivity, Hot Swappable Pre-lubed ROG NX Snow Linear Switches, PBT Keycaps, RGB, OLED Display, PC/Mac Support - White",
+    "brand": "ASUS",
+    "price": "$189.99",
+    "img": "https://m.media-amazon.com/images/I/41mDjjZyjwL._SL500_.jpg",
+    "features": [
+      "Tri-mode connectvity: Seamlessly connect to three devices via Bluetooth. Experience ultra-low latency gameplay with ROG SpeedNova wireless technology in 2.4 GHz RF mode (2000+ hours battery life with OLED & RGB off), or utilize a standard wired USB connection.",
+      "Gasket Mount & Premium Sound Tuning: A silicone gasket mount and three layers of integrated dampening foam work in harmony to absorb vibrations and eliminate pinging noises, creating a uniquely satisfying sound signature and a consistent, flex-free typing feel.",
+      "Hot Swappable, Pre-Lubricated Mechanical Switches: Customize your keystrokes with ROG NX Snow linear switches (buttery smooth and thocky out-of-the-box) or ROG NX Storm clicky switches (crisp, tactile feedback). Durable PBT doubleshot keycaps provide a premium feel.",
+      "Complete Custom Keyboard / DIY Kit: Dive into keyboard customization with confidence. The hot-swap PCB allows for easy installation of your preferred 3-pin switches. The included professional kit provides everything you need: Krytox GPL-205-GD0 lubricant, switch opener, pullers, lube station, and brush. Perfect for beginners and experienced modders alike.",
+      "OLED Screen & Intuitive Controls: Monitor CPU/GPU stats, media playback, and keyboard settings in real-time on the integrated 2-inch OLED screen. A multi-function control knob provides tactile adjustment for volume, lighting, and more, offering unparalleled command.",
+      "Mac support: Easily toggle between Windows and MacOS modes",
+      "Included accessories: ROG switch opener, keycap and switch pullers, a lube station and brush, Krytox GPL-205-GD0 lubricant, 3 ROG NX switches, 8 stabilizer mats, a USB dongle and extender, a USB cable, a ROG sticker, a quick start guide, and a warranty booklet."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Azoth keyboard"
+    ]
+  },
+  "B0H5FPN4WC": {
+    "asin": "B0H5FPN4WC",
+    "title": "ASUS ROG 20th Edition Azoth Extreme – Wireless Mechanical Gaming Keyboard – 75% TKL, ROG NX Snow V2 Linear Switch, Aluminum Chassis, Carbon Fiber, Color OLED Screen, 24K Gold-Plated",
+    "brand": "ASUS",
+    "price": "$599.99",
+    "img": "https://m.media-amazon.com/images/I/41IM5xXG9UL._SL500_.jpg",
+    "features": [
+      "Gold-on-black aesthetic: Striking color scheme to commemorate the 20th anniversary of ROG",
+      "24K gold elements: Crafted with genuine gold for a premium, elegant look, making it a standout piece for collectors",
+      "New translucent black keycaps: Provide a refined, diffused lighting effect",
+      "Superb build quality: Crafted aluminum alloy chassis with metal frame for a premium look while maintaining top-tier wireless performance",
+      "Carbon fiber positioning plate: Delivers crisp typing feel and acoustics while effectively reducing keystroke vibrations"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Azoth keyboard"
+    ]
+  },
+  "B0DT7VM8CX": {
+    "asin": "B0DT7VM8CX",
+    "title": "ASUS ROG Azoth Extreme Wireless Mechanical Gaming Keyboard – 75% TKL, ROG NX Storm Clicky Switches, PBT Keycaps, Aluminum Chassis, Carbon Fiber, Gasket Mount, Color OLED Screen, PC/Mac Support - Black",
+    "brand": "ASUS",
+    "price": "$389.99",
+    "img": "https://m.media-amazon.com/images/I/41j2mMxaICL._SL500_.jpg",
+    "features": [
+      "Tri-Mode Connectivity: Connect via 2.4 GHz RF wireless with ROG SpeedNova, Bluetooth (up to 3 devices), and wired USB-C mode. Enjoy ultra-low-latency and up to 1600 hours of battery life with RGB and OLED off, ideal for gaming and everyday productivity",
+      "Premium Aluminum Build & 75% Layout: Durable and refined design crafted from a solid aluminum-alloy chassis and metal frame with 12-step CNC process. Compact 75 percent layout saves space while maintaining full functionality for gaming and productivity",
+      "Speed Tap Mode for Competitive Gaming: Speed Tap Mode enables instant directional changes in FPS and esports titles, eliminating input delays for precise aim and fluid counter-strafing. Perfect for players who demand maximum responsiveness",
+      "ROG Polling Rate Booster & Omni Receiver: Achieve 8K Hz polling rate in both wired and wireless modes with the ROG Polling Rate Booster. Pair keyboard and mouse simultaneously via the ROG Omni Receiver for a cleaner, more efficient setup",
+      "Carbon-Fiber Plate & Three-Layer Dampening: Carbon-fiber positioning plate offers crisp yet controlled keystrokes. Dual PORON foams and a silicone pad absorb vibrations for a refined sound profile and smooth feel",
+      "Full-Color OLED Touchscreen & Intuitive Controls: A 1.47-inch OLED touch display shows battery, system stats, and animations. Use the multi-function knob and side button to adjust volume, lighting, and modes on the fly",
+      "Hot-Swappable Mechanical Switches & PBT Keycaps: Choose between pre-lubed ROG NX Snow (linear, smooth, thocky) or ROG NX Storm (clicky, tactile) switches. Supports 3-pin hot-swap customization and durable doubleshot PBT keycaps for a premium finish",
+      "Complete Custom/DIY Keyboard: Includes a silicone wrist rest with aluminum base, ROG Polling Rate Booster, magnetic feet, ROG NX switches, Ctrl keycap, pullers, USB dongle + extender, USB-C to A cable, silicone pins, foam stabilizer pads, and ROG Sticker"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Azoth keyboard"
+    ]
+  },
+  "B0CNL7LWW2": {
+    "asin": "B0CNL7LWW2",
+    "title": "ASUS ROG Azoth Wireless Mechanical Gaming Keyboard – 75% TKL, Tri-Mode Connectivity, Hot Swappable Pre-lubed ROG NX Storm Clicky Switches, PBT Keycaps, RGB, OLED Display, PC/Mac Support - White",
+    "brand": "ASUS",
+    "price": "$208.99",
+    "img": "https://m.media-amazon.com/images/I/41zMNQAPKYL._SL500_.jpg",
+    "features": [
+      "Tri-mode connectvity: Seamlessly connect to three devices via Bluetooth. Experience ultra-low latency gameplay with ROG SpeedNova wireless technology in 2.4 GHz RF mode (2000+ hours battery life with OLED & RGB off), or utilize a standard wired USB connection.",
+      "Gasket Mount & Premium Sound Tuning: A silicone gasket mount and three layers of integrated dampening foam work in harmony to absorb vibrations and eliminate pinging noises, creating a uniquely satisfying sound signature and a consistent, flex-free typing feel.",
+      "Hot Swappable, Pre-Lubricated Mechanical Switches: Customize your keystrokes with ROG NX Snow linear switches (buttery smooth and thocky out-of-the-box) or ROG NX Storm clicky switches (crisp, tactile feedback). Durable PBT doubleshot keycaps provide a premium feel.",
+      "Complete Custom Keyboard / DIY Kit: Dive into keyboard customization with confidence. The hot-swap PCB allows for easy installation of your preferred 3-pin switches. The included professional kit provides everything you need: Krytox GPL-205-GD0 lubricant, switch opener, pullers, lube station, and brush. Perfect for beginners and experienced modders alike.",
+      "OLED Screen & Intuitive Controls: Monitor CPU/GPU stats, media playback, and keyboard settings in real-time on the integrated 2-inch OLED screen. A multi-function control knob provides tactile adjustment for volume, lighting, and more, offering unparalleled command.",
+      "Mac support: Easily toggle between Windows and MacOS modes",
+      "Included accessories: ROG switch opener, keycap and switch pullers, a lube station and brush, Krytox GPL-205-GD0 lubricant, 3 ROG NX switches, 8 stabilizer mats, a USB dongle and extender, a USB cable, a ROG sticker, a quick start guide, and a warranty booklet."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Azoth keyboard"
+    ]
+  },
+  "B0FCP38PJQ": {
+    "asin": "B0FCP38PJQ",
+    "title": "ASUS ROG Azoth X 75% Custom Gaming Keyboard, OLED Display",
+    "brand": "ASUS",
+    "price": "$266.09",
+    "img": "https://m.media-amazon.com/images/I/41F+yH60-dL._SL500_.jpg",
+    "features": [
+      "Stellar-themed ROG keycaps: Special dye-sublimated keycaps are translucent on three sides to allow RGB lighting to pass through for a striking aesthetic",
+      "South-facing PCB: Optimized for keycap compatibility and customization, allowing for personalized setups with custom keycaps and advanced lighting effects",
+      "FR4 positioning plate: Provides a more flexible typing feel and bright, gentle typing acoustics",
+      "Silicon wrist rest: Extended design ensures comfortable typing experiences while providing firm support over time",
+      "OLED display: Shows system info and a variety of setting indicators, includes a three-way knob for intuitive control over various keyboard settings"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Azoth keyboard"
+    ]
+  },
+  "B0DG7H487F": {
+    "asin": "B0DG7H487F",
+    "title": "ASUS ROG Falchion Ace HFX Hall Effect Gaming Keyboard – 65% TKL, Dual USB-C, Magnetic Switches, Rapid Trigger, Speed Tap, 8000 Hz Polling, Touch Panel, Portable, Protective Cover, PBT Keycaps - Black",
+    "brand": "ASUS",
+    "price": "$139.99",
+    "img": "https://m.media-amazon.com/images/I/41aANn-IS5L._SL500_.jpg",
+    "features": [
+      "Pre-lubed ROG HFX Magnetic Switches: These Hall Effect (HE) switches are engineered for a solid feel with ultra fast and precise performance. They also offer an adjustable actuation range from 0.1 to 4.0 mm to cater to all typing preferences",
+      "Rapid Trigger Toggle & Speed Tap Mode: These features allow rapid key repeats and instant directional changes, allowing you to deliver maximum counter-strafing potential in esports/FPS games with minimal effort",
+      "Compact and Slim Design: 65% TKL keyboard layout,with almost the same size as a 60% keyboard (12.4\"). This maximizes desk space for mouse movement and enhances ergonomics, making it ideal for gaming, work, and everyday portable use",
+      "Dual USB C port flexibility: This wired keyboard has two USB-C ports on either side of the rear edge for a much neater setup, enabling users to connect simultaneously and quickly switch between two PCs",
+      "8000 Hz Polling Rate: A high-speed USB microcontroller delivers an 8K Hz polling rate, refreshing input up to 8x faster than most gaming keyboards, reducing delay from 1 millisecond to a mere 0.125 ms",
+      "Intuitive Control: Play/pause media, adjust volume, and control keyboard lighting with the multi-function button and interactive touch panel",
+      "Enhanced typing experiences: Integrated five-layer dampening and silicone gasket mount absorb pinging noises to create a more cushioned typing experience and a quiet, creamy sound",
+      "Protective Cover: Provides on-the-go protection from dust and scratches, and cover also doubles as a tray mount."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Azoth keyboard",
+      "ASUS ROG Falchion"
+    ]
+  },
+  "B0D9Y83J89": {
+    "asin": "B0D9Y83J89",
+    "title": "ASUS TUF Gaming K3 Gen II Wired USB Gaming Keyboard, PBT - Black",
+    "brand": "ASUS",
+    "price": "$62.99",
+    "img": "https://m.media-amazon.com/images/I/41wQBSr02NL._SL500_.jpg",
+    "features": [
+      "Compact & portable layout: 97-key design frees up more space for the mousing hand, and better portability.",
+      "IP57 waterproof & dust resistance: Industry-leading protection for easy cleaning and long-lasting durability.",
+      "Silicone gasket mount & dampening foam: Absorb pinging noises and echoes provide improved keystrokes acoustics for unrivaled typing experiences.",
+      "Optical-mechanical RGB switches: Featuring N-key rollover, 100% anti-ghost, 100-million-keypress lifespan, along with RGB LEDs for all-round per-key lighting.",
+      "Detachable top plate: Create different looks and allows for easy cleaning and maintenance."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS TUF Gaming K3 Gen II"
+    ]
+  },
+  "B0F8SGX7N2": {
+    "asin": "B0F8SGX7N2",
+    "title": "ASUS TUF Gaming K3 Gen II Hatsune Miku Edition Wired USB Gaming Keyboard",
+    "brand": "ASUS",
+    "price": "$84.99",
+    "img": "https://m.media-amazon.com/images/I/41EjgQ17I5L._SL500_.jpg",
+    "features": [
+      "Compact, portable design: 98-key layout is highly portable and frees up more space for the mousing hand, and rear cable management slot allows for neater desktop setups",
+      "IP57 waterproofing and dust resistance: Industry-leading protection for easy cleaning and long-lasting durability",
+      "Optical-mechanical RGB switches: Featuring n-key rollover, 100% anti-ghosting, and 100-million-keypress lifespan",
+      "Silicone-gasket mount and dampening foam: Absorbs pinging noises and echoes for improved keyboard acoustics and unrivaled typing experiences",
+      "Detachable top plate: Allows for different looks and easy maintenance",
+      "RBG lighting and Aura Sync: Per-key RGB lighting with up to 16.8-million colors, and Armoury Crate software for intuitive adjustments and syncing with ASUS Aura-enabled products"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS TUF Gaming K3 Gen II"
+    ]
+  },
+  "B0C1T2HL7L": {
+    "asin": "B0C1T2HL7L",
+    "title": "ASUS TUF Gaming M3 Gen II Wired USB Gaming Mouse – Right-Handed Ergonomic, 59g Lightweight, 8K DPI, IP56 dust & Water Resistance, Antibacterial Guard, 6 Programmable Buttons, PC/Mac Support - Black",
+    "brand": "ASUS",
+    "price": "$22.99",
+    "img": "https://m.media-amazon.com/images/I/31QSChBSBSL._SL500_.jpg",
+    "features": [
+      "Ultralight, ergonomic design: Weighs just 59 grams, with a shell specially crafted for right-handed gamers",
+      "8000 dpi optical sensor: Delivers pixel-precise tracking, with a DPI button to switch between four sensitivity levels on the fly",
+      "IP56 dust and water resistance: Protective coating ensures long-lasting durability",
+      "ASUS Antibacterial Guard: Inhibits bacterial growth to keep the surface and buttons of the mouse sanitary",
+      "Complete control: PTFE mouse feet ensure swift and smooth glides"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS TUF Gaming K3 Gen II"
+    ]
+  },
+  "B08GL4WZ4W": {
+    "asin": "B08GL4WZ4W",
+    "title": "ASUS Membrane Gaming Keyboard for PC - TUF K1 | Programmable, Onboard Memory | Dedicated Volume Knob, Aura Sync RGB & Side Lighting | Detachable Wrist Rest | Spill-Resistant | Highly Durable | Black",
+    "brand": "ASUS",
+    "img": "https://m.media-amazon.com/images/I/41PPn-HPZjL._SL500_.jpg",
+    "features": [
+      "MEMBRANE GAMING KEYBOARD - ASUS TUF K1 Wired Computer Gaming Keyboard features silent tactile mechanical switches that deliver high precision keystrokes for responsive & reliable performance during intense gaming sessions",
+      "ANTI-GHOSTING - Anti-ghosting with 19-Key rollover response, onboard memory, 8 fully-programmable keys with on-the fly macro keyboard recordings for uninterrupted video games – it’s got it all!",
+      "SPILL-RESISTANT COATING - To protect the Gaming Keyboard from accidental spills and increase its longevity, the TUF K1 is designed to withstand abrasion, friction & perspiration! It is easy to clean and allows you to game distraction-free",
+      "PC GAMING KEYBOARD WITH DEDICATED VOLUME KNOB – Twist the knob intuitively to control your audio without lifting your eyes off the screen. Includes a detachable ergonomic wrist rest & adjustable legs for optimal comfort during gaming marathons",
+      "DESIGNED FOR COMMITTED GAMERS - TUF K1 keyboard features 5 individual lighting zones & striking RGB bars on the sides, with ASUS Aura Sync & latest Armoury Crate software support for centralized controls, and synchronized game profiles & lighting"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS TUF Gaming K3 Gen II"
+    ]
+  },
+  "B0BHMW2L8B": {
+    "asin": "B0BHMW2L8B",
+    "title": "ASUS TUF Gaming B650M-PLUS WiFi AMD B650 AM5 Ryzen™ Desktop 9000 8000 and 7000 ATX Motherboard, 14 Power Stages, PCIe® 5.0 M.2, DDR5 Memory, 2.5 Gb Ethernet, USB4® Support Aura Sync",
+    "brand": "ASUS",
+    "price": "$109.99",
+    "img": "https://m.media-amazon.com/images/I/41jmFaAluzL._SL500_.jpg",
+    "features": [
+      "AM5 Socket: Ready for AMD Ryzen Desktop 9000*, 8000*, and 7000 Series Processors",
+      "*BIOS Update maybe required when used with AMD Ryzen Desktop 9000 and 8000 Series CPU Processors",
+      "Enhanced power solution: 12+2 teamed power stages, 8+4 ProCool sockets, alloy chokes and durable capacitors for stable power delivery",
+      "Next-gen connectivity: M.2 PCIe 5.0, USB 3.2 Gen2x2 Type-C, front USB 3.2 Gen 1 Type-C, USB4 support",
+      "Made for online Gaming: WiFi 6, Realtek 2.5 Gb Ethernet and TUF LANGuard",
+      "Two-way AI Noise Cancelation: Reduces background noise from the microphone and audio output for crystal-clear communication in games or video conferences",
+      "Comprehensive cooling: Enlarged VRM and PCH heatsinks, M.2 heatsinks, hybrid fan headers and Fan Xpert 4 utility in Armoury Crate",
+      "Aura Sync RGB effects: Stylish edge lighting design, addressable RGB headers and RGB strip header support.",
+      "BIOS FlashBack is the simplest and safest (UEFI) BIOS update method. Simply drop the (UEFI) BIOS file onto a FAT32 formatted USB stick, plug it into the USB BIOS FlashBack port and press the button. Updates can even be performed without a memory or a CPU installed."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS TUF Gaming K3 Gen II"
+    ]
+  },
+  "B0FR1MCSHP": {
+    "asin": "B0FR1MCSHP",
+    "title": "Geekria 100 Keys Keyboard Case, Compatible with ASUS TUF Gaming K3 Gen II, Hard Shell Travel Carrying Bag (Cerulean Blue)",
+    "brand": "GEEKRIA",
+    "price": "$28.99",
+    "img": "https://m.media-amazon.com/images/I/51bOwv4GbcL._SL500_.jpg",
+    "features": [
+      "Compatible with many wireless / wired 100 keys 90%-96% compact keyboards. Please see below if the product size is suitable for your keyboard.",
+      "Engineered ultra-hard shell protects against the keyboard from drops, impacts or crushes.",
+      "Internal mesh pocket with zipper conveniently stores cables, cords, chargers and other accessories.",
+      "Maximum compatible keyboard dimensions (case inside): 15.2 x 7 x 1.9 inches (38.6 x 18 x 4.8 cm).",
+      "Compatible with ASUS TUF Gaming K3 Gen II"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS TUF Gaming K3 Gen II"
+    ]
+  },
+  "B0F8SVCMYF": {
+    "asin": "B0F8SVCMYF",
+    "title": "ASUS TUF Gaming Hatsune Miku Edition Mini Wireless Mouse – Right-Handed",
+    "brand": "ASUS",
+    "price": "$75.99",
+    "img": "https://m.media-amazon.com/images/I/31elAhrRMVL._SL500_.jpg",
+    "features": [
+      "Lightweight and compact ambidextrous design: The compact and lightweight 65g mouse provides full support with a more portable, comfortable grip.",
+      "Tri-mode connectivity: Choose from ultra-fast wireless 2.4 GHz RF mode or fast charge in-game with the wired USB mode. Pair up to three devices with Bluetooth fast-pairing technology.",
+      "Durable, crisp mechanical switches: 100-million-click lifespan switches provide exceptional durability.",
+      "Vibrant RGB lighting: Fully customizable for an individual style.",
+      "Optical sensor: 12,000-dpi sensor perfectly tracks movement, accelerating up to 35g and speeds up to 300 IPS, with a 1,000Hz polling rate for increased wireless responsiveness.",
+      "Instant adjustments: In-line controls for volume, audio mute, virtual 7.1 surround sound, and lighting"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS TUF Gaming K3 Gen II"
+    ]
+  },
+  "B0GXCWCJBR": {
+    "asin": "B0GXCWCJBR",
+    "title": "ASUS ROG Falchion Ace 75 HE Wired Analog/Hall Effect Gaming Keyboard– 75% TKL, USB, Hot Swappable HFX V2X Magnetic Switch, Rapid Trigger, 8KHz Polling, PBT Keycap, Carry Case, Web-based Config - Black",
+    "brand": "ASUS",
+    "price": "$185.99",
+    "img": "https://m.media-amazon.com/images/I/41bqfD88tnL._SL500_.jpg",
+    "features": [
+      "Hot-swappable ROG HFX V2X Magnetic Switches: Enjoy refined keystrokes with customizable 0.1–3.5mm actuation and precise 0.01mm-step fine-tuning",
+      "New ROG Hall Sensor: Delivers exceptional precision and accurate input detection, reduces electrical noise and interference, and increases magnetic flux limits for superior performance",
+      "Intuitive Control: Onboard adjustment wheel to fine-tune actuation point and Rapid Trigger sensitivity; plus interactive touch panel for media playback, tweak volume and other settings.",
+      "Protective Keyboard Carry Case: Keeps the keyboard and essential accessories secure and travel-ready.",
+      "Rapid Trigger toggle: Convenient switch for the fastest typing response and key repeat",
+      "Enhanced typing experiences: Integrated five-layer dampening absorbs pinging noises and offers a more cushioned typing feel ",
+      "8000 Hz polling rate: Provides a 0.125 ms response time — up to 8X faster than competitor keyboards ",
+      "Ergonomic design: Three keyboard tilt angles for comfort",
+      "New ROG Double Shot PBT Keycaps: Durable keycaps provide a consistent typing feel; textured finish resists wear."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Falchion"
+    ]
+  },
+  "B0GRM5GWD7": {
+    "asin": "B0GRM5GWD7",
+    "title": "ASUS ROG Falchion Ace 75 HE Wired Analog Hall Effect Gaming Keyboard– 75% TKL, USB, Hot Swappable HFX V2X Magnetic Switch, Rapid Trigger, 8KHz Polling, PBT Keycap, Carry Case, Web based Config - White",
+    "brand": "ASUS",
+    "price": "$185.99",
+    "img": "https://m.media-amazon.com/images/I/41vJq+gCdSL._SL500_.jpg",
+    "features": [
+      "Hot-swappable ROG HFX V2X Magnetic Switches: Enjoy refined keystrokes with customizable 0.1–3.5mm actuation and precise 0.01mm-step fine-tuning ",
+      "New ROG Hall Sensor: Delivers exceptional precision and accurate input detection, reduces electrical noise and interference, and increases magnetic flux limits for superior performance ",
+      "Intuitive Control: Onboard adjustment wheel to fine-tune actuation point and Rapid Trigger sensitivity; plus interactive touch panel for media playback, tweak volume and other settings.",
+      "Protective Keyboard Carry Case: Keeps the keyboard and essential accessories secure and travel-ready.",
+      "Rapid Trigger toggle: Convenient switch for the fastest typing response and key repeat ",
+      "Enhanced typing experiences: Integrated five-layer dampening absorbs pinging noises and offers a more cushioned typing feel ",
+      "8000 Hz polling rate: Provides a 0.125 ms response time — up to 8X faster than competitor keyboards ",
+      "Ergonomic design: Three keyboard tilt angles for comfort",
+      "New ROG Double Shot PBT Keycaps: Durable keycaps provide a consistent typing feel; textured finish resists wear."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Falchion"
+    ]
+  },
+  "B0GG49ZNQ7": {
+    "asin": "B0GG49ZNQ7",
+    "title": "ASUS ROG Falchion Ace 75 HE Wired Analog/Hall Effect Gaming Keyboard – 75% TKL, USB, Hot Swappable HFX V2 Magnetic Switch, Rapid Trigger, 8KHz Polling, ABS Keycap, Carry Case, Web-based Config - Black",
+    "brand": "ASUS",
+    "price": "$177.99",
+    "img": "https://m.media-amazon.com/images/I/41bqfD88tnL._SL500_.jpg",
+    "features": [
+      "Hot-swappable ROG HFX V2 Magnetic Switches: Enjoy refined keystrokes with customizable 0.1–3.5mm actuation and precise 0.01mm-step fine-tuning",
+      "New ROG Hall Sensor: Delivers exceptional precision and accurate input detection, reduces electrical noise and interference, and increases magnetic flux limits for superior performance",
+      "Intuitive Control: Onboard adjustment wheel to fine-tune actuation point and Rapid Trigger sensitivity; plus interactive touch panel for media playback, tweak volume and other settings.",
+      "Protective Keyboard Carry Case: Keeps the keyboard and essential accessories secure and travel-ready.",
+      "Rapid Trigger toggle: Convenient switch for the fastest typing response and key repeat",
+      "Enhanced typing experiences: Integrated five-layer dampening absorbs pinging noises and offers a more cushioned typing feel ",
+      "8000 Hz polling rate: Provides a 0.125 ms response time — up to 8X faster than competitor keyboards ",
+      "Ergonomic design: Three keyboard tilt angles for comfort",
+      "New ROG ABS Keycaps: Smooth, lightweight keycaps deliver a comfortable and consistent typing feel for everyday use and gaming."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Falchion"
+    ]
+  },
+  "B0GMYZJ3FH": {
+    "asin": "B0GMYZJ3FH",
+    "title": "ASUS ROG Falchion Ace 75 HE Wired Analog/Hall Effect Gaming Keyboard",
+    "brand": "ASUS",
+    "price": "$177.99",
+    "img": "https://m.media-amazon.com/images/I/41vJq+gCdSL._SL500_.jpg",
+    "features": [
+      "Hot-swappable ROG HFX V2 Magnetic Switches: Enjoy refined keystrokes with customizable 0.1–3.5mm actuation and precise 0.01mm-step fine-tuning ",
+      "New ROG Hall Sensor: Delivers exceptional precision and accurate input detection, reduces electrical noise and interference, and increases magnetic flux limits for superior performance ",
+      "Intuitive Control: Onboard adjustment wheel to fine-tune actuation point and Rapid Trigger sensitivity; plus interactive touch panel for media playback, tweak volume and other settings.",
+      "Protective Keyboard Carry Case: Keeps the keyboard and essential accessories secure and travel-ready.",
+      "Rapid Trigger toggle: Convenient switch for the fastest typing response and key repeat ",
+      "Enhanced typing experiences: Integrated five-layer dampening absorbs pinging noises and offers a more cushioned typing feel ",
+      "8000 Hz polling rate: Provides a 0.125 ms response time — up to 8X faster than competitor keyboards ",
+      "Ergonomic design: Three keyboard tilt angles for comfort"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Falchion"
+    ]
+  },
+  "B09GL8128T": {
+    "asin": "B09GL8128T",
+    "title": "ASUS ROG Falchion NX 65% Wireless RGB Gaming Mechanical Keyboard | ROG NX Brown Tactile Switches, PBT Doubleshot Keycaps, Wired / 2.4G Hz, Touch Panel, Keyboard Cover Case, Macro Support",
+    "brand": "ASUS",
+    "price": "$109.99",
+    "img": "https://m.media-amazon.com/images/I/41h4Gw1jibL._SL500_.jpg",
+    "features": [
+      "COMPACT, WITHOUT COMPROMISE - ROG Falchion NX is a 65% form-factor wireless mechanical keyboard designed to change the way you play. Interactive touch panel and innovative two-way cover case, plus it’s the first ROG keyboard with wireless Aura Sync RGB lighting.",
+      "65% FORM FACTOR GAMING KEYBOARD - A compact keyboard without compromise, masterfully incorporating arrow and navigation keys into a 65% keyboard layout. And at just 306 mm in length, ROG Falchion NX is almost the same size as a 60% keyboard. It gives you all the functions of a normal keyboard without taking up much desktop space.",
+      "DUAL-MODE CONNECTIVITY | 450-HOUR BATTERY LIFE - A near-zero latency 2.4 GHz RF connection and up to 450 hours of battery life deliver the stability and longevity gamers need for the ultimate gaming experiences. It can also be used in wired USB mode.",
+      "DURABLE PBT DOUBLESHOT KEYCAPS - ROG PBT Doubleshot Keycaps provide a unique and premium feel, as well as long-lasting durability. Optimized with mid-height keycaps, a shorter stem reduces key wobble for a more comfortable user experience.",
+      "POLYCARBONATE KEYBOARD COVER - The transparent polycarbonate keyboard cover provides superb protection when you’re storing or taking ROG Falchion NX to LAN parties. The cover can also be placed under the keyboard when in use, to give the underside RGB lighting a diffused look."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Falchion"
+    ]
+  },
+  "B0G4YMGXXX": {
+    "asin": "B0G4YMGXXX",
+    "title": "ASUS ROG Falchion Ace HFX Hall Effect Wired Gaming Keyboard – 65% TKL, Dual USB-C, Magnetic Switch, Rapid Trigger, Speed Tap, 8K Hz Polling, Touch Panel, Protective Cover, PBT Keycaps – ZywOo Edition",
+    "brand": "ASUS",
+    "price": "$162.99",
+    "img": "https://m.media-amazon.com/images/I/41sK9xVj8YL._SL500_.jpg",
+    "features": [
+      "Battle-tested on the biggest stage: ZywOo’s keyboard of choice in recent championship runs, delivering elite-level play for Majors wins.",
+      "Signature design: Custom aesthetic reflect ZywOo’s focused mindset and competitive identity",
+      "ROG HFX Magnetic Switches: Deliver a solid feel and customizable 0.1 – 4.0mm actuation for instant keystrokes",
+      "Rapid Trigger toggle: Convenient switch for the fastest typing response and key repeat",
+      "8000 Hz polling rate: Provides a 0.125 ms response time — up to 8X faster than competitor keyboards"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Falchion"
+    ]
+  },
+  "B0CG2ZX7J6": {
+    "asin": "B0CG2ZX7J6",
+    "title": "ASUS ROG Falchion Ace 65% RGB Compact Gaming Mechanical Keyboard - Black",
+    "brand": "ASUS",
+    "price": "$78.99",
+    "img": "https://m.media-amazon.com/images/I/41YlfojsBBL._SL500_.jpg",
+    "features": [
+      "Compact 65% Form Factor: The ROG team aimed to provide a compact keyboard without compromise, masterfully incorporating arrow and navigation keys into a 65% keyboard layout. And at just 306 mm in length, the ROG Falchion Ace is almost the same size as a 60% keyboard. It gives you all the functions of a normal keyboard without taking up much desktop space.",
+      "ROG NX Mechanical Switch: ROG-exclusive gaming switch -Tuned for great keystroke feel and consistency with fast actuation. The switches have lubricated stems and base housings that offer a smoother click feel and eliminate spring-bouncing noises respectively.",
+      "ROG PBT Doubleshot Keycaps: ROG PBT doubleshot keycaps* provide a unique and premium feel, as well as offer long-lasting durability. The key design has been optimized with mid-height keycaps and a shorter stem to reduce key wobble for a more comfortable user experience. * Keycap material may vary by region.",
+      "ROG Switch Stabilizer: Compared to standard key stabilizer mechanisms, the Falchion Ace has specially tuned, lubricated switch stabilizers that greatly reduce keystroke friction to provide smooth and stable keystrokes for longer keys such as the spacebar, shift and enter keys.",
+      "Interactive Touch Panel: An innovative touch panel on the left side of the Falchion Ace lets you conveniently adjust volume, or create shortcuts for switching apps, or copying and pasting. It can also be programmed for use as a macro key for more intuitive controls for gaming."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Falchion"
+    ]
+  },
+  "B0H3QLBS4R": {
+    "asin": "B0H3QLBS4R",
+    "title": "ASUS ROG Falchion Ace 75 HE Wired Analog/Hall Effect Gaming Keyboard – 75% TKL, USB, Hot Swappable HFX V2X Magnetic Switch, Rapid Trigger, 8KHz Polling, PBT Keycap, Carry Case, Web-Based Config - Red",
+    "brand": "ASUS",
+    "price": "$185.99",
+    "img": "https://m.media-amazon.com/images/I/4175SpW6gxL._SL500_.jpg",
+    "features": [
+      "Hot-swappable ROG HFX V2X Magnetic Switches: Enjoy refined keystrokes with customizable 0.1–3.5mm acation and precise 0.01mm-step fine-tuning , improved stem design",
+      "New ROG Hall Sensor: Delivers exceptional precision and accurate input detection, reduces electrical noise and interference for superior performance",
+      "Intuitive Control: Onboard adjustment wheel to fine-tune actuation point and Rapid Trigger sensitivity; plus interactive touch panel for media playback, tweak volume and other settings",
+      "Protective Keyboard Carry Case: Keeps the keyboard and essential accessories secure and travel-ready",
+      "Rapid Trigger toggle: Convenient switch for the fastest typing response and key repeat ",
+      "Enhanced typing experiences: Integrated five-layer dampening absorbs pinging noises and offers a more cushioned typing feel ",
+      "8000 Hz polling rate: Provides a 0.125 ms response time — up to 8X faster than competitor keyboards ",
+      "Ergonomic design: Three keyboard tilt angles for comfort",
+      "New ROG Double Shot PBT Keycaps: Durable keycaps provide a consistent typing feel; textured finish resists wear"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ROG Falchion"
+    ]
+  },
+  "B0D4RKYZJ5": {
+    "asin": "B0D4RKYZJ5",
+    "title": "SteelSeries Apex Pro Gen 3 OmniPoint 3.0 HyperMagnetic Switches — Adjustable Actuation — Rapid Trigger — Game-Ready Presets — Protection Mode — Rapid Tap/SOCD — OLED — RGB — PBT Keycaps — USB-C",
+    "brand": "SteelSeries",
+    "price": "$228.99",
+    "img": "https://m.media-amazon.com/images/I/41TP3jw9LlL._SL500_.jpg",
+    "features": [
+      "THE WORLD'S FASTEST KEYBOARD — Push the boundaries with cutting-edge OmniPoint 3.0 switches and Rapid Trigger, Protection Mode, Rapid Tap, and more",
+      "OMNIPOINT 3.0 — More than just fast, newly redesigned Hall Effect Switch have 20x faster actuation and 11x quicker response time, with 40 levels of adjustable actuation",
+      "GAME-READY PRESETS — Gain a competitive edge in your favorite game with just a few clicks using GG QuickSet's game-ready keyboard settings",
+      "REDUCED LATENCY — Rapid Trigger and Rapid Tap register keypresses faster for more responsive gameplay and improved aim",
+      "PROTECTION MODE — A SteelSeries exclusive feature — protect your keypresses by reducing the sensitivity of surrounding keys when the intended key is pressed, preventing accidental inputs",
+      "OLED SMART DISPLAY — Your digital command center for all your settings without taking you out of the game",
+      "DYNAMIC RGB — Fully customizable RGB for all keys that reacts to your presses and synchronizes with compatible SteelSeries devices"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "SteelSeries Apex Pro full size"
+    ]
+  },
+  "B0DQQZMNVC": {
+    "asin": "B0DQQZMNVC",
+    "title": "SteelSeries Apex Pro Gen 3 OmniPoint 3.0 HyperMagnetic Switches Adjustable Actuation Rapid Trigger Game-Ready Presets Protection Mode Rapid Tap/SOCD OLED RGB PBT Keycaps USB-C (Renewed)",
+    "brand": "SteelSeries",
+    "price": "$159.99",
+    "img": "https://m.media-amazon.com/images/I/41T5Dq1DpZL._SL500_.jpg",
+    "features": [
+      "THE WORLD'S FASTEST KEYBOARD — Push the boundaries with cutting-edge OmniPoint 3.0 switches and Rapid Trigger, Protection Mode, Rapid Tap, and more",
+      "OMNIPOINT 3.0 — More than just fast, newly redesigned Hall Effect Switch have 20x faster actuation and 11x quicker response time, with 40 levels of adjustable actuation",
+      "GAME-READY PRESETS — Gain a competitive edge in your favorite game with just a few clicks using GG QuickSet's game-ready keyboard settings",
+      "REDUCED LATENCY — Rapid Trigger and Rapid Tap register keypresses faster for more responsive gameplay and improved aim",
+      "PROTECTION MODE — A SteelSeries exclusive feature — protect your keypresses by reducing the sensitivity of surrounding keys when the intended key is pressed, preventing accidental inputs",
+      "OLED SMART DISPLAY — Your digital command center for all your settings without taking you out of the game",
+      "DYNAMIC RGB — Fully customizable RGB for all keys that reacts to your presses and synchronizes with compatible SteelSeries devices"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "SteelSeries Apex Pro full size"
+    ]
+  },
+  "B0DQQNV2S4": {
+    "asin": "B0DQQNV2S4",
+    "title": "SteelSeries Apex Pro TKL Gen 3 OmniPoint 3.0 HyperMagnetic Switches Adjustable Actuation Rapid Trigger Ready Presets Protection Mode Rapid Tap/SOCD OLED RGB PBT Keycaps USB-C (Renewed)",
+    "brand": "SteelSeries",
+    "price": "$153.95",
+    "img": "https://m.media-amazon.com/images/I/41R8J1wS-UL._SL500_.jpg",
+    "features": [
+      "THE WORLD'S FASTEST KEYBOARD — Push the boundaries with cutting-edge OmniPoint 3.0 switches with Rapid Trigger, Protection Mode, Rapid Tap and full adjustability.",
+      "OMNIPOINT 3.0 — More than just fast, our newly redesigned Hall Effect Switch have 20x faster actuation and 11x quicker response time, with 40 levels of adjustable actuation",
+      "GAME-READY PRESETS — Gain a competitive edge in your favorite game with just a few clicks using GG QuickSet's game-ready keyboard settings",
+      "REUCED LATENCY — Rapid Trigger and Rapid Tap register keypresses faster for more responsive game play and improved aim.",
+      "PROTECTION MODE — A SteelSeries exclusive feature — protect your keypresses by reducing the sensitivity of surrounding keys when the intended key is pressed, preventing accidental inputs",
+      "OLED SMART DISPLAY — Your digital command center for all your settings without taking you out of the game",
+      "ESPORTS-READY — TKL form factor. Full-size functionality."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "SteelSeries Apex Pro full size"
+    ]
+  },
+  "B0F11G7G48": {
+    "asin": "B0F11G7G48",
+    "title": "SteelSeries Apex Pro TKL Gen 3 Gaming Keyboard - OmniPoint 3.0 Analog Magnetic Switches, Quickset Auto-Presets (Rapid Trigger, Rapid Tap/SOCD, Protection Mode), OLED, RGB, PBT Keycaps, USB-C, White",
+    "brand": "SteelSeries",
+    "price": "$181.21",
+    "img": "https://m.media-amazon.com/images/I/41Hgn9Agh+L._SL500_.jpg",
+    "features": [
+      "TRIPLE THREAT POWERED BY QUICKSET — Apex Pro is the only line of keyboards in the world with Rapid Trigger, Rapid Tap, and Protection Mode (Patent Pending), activated for your game in seconds",
+      "RAPID TRIGGER FOR FASTER ACTIONS — Stop fast, start your next move faster. Resets the moment you release a key.",
+      "RAPID TAP FOR FASTER MOVEMENT — Snaps to your latest key press to strafe and dodge faster.",
+      "PROTECTION MODE STOPS MISTAKES — Patent pending feature reduces accidental keypresses on nearby keys - no more accidental ults",
+      "QUICKSET AUTO-PRESETS — Easy setup in seconds, auto-launch pro-level configs when your game loads.",
+      "OLED SMART DISPLAY — Change settings from your keyboard directly. Your configs stay saved onboard so you don't need to leave the game.",
+      "ANALOG MAGNETIC SWITCHES - OmniPoint 3 with Hall Effect Switches, 40 levels of adjustable actuation (0.1mm to 4.0mm), and 45g bottom out force."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "SteelSeries Apex Pro full size"
+    ]
+  },
+  "B0DF2QL2GK": {
+    "asin": "B0DF2QL2GK",
+    "title": "SteelSeries Apex Pro TKL Gen 3 - HyperMagnetic Gaming Keyboard - OmniPoint 3.0 Switches - Adjustable Response - Rapid Trigger - Rapid Tap/SOCD - OLED - PBT Keycaps - USB-C - US Layout QWERTY",
+    "brand": "SteelSeries",
+    "price": "$199.99",
+    "img": "https://m.media-amazon.com/images/I/41m7nCw6mBL._SL500_.jpg",
+    "features": [
+      "The fastest keyboard ever – Our newly designed Hall Effect Switches are not only fast, but also offer 20 times faster actuation and an 11 times faster response time as well as 40 adjustable actuation levels.",
+      "OMNIPOINT 3.0 - Overcome limitations with state-of-the-art OmniPoint 3.0 switches with Rapid Trigger, Protection Mode, Rapid Tap and comprehensive customization options",
+      "Ready to use presets – gain a competitive advantage in your favourite game with just a few clicks by using the ready-to-use keyboard settings from GG Quick Set.",
+      "Minimum latency: With Rapid Trigger and Rapid Tap, key inputs are registered faster and more responsive gameplay and improved targeting.",
+      "Protection mode – an exclusive function from SteelSeries – protect your inputs by reducing the sensitivity of the surrounding buttons to prevent accidental triggering"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "SteelSeries Apex Pro full size"
+    ]
+  },
+  "B0DGZ3VV9X": {
+    "asin": "B0DGZ3VV9X",
+    "title": "SteelSeries Apex Pro TKL Gen 3 Gaming Keyboard - OmniPoint 3.0 Analog Magnetic Switches, Quickset Auto-Presets (Rapid Trigger, Rapid Tap/SOCD, Protection Mode), OLED, RGB, PBT Keycaps, 2.4G+BT, Black",
+    "brand": "SteelSeries",
+    "price": "$259.95",
+    "img": "https://m.media-amazon.com/images/I/41G-PK5aDRL._SL500_.jpg",
+    "features": [
+      "TRIPLE THREAT POWERED BY QUICKSET — Apex Pro is the only line of keyboards in the world with Rapid Trigger, Rapid Tap, and Protection Mode (Patent Pending), activated for your game in seconds",
+      "RAPID TRIGGER FOR FASTER ACTIONS — Stop fast, start your next move faster. Resets the moment you release a key.",
+      "RAPID TAP FOR FASTER MOVEMENT — Snaps to your latest key press to strafe and dodge faster.",
+      "PROTECTION MODE STOPS MISTAKES — Patent pending feature reduces accidental keypresses on nearby keys - no more accidental ults",
+      "QUICKSET AUTO-PRESETS — Easy setup in seconds, auto-launch pro-level configs when your game loads.",
+      "ANALOG MAGNETIC SWITCHES - OmniPoint 3 with Hall Effect Switches, 40 levels of adjustable actuation (0.1mm to 4.0mm), and 45g bottom out force.",
+      "2.4GHZ + BLUETOOTH — Quantum 2.0 Dual Wireless lets you connect via lag-free 2.4GHz for gaming or Bluetooth for other devices"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "SteelSeries Apex Pro full size"
+    ]
+  },
+  "B0B16JFF54": {
+    "asin": "B0B16JFF54",
+    "title": "SteelSeries Apex Pro Mini Wireless Keyboard - 60% Design - OmniPoint 2.0 - Quantum 2.0 Wireless - Double Shot PBT Keycaps - Black",
+    "brand": "SteelSeries",
+    "price": "$239.99",
+    "img": "https://m.media-amazon.com/images/I/41o2I-Ptw4L._SL500_.jpg",
+    "features": [
+      "FULLY CUSTOMIZABLE & STUPIDLY FAST with OmniPoint 2.0 Adjustable HyperMagnetic switches",
+      "RAPID TRIGGER — Eradicate latency arising from the physical movement of the switch through dynamic activation and deactivation of keys based on travel distance rather than a fixed point in the key travel.",
+      "ULTIMATE CONTROL — 40 levels of per-key actuation (0.1 – 4.0mm) – set WASD for light, ultra-fast movements and set ability keys to deep presses to avoid accidentally triggering specials",
+      "2-IN-1 ACTION KEYS — Program two different actions to the same key, such as walking with a light touch or sprinting with a deep press",
+      "20x faster actuation, 11x faster response than traditional mechanical keyboards",
+      "Lag-free Quantum 2.0 Dual Wireless with a 2.4GHz connection and Bluetooth 5.0",
+      "60% form factor. Full-size functionality. Premium aluminum top plate. Detachable USB-C."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "SteelSeries Apex Pro full size"
+    ]
+  },
+  "B07SWNSXQN": {
+    "asin": "B07SWNSXQN",
+    "title": "SteelSeries Apex 7 Mechanical Gaming Keyboard – OLED Smart Display – USB Passthrough and Media Controls – Linear , Quiet – RGB Backlit (Red Switch)",
+    "brand": "SteelSeries",
+    "price": "$134.72",
+    "img": "https://m.media-amazon.com/images/I/41aSwZ5G1VL._SL500_.jpg",
+    "features": [
+      "OLED smart display: an integrated command center for adjusting settings and tracking on the fly info straight from your game, Spotify, discord, and more",
+      "Aircraft grade aluminum alloy: built for a lifetime of durability and stability",
+      "RGB illumination: unmatched customization with 16.8 million colors per key; n-key roll over: 84-key",
+      "Premium magnetic wrist rest: provides full palm support and comfortable, ergonomic feel",
+      "Durable mechanical gaming switches"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "SteelSeries Apex Pro full size"
+    ]
+  },
+  "B07ZGDD6B1": {
+    "asin": "B07ZGDD6B1",
+    "title": "SteelSeries USB Apex 5 Hybrid Mechanical Gaming Keyboard – Per-Key RGB Illumination – Aircraft Grade Aluminum Alloy Frame – OLED Smart Display (Hybrid Blue Switch)",
+    "brand": "SteelSeries",
+    "price": "$98.97",
+    "img": "https://m.media-amazon.com/images/I/51m659TceqL._SL500_.jpg",
+    "features": [
+      "Hybrid blue mechanical gaming switches – The tactile click of a blue mechanical switch plus a smooth membrane – guaranteed for 20 million keypresses",
+      "OLED smart display – Customize with gifs, game info, discord messages, and more.",
+      "Aircraft-grade aluminum alloy frame – Manufactured for unbreakable durability and sturdiness",
+      "Dynamic per-key RGB illumination – Gorgeous color schemes and reactive effects for every key",
+      "Premium magnetic wrist rest – Provides full palm support and comfort",
+      "900 x 300 x 4 millimeter / 35.43 inches x 11.81 inches"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "SteelSeries Apex Pro full size"
+    ]
+  },
+  "B0B9T6S5S4": {
+    "asin": "B0B9T6S5S4",
+    "title": "SteelSeries Apex 9 TKL - Mechanical Gaming Keyboard - Optical Switches - 2-Point Actuation - Keyless Compact Size - Removable Switches - US Layout (QWERTY)",
+    "brand": "SteelSeries",
+    "price": "$147.50",
+    "img": "https://m.media-amazon.com/images/I/41t+INzc1kL._SL500_.jpg",
+    "features": [
+      "Play at the Speed of Light — Outpace leading optical keyboards with 33% faster actuation using custom OptiPoint switches with zero debounce and a lightning-fast 0.2ms response time.",
+      "2-point actuation — Adapt to any game by changing the registration depth from a speedy, light 1 mm press to a deliberate 1.5 mm keystroke.",
+      "Swappable Switches — Customize, upgrade, and repair your keyboard by changing the switches to your favorite style of OptiPoint switch.",
+      "Streamlined TKL Form Factor — Play like the pros with a compact, ergonomic tenkeyless keyboard that leaves more space for broad mouse swipes.",
+      "Durable PBT keycaps — Long-lasting and fadeproof double shot PBT keycaps provide a high-quality texture for enhanced keystroke feel as well as improved typing accuracy..The layout of this keyboard is American QWERTY"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "SteelSeries Apex Pro full size"
+    ]
+  },
+  "B0D631D7N9": {
+    "asin": "B0D631D7N9",
+    "title": "Keychron K10 Max QMK Wireless Custom Mechanical Full-Size Keyboard",
+    "brand": "Keychron",
+    "price": "$119.99",
+    "img": "https://m.media-amazon.com/images/I/31TDEnPgu+L._SL500_.jpg",
+    "features": [
+      "108 Keys QMK Wireless Keyboard: The K10 Max is a wireless mechanical keyboard with a 100% layout. It supports 2.4 GHz, Bluetooth, and wired connections. Configurable through QMK and Keychron Launcher web app, it offers endless possibilities and enhanced productivity in your work and gaming",
+      "2.4 GHz and Bluetooth Connection: The 2.4 GHz wireless and wired connection boasts a rapid 1000 Hz polling rate. For seamless multitasking across your computer, phone, and tablet, you can effortlessly connect the K10 Max via Bluetooth 5.1 to three devices",
+      "Program with QMK & web app: Simply connect the K10 Max to your device with a cable, open the Keychron Launcher web app, drag and drop your favorite keys or macro commands to remap any key on any system (macOS, Windows, or Linux) for a fluid workflow. Or create your keymap with open-sourced QMK firmware",
+      "Enhanced Acoustic Foams: Elevate your typing with K10 Max featuring advanced IXPE acoustic foam for enhanced comfort, coupled with resilient EPDM foam for superior key switch support, responsiveness, and durability. The steel plate provides responsive feedback and a peaceful typing sound, while added weight will enhance the stability",
+      "Hot-swap Any Switch You Want: You can also hot-swap any pre-lubed tactile banana switch on the K10 Max with almost all of the 3pin and 5pin MX mechanical switches on the market without soldering required. The PCB-mounted screw-in stabilizer for “big keys” such as space bar, shift, enter, and delete are designed for less wobbliness and smooth performance",
+      "OSA PBT Keycaps & RGB Backlit: To further fine-tune your typing experience, the K10 Max comes with our unique OSA profile and double-shot PBT keycaps that aim to provide a more comfortable fingertip feel with excellent oil resistance for long-term use on the full-size layout. The south-facing RGB is designed to better illuminate the keyboard backlight from the typist’s angle"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Keychron K10 Max"
+    ]
+  },
+  "B0D62Z6BJY": {
+    "asin": "B0D62Z6BJY",
+    "title": "Keychron K10 Max QMK Wireless Custom Mechanical Full-Size Keyboard",
+    "brand": "Keychron",
+    "price": "$119.99",
+    "img": "https://m.media-amazon.com/images/I/31QVuiLjG2L._SL500_.jpg",
+    "features": [
+      "108 Keys QMK Wireless Keyboard: The K10 Max is a wireless mechanical keyboard with a 100% layout. It supports 2.4 GHz, Bluetooth, and wired connections. Configurable through QMK and Keychron Launcher web app, it offers endless possibilities and enhanced productivity in your work and gaming",
+      "2.4 GHz and Bluetooth Connection: The 2.4 GHz wireless and wired connection boasts a rapid 1000 Hz polling rate. For seamless multitasking across your computer, phone, and tablet, you can effortlessly connect the K10 Max via Bluetooth 5.1 to three devices",
+      "Program with QMK & web app: Simply connect the K10 Max to your device with a cable, open the Keychron Launcher web app, drag and drop your favorite keys or macro commands to remap any key on any system (macOS, Windows, or Linux) for a fluid workflow. Or create your keymap with open-sourced QMK firmware",
+      "Enhanced Acoustic Foams: Elevate your typing with K10 Max featuring advanced IXPE acoustic foam for enhanced comfort, coupled with resilient EPDM foam for superior key switch support, responsiveness, and durability. The steel plate provides responsive feedback and a peaceful typing sound, while added weight will enhance the stability",
+      "Hot-swap Any Switch You Want: You can also hot-swap any pre-lubed linear red switch on the K10 Max with almost all of the 3pin and 5pin MX mechanical switches on the market without soldering required. The PCB-mounted screw-in stabilizer for “big keys” such as space bar, shift, enter, and delete are designed for less wobbliness and smooth performance",
+      "OSA PBT Keycaps and RGB Backlit: To further fine-tune your typing experience, the K10 Max comes with our unique OSA profile and double-shot PBT keycaps that aim to provide a more comfortable fingertip feel with excellent oil resistance for long-term use on the full-size layout. The south-facing RGB is designed to better illuminate the keyboard backlight from the typist’s angle"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Keychron K10 Max"
+    ]
+  },
+  "B0D62XJCYP": {
+    "asin": "B0D62XJCYP",
+    "title": "Keychron K10 Max QMK Wireless Custom Mechanical Full-Size Keyboard",
+    "brand": "Keychron",
+    "price": "$119.99",
+    "img": "https://m.media-amazon.com/images/I/31Mho+ADAoL._SL500_.jpg",
+    "features": [
+      "108 Keys QMK Wireless Keyboard: The K10 Max is a wireless mechanical keyboard with a 100% layout. It supports 2.4 GHz, Bluetooth, and wired connections. Configurable through QMK and Keychron Launcher web app, it offers endless possibilities and enhanced productivity in your work and gaming",
+      "2.4 GHz and Bluetooth Connection: The 2.4 GHz wireless and wired connection boasts a rapid 1000 Hz polling rate. For seamless multitasking across your computer, phone, and tablet, you can effortlessly connect the K10 Max via Bluetooth 5.1 to three devices",
+      "Program with QMK & web app: Simply connect the K10 Max to your device with a cable, open the Keychron Launcher web app, drag and drop your favorite keys or macro commands to remap any key on any system (macOS, Windows, or Linux) for a fluid workflow. Or create your keymap with open-sourced QMK firmware",
+      "Enhanced Acoustic Foams: Elevate your typing with K10 Max featuring advanced IXPE acoustic foam for enhanced comfort, coupled with resilient EPDM foam for superior key switch support, responsiveness, and durability. The steel plate provides responsive feedback and a peaceful typing sound, while added weight will enhance the stability",
+      "Hot-swap Any Switch You Want: You can also hot-swap any pre-lubed tactile brown switch on the K10 Max with almost all of the 3pin and 5pin MX mechanical switches on the market without soldering required. The PCB-mounted screw-in stabilizer for “big keys” such as space bar, shift, enter, and delete are designed for less wobbliness and smooth performance",
+      "OSA PBT Keycaps and RGB Backlit: To further fine-tune your typing experience, the K10 Max comes with our unique OSA profile and double-shot PBT keycaps that aim to provide a more comfortable fingertip feel with excellent oil resistance for long-term use on the full-size layout. The south-facing RGB is designed to better illuminate the keyboard backlight from the typist’s angle"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Keychron K10 Max"
+    ]
+  },
+  "B0GQHDP2SP": {
+    "asin": "B0GQHDP2SP",
+    "title": "Keychron K10 Ultra 8K Wireless Mechanical Keyboard Full-Size Layout",
+    "brand": "Keychron",
+    "price": "$114.99",
+    "img": "https://m.media-amazon.com/images/I/41gUffzUFaL._SL500_.jpg",
+    "features": [
+      "High-Performance 100% Layout Keyboard: The K10 Ultra 8K is a high-performance full-size wireless mechanical keyboard designed for both work and gaming. It supports Bluetooth, 2.4 GHz, and wired connections, delivering up to an 8000 Hz polling rate in both wired and wireless modes for ultra-fast responsiveness. Powered by open-source ZMK firmware, it enables advanced customization. With up to 760 hours of battery life (backlight off), it ensures long-lasting performance",
+      "Ultra-Fast 8000Hz Tri-Mode Connectivity: Experience an 8000 Hz polling rate in both wired and 2.4 GHz wireless modes, delivering ultra-responsive, pro-level performance for competitive gaming. With Bluetooth 5.2, easily switch between up to three devices for seamless multitasking. From ultra-fast responsiveness to versatile multi-device connectivity, the K10 Ultra 8K is built for both gaming and productivity",
+      "ZMK & Launcher Customization: With the Keychron Launcher web app and ZMK programmability, you can effortlessly remap keys, create custom macros, and personalize per-key RGB lighting to suit your gaming or workflow needs. Please use the latest version of Chrome, Opera, or Edge browser to open the Launcher and connect the keyboard to your device via a wired connection",
+      "Mac & Windows Compatibility: Seamlessly compatible with both macOS and Windows, the K10 Ultra 8K allows you to switch effortlessly between them with the included Mac and Windows keycaps, ensuring a consistent typing experience across devices",
+      "Long-Lasting Battery: Powered by a 4000 mAh battery, along with optimized firmware and an enhanced circuit design, the K10 Ultra 8K delivers up to 760 hours of usage at an 8000 Hz polling rate ( backlit off ). Redefining what wireless performance can achieve",
+      "Hot-Swappable Switch Compatibility: Designed for personalized typing preferences, the K10 Ultra 8K features a hot-swappable switch design, allowing you to easily replace switches in seconds and customize your experience—no soldering required. It is compatible with most 3-pin and 5-pin MX mechanical switches, including pre-lubed tactile brown switches, giving you broad flexibility to tailor your typing feel",
+      "Processor Compatibility: Intel i7 9th Gen, AMD Ryzen 7 2nd Gen or above. Polling rate is adjustable on Keychron Launcher"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Keychron K10 Max"
+    ]
+  },
+  "B0DXZ97PCG": {
+    "asin": "B0DXZ97PCG",
+    "title": "Keychron K10 HE Full-Size Hall Effect Keyboard Wireless, Rapid Trigger",
+    "brand": "Keychron",
+    "price": "$144.99",
+    "img": "https://m.media-amazon.com/images/I/410d2FTkvML._SL500_.jpg",
+    "features": [
+      "Full-Size Layout, Fully Upgraded - Transform your typing and gaming with the Keychron K10 HE. This 100% layout wireless keyboard blends a classic mechanical feel with advanced magnetic switch technology for ultra-responsive performance—all wrapped in a sleek design with rosewood accents",
+      "Tri-Mode Connectivity - Switch seamlessly between three connection modes. Pair up to three devices via Bluetooth 5.2, or choose 2.4 GHz wireless or Type-C wired modes for stable, high-speed performance across different setups",
+      "Launcher Web Configurator - (Please clear your browsing data—cookies and cache—before using Launcher.) Customize every key, create macros, fine-tune actuation points, and enable rapid trigger and snap action. The Keychron Launcher makes it easy to set up your K10 HE just the way you like it",
+      "Hall Effect Magnetic Switches - Hall Effect magnetic switches detect keypresses using magnetic sensors instead of physical contact, reducing wear and tear. Hot-swappable and durable, they offer 0.1mm senstivity with actuation adjustable range from 0.2mm to 3.8mm. They are hot-swap, you can easily replace them without soldering",
+      "Cross-System Compatibility - Designed for macOS and Windows with dedicated media keys and extra keycaps, the K10 HE easily adapts to your workflow. Remap it to suit Linux systems as well, making it truly universal",
+      "Non-Shine-Through PBT Keycaps & Wood Sidings - Equipped with OSA-profile double-shot PBT keycaps, the K10 HE resists shine and wear while delivering a satisfying feel. Finished with natural wood sidings, it brings a refined, organic touch to your setup"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Keychron K10 Max"
+    ]
+  },
+  "B0D62Z6BFP": {
+    "asin": "B0D62Z6BFP",
+    "title": "Keychron K10 Max Wireless Custom Mechanical Keyboard, 100% Layout QMK 2.4 GHz Bluetooth White Backlit with Hot-swappable Keychron Super Banana Switch Compatible with Mac Windows Linux",
+    "brand": "Keychron",
+    "price": "$109.99",
+    "img": "https://m.media-amazon.com/images/I/41Spf0ZRVBL._SL500_.jpg",
+    "features": [
+      "108 Keys QMK Wireless Keyboard: The K10 Max is a full-sized, wireless mechanical keyboard built for versatility. It offers flexible connectivity options, supporting 2.4 GHz, Bluetooth, and wired modes. With the QMK firmware and the Keychron Launcher web app, it enables limitless customization to boost both productivity and gaming performance",
+      "Open-Source Firmware & Launcher App: Running on QMK open-source firmware, the K10 Max ensures transparency and security. With the Keychron Launcher, a cross-platform, web-based tool, access regular updates and new features for an optimized experience",
+      "2.4 GHz and Bluetooth Connections: Enjoy high-performance gaming with the 2.4 GHz wireless connection, delivering a fast 1000 Hz polling rate. Connect up to three devices via Bluetooth 5.1 to seamlessly switch between your computer, phone, and tablet",
+      "Hot-Swappable: Features Keychron Super switches, its new light affection structure on its transparent top housing also ensures high light transmittance and a more consistent, brighter backlight effect. You can hot-swap the switches without soldering according to your preferences",
+      "PBT Keycaps & South-Facing LED: The double-shot PBT keycaps provide a comfortable feel with excellent oil resistance for long-term use on a full-size layout. The south-facing white LED enhances backlight visibility and ensures compatibility with most keycaps",
+      "MacOS & Windows Support: Fully optimized for macOS with the same multimedia keys as native Mac devices, the K10 Max also includes extra keycaps for Windows. Effortlessly toggle between MacOS and Windows for a seamless multi-OS experience"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Keychron K10 Max"
+    ]
+  },
+  "B08MKSNYJD": {
+    "asin": "B08MKSNYJD",
+    "title": "Keychron K10 Full Size 104 Keys Bluetooth Wireless Mechanical Gaming Keyboard for Mac Windows with Keychron Super Brown Switch, Multitasking/White LED Backlight/USB C Wired Computer Keyboard",
+    "brand": "Keychron",
+    "price": "$63.74",
+    "img": "https://m.media-amazon.com/images/I/31ssMvj7kFL._SL500_.jpg",
+    "features": [
+      "The Keychron K10 is a 104 keys white LED backlight Bluetooth mechanical keyboard made for Mac and Windows. Engineered to maximize your productivity with most popular full size layout with number pad.",
+      "With a unique Mac layout while compatible with Windows, the K10 has all essential multimedia and function keys you need (Num Lock works with Windows only), and comes with a dedicated Screenshot Key, Siri (Cortana) Key, and Screen Lock Key. Extra keycaps for both Mac and Windows operating systems are included.",
+      "Connects with up to 3 devices via the reliable Broadcom Bluetooth 5.1 chipset and switch among them easily for multitasking needs. The K10 is best to fit home, office and light gaming use while connecting with your smartphone, laptop and iPad. It also has wired mode with USB Type-C connection.",
+      "The Keychron Super Switch is built to last with a lifespan of 50 million clicks and provides great reliability and high performance for fast typing and competitive gaming.",
+      "The K10 can last up to 240 hours (with backlight off) with a 4000 mAh big battery, which is one of the biggest in mechanical keyboards. Two level adjustable feet (6º and 9º) and inclined bottom frame provides a great ergonomic support for long lasting typing comfort."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Keychron K10 Max"
+    ]
+  },
+  "B0DXZF4D4S": {
+    "asin": "B0DXZF4D4S",
+    "title": "Keychron K10 HE Full-Size Hall Effect Keyboard Wireless, Rapid Trigger",
+    "brand": "Keychron",
+    "price": "$144.99",
+    "img": "https://m.media-amazon.com/images/I/41YMftX6JeL._SL500_.jpg",
+    "features": [
+      "Full-Size Layout, Fully Upgraded - Transform your typing and gaming with the Keychron K10 HE. This 100% layout wireless keyboard blends a classic mechanical feel with advanced magnetic switch technology for ultra-responsive performance—all wrapped in a sleek design with rosewood accents",
+      "Tri-Mode Connectivity - Switch seamlessly between three connection modes. Pair up to three devices via Bluetooth 5.2, or choose 2.4 GHz wireless or Type-C wired modes for stable, high-speed performance across different setups",
+      "Launcher Web Configurator - (Please clear your browsing data—cookies and cache—before using Launcher.) Customize every key, create macros, fine-tune actuation points, and enable rapid trigger and snap action. The Keychron Launcher makes it easy to set up your K10 HE just the way you like it",
+      "Hall Effect Magnetic Switches - Hall Effect magnetic switches detect keypresses using magnetic sensors instead of physical contact, reducing wear and tear. Hot-swappable and durable, they offer 0.1mm senstivity with actuation adjustable range from 0.2mm to 3.8mm. They are hot-swap, you can easily replace them without soldering",
+      "Cross-System Compatibility - Designed for macOS and Windows with dedicated media keys and extra keycaps, the K10 HE easily adapts to your workflow. Remap it to suit Linux systems as well, making it truly universal",
+      "Non-Shine-Through PBT Keycaps & Wood Sidings - Equipped with OSA-profile double-shot PBT keycaps, the K10 HE resists shine and wear while delivering a satisfying feel. Finished with natural wood sidings, it brings a refined, organic touch to your setup"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Keychron K10 Max"
+    ]
+  },
+  "B0B2DP88SD": {
+    "asin": "B0B2DP88SD",
+    "title": "Keychron K10 Pro Wireless Custom Mechanical Keyboard Full-Size Layout",
+    "brand": "Keychron",
+    "price": "$91.99",
+    "img": "https://m.media-amazon.com/images/I/41OIkZ+MM4L._SL500_.jpg",
+    "features": [
+      "100% Layout Mechanical Keyboard: Keychron K10 Pro is a premium full-size wireless mechanical keyboard. The K10 Pro has been re-engineered from the inside out to upgrade the typing experience. It allows anyone to master any keyboard keys or macro commands through VIA and users can hot-swap with any MX mechanical switch in a breeze. The polling rate is 1000 Hz out of the box, which makes latency non-existent for the competitive game.",
+      "QMK/VIA Programmable: Keychron K10 Pro allows anyone to remap any key, and create macro commands, shortcuts, or combination keys through VIA. Simply connect the K10 Pro to your device with a cable, drag and drop your favorite keys or macro commands to remap any key you want on any system (macOS, Windows, or Linux). Note: User can remap a key on wired mode only. Once it's done, the keymap will work on both wireless and wired modes.",
+      "Supports Wireless and Wired Mode: You can connect the K10 Pro with up to 3 devices wirelessly via its stable Broadcom Bluetooth 5.1 for seamless multitasking across your laptop, phone, and tablet. Switch among them swiftly, and it’s fully compatible with both Mac and Windows. The K10 Pro can last up to 100 hours (at lowest brightness) with a 4000 mAh big battery, which is one of the biggest in mechanical keyboards. It also has wired mode with USB Type-C connection.",
+      "Hot-swappable Support: With the pre-lubed mechanical tactile brown switch providing unrivaled tactile responsiveness with up to 50 million keystroke lifespan. You can also hot-swap the K10 Pro with almost all of the 3pin and 5pin MX mechanical switches on the market (including Cherry, Gateron, Kailh, Panda, etc.) without soldering required. The PCB-mounted screw-in stabilizer for “big keys” such as space bar, shift, enter, and delete are designed for less wobbliness and smooth performance.",
+      "Upgraded Typing Experience: The K10 Pro added sound-absorbing foam, a thick silicone dampening bottom pad, and steel plate provide responsive feedback and a peaceful typing sound. The south-facing white backlight is designed to better illuminate the keyboard backlight from the typist’s angle and it comes with double-shot PBT keycaps that aim to provide a more comfortable fingertip feel and excellent oil resistance."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Keychron K10 Max"
     ]
   }
 }

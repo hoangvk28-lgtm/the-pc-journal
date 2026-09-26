@@ -537,7 +537,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "ASUS ROG Strix XG27ACS"
+      "ASUS ROG Strix XG27ACS",
+      "165Hz 1440p gaming monitor 27 inch"
     ]
   },
   "B0BZR9TMBJ": {
@@ -559,7 +560,8 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "ASUS ROG Strix XG27ACS",
-      "ASUS TUF VG259QM5A"
+      "ASUS TUF VG259QM5A",
+      "165Hz 1440p gaming monitor 27 inch"
     ]
   },
   "B0CZWRK33C": {
@@ -709,7 +711,9 @@
       "LG 27US500-W",
       "Dell S2722QC",
       "Gigabyte M27U",
-      "LG 27GR93U"
+      "LG 27GR93U",
+      "ASUS ProArt Display monitor 27",
+      "ASUS ProArt PA279CRV"
     ]
   },
   "B0GLRCN2SW": {
@@ -750,7 +754,8 @@
       "Dell SE2725HG",
       "LG 27US500-W",
       "Dell S2722QC",
-      "Gigabyte M27U"
+      "Gigabyte M27U",
+      "ASUS ProArt PA279CRV"
     ]
   },
   "B0G49SZ24N": {
@@ -1027,7 +1032,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "Acer Nitro KG241Y"
+      "Acer Nitro KG241Y",
+      "165Hz 1080p gaming monitor 24 inch"
     ]
   },
   "B0DT1HS4N9": {
@@ -1294,7 +1300,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "Sceptre E248W-FPT 100Hz"
+      "Sceptre E248W-FPT 100Hz",
+      "165Hz 1080p gaming monitor 24 inch"
     ]
   },
   "B097FZG8QQ": {
@@ -2348,7 +2355,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "KTC H27T22C"
+      "KTC H27T22C",
+      "165Hz 1440p gaming monitor 27 inch"
     ]
   },
   "B0G1Z84MTC": {
@@ -2403,7 +2411,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "KTC H27T22C"
+      "KTC H27T22C",
+      "165Hz 1440p gaming monitor 27 inch"
     ]
   },
   "B0FPWZZNSG": {
@@ -4072,7 +4081,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "BenQ ZOWIE XL2566K"
+      "BenQ ZOWIE XL2566K",
+      "165Hz 1440p gaming monitor 27 inch"
     ]
   },
   "B0FXDP1F8C": {
@@ -4893,6 +4903,544 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "MSI MPG 321URX"
+    ]
+  },
+  "B088BC5HMM": {
+    "asin": "B088BC5HMM",
+    "title": "ASUS ProArt PA278QV 27 Inch 1440p QHD Professional Monitor",
+    "brand": "ASUS",
+    "price": "$226.64",
+    "img": "https://m.media-amazon.com/images/I/41oFF17eGhL._SL500_.jpg",
+    "features": [
+      "Calman Verified & Delta E < 2 Accuracy: Achieve true-to-life precision right out of the box for professional photo editing with color accurate monitoring capabilities",
+      "100% sRGB & 100% Rec. 709 Color Gamut: Ensure your creative projects match industry standards for vibrant digital media with comprehensive color coverage for video editing and content creation",
+      "27-inch WQHD IPS Display: Enjoy crystal-clear details with 2560 x 1440 resolution for graphic design and video editing workflows with wide viewing angles and consistent color reproduction",
+      "ASUS ProArt Preset & Palette: Easily customize color, brightness, and black-levels to match your exact project needs with versatile display settings for professional applications",
+      "Extensive Connectivity & USB Hub: Seamlessly connect your laptop, desktop, and storage devices with DisplayPort, HDMI, DVI-D, and Mini DP ports plus integrated USB hub for a clutter-free desk setup",
+      "5-Year Warranty Coverage: Includes 3 years standard warranty plus 2 years extension available with online registration for long-term reliability and peace of mind",
+      "Ergonomic Adjustable Stand: Fully adjustable stand with tilt, pivot, swivel, and height adjustment capabilities to ensure comfortable viewing angles during extended work sessions",
+      "ASUS Eye Care Technology: Built-in flicker-free backlighting and blue light filter reduce eye strain and fatigue during long creative sessions with anti-glare screen coating",
+      "Free 3-month Adobe Creative Cloud Subscription: Receive complimentary access with the purchase of this product (offer valid to 8/31/2028)"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ProArt Display monitor 27",
+      "ASUS ProArt PA279CRV",
+      "ASUS ProArt PA32UCR"
+    ]
+  },
+  "B0BQPSX5CR": {
+    "asin": "B0BQPSX5CR",
+    "title": "ASUS ProArt PA279CRV 27 Inch 4K UHD USB-C HDR Professional Monitor for Mac",
+    "brand": "ASUS",
+    "price": "$399.00",
+    "img": "https://m.media-amazon.com/images/I/51BiaZGDKRL._SL500_.jpg",
+    "features": [
+      "High-Resolution Display: 27-inch 4K (3840 x 2160) LED backlight HDR display with 178 wide-view IPS panel",
+      "Wide Color Gamut Coverage: 99% DCI-P3 and 99% Adobe RGB coverage for accurate and vibrant color reproduction",
+      "Factory Calibrated Accuracy: Calman Verified and factory pre-calibrated to Delta E < 2 color accuracy for professional color precision",
+      "Versatile Connectivity Options: Extensive connectivity including DisplayPort over USB-C with 96-watt Power Delivery, DisplayPort, HDMI, and USB hub",
+      "Free 3-month Adobe Creative Cloud Subscription: Receive complimentary access with the purchase of this product (offer valid to 8/31/2028)",
+      "Extended Warranty Coverage: 5-year warranty (3 years plus 2 years extension with online registration)",
+      "Ergonomic Design: Adjustable stand provides tilt, swivel, pivot, and height adjustment for comfortable viewing angles during extended work sessions",
+      "Daisy-Chain Capability: DisplayPort daisy-chain support allows connection of multiple monitors through a single cable for expanded workspace"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ProArt Display monitor 27",
+      "ASUS ProArt PA279CRV",
+      "ASUS ProArt PA32UCR"
+    ]
+  },
+  "B08LCPY1TR": {
+    "asin": "B08LCPY1TR",
+    "title": "ASUS ProArt PA278CV 27 Inch 1440p QHD USB-C Professional Monitor",
+    "brand": "ASUS",
+    "price": "$284.77",
+    "img": "https://m.media-amazon.com/images/I/41jGkitNULL._SL500_.jpg",
+    "features": [
+      "Calman Verified Delta E < 2 & 100% sRGB: Ensure true-to-life colors for professional creative artwork with this highly accurate photo editing monitor and graphic design display",
+      "USB-C Port with 65W Power Delivery: Declutter your desk by charging your laptop and transferring data via a single cable on this versatile USB-C monitor for Mac and PC",
+      "27-inch QHD (2560 x 1440) IPS Panel: Enjoy a sharp, spacious workspace for multitasking and detailed video editing on this stunning 27 inch 1440p computer monitor",
+      "Ergonomic Stand with 90 Pivot: Work comfortably for hours or effortlessly switch to a vertical monitor setup for coding with this adjustable ergonomic computer screen",
+      "DisplayPort Daisy-Chaining: Boost daily productivity by effortlessly connecting up to four displays to build the ultimate seamless dual monitor setup and workstation",
+      "Extended Warranty Coverage: Includes 5-year warranty protection with 3 years standard coverage plus 2 years extension available through online registration",
+      "100% Rec. 709 Color Gamut: Experience professional-grade color reproduction with factory-calibrated settings that meet industry standards for video editing and content creation",
+      "Comprehensive Connectivity Options: Includes USB-C, HDMI, and DisplayPort cables in the box along with power cord for immediate setup and multiple device connections",
+      "Free 3-month Adobe Creative Cloud Subscription: Receive complimentary access with the purchase of this product (offer valid to 8/31/2028)"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ProArt Display monitor 27",
+      "ASUS ProArt PA279CRV",
+      "ASUS ProArt PA32UCR"
+    ]
+  },
+  "B0G31WGV6J": {
+    "asin": "B0G31WGV6J",
+    "title": "ASUS ProArt PA278CGRV 27 Inch 1440p USB-C Professional Monitor for Mac",
+    "brand": "ASUS",
+    "price": "$299.00",
+    "img": "https://m.media-amazon.com/images/I/41+Td6IvHdL._SL500_.jpg",
+    "features": [
+      "Display Specifications: 27-inch QHD (2560 x 1440) display with 178 wide-view IPS panel",
+      "Color Accuracy and Gamut: Wide 97% DCI-P3 and 100% sRGB gamut to meet international color standards, Calman Verified with factory calibrated for excellent Delta E < 2 color accuracy",
+      "High Refresh Rate Performance: 144Hz variable refresh rate (VRR) with AMD FreeSync, providing creators smooth fast-rendering and comfortable viewing experience",
+      "Comprehensive Connectivity Options: Rich connectivity including USB-C up to 96W Power Delivery, HDMI, DisplayPort with daisy-chaining and a built-in USB Hub",
+      "MacBook Color Matching: Model P3 Color Temperature matches the color performance of MacBook display",
+      "Free 3-month Adobe Creative Cloud Subscription: Receive complimentary access with the purchase of this product (offer valid to 8/31/2028)",
+      "Auto KVM Functionality: Built-in Auto KVM allows for effortless switching between two connected laptops or PCs with a single keyboard and mouse",
+      "Easy Monitor Control Software: Exclusive ASUS DisplayWidget Center application enables easy OSD access and monitor settings adjustments with a mouse",
+      "Ergonomic Adjustability: Ergonomic design with tilt, swivel, pivot and height adjustments for a comfortable viewing experience",
+      "HDR Support: VESA DisplayHDR 400 certification delivers enhanced brightness and contrast for improved visual quality in compatible content"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ProArt Display monitor 27",
+      "ASUS ProArt PA279CRV",
+      "ASUS ProArt PA32UCR"
+    ]
+  },
+  "B0H3Y8VM5Q": {
+    "asin": "B0H3Y8VM5Q",
+    "title": "ASUS ProArt Display 27\" 4K OLED USB-C Professional Monitor (PA279CDV) – QD-OLED, 120Hz, HDR10, 99% DCI-P3, ΔE < 1.5, Calman Verified, USB-C (96W PD), AutoKVM, Ergonomic Stand, Mac, 3yr Warranty",
+    "brand": "ASUS",
+    "price": "$699.00",
+    "img": "https://m.media-amazon.com/images/I/4126vgVujyL._SL500_.jpg",
+    "features": [
+      "26.5-inch 4K UHD (3840 × 2160) QD-OLED panel with a 120 Hz refresh rate and 0.1 ms (GTG) response time for smooth rendering",
+      "1000 nits peak brightness with VESA DisplayHDR True Black 400 for exceptional contrast and color performance. True 10-bit color depth provides 100% sRGB, 99% DCI-P3 and BT. 2020 wide color gamut",
+      "Calman Verified and factory-calibrated for excellent color accuracy with Delta E < 1.5",
+      "Extensive connectivity options, including USB-C with up to 96W Power Delivery, HDMI, DisplayPort with daisy-chaining support, and a built-in USB hub",
+      "Mac Compatible with M Model-P3 color temperature optimized for MacBook display color accuracy",
+      "Built-in Auto KVM allows effortless switching between two connected laptops or PCs using a single keyboard and mouse",
+      "The exclusive ASUS DisplayWidget Center software enables easy access to OSD settings and monitor adjustments via mouse control",
+      "Ergonomic design with tilt, swivel, pivot, and height adjustments for a comfortable viewing experience. Green sustainability features include paper packaging and energy-efficient environmental standards",
+      "What’s in the Box: DisplayPort cable, USB-C cable, Power cord, ProArt Leather Cable Tie, Quick release stand, Color pre-calibration report, Quick start guide, Warranty Card",
+      "3-month Adobe Creative Cloud: Receive complimentary access with the purchase of this product (valid until 8/31/2026). 3 Year Warranty with ARR"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ProArt Display monitor 27",
+      "ASUS ProArt PA279CRV",
+      "ASUS ProArt PA32UCR"
+    ]
+  },
+  "B08K2GFDKM": {
+    "asin": "B08K2GFDKM",
+    "title": "ASUS ProArt PA279CV 27 Inch 4K UHD USB-C Professional Monitor",
+    "brand": "ASUS",
+    "price": "$368.00",
+    "img": "https://m.media-amazon.com/images/I/41yUSedWNLL._SL500_.jpg",
+    "features": [
+      "Display Specifications: 23.8-inch Full HD (1920 x 1080) LED backlight display with IPS 178 wide viewing angle panel and 5.0 milliseconds response time for personal use",
+      "Wide Color Gamut: International color standard 100% sRGB and 100% Rec. 709 wide color gamut for accurate color reproduction",
+      "Factory Calibrated Accuracy: Calman Verified with factory calibration delivering excellent Delta E < 2 color accuracy for professional work",
+      "Versatile Connectivity Options: Extensive connectivity including DisplayPort over USB-C with 65W Power Delivery, DisplayPort, HDMI, and USB 3.1 hub for multiple device connections",
+      "Free 3-month Adobe Creative Cloud Subscription: Receive complimentary access with the purchase of this product (offer valid to 8/31/2028)",
+      "Extended Warranty Coverage: 5-year warranty included (3 years plus 2 years extension with online registration)",
+      "Professional Grade Monitor: 27 Inch 4K UHD USB-C Professional Monitor designed for content creators and professionals requiring precise color accuracy"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ProArt Display monitor 27",
+      "ASUS ProArt PA279CRV"
+    ]
+  },
+  "B0G56472S6": {
+    "asin": "B0G56472S6",
+    "title": "ASUS ProArt PA278QGV 27 Inch 1440p QHD Professional Monitor",
+    "brand": "ASUS",
+    "price": "$268.68",
+    "img": "https://m.media-amazon.com/images/I/41vVOVHQ5QL._SL500_.jpg",
+    "features": [
+      "High-Resolution Display: 27-inch QHD (2560 x 1440) display with 178 wide-view IPS panel for exceptional clarity and viewing angles",
+      "Professional Color Gamut: Wide 95% DCI-P3 and 100% sRGB gamut to meet international color standards for accurate color reproduction",
+      "Factory Calibrated Accuracy: Calman Verified with factory calibration for excellent Delta E < 2 color accuracy, ensuring precise color representation",
+      "Smooth Performance: 120Hz variable refresh rate (VRR) providing creators smooth fast-rendering and comfortable viewing experience with extensive connectivity including DisplayPort, HDMI and USB hub",
+      "Intelligent Color Adjustment: ASUS Light Sync solution with Ambient Light Sensor automatically adjusts the monitor's color gamut based on ambient lighting for true colors in any environment",
+      "Ergonomic Flexibility: VESA wall-mountable and ergonomic design with tilt, swivel, pivot and height adjustments for a comfortable viewing experience",
+      "Comprehensive Package: Includes USB Type-B to A cable, DisplayPort cable, HDMI cable, Power cord, Quick start guide, and Warranty Card",
+      "Free 3-month Adobe Creative Cloud Subscription: Receive complimentary access with the purchase of this product (offer valid to 8/31/2028)",
+      "Extended Warranty Coverage: 5-year warranty (3 years plus 2 years extension with online registration) for long-term peace of mind",
+      "HDR Support: HDR-10 compatibility delivers enhanced contrast and vibrant colors for professional content creation and viewing"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ProArt Display monitor 27"
+    ]
+  },
+  "B0GTW2LYYM": {
+    "asin": "B0GTW2LYYM",
+    "title": "ASUS 27\" ProArt Display Monitor, WQHD (2560 x 1440), 100% sRGB/Rec. 709, Calman Verified, ΔE<2, DisplayPort/HDMI/USB Hub/DVI-D Mini DP, Eye Care, Professional Monitor for Photo Video Editing",
+    "brand": "ASUS",
+    "price": "$299.00",
+    "img": "https://m.media-amazon.com/images/I/51uZmG5UCXL._SL500_.jpg",
+    "features": [
+      "27” WQHD IPS Display for Creative Precision:27-inch WQHD (2560×1440) IPS panel delivers sharp detail and 178° wide viewing angles, offering more workspace and clarity for photo editing, video production, and design tasks.",
+      "100% sRGB & Rec.709 Color Accuracy:Factory calibrated and Calman Verified with ΔE<2 accuracy, ensuring precise and consistent color performance for professional content creators and designers.",
+      "ASUS Eye Care Technology:Flicker-free and low blue light technologies reduce eye strain during extended use, making it ideal for professionals working long hours.",
+      "Extensive Connectivity & USB Hub:Includes DisplayPort, HDMI, DVI, and USB hub for seamless connectivity with desktops, laptops, and creative workstations, improving workflow efficiency.",
+      "Fully Ergonomic Design for Productivity:Adjustable stand with tilt, swivel, pivot, and height adjustment provides maximum comfort for long working sessions and multi-monitor setups."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ProArt Display monitor 27"
+    ]
+  },
+  "B0HCKFFXW5": {
+    "asin": "B0HCKFFXW5",
+    "title": "ASUS PA279CRV-P 27 Inch 4K UHD ProArt Monitor for Apple Mac, TAA Compliant",
+    "brand": "ASUS",
+    "price": "$429.00",
+    "img": "https://m.media-amazon.com/images/I/41NabySzPEL._SL500_.jpg",
+    "features": [
+      "27-INCH 4K IPS DISPLAY: Features a 3840 x 2160 resolution with LED backlight, HDR 400, and a 178° wide-view IPS panel for stunning clarity.",
+      "EXCEPTIONAL COLOR ACCURACY: Calman Verified and factory pre-calibrated to Delta E < 2, with 99% DCI-P3 and 99% Adobe RGB wide color gamut coverage.",
+      "VERSATILE CONNECTIVITY: Includes DisplayPort over USB-C with 96W Power Delivery, DisplayPort, HDMI, and a built-in USB hub for seamless single-cable setup.",
+      "ERGONOMIC & SPACE-SAVING DESIGN: Supports tilt, swivel, pivot, and height adjustments, plus a slim profile, compact base, and 100x100mm VESA wall-mount compatibility.",
+      "COMPLIANCE: TAA compliant",
+      "What’s in the Box: DisplayPort cable, HDMI cable, Power cord, Quick release stand, Color pre-calibration report, Quick start guide, Warranty Card",
+      "Extended Warranty Coverage: 5-year warranty included (3 years plus 2 years extension with online registration)",
+      "Free 3-month Adobe Creative Cloud Subscription: Receive complimentary access with the purchase of this product (offer valid to 8/31/2028)"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ProArt PA279CRV"
+    ]
+  },
+  "B0B8YSL9RD": {
+    "asin": "B0B8YSL9RD",
+    "title": "ASUS ProArt PA329CRV 32 Inch 4K DCI-P3 USB-C Professional Monitor for Mac",
+    "brand": "ASUS",
+    "price": "$590.33",
+    "img": "https://m.media-amazon.com/images/I/51yS5RxYAfL._SL500_.jpg",
+    "features": [
+      "Large 4K HDR Display: 31.5-inch 4K (3840 x 2160) LED backlight HDR display with 178 wide-view IPS panel",
+      "Wide Color Gamut: 98% DCI-P3 coverage for vibrant and accurate color reproduction",
+      "Factory Calibrated Color Accuracy: Calman Verified with factory calibration for excellent Delta E < 2 color accuracy",
+      "Extensive Connectivity Options: Includes DP over USB-C with 96W Power Delivery, DisplayPort (MST), HDMI and USB hub",
+      "Free 3-month Adobe Creative Cloud Subscription: Receive complimentary access with the purchase of this product (offer valid to 8/31/2028)",
+      "Extended Warranty Coverage: 5-year warranty (3 years plus 2 years extension with online registration)",
+      "Professional HDR Support: VESA DisplayHDR400 certification for enhanced contrast and brightness in professional workflows"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ProArt PA279CRV",
+      "ASUS ProArt PA32UCR"
+    ]
+  },
+  "B09JFPT3QX": {
+    "asin": "B09JFPT3QX",
+    "title": "ASUS ProArt PA32UCR-K 32 Inch 4K HDR USB-C Professional Monitor for Mac",
+    "brand": "ASUS",
+    "price": "$999.00",
+    "img": "https://m.media-amazon.com/images/I/51ez2fEMlCL._SL500_.jpg",
+    "features": [
+      "32-inch 4K HDR Display: Features mini-LED backlight with 1,000 cd/m2 peak brightness for stunning visual clarity",
+      "Exceptional Color Fidelity: Quantum-dot technology provides 99.5% Adobe RGB, 98% DCI-P3 and 100% sRGB color space for accurate color reproduction",
+      "Multiple HDR Format Support: Supports HDR-10 and HLG formats to present lifelike experience and flexibility for various content types",
+      "Professional Color Accuracy: World-leading delta-E (E) <1 color difference value and ASUS ProArt Hardware Calibration technology for color-accuracy optimization, uniformity and color profile write-back",
+      "Free 3-month Adobe Creative Cloud Subscription: Receive complimentary access with the purchase of this product (offer valid to 8/31/2028)",
+      "Extended Warranty Coverage: 5-year warranty included (3 years plus 2 years extension with online registration)",
+      "Versatile Connectivity Options: Equipped with USB-C and HDMI ports for seamless compatibility with laptops and Mac computers",
+      "Professional Calibration Tool Included: Comes with X-rite i1 Calibrator for precise color calibration and professional-grade accuracy"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ProArt PA32UCR"
+    ]
+  },
+  "B0F23LR6JQ": {
+    "asin": "B0F23LR6JQ",
+    "title": "ASUS ProArt PA32QCV 32 Inch 6K DCI-P3 Thunderbolt 4 Monitor for Mac",
+    "brand": "ASUS",
+    "price": "$1,199.00",
+    "img": "https://m.media-amazon.com/images/I/41oZc9LN8hL._SL500_.jpg",
+    "features": [
+      "High-Resolution 6K Display: 31.5-inch 6K (6016 x 3384) LuxPixel AGLR display with IPS 178 wide viewing angle panel",
+      "Wide Color Gamut Coverage: International color standard 98% DCI-P3 and 100% sRGB wide color gamut for accurate color reproduction",
+      "Factory Calibrated Color Accuracy: Calman Verified with factory calibration delivering excellent Delta E < 2 color accuracy",
+      "Versatile Connectivity Options: Rich connectivity including dual Thunderbolt 4 up to 96W Power Delivery with daisy-chaining, HDMI(v2.1), DisplayPort1.4 and a built-in USB Hub",
+      "MacBook Color Matching: The new M Model-P3 Color Preset Mode matches the color performance of MacBook display for seamless workflow",
+      "Intelligent Light Sync Technology: Light Sync solution supports Ambient Light Sensor and Backlight Sensor for reliable color performance from the start",
+      "Built-in Auto KVM Switch: Built-in Auto KVM allows for effortless switching between two connected laptops or PCs with a single keyboard and mouse",
+      "Ergonomic Adjustability: Ergonomic design with tilt, swivel, pivot and height adjustments for a comfortable viewing experience",
+      "Extended Warranty Coverage: 5-year warranty (3 years + 2 years extension with online registration)",
+      "Free 3-month Adobe Creative Cloud Subscription: Receive complimentary access with the purchase of this product (offer valid to 8/31/2028)"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ProArt PA32UCR"
+    ]
+  },
+  "B0D23BYB66": {
+    "asin": "B0D23BYB66",
+    "title": "ASUS ProArt PA32UCDM 32 Inch 4K 240Hz OLED Professional Monitor for Mac",
+    "brand": "ASUS",
+    "price": "$1,599.00",
+    "img": "https://m.media-amazon.com/images/I/41kv9TxT8qL._SL500_.jpg",
+    "features": [
+      "High-Performance Display Panel: 31.5-inch 4K UHD (3840 x 2160) QD-OLED panel with 240 Hz refresh rate and 0.1 ms (GTG) response time for smooth rendering",
+      "Exceptional Brightness and Contrast: 1000 nits peak brightness with VESA DisplayHDR True Black 400 for exceptional color contrast",
+      "Wide Color Gamut Coverage: True 10-bit color depth and Quantum Dot technology provide 100% sRGB, 99% DCI-P3 and BT. 2020 color gamut",
+      "Industry-Leading Color Accuracy: World-leading E < 1 color performance and ASUS ProArt Hardware Calibration Technology for color-accuracy optimization and color profile write-back",
+      "Comprehensive HDR Format Support: Multiple HDR format support, including Dolby Vision, HLG and HDR10",
+      "Extended Warranty Coverage: 5-year warranty included (3 years plus 2 years extension with online registration)",
+      "Professional Connectivity Options: Thunderbolt 4 connectivity and Calman Ready certification for professional workflow integration and calibration capabilities",
+      "Free 3-month Adobe Creative Cloud Subscription: Receive complimentary access with the purchase of this product (offer valid to 8/31/2028)"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ProArt PA32UCR"
+    ]
+  },
+  "B0H641F9MG": {
+    "asin": "B0H641F9MG",
+    "title": "ASUS ProArt Display PA32USD 32\" 4K HDR OLED Professional Monitor",
+    "brand": "ASUS",
+    "price": "$2,699.00",
+    "img": "https://m.media-amazon.com/images/I/414eho8ZyWL._SL500_.jpg",
+    "features": [
+      "High-Performance Display Panel: 31.5-inch 4K UHD (3840 x 2160) QD-OLED panel with 240 Hz refresh rate and 0.1 ms (GTG) response time for smooth rendering",
+      "Exceptional Brightness and Contrast: 1000 nits peak brightness with VESA DisplayHDR True Black 400 for exceptional color contrast",
+      "Wide Color Gamut Coverage: True 10-bit color depth provides 100% sRGB, 99% DCI-P3 and BT. 2020 wide color gamut",
+      "Professional SDI Connectivity: Dual 12G-SDI supports 4K@60Hz real-time playback without any compression, compatible with 6G and 3G Level A & B",
+      "Industry-Leading Color Accuracy: World-leading E < 1 color performance and ASUS ProArt Hardware Calibration Technology for color-accuracy optimization and color profile write-back",
+      "Multiple HDR Format Support: Compatible with Dolby Vision, HLG and HDR10 for enhanced dynamic range viewing",
+      "Comprehensive Connectivity Options: Rich connectivity including dual 12G-SDI, dual Thunderbolt 4 up to 96W Power Delivery, HDMI2.1, DisplayPort2.1 and a built-in USB Hub",
+      "Versatile Stand Options: Includes two versatile stand options to suit any scenario or setup, along with an elegant metal handle for portability",
+      "Professional Accessories Included: Monitor hood helps reduce reflections, and bundled clips allow for easy cable management 5-year warranty (3 years + 2 years extension with online registration)",
+      "Complete Package Contents: Thunderbolt 4 Cable, DisplayPort 2.1 (DP80) cable, HDMI Ultra High Speed Cable, USB-C cable, USB-C to A cable, Cable Clip, L-shaped Screwdriver, Ergonomic Stand, Mini Stand, Monitor hood, Power cord, Color pre-calibration report, Quick start guide, Warranty Card"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS ProArt PA32UCR"
+    ]
+  },
+  "B0D8LH2VSP": {
+    "asin": "B0D8LH2VSP",
+    "title": "Acer Nitro 27in QHD 2560x1440 IPS 180Hz Gaming Monitor KG271U N3bmiipx",
+    "brand": "Acer",
+    "price": "$149.99",
+    "img": "https://m.media-amazon.com/images/I/412urGQRLsL._SL500_.jpg",
+    "features": [
+      "Quality Visuals: The KG271U 27\" IPS monitor with 2560 x 1440 QHD resolution in a 16:9 aspect ratio presents stunning, high-quality images with excellent detail. The zero-frame design does away with the thick frames found on conventional monitors freeing up precious screen space.",
+      "AMD FreeSync Technology: Say “goodbye” to stuttering and tearing. With AMD FreeSync, the monitor’s frames are synced with the graphics card’s frames, which eliminates screen tearing and provide the smoothest gaming experience.",
+      "Up to 180Hz: The 180Hz refresh rate speeds up the frames per second to deliver an ultra-smooth 2D motion scene. With a rapid refresh rate of up to 180Hz, Acer Gaming Monitors shorten the time it takes for frame rendering, lower input lag and provide gamers an excellent in-game experience.",
+      "Responsive!!: Up to 0.5ms GTG (Gray to Gray) response time enhanced gamers’ in-game experience. No matter the fast-moving action or any dramatic transitions will be all rendered smoothly without the annoying effects of smearing or ghosting with KG271U Gaming Monitor.",
+      "New Depths of Color Accuracy: is monitor is ideal for color-critical projects producing accurate colors, supporting DCI-P3 95%. An amazing monitor for graphic designers, photographers, and film editors."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "165Hz 1440p gaming monitor 27 inch"
+    ]
+  },
+  "B0CJVK87Y7": {
+    "asin": "B0CJVK87Y7",
+    "title": "Acer Nitro 27in QHD 2560x1440 Curved 180Hz Gaming Monitor EDA270U Pbmiipx",
+    "brand": "Acer",
+    "price": "$159.99",
+    "img": "https://m.media-amazon.com/images/I/31Oyz2tX33L._SL500_.jpg",
+    "features": [
+      "27\" WQHD (2560 x 1440) 1500R Curved Widescreen Gaming Monitor | AMD FreeSync Premium Technology",
+      "Refresh Rate: 180Hz | Response Time: Up to 1ms (VRB) | HDR Ready | Pixel Pitch: 0.233mm",
+      "VESA mounting compliant (75 x 75mm) | Zero-Frame Design | 2 Speakers, 2 Watts per Speaker",
+      "Ergonomic Tilt: -5° to 20°",
+      "Ports: 1 x Display Port 1.2, 2 x HDMI Port 2.0 & 1 x Audio Out (Display Port and HDMI Cable Included)"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "165Hz 1440p gaming monitor 27 inch"
+    ]
+  },
+  "B0GTKKMWJJ": {
+    "asin": "B0GTKKMWJJ",
+    "title": "KTC 27 Inch Curved Gaming Monitor, 1440P QHD 144Hz 1500R PC Monitor, H27S5C",
+    "brand": "KTC",
+    "price": "$159.99",
+    "img": "https://m.media-amazon.com/images/I/41K5H448DfL._SL500_.jpg",
+    "features": [
+      "【1440p Monitor】KTC H27S5C 27 inch curved gaming monitor featuring 2K QHD (2560x1440) high resolution, allowing you to enjoy exceptional detail in games, movies, and office work.",
+      "【Stunning Color & HDR400】This 1440p curved monitor Equipped with a 129% sRGB color gamut and 16.7 million colors. HDR400 technology delivers stunningly vibrant visuals. 400 cd/m² brightness and a 4000:1 contrast ratio make images even more lifelike.",
+      "【144Hz Refresh Rate】KTC 1440p 144Hz monitor is compatible with Adaptive-Sync technology, effectively reducing screen tearing even in fast-paced games. 144Hz refresh rate delivers smoother visuals.",
+      "【1500R Curved Monitor】1500R curvature provides a more immersive and comfortable viewing experience. It also reduces visual distortion, enhancing comfort during extended viewing.",
+      "【Extensive Connectivity】With HDMI 2.0×2 and DP 1.4×1 ports, allowing connection to a variety of devices. VESA wall mounting supports and -5° to 20°tilt adjustment offers flexible setup. Low blue light and flicker-free technology effectively reduce eye strain."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "165Hz 1440p gaming monitor 27 inch"
+    ]
+  },
+  "B0GDFGPQQX": {
+    "asin": "B0GDFGPQQX",
+    "title": "KTC H27S5C 27 Inch Curved Gaming Monitor, 1440P QHD 144Hz Monitor, HDR 400",
+    "brand": "KTC",
+    "price": "$159.99",
+    "img": "https://m.media-amazon.com/images/I/41njjitzfRL._SL500_.jpg",
+    "features": [
+      "Immersive Curved Design: The KTC 27 inch curved monitor with 1500R curvature delivers an enveloping viewing experience that reduces eye strain and enhances focus for both office use and gaming sessions on this curved gaming monitor 1440p",
+      "Stunning 2K QHD Resolution: Enjoy crisp, vivid images with the 2560×1440 resolution on this 1440p 144hz monitor, perfect for detailed work and smooth gameplay on your 2k gaming monitor or pc monitor gaming setup",
+      "Smooth 144Hz Refresh Rate: Experience seamless motion and reduced blur with the 144hz monitor refresh rate on this pc monitor 27 inch, ideal for gamers seeking responsiveness and fluid visuals on a 1440p curved monitor 27 inch",
+      "Exceptional Color Performance: Featuring 16.7 million colors, 129% sRGB and 110% DCI-P3 color gamut coverage, this ktc 27 inch monitor 1440p ensures vivid and accurate colors for photo editing, movies, and gaming",
+      "Built-In Eye Care Technology: The curved monitor supports Low Blue Light and Flicker Free technology to reduce eye fatigue during extended use in work or gaming environments",
+      "Versatile Connectivity: Equipped with 2 HDMI 2.0 ports and 1 DisplayPort 1.4 supporting up to 1440p 144hz monitor resolution for multiple devices including gaming consoles and PCs on this pc monitor gaming",
+      "HDR400 Support: Enhance your visual experience with HDR400 compliance that boosts contrast and brightness, making this 2k monitor deliver lifelike images with deeper blacks and brighter highlights",
+      "Adaptive-Sync Compatibility: Enjoy tear-free, stutter-free gaming on this curved gaming monitor 1440p with Adaptive-Sync technology that matches the GPU frame rate to the display",
+      "Ergonomic Adjustable Stand: The V-shaped metal base offers quick assembly and tilt adjustment from -5° to 20°, allowing you to find the optimal viewing angle on your 1440p curved monitor",
+      "Sleek and Space-Saving Design: With a 100mm x 100mm VESA mount compatibility and slim bezels, this 27 inch curved monitor 1440p fits neatly on any desk or wall, perfect for gamers and office workers alike"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "165Hz 1440p gaming monitor 27 inch"
+    ]
+  },
+  "B0F9TK1RFC": {
+    "asin": "B0F9TK1RFC",
+    "title": "SANSUI 24 Inch 180Hz Gaming Computer Monitor, FHD 1080P for Game Office",
+    "brand": "SANSUI",
+    "price": "$79.99",
+    "img": "https://m.media-amazon.com/images/I/51GU2Aif7aL._SL500_.jpg",
+    "features": [
+      "SANSUI 24 Inch 180Hz Refresh Rate FHD 1080P Gaming Monitor",
+      "Smooth Gaming - 180Hz & 1ms MPRT response time, FreeSync technology; CrossHair /Timer /RTS /FPS /RACING game assistants",
+      "Convenient Ports - One HDMI 2.0 ports plus one DP 1.4 port, both up to 180Hz refresh rate; One HDMI cable included in the package; Audio Jack (no built-in speakers); VESA 75mm*75mm",
+      "Wonderful Color Image - 110% sRGB color gamut, DCI-P3 80%, HDR; 4000:1 contrast, 300cd/m² brightness; Anti-flicker, low blue light eye care technology",
+      "Trustful Warranty - SANSUI 24 inch 180Hz 1ms gaming monitor supports a money-back and free replacement warranty from order date within 30 days and lifetime technical support. Any questions please feel free to contact our after-sells support"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "165Hz 1080p gaming monitor 24 inch"
+    ]
+  },
+  "B0CP7TNX8C": {
+    "asin": "B0CP7TNX8C",
+    "title": "Amazon Basics 24 Inch (23.8 inch viewable) Gaming Monitor, FHD 1080P, 165Hz, VESA Compatible, Adaptive sync, 1ms Response, Black",
+    "brand": "Amazon Basics",
+    "price": "$104.49",
+    "img": "https://m.media-amazon.com/images/I/41ZLMHPlc0L._SL500_.jpg",
+    "features": [
+      "IMPORTANT: Remove protective film (with date code) from panel surface before use. This film protects against shipping scratches.",
+      "24-inch IPS digital monitor for gaming and entertainment",
+      "Crystal clear 1080P high definition picture and graphics relay",
+      "Nearly zero lag with 1ms response time for smooth gaming experience",
+      "Additional specs include adaptive sync, VESA compatibility, and 165Hz (Note: To achieve maximum refresh rate, ensure your computer ports and graphics card support FHD output at 165Hz. Use a DisplayPort 1.4 or HDMI 2.0 compatible cable. Consult your device manufacturer's manual for more information. Finally, select the maximum 165Hz refresh rate in your computer's advanced display settings.)"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "165Hz 1080p gaming monitor 24 inch"
+    ]
+  },
+  "B0F9T613DL": {
+    "asin": "B0F9T613DL",
+    "title": "SANSUI 24 Inch Curved 160Hz Gaming Monitor,1500R Curved Gaming Monitor",
+    "brand": "SANSUI",
+    "price": "$89.98",
+    "img": "https://m.media-amazon.com/images/I/51bJWmY458L._SL500_.jpg",
+    "features": [
+      "24 Inch 1500R Curved Gaming Monitor 160Hz FHD Fast VA Display for Gamer.",
+      "Smooth Gaming: Up to 160Hz Refresh Rate, MPRT 1ms Response Time, Freesync Compatibility. Black level Adjustment, Crosshair, Game Timer, Various Game Modes( FPS/RTS/MOVIE/STANDARD)",
+      "Superior Panel Performance: 110%sRGB Color Gamut, 300Nits Brightness, 3000:1 Contrast Ratio, 16.7M Display Colors, HDR",
+      "Multiple Ports&Humanized design: HDMI 2.0*1(Up to 160Hz), DP1.4*1(Up to 160Hz),Audio Jack, VESA 75*75mm Compatible(No Speakers); 1500R Curved Immersive Large Screen, -5°~15°(+/-2°) Tilt Adjustment.",
+      "Trustful Warranty - SANSUI 24 inch curved 160hz gaming monitor supports money-back and free replacement warranty from order date within 30 days and lifetime technical support. Any questions please feel free to contact our customer support."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "165Hz 1080p gaming monitor 24 inch"
+    ]
+  },
+  "B0BCDD4KTK": {
+    "asin": "B0BCDD4KTK",
+    "title": "KOORUI 24 Inch Gaming Monitor, 180Hz 1080P VA Display with 3000:1 Contrast",
+    "brand": "KOORUI",
+    "price": "$89.98",
+    "img": "https://m.media-amazon.com/images/I/51QFLPlgKGL._SL500_.jpg",
+    "features": [
+      "Smooth 180Hz Gaming: The 180Hz refresh rate and Adaptive Sync help reduce motion blur, tearing and stuttering during FPS, racing and multiplayer games. Ideal for PC gamers, console players and students who want smoother gameplay at an accessible price.",
+      "Deeper VA Contrast: The VA panel delivers deeper blacks and stronger shadow detail with a 3000:1 contrast ratio. It is well suited for dark game scenes, late-night movies and bedroom entertainment for casual gamers and streaming users.",
+      "Compact FHD Display: The 24 inch 1080P screen provides clear visuals for documents, spreadsheets, online classes, web browsing and everyday gaming. Thin bezels make it a practical choice for students, home-office users and dual-monitor workstations.",
+      "Comfortable Long Viewing: Flicker-free technology and a low blue light mode help provide a more comfortable viewing experience during extended gaming, studying and office work. Designed for students, remote workers and users who spend long hours in front of the screen.",
+      "Flexible Connectivity: HDMI connects PCs, laptops and supported gaming consoles, while VGA supports compatible older office computers. VESA 100 × 100mm mounting makes it easy to build dual-monitor, dorm-room and compact home-office setups."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "165Hz 1080p gaming monitor 24 inch"
+    ]
+  },
+  "B0FPQJ6BXV": {
+    "asin": "B0FPQJ6BXV",
+    "title": "Z-Edge 24 inch 240Hz 165Hz Gaming Monitor, FHD 1080p, IPS Monitor Gaming",
+    "brand": "Z Z-EDGE",
+    "price": "$107.99",
+    "img": "https://m.media-amazon.com/images/I/41n2O7xp8ZL._SL500_.jpg",
+    "features": [
+      "Lightning-Fast Performance for Gamer: Step into the future of gaming with a blazing 240Hz refresh rate and ultra-responsive 1ms response time. Every movement is rendered instantly, minimizing motion blur and ghosting so you never miss a beat in fast-paced action. Free Sync technology eliminates screen tearing, ensuring smooth and seamless visuals that give you the ultimate competitive edge on the battlefield",
+      "Unleash Your Gaming Potential: Crosshair feature levels up the vision and accuracy in shooting games. FPS and RTS Game Modes are preset display settings built for an enhanced gaming experience. With 99% sRGB color coverage, this monitor delivers brilliant, true-to-life visuals",
+      "Immersive IPS Display Experience:Equipped with an advanced IPS panel, the monitor expands your view to a wide 178° panoramic angle. Share content, collaborate, or simply enjoy flawless visuals without color distortion—no matter where you sit. IPS technology ensures vibrant colors and precise details for gaming, work, or entertainment",
+      "Effortless Connectivity: Featuring both an HDMI port and a DisplayPort input, this monitor ensures versatile and reliable connections. No compromises here—both ports fully support up to 240Hz refresh rate, providing pro-level performance whether you’re gaming on a console or PC. Switch seamlessly between devices and enjoy high-speed responsiveness across platforms",
+      "Space-Saving and Flexible Design: Engineered for convenience, the monitor supports a 75x75mm mounting standard, allowing you to wall-mount or attach it to a monitor arm for the perfect ergonomic setup. The sleek, streamlined design with a three-sided narrow bezel maximizes your screen real estate, making it ideal for dual-monitor setups while keeping your desk clean and modern"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "165Hz 1080p gaming monitor 24 inch"
+    ]
+  },
+  "B0DFJXNTG8": {
+    "asin": "B0DFJXNTG8",
+    "title": "Westinghouse 24 Inch Curved Gaming Monitor, 165Hz, 1ms, FHD 1080P, 3000:1 Contrast Ratio, 110% sRGB, 1500R, AMD FreeSync, Eyecare, for PC Games with Built-in Speakers, VESA, DisplayPort, HDMI",
+    "brand": "Westinghouse",
+    "price": "$89.99",
+    "img": "https://m.media-amazon.com/images/I/418qiL-FcSL._SL500_.jpg",
+    "features": [
+      "FULL HD: Our 24-inch curved monitor comes with a 1920 x 1080 resolution that delivers a wider field of view and is equipped with a VA panel that boasts a high contrast ratio and deeper blacks.",
+      "CURVED SCREEN: The monitor is designed with a 1500 curved screen that wraps around your field of view, enhancing gaming and movie-watching experience by reducing glare and edge distortion for more comfortable viewing.",
+      "HIGH REFRESH RATE: Featuring a high native refresh rate of 165 Hz for seamless fast-motion action and fluid onscreen visuals. This gaming monitor is great for competitive multiplayer FPS games.",
+      "ADAPTIVE SYNC: Powered by AMD FreeSync, this computer monitor minimizes stuttering, screen tearing, and input lag for a smoother and more responsive gaming experience.",
+      "SEAMLESS CONNECTIVITY: Effortlessly connect your devices to the HDMI port and DisplayPorts whether you're working or gaming. Our gaming PC monitor is equipped with an audio out jack and internal speakers that deliver seamless audio for virtual meetings, movies, and gaming, while helping keep your desk clutter-free. HDMI cable included."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "165Hz 1080p gaming monitor 24 inch"
+    ]
+  },
+  "B0DT127FVT": {
+    "asin": "B0DT127FVT",
+    "title": "Raywego 24 Inch Curved Gaming Monitor, 200Hz FHD 1080P, 1ms Fast VA",
+    "brand": "Raywego",
+    "price": "$85.99",
+    "img": "https://m.media-amazon.com/images/I/41TedvJ86OL._SL500_.jpg",
+    "features": [
+      "【200Hz Smooth Gaming】Enjoy fluid motion with a refresh rate up to 200Hz and a 1ms MPRT response time. FreeSync support helps reduce screen tearing and stuttering during FPS, racing, action, and other fast-paced games",
+      "【FHD Clarity and Deep Contrast】The 24-inch VA panel delivers Full HD 1920×1080 resolution, a 4000:1 contrast ratio, and HDR support for richer colors, deeper blacks, and clearer details in games, videos, and daily use",
+      "【Flexible PC and Console Connections】Connect compatible gaming PCs, laptops, and consoles through HDMI and DisplayPort. A USB port and 3.5mm audio output provide additional setup flexibility. A DisplayPort cable is included. This monitor has no built-in speakers",
+      "【Comfortable for Longer Sessions】Low blue light and flicker-free technology help reduce eye strain during extended gaming, studying, streaming, and everyday computer use.",
+      "【Tilt and VESA Mount Support】Adjust the screen from -5° to 20° for a more comfortable viewing position. VESA 75×75 compatibility supports monitor arms and wall mounts for a cleaner, more flexible desk setup.",
+      "【𝗤𝘂𝗮𝗹𝗶𝘁𝘆 𝗔𝘀𝘀𝘂𝗿𝗮𝗻𝗰𝗲】 Trust in Raywego for high-quality computer monitors and premium services. Benefit from a worry-free 2year warranty that ensures your satisfaction. Contact us for any concerns regarding damage, malfunctions, or missing accessories, and let our dedicated team assist you with the best solutions. Elevate your gaming and work experiences with our reliable assistance and support."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "165Hz 1080p gaming monitor 24 inch"
+    ]
+  },
+  "B0FG5XLWNV": {
+    "asin": "B0FG5XLWNV",
+    "title": "msi PRO MP243L E14 24-inch IPS 1920 x 1080 (FHD) Gaming Office Monitor, 144Hz, Free-Synch, HDR Ready, HDMI, VGA Port,VESA Mountable, Tilt, 4-Side Slim Bezel,1ms, Black",
+    "brand": "msi",
+    "price": "$89.99",
+    "img": "https://m.media-amazon.com/images/I/41dB3dH36vL._SL500_.jpg",
+    "features": [
+      "MSI's 23.8-inch Full HD IPS gaming monitor (1920×1080) delivers a 1500:1 contrast ratio with wide 178°/178° viewing angles — producing deeper blacks, brighter highlights, and accurate colors from virtually any position for gaming and productivity.",
+      "TÜV Rheinland certified Flicker Free and Low Blue Light — eliminating the ~200Hz screen flicker common on standard monitors and reducing harmful blue light exposure to minimize eye strain during extended gaming or work sessions.",
+      "144Hz high refresh rate delivers ultra-smooth motion and sharper tracking versus standard 60Hz or 75Hz monitors — keeping every frame fluid and responsive for fast-paced FPS, racing, and action games without screen tearing or stuttering.",
+      "MSI's built-in Eye-Q Check provides a vision assessment tool to help optimize display settings for healthier long-term viewing — designed for professionals and students spending extended hours in front of a Full HD IPS screen.",
+      "Tilt-adjustable stand (-5°~20°) for comfortable viewing at any desk setup, with VESA 100×100mm wall mount compatibility for monitor arms, brackets, and multi-monitor arrangements — reducing neck strain during long gaming or work sessions.",
+      "MSI monitors support firmware updates to deliver the latest performance optimizations, compatibility improvements, and feature enhancements — keeping your 24-inch Full HD IPS gaming monitor performing at its best long after purchase.",
+      "Free Sync dynamically matches the monitor's refresh rate to your GPU's frame output — eliminating screen tearing, stuttering, and input lag for consistently smooth, tear-free gameplay across the full frame rate range.",
+      "HDMI 2.0 with HDMI-CEC enables seamless device control from a single remote across compatible displays and source devices. D-Sub (VGA) port adds legacy hardware compatibility — supporting PC, console gaming, and older systems out of the box."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "165Hz 1080p gaming monitor 24 inch"
     ]
   }
 }
