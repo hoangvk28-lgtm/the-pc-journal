@@ -6,7 +6,7 @@ import { amazonImage, amazonSnapshot, amazonUrl } from "./pc-amazon-snapshot";
  * Product names, images and features come from the Amazon Creators API snapshot
  * (data/pc-amazon-snapshot.ts). Measured noise and efficiency figures are Cybenetics
  * results as reported by Hardware Busters; monitor findings are TFTCentral's.
- * Status "draft" until approved: preview at /dev/preview/<slug> with PCJ_ENABLE_PREVIEW=true.
+ * Published at /guides/<slug>.
  */
 
 const updated = "2026-09-26";
@@ -20,7 +20,7 @@ const picks = (items: PickInput[]): BestProduct[] =>
 const psu: BestGuide = {
   slug: "best-850w-power-supplies",
   type: "best-guide",
-  status: "draft",
+  status: "published",
   category: "components",
   breadcrumbLabel: "Best 850W Power Supplies",
   mainKeyword: "850W power supply",
@@ -175,7 +175,7 @@ const psu: BestGuide = {
 const monitors: BestGuide = {
   slug: "best-1440p-gaming-monitors",
   type: "best-guide",
-  status: "draft",
+  status: "published",
   category: "monitors",
   breadcrumbLabel: "Best 1440p Gaming Monitors",
   mainKeyword: "27 inch 1440p gaming monitor",
@@ -334,7 +334,7 @@ const monitors: BestGuide = {
 const keyboards: BestGuide = {
   slug: "best-mechanical-keyboards",
   type: "best-guide",
-  status: "draft",
+  status: "published",
   category: "peripherals",
   breadcrumbLabel: "Best Mechanical Keyboards",
   mainKeyword: "mechanical keyboard",

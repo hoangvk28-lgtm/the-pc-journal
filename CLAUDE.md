@@ -56,7 +56,7 @@ All articles are typed records. **Never hand-write an article page. Add a record
 - `validate.ts`: `validateArticle()`, `resolveRetailerHref()`, `displayableEvidence()`.
 - `index.ts`: the registry (`allArticles`), `publishedArticles` (status `published` **and** zero validation errors), `relatedArticles()`, `articleHref()`, `categoryHref()`.
 - `views.ts`: `toCardView()` for listing cards.
-- Records: `data/pc-articles.ts` (the 6 published guides, whose body text comes from `data/pc-publication.ts`) and `data/pc-buying-guides.ts` (Best X articles; `status: "draft"` until the user approves them). New articles go in their own file and are added to `allArticles`.
+- Records: `data/pc-articles.ts` (the 6 published guides, whose body text comes from `data/pc-publication.ts`) and `data/pc-buying-guides.ts` (Best X articles; published at `/guides/<slug>`). New articles go in their own file and are added to `allArticles`.
 
 ### Five primary categories (fixed)
 `components`, `pc-builds`, `upgrades`, `monitors`, `peripherals`. Each article has exactly **one**. "Guide", "Buying Guide", "Comparison" and "Best X" are **formats**, never categories. The homepage may group categories visually ("PC Builds & Upgrades"), but each keeps its own link.
@@ -74,7 +74,7 @@ Data lives in `data/pc-buying-guides.ts` (`BestGuide`/`BestProduct` in `types.ts
 " paragraphs = Why we like it), `bestFor`, `skipIf`, `specs`, `pros` (≥3), `cons`. At least 3 picks, 5 buying criteria, 5 FAQs, a bottom line. Labels must be unique and justified in the copy; no automatic "Best Overall".
 
 ### Product data comes from the Amazon Creators API — not web scraping
-- Credentials live only in `.env.local` (gitignored): `AMAZON_PAAPI_ACCESS_KEY`, `AMAZON_PAAPI_SECRET_KEY`, `AMAZON_PAAPI_PARTNER_TAG=smartspacep0b-20`.
+- Credentials live only in `.env.local` (gitignored): `AMAZON_PAAPI_ACCESS_KEY`, `AMAZON_PAAPI_SECRET_KEY`, `AMAZON_PAAPI_PARTNER_TAG=thepcjournal-20`.
 - Run `node scripts/pcj-amazon-search.mjs <out.json> "exact model 1" "exact model 2" …` to get ASIN, title, image, price and feature bullets, then record the picks in `data/pc-amazon-snapshot.ts`. Images and `amazonUrl` come from that snapshot; prices are never rendered except as "at the time of writing" tiers.
 - Use web research sparingly, only for measured third-party data (e.g. Cybenetics via Hardware Busters, TFTCentral), and attribute it inline in the copy. Products not sold on Amazon cannot be picks.
 - Never display Amazon star ratings or review counts.
