@@ -887,7 +887,8 @@
       "Intel Core i7-14700K",
       "Intel Core Ultra 9 285K",
       "Intel Core Ultra 7 265KF",
-      "Intel Core i9-14900K"
+      "Intel Core i9-14900K",
+      "Intel Core i9-9900K"
     ]
   },
   "B0FDWC73L9": {
@@ -1101,7 +1102,8 @@
       "Intel Core i5-14400F",
       "Intel Core i5-12400F",
       "Intel Core i5-14600KF",
-      "Intel Core Ultra 7 265KF"
+      "Intel Core Ultra 7 265KF",
+      "Intel Core i5-9600K"
     ]
   },
   "B0CGJ9STNF": {
@@ -1120,7 +1122,9 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Intel Core i5-14600K",
-      "Intel Core i5-14600KF"
+      "Intel Core i5-14600KF",
+      "Intel Core i5-9600K",
+      "Intel Core i5-9400F"
     ]
   },
   "B0CGJ4MLC8": {
@@ -1226,7 +1230,9 @@
       "Intel Core i7-14700K",
       "Intel Core Ultra 9 285K",
       "Intel Core i5-14600KF",
-      "Intel Core i7-14700KF"
+      "Intel Core i7-14700KF",
+      "Intel Core i7-9700K",
+      "Intel Core i7-8700K"
     ]
   },
   "B0CQ1Y7KHV": {
@@ -1248,7 +1254,9 @@
       "Intel Core i7-14700K",
       "Intel Core i5-14400F",
       "Intel Core i5-12400F",
-      "Intel Core i5-14600KF"
+      "Intel Core i5-14600KF",
+      "Intel Core i5-9600K",
+      "Intel Core i5-9400F"
     ]
   },
   "B0BCDR9M33": {
@@ -1268,7 +1276,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "Intel Core i5-14600K"
+      "Intel Core i5-14600K",
+      "Intel Core i5-9600K"
     ]
   },
   "B0CGJ41C9W": {
@@ -1291,14 +1300,16 @@
       "Intel Core Ultra 9 285K",
       "Intel Core i5-14600KF",
       "Intel Core i7-14700KF",
-      "Intel Core i9-14900K"
+      "Intel Core i9-14900K",
+      "Intel Core i7-9700K",
+      "Intel Core i7-8700K"
     ]
   },
   "B0CQ3142LB": {
     "asin": "B0CQ3142LB",
     "title": "Intel Core i5-14400F LGA 1700 Processor BX8071514400F",
     "brand": "Intel",
-    "price": "$178.97",
+    "price": "$178.99",
     "img": "https://m.media-amazon.com/images/I/31UJJMBloXL._SL500_.jpg",
     "features": [
       "Intel Core i5-14400F LGA 1700 Processor BX8071514400F"
@@ -1308,7 +1319,8 @@
       "Intel Core i5-14600K",
       "Intel Core i5-14400F",
       "Intel Core i5-12400F",
-      "Intel Core i5-14600KF"
+      "Intel Core i5-14600KF",
+      "Intel Core i5-9600K"
     ]
   },
   "B0CQ1QJZM2": {
@@ -1328,7 +1340,9 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Intel Core i7-14700K",
-      "Intel Core i7-14700KF"
+      "Intel Core i7-14700KF",
+      "Intel Core i7-9700K",
+      "Intel Core i7-8700K"
     ]
   },
   "B09FXKHN7M": {
@@ -1348,7 +1362,9 @@
       "Intel Core i7-14700K",
       "Intel Core i5-14600KF",
       "Intel Core Ultra 7 265KF",
-      "Intel Core i7-14700KF"
+      "Intel Core i7-14700KF",
+      "Intel Core i7-9700K",
+      "Intel Core i7-8700K"
     ]
   },
   "B0CGJDKLB8": {
@@ -1369,7 +1385,8 @@
       "Intel Core i7-14700K",
       "Intel Core i5-14400F",
       "Intel Core i7-14700KF",
-      "Intel Core i9-14900K"
+      "Intel Core i9-14900K",
+      "Intel Core i9-9900K"
     ]
   },
   "B08X6NXNX7": {
@@ -1477,7 +1494,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "Intel Core Ultra 9 285K"
+      "Intel Core Ultra 9 285K",
+      "Intel Core i9-9900K"
     ]
   },
   "B09FXDLX95": {
@@ -1616,7 +1634,8 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Intel Core i5-14400F",
-      "Intel Core i5-12400F"
+      "Intel Core i5-12400F",
+      "Intel Core i5-9400F"
     ]
   },
   "B0B2X1KDNS": {
@@ -1883,7 +1902,7 @@
     "asin": "B09FWYK5M9",
     "title": "Intel Core i9-12900KF Gaming Desktop Processor 16 (8P+8E) Cores up to 5.2 GHz Unlocked LGA1700 600 Series Chipset 125W",
     "brand": "Intel",
-    "price": "$341.25",
+    "price": "$319.42",
     "img": "https://m.media-amazon.com/images/I/41FfgUII7KL._SL500_.jpg",
     "features": [
       "Built for the Next Generation of Gaming. Game and multitask without compromise powered by Intel’s performance hybrid architecture on an unlocked processor.",
@@ -1897,7 +1916,8 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Intel Core i7-14700KF",
-      "Intel Core i9-14900K"
+      "Intel Core i9-14900K",
+      "Intel Core i9-9900K"
     ]
   },
   "B0CGJDBCTK": {
@@ -2030,6 +2050,398 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "AMD Ryzen 7 5800X3D"
+    ]
+  },
+  "B07HHN6KBZ": {
+    "asin": "B07HHN6KBZ",
+    "title": "Intel Core i7-9700K Desktop Processor 8 Cores up to 4.9 GHz Turbo unlocked LGA1151 300 Series 95W",
+    "brand": "Intel",
+    "price": "$259.00",
+    "img": "https://m.media-amazon.com/images/I/41i6RHrHrGL._SL500_.jpg",
+    "features": [
+      "8 Cores / 8 Threads",
+      "3.60 GHz up to 4.90 GHz / 12 MB Cache",
+      "Compatible only with Motherboards based on Intel 300 Series Chipsets",
+      "Intel Optane Memory Supported",
+      "Intel UHD Graphics 630",
+      "Cooling device not included - Processor Only",
+      "Memory Support Maximum Capacity 64 GB Memory Support DDR4 2666 MHz ECC Memory No Channel Architecture Dual Channel Maximum Memory Bandwidth 41 GB/s"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Intel Core i7-9700K",
+      "Intel Core i9-9900K",
+      "Intel Core i7-8700K"
+    ]
+  },
+  "B082FNG4G7": {
+    "asin": "B082FNG4G7",
+    "title": "Intel Core i7-9700k 8 core 3.6GHz GPU LGA-1151 CPU SRG15 (Renewed)",
+    "brand": "Intel",
+    "price": "$189.97",
+    "img": "https://m.media-amazon.com/images/I/41PgDkRJ-eL._SL500_.jpg",
+    "features": [
+      "8 Cores / 8 Threads",
+      "3.60 GHz up to 4.90 GHz / 12 MB Cache",
+      "Compatible only with Motherboards based on Intel 300 Series Chipsets",
+      "Intel Optane Memory Supported",
+      "Intel UHD Graphics 630",
+      "Cooling device not included - Processor Only"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Intel Core i7-9700K"
+    ]
+  },
+  "B0913CFBMY": {
+    "asin": "B0913CFBMY",
+    "title": "Intel SRG13 Core i7-9700 3.0 GHz Octo-Core Processor (Renewed)",
+    "brand": "Intel",
+    "price": "$99.00",
+    "img": "https://m.media-amazon.com/images/I/51Rw4X3GjnL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Intel Core i7-9700K"
+    ]
+  },
+  "B07S6CRLVD": {
+    "asin": "B07S6CRLVD",
+    "title": "Intel Core i7-9700 Desktop Processor 8 Cores up to 4.7 GHz LGA1151 300 Series 65W (BX80684I79700)",
+    "brand": "Intel",
+    "price": "$260.00",
+    "img": "https://m.media-amazon.com/images/I/41xf428iwSL._SL500_.jpg",
+    "features": [
+      "8 Cores /8 Threads",
+      "Up to 4.7 GHz. Scalability- 1S Only",
+      "Compatible with Intel 300 Series chipset based motherboards",
+      "Bios update may be required for motherboard compatibility",
+      "Supports Intel Optane Memory"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Intel Core i7-9700K"
+    ]
+  },
+  "B086ML4XSB": {
+    "asin": "B086ML4XSB",
+    "title": "Intel Core i7-10700K Desktop Processor 8 Cores up to 5.1 GHz Unlocked LGA1200 (Intel 400 Series Chipset) 125W (BX8070110700K)",
+    "brand": "Intel",
+    "price": "$369.99",
+    "img": "https://m.media-amazon.com/images/I/31NCoaXqe0L._SL500_.jpg",
+    "features": [
+      "8 Cores / 16 Threads",
+      "Socket type LGA 1200",
+      "Up to 5.1 GHz unlocked",
+      "Compatible with Intel 400 series chipset based motherboards",
+      "Intel Turbo Boost Max Technology 3.0 support",
+      "Intel Optane Memory support"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Intel Core i7-9700K",
+      "Intel Core i7-8700K"
+    ]
+  },
+  "B005404P9I": {
+    "asin": "B005404P9I",
+    "title": "Intel Core i9-9900K Desktop Processor 8 Cores up to 5.0 GHz Turbo Unlocked LGA1151 300 Series 95W",
+    "brand": "Intel",
+    "price": "$439.00",
+    "img": "https://m.media-amazon.com/images/I/510tRNsyabL._SL500_.jpg",
+    "features": [
+      "8 Cores/ 16 Threads",
+      "3.60 GHz up to 5.00 GHz/ 16 MB Cache",
+      "Compatible only with Motherboards based on Intel 300 Series Chipsets",
+      "Intel Optane Memory supported",
+      "Intel UHD Graphics 630"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Intel Core i9-9900K"
+    ]
+  },
+  "B089DJZV7F": {
+    "asin": "B089DJZV7F",
+    "title": "Intel Core i9-9900K Desktop Processor 8 Cores up to 5.0 GHz Turbo unlocked LGA1151 300 Series 95W (Renewed)",
+    "brand": "Intel",
+    "price": "$284.97",
+    "img": "https://m.media-amazon.com/images/I/41zinkBI5ZL._SL500_.jpg",
+    "features": [
+      "8 Cores / 16 Threads",
+      "3.60 GHz up to 5.00 GHz / 16 MB Cache",
+      "Compatible only with Motherboards based on Intel 300 Series Chipsets",
+      "Intel Optane Memory Supported",
+      "Intel UHD Graphics 630"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Intel Core i9-9900K"
+    ]
+  },
+  "B089J731BX": {
+    "asin": "B089J731BX",
+    "title": "Intel Core i9-9900K Desktop Processor 8 Cores up to 5.0GHz Unlocked LGA1151 300 Series 95W (BX806849900K)",
+    "brand": "Intel",
+    "price": "$439.00",
+    "img": "https://m.media-amazon.com/images/I/41J25GM6S8L._SL500_.jpg",
+    "features": [
+      "8 Cores/ 16 Threads",
+      "Up to 5.0 GHz Unlocked",
+      "Compatible with Intel 300 Series chipset based motherboards",
+      "Supports Intel Turbo Boost Technology",
+      "Supports Intel Optane Memory, no thermal solution included"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Intel Core i9-9900K"
+    ]
+  },
+  "B07ZTCVY9M": {
+    "asin": "B07ZTCVY9M",
+    "title": "Intel CORE I9-9900K Coffee Lake 9th Generation Cache 16MB, 3.6GHZ (5.0GHZ MAX Turbo), LGA 1151",
+    "brand": "Intel",
+    "price": "$689.38",
+    "img": "https://m.media-amazon.com/images/I/31Un72y7u2L._SL500_.jpg",
+    "features": [
+      "Intel Core i9 9900K - LGA 1151 - 3.6GHz (Turbo 5GHz) - 16MB Cache - 9th Generation Coffee Lake - BX80684I99900K"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Intel Core i9-9900K"
+    ]
+  },
+  "B07MGBZWDZ": {
+    "asin": "B07MGBZWDZ",
+    "title": "Intel BX80684I99900KF Intel Core i9-9900KF Desktop Processor 8 Cores up to 5.0 GHz Turbo Unlocked Without Processor Graphics LGA1151 300 Series 95W",
+    "brand": "Intel",
+    "price": "$409.00",
+    "img": "https://m.media-amazon.com/images/I/41gKojt3OHL._SL500_.jpg",
+    "features": [
+      "8 Cores/ 16 Threads",
+      "3. 60 GHz up to 5. 00 GHz Max Turbo Frequency/ 16 MB Cache",
+      "Compatible only with Motherboards based on Intel 300 Series Chipsets",
+      "Discrete GPU – No Processor Graphics",
+      "Intel Optane Memory Supported; maximum temperature allowed at the processor: 100°C"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Intel Core i9-9900K"
+    ]
+  },
+  "B089CG1PL8": {
+    "asin": "B089CG1PL8",
+    "title": "Intel Core i5-9600K Desktop Processor 6 Cores up to 4.6 GHz Turbo unlocked LGA1151 300 Series 95W (Renewed)",
+    "brand": "Intel",
+    "price": "$130.00",
+    "img": "https://m.media-amazon.com/images/I/41Eo-yG7rRL._SL500_.jpg",
+    "features": [
+      "6 Cores / 6 Threads",
+      "3.70 GHz up to 4.60 GHz / 9 MB Cache",
+      "Compatible only with Motherboards based on Intel 300 Series Chipsets",
+      "Intel Optane Memory Supported",
+      "Intel UHD Graphics 630"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Intel Core i5-9600K"
+    ]
+  },
+  "B07S4MSXJL": {
+    "asin": "B07S4MSXJL",
+    "title": "Intel Core i5-9500 Desktop Processor 6 Cores up to 4.GHz LGA1151 300 Series 65W (BX80684I59500)",
+    "brand": "Intel",
+    "price": "$129.57",
+    "img": "https://m.media-amazon.com/images/I/41yEI4sSivL._SL500_.jpg",
+    "features": [
+      "6 Cores /6 Threads",
+      "Up to 4.4 GHz",
+      "Compatible with Intel 300 Series chipset based motherboards",
+      "Bios update may be required for motherboard compatibility",
+      "Supports Intel Optane Memory"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Intel Core i5-9600K",
+      "Intel Core i5-9400F"
+    ]
+  },
+  "B09FXFJW2F": {
+    "asin": "B09FXFJW2F",
+    "title": "Intel Core i5-12600KF Desktop Processor 10 (6P+4E) Cores up to 4.9 GHz Unlocked LGA1700 600 Series Chipset 125W",
+    "brand": "Intel",
+    "price": "$209.00",
+    "img": "https://m.media-amazon.com/images/I/41mixpvorqL._SL500_.jpg",
+    "features": [
+      "Game and multitask without compromise powered by Intel’s performance hybrid architecture on an unlocked processor.",
+      "Discrete graphics required",
+      "Compatible with Intel 600 series and 700 series chipset-based motherboards",
+      "Intel and reg; Core and reg; i5 processor offers hyper-threading architecture that delivers high performance for demanding applications with improved onboard graphics and turbo boost",
+      "The processor features Socket LGA-1700 socket for installation on the PCB",
+      "16 MB of L3 cache rapidly retrieves the most used data available to improve system performance",
+      "Intel 7 Architecture enables improved performance per watt and micro architecture makes it power-efficient"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Intel Core i5-9600K"
+    ]
+  },
+  "B010T6CWI2": {
+    "asin": "B010T6CWI2",
+    "title": "Intel Core i5 6500 3.20 GHz Quad Core Skylake Desktop Processor, Socket LGA 1151, 6MB Cache [BX80662I56500]",
+    "brand": "Intel",
+    "price": "$95.00",
+    "img": "https://m.media-amazon.com/images/I/51Gq81DIpEL._SL500_.jpg",
+    "features": [
+      "A new level of intelligent performance",
+      "Do more at once",
+      "Speedy content creation",
+      "Get your game on"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Intel Core i5-9600K"
+    ]
+  },
+  "B086MLQHZY": {
+    "asin": "B086MLQHZY",
+    "title": "Intel Core i7-8700K Desktop Processor 6 Cores up to 4.7GHz Turbo Unlocked LGA1151 300 Series 95W (Renewed)",
+    "brand": "Intel",
+    "price": "$104.98",
+    "img": "https://m.media-amazon.com/images/I/41DKWDdcqvL._SL500_.jpg",
+    "features": [
+      "6 Cores / 12 Threads",
+      "4.70 GHz Max Turbo Frequency / 12 MB Cache; Memory Types: DDR4 2666; Bus Speed 8 GT/s DMI3",
+      "Compatible only with Motherboards based on Intel 300 Series Chipsets",
+      "Intel Optane Memory Supported",
+      "Intel UHD Graphics 630"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Intel Core i7-8700K"
+    ]
+  },
+  "B076PMBMFP": {
+    "asin": "B076PMBMFP",
+    "title": "Intel OEM Core i7 i7-8700K Hexa-core (6 Core) 3.70 GHz Processor - Socket H4 LGA-1151",
+    "brand": "Intel",
+    "price": "$165.46",
+    "img": "https://m.media-amazon.com/images/I/41JM0JUG8lL._SL500_.jpg",
+    "features": [
+      "Processor Manufacturer: Intel",
+      "Processor Core: Hexa-core (6 Core)",
+      "Clock Speed: 3.70 GHz",
+      "Overclocking Speed: 4.30 GHz",
+      "L3 Cache: 12 MB"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Intel Core i7-8700K"
+    ]
+  },
+  "B01N30X8NM": {
+    "asin": "B01N30X8NM",
+    "title": "Intel Core i7-7700K Unlocked Processor 8M Cache, up to 4.50 GHz, Quad-Core Kaby Lake",
+    "brand": "Intel",
+    "price": "$199.00",
+    "img": "https://m.media-amazon.com/images/I/51sCGO2qZGL._SL500_.jpg",
+    "features": [
+      "100 & 200 series motherboards only"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Intel Core i7-8700K"
+    ]
+  },
+  "B089D1WJMJ": {
+    "asin": "B089D1WJMJ",
+    "title": "Intel Core i5-9400F Desktop Processor 6 Cores 4.1 GHz Turbo Without Graphics (Renewed)",
+    "brand": "Intel",
+    "price": "$74.99",
+    "img": "https://m.media-amazon.com/images/I/41V1iL1AdpL._SL500_.jpg",
+    "features": [
+      "6 Cores/ 6 Threads",
+      "2.90 GHz up to 4.10 GHz Max Turbo Frequency/ 9 MB Cache, Bus Speed: 8 GT/s DMI3",
+      "Compatible only with Motherboards based on Intel 300 Series Chipsets: Intel B360 Chipset, Intel H370 Chipset, Intel H310 Chipset, Intel Q370 Chipset, Intel Z390 Chipset, Intel Z370 Chipset",
+      "Discrete GPU required No integrated graphics. Max Memory Bandwidth - 41.6 GB/s. Max Memory Channels - 2",
+      "Intel Optane Memory supported"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Intel Core i5-9400F"
+    ]
+  },
+  "B07MRCGQQ4": {
+    "asin": "B07MRCGQQ4",
+    "title": "Intel Core i5-9400F Desktop Processor 6 Cores up to 4.1 GHz Turbo without Processor Graphicslga1151 300 Series 65W Processors 999CVM",
+    "brand": "Intel",
+    "price": "$175.00",
+    "img": "https://m.media-amazon.com/images/I/41gKojt3OHL._SL500_.jpg",
+    "features": [
+      "6 Cores/ 6 Threads",
+      "2.90 GHz up to 4.10 GHz Max Turbo Frequency/ 9 MB Cache",
+      "Compatible only with Motherboards based on Intel 300 Series Chipsets",
+      "Discrete GPU required - No integrated graphics",
+      "Intel Optane Memory supported"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Intel Core i5-9400F"
+    ]
+  },
+  "B07MGZ9FJZ": {
+    "asin": "B07MGZ9FJZ",
+    "title": "Intel Core i5-9400 Desktop Processor (I5-9400)",
+    "brand": "Intel",
+    "price": "$110.00",
+    "img": "https://m.media-amazon.com/images/I/51pRT9jZtOL._SL500_.jpg",
+    "features": [
+      "6 Cores/ 6 Threads",
+      "2. 90 GHz up to 4. 10 GHz Max Turbo Frequency/ 9 MB Cache",
+      "Compatible only with Motherboards based on Intel 300 Series Chipsets",
+      "Discrete GPU required - No integrated graphics",
+      "Intel Optane Memory Supported"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Intel Core i5-9400F"
+    ]
+  },
+  "B08J48TG9D": {
+    "asin": "B08J48TG9D",
+    "title": "Intel Core i5-9400 Processor 2.9GHz Six-Core LGA 1151 SRG0Y",
+    "brand": "Intel",
+    "price": "$74.99",
+    "img": "https://m.media-amazon.com/images/I/511Xnm+48nL._SL500_.jpg",
+    "features": [
+      "6 Cores/ 6 Threads",
+      "2. 90 GHz up to 4. 10 GHz Max Turbo Frequency/ 9 MB cache",
+      "Compatible only with Motherboards based on Intel 300 Series chipsets",
+      "Intel Optane Memory supported",
+      "Note: 2.9 GHz is a base frequency whereas 4.1GHz is a Max turbo frequency",
+      "Processor Graphics - Intel UHD Graphics 630"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Intel Core i5-9400F"
+    ]
+  },
+  "B084F3K5FN": {
+    "asin": "B084F3K5FN",
+    "title": "Intel SR3XE i5-8500 6C 3.0Ghz 9MB 8GTs Processor (Renewed)",
+    "brand": "Intel",
+    "price": "$63.98",
+    "img": "https://m.media-amazon.com/images/I/4174ZjbWfNL._SL500_.jpg",
+    "features": [
+      "6 Cores / 6 Threads",
+      "3.00 GHz up to 4.10 GHz Max Turbo Frequency / 9 MB Cache",
+      "Compatible only with Motherboards based on Intel 300 Series Chipsets",
+      "Intel Optane Memory Supported",
+      "Intel UHD Graphics 630; Instruction Set Extensions Intel SSE4.1, Intel SSE4.2, Intel AVX2"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Intel Core i5-9400F"
     ]
   }
 }

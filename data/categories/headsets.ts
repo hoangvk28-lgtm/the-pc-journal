@@ -69,7 +69,7 @@ export const headsetFacts = withPool(pool as Record<string, { img?: string; pric
   F("B09TRW57WB", "HyperX Cloud Alpha Wireless", "Cloud Alpha Wireless", { battery: 300, connection: "2.4GHz wireless", mic: "Included" }, ["DTS Headphone:X spatial audio", "dual-chamber drivers in a durable aluminum frame"]),
   F("B0CF3LHQSM", "Razer BlackShark V2 HyperSpeed", "BlackShark V2 HyperSpeed", { battery: 70, driver: 50, weight: 280, connection: "HyperSpeed 2.4GHz wireless", mic: "Included" }, ["TriForce Titanium drivers", "an ultra-light 280g frame"]),
   F("B0FFM5SP6M", "Logitech G522 Lightspeed Wireless", "G522", { battery: 60, weight: 280, connection: "Lightspeed 2.4GHz", mic: "48kHz/16-bit" }, ["48kHz/24-bit audio", "a full-bandwidth 48kHz microphone"]),
-  F("B0DXQ8X9GT", "HyperX Cloud Jet Dual Wireless", "Cloud Jet", { battery: 25, driver: 40, connection: "2.4GHz dongle and Bluetooth 5.3", mic: "Included" }, ["dual wireless at an entry-level price"]),
+  F("B0DXQ8X9GT", "HyperX Cloud Jet Dual Wireless", "Cloud Jet", { battery: 25, driver: 40, connection: "2.4GHz dongle and Bluetooth 5.3", mic: "Included" }, ["dual wireless at an entry-level price", "a 25-hour rated battery"]),
   // Wired
   F("B0C3BV19Q3", "HyperX Cloud III Wired", "Cloud III", { driver: 53, connection: "Wired (USB and 3.5mm)", mic: "Upgraded" }, ["angled 53mm drivers", "an upgraded microphone"]),
   F("B086PKMZ21", "Razer BlackShark V2 X", "BlackShark V2 X", { driver: 50, weight: 240, connection: "Wired 3.5mm", mic: "HyperClear cardioid" }, ["passive noise cancellation", "breathable foam ear cushions"]),

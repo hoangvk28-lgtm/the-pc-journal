@@ -96,7 +96,7 @@ export const monitorFacts = withPool(pool as Pool, [
   F("B0H85RW8H8", "Samsung ViewFinity S7 (S71H) 27-inch", "ViewFinity S7 27", { size: 27, res: K, panel: "IPS", hdr: "HDR10" }, ["4K on a 27-inch IPS panel"]),
   F("B0F1GD9YFN", "Dell S3225QS", "S3225QS", { size: 32, res: K, hz: 120, panel: "VA", gamut: "95% DCI-P3", sync: "FreeSync Premium" }, ["a 32-inch 4K screen at 120Hz"]),
   F("B0H85TLJML", "Samsung ViewFinity S7 (S71H) 32-inch", "ViewFinity S7 32", { size: 32, res: K, panel: "IPS", hdr: "HDR10" }, ["a 32-inch 4K IPS panel"]),
-  F("B0GZ61BN6Z", "Samsung ViewFinity S7 (S70H) 27-inch", "ViewFinity S70H", { size: 27, res: K, hdr: "HDR10" }, ["a built-in KVM switch for two computers"]),
+  F("B0GZ61BN6Z", "Samsung ViewFinity S7 (S70H) 27-inch", "ViewFinity S70H", { size: 27, res: K, hdr: "HDR10" }, ["a built-in KVM switch for two computers", "HDR10 support"]),
   // 4K 144Hz+
   F("B0CZMCR9XD", "MSI MAG 274UPF E2", "MAG 274UPF", { size: 27, res: K, hz: 160, panel: "Rapid IPS", hdr: "HDR 400", sync: "FreeSync, G-SYNC Compatible", stand: "height, swivel and pivot adjustment" }, ["a 160Hz refresh rate at 4K"]),
   F("B0FR671G1H", "GIGABYTE M27UP", "M27UP", { size: 27, res: K, hz: 160, panel: "SuperSpeed IPS", resp: 1, hdr: "DisplayHDR 400", gamut: "125% sRGB" }, ["a dual mode that switches to 1080p at 320Hz"]),

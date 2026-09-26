@@ -561,7 +561,8 @@
     "queries": [
       "ASUS ROG Strix XG27ACS",
       "ASUS TUF VG259QM5A",
-      "165Hz 1440p gaming monitor 27 inch"
+      "165Hz 1440p gaming monitor 27 inch",
+      "ASUS TUF gaming monitor"
     ]
   },
   "B0CZWRK33C": {
@@ -653,7 +654,8 @@
     "queries": [
       "Dell S2725DS",
       "Dell SE2725HG",
-      "Dell S2722QC"
+      "Dell S2722QC",
+      "Dell gaming monitor"
     ]
   },
   "B0D3FGFPPB": {
@@ -688,7 +690,8 @@
     "queries": [
       "Dell S2725DS",
       "Dell SE2725HG",
-      "Dell S2722QC"
+      "Dell S2722QC",
+      "Dell gaming monitor"
     ]
   },
   "B0F1GF1KFC": {
@@ -713,7 +716,8 @@
       "Gigabyte M27U",
       "LG 27GR93U",
       "ASUS ProArt Display monitor 27",
-      "ASUS ProArt PA279CRV"
+      "ASUS ProArt PA279CRV",
+      "Dell gaming monitor"
     ]
   },
   "B0GLRCN2SW": {
@@ -732,7 +736,8 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Dell S2725DS",
-      "Dell S2722QC"
+      "Dell S2722QC",
+      "Dell gaming monitor"
     ]
   },
   "B0F1GFD44G": {
@@ -812,7 +817,9 @@
       "Dell S2725DS",
       "Dell SE2725HG",
       "Dell S2722QC",
-      "BenQ ZOWIE XL2566K"
+      "BenQ ZOWIE XL2566K",
+      "Dell gaming monitor",
+      "gaming monitor under 150"
     ]
   },
   "B0F1GD9YFN": {
@@ -831,7 +838,8 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Dell S2725DS",
-      "Dell S2722QC"
+      "Dell S2722QC",
+      "Dell gaming monitor"
     ]
   },
   "B0FF5ZQWV6": {
@@ -1033,7 +1041,8 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Acer Nitro KG241Y",
-      "165Hz 1080p gaming monitor 24 inch"
+      "165Hz 1080p gaming monitor 24 inch",
+      "gaming monitor under 150"
     ]
   },
   "B0DT1HS4N9": {
@@ -1665,7 +1674,9 @@
     "queries": [
       "ASUS VA24EHF",
       "Dell S2722QC",
-      "MSI MAG 274UPF E2"
+      "MSI MAG 274UPF E2",
+      "Dell gaming monitor",
+      "gaming monitor under 150"
     ]
   },
   "B088BC5HKF": {
@@ -2375,7 +2386,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "KTC H27T22C"
+      "KTC H27T22C",
+      "vertical monitor pivot"
     ]
   },
   "B0HKVGHY85": {
@@ -2968,7 +2980,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "Samsung ViewFinity S7 32"
+      "Samsung ViewFinity S7 32",
+      "monitor for TV and gaming 4K"
     ]
   },
   "B0FR671G1H": {
@@ -3083,7 +3096,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "Gigabyte M27U"
+      "Gigabyte M27U",
+      "vertical monitor pivot"
     ]
   },
   "B0GTZTV7TP": {
@@ -3221,7 +3235,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "MSI MAG 274UPF E2"
+      "MSI MAG 274UPF E2",
+      "curved gaming monitor"
     ]
   },
   "B0F6VGYB2Z": {
@@ -3431,7 +3446,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "Samsung Odyssey G7 4K 28"
+      "Samsung Odyssey G7 4K 28",
+      "monitor for TV and gaming 4K"
     ]
   },
   "B0DQQCBGD6": {
@@ -3476,7 +3492,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "Samsung Odyssey G7 4K 28"
+      "Samsung Odyssey G7 4K 28",
+      "large 43 inch gaming monitor"
     ]
   },
   "B0FJYNVR3R": {
@@ -3578,14 +3595,15 @@
       "BenQ ZOWIE XL2566K",
       "Alienware AW2524HF",
       "Gigabyte AORUS FO27Q3",
-      "Dell Alienware AW2725Q"
+      "Dell Alienware AW2725Q",
+      "Alienware gaming monitor"
     ]
   },
   "B0DZL719V1": {
     "asin": "B0DZL719V1",
     "title": "Alienware 34 Curved Gaming Monitor – AW3425DWM - 34-inch WQHD 180Hz 1ms Display, 1500R, AMD FreeSync Premium, VESA AdaptiveSync.",
     "brand": "Alienware",
-    "price": "$349.99",
+    "price": "$348.81",
     "img": "https://m.media-amazon.com/images/I/41um0FZCuPL._SL500_.jpg",
     "features": [
       "Bring virtual worlds to life with WQHD quality: Explore your games' vast, detailed landscapes with WQHD resolution and fluid, responsive visuals in an iconically designed ultrawide gaming monitor.",
@@ -3597,7 +3615,11 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Alienware AW2725DF",
-      "Dell Alienware AW2725Q"
+      "Dell Alienware AW2725Q",
+      "Dell gaming monitor",
+      "Alienware gaming monitor",
+      "34 inch ultrawide curved gaming",
+      "large 43 inch gaming monitor"
     ]
   },
   "B0HFHZCZW8": {
@@ -3613,7 +3635,8 @@
     "queries": [
       "Alienware AW2725DF",
       "Alienware AW2524HF",
-      "Dell Alienware AW2725Q"
+      "Dell Alienware AW2725Q",
+      "Alienware gaming monitor"
     ]
   },
   "B0BCXJ7XXM": {
@@ -3632,7 +3655,8 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Alienware AW2725DF",
-      "Alienware AW2524HF"
+      "Alienware AW2524HF",
+      "Alienware gaming monitor"
     ]
   },
   "B0F6724X5N": {
@@ -3651,7 +3675,8 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Alienware AW2725DF",
-      "Alienware AW2524HF"
+      "Alienware AW2524HF",
+      "Alienware gaming monitor"
     ]
   },
   "B0CP9MBSXW": {
@@ -3670,7 +3695,8 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Alienware AW2725DF",
-      "Alienware AW2524HF"
+      "Alienware AW2524HF",
+      "Alienware gaming monitor"
     ]
   },
   "B0HFHZJ6C2": {
@@ -3685,7 +3711,8 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Alienware AW2725DF",
-      "Alienware AW2524HF"
+      "Alienware AW2524HF",
+      "Alienware gaming monitor"
     ]
   },
   "B0HF1QZ9F8": {
@@ -3700,7 +3727,8 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Alienware AW2725DF",
-      "Alienware AW2524HF"
+      "Alienware AW2524HF",
+      "Alienware gaming monitor"
     ]
   },
   "B0D7NXSQ44": {
@@ -4044,7 +4072,8 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "BenQ ZOWIE XL2566K",
-      "ASUS TUF VG259QM5A"
+      "ASUS TUF VG259QM5A",
+      "ASUS TUF gaming monitor"
     ]
   },
   "B0CNSD6HXQ": {
@@ -4297,7 +4326,7 @@
     "asin": "B0FP16G94B",
     "title": "ASUS TUF Gaming VG259QM5A 25 Inch 1080p 240Hz G-SYNC Gaming Monitor",
     "brand": "ASUS",
-    "price": "$179.99",
+    "price": "$149.00",
     "img": "https://m.media-amazon.com/images/I/410otI10MnL._SL500_.jpg",
     "features": [
       "High-Performance Display: 24.5-inch Full HD (1920x1080) Fast IPS gaming monitor with 240Hz refresh rate designed for professional gamers and immersive gameplay",
@@ -4311,7 +4340,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "ASUS TUF VG259QM5A"
+      "ASUS TUF VG259QM5A",
+      "ASUS TUF gaming monitor"
     ]
   },
   "B0F72R4KLC": {
@@ -4334,7 +4364,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "ASUS TUF VG259QM5A"
+      "ASUS TUF VG259QM5A",
+      "ASUS TUF gaming monitor"
     ]
   },
   "B0F9YXHXRH": {
@@ -4374,7 +4405,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "ASUS TUF VG259QM5A"
+      "ASUS TUF VG259QM5A",
+      "ASUS TUF gaming monitor"
     ]
   },
   "B0F85B4462": {
@@ -4760,7 +4792,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "LG 32GS95UE"
+      "LG 32GS95UE",
+      "monitor for TV and gaming 4K"
     ]
   },
   "B0D2FSYS5J": {
@@ -4783,7 +4816,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "LG 32GS95UE"
+      "LG 32GS95UE",
+      "curved gaming monitor"
     ]
   },
   "B0CTSC3VS4": {
@@ -5310,7 +5344,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "165Hz 1080p gaming monitor 24 inch"
+      "165Hz 1080p gaming monitor 24 inch",
+      "gaming monitor under 150"
     ]
   },
   "B0CP7TNX8C": {
@@ -5346,7 +5381,9 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "165Hz 1080p gaming monitor 24 inch"
+      "165Hz 1080p gaming monitor 24 inch",
+      "curved gaming monitor",
+      "gaming monitor under 150"
     ]
   },
   "B0BCDD4KTK": {
@@ -5441,6 +5478,1346 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "165Hz 1080p gaming monitor 24 inch"
+    ]
+  },
+  "B0B9NNWXVP": {
+    "asin": "B0B9NNWXVP",
+    "title": "MNN 15.6\" FHD 60Hz Portable Monitor USB-C HDMI IPS HDR Gaming Laptop",
+    "brand": "MNN",
+    "price": "$43.62",
+    "img": "https://m.media-amazon.com/images/I/51XSgUKTrFL._SL500_.jpg",
+    "features": [
+      "Full HD Portable Monitor - MNN 15.6inch portable laptop monitor with 1920*1080 resolution, advanced IPS glossy screen support 178° full viewing angle, it renders accurate and bright color, draws you into the video or game with lifelike colors and amazing detail.It can effectively reduce blue light radiation damage, no flickering, eye-care, and make it easier to watch for a long time.A second monitor for working from home.",
+      "Double Type-C Port -For Plug & Play, the MNN monitor provides 2 Full Feature Type-C ports. Only One USB Type-C Cable is required to connect to the power supply & display signal transmission. NOTE: Your device should support thunderbolt 3.0 or USB 3.1 Type C DP ALT-MODE.which supports multiple connect ways to your laptops, PC, Phones, Macbooks, PS5/PS4, Xbox, and Switch.",
+      "Lightweight Ultra Slim for Travel - As a portable external monitor,MNN portable laptop monitor easily accommodate to every suitcase and backpack and stress-free when you are holding it for a long time. They are truly portable computer monitors for travelers, students, gamers,engineers, and everyone.",
+      "Give consideration to work and games - through multiple display modes [Copy Mode/Extended Mode/Second Screen Mode/Portrait Mode], we can bring you a clear second screen in the meeting, and expand the screen anytime and anywhere to improve work efficiency and improve the quality of life. Adjusting to HDR mode can upgrade the image to a new level, providing you with brighter highlights,deeper and more realistic colors, more realistic images, and amazing viewing/gaming experience.",
+      "Powerful Smart Cover - MNN portable external monitor can work in both landscape and portrait mode, can be used as a gaming monitor, screen extender for laptop or phone. Comes with a scratch-proof smart cover made of durable PU leather exterior, doubles as a stand, provides comprehensive protection for this portable computer monitor."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "portable monitor 15.6"
+    ]
+  },
+  "B088D8JG3L": {
+    "asin": "B088D8JG3L",
+    "title": "KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover",
+    "brand": "KYY",
+    "price": "$69.99",
+    "img": "https://m.media-amazon.com/images/I/51T7K-COzIL._SL500_.jpg",
+    "features": [
+      "[ FHD 1080P PORTABLE MONITOR ]: KYY using a 15.6''(8.8\"x14.2\") advanced IPS screen with 178° wide viewing angle, Delivers 1920*1080 breathtaking viewing quality and HDR technology, KYY portable gaming monitor has excellent color rendering ability, provide you the clearer, smooth, excellent performance in gaming/multimedia. It can effectively reduce blue light radiation damage, no flickering, eye-care, and make it easier to watch for a long time",
+      "[ WIDE COMPATIBILITY ]: KYY portable monitor for laptop equipped with 2 Full Function Type-C ports and Mini-HDMI port, easy access to your favorite devices with 1 cable solution as long as your device support Thunderbolt 3 or 3.1 USB-Type-C, compatible with most laptop, smartphone, PC, PS4, XBOX and more.",
+      "[ ULTRA-SLIM PORTABLE DISPLAY ]: KYY USB C portable monitor features a 0.3inch ultra-slim profile(1.7lb), it is easy to slides into your bag, allows you to carry it everywhere, ideal for a simple on-the-go dual-monitor setup or extend your phone screen for movies or games. No driver needed and equipped with 3.5mm audio inputs and 2 built-in stereo speakers to enhance entertainment experience",
+      "[ DURABLE SMART COVER ]: Comes with a scratch-proof smart cover made of durable PU leather exterior, doubles as a stand, provides comprehensive protection and frameless magnetic design for this portable computer monitor. There are two grooves in the cover base to give at least some choice of viewing angle for your comfort for less cumbersome installation",
+      "[ LIGHTWEIGHT BUT POWERFUL ]: KYY portable external monitor can work in both landscape and portrait mode, can be used as a gaming monitor, screen extender for laptop or phone. It has a unique designed Premium gray metal appearance, 2 built-in speakers to play audio, a friendly menu control wheel for setting, and 24/7 professional support team"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "portable monitor 15.6"
+    ]
+  },
+  "B0D44QFCPQ": {
+    "asin": "B0D44QFCPQ",
+    "title": "Anyuse 15.6\" FHD IPS USB-C HDMI Portable Monitor",
+    "brand": "Anyuse",
+    "price": "$39.99",
+    "img": "https://m.media-amazon.com/images/I/51hVTfsBxqL._SL500_.jpg",
+    "features": [
+      "15.6\" FHD Portable Monitor - Featuring a 1920*1080P resolution, 178°FULL viewing angle, HDR, and Low Blue Light Super Clear IPS A-grade screen, this Anyuse portable screen for laptop enhanced visual experience, reduces eye strain and fatigue.",
+      "Double Type-C Port -For Plug & Play - Anyuse portable monitor features 2 full-featured Type-C ports and 1 MINI HDMI port. You can easily access your favorite devices with just one USB Type-C or MINI HDMI cable. NOTE: Your device should support Thunderbolt 3.0/4.0 or USB 3.1 Type C DP ALT-MODE.",
+      "Portable & Light Weight - At just 1.37lbs and 0.04 inch thin, this portable laptop monitor is ultra-portable and perfect for on-the-go productivity or gaming. flexible to use anywhere you need a second screen for laptop. bringing you efficiency for meetings, work from home, and presentations.",
+      "Able to Balance Work and Play - With multiple display modes [copy mode/extension mode/second screen mode]. During meetings,it can copy your laptop's content as a second screen to share with others.At work, it can be used as a second extended screen to increase productivity. In life, adjusting to HDR mode can upgrade the image to a new level, providing you with brighter highlights, more realistic colors and images.Two built-in speakers provide an amazing viewing and gaming experience.",
+      "Wide Compatibility - Enjoy hassle-free plug-and-play functionality with the portable monitor. it is compatible with all devices equipped with HDMI and USB Type-C ports like laptops, PS, XBOX, SWITCH game consoles, No app or driver installation required."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "portable monitor 15.6"
+    ]
+  },
+  "B095GG31KX": {
+    "asin": "B095GG31KX",
+    "title": "InnoView Portable Monitor, 15.6 Inch FHD 1080P HDMI USB C Second External Monitor for Laptop, Desktop, MacBook, Phones, Tablet, PS5/4, Xbox, Switch, Built-in Speaker with Protective Case",
+    "brand": "InnoView",
+    "price": "$59.99",
+    "img": "https://m.media-amazon.com/images/I/41vXoYB53wL._SL500_.jpg",
+    "features": [
+      "[Portable Monitor Laptop] InnoView laptop screen extender is no need of app and drivers! 15.6 in is a more suitable size for traveling or remote work. Suitable for traveler, student, gamer, engineer, and white-collar worker to connect HP laptop, Lenovo laptop, Dell laptop, Asus laptop, Macbook, iPhone, game console, tablet, PS, Xbox, etc. The laptop screen can expand the viewing area and be more efficient when playing games, working, meeting and studying",
+      "[Plug and Play] The travel monitor for laptop provides 2 full-function Type-C ports and 1 HDMI port to connect most devices. Only one USB-C cable is needed to connect the external display to computer, and it supports power pass-through reverse charging. Note: Your device should support Thunderbolt 3.0/4.0 or USB 3.1 Type-C DP ALT-MODE. If not, you can connect via HDMI and power cable(NOT INCLUDE IN THE PACKAGE)",
+      "[IPS FHD USB C Monitor] 15.6 inch portable screen with a resolution of 1920*1080P, made of A+ IPS screen, supports 178° full viewing angle, can present accurate and vivid colors. Combined with HDR, images and videos present realistic colors and amazing details. Low blue light can effectively reduce blue light radiation damage, no flicker, eye protection, making it easier for you to work and perform multiple tasks at the same time",
+      "[Versatile Cover and Stand] Equipped with a scratch-resistant smart protective cover made of durable PU leather, it can also be used as a stand when working. Two grooves are used to adjust the angle and fix the external monitor. It can also provide all-round protection for the 1080p monitor when going out or traveling, suitable for putting in a backpack to avoid squeezing. Optional landscape and portrait modes, save more desktop space",
+      "[Worry-free Purchase] Since the output power of each device is different, the screen may flicker or restart. You can power the laptop monitor to solve it. Provide a 30-day return policy and 18-month warranty (excluding external force damage). If you have any concerns, please let us know (displayed on the back of the monitor)"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "portable monitor 15.6"
+    ]
+  },
+  "B0BNWWF32B": {
+    "asin": "B0BNWWF32B",
+    "title": "ForHelp 15.6inch Portable Monitor,1080P USB-C HDMI Second External Monitor for Laptop,PC,Mac Phone,PS,Xbox,Swich,IPS Ultra-Thin Zero Frame Gaming Display/Premium Smart Cover",
+    "brand": "ForHelp",
+    "price": "$44.99",
+    "img": "https://m.media-amazon.com/images/I/51oiLqGMfnL._SL500_.jpg",
+    "features": [
+      "Extensive Compatibility - Forhelp portable monitor features 2 full-featured Type-C ports and 1 MINI HDMI port. You can easily access your favorite devices with just one USB Type-C or MINI HDMI cable. NOTE: Your device should support Thunderbolt 3.0/4.0 or USB 3.1 Type C DP ALT-MODE. It is compatible with all devices equipped with HDMI and USB Type-C ports like laptops, PS, XBOX, SWITCH game consoles.",
+      "Full HD Portable Monitor - 15.6inch portable laptop monitor with 1920*1080 resolution, advanced IPS Matte screen support 178° full viewing angle, it renders accurate and bright color, draws you into the video or game with lifelike colors and amazing detail. It can effectively reduce blue light radiation damage, no flickering, eye-care, and make it easier to watch for a long time.",
+      "Ultra-slim Portable Monitor - As a portable external monitor, Forhelp portable laptop monitor's body is made of aluminum alloy, the weight of the whole machine is 1.52lb, 0.3\" ultra-thin profile, can easily fit into your bag, so you can carry it with you. With our magnetic smart holster, you can use and store it anytime.",
+      "Able to Balance Work and Play - With multiple display modes [copy mode/extension mode/second screen mode]. During meetings,it can copy your laptop's content as a second screen to share with others. At work, it can be used as a second extended screen to increase productivity. In life, adjusting to HDR mode can upgrade the image to a new level, providing you with brighter highlights, more realistic colors and images. Two built-in speakers provide an amazing viewing and gaming experience.",
+      "DURABLE SMART COVER - Comes with a scratch-proof smart cover made of durable PU leather exterior, doubles as a stand, provides comprehensive protection for this portable computer monitor. There are two grooves in the cover base to give at least some choice of viewing angle for your comfort.",
+      "Please note: HDMI is on the left side of the product."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "portable monitor 15.6"
+    ]
+  },
+  "B0F8HLJ9L9": {
+    "asin": "B0F8HLJ9L9",
+    "title": "Yodoit Portable Monitor 15.6\" 1920×1080 FHD IPS Travel Screen Display with USB-C Plug & Play, Built-in Speakers Smart Cover for MacBook PC Xbox, Extended Display for Remote Workers (Black)",
+    "brand": "Yodoit",
+    "price": "$42.05",
+    "img": "https://m.media-amazon.com/images/I/51qSQsjDXML._SL500_.jpg",
+    "features": [
+      "PLUG-AND-PLAY PORTABLE MONITOR: Unlike bulky external monitors that need separate power bricks and tangled cables, this 15.6\" portable screen connects to your laptop with just ONE USB-C cable—no driver installation, no external power adapter needed. At only 1.5 lbs, it turns any coffee shop, coworking space, or hotel desk into a dual-screen workstation. Perfect for remote workers, digital nomads, and business travelers who demand productivity on the move",
+      "STUNNING 15.6\" FHD IPS TRAVEL SCREEN FOR OUTDOOR & SHARING: Features 1920×1080 resolution, 300 nits brightness, and a matte anti-glare coating that stays visible even in bright sunlight. The 178° wide viewing angle lets you share your screen with a client or colleague—no crowding around a laptop. 2ms response time handles video playback and photo editing without motion blur. Ideal for photographers, YouTubers, designers, and anyone who presents work to clients",
+      "TWO CONNECTIVITY OPTIONS – USB-C OR HDMI: (1) USB-C to USB-C single-cable connection for MacBook, Windows laptops, and USB-C phones—just plug and play instantly; (2) MiniHDMI + USB-C to USB-A power combo for game consoles, older laptops, and devices without USB-C video output. In meetings, pass the portable monitor to your client so they see the data directly. For stock traders, the 16:9 widescreen gives you ample room to monitor multiple charts and tickers simultaneously",
+      "ULTRA-SLIM 2.08LBS PORTABLE SCREEN FOR CODING, STUDY & MUSIC: At just 0.43 inches thick and weighing 1.5 lbs (943g including the case), this 15.6\" external monitor slips into any laptop backpack. Developers: spread your IDE on the main screen and documentation on the second. Students: watch online courses on one screen while taking notes on the other. Musicians: display sheet music or tutorial videos without looking down at your phone.",
+      "BUILT-IN SPEAKERS + HDR EYE CARE: Dual speakers deliver audio without headphones during presentations or quick video previews. HDR technology boosts contrast for photo and video editing, while low blue light mode reduces eye fatigue during long work sessions. Compatible with PC, Mac, Xbox, PS5, Samsung DeX-enabled phones and iPhone 15 and above."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "portable monitor 15.6"
+    ]
+  },
+  "B0DHG6C4FQ": {
+    "asin": "B0DHG6C4FQ",
+    "title": "WCV Portable Monitor 15.6 Inch 1080P USB-C HDMI Ultra-Slim Travel Monitor with Kickstand, Compatible with Xbox, Laptop, PC, Mac Phone, PS, Swich IPS Ultra-Thin Zero Frame Gaming Monitor",
+    "brand": "WCV",
+    "price": "$39.99",
+    "img": "https://m.media-amazon.com/images/I/51jPUv5F+iL._SL500_.jpg",
+    "features": [
+      "15.6\" FHD Portable Monitor - Featuring a 1920*1080P resolution, 178°FULL viewing angle, HDR, and Low Blue Light Super Clear IPS A-grade screen, this portable screen for laptop enhanced visual experience, reduces eye strain and fatigue.",
+      "Double Type-C Port -For Plug & Play - Portable monitor features 2 full-featured Type-C ports and 1 MINI HDMI port. You can easily access your favorite devices with just one USB Type-C or MINI HDMI cable. NOTE: Your device should support Thunderbolt 3.0/4.0 or USB 3.1 Type C DP ALT-MODE.",
+      "Portable & Light Weight - At just 1.37lbs and 0.04 inch thin, this portable laptop monitor is ultra-portable and perfect for on-the-go productivity or gaming. flexible to use anywhere you need a second screen for laptop. bringing you efficiency for meetings, work from home, and presentations.",
+      "Able to Balance Work and Play - With multiple display modes [copy mode/extension mode/second screen mode]. During meetings,it can copy your laptop's content as a second screen to share with others.At work, it can be used as a second extended screen to increase productivity. In life, adjusting to HDR mode can upgrade the image to a new level, providing you with brighter highlights, more realistic colors and images.Two built-in speakers provide an amazing viewing and gaming experience.",
+      "Wide Compatibility - Enjoy hassle-free plug-and-play functionality with the portable monitor. it is compatible with all devices equipped with HDMI and USB Type-C ports like Compatible with Xbox,aptops,PS, SWITCH game consoles, No app or driver installation required."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "portable monitor 15.6"
+    ]
+  },
+  "B0966YYP65": {
+    "asin": "B0966YYP65",
+    "title": "ASUS ZenScreen 15.6 Inch Portable Monitor - 1080P, Full HD, IPS, USB Type-C, Eye Care, Kickstand, for Laptop, PC, Phone, Console, Anti-Glare Surface, 3-Year Warranty - MB16ACV",
+    "brand": "ASUS",
+    "price": "$149.00",
+    "img": "https://m.media-amazon.com/images/I/414LZDmyH6L._SL500_.jpg",
+    "features": [
+      "15.6-inch Full HD portable anti-glare IPS display with an ultraslim and thin design, perfect solution for travel, on-the-go meetings, or business trips.Specific uses for product - Business",
+      "Kickstand design to prop the monitor up in either portrait or landscape mode easily",
+      "Features a hybrid-signal solution which supports power and video transmission, and enables compatibility with any laptop with a USB Type-C or Type A port",
+      "ASUS Eye Care monitors feature TÜV Rheinland-certified Flicker-free and Low Blue Light technologies to ensure a comfortable viewing experience",
+      "Free 3-month Adobe Creative Cloud Subscription: Receive complimentary access with the purchase of this product (offer valid from 9/15/2021 to 8/31/2024)"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "portable monitor 15.6"
+    ]
+  },
+  "B07ZLY26FW": {
+    "asin": "B07ZLY26FW",
+    "title": "cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB Travel Monitor with Speaker HDMI USB-C Second Screen for Laptop MacBook Surface PC Xbox PS4/5, VESA Mountable, with Cover Stand",
+    "brand": "cocopar",
+    "price": "$119.99",
+    "img": "https://m.media-amazon.com/images/I/31y1n0H2EtL._SL500_.jpg",
+    "features": [
+      "Portable Monitor for Laptops: Cocopar laptop screen extender is the ideal portable monitor for Macbook, Surface Pro, Surface Laptop, Lenovo Laptop, HP Laptop, Dell Laptop, ASUS Laptop, etc. This second monitor for laptop supports Extend and Mirror Mode, bringing you efficiency for meetings, work from home, and presentations",
+      "Plug and Play USB-C Monitor: Cocopar portable laptop monitor provides 2 Full-featured USB-C ports and a HDMI port, is compatible with most laptops, PC, PS4, and Xbox. Only One single USB-C Cable is required for both power supply and display and supports power pass-through reverse charging. NOTE: Your device should support thunderbolt 3.0/4.0 or USB 3.1 Type C DP ALT-MODE",
+      "FHD Portable Monitor VESA Mountable: Featuring a 1080P resolution, 60 HZ, 85% color gamut, 178° FULL viewing angle, HDR, and Low Blue Light Super Clear IPS A-grade screen, this Cocopar 15.6 inch portable screen for laptop with two VESA holes can be easily and stably mounted on a stand for landscape and vertical mode for high productivity",
+      "Portable and Light Weight: Cocopar travel monitor for laptop is the ideal companion for all your business trips and home office. Measures only 4mm (0.2 inches) at the slimmest point and 1.5 lb without the magnetic cover (2.4 lb with cover). Coming with a Smart Stand Case, this travel monitor is well-protected and flexible to use anywhere you need a second screen for laptop",
+      "Your Go-To Screen Anywhere: Perfect for remote work, business trips, virtual meetings, gaming, and content creation. Cocopar delivers flexible dual-screen convenience wherever you are."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "portable monitor 15.6"
+    ]
+  },
+  "B0DCYBR34X": {
+    "asin": "B0DCYBR34X",
+    "title": "WGK 15.6 inch Portable Monitor 1080P FHD Travel Display HDMI/USB-C Compatible with Laptops, Desktops, Phones, PS, Mac, Xbox, Switch, and Other Gaming Devices Includes Stand and Speakers VESA",
+    "brand": "WGK",
+    "price": "$39.99",
+    "img": "https://m.media-amazon.com/images/I/51Baa+MzNpL._SL500_.jpg",
+    "features": [
+      "15.6\" FHD Portable Monitor - Featuring a 1920*1080P resolution, 178°FULL viewing angle, HDR, and Low Blue Light Super Clear IPS A-grade screen, this WGK portable screen for laptop enhanced visual experience, reduces eye strain and fatigue.",
+      "Easy-use dual Type-C ports-plug and play. Portable displays come with 2 USB-C ports and 1 Mini HDMI port, and if your device has a Thunderbolt 3/4 or full-featured USB-C port, all you need is a USB-C to USB-C cable.",
+      "Monitor with built-in stand - Weighs only 2.7 pounds, so it's easier to carry. Portable gaming monitor with built-in stand is easy to adjust to your favorite viewing angle. Two built-in speakers provide an amazing viewing and gaming experience.VESA Mountable",
+      "Multiple Display Modes - Copy Mode/Extended Mode/Second Screen Mode. During meetings, it can copy the content of your laptop and share it with others as a second screen; at work, it can be used as a second extended screen to improve work efficiency. In life, adjusting to HDR mode takes images to the next level, and you can switch screen views between horizontal and vertical modes Low blue light technology ensures a comfortable viewing experience",
+      "Wide range of compatibility - Enjoy hassle-free plug-and-play functionality with the portable monitor. it is compatible with all devices equipped with HDMI and USB Type-C ports like laptops, PS, XBOX, SWITCH game consoles, No app or driver installation required.",
+      "If the screen doesn't stay on, it may be because your computer is low on battery. The power supply is insufficient, if you need to continue using it, connect the display using a charger with the volt 5V2A parameter so that the screen remains on"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "portable monitor 15.6"
+    ]
+  },
+  "B0CH9WTW56": {
+    "asin": "B0CH9WTW56",
+    "title": "ARZOPA 16.1'' 144Hz Portable Gaming Monitor 106% sRGB - Z1FC",
+    "brand": "ARZOPA",
+    "price": "$96.99",
+    "img": "https://m.media-amazon.com/images/I/41S3ldrFLhL._SL500_.jpg",
+    "features": [
+      "16.1\" 144Hz Display: Arzopa Z1FC 16.1\" portable monitor has 144Hz ultra-high refresh rate for higher motion clarity and smoother gaming visuals. The 144Hz high refresh rate brings lower input latency and higher videos, work and game screen quality（no adaptive sync or freesync）",
+      "Portable Monitor with Kickstand: The portable gaming monitor comes with a built-in stand that allows for easy adjustment of the tilt angle to accommodate different usage needs. Lightweight and easier to carry",
+      "106% sRGB IPS Screen: The 16.1\" portable monitor features 1080P FHD high-definition resolution and 106% sRGB gamut brings clear picture quality, immerse yourself in vibrant colors and crisp details",
+      "Second Monitor for Your Laptop: The ARZOPA portable monitor can very well act as your second screen and improve your work efficiency. You can work and perform multiple tasks simultaneously while using this monitor. You can also switch the screen view between horizontal and vertical modes for the perspective you prefer",
+      "Plug-and-play Monitor: With two fully functional USB Type-C connections and a Mini HDMI port, can used with laptop, Mac, Xbox, PS5, Steam Deck, etc. No setup or downloads are required. Perfect for gamers to enjoy gaming, also for business people to train others or work from home（Please refer to the detailed steps on the manual for connecting your gaming console）"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "portable gaming monitor 144Hz"
+    ]
+  },
+  "B0GGGZTSTH": {
+    "asin": "B0GGGZTSTH",
+    "title": "InnoView 16\" Portable Monitor 144Hz Portable Gaming Monitor with Protective Sleeve, 1200P FHD External Monitor, Lightweight, Extra Second Screen for Laptop, PS5, Mac, Xbox (Not Includes Adapter)",
+    "brand": "InnoView",
+    "price": "$99.99",
+    "img": "https://m.media-amazon.com/images/I/51+n6lpQjDL._SL500_.jpg",
+    "features": [
+      "🖥️【144Hz Ultra-Fluid Gaming Experience】 Featuring 1920×1200 FHD resolution and a true 144Hz refresh rate combined with FreeSync technology, this portable monitor delivers tear-free, stutter-free, and exceptionally smooth gameplay. The built-in on-screen crosshair assist enhances aiming precision in FPS titles, making it the ideal mobile display for PS5, Xbox, PC, and Switch gaming. Note: HDMI connection supports amaximum refresh rate of 120Hz.",
+      "🎨【Vivid IPS Display with Eye Care】 Featuring an IPS panel for vibrant colors and wide viewing angles, plus HDR support. With 16.7 million colors for accurate reproduction and Low Blue Light technology, it effectively reduces eye strain, keeping you comfortable during long gaming or work sessions.",
+      "🔌【Plug-and-Play with Full Connectivity】 Comes with dual USB-C ports and a standard HDMI port for driver-free, instant compatibility with laptops, Mac, Xbox, PS5, Steam Deck, and more. (🚨Adapter not included). Perfect for gamers seeking seamless immersion and professionals delivering presentations, training, or working from home.",
+      "✈️【On-the-Go Productivity】 An ultra-portable second screen with a 16:10 golden ratio display—delivering 11% more vertical space than standard 16:9 screens, perfect for coding, spreadsheets, and multitasking. Weighing just 1.73 lbs and only 0.25 inches thin, it’s your effortless travel companion for expanding workspace and boosting efficiency anywhere.",
+      "🧭【Easy Setup & Hassle-Free Support】 Set up the USB-C portable monitor instantly with a single cable. Enjoy optimal performance backed by a 30-day return policy, 18-month warranty, and dedicated customer support—your satisfaction is our priority."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "portable gaming monitor 144Hz"
+    ]
+  },
+  "B0G2LL74Q3": {
+    "asin": "B0G2LL74Q3",
+    "title": "ZefcS 16\" Portable Gaming Monitor 144Hz 1920x1200 IPS HDR USB-C",
+    "brand": "ZefcS",
+    "price": "$76.99",
+    "img": "https://m.media-amazon.com/images/I/41F0aU1jlUL._SL500_.jpg",
+    "features": [
+      "144Hz Smooth Gaming Performance – Enjoy ultra-smooth gameplay with a true 144Hz refresh rate and 1920x1200 FHD+ resolution. Ideal portable gaming monitor for PS5, Xbox, PC, and Switch gaming.",
+      "IPS Display with HDR & Eye Care – This portable monitor features an IPS panel with vivid colors, HDR enhancement, low blue light, and flicker-free technology for long gaming or work sessions.",
+      "Ultra-Portable Second Screen for Work Anywhere – Only 2.2 lbs and 0.5 inches thin, perfect as a second screen for laptop productivity, remote work, or travel setups.",
+      "USB-C & HDMI Plug and Play – Works with MacBook Pro, Windows laptops, PS5, Xbox, Nintendo Switch, iPad, and USB-C smartphones supporting DisplayPort Alt Mode.",
+      "Boost Productivity & Gaming Immersion – Extend your laptop display for multitasking or enjoy immersive gaming anywhere with this versatile portable monitor."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "portable gaming monitor 144Hz"
+    ]
+  },
+  "B0H4V1MDSP": {
+    "asin": "B0H4V1MDSP",
+    "title": "Yxk Portable Monitor 16 inch 1200P 144Hz IPS HDR Ultra-Slim Gaming Monitor",
+    "brand": "Yxk",
+    "price": "$89.99",
+    "img": "https://m.media-amazon.com/images/I/51Kevz0LelL._SL500_.jpg",
+    "features": [
+      "16.1\" 1200P 144Hz Display: Enjoy a smoother and more immersive viewing experience with a 16.1-inch IPS portable monitor featuring 1920×1200 resolution, a 16:10 aspect ratio, and a 144Hz refresh rate. The higher refresh rate delivers smoother motion and improved visual clarity for gaming, videos, and everyday work.",
+      "HDR & Vivid Visual Experience: The 1920×1200 high-definition display delivers sharp details across a spacious 16:10 screen. HDR support enhances contrast and expands the visual range for more dynamic images, making games, movies, photos, and daily content look more engaging.",
+      "Portable Second Monitor for Laptop: Turn your laptop into a convenient dual-screen workstation with this lightweight portable monitor. The 16:10 display provides extra vertical workspace for documents, spreadsheets, coding, browsing, and multitasking. Its slim and portable design makes it easy to take between home, office, and travel.",
+      "Built-In Adjustable Kickstand: The integrated kickstand provides a stable setup without requiring a separate stand. Easily adjust the viewing angle to find a comfortable position for work, entertainment, or gaming. The compact design fits easily into a backpack or laptop bag, making it a practical travel companion.",
+      "Plug & Play for Multiple Devices: Designed for convenient connectivity, this portable monitor supports USB-C and Mini HDMI connections for compatible devices. Use it as a second screen with laptops, PCs, Mac computers, gaming consoles, and other compatible devices. No additional software or complicated setup is required; please check your device's video output capability and refer to the user manual for connection instructions."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "portable gaming monitor 144Hz"
+    ]
+  },
+  "B0GHP4MKMP": {
+    "asin": "B0GHP4MKMP",
+    "title": "VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz 16:10 Second Screen, USB-C HDMI HDR Travel Monitor for Laptop PC MacBook PS5 Xbox, VESA Mountable, with Speakers, Built-in Kickstand",
+    "brand": "VisionOwl",
+    "price": "$179.99",
+    "img": "https://m.media-amazon.com/images/I/51kORE12J1L._SL500_.jpg",
+    "features": [
+      "16\" 2.5K 144Hz portable gaming monitor with 16:10 ratio: Elevate your gameplay and productivity with this high-performance portable screen. The 2560x1600 QHD resolution and 144Hz refresh rate deliver fluid visuals. Designed as the perfect laptop screen extender, its 16:10 aspect ratio matches MacBooks for a seamless, full-screen mirroring experience without black bars. (Panel: A-Grade, Zero Dead Pixels).",
+      "8-Bit + 2FRC IPS Display with 470 Nits Brightness: Unlike standard travel monitors, this premium IPS panel uses 8-bit + 2FRC technology to display up to 1.07 billion colors, delivering smoother gradients and more realistic color reproduction. With a 110% sRGB color gamut and 470 nits brightness, this second screen for laptops provides vivid images, accurate colors, and clear details even in bright environments, making it ideal for photo editing, design, gaming, and multimedia.",
+      "Widely compatible USB-C and HDMI portable display: Equipped with a full-size Standard HDMI (not fragile Mini-HDMI) and dual USB-C ports, this computer monitor connects easily to PS5, Xbox, Switch, and PC. Note: For single-cable power & video, your device must support Thunderbolt 3/4 or DP Alt Mode. It is the ideal portable monitor for laptop users seeking a reliable workstation expansion.",
+      "Slim metal travel monitor with kickstand and VESA holes: Crafted from durable metal (1.48 lbs), this monitor portable solution fits easily in bags. The built-in kickstand offers instant angle adjustment, while dual VESA holes allow mounting on arms. It serves perfectly as a dual monitor setup for home offices or a mobile display for road warriors.",
+      "Complete portable screen kit, ready to use: This USB-C monitor package includes a sleeve case, power adapter, Standard HDMI cable, and two USB-C display cables. Whether used as a gaming screen or for remote work, simply unbox and plug in. No drivers needed—just an instant productivity boost.",
+      "Boost Productivity with a Dual-Screen Laptop Setup: Expand your workspace instantly by adding a second display for multitasking. Keep emails, documents, spreadsheets, coding windows, and communication apps visible at the same time to improve efficiency while working from home, in the office, or on the go.",
+      "Perfect Companion for Remote Work and Business Travel: Create a professional mobile workstation wherever you are. Whether working from a hotel, coffee shop, airport lounge, or coworking space, this portable laptop monitor provides extra screen space for presentations, meetings, research, and daily tasks.",
+      "Immersive Gaming Screen for Console and PC Gamers: Enjoy smoother gameplay with the 144Hz refresh rate and 2.5K resolution. Connect with PS5, Xbox, Switch, or gaming laptops to experience sharper details, faster response, and a more immersive gaming environment wherever you play.",
+      "Enhanced Creativity for Designers and Content Creators: With wide color coverage, high brightness, and smooth color transitions, this portable display is ideal for photo editing, graphic design, video editing, and digital content creation. See more accurate colors and finer details during creative workflows.",
+      "Entertainment Display for Movies, Streaming, and Everyday Use: Transform any space into a personal entertainment area. Enjoy movies, YouTube videos, sports events, and online content with a larger QHD screen, whether relaxing at home, traveling, or sharing entertainment with friends."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "portable gaming monitor 144Hz"
+    ]
+  },
+  "B0F38F1PG7": {
+    "asin": "B0F38F1PG7",
+    "title": "ARZOPA 16.1'' 144Hz Portable Gaming Monitor 106% sRGB-Z1FC Gray",
+    "brand": "ARZOPA",
+    "price": "$109.98",
+    "img": "https://m.media-amazon.com/images/I/41ia3MxTnhL._SL500_.jpg",
+    "features": [
+      "144Hz High Refresh & 1080P HD for Lag-Free Gaming: Experience seamless gameplay with 144Hz ultra-high refresh rate and Full HD 1080P resolution—eliminates motion blur for crisp, responsive action. The anti-glare IPS display delivers vibrant visuals with 178° wide viewing angles, reducing eye strain during extended gaming sessions",
+      "Premium Ultra-Portable Design: ARZOPA portable monitor for laptop weighing just 1.7lbs with a 0.3-inch slim profile, the space gray chassis exudes elegance and premium craftsmanship. Its minimalist aesthetic elevates any setup, while the included premium protective sleeve shields against scratches—perfect for gamers and professionals on the go. Fitting effortlessly into backpacks or briefcases",
+      "Plug-and-Play Universal Compatibility: No drivers or software needed. Instantly connects ARZOPA portable laptop monitor to laptops, PCs, Macs, smartphones (with full-function USB-C), Xbox/PS5/Switch consoles, and more. Ideal for gaming, remote work, or streaming. （Please refer to the detailed steps on the manual for connecting your gaming console）",
+      "Dual-Orientation Productivity & Stable Kickstand: Switch between horizontal/vertical modes for multitasking—perfect for coding, editing, or presentations. The 80° adjustable kickstand locks firmly on uneven surfaces, serving as a rugged second screen for travel or flexible setups",
+      "Premium After-Sales Support: ARZOPA offers 24-month after-service. Backed by a dedicated customer support team, we ensure prompt responses to inquiries and hassle-free solutions, giving you total peace of mind from purchase to long-term use"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "portable gaming monitor 144Hz"
+    ]
+  },
+  "B0G5YRPXTV": {
+    "asin": "B0G5YRPXTV",
+    "title": "AHXJKA Portable Monitor 16\" 144Hz 1920x1200P 133% sRGB 16:10 FHD HDR Mini HDMI USBC Gaming Monitor Supports VRR with FreeSync, Speakers, VESA, External Second Screen for Laptop, PS,Mac, Xbox,Switch2",
+    "brand": "AHXJKA",
+    "price": "$59.99",
+    "img": "https://m.media-amazon.com/images/I/51Gg4uxk1ZL._SL500_.jpg",
+    "features": [
+      "【16\" 144Hz Ultra Smooth Gaming Experience】This 16 inch portable monitor features a 1920x1200 FHD+ resolution. It combines a true 144Hz refresh rate with FreeSync and Variable Refresh Rate technology, delivering a tear free, stutter free, and extremely smooth gaming experience. The high 144Hz refresh rate reduces input lag and enhances image quality for video, work, and gaming. *(Note: Use the Type-C interface to connect your device for 144Hz refresh rate (HDMI interface limited to 120Hz)). Compared to traditional 15.6 inch monitors, its 16:10 aspect ratio provides about 10% more vertical workspace. The stunning 1920×1200 resolution clearly presents every detail.",
+      "【133% sRGB Coverage and HDR Support】This monitor features an IPS panel with LED backlight, offering 133% sRGB color gamut coverage. It can display 16.7 million colors (8 bit color depth) with accurate color reproduction. With a brightness of 250 to 300 nits and a 1000:1 contrast ratio, it delivers deeper blacks and brighter highlights, reproducing every detail vividly. The color temperature is set at 6500K, and HDR is supported. When gaming or playing video, HDR enhances contrast and color dynamic range, preventing highlights from washing out while preserving details in shadows, further improving the visual performance of high dynamic range content.",
+      "【Game Console Connection Instructions】If you are connecting a game console, please first confirm the maximum refresh rate supported by that console. For example: The Xbox 1 itself supports a maximum of only 60Hz. No matter which monitor you connect, it cannot output a refresh rate higher than 60Hz. This is a hardware limitation of the console itself and is not a monitor defect. For other models, such as the Xbox Series S, the console’s system supports up to 120Hz. To achieve the 120Hz maximum, you need to manually enable this setting; otherwise, it will default to only 60Hz. Please follow these steps:1. Go to Settings-TV & display options. 2. Change the resolution from 'Auto' to 1080p.",
+      "3. In the 'Refresh rate' option, select 120Hz. For connection, use an HDMI to Mini HDMI cable to connect the monitor to the game console. At the same time, use a USB A to USB C or Type C to Type C cable, with one end plugged into the monitor’s Type C port and the other end connected to a charger (5V/2A or higher, such as a phone charger), in order to provide independent power to the monitor.",
+      "【Convenient Connectivity and Wide Compatibility】It features two full function USB-C ports and one HDMI port, compatible with MacBook, Surface, PC, and gaming consoles, enabling multiple convenient connection options for various devices. It is a true plug and play portable monitor, requiring no drivers or complex software installation. Connection Method: ① If your devices has a Type C 3.1 DP Alt Mode or Thunderbolt 3/4 port: Use a Type C to Type C cable to connect the middle Type C port on the monitor for video transmission. At the same time, use a USB A to USB C cable to connect the other Type C port on the monitor to a separate charger for external power.",
+      "② If your computer does not have the above ports: Use an HDMI to Mini HDMI cable to connect the monitor to the PC for video signal transmission, and simultaneously use a USB‑A to USB‑C cable to connect the monitor’s Type‑C port to an independent charger for power.",
+      "【Slim, Lightweight, and Travel-Friendly】: Slim ony 0.4 inch and weighing only 1.5lbs , this monitor portable is perfect for travel or use as a secondary display, Whether you're looking for a portable screen for a laptop, a PS5 portable monitor, or a portable monitor qaming setup, this device combines performanceand portability for your needs.",
+      "【VESA, Adjustable Stand, Speakers】This travel monitor features an IPS panel and a built in 0° to 120° adjustable stand, allowing you to switch freely between landscape and portrait modes for multitasking. It is very suitable for programming, editing, or presentations. Additionally, personalized mounting is achieved through VESA (75 mm@M4) compatibility, creating a tidy and professional work area. Built in dual speakers meet daily needs for voice calls and audio video playback."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "portable gaming monitor 144Hz"
+    ]
+  },
+  "B0GRMGJRBX": {
+    "asin": "B0GRMGJRBX",
+    "title": "16\" 144Hz FHD Portable Monitor,100% sRGB 1200P HDR Portable Gaming Monitor",
+    "brand": "ATWYWTA",
+    "price": "$59.99",
+    "img": "https://m.media-amazon.com/images/I/51rpSU8c3+L._SL500_.jpg",
+    "features": [
+      "16\" 144Hz monitor: The 16\" portable monitor has 144Hz ultra-high refresh rate for higher motion clarity and smoother gaming visuals. The 144Hz high refresh rate brings lower input latency and higher videos, work and game screen quality,Adaptive Free-Sync and Adaptive Sync .",
+      "FHD IPS Screen: The 16\" portable monitor features 1920*1200P FHD high-definition resolution and 100% sRGB 16:10 aspect ratio gamut brings clear picture quality, immerse yourself in vibrant colors and crisp details",
+      "Multiple Display Modes:Extender Screen Mode/Copy Screen Mode/Second Screen Mode/Portrait Screen Mode, Duplicate your screen and share it with others, extend your screen and multitask simultaneously, improve work efficiency and improve the quality of life.",
+      "Plug and Play: No need to download any drivers, you only need one USB-C or HDMI cable to connect. The portable monitor best for laptop,PC,Phone,mac,XBOX, PS3 /PS4 /PS5, Switches, etc.",
+      "Portable and VESA: The monitor features Magic Cover and VESA Mountable, Weighs only 1.4 pounds,Just 0.4 inches thick, Easily fits in your bag,and Built-in two high-quality speakers."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "portable gaming monitor 144Hz"
+    ]
+  },
+  "B0FDL2VR2C": {
+    "asin": "B0FDL2VR2C",
+    "title": "ARZOPA 16.1'' 180Hz 2.5K Portable Monitor, 2560x1440 QHD 107% sRGB -Z3FC",
+    "brand": "ARZOPA",
+    "price": "$139.98",
+    "img": "https://m.media-amazon.com/images/I/41P9hXGRgZL._SL500_.jpg",
+    "features": [
+      "Brilliant 2.5K QHD Display: Experience vibrant colors, deep blacks, and detailed images with our 2560*1440 high-resolution monitor. Enjoy true-to-life colors with a 1000:1 contrast ratio and 400nits brightness",
+      "16.1\" 180Hz Display: Arzopa Z3FC 16.1\" portable monitor has 180Hz ultra-high refresh rate for higher motion clarity and smoother gaming visuals. The 180Hz high refresh rate brings lower input latency and higher videos, work and game screen quality",
+      "Plug-and-play Monitor: With two fully functional USB Type-C connections and a Mini HDMI port, can used with laptop, Mac, Xbox, PS5, Steam Deck, etc. No setup or downloads are required. Perfect for gamers to enjoy gaming, also for business people to work from home or on-the-go",
+      "Second Monitor for Your Laptop: The ARZOPA portable monitor can very well act as your second screen and improve your work efficiency. You can work and perform multiple tasks simultaneously while using this monitor. You can also switch the screen view between horizontal and vertical modes for the perspective you prefer",
+      "Portable Monitor with Kickstand: The portable gaming monitor comes with a built-in stand that allows for easy adjustment of the tilt angle to accommodate different usage needs. Lightweight and easier to carry"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "portable gaming monitor 144Hz"
+    ]
+  },
+  "B09FL2XL2Y": {
+    "asin": "B09FL2XL2Y",
+    "title": "TECLAST 16'' 144Hz Portable Gaming Monitor, 1080P Travel Monitor for Laptop",
+    "brand": "TECLAST",
+    "price": "$89.99",
+    "img": "https://m.media-amazon.com/images/I/51wDbvV0flL._SL500_.jpg",
+    "features": [
+      "【16\" FHD 144Hz IPS Display with 100% sRGB】Enjoy smooth, detailed visuals on a spacious 16-inch 1920×1200 IPS display with a fast 144Hz refresh rate. With 8-bit color depth, 16.7M colors, 100% sRGB coverage and a 1000:1 contrast ratio, games and videos look vivid and lifelike, while the near-zero bezel design maximizes the viewing area for immersive gaming, streaming, and everyday work.",
+      "【USB-C & HDMI Portable Monitor for Wide Compatibility】 Connect to laptops, MacBooks, PCs, phones, and gaming consoles via full-featured USB-C—one cable handles both video and power—or use the Mini HDMI port for flexible hookups with older devices. A true plug-and-play second screen with no drivers and no setup hassle.",
+      "【Lightweight Second Monitor & Screen Extender for Productivity】 At only 660g (1.45 lbs), this ultra-slim second monitor slips into any bag alongside your laptop. Extend your desktop to effortlessly drag and drop your documents, spreadsheets, or emails between screens. Close your laptop lid and use it as a primary display for your console—it's that simple!",
+      "【Free-Sync supported Portable Gaming Monitor for PS5, Xbox & Switch】Delivering ultra-smooth motion with minimal ghosting and lower input lag, giving you a competitive edge in fast-paced games. Also compatible with PS5, PS4, Xbox, and Switch for gaming at home or on the go (console output depends on the device). The 16-inch FHD display gives games and entertainment more room to shine.",
+      "【Ultra-Slim Design Kickstand & VESA Mount for Flexible Setup】A built-in adjustable kickstand props the monitor at a comfortable viewing angle on any tabletop, while VESA 75×75mm support lets you mount it for a permanent workstation or gaming battlestation. Slim, sturdy, and travel-ready—an extra screen wherever you go. Note: This monitor is designed for video/audio transmission via USB-C and HDMI. It does not support touch screen functionality."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "portable gaming monitor 144Hz"
+    ]
+  },
+  "B0GKFLQ9SW": {
+    "asin": "B0GKFLQ9SW",
+    "title": "Dell 24 240Hz Gaming Monitor - SE2426HG - 23.8-inch FHD (1920x1080) 240Hz Display, in-Plane Switching (IPS) Technology, AMD FreeSync™ Premium, TÜV 3-Star, 2X HDMI, DisplayPort 1.4, Tilt",
+    "brand": "Dell",
+    "price": "$99.99",
+    "img": "https://m.media-amazon.com/images/I/41epGzH7RnL._SL500_.jpg",
+    "features": [
+      "Smooth motion: 240Hz refresh rate and fast 0.5ms response time provide crisp visuals and fluid movement with less input lag.",
+      "Seamless gaming: FreeSync Premium and HDMI VRR eliminate tearing for smooth, responsive PC and console gameplay.",
+      "Fast IPS: Faster 0.5ms response with excellent color accuracy across wide IPS viewing angles.",
+      "Rich color: 99% sRGB color coverage delivers vivid, detailed imagery with strong accuracy.",
+      "Eye comfort: TÜV Rheinland 3‑star certified display lowers blue light while preserving color quality."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Dell gaming monitor",
+      "gaming monitor under 150"
+    ]
+  },
+  "B0BP94J8VD": {
+    "asin": "B0BP94J8VD",
+    "title": "Alienware AW3423DWF Curved QD-OLED Gaming Monitor - 34-inch Quantum Dot, 0.1Ms 165Hz 21:9, 99.3% DCI-P3 Color Gamut, VESA DisplayHDR, 400, AMD FreeSync Premium Pro - Black",
+    "brand": "Alienware",
+    "price": "$709.99",
+    "img": "https://m.media-amazon.com/images/I/41AJ+n2DK6L._SL500_.jpg",
+    "features": [
+      "INFINITELY IMMERSIVE: Quantum Dot Display Technology enables a slim panel design and delivers a superior color performance with a higher peak luminance and greater color gamut range vs WOLED (White OLED) by taking the impressive qualities of OLED (such as true blacks & infinite contrast ratio) and enhances color performance by directly converting blue light into the primary colors of red and green through a Quantum Dot pixel layer.",
+      "STUTTER-FREE SPEED: Experience ultra-low latency gameplay, support for HDR and cinematic color, plus smooth, tear-free gaming thanks to AMD FreeSync Premium Pro Technology and VESA AdaptiveSync Display certification.",
+      "IMPECCABLE DESIGN: The jaw-dropping new design features a sleek QD-OLED curved 1800R panel integrated into the iconic new Legend 2.0 ID, plus customizable RGB AlienFX lighting, 360° ventilation for better heat dissipation, improved cable management and a new centralized OSD 5-Axis joystick to make adjusting your settings easier. The height adjustable stand with height markers and the tilt, swivel, and slant capabilities allow for easy viewing adjustment.",
+      "FOR CRITICAL CREATING: For content creators and game developers who require precise color-critical work, the new Creator Mode feature was designed for you. This OSD menu option allows you the flexibility to choose between the native (DCI-P3) and the sRGB color space, depending on your work needs, and the ability to adjust the gamma settings.",
+      "QUALITY ASSURANCE GUARANTEED: The new Alienware 34 Curved QD-OLED Gaming Monitor comes with improved OLED reliability and a 3-year premium warranty, including coverage for OLED burn-in, for additional peace of mind."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Alienware gaming monitor"
+    ]
+  },
+  "B0CWQMZPJC": {
+    "asin": "B0CWQMZPJC",
+    "title": "SANSUI 34-Inch Curved Gaming Monitor UWQHD 3440 x 1440P 200Hz Ultrawide",
+    "brand": "SANSUI",
+    "price": "$204.99",
+    "img": "https://m.media-amazon.com/images/I/51ETIpufrvL._SL500_.jpg",
+    "features": [
+      "34 inch Curved 1500R UWQHD(3440 x 1440) @ 200Hz Fast VA Ultrawide Gaming Monitor with AI built-in.",
+      "Performance: Up to 200Hz Refresh Rate | OD 1ms Response Time丨 FastVA | AI Blue light reduction | AI Crosshair | AI PQ | Sniper Scope | Support VRR with HDMI2.1",
+      "Ergonomic Stand: Tilt / Kensington Lock: -5°~15°(+/-2°) / Yes丨VESA Compatible (100 x 100mm) | 178° Wide Viewing Angle | PIP/PBP,21:9",
+      "Input &Output: DP 1.4 (Up to 200)|HDMI2.1 X 2 (Up to 200)|Earphone |No speakers",
+      "Warranty: SANSUI 34-inch Curved gaming computer monitor support money-back and free replacement warranty from order date within 30 days and lifetime technical support."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "curved gaming monitor",
+      "34 inch ultrawide curved gaming"
+    ]
+  },
+  "B0F2TB1KNV": {
+    "asin": "B0F2TB1KNV",
+    "title": "SANSUI 34 Inch Curved Monitor 240Hz UWQHD 3440×1440 Gaming Monitor",
+    "brand": "SANSUI",
+    "price": "$239.99",
+    "img": "https://m.media-amazon.com/images/I/51A3vteoYkL._SL500_.jpg",
+    "features": [
+      "34 Inch Curved 240Hz UWQHD(3440*1440) Fast VA Ultrawide 21:9 HDR400 Gaming Monitor with AI Crosshair and AI Bluelight.",
+      "Performance: 240Hz Refresh Rate | MRPT 1ms Response Time | Freesync | AI PQ(Visual Enhance) | Ultra Vivid(Weak/Middle/Strong) | AI Crosshair | AI Bluelight | Sniper Scope | Game Mode | VRR( Support xBOX,PS,Switch,can only be used when connected to HDMI2.1)",
+      "Ergonomic Stand: PIP/PBP | Tilt -5°~15°(+/-2°) | VESA Compatible (100x 100mm) | 178° Wide Viewing Angle | Durable Metal Stand",
+      "Ports: HDMI2.1*2 (Up to 2k 240Hz) | DP 1.4 X 2 (Up to 2k 240Hz) | Earphone |No speakers",
+      "Warranty: SANSUI 34-inch 240Hz Curved gaming monitor support money-back and free replacement warranty from order date within 30 days and lifetime technical support."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "curved gaming monitor",
+      "34 inch ultrawide curved gaming"
+    ]
+  },
+  "B07MTRQ6B3": {
+    "asin": "B07MTRQ6B3",
+    "title": "Sceptre Curved 27-inch Prime Monitor up to 100Hz 1080p, HDMI x2, VGA, 99% sRGB, Built-in Speakers, R1500, Machine Black 2025 (C275W-1920RN Series)",
+    "brand": "Sceptre",
+    "price": "$104.97",
+    "img": "https://m.media-amazon.com/images/I/41BvKFSDS5L._SL500_.jpg",
+    "features": [
+      "1500R Curved Display: The 1500R degree curved design immerses you completely into the gaming landscape, allowing you to spot all threats and opportunities before all of your competitors.",
+      "99% sRGB: With 99% sRGB, this monitor offers a wider color gamut than most conventional monitors, giving deeper colors and defining features.",
+      "Multiple Ports: Two HDMI and one VGA port each accelerate refresh rate up to 100Hz, providing the visual edge you need to defeat the competition during all of your gaming exploits.",
+      "Adaptive Sync: Adaptive Sync is a technology that closes the gap between the graphics card's and the monitor's refresh rates, eliminating image tearing and stuttering in the process.",
+      "Built-in Speakers: Perfectly suited to work & gaming settings, built-in speakers deliver robust & smooth audio while saving space on your desk."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "curved gaming monitor"
+    ]
+  },
+  "B0F2T7QWQN": {
+    "asin": "B0F2T7QWQN",
+    "title": "SANSUI 27 Inch Curved 240Hz Gaming Monitor FHD 1080P, 1500R Curve Computer Monitor, 130% sRGB, 4000:1 Contrast, HDR, FreeSync, MPRT 1Ms, Low Blue Light, HDMI DP Ports, Metal Stand, Cable Incl.",
+    "brand": "SANSUI",
+    "price": "$179.99",
+    "img": "https://m.media-amazon.com/images/I/51G4MW-AEML._SL500_.jpg",
+    "features": [
+      "27” 240Hz 1500R Curved FHD 1080P Gaming Monitor for Game Play.",
+      "Prioritizes Gaming Performance: Up to 240Hz high refresh rate, more immersive 1500R Curvature, FreeSync, MPRT 1ms Response Time, Black Level adjustment(shadow booster), Game Modes Preset, Crosshair.",
+      "Cinematic Color Accuracy: 130% sRGB & DCI-P3 95% color gamut, 4000:1 contrast ratio, 300nits brightness, HDR, Anti-flicker; Anti-Glare.",
+      "Plug & Play Design: HDMI & DP1.4 & Audio Jack(No built-in speakers), durable metal stand, tilt -5°~15, VESA 100*100mm compatible.",
+      "Warranty: Money-back and free replacement within 30 days, 1-year quality warranty and lifetime technical support. Pls contact SANSUI service support first if any product problem."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "curved gaming monitor"
+    ]
+  },
+  "B0DB9Q5G3R": {
+    "asin": "B0DB9Q5G3R",
+    "title": "Samsung 27\" Essential S3 (S36GD) Series FHD 1800R Curved Computer Monitor",
+    "brand": "Samsung",
+    "price": "$132.38",
+    "img": "https://m.media-amazon.com/images/I/41LZ0wAwGeL._SL500_.jpg",
+    "features": [
+      "CURVED FOR ENHANCED ENGAGEMENT: An immersive viewing experience with a curved monitor that wraps more closely around your field of vision; It creates a wider view, enhancing depth perception and minimizing peripheral distraction",
+      "SMOOTH PERFORMANCE FOR SEAMLESS CONTENT: Stay in the action when playing games, watching videos, or working on creative projects; The 100Hz refresh rate reduces lag and motion blur so you don't miss a thing in fast-paced moments¹",
+      "MORE GAMING POWER: Gain the edge with optimizable game settings; Color and image contrast can be adjusted to see scenes more vividly and spot enemies hiding in the dark; Game Mode adjusts any game to fill the screen so you can view every detail²",
+      "KEEP IT EASY ON THE EYES: Care for your eyes and stay comfortable, even during long sessions; Advanced eye comfort technology certified by TÜV reduces eye strain by minimizing blue light and reducing irritating screen flicker²",
+      "INCREASED VERSATILITY: Connect to more; Plug devices straight into your monitor for increased flexibility, making your computing environment even more convenient"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "curved gaming monitor"
+    ]
+  },
+  "B07KXSR99Y": {
+    "asin": "B07KXSR99Y",
+    "title": "Sceptre Curved 24-inch Gaming Monitor 1080p R1500 98% sRGB HDMI x2 VGA Build-in Speakers, VESA Wall Mount Machine Black (C248W-1920RN Series)",
+    "brand": "Sceptre",
+    "price": "$99.97",
+    "img": "https://m.media-amazon.com/images/I/51qY+4ZLC9L._SL500_.jpg",
+    "features": [
+      "1800R curve monitor the curved display delivers a revolutionary visual experience with a leading 1800R screen curvature as the images appear to wrap around you for an in depth, immersive experience",
+      "Hdmi, VGA & PC audio in ports",
+      "High refresh rate 75Hz.Brightness (cd/m²):250 cd/m2",
+      "Vesa wall mount ready; Lamp Life: 30,000+ Hours",
+      "Windows 10 Sceptre Monitors are fully compatible with Windows 10, the most recent operating System available on PCs.Brightness: 220 cd/M2",
+      "Pixel Pitch: 0.27156mm (H) x 0.27156 mm (V)",
+      "75 hertz"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "curved gaming monitor",
+      "monitor for TV and gaming 4K"
+    ]
+  },
+  "B0CWR5JVDM": {
+    "asin": "B0CWR5JVDM",
+    "title": "SANSUI 32-Inch Curved Gaming Monitor WQHD 2560 x 1440 180Hz Curved 1500R",
+    "brand": "SANSUI",
+    "price": "$189.98",
+    "img": "https://m.media-amazon.com/images/I/51zGGd8kQyL._SL500_.jpg",
+    "features": [
+      "32 inch Curved 1500R WQHD(2560 x 1440) @ 180Hz Fast VA Ultrawide Gaming Monitor.",
+      "Performance: 180Hz Refresh Rate | OD 1ms Response Time | FreeSync | Blue light reduction| Flicker-free",
+      "Screen Colors: sRGB 125% | 300 nits | 8 bits丨DCI-P3 95%丨HDR",
+      "Ergonomic Stand: Tilt / Kensington Lock:-5°~15°(+/-2°) / Yes丨VESA Compatible (100 x 100mm)|178° Wide Viewing Angle",
+      "Input &Output :HDMI x2(Up to 144Hz)|DP 1.4X2(Up to 180Hz) | Earphone | No speakers",
+      "Main Accessories: DP cable(1.5m), Adapter*1, Power Cord*1(1m), User manual.",
+      "Warranty: SANSUI 32-inch Curved gaming computer monitor support money-back and free replacement warranty from order date within 30 days and lifetime technical support."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "curved gaming monitor"
+    ]
+  },
+  "B0DT11T36K": {
+    "asin": "B0DT11T36K",
+    "title": "CRUA 32\" 4K UHD 160Hz Curved Gaming Monitor, 1500R, AMD FreeSync, Black",
+    "brand": "CRUA",
+    "price": "$299.99",
+    "img": "https://m.media-amazon.com/images/I/51R1j3FSINL._SL500_.jpg",
+    "features": [
+      "32inch 4K Curved Display: Enjoy breathtaking clarity and depth with the CRUA 32-inch 4K UHD curved monitor (3840x2160). Its 1500R curvature wraps around your vision for a more immersive experience, ideal for open-world games, movie watching, or multitasking",
+      "160Hz Refresh Rate + AMD FreeSync: Dominate every match with up to 160Hz refresh rate and AMD FreeSync support. Whether you're into FPS, MOBA, or fast-paced action games, this high refresh rate monitor ensures ultra-smooth visuals and reduced input lag for competitive gamers and eSports setups",
+      "120% sRGB Color Accuracy & Built-in Speakers: Featuring 120% sRGB, 320cd/m², and 3000:1 high-contrast, this monitor displays rich and vibrant colors—perfect for photo editing, content creation, and video streaming. Integrated built-in speakers offer convenient audio, reducing desktop clutter, ideal for minimalist workspaces and home offices",
+      "Versatile Connectivity & Wall Mount Ready: Equipped with HDMI 2.1 and DP 1.4, it supports next-gen PCs and consoles wall mount install support(75mm * 75mm) makes it perfect for gaming rooms, dual monitor setups, or streaming stations, blending performance with flexibility",
+      "Assurances: We provide high-quality computer monitors and premium services. If you have any questions, you are welcome to contact us at any time, we are here to serve you and solve all your problems"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "4K gaming monitor HDMI 2.1 PS5"
+    ]
+  },
+  "B0DCNLNBTV": {
+    "asin": "B0DCNLNBTV",
+    "title": "CUNPU 27\" 4K 160Hz Ultimate Gaming Monitor, UHD Fast IPS 1ms, G-Sync Compatible & FreeSync, 99% DCI-P3, HDR400, HDMI 2.1 for PS5/Xbox 4K 120Hz, Full Ergonomic Stand",
+    "brand": "CUNPU",
+    "price": "$209.99",
+    "img": "https://m.media-amazon.com/images/I/413Z+XlDuqL._SL500_.jpg",
+    "features": [
+      "Unite Maximum Fidelity with Max Fluidity: Through advanced interface technology, this monitor simultaneously delivers uncompromised 4K detail and 160Hz fluidity—the definitive solution that replaces the need for both a pro-artist and an esports display.",
+      "Elite Responsiveness: Beyond standard high refresh rates, 160Hz combined with a fast IPS panel delivers exceptionally fluid motion and near-instantaneous pixel response. This translates to ultra-responsive gameplay and seamless on-screen action, giving you a critical edge in both reaction times and visual tracking.",
+      "Beyond Retina Sharpness: With a staggering 163 PPI pixel density, text and vector graphics achieve print-like precision, while game textures reveal details completely lost on lower-resolution screens.",
+      "Studio-Reference Color Accuracy: Covering 99% DCI-P3 with a Delta E ≤ 2 factory calibration, it doesn‘t just show wide colors—it shows them with the accuracy demanded for color-critical editing, making it a true hybrid creative/gaming display.",
+      "The Unobstructed Pipeline: Full-bandwidth HDMI 2.1 and DP 1.4 ports guarantee compatibility with next-gen GPUs and consoles, supporting 48Gbps throughput for 4K/160Hz, VRR, and QFT—ensuring your setup never bottlenecks the latest hardware."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "4K gaming monitor HDMI 2.1 PS5"
+    ]
+  },
+  "B0GXYGQD64": {
+    "asin": "B0GXYGQD64",
+    "title": "Amzfast 32\" 4K 120Hz Curved Gaming Monitor, 3840x2160 UHD, PIP/PBP, Adaptive Sync, 131% sRGB, 3000:1 Contrast,HDR, 300nits, 1500R, HDMI2.1(VRR)& DP1.4, Built-in Speaker, Eyes Care, VESA Mount",
+    "brand": "Amzfast",
+    "price": "$329.99",
+    "img": "https://m.media-amazon.com/images/I/51XipXi0csL._SL500_.jpg",
+    "features": [
+      "Amzfast 32 Inch 4K 120Hz Curved Monitor with 3840x2160p resolution is perfectly tailored for PS5 and Xbox, an ideal pick for console gaming.",
+      "Adaptive Sync to eliminate lag and motion blur. Dual HDMI 2.1FRL(VRR) and DP 1.4 ports support up to 4K 120Hz output.",
+      "Features 131% sRGB (Area), 3000:1 contrast, 300nits brightness, HDR and 16.7M 8-bit colors. It delivers excellent performance for design work and movie watching.",
+      "PIP/PBP split screen balances work and play. AI Picture Quality & AI Crosshair enhance gaming. AI Low Blue Light, Anti-flicker and Anti-glare relieve eye strain.",
+      "Comes with 3W speakers and audio jack, and supports 75×75mm VESA mount. We offer 30-day return, 1-year warranty and lifelong technical support."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "4K gaming monitor HDMI 2.1 PS5"
+    ]
+  },
+  "B0FWC2VGTW": {
+    "asin": "B0FWC2VGTW",
+    "title": "Amzfast 27\" 4K Gaming Monitor, UHD 160Hz/FHD 320Hz Dual Mode, Fast IPS",
+    "brand": "Amzfast",
+    "price": "$269.98",
+    "img": "https://m.media-amazon.com/images/I/51Mls4Q2aWL._SL500_.jpg",
+    "features": [
+      "Two Modes, One Monitor. Switch between 4K 160Hz for AAA adventures and FHD 320Hz for competitive FPS with one click. No restart. No hassle. #20 Best Gaming Monitor — CHIP.de (Germany's #1 Tech Review Media)",
+      "FHD 320Hz Mode gets you there faster. 1ms MPRT and Adaptive Sync cut out screen tearing and lag. Sniper Scope, AI Crosshair, and Night Vision help you spot enemies in the dark and land long range shots.",
+      "4K Mode looks incredible. 126% sRGB, 93% DCI-P3, HDR400, 10 bit color, and 400 nits bring story-driven games and open worlds to life with crisp detail and rich color. AI Picture Quality adjusts contrast and sharpness per scene, making characters pop.",
+      "2x HDMI 2.1 and 2x DP 1.4 ports support max refresh rates on your PC, PS5, or Xbox. PIP/PBP lets you multitask, run two devices side by side. Cables included.",
+      "Stand adjusts height, swivel, tilt, and rotate. VESA 100x100 mount ready. Built-in speakers. AI ynamic Blue Light and flicker free backlighting keep you comfortable through long sessions."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "4K gaming monitor HDMI 2.1 PS5"
+    ]
+  },
+  "B0GDWKLYTH": {
+    "asin": "B0GDWKLYTH",
+    "title": "Gawfolk 27 Inch 4K Gaming Monitor UHD 160Hz/ FHD 320Hz Dual Mode PC Monitor",
+    "brand": "Gawfolk",
+    "price": "$199.49",
+    "img": "https://m.media-amazon.com/images/I/51a57QIvqEL._SL500_.jpg",
+    "features": [
+      "DUAL-MODE MONITOR: 4K 160Hz or 1080P 320Hz 27-inch gaming monitor. Experience breathtaking 4K UHD (3840x2160) resolution at a smooth 160Hz for story-driven adventures, or activate Full HD (1920x1080) at an ultra-fast 320Hz refresh rate for competitive esports and FPS games where every millisecond counts. Switch modes instantly and enjoy the best of both worlds-ultra-sharp graphics or extreme speed-on one versatile monitor",
+      "TEAR-FREE & RESPONSIVE GAMEPLAY: Gain a competitive edge with AMD FreeSync and G-Sync compatibility (DP port). This technology eliminates screen tearing and stuttering across both modes (4K 160Hz / FHD 320Hz), ensuring fluid motion and sharp image clarity during high-speed racing and action-packed battles. FPS, racing, strategy, or eSports titles run smoothly, giving you a competitive edge",
+      "VIBRANT IPS PANEL WITH RICH COLORS: See your games in true-to-life color. The IPS display supports 1.07 billion colors and covers 85% NTSC, offering consistent and vibrant visuals from any 178 viewing angle. With 300 cd/m brightness, it is suitable for both intense gaming sessions and photo editing",
+      "CROSS-PLATFORM CONNECTIVITY: Equipped with two HDMI 2.1 ports and two DP 1.4 ports, this desktop monitor provides next-gen compatibility for PC, PS5, and Xbox Series X. PIP & PBP for Efficient Multi-Tasking, Easily connect multiple devices like your gaming PC and console, and switch between them without unplugging cables for content creators, multitaskers, or anyone who needs to monitor multiple devices at once",
+      "ERGONOMIC DESIGN & GAMING AESTHETIC: Designed for long-lasting comfort, the monitor stand offers tilt adjustment (-7 to +17). Built-in speakers provide clear sound, while the rear breathing light adds a dynamic visual element, and the 75x75mm VESA mount support offers flexible setup options for a cleaner workspace",
+      "PREMIUM CUSTOMER SUPPORT: Gawfolk provides high-quality computer monitors and premium services. If you find any damage, malfunction or missing accessories, contact us whenever needed and we will try our best to help you"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "4K gaming monitor HDMI 2.1 PS5"
+    ]
+  },
+  "B0FQVFPK7B": {
+    "asin": "B0FQVFPK7B",
+    "title": "ZZA 32 Inch Curved Gaming Monitor 4K 160HZ Computer Monitor UHD 3840 * 2160P VA Screen, 1500R Curved, Supports AMD Freesync, 100% sRGB, Built-in Wall Mountable Installs(HDMI 2.1/DP 1.4)",
+    "brand": "ZZA",
+    "price": "$234.89",
+    "img": "https://m.media-amazon.com/images/I/51LwYtBW9zL._SL500_.jpg",
+    "features": [
+      "32inch 4K Curved Display: Enjoy breathtaking clarity and depth with the ZZA 32-inch 4K UHD curved monitor (3840x2160). Pc monitor 1500R curvature wraps around your vision for a more immersive experience, ideal for open-world games, movie watching, or multitasking",
+      "32 Inch Monitor 160Hz Refresh Rate: Dominate every match with up to 160Hz refresh rate and AMD FreeSync support. Whether you're into FPS, MOBA, or fast-paced action games, this high refresh rate gaming monitor ensures ultra-smooth visuals and reduced input lag for competitive gamers and eSports setups",
+      "120% sRGB Color Accuracy : Featuring 100% sRGB, 320cd/m², and 4000:1 high-contrast, this 4k gaming monitor rich and vibrant colors—perfect for photo editing, content creation, and video streaming",
+      "Versatile Connectivity & Wall Mount Ready: 32 inch 4k monitor equipped with HDMI 2.1 and DP 1.4, computer monitor supports next-gen PCs and consoles wall mount install support makes it perfect for gaming rooms, dual monitor setups, or streaming stations, blending performance with flexibility",
+      "Our customer support team is ready to help you with setup or technical issues, and we will resolve your problem within 48 hours"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "4K gaming monitor HDMI 2.1 PS5"
+    ]
+  },
+  "B0H3NZ5994": {
+    "asin": "B0H3NZ5994",
+    "title": "FYHXele 27 Inch White 4K Gaming Monitor, 120Hz IPS Panel, HDR400, 99% sRGB, 1ms Response Time, HDMI 2.1 & DP 1.4, FreeSync & G-Sync Compatible, Built-in Dual Speakers, VESA 100x100",
+    "brand": "FYHXele",
+    "price": "$229.99",
+    "img": "https://m.media-amazon.com/images/I/51O1jM31hkL._SL500_.jpg",
+    "features": [
+      "Smooth 4K 120Hz 1ms IPS Screen:Immerse yourself in ultra-smooth gaming with this 27-inch 4K UHD IPS gaming monitor featuring a 120Hz high refresh rate and rapid 1ms response time. The IPS panel delivers consistent vivid visuals with wide viewing angles, while 1ms eliminates motion blur and ghosting during fast-paced FPS, racing and action games. Every enemy movement and racing track detail renders sharply without lag, bringing you competitive advantages in all types of video games",
+      "99% sRGB & HDR400 True-to-Life Color:Boasting 99% sRGB color gamut and HDR400, this white gaming monitor reproduces rich, lifelike colors for gaming, video editing and streaming. HDR400 boosts peak brightness to reveal deep dark shadows and bright highlights, making game scenes more layered and immersive. Whether you explore open-world games or edit creative artwork, you get accurate, saturated color performance far better than ordinary office displays.",
+      "HDMI2.1+DP1.4 Dual Sync Game Tech:Equipped with HDMI 2.1 and DP 1.4 ports, this monitor fully supports 4K@120Hz signal transmission for PS5, Xbox Series X and gaming PCs. It works seamlessly with AMD FreeSync and NVIDIA G-Sync compatible technology to eliminate screen tearing, stutter and input lag. Switch between console and computer effortlessly without sacrificing high resolution and high refresh rate gaming performance.",
+      "Built-in Speakers & 100x100 VESA Mount:Built-in dual stereo speakers deliver clear game audio and background music, no extra external speakers required for daily gaming and video watching. The sleek minimalist white frame fits modern gaming setups and bedroom aesthetics. Standard 100×100 VESA mounting holes allow you to hang the monitor on wall brackets or monitor arms, saving desktop space and adjusting viewing height freely for long-hour gaming comfort.",
+      "Flicker-Free Low Blue Light Eye Protection:Designed for long gaming sessions, the flicker-free backlight and low blue light filter reduce eye strain and fatigue after hours of gameplay. This all-in-one white gaming monitor works perfectly for competitive gaming, content creation, live streaming and daily office work. Stable panel performance plus complete gaming specs make it an ideal upgrade for gamers, streamers and graphic designers."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "4K gaming monitor HDMI 2.1 PS5"
+    ]
+  },
+  "B0DPXZP328": {
+    "asin": "B0DPXZP328",
+    "title": "msi MAG 321CUP QD-OLED, 32-Inch, 4K UHD, 3840x2160, OLED Monitor, 165Hz, 0.03ms, DisplayHDR True Black 400, G-SYNC Compatible, HDMI 2.1, DP 1.4a, USB C (15W PD), Tilt/Height Adjustable, Black",
+    "brand": "msi",
+    "price": "$694.88",
+    "img": "https://m.media-amazon.com/images/I/51bvldgIvYL._SL500_.jpg",
+    "features": [
+      "QUANTUM DOT OLED - The MSI MAG 321CUP QD-OLED curved gaming monitor combines 10-bit Quantum Dot colour conversion with OLED self-emitting pixels for unrivalled dark levels & an elite response time; A subtle 1700R curvature is ideal for wide-format images",
+      "32\" UHD, 10-BIT COLOUR - A Quantum Dot OLED panel displays 1.07 billion colours (10-bit, 99% DCI-P3) with extreme Delta E ≤2 colour accuracy; VESA DisplayHDR True Black 400 certified (1500000:1 native contrast ratio) & up to 1000 nits peak brightness",
+      "165 HZ REFRESH RATE, 0.03MS RESPONSE TIME - A high 165 Hz refresh rate is complimented by an incredibly low 0.03 ms (GtG) response time for a supreme VESA ClearMR 9000 motion clarity rating; An elite graphene heatsink (fanless) enhances panel durability",
+      "GAMING INTELLIGENCE - MSI GI software features OLED Care 2.0 to help prevent burn-in, AI supported software (Smart Crosshair), Console modes & Game Assistance; PiP/PbB compatible; Features a 3-way adjustable stand (VESA 100mm)",
+      "CUTTING-EDGE CONNECTIVITY - PC, Mac, console & laptop interface options (all UHD/165Hz) include DisplayPort 1.4a, HDMI 2.1 CEC ports & USB Type-C with Power Delivery (15W)"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "4K gaming monitor HDMI 2.1 PS5"
+    ]
+  },
+  "B0F732KMQQ": {
+    "asin": "B0F732KMQQ",
+    "title": "ASUS ROG XG32UCWMG 32 Inch 4K 240Hz Glossy OLED G-SYNC Gaming Monitor",
+    "brand": "ASUS",
+    "price": "$999.00",
+    "img": "https://m.media-amazon.com/images/I/41KzAgj1tTL._SL500_.jpg",
+    "features": [
+      "Dual Mode Display Technology: 32-inch 4K (3840 x 2160) TrueBlack Glossy WOLED gaming monitor with versatile dual mode (4K@240Hz, FHD@480Hz)",
+      "TrueBlack Glossy Panel: Exclusive new TrueBlack Glossy panel provides a zero-haze surface and exceptionally sharp imagery",
+      "ASUS OLED Care Pro with Neo Proximity Sensor: Precisely detects when the user is away and switches to a black screen to reduce the risk of burn-in",
+      "DisplayWidget Center Software: Allows users to easily access OLED Care Pro functions and adjust monitor settings using a mouse",
+      "Professional Color Accuracy: VESA DisplayHDR 400 True Black compliance, 99% DCI-P3 gamut, true 10-bit color, and Delta E < 2 color difference for astonishing HDR performance for photo and video editing",
+      "Comprehensive Warranty Coverage: 3 years warranty with ARR and burn-in coverage",
+      "Ultra-Fast Response Time: 0.03ms response time delivers smooth and blur-free gaming experience with G-SYNC Compatible technology",
+      "Versatile Connectivity Options: Equipped with DisplayPort 1.4 (DSC), HDMI 2.1, and USB-C with 15-watt Power Delivery for multiple device connections",
+      "Free 3-month Adobe Creative Cloud Subscription: Receive complimentary access with the purchase of this product (offer valid to 8/31/2028)"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "4K gaming monitor HDMI 2.1 PS5"
+    ]
+  },
+  "B0GQM1RSX2": {
+    "asin": "B0GQM1RSX2",
+    "title": "Gawfolk 4K Curved Monitor 32 Inch, 4K 120Hz 1500R Gaming Monitor VA Panel",
+    "brand": "Gawfolk",
+    "price": "$208.99",
+    "img": "https://m.media-amazon.com/images/I/515O2ZQVwBL._SL500_.jpg",
+    "features": [
+      "WRAP-AROUND 1500R CURVED VIEWING EXPERIENCE: This 4K curved monitor features a 32-inch 16:9 VA curved screen with 1500R deep curvature, bringing natural panoramic visual wrapping without edge distortion. As a premium 32 inch monitor 4K, its large UHD screen eliminates flat screen visual fatigue, perfectly matching home theater viewing.",
+      "NATIVE 120HZ UHD 4K RESOLUTION & 1MS ULTRA-FAST RESPONSE: This 4k 120hz monitor delivers crisp 3840*2160 4K ultra-high definition image detail, paired with 1ms rapid response time to wipe out motion blur and ghosting in fast action scenes. Whether you play AAA games or edit 4K video materials, this 4k gaming monitor renders every moving frame seamlessly for lag-free visual feedback.",
+      "PROFESSIONAL VA PANEL WITH STUNNING COLOR PERFORMANCE: The core of this monitor 4k adopts high-performance VA panel with industry-leading 3000:1 typical static contrast ratio, far superior to IPS panels on dark scene layering. Equipped with 8bit+FRC color depth for 16.7M rich display colors, it covers 85% NTSC1931 wide gamut and adopts factory-calibrated 6500K default color temperature, restoring authentic color for gaming, photography and movie playback.",
+      "DUAL COMPATIBLE G-SYNC & FREESYNC ADAPTIVE SYNC TECHNOLOGY: This 4k monitor supports both G-Sync and FreeSync adaptive sync functions simultaneously, automatically matching GPU frame output with screen refresh rate.",
+      "VESA 100X100MM WALL MOUNT SUPPORT: This 32 inch monitor reserves standard 100x100mm VESA mounting holes, compatible with most monitor arms, wall brackets and desk stands on the market."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "monitor for TV and gaming 4K"
+    ]
+  },
+  "B0DHG1GTG2": {
+    "asin": "B0DHG1GTG2",
+    "title": "ASUS TUF Gaming VG27UQ1A 27 Inch 4K 160Hz G-SYNC Gaming Monitor",
+    "brand": "ASUS",
+    "price": "$344.99",
+    "img": "https://m.media-amazon.com/images/I/4172aUcZvaL._SL500_.jpg",
+    "features": [
+      "27-inch 4K Ultra HD Display: Features 3840 x 2160 resolution gaming monitor with ultra-fast 160Hz refresh rate designed for professional gamers and immersive gameplay",
+      "ASUS Extreme Low Motion Blur Sync Technology: ELMB Sync technology enables ELMB and variable-refresh-rate technologies to work simultaneously to eliminate ghosting and tearing for sharp gaming visuals with high frame rates",
+      "Advanced Synchronization Technologies: NVIDIA G-SYNC Compatible, AMD FreeSync Premium, and exclusive Variable Overdrive technology ensure seamless, tear-free gaming experience",
+      "Superior Color Performance: High dynamic range (HDR) technology and 95% DCI-P3 professional color gamut provide amazing color accuracy and vibrant visuals",
+      "Package Contents: Includes DisplayPort cable, L-shaped Screwdriver, Power cord, Quick start guide, and Warranty Card",
+      "Fast IPS Panel Technology: Features Fast IPS panel with 1ms response time for smooth motion clarity and wide viewing angles during intense gaming sessions",
+      "Console Gaming Support: Supports up to 4K 120Hz visuals via HDMI 2.1 without chroma subsampling for enhanced console gaming experience",
+      "Free 3-month Adobe Creative Cloud Subscription: Receive complimentary access with the purchase of this product (offer valid to 8/31/2028)",
+      "Warranty Coverage: 3 Year Warranty with Advanced Replacement and Repair service"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "monitor for TV and gaming 4K",
+      "ASUS TUF gaming monitor"
+    ]
+  },
+  "B0GP9TN5KF": {
+    "asin": "B0GP9TN5KF",
+    "title": "Samsung 55-Inch Class M70H Series, Mini LED, 4K, Smart TV, 2026 Model",
+    "brand": "Samsung",
+    "price": "$299.99",
+    "img": "https://m.media-amazon.com/images/I/41Ea8qlC-XL._SL500_.jpg",
+    "features": [
+      "MINI LED PROCESSOR 4K: Our advanced processor delivers brighter highlights and deeper blacks,* bringing every detail to life with stunning clarity",
+      "PURE COLOR SPECTRUM: delivers one billion true-to-life colors, powered by advanced color technology and MiniLED precision. Enjoy rich reds, deep blues, and vibrant greens, making every scene leap off the screen with breathtaking realism.",
+      "MINI LED HDR: Experience HDR picture quality with brighter highlights and deeper blacks than traditional HDR TVs.* Enjoy vibrant colors and lifelike details as this technology enhances brightness and contrast, making every image stand out with remarkable depth and realism.",
+      "ENDLESS FREE CONTENT: Watch 2,700+ free streaming options, including 750+ subscription-free channels on Samsung TV Plus. Enjoy news, sports, movies, kids' shows and reality TV — all without a subscription. Discover endless entertainment with new content added regularly, tailored to your mood and interests.*",
+      "SUPREME MINI LED DIMMING: delivers deep contrast and bright highlights for a truly superb picture.*",
+      "MOTION XCELERATOR + DLG 120HZ: Enjoy smooth visuals and fast motion clarity with technology that analyzes and optimizes the refresh rate.* Designed for gaming and sports to keep every scene sharp and fluid. Enjoy seamless action and responsive performance that elevates your viewing experience.",
+      "COLOR BOOSTER: From fiery reds to sparkling blues, make every color come to life with intensity. Color Booster transforms your content into a visual masterpiece",
+      "SOCCER MODE: Enjoy a stadium-like experience from your living room. Optimized settings ensure you see every pass, shot, and goal in stunning detail. Specialized settings deliver 40% clearer motion* for fast action and 30% more vibrant greens** for realistic turf, putting you right in the stadium.",
+      "GAMING HUB: A central hub that brings together your favorite games from your consoles, cloud services and gaming apps, all in one place. It also offers personalized recommendations so you can easily find what to play next."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "monitor for TV and gaming 4K"
+    ]
+  },
+  "B0H5MGRZLY": {
+    "asin": "B0H5MGRZLY",
+    "title": "New! Sceptre Curved 34-inch Prime Gaming Monitor 3440 x 1440 up to 240Hz 1500R 1ms 100% sRGB DisplayPort x2 HDMI x2 Build-in Speakers, Machine Black 2027 (C345B-QU240T Series)",
+    "brand": "Sceptre",
+    "price": "$299.97",
+    "img": "https://m.media-amazon.com/images/I/413An7mLv8L._SL500_.jpg",
+    "features": [
+      "【SEAMLESS CONNECTIVITY & PERFORMANCE】 Seamlessly link your devices to our two HDMI ports and two DisplayPort providing up to 240Hz refresh rate, ensuring not only versatile connectivity but also a buttery-smooth visual experience for both work and play. Built-in Speakers and Audio Out Jack also provides diverse audio options.",
+      "【INTEGRATED SPEAKERS】Whether you're at work or in the midst of an intense gaming session, our built-in speakers provide rich and seamless audio, all while keeping your desk clutter-free.",
+      "【EASY ON THE EYES】 Protect your eyes and enhance your comfort with Blue-Light Shift technology. This feature reduces harmful blue light emissions from your screen, helping to alleviate eye strain during long hours of use and promoting healthier viewing habits.",
+      "【TRUE TO LIFE COLORS】Experience vibrant and true-to-life colors with a 100% sRGB color gamut performance, ensuring accurate and stunning visuals for all your creative and multimedia tasks.",
+      "【ENHANCED GAMING EXPERIENCE】 Elevate your gaming prowess with a lightning-fast 1ms response time with blur reduction and an ultra-smooth 240Hz refresh rate. Enjoy unparalleled responsiveness and seamless visuals reinventing what you perceive as a great gaming experience."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "monitor for TV and gaming 4K"
+    ]
+  },
+  "B0GS3FHR7L": {
+    "asin": "B0GS3FHR7L",
+    "title": "Acer Nitro 27in 4K 3840x2160 IPS 72Hz DFR 144Hz Gaming Monitor VG270K L1",
+    "brand": "Acer",
+    "price": "$179.99",
+    "img": "https://m.media-amazon.com/images/I/51JdlXAUIqL._SL500_.jpg",
+    "features": [
+      "Quality Visuals: The VG270K 27\" IPS monitor with 3840 x 2160 UHD resolution in a 16:9 aspect ratio presents stunning, high-quality images with excellent detail. The zero-frame design does away with the thick frames found on conventional monitors freeing up precious screen space.",
+      "AMD FreeSync Technology: Say “goodbye” to stuttering and tearing. With AMD FreeSync, the monitor’s frames are synced with the graphics card’s frames, which eliminates screen tearing and provides the smoothest gaming experience.",
+      "Quick Refresh Rate: Different content has different refresh rate and resolution requirements. If you are playing an FPS or racing game, you will need a monitor with a high refresh rate. However, if you are doing office work or streaming videos, a higher resolution will be more beneficial. With DFR technology, users can choose a higher resolution, or a higher refresh rate based on what is suitable for them.",
+      "Responsive: Up to 0.5ms GTG (Gray to Gray) response time enhanced gamers’ in-game experience. No matter if the fast-moving action or any dramatic transitions will be rendered smoothly without the annoying effects of smearing or ghosting",
+      "ZeroFrame Design: With a Nitro VG270K monitor, you’ll want to see as much of the display as possible. Get more real estate with the near bezel-less design, allowing you to see more and do more. The ZeroFrame design lets you place multiple monitors next to each other for a seamless, almost uninterrupted view.",
+      "HDR Enabled: Change how you see your games with Acer HDR 10 support for up to a wide DCI-P3 95% color gamut. HDR will improve overall quality and contrast to taking your gameplay to the next level with improved color accuracy.",
+      "27\" UHD (3840 x 2160) Widescreen IPS Gaming Monitor | AMD FreeSync Technology",
+      "Refresh Rate: Up to 72Hz at 3840 x 2160 |144Hz at 1920 x 1080 (DFR) | Response Time: 1ms (G to G) - Up to 0.5ms (G to G) | Pixel Pitch: 0.155mm | Color Saturation: DCI-P3 95% | HDR 10 Support",
+      "VESA mounting compliant (100 x 100mm) | Zero-Frame Design | Ergonomic Tilt: -5° to 25° | Ports: 1 x Display Port 1.4 & 2 x HDMI 2.0 Ports (HDMI Cable Included)"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "monitor for TV and gaming 4K"
+    ]
+  },
+  "B0DTH4BX9T": {
+    "asin": "B0DTH4BX9T",
+    "title": "Thinlerain 23.8 inch Computer Monitor 1920x1080 Vertical PC Monitor with HDMI VGA AV BNC USB Ports, Multi-Function Stand, VESA, Display Frameless Build-in Speakers for Office Home",
+    "brand": "Thinlerain",
+    "price": "$119.90",
+    "img": "https://m.media-amazon.com/images/I/41TdlJFy5rL._SL500_.jpg",
+    "features": [
+      "Important Notice: This 23.8 inch monitor does not auto-rotate. Screen orientation depends entirely on the source device's output signal. If your device does not support rotation, the display will remain in landscape mode. For portrait mode, ensure your connected PC/device has rotation capability in its display settings.",
+      "23.8\" FHD Computer Screen: Enjoy lifelike visuals with 1920x1080 resolution, 100% sRGB, and 250cd/㎡ brightness. A 178° viewing angle, 16:9 aspect ratio, and 1000:1 contrast ensure vibrant clarity from every angle. With a 60Hz refresh rate and 5ms response time, it's perfect for work or play",
+      "Vertical Desktop Monitor with Multi-function Stand: Boost productivity with a 90° rotation for vertical viewing, swivel 45° left/right, height adjustment, and upward tilt for ergonomic comfort. Ideal for coding, multitasking, or creative work, its multi-function stand adapts to your needs. Upgrade your workspace with ease",
+      "Versatile HDMI Monitor with Multi-Ports & Remote Control: This extender monitor for laptop features HDMI, VGA, BNC, USB, AV, Audio In/Out ports, 2 built-in speakers, and a remote control for easy operation. Compatible with PCs, laptops, CCTV, Raspberry Pi, and TV boxes, it also supports U disk media playback. Perfect for home, office, surveillance, and entertainment needs",
+      "Ultrathin Bezels Monitor Display: This monitor design with ultra-thin 3-sided bezels, offering a larger screen feel and seamless visuals. Perfect for multi-monitor setups, its minimalist design enhances productivity while adding a stylish touch to your workspace"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "vertical monitor pivot"
+    ]
+  },
+  "B0CMXK5QDD": {
+    "asin": "B0CMXK5QDD",
+    "title": "CRUA 24.5\" FHD 200Hz Vertical Monitor, Height/Pivot/Swivel/Tilt Adjustable",
+    "brand": "CRUA",
+    "price": "$129.99",
+    "img": "https://m.media-amazon.com/images/I/518-AsnkFyL._SL500_.jpg",
+    "features": [
+      "【Smooth Gaming Experience】The CRUA 24.5-inch gaming monitor offers 3ms response time, 200Hz refresh rate, and FreeSync to ensure ultra-smooth motion. Say goodbye to screen tearing, stuttering, or input lag when moving quickly, tracking opponents, or playing any game. The crosshair assists in locating the opponent's position and gaining an absolute competitive advantage",
+      "【Immersive visuals】The computer monitor is equipped with FHD (1920X1080P), 120% sRGB, 8-bit, and 16.7 million colors to provide a wide range of color displays and provide vivid and accurate visual effects. Plus 300cd/m² brightness, a 1000:1 static contrast ratio lets you enjoy finer details in your working or favorite TV shows and movies. Low blue light mode protects eyes from visual fatigue caused by long hours of work or gaming",
+      "【Ergonomic Design】The vertically rotating monitor stand supports a 90° rotation for portrait orientation. Easily switch to portrait mode for efficient multitasking, coding, or document editing, enhancing readability with lengthy documents. The height is adjustable within a range of 120 mm, with tilt (-5°~15°) and swivel (-15°~15°) for a personalized and comfortable viewing angle.Supports wall mounting (75 mm x 75 mm)",
+      "【Versatile connectivity】The 24.5\" monitor is equipped with HDMI2.0, DP1.2, and 3.5mm audio output interfaces, and supports connection to PCs, computers, laptops, etc. There is no delay in working, gaming, studying, or watching movies, and various switching can be easily realized. The USB port supports charging mobile phones and other devices. Use HDMI to reach 120HZ/144HZ, and use DP to reach 200HZ",
+      "【Sleek Design】Immerse in the game or project with three-sided narrow bezels that provide a distraction-free environment. No additional tools are required and the snap-on bracket allows for easy installation. Equipped with a red hub, it can organize messy wires in place, giving you a clean and tidy desktop when working or studying"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "vertical monitor pivot"
+    ]
+  },
+  "B0DR9PHBVD": {
+    "asin": "B0DR9PHBVD",
+    "title": "Samsung 22” (S40GD) Borderless Business Monitor with IPS Panel, 100Hz Refresh Rate, Eye Saver Mode, Ergonomic Design, Game Picture Mode, LS22D402GANXGO",
+    "brand": "Samsung",
+    "price": "$149.99",
+    "img": "https://m.media-amazon.com/images/I/41UOoB-AGFL._SL500_.jpg",
+    "features": [
+      "VIVID COLORS ACROSS THE WHOLE SCREEN: Experience stunning colors across the entire display with the IPS panel. Colors stay bright and clear across the screen, even when angles change. Tones and shades are represented consistently with less color washing.",
+      "SMOOTH PERFORMANCE ACROSS ANY CONTENT: Stay in the action when playing games, watching videos, or working on creative projects. The 100Hz refresh rate reduces lag and motion blur so you don't miss a thing in fast-paced moments.*",
+      "OPTIMIZED GAME SETTINGS FOR EACH GENRE: Gain a competitive edge with optimizable game settings. Color and image contrast can be adjusted to see scenes more clearly, while Game Picture Mode adjusts any game to fill your screen with every detail in view.**",
+      "EASY ON THE EYES: Protect your vision and stay comfortable, even during long sessions. Stay focused on your work with reduced blue light and screen flicker.**",
+      "FLEXIBLE ADJUSTMENTS: A slim design adds style to any environment, with a height-adjustable screen to give you the best angle and more versatility. Ultra-thin border bezels make the most of screen space, and you can even pivot the screen for a vertical view.",
+      "CONNECT TO MORE: Plug devices straight into your monitor for increased flexibility, making your computing environment even more convenient."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "vertical monitor pivot"
+    ]
+  },
+  "B0GJ7329CK": {
+    "asin": "B0GJ7329CK",
+    "title": "HP Series 5 Pro 524pf 24\" FHD IPS Monitor Adjustable Height, Swivel, Pivot",
+    "brand": "HP",
+    "price": "$199.99",
+    "img": "https://m.media-amazon.com/images/I/41qR6KC93hL._SL500_.jpg",
+    "features": [
+      "Features: 24\" FHD IPS (1920 x 1080), 1 x HDMI, 1 x Displayport, 4 x USB Type-A, 1 x USB Type-B, -5 to +23 degrees Adjustable Tilt, Anti-glare, Flicker free, Low blue light, Brightness 350 nits",
+      "Sleek Design, Clean Space – See and do more on your screen with a 3-sided borderless with micro-edge bezel design that maximizes your viewing area for a sleek design and virtually seamless dual-monitor setups.",
+      "100% sRGB Color Gamut – Enjoy highly accurate colors on screen with 100% sRGB. This HP monitor provides ideal color reproduction with minimal effort.",
+      "Low-Blue Light Filter – HP Eye Ease is an always-on, low-blue light filter that helps keep your eyes comfortable throughout the day by reducing blue light without impacting color accuracy or adding a yellow color shift.",
+      "Includes – Dockztorm Dock (Special Edition Portable Dockztorm Data Hub; Super Speedy Data Sync Rate upto 5Gbps)"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "vertical monitor pivot"
+    ]
+  },
+  "B0FDB8SSG6": {
+    "asin": "B0FDB8SSG6",
+    "title": "HUANUO Dual Monitor Stand for 13 to 34 Inch, Max Load 44 lbs, Vertical Monitor Mount, Freestanding Monitor Riser with Swivel, Tilt, Rotation, 13 Height Settings, Max VESA 100x100",
+    "brand": "HUANUO",
+    "price": "$29.99",
+    "img": "https://m.media-amazon.com/images/I/41ZyUVPyD0L._SL500_.jpg",
+    "features": [
+      "Fits 13″ to 34″ Screens: This HUANUO vertical monitor stand fits two 13″-34″ screens with VESA mounting patterns of 50x50mm, 75x75mm or 100x100mm. Whether using a flat, curved or ultra-wide screen, this dual monitor stand offers support up to 44 lbs.",
+      "Save Space & Wide Height Adjustment: By vertically stacking the dual monitors, you can save desktop space and keep your workstation organized. This double monitor riser offers 13 height settings, ranging from 9.5″ to 32.3\", so you can position your screens as you like them. Prioritize comfort and posture, and reduce your neck and back strain with the dual monitor stand.",
+      "View From Any Angle: Our dual monitor mount enables customizable viewing with a tool-free tilt range of -15° to +10° and a +/-50° swivel for both monitors. Rotate smaller monitors 360° on the stand – for portrait or landscape in an instant.",
+      "Enhanced Stability: The vertical monitor stand is made with high-quality, cold-rolled steel and a sturdy tempered glass base, ensuring stable support and reliable long-term use. Its freestanding design allows for easy repositioning, so you can effortlessly move the stand to the ideal location.",
+      "15-Minute Easy Installation: With a manual in box and clearly labeled hardware, our monitor stand is quick and simple to install. It also comes with cable clips to neatly route wires along the back of the pole for a clean look. If you have any questions, feel free to contact our U.S.-based support team."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "vertical monitor pivot"
+    ]
+  },
+  "B082845XM8": {
+    "asin": "B082845XM8",
+    "title": "Dual Monitor Stand - Vertical Stack Screen Free-Standing Monitor Riser Fits Two 13 to 34 Inch Screen with Swivel, Tilt, Height Adjustable, Holds One (1) Screen Up to 44Lbs",
+    "brand": "Hemudu",
+    "price": "$31.99",
+    "img": "https://m.media-amazon.com/images/I/41uRH1B7HgL._SL500_.jpg",
+    "features": [
+      "COMPATIBILITY - Vertical dual monitor mount holds two screens 13” to 34” in size and 44 lbs in weight (each) with 50x50mm,75x75mm or 100x100mm backside mounting holes. Integrated cable management is included to keep cords clean and organized.",
+      "SWIVEL AND HEIGHT ADJUSTABLE FUNCCTION - Adjustable brackets offer +50° to -50° Swivel, +10° to -15° tilt, , and 12 level height adjustment along the center pole.",
+      "ERGONOMIC MONITOR RISER - Keep your monitors at ergonomic heights, improving your work posture and reducing the strain on your neck, back and shoulder for more productive work",
+      "EASY INSTALLATION - Mounting your monitors is a simple process with removable VESA plates. We provide all the necessary hardware and instructions for assembly",
+      "SAVE SPACE - Instead of standing with 2 large bases, this stand hold 2 monitors on 1 stand, saving more space on your desktop and keep your workstation spacious and clutter-free"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "vertical monitor pivot"
+    ]
+  },
+  "B0DL33J9VQ": {
+    "asin": "B0DL33J9VQ",
+    "title": "CUNPU 27 Inch 1440P 240Hz Gaming Monitor, Fast IPS, 1ms GTG QHD Gamer Monitor, FreeSync & G-Sync, HDR, 128% sRGB, Height/Pivot/Tilt/Swivel Vertical Monitor, Built-in Dual Speaker, HDMI/DP",
+    "brand": "CUNPU",
+    "price": "$157.99",
+    "img": "https://m.media-amazon.com/images/I/41XAa3rdrCL._SL500_.jpg",
+    "features": [
+      "PRO GAMING KEY SPEC: The 27-inch QHD gaming monitor is a fast IPS display with 125% sRGB and 100% DCI-P3 color gamut coverage, giving you more than 16.7 million colors for a more natural-looking display, and an excellent 1000:1 dynamic contrast ratio that makes deep blacks and whites more clearly visible. It also features HDR10, 240Hz refresh rate and 1ms (GTG) response time. This monitor is perfect for eSports gaming as it delivers crisp, detailed images that keep you ready for enemy attacks",
+      "FASTER WITH EVERY MOVE: CUNPU 1440p 240Hz gaming monitors are compatible with both FreeSync and G-Sync technology. This ensures synchronized transfer rates between the graphics card and monitor, which eliminates screen tearing and latency. As a result, you can enjoy a smooth and stable gaming experience. Enjoy hours of gaming or video-watching without straining your eyes",
+      "ERGONOMIC GAMING STAND: The quick mounting bracket allows for a seamless connection to the base without the need for screws, streamlining the installation process. The stand offers a tilt range of -5 to 15°, a swivel range of -90 to 90°, a pivot range of -90 to 90° and a height adjustment range of 5.11 inches, providing a comfortable gaming experience. It is compatible with any 100 x 100 mm VESA wall mount, desk mount stand, or articulating arm",
+      "ENHANCING THE ENTERTAINMENT EXPERIENCE： Built-in 2x 2W speakers ensure that your movies, shows, music, and video conference calls will all sound as good as they look. The entertainment OSD provides a variety of setting modes (GAME/FPS/RTS/MOIVE/TEXT). Moreover, you can customize your settings according to your preferences, such as enabling a black equalizer function, adjusting the backlight when the picture is bright, and optimizing the game picture",
+      "CONNECTS TO ALL GAME CONSOLES: The CUNPU 2K Gaming Monitor 27\" supports multiple ports including 1* DisplayPort 1.4, 2* HDMI 2.0 and headphone jack. Interfaces that can easily work with Desktop Gaming PC, Laptops, Tablets, Mini PC, Switch, PS5, XBOX gaming console"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "vertical monitor pivot"
+    ]
+  },
+  "B0DR9QNRWY": {
+    "asin": "B0DR9QNRWY",
+    "title": "Samsung 27” (S40GD) Borderless Business Monitor with IPS Panel",
+    "brand": "Samsung",
+    "price": "$154.06",
+    "img": "https://m.media-amazon.com/images/I/41sy2tbC2AL._SL500_.jpg",
+    "features": [
+      "VIVID COLORS ACROSS THE WHOLE SCREEN: Experience stunning colors across the entire display with the IPS panel. Colors stay bright and clear across the screen, even when angles change. Tones and shades are represented consistently with less color washing.",
+      "SMOOTH PERFORMANCE ACROSS ANY CONTENT: Stay in the action when playing games, watching videos, or working on creative projects. The 100Hz refresh rate reduces lag and motion blur so you don't miss a thing in fast-paced moments.*",
+      "OPTIMIZED GAME SETTINGS FOR EACH GENRE: Gain a competitive edge with optimizable game settings. Color and image contrast can be adjusted to see scenes more clearly, while Game Picture Mode adjusts any game to fill your screen with every detail in view.**",
+      "EASY ON THE EYES: Protect your vision and stay comfortable, even during long sessions. Stay focused on your work with reduced blue light and screen flicker.**",
+      "FLEXIBLE ADJUSTMENTS: A slim design adds style to any environment, with a height-adjustable screen to give you the best angle and more versatility. Ultra-thin border bezels make the most of screen space, and you can even pivot the screen for a vertical view.",
+      "CONNECT TO MORE: Plug devices straight into your monitor for increased flexibility, making your computing environment even more convenient."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "vertical monitor pivot"
+    ]
+  },
+  "B0FT21HKZ6": {
+    "asin": "B0FT21HKZ6",
+    "title": "Sceptre New 22-Inch Gaming Monitor, FHD 1080p, Up to 144Hz, HDMI, DisplayPort, Built-in Speakers, Machine Black (E225W-FW144 Series, 2026)",
+    "brand": "Sceptre",
+    "price": "$72.97",
+    "img": "https://m.media-amazon.com/images/I/41Q0yfVIZgL._SL500_.jpg",
+    "features": [
+      "【INTEGRATED SPEAKERS】Whether you're at work or in the midst of an intense gaming session, our built-in speakers provide rich and seamless audio, all while keeping your desk clutter-free.",
+      "【EASY ON THE EYES】 Protect your eyes and enhance your comfort with Blue-Light Shift technology. This feature reduces harmful blue light emissions from your screen, helping to alleviate eye strain during long hours of use and promoting healthier viewing habits.",
+      "【WIDEN YOUR PERSPECTIVE】Our sleek minimal bezel design ensures undivided attention. The nearly bezel-free display seamlessly connects in a dual monitor arrangement, delivering an unobstructed view that lets you focus on more at once, completely distraction-free."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "gaming monitor under 150"
+    ]
+  },
+  "B0DDP95J7T": {
+    "asin": "B0DDP95J7T",
+    "title": "ArcticPro 22 Inch Gaming Monitor 144Hz, FHD Computer Monitor, 105% sRGB",
+    "brand": "ArcticPro",
+    "price": "$66.97",
+    "img": "https://m.media-amazon.com/images/I/41GL8+Rm3LL._SL500_.jpg",
+    "features": [
+      "[Full HD Resolution] Enjoy the crystal-clear image quality of ArcticPro FHD computer monitor with a sharp 1920x1080p Full HD resolution, providing more vivid colors and sharper details",
+      "[Smooth Performance] The monitor features a maximum refresh rate of 144Hz and a rapid response time, designed for both daily work and gaming. The ArcticPro pc monitor provides smoother dynamic visuals and delivers a stable viewing experience, helping to minimise eye strain",
+      "[178° Wide Perspective and Tilt Angles] With 178° horizontal & vertical viewing angles and -5°±2°/15°±2* Tilt angles, the VA panel ensures consistent image quality from any perspective, offering all-round viewing performance for both work and entertainment",
+      "[ Anti-blue light design] With Anti-Blue technology, ArcticPro monitor delivers smooth, tear-free and eye care visuals, minimizing motion blur and ghosting for an immersive gaming experience",
+      "[VESA Wall Mountable] With 75*75mm VESA wall mount pattern, you can select the best viewing position, and ArcticPro monitors also support multiple signal inputs such as HDMI, VGA. No built-in speakers"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "gaming monitor under 150"
+    ]
+  },
+  "B0D9MK23S7": {
+    "asin": "B0D9MK23S7",
+    "title": "Acer 27in FHD 1920x1080 IPS 120Hz Gaming Monitor | Office KB272 G0bi",
+    "brand": "Acer",
+    "price": "$99.99",
+    "img": "https://m.media-amazon.com/images/I/41yYgMFvl5L._SL500_.jpg",
+    "features": [
+      "Incredible Images: The Acer KB272 G0bi 27\" monitor with 1920 x 1080 Full HD resolution in a 16:9 aspect ratio presents stunning, high-quality images with excellent detail.",
+      "Adaptive-Sync Support: Get fast refresh rates thanks to the Adaptive-Sync Support (FreeSync Compatible) product that matches the refresh rate of your monitor with your graphics card. The result is a smooth, tear-free experience in gaming and video playback applications.",
+      "Responsive!!: Fast response time of 1ms enhances the experience. No matter the fast-moving action or any dramatic transitions will be all rendered smoothly without the annoying effects of smearing or ghosting. A 120Hz refresh rate speeds up the frames per second to deliver smooth 2D motion scenes in gaming and video.",
+      "27\" Full HD (1920 x 1080) Widescreen IPS Monitor | Adaptive-Sync Support (FreeSync Compatible)",
+      "Refresh Rate: Up to 120Hz | Response Time: 1ms VRB | Brightness: 250 nits | Pixel Pitch: 0.311mm"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "gaming monitor under 150"
+    ]
+  },
+  "B0H5FJXKRG": {
+    "asin": "B0H5FJXKRG",
+    "title": "New! Sceptre Curved 27-inch Prime Gaming Monitor DisplayPort x2 180Hz HDMI x2 180Hz 1500R 1ms Build-in Speakers, Machine Black 2027 (C275B-FW180T Series)",
+    "brand": "Sceptre",
+    "price": "$119.97",
+    "img": "https://m.media-amazon.com/images/I/51evCDq1x5L._SL500_.jpg",
+    "features": [
+      "【TRUE TO LIFE COLORS】Experience vibrant and true-to-life colors with 100% sRGB color gamut performance, ensuring accurate and stunning visuals for all your creative and multimedia tasks.",
+      "【EASY ON THE EYES】 Protect your eyes and enhance your comfort with Blue-Light Shift technology. This feature reduces harmful blue light emissions from your screen, helping to alleviate eye strain during long hours of use and promoting healthier viewing habits.",
+      "【SEAMLESS CONNECTIVITY & PERFORMANCE】 Seamlessly link your devices to our two HDMI ports and two DisplayPort providing up to 180Hz refresh rate, ensuring not only versatile connectivity but also a buttery-smooth visual experience for both work and play. Built-in Speakers and Audio Out Jack also provides diverse audio options.",
+      "【ENHANCED GAMING EXPERIENCE】 Elevate your gaming prowess with a lightning-fast 1ms BR (Blur Reduction) and an ultra-smooth overclocked to 180Hz refresh rate. Enjoy unparalleled responsiveness and seamless visuals reinventing what you perceive as a great gaming experience.",
+      "【INTEGRATED SPEAKERS】Whether you're at work or in the midst of an intense gaming session, our built-in speakers provide rich and seamless audio, all while keeping your desk clutter-free.",
+      "【WIDEN YOUR PERSPECTIVE】Our sleek minimal bezel design ensures undivided attention. The nearly bezel-free display seamlessly connects in a dual monitor arrangement, delivering an unobstructed view that lets you focus on more at once, completely distraction-free."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "gaming monitor under 150"
+    ]
+  },
+  "B0GN5KBW87": {
+    "asin": "B0GN5KBW87",
+    "title": "AOC 34 Inch Curved Gaming Monitor UWQHD 200Hz VA 0.3ms HDR, CU34G4H",
+    "brand": "AOC",
+    "price": "$209.99",
+    "img": "https://m.media-amazon.com/images/I/41ok7ETYiWL._SL500_.jpg",
+    "features": [
+      "34\" ULTRAWIDE WQHD CURVED DISPLAY Immerse yourself in a 34-inch ultrawide 21:9 display with sharp 3440x1440 WQHD resolution and a 1500R curved VA panel for panoramic gaming and multitasking.",
+      "UP TO 200HZ GAMING PERFORMANCE Enjoy ultra-smooth gameplay with 200Hz refresh rate via DisplayPort 1.4 and 100Hz via HDMI 2.0, ideal for fast-paced PC gaming.",
+      "0.3MS RESPONSE TIME React faster with 0.3ms MPRT response time, helping reduce motion blur and ghosting during competitive gaming.",
+      "ADAPTIVE-SYNC & HDR READY Reduce screen tearing with Adaptive-Sync and enjoy enhanced contrast with HDR Ready support.",
+      "ERGONOMIC STAND & CONNECTIVITY Includes height adjustment, tilt, swivel, plus 1x DisplayPort 1.4, 2x HDMI 2.0, and audio out for versatile setups."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "34 inch ultrawide curved gaming"
+    ]
+  },
+  "B0FSNVNT8Y": {
+    "asin": "B0FSNVNT8Y",
+    "title": "Westinghouse 34 Inch Curved Gaming Monitor, 2K Ultra-WQHD(3440x1440P), AMD FreeSync Premium, 3000:1 Contrast Ratio, 122% sRGB, 180Hz, 1ms, 1500R, Eyecare, Built-in Speakers, DisplayPortx2, HDMIx2",
+    "brand": "Westinghouse",
+    "price": "$179.99",
+    "img": "https://m.media-amazon.com/images/I/51siMq-ri4L._SL500_.jpg",
+    "features": [
+      "STUNNING 34-INCH ULTRA-WIDE 3440x1440 UWQHD DISPLAY: This curved gaming monitor features a cinematic 21:9 aspect ratio that delivers a wider field of view and razor-sharp detail for an incredibly immersive experience. The high-contrast VA panel produces deeper blacks and vibrant colors, making it ideal for gaming, streaming, multitasking, creative workflows, and home office productivity.",
+      "IMMERSIVE 1500R CURVED SCREEN: The ultrawide monitor is designed with a 1500R curved screen that wraps around your field of view, enhancing gaming and movie-watching experience by reducing glare and edge distortion for more comfortable viewing.",
+      "VIVID COLORS & DEEP CONTRAST: Enjoy stunning image quality with a 3000:1 contrast ratio, 118% sRGB wide color gamut, and support for 16.7 million colors—delivering rich, vibrant visuals with enhanced depth and accuracy.",
+      "MULTIPLE GAMING MODES FOR EVERY SCENARIO: Optimize your gameplay with dedicated FPS/RTS and Game modes that enhance visibility in dark scenes, sharpen details, and reduce motion blur—helping you react faster and stay ahead in fast-paced battles.",
+      "EYECARE: The EyeRest Technology helps reduce digital eye strain and fatigue. This computer screen is flicker-free, anti-glare, and is equipped with low blue light and color temperature settings, all designed to enhance your eye comfort and to protect your vision during prolonged screen time.DisplayPort cable included.",
+      "ULTRA-SMOOTH GAMING WITH 180HZ REFRESH RATE AND AMD FREESYNC : Featuring a high native refresh rate of 180Hz for seamless fast-motion action and fluid onscreen visuals. This gaming monitor is great for competitive multiplayer FPS games."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "34 inch ultrawide curved gaming"
+    ]
+  },
+  "B0GQSX3QDL": {
+    "asin": "B0GQSX3QDL",
+    "title": "ZZA 34 Inch Ultrawide Curved Monitor Built in Speakers 4K Gaming Computer Monitor 100Hz, WQHD(3440x1440P) Curved 3800R 21:9 Ultra Wide PC Display, 130% sRGB, HDMI &DP, VESA Mount Compatible-White",
+    "brand": "ZZA",
+    "price": "$199.99",
+    "img": "https://m.media-amazon.com/images/I/414ZncCtM8L._SL500_.jpg",
+    "features": [
+      "IMMERSIVE CURVED DISPLAY: 34-inch ultra-wide curved monitor with 3800R curvature and WQHD 3440x1440 resolution delivers stunning visuals and an expansive viewing experience for gaming and productivity",
+      "SMOOTH PERFORMANCE: 100Hz refresh rate ensures fluid motion and reduced screen tearing, providing a competitive edge in fast-paced gaming scenarios",
+      "VIBRANT COLOR ACCURACY: 100% sRGB color gamut coverage produces rich, true-to-life colors for professional content creation and immersive entertainment",
+      "BUILT-IN AUDIO: Integrated speakers eliminate the need for external audio devices, offering convenient sound output for everyday use",
+      "VERSATILE CONNECTIVITY: White frameless design with HDMI and DisplayPort inputs, plus VESA mount compatibility for flexible installation options"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "34 inch ultrawide curved gaming"
+    ]
+  },
+  "B0BTK1C533": {
+    "asin": "B0BTK1C533",
+    "title": "Sceptre 34-inch Curved ultrawide WQHD Monitor (3440 × 1440), R1500, up to 180Hz/165Hz, DisplayPort x2, 99% sRGB, 1ms, Built-in Speakers, Machine Black, 2025 (C345B-QUT168)",
+    "brand": "Sceptre",
+    "price": "$287.97",
+    "img": "https://m.media-amazon.com/images/I/41332WBf4dL._SL500_.jpg",
+    "features": [
+      "1ms MPRT: Colors fade and illuminate instantly with a 1ms response time, eliminating ghosting and piecing together precise imagery during action-packed scenes and gaming.",
+      "Luminous Backcover Lights: A colorful LED light illuminates the back cover of the monitor, delivering a uniquely modern design.",
+      "WQHD Resolution: At 5 million pixels, Wide Quad HD Resolution (3440 x 1440) display resolution provides you with the next level of refined, and detailed picture over the current 1080P standard.",
+      "21:9 Ultrawide: See more and do more with an ultrawide monitor. 21:9 provides you with 30% more screen space versus the conventional monitor. With an ultrawide resolution of 3440 x 1440, expand your performance and productivity."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "34 inch ultrawide curved gaming"
+    ]
+  },
+  "B0GD6SHYGZ": {
+    "asin": "B0GD6SHYGZ",
+    "title": "Gawfolk 34\" Ultrawide Curved Gaming Monitor, UWQHD 3440x1440 165Hz 1500R",
+    "brand": "Gawfolk",
+    "price": "$189.99",
+    "img": "https://m.media-amazon.com/images/I/51fJudBW8AL._SL500_.jpg",
+    "features": [
+      "Seamless Gaming - Experience fluid and responsive gameplay with a high 165Hz refresh rate, showcasing clear movements and minimizing screen tearing. Adaptive Sync (AMD FreeSync) support ensures smooth visuals by syncing the monitor's refresh rate with your graphics card",
+      "21:9 Ultrawide Curved Monitor: Expand your view and enhance productivity with our curved ultrawide monitor. Offering 34% more screen space compared to conventional monitors and a resolution of 3440 x 1440, elevate your performance and efficiency. With a 1500R curvature, immerse yourself deeper into your work and entertainment. Ideal for multitasking and gaming",
+      "34 inch Curved Gaming Monitor - With a brightness of 300 cd/m², 8-bit color depth, and 128% sRGB coverage, this 1500R curved gaming monitor offers vivid, rich colors and enhanced visual detail. HDR technology further elevates the viewing experience for immersive gaming",
+      "Multiple ports - The gaming monitor offers 2 * HDMI and 2 * DisplayPort ports for a simple video interface. With a WQHD resolution of 3440 x 1440p, it is compatible with XBOX, PC, laptops and more, ensuring seamless transitions between work and play. Supports HDMI 2.0(up to 120Hz), DP 1.4(up to 165Hz)",
+      "Gawfolk Services: Gawfolk provides high-quality computer monitor and premium services, included worry-free 12-month warranty. If you find any damage, malfunction or missing accessories, please contact us at anytime"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "34 inch ultrawide curved gaming"
+    ]
+  },
+  "B0GHRJWCT9": {
+    "asin": "B0GHRJWCT9",
+    "title": "ChzsyhC 34 Inch Ultrawide Curved Gaming Monitor - WQHD 3440x1440p, 165Hz, 120% sRGB, FreeSync, VESA Mountable (DP&HDMI Cable Incl.) - Immersive PC Monitor for Gamers & Professionals, Black",
+    "brand": "ChzsyhC",
+    "price": "$179.99",
+    "img": "https://m.media-amazon.com/images/I/41YC6M+Qe5L._SL500_.jpg",
+    "features": [
+      "【Immersive 34-inch Ultrawide Gaming Monitor】 Experience stunning visuals on this 34-inch curved monitor (3440x1440P, 21:9). The 1500R design fills your view, offering realistic immersion and comfortable viewing. Enjoy 120% sRGB colour, 300 cd/m² brightness, and 4000:1 contrast for precise, lifelike gradients.",
+      "【165Hz Smooth Gaming Performance: This rapid gaming monitor features a 165Hz refresh rate and FreeSync technology. Eliminate tearing and freezing for incredibly smooth gameplay and clear visuals. Tip: Use DP for full 165Hz (HDMI supports 100Hz).",
+      "【1500R Curved Viewing Comfort】 Designed with a deep 1500R curvature and 178° viewing angle, this curved pc monitor minimises head movement, wrapping content around you for true immersion. Enjoy ergonomic tilt adjustment (-15°/+15°) and VESA 75x75mm wall-mount compatibility.",
+      "【Flexible Connectivity Options】 Connect effortlessly with 2x HDMI, 2x DisplayPort, and a 3.5mm audio jack. This versatile monitor seamlessly links to laptops, PCs, and consoles for immersive gaming and multitasking.",
+      "【Enhanced Visuals & Reliability】 This high-performance gaming monitor showcases 16.7 million colours accurately on its large screen. Backed by premium quality and dedicated support for your peace of mind."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "34 inch ultrawide curved gaming"
+    ]
+  },
+  "B0F234D8G9": {
+    "asin": "B0F234D8G9",
+    "title": "ASUS TUF Gaming 24” (23.8” viewable) 1080P Monitor (VG249QE5A) - FHD, 144Hz Overclock to 146Hz, IPS, Extreme Low Motion Blur Sync, 1ms, Speakers, Variable Overdrive, DisplayWidget Center, 3yr Warranty",
+    "brand": "ASUS",
+    "price": "$126.99",
+    "img": "https://m.media-amazon.com/images/I/41bIHU+djcL._SL500_.jpg",
+    "features": [
+      "23.8-inch Full HD(1920x1080) gaming monitor with 146Hz (OC) refresh rate designed for professional gamers and immersive gameplay",
+      "ASUS Extreme Low Motion Blur Sync (ELMB Sync) technology enables ELMB and variable-refresh-rate technologies to work simultaneously to eliminate ghosting and tearing for sharp gaming visuals with high frame rates",
+      "DisplayWidget Center enables easy monitor settings adjustments with a mouse",
+      "Shadow Boost enhances image details in dark areas, brightening scenes without over-exposing bright areas",
+      "What’s in the box: HDMI cable, Power cord, Quick start guide, Warranty Card"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS TUF gaming monitor"
+    ]
+  },
+  "B0DQ9MMZVV": {
+    "asin": "B0DQ9MMZVV",
+    "title": "ASUS TUF Gaming VG32WQ3B 32 Inch 1440p 180Hz HDR Curved Gaming Monitor",
+    "brand": "ASUS",
+    "price": "$249.00",
+    "img": "https://m.media-amazon.com/images/I/41L0F6ByOrL._SL500_.jpg",
+    "features": [
+      "31.5-inch QHD 1500R Curved Gaming Monitor: Features ultra-fast 180Hz refresh rate designed for professional gamers and immersive gameplay with 2560 x 1440 resolution",
+      "Ultra-Fast Response Time: 0.5ms (GTG) response time delivers smooth gameplay, and ASUS Extreme Low Motion Blur (ELMB ) technology further reduces ghosting and motion blur",
+      "FreeSync Technology: Delivers a seamless, tear-free gaming experience by enabling VRR (variable refresh rate) by default for synchronized frame rates",
+      "Shadow Boost Technology: Enhances image details in dark areas, brightening scenes without over-exposing bright areas for better visibility during gameplay",
+      "Package Contents: Includes DisplayPort cable, L-shaped Screwdriver, Power cord, Quick start guide, and Warranty Card",
+      "Wide Color Gamut Coverage: Covers 90% of the DCI-P3 color space providing vibrant contrast and lifelike colors for enhanced visual experience",
+      "Three Year Warranty: Backed by a 3-year manufacturer warranty for long-term reliability and peace of mind",
+      "Free 3-month Adobe Creative Cloud Subscription: Receive complimentary access with the purchase of this product (offer valid to 8/31/2028)"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS TUF gaming monitor"
+    ]
+  },
+  "B0F233D6W1": {
+    "asin": "B0F233D6W1",
+    "title": "ASUS TUF Gaming VG27AQM5A 27 Inch 1440p 300Hz G-SYNC Gaming Monitor",
+    "brand": "ASUS",
+    "price": "$269.99",
+    "img": "https://m.media-amazon.com/images/I/414szQmVnCL._SL500_.jpg",
+    "features": [
+      "High-Resolution QHD Gaming Display: 27-inch QHD (2560x1440) gaming monitor with 300Hz refresh rate designed for professional gamers and immersive gameplay",
+      "Fast IPS Technology with Rapid Response Time: ASUS Fast IPS technology enables a 0.3ms (GTG) response time(min.) for sharp gaming visuals with high frame rates",
+      "Advanced Motion Blur Reduction: ASUS Extreme Low Motion Blur Sync (ELMB Sync) technology enables ELMB and variable-refresh-rate technologies to work simultaneously to eliminate ghosting and tearing for sharp gaming visuals",
+      "Convenient Settings Management: DisplayWidget Center enables easy monitor settings adjustments with a mouse",
+      "Enhanced Dark Scene Visibility: Shadow Boost enhances image details in dark areas, brightening scenes without over-exposing bright areas",
+      "Wide Color Gamut Coverage: Features 95% DCI-P3 color gamut to deliver vibrant and accurate colors for enhanced visual experience during gaming and content creation",
+      "Built-In Audio and Warranty: Includes integrated speakers for convenient audio output and comes with a 3-year manufacturer warranty for peace of mind",
+      "Free 3-month Adobe Creative Cloud Subscription: Receive complimentary access with the purchase of this product (offer valid to 8/31/2028)"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "ASUS TUF gaming monitor"
+    ]
+  },
+  "B0F3B127L5": {
+    "asin": "B0F3B127L5",
+    "title": "Acer DM431K A 43\" Class 4K UHD LED Monitor - 16:9 - Black",
+    "brand": "Acer",
+    "price": "$349.50",
+    "img": "https://m.media-amazon.com/images/I/61l77kjPMSL._SL500_.jpg",
+    "features": [
+      "43 inch viewable screen size delivers high-fidelity visuals with accurate brightness and color across all content types",
+      "LED backlight technology enhances brightness and contrast while using less power for vivid visuals and energy-efficient performance",
+      "4 ms response time reduces motion blur and ghosting, delivering smooth frame transitions in high-speed gaming and video playback",
+      "Adaptive Sync tearing prevention technology provides smooth, clear, and lag-free display through real-time refresh synchronization",
+      "16:9 widescreen layout enhances multitasking and visual depth, making it suitable for both creative workflows and media consumption",
+      "Furnishes captivating visuals with 250 Nit brightness levels that deliver clear, vibrant images in both bright and dim settings",
+      "HDR10 feature enhances stability and system control for consistent, uninterrupted performance",
+      "3840 x 2160 maximum resolution produces vibrant, high-definition visuals with optimized clarity for accurate viewing",
+      "LED Monitor is reliable and delivers consistent performance for extended use",
+      "4K UHD resolution offers breathtaking clarity and detail, ideal for creative work, entertainment, and multitasking"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "large 43 inch gaming monitor"
+    ]
+  },
+  "B0GP9FFRMB": {
+    "asin": "B0GP9FFRMB",
+    "title": "Samsung 43-Inch Class M70H Series, Mini LED, 4K, Smart TV, 2026 Model",
+    "brand": "Samsung",
+    "price": "$297.99",
+    "img": "https://m.media-amazon.com/images/I/41Ea8qlC-XL._SL500_.jpg",
+    "features": [
+      "MINI LED PROCESSOR 4K: Our advanced processor delivers brighter highlights and deeper blacks,* bringing every detail to life with stunning clarity",
+      "PURE COLOR SPECTRUM: delivers one billion true-to-life colors, powered by advanced color technology and MiniLED precision. Enjoy rich reds, deep blues, and vibrant greens, making every scene leap off the screen with breathtaking realism.",
+      "MINI LED HDR: Experience HDR picture quality with brighter highlights and deeper blacks than traditional HDR TVs.* Enjoy vibrant colors and lifelike details as this technology enhances brightness and contrast, making every image stand out with remarkable depth and realism.",
+      "ENDLESS FREE CONTENT: Watch 2,700+ free streaming options, including 750+ subscription-free channels on Samsung TV Plus. Enjoy news, sports, movies, kids' shows and reality TV — all without a subscription. Discover endless entertainment with new content added regularly, tailored to your mood and interests.*",
+      "SUPREME MINI LED DIMMING: delivers deep contrast and bright highlights for a truly superb picture.*",
+      "MOTION XCELERATOR + DLG 120HZ: Enjoy smooth visuals and fast motion clarity with technology that analyzes and optimizes the refresh rate.* Designed for gaming and sports to keep every scene sharp and fluid. Enjoy seamless action and responsive performance that elevates your viewing experience.",
+      "COLOR BOOSTER: From fiery reds to sparkling blues, make every color come to life with intensity. Color Booster transforms your content into a visual masterpiece",
+      "SOCCER MODE: Enjoy a stadium-like experience from your living room. Optimized settings ensure you see every pass, shot, and goal in stunning detail. Specialized settings deliver 40% clearer motion* for fast action and 30% more vibrant greens** for realistic turf, putting you right in the stadium.",
+      "GAMING HUB: A central hub that brings together your favorite games from your consoles, cloud services and gaming apps, all in one place. It also offers personalized recommendations so you can easily find what to play next."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "large 43 inch gaming monitor"
+    ]
+  },
+  "B0BNM56PF5": {
+    "asin": "B0BNM56PF5",
+    "title": "INNOCN 43 Inch 4K Ultrawide Gaming Monitor 144Hz USB Type C PC Desktop AMD Freesync Larger PC HDR400 Monitor, Built-in Stereo Speakers, DisplayPort, HDMI, Height Adjustable, Black",
+    "brand": "INNOCN",
+    "price": "$459.99",
+    "img": "https://m.media-amazon.com/images/I/51j6GjzCQ8L._SL500_.jpg",
+    "features": [
+      "43 Inch 4K 144Hz",
+      "HDR400",
+      "Built-in Stereo Speakers",
+      "USB Type C power delivery",
+      "Height adjustable stand"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "large 43 inch gaming monitor"
+    ]
+  },
+  "B0G1DZM5QW": {
+    "asin": "B0G1DZM5QW",
+    "title": "Samsung 32” Odyssey G5 (G50F) Series QHD Gaming Monitor",
+    "brand": "Samsung",
+    "price": "$199.99",
+    "img": "https://m.media-amazon.com/images/I/519yG3CUXUL._SL500_.jpg",
+    "features": [
+      "Samsung’s 32” Odyssey G5 QHD Gaming Monitor delivers brilliant visuals for exhilarating gameplay that’s more immersive than ever before.",
+      "QHD resolution (2560 x 1440) boasts incredibly detailed, pin-sharp images.",
+      "With a wide 178° viewing angle, the IPS panel consistently delivers crisp, clear hues from various viewpoints.",
+      "180Hz Refresh Rate and 1ms response time (GtG) allow fast reactions for ultra-smooth gaming, plus G-Sync compatibility syncs the GPU and panel to reduce choppiness, screen lag, and image tearing.",
+      "HDR10 provides brighter highlights and nuanced shadows for added depth.",
+      "Black Equalizer improves visibility in the deepest shadows, while Virtual Aim Point increases the accuracy of the player’s aim.",
+      "Auto Source Switch+ allows instantaneous switching between connected devices and the height-adjustable Ergonomic Stand easily pivots, tilts, and swivels for the perfect view."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "large 43 inch gaming monitor"
+    ]
+  },
+  "B09ZHQ93VJ": {
+    "asin": "B09ZHQ93VJ",
+    "title": "Samsung 43\" M70B Series 4K UHD USB-C Smart Monitor & Streaming TV, 4ms, 60Hz, HDR10, Wireless Display, Gaming and IoT Hubs, Alexa Built-in, 2022, LS43BM702UNXZA, Black",
+    "brand": "Samsung",
+    "price": "$379.99",
+    "img": "https://m.media-amazon.com/images/I/41quqCNXTcL._SL500_.jpg",
+    "features": [
+      "WATCH, PLAY, LIVE IN STYLE: Everything you need is right in your screen - all without connecting a separate PC - with the Smart Monitor; Your favorite content, productivity and video call apps are built in for a simpler and more stylish desktop setup*.Mounting Type:Wall Mount (Size mm) 100 x 100.Aspect Ratio 16:9.Image Aspect ratio:16:9.Power Supply : AC 100-240V. Operation Conditions - Temperature : 10-40 ℃.",
+      "SMART TV EXPERIENCE: Effortless entertainment with a simple WiFi connection; Enjoy your favorite streaming apps in real 4K HDR, often difficult to experience on a PC environment; Samsung TV Plus offers free live content with no downloads or sign-ups, and personalized content recommendations from Universal Guide**",
+      "PC-LESS PRODUCTIVITY: Browse the web, edit documents and work on projects, all without the need for a separate PC; With new Workmode, you can also remotely access another PC, use Microsoft 365 programs and even connect to Samsung mobile devices with Samsung DeX for seamless working***",
+      "SLIMFIT CAMERA: The SlimFit camera with tilt functionality allows you to create the perfect angle while using your favorite video call apps like Google Duo, which can be accessed directly through the monitor; Plus, the camera cover and option to fully detach always protect your privacy****",
+      "IoT HUB: Turn your Smart Monitor into a control center for the home by connecting it to your IoT home products with SmartThings; Turn off lights, pull down blinds and set the thermostat to the perfect temperature all with the Smart Monitor for a perfectly relaxed evening*****",
+      "MULTIPLE VOICE ASSISTANTS: With the Far Field Voice feature, activate your voice assistant just by speaking; Directly command the monitor – even at a distance – and tell it what you need; The Smart Monitor supports both Bixby and Amazon Alexa******",
+      "MOBILE CONNECTIVITY: With AirPlay integration, you can wirelessly connect Apple devices to the Smart Monitor and view on a bigger screen; Enjoy your favorite content from an iPhone, iPad, and Mac and even mirror apps, documents, and websites",
+      "Everything you need is right in your screen. Watch, work and chat - all without connecting a separate PC - with Smart Monitor. Your favorite content, productivity and video call apps are built-in for a simpler and more stylish desk setup that’s a joy to use every time. Features include the new Smart Hub UX/UI with OTT apps, TV Plus, HAS, increased brightness, and AI Upscaling with enhanced processor apps such as Netflix, YouTube, and HBO. There’s also gaming and IoT Hubs, Multiview, SmartThings with FFV and multiple AoVs, Slim Fit Camera in package and video communication apps."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "large 43 inch gaming monitor"
+    ]
+  },
+  "B0DW54D7HH": {
+    "asin": "B0DW54D7HH",
+    "title": "CCTVPRO 43 Inch Surveillance Grade Large Size, 4K LCD Monitor Screen, HDMI/VGA/DVI/BNC Inputs, 3840 x2160 HD, 16:9, 5ms Response, Designed for CCTV Security DVR/NVR Camera System",
+    "brand": "CCTVPRO",
+    "price": "$341.99",
+    "img": "https://m.media-amazon.com/images/I/51nnn-0gmCL._SL500_.jpg",
+    "features": [
+      "【Full HD Resolution】: Features 10-bit image processing, progressive scanning, and 3D noise reduction, brings every detail to life with 43-inch screen with a 3840x2160 resolution ensures clear and detailed images, security Monitor ensures you can identify faces, license plates, and other critical information from your security cameras with exceptional clarity.",
+      "【Fast 5ms Response Time】: This 5ms monitor effectively eliminates motion blur and ghosting, ensuring real-time tracking of fast-moving subjects. A low latency screen is essential for security applications, providing smooth and accurate video playback, allowing you to monitor live action accurately without any lag or delay.",
+      "【24/7 Continuous Operation】: Built for non-stop security monitoring, this heavy duty surveillance screen offers reliable performance around the clock. It's the perfect choice for CCTV systems, DVRs, and NVRs in warehouses, garages, or retail stores.",
+      "【Designed for Security Applications】: Optimized for both brightly lit and low-light scenes from your CCTV cameras; reproduces clear and distinguishable images even in challenging lighting conditions to minimize blind spots.",
+      "【Wide Compatibility & Durability】: Equipped with HDMI, VGA, and BNC ports for easy connection to most DVRs and NVRs; features a durable housing and VESA mountable design for a secure and space-saving installation in any control room."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "large 43 inch gaming monitor"
+    ]
+  },
+  "B0FHL66FPY": {
+    "asin": "B0FHL66FPY",
+    "title": "Hisense 43\" E6 Cinema Series Hi-QLED 4K UHD Smart Fire TV (43E6QF) - AI Light Sensor, Dolby Vision · Atmos, Voice Remote with Alexa, Motion Rate 120, HDR 10+ Adaptive, Game Mode Plus",
+    "brand": "Hisense",
+    "price": "$207.99",
+    "img": "https://m.media-amazon.com/images/I/41fTZj5jvEL._SL500_.jpg",
+    "features": [
+      "HI-QLED COLOR: Experience a visual treat with Hi-QLED Color. Every frame is rich, vibrant, and true-to-life, ensuring that every shade, from soft pastels to bold and striking tones, stands out in stunning clarity",
+      "TOTAL HDR SOLUTION: See every basket and goal in all its glory. Total HDR Solution distinguishes between the colors you perceive on screen. That means ink-black blacks, not muddled tones and brighter, more vibrant colors with every HDR format, including Dolby Vision, HDR 10+Adaptive, HDR 10 and HLG",
+      "DOLBY VISION AND DOLBY ATMOS: The fusion of Dolby Vision HDR imaging and Dolby Atmos sound transforms your TV into an entertainment powerhouse. These image and sound technologies from the cinema, now brought together for the home, provide amazing realism that you’ll see, hear, and feel like never before",
+      "FIRE TV: Fire TV seamlessly integrates your favorite live channels and apps on the home screen, or you can browse the Channel Guide in Live",
+      "PRESS & ASK | ALEXA: Just press and ask Alexa to find, launch, and control your content. Go beyond streaming to check sports scores, set timers, reminders, and more",
+      "FILMMAKER MODE: Watch classic shows and movies just as the filmmaker intended. Filmmaker Mode shows you the picture as it was originally envisioned, before it was adapted for every audience. This feature automatically adjusts your settings, so you can experience the original aspect ratio, frame rate, color and audio",
+      "AI LIGHT SENSOR: No matter the time of the day, your TV detects and adjusts screen brightness automatically in response to ambient light to save electricity. Balance energy savings with quality viewing",
+      "AI 4K UPSCALER: Stream your favorite content with striking clarity. AI 4K Upscaler uses machine learning models to enhance low-resolution content to near 4K quality. Watch beloved movies, home videos and TV broadcasts with sharper edges, more detailed textures and improved visual quality",
+      "AI SMOOTH MOTION WITH MEMC: See all the action clearly, including super-fast breakaways and three-point plays. The AI Smooth Motion is powered by advanced features like MEMC, AI Noise Reduction and a built-in highly responsive panel to create an ultra-crisp, blur-free picture—no matter the speed of movement on the screen",
+      "WIFI 6: Enjoy faster speeds, greater stability, and improved capacity with WiFi 6. Compared to WiFi 5, it handles more devices at once with lower latency, perfect for seamless streaming and smart home use"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "large 43 inch gaming monitor"
     ]
   }
 }

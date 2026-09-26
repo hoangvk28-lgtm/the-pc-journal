@@ -21,6 +21,25 @@ import { batch12b } from "@/data/clusters/batch12b";
 import { batch12c } from "@/data/clusters/batch12c";
 import { batch12d } from "@/data/clusters/batch12d";
 import { batch12e } from "@/data/clusters/batch12e";
+import { batch13c } from "@/data/clusters/batch13c";
+import { batch13c2 } from "@/data/clusters/batch13c2";
+import { batch13c3 } from "@/data/clusters/batch13c3";
+import { batch13c4 } from "@/data/clusters/batch13c4";
+import { batch13a } from "@/data/clusters/batch13a";
+import { batch13a2 } from "@/data/clusters/batch13a2";
+import { batch13a3 } from "@/data/clusters/batch13a3";
+import { batch13a4 } from "@/data/clusters/batch13a4";
+import { batch13a5 } from "@/data/clusters/batch13a5";
+import { batch13b } from "@/data/clusters/batch13b";
+import { batch13b2 } from "@/data/clusters/batch13b2";
+import { batch13b3 } from "@/data/clusters/batch13b3";
+import { batch13d } from "@/data/clusters/batch13d";
+import { batch13d2 } from "@/data/clusters/batch13d2";
+import { batch13d3 } from "@/data/clusters/batch13d3";
+import { batch13e } from "@/data/clusters/batch13e";
+import { batch13e2 } from "@/data/clusters/batch13e2";
+import { batch13e3 } from "@/data/clusters/batch13e3";
+import { batch13e4 } from "@/data/clusters/batch13e4";
 import { composeGuide } from "@/lib/pc-compose/generic";
 import { fixtures } from "@/data/fixtures/pc-fixtures";
 import type { PcArticle, PcCategory } from "./types";
@@ -30,7 +49,7 @@ import { validateArticle, type ValidationIssue } from "./validate";
 export * from "./types";
 
 /** Registry of all article records. Add new articles here. */
-const allArticles: PcArticle[] = [...publishedGuides, ...draftBuyingGuides, ...psuCluster.map(composePsuGuide), ...[...batch2, ...batch3, ...batch4, ...batch5, ...batch6, ...batch7, ...batch8, ...batch9, ...batch10, ...batch10b, ...batch10c, ...batch11, ...batch11b, ...batch11c, ...batch12, ...batch12b, ...batch12c, ...batch12d, ...batch12e].map((b) => composeGuide(b.cfg, b.schema, b.facts))];
+const allArticles: PcArticle[] = [...publishedGuides, ...draftBuyingGuides, ...psuCluster.map(composePsuGuide), ...[...batch2, ...batch3, ...batch4, ...batch5, ...batch6, ...batch7, ...batch8, ...batch9, ...batch10, ...batch10b, ...batch10c, ...batch11, ...batch11b, ...batch11c, ...batch12, ...batch12b, ...batch12c, ...batch12d, ...batch12e, ...batch13c, ...batch13c2, ...batch13c3, ...batch13c4, ...batch13a, ...batch13a2, ...batch13a3, ...batch13a4, ...batch13a5, ...batch13b, ...batch13b2, ...batch13b3, ...batch13d, ...batch13d2, ...batch13d3, ...batch13e, ...batch13e2, ...batch13e3, ...batch13e4].map((b) => composeGuide(b.cfg, b.schema, b.facts))];
 
 export const registry: readonly PcArticle[] = allArticles;
 

@@ -1,0 +1,130 @@
+import { brand, build, by, tower, where, white, price, n } from "./batch13a-lib";
+import type { Fact } from "@/lib/pc-compose/generic";
+
+/** Batch 13a (3/5): brand roundups (every pick is that brand), white, RGB and liquid-cooled systems. */
+const alien = (f: Fact) => brand(f, /Alienware/i);
+const aurora = (f: Fact) => brand(f, /Aurora/i);
+const dell = (f: Fact) => brand(f, /Alienware|\bDell\b/i);
+const cyber = (f: Fact) => brand(f, /cyberpower/i);
+const ibp = (f: Fact) => brand(f, /ibuypower/i);
+const msi = (f: Fact) => brand(f, /\bmsi\b/i);
+const sky = (f: Fact) => brand(f, /skytech/i);
+const rgb = (f: Fact) => tower(f) && brand(f, /\bRGB\b/i);
+const liquid = (f: Fact) => tower(f) && brand(f, /liquid|\bAIO\b|360\s?mm|240\s?mm|280\s?mm/i);
+const RB = ["best-prebuilt-gaming-pcs", "best-prebuilt-gaming-pcs-under-2000"];
+const RW = ["best-white-prebuilt-gaming-pcs", "best-prebuilt-gaming-pcs"];
+
+export const batch13a3 = [
+  // Alienware and Dell
+  build({ slug: "best-alienware-aurora-gaming-desktop", kw: "alienware aurora gaming desktop", seo: "Best Alienware Aurora Gaming Desktops", h1: "The Best Alienware Aurora Gaming Desktops",
+    cands: where(aurora, by.priceAsc), count: 4, what: "Alienware Aurora gaming desktops",
+    lead: "The Aurora is Alienware's mainstream tower. The configurations we found with every part named run from a Core Ultra 7 265F with an RTX 5070 to a Core Ultra 9 285K with an RTX 5080.",
+    teaser: "Four Aurora configurations, from RTX 5070 to RTX 5080.",
+    close: "One of these is sold by a reseller with upgraded memory; check whose warranty applies before buying.", crit: ["gpu", "warranty", "listing"], rel: RB }),
+  build({ slug: "best-alienware-desktop-gaming-computer", kw: "alienware desktop gaming computer", seo: "Best Alienware Desktop Gaming Computers", h1: "The Best Alienware Desktop Gaming Computers",
+    cands: where(alien, by.vram), count: 5, what: "Alienware desktop gaming computers",
+    lead: "Alienware sells two desktop lines: the Aurora and the larger Area-51. We ordered these by graphics memory, so the RTX 5090 Area-51 leads.",
+    teaser: "Aurora and Area-51 systems ordered by graphics memory.",
+    close: "The Area-51 costs far more; the Aurora covers 1440p and most 4K play for less.", rel: RB }),
+  build({ slug: "best-alienware-desktop-gaming-pc", kw: "alienware desktop gaming pc", seo: "Best Alienware Desktop Gaming PCs", h1: "The Best Alienware Desktop Gaming PCs",
+    cands: where(alien, by.ram), count: 3, what: "Alienware desktop gaming PCs",
+    lead: "If you plan to stream, edit or run heavy apps beside games, memory matters. These three Alienware systems list 32GB or 64GB of DDR5.",
+    teaser: "Three Alienware desktops ranked by memory.",
+    close: "64GB is more than games need; it pays off only for editing or large creative projects.", crit: ["memory-storage", "gpu", "psu"], rel: RB }),
+  build({ slug: "best-alienware-gaming-desktop", kw: "alienware gaming desktop", seo: "Best Alienware Gaming Desktops", h1: "The Best Alienware Gaming Desktops",
+    cands: where(alien, by.priceDesc, 1), count: 4, what: "Alienware gaming desktops",
+    lead: "Alienware's current desktops use Intel Core Ultra processors with RTX 50-series graphics. These four skip the most expensive configuration and span the rest of the range.",
+    teaser: "Four Alienware desktops below the flagship RTX 5090 build.",
+    close: "Compare the PSU wattage each listing states; the Area-51 lists the largest.", crit: ["psu", "gpu", "cpu"], rel: RB }),
+  build({ slug: "best-dell-gaming-desktop", kw: "dell gaming desktop", seo: "Best Dell Gaming Desktops", h1: "The Best Dell Gaming Desktops",
+    cands: where(dell, by.priceAsc), count: 5, what: "Dell and Alienware gaming desktops",
+    lead: "Dell sells gaming desktops under its own name (Dell Tower and Tower Plus) and under Alienware. These five are the lower-priced configurations that name every part.",
+    teaser: "Dell Tower, Tower Plus and Alienware systems, lowest price first.",
+    close: "The plain Dell towers suit a quiet office look; Alienware adds a showier case and larger cooling.", rel: RB }),
+  build({ slug: "best-dell-gaming-desktop-pc", kw: "dell gaming desktop pc", seo: "Best Dell Gaming Desktop PCs", h1: "The Best Dell Gaming Desktop PCs",
+    cands: where((f) => dell(f) && price(f) < 4000, by.vram, 2), count: 6, what: "Dell and Alienware gaming desktop PCs",
+    lead: "Below $4,000, Dell's gaming desktops run from an RTX 5060 Dell Tower to RTX 5080 Alienware systems. These six cover that span.",
+    teaser: "Six Dell and Alienware desktops below $4,000.",
+    close: "Resellers sell some Dell Tower Plus units with upgraded parts; their one-year warranty is the reseller's, not Dell's.", crit: ["gpu", "warranty", "memory-storage"], rel: RB }),
+
+  // CyberPowerPC
+  build({ slug: "best-cyberpower-gaming-desktop", kw: "cyberpower gaming desktop", seo: "Best CyberPower Gaming Desktops", h1: "The Best CyberPower Gaming Desktops",
+    cands: where(cyber, by.priceAsc), count: 5, what: "CyberPowerPC gaming desktops",
+    lead: "CyberPowerPC builds most of its Amazon systems around RTX 5060 and RTX 5060 Ti cards. These five are the lowest-priced listings that name every part.",
+    teaser: "CyberPowerPC's lower-priced RTX 5060 and 5060 Ti systems.",
+    close: "Most CyberPowerPC listings state one year of parts and labor; check the one you pick does.", rel: RB }),
+  build({ slug: "best-cyberpower-gaming-pc", kw: "cyberpower gaming pc", seo: "Best CyberPower Gaming PCs", h1: "The Best CyberPower Gaming PCs",
+    cands: where(cyber, by.vram), count: 4, what: "CyberPowerPC gaming PCs",
+    lead: "CyberPowerPC sells two 16GB graphics options: the RTX 5060 Ti 16GB and the Radeon RX 9060 XT 16GB. We ordered these by VRAM so those come first.",
+    teaser: "CyberPowerPC systems ordered by graphics memory.",
+    close: "For 1440p, the 16GB configurations are the ones to choose.", crit: ["gpu", "memory-storage", "warranty"], rel: RB }),
+  build({ slug: "best-cyberpower-pc-gaming-desktop", kw: "cyberpower pc gaming desktop", seo: "Best CyberPower PC Gaming Desktops", h1: "The Best CyberPower PC Gaming Desktops",
+    cands: where(cyber, by.ssd, 1), count: 3, what: "CyberPower PC gaming desktops",
+    lead: "Several CyberPowerPC listings double storage to 2TB. These three are the configurations where storage stands out.",
+    teaser: "Three CyberPowerPC desktops with 2TB SSDs.",
+    close: "A 2TB drive saves adding a second SSD later, which is useful in cases with few M.2 slots.", crit: ["memory-storage", "gpu", "listing"], rel: RB }),
+  build({ slug: "best-cyberpowerpc-gaming-desktop", kw: "cyberpowerpc gaming desktop", seo: "Best CyberPowerPC Gaming Desktops", h1: "The Best CyberPowerPC Gaming Desktops",
+    cands: where(cyber, by.priceDesc), count: 6, what: "CyberPowerPC gaming desktops",
+    lead: "CyberPowerPC's range here tops out with a 12-core Ryzen 9 9900X and RTX 5070. These six run from that system down through the RTX 5060 Ti and RTX 5060 builds.",
+    teaser: "Six CyberPowerPC desktops, from the Ryzen 9 build down.",
+    close: "The CPU steps up faster than the GPU across this range, so pick by the graphics card first.", crit: ["cpu", "gpu", "warranty"], rel: RB }),
+
+  // iBUYPOWER, MSI, Skytech
+  build({ slug: "best-gaming-desktop-ibuypower", kw: "gaming desktop ibuypower", seo: "Best iBUYPOWER Gaming Desktops", h1: "The Best iBUYPOWER Gaming Desktops",
+    cands: where(ibp, by.priceAsc), count: 6, what: "iBUYPOWER gaming desktops",
+    lead: "iBUYPOWER's budget and mid-range lines (Element, Slate and Scale) cover RTX 3050 to RTX 4060 Ti systems, plus an Intel Arc B570 option. These are the six lowest-priced.",
+    teaser: "iBUYPOWER's lower-priced Element, Slate and Scale systems.",
+    close: "iBUYPOWER listings rarely state PSU wattage; ask before planning a bigger graphics card.", rel: RB }),
+  build({ slug: "best-ibuypower-gaming-desktop-pc", kw: "ibuypower gaming desktop pc", seo: "Best iBUYPOWER Gaming Desktop PCs", h1: "The Best iBUYPOWER Gaming Desktop PCs",
+    cands: where(ibp, by.vram), count: 5, what: "iBUYPOWER gaming desktop PCs",
+    lead: "At the top of iBUYPOWER's range, the Y40 case holds RTX 5070 and RTX 5070 Ti builds. We ranked by graphics memory, so the 16GB RTX 5070 Ti leads.",
+    teaser: "iBUYPOWER's Y40 and Element systems ranked by graphics memory.",
+    close: "The Y40's dual-chamber glass case suits RGB builds; the Element is plainer and costs less.", crit: ["gpu", "cpu", "listing"], rel: RB }),
+  build({ slug: "best-msi-gaming-desktop", kw: "msi gaming desktop", seo: "Best MSI Gaming Desktops", h1: "The Best MSI Gaming Desktops",
+    cands: where(msi, by.priceAsc), count: 4, what: "MSI gaming desktops",
+    lead: "MSI builds its desktops from its own boards and graphics cards. These four run from an Aegis ZS with an RTX 4060 up to a Vision ZS that pairs a Ryzen 7 9800X3D with an RTX 5070.",
+    teaser: "MSI's Aegis, Codex and Vision systems, lowest price first.",
+    close: "MSI listings leave out PSU wattage; ask before planning a GPU upgrade.", rel: RB }),
+  build({ slug: "best-msi-gaming-desktop-pc", kw: "msi gaming desktop pc", seo: "Best MSI Gaming Desktop PCs", h1: "The Best MSI Gaming Desktop PCs",
+    cands: where(msi, by.vram), count: 3, what: "MSI gaming desktop PCs",
+    lead: "MSI's high-end desktops include the Infinite ZS with an RTX 5090 and the Aegis ZS with an RTX 5080. We ordered these three by graphics memory.",
+    teaser: "Three MSI desktops ordered by graphics memory, up to the RTX 5090.",
+    close: "The Infinite ZS is for 4K at the highest settings; the Aegis ZS RTX 5080 covers 4K for much less.", crit: ["gpu", "cpu", "memory-storage"], rel: RB }),
+  build({ slug: "best-skytech-gaming-desktop", kw: "skytech gaming desktop", seo: "Best Skytech Gaming Desktops", h1: "The Best Skytech Gaming Desktops",
+    cands: where((f) => sky(f) && price(f) < 4000, by.value, 3), count: 6, what: "Skytech gaming desktops",
+    lead: "Skytech sells more complete configurations on Amazon than any other builder we researched, and every listing here states a one-year parts and labor warranty. These six balance graphics memory and RAM against price.",
+    teaser: "Six Skytech systems ranked by graphics and memory for the price.",
+    close: "Skytech's King 95 and Azure cases differ mostly in looks; compare the parts list first.", crit: ["gpu", "warranty", "memory-storage"], rel: RB }),
+
+  // White, RGB, liquid-cooled
+  build({ slug: "best-all-white-gaming-pc", kw: "all white gaming pc", seo: "Best All-White Gaming PCs", h1: "The Best All-White Gaming PCs",
+    cands: where((f) => white(f) && tower(f), by.priceDesc), count: 5, what: "all-white gaming PCs",
+    lead: "All-white builds are the high end of the white range. The most expensive listings pair a white case with a white AIO cooler, and some add a white graphics card.",
+    teaser: "The pricier white builds, with white coolers and cards.",
+    close: "Check the listing photos for the graphics card and cooler colour; a white case alone does not make an all-white build.", rel: RW }),
+  build({ slug: "best-white-gaming-pc", kw: "white gaming pc", seo: "Best White Gaming PCs", h1: "The Best White Gaming PCs",
+    cands: where((f) => white(f) && tower(f), by.priceAsc), count: 5, what: "white gaming PCs",
+    lead: "White gaming PCs start below $800 at the time of writing. These five are the lowest-priced white builds that name every part.",
+    teaser: "The lowest-priced white builds that name every part.",
+    close: "The cheapest white build has a 4GB card; step up to an 8GB card for newer games.", rel: RW }),
+  build({ slug: "best-white-pre-built-gaming-pc", kw: "white pre built gaming pc", seo: "Best White Pre-Built Gaming PCs", h1: "The Best White Pre-Built Gaming PCs",
+    cands: where((f) => white(f) && tower(f), by.vram, 3), count: 4, what: "white pre-built gaming PCs",
+    lead: "Among white pre-builts, the graphics card varies more than the case. We ranked these four by VRAM.",
+    teaser: "White pre-builts ranked by graphics memory.",
+    close: "A 16GB card in a white build is the one to choose for 1440p.", crit: ["gpu", "listing", "psu"], rel: RW }),
+  build({ slug: "best-white-prebuilt-gaming-pc", kw: "white prebuilt gaming pc", seo: "Best White Prebuilt Gaming PC", h1: "The Best White Prebuilt Gaming PC",
+    cands: where((f) => white(f) && tower(f) && n(f, "psu") > 0, by.priceAsc), count: 4, what: "white prebuilt gaming PCs with a named PSU",
+    lead: "These white prebuilts all state their power supply wattage, which few white builds under $2,000 do.",
+    teaser: "White prebuilts that state their power supply wattage.",
+    close: "A named PSU makes a later GPU upgrade easier to plan.", crit: ["psu", "gpu", "warranty"], rel: RW }),
+  build({ slug: "best-rgb-gaming-pc", kw: "rgb gaming pc", seo: "Best RGB Gaming PCs", h1: "The Best RGB Gaming PCs",
+    cands: where(rgb, by.priceAsc, 4), count: 5, what: "RGB gaming PCs",
+    lead: "Most gaming PCs ship with some RGB lighting. These five list RGB memory or fans in their listing titles, and name every core part.",
+    teaser: "Systems whose listings name RGB memory or fans.",
+    close: "RGB is controlled through the motherboard or case software; check which one the listing names.", rel: RB }),
+  build({ slug: "best-gaming-pc-liquid-cooled", kw: "gaming pc liquid cooled", seo: "Best Liquid-Cooled Gaming PCs", h1: "The Best Liquid-Cooled Gaming PCs",
+    cands: where(liquid, by.priceAsc, 2), count: 5, what: "liquid-cooled gaming PCs",
+    lead: "Liquid cooling in prebuilts means an all-in-one (AIO) CPU cooler. These five name a liquid cooler or AIO in their listings.",
+    teaser: "Systems that name an AIO or liquid CPU cooler.",
+    close: "AIO coolers are quiet under load but add a pump that can fail; the warranty covers it in most listings here.", crit: ["cpu", "warranty", "gpu"], rel: RB }),
+];

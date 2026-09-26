@@ -243,7 +243,7 @@ export const ramxFacts: Record<string, Fact> = {
     F("B08PJNVWNZ", "TEAMGROUP T-Force Vulcan Z 16GB (2x8GB) DDR4-3200 CL16", "Vulcan Z 16GB", { gen: "DDR4", speed: 3200, cl: 16, capacity: 16 }, ["a low grey heatspreader"]),
     F("B07RS1G6XW", "CORSAIR Vengeance LPX 16GB (2x8GB) DDR4-3200 CL16", "Vengeance LPX 16GB", { gen: "DDR4", speed: 3200, cl: 16, capacity: 16, volt: 1.35, lowProfile: true }, ["timings of 16-20-20-38"]),
     F("B086X2SWTT", "TEAMGROUP Elite 16GB (2x8GB) DDR4-3200 CL22", "TEAMGROUP Elite DDR4", { gen: "DDR4", speed: 3200, cl: 22, capacity: 16, volt: 1.2 }, ["a 1.2V standard-voltage module", "a fallback to 2933 or 2666MT/s on older boards"]),
-    F("B0887QSHQC", "Patriot Signature Line 16GB (2x8GB) DDR4-3200", "Signature Line", { gen: "DDR4", speed: 3200, capacity: 16 }, ["a plain module without a heatspreader", "the lowest price among the kits here"]),
+    F("B0887QSHQC", "Patriot Signature Line 16GB (2x8GB) DDR4-3200", "Signature Line", { gen: "DDR4", speed: 3200, capacity: 16 }, ["a plain module without a heatspreader", "the lowest price among the kits here", "16GB as two 8GB modules for dual-channel"]),
   ]),
 };
 
@@ -260,7 +260,7 @@ export const ssdxFacts: Record<string, Fact> = {
     F("B0CK39YR9V", "Crucial T500 1TB", "T500 1TB", { capacity: 1, read: 7300, write: 6800, pcie: "PCIe 4.0 x4" }, ["Micron TLC NAND", "a design for laptops and desktops", "6,800MB/s rated writes"]),
     F("B0DHLFWBQ1", "Samsung 990 EVO Plus 1TB", "990 EVO Plus 1TB", { capacity: 1, read: 7150, write: 6300, pcie: "PCIe 4.0 x4 or 5.0 x2" }, ["a design that runs on PCIe 4.0 x4 or PCIe 5.0 x2 lanes", "Samsung Magician software for firmware updates"]),
     F("B0FJ8QFWBQ", "WD Blue SN5100 1TB", "SN5100 1TB", { capacity: 1, read: 7100, pcie: "PCIe 4.0 x4", warranty: 5 }, ["a five-year limited warranty", "the lowest price among the 1TB TLC-class drives here"]),
-    F("B0DBR3DZWG", "Kingston NV3 1TB", "NV3 1TB", { capacity: 1, read: 6000, pcie: "PCIe 4.0 x4", warranty: 5 }, ["the lowest price among the 1TB drives here"]),
+    F("B0DBR3DZWG", "Kingston NV3 1TB", "NV3 1TB", { capacity: 1, read: 6000, pcie: "PCIe 4.0 x4", warranty: 5 }, ["the lowest price among the 1TB drives here", "6,000MB/s rated reads on PCIe 4.0"]),
     F("B0DC8VPSHV", "Crucial P310 1TB", "P310 1TB", { capacity: 1, read: 7100, write: 6000, pcie: "PCIe 4.0 x4" }, ["an Acronis data migration bundle", "a design that also suits handheld consoles"]),
     F("B0DN6ZQ3PD", "WD_BLACK SN7100 2TB", "SN7100 2TB", { capacity: 2, read: 7250, write: 6900, pcie: "PCIe 4.0 x4" }, ["next-generation TLC NAND, per the listing", "the highest rated writes among the 2TB Gen4 drives here"]),
     F("B0CK2TC9XQ", "Crucial T500 2TB", "T500 2TB", { capacity: 2, read: 7400, write: 7000, pcie: "PCIe 4.0 x4" }, ["Micron TLC NAND", "an Acronis data migration bundle"]),
