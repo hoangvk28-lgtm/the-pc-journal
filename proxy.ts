@@ -19,8 +19,8 @@ export function proxy(request: NextRequest) {
   const publicPath = publicPages.has(pathname)
     || (pathname.startsWith("/guides/") && guideSlugs.has(pathname.slice("/guides/".length)))
     || (pathname.startsWith("/topics/") && topicSlugs.has(pathname.slice("/topics/".length)));
-  // Template fixtures (sample data) only when explicitly enabled for development.
-  const fixturePath = pathname.startsWith("/dev/fixtures/") && process.env.PCJ_ENABLE_FIXTURES === "true";
+  // Drafts and fixtures only when preview is explicitly enabled.
+  const fixturePath = pathname.startsWith("/dev/preview/") && process.env.PCJ_ENABLE_PREVIEW === "true";
   const infrastructurePath = pathname.startsWith("/_next/") || pathname.startsWith("/images/pcj/")
     || (pathname.startsWith("/admin") && !!process.env.ADMIN_EMAIL && !!process.env.ADMIN_PASSWORD && !!process.env.SESSION_SECRET)
     || (pathname.startsWith("/api/admin") && !!process.env.ADMIN_EMAIL && !!process.env.ADMIN_PASSWORD && !!process.env.SESSION_SECRET);

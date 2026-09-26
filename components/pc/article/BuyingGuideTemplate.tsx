@@ -23,8 +23,8 @@ function ComparisonTable({ article }: { article: BuyingGuide }) {
   return (
     <section>
       <h2 id="comparison" className={h2}>Comparison table</h2>
-      <p className="mt-2 text-sm text-ink-secondary">Specifications are manufacturer-listed values; see each product&apos;s sources. Scroll sideways on small screens.</p>
-      <div className="mt-4 overflow-x-auto border border-border bg-surface" role="region" aria-label="Product comparison" tabIndex={0}>
+      <p className="mt-2 text-sm text-ink-secondary">Each value links to its source in the product section below. Scroll sideways on small screens.</p>
+      <div className="relative mt-4 overflow-x-auto border border-border bg-surface" role="region" aria-label="Product comparison" tabIndex={0}>
         <table className="w-full border-collapse text-left text-[0.9375rem]" style={{ minWidth: `${Math.max(560, 200 + cols.length * 130)}px` }}>
           <thead className="bg-brand-light text-ink">
             <tr>
@@ -162,7 +162,7 @@ function CardGrid({ id, title, items }: { id: string; title: string; items: { ti
   );
 }
 
-export function BuyingGuideTemplate({ article, sample }: { article: BuyingGuide; sample?: boolean }) {
+export function BuyingGuideTemplate({ article, sample }: { article: BuyingGuide; sample?: "fixture" | "draft" }) {
   const showDisclosure = article.products.some((p) => resolveRetailerHref(p.retailer));
   const toc: TocEntry[] = [
     { id: "at-a-glance", label: "At a glance" },
@@ -232,7 +232,7 @@ export function BuyingGuideTemplate({ article, sample }: { article: BuyingGuide;
           <h2 id="bottom-line" className={h2}>The bottom line</h2>
           <p className="mt-3 text-[1.0625rem] leading-relaxed">{article.conclusion.summary}</p>
           {article.conclusion.paths.length > 0 && (
-            <div className="mt-5 overflow-x-auto border border-border bg-surface" role="region" aria-label="Decision paths" tabIndex={0}>
+            <div className="relative mt-5 overflow-x-auto border border-border bg-surface" role="region" aria-label="Decision paths" tabIndex={0}>
               <table className="w-full min-w-[420px] border-collapse text-left text-[0.9375rem]">
                 <thead className="bg-brand-light"><tr><th scope="col" className="border-b border-border p-3">If</th><th scope="col" className="border-b border-border p-3">Consider</th></tr></thead>
                 <tbody>{article.conclusion.paths.map((r) => <tr key={r.if} className="border-b border-border last:border-0"><td className="p-3 align-top">{r.if}</td><td className="p-3 align-top font-semibold text-ink">{r.then}</td></tr>)}</tbody>

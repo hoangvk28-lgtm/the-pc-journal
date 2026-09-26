@@ -6,7 +6,7 @@ export function HardwareComparisonTable({ picks, metricLabel, metric }: {
   metricLabel: string;
   metric: (pick: PcRecommendation) => string;
 }) {
-  return <div className="overflow-x-auto border border-border" role="region" aria-label="Hardware comparison" tabIndex={0}>
+  return <div className="relative overflow-x-auto border border-border" role="region" aria-label="Hardware comparison" tabIndex={0}>
     <table className="w-full min-w-[640px] border-collapse text-left text-sm">
       <thead className="bg-[#eef1f6] text-ink"><tr>
         <th scope="col" className="sticky left-0 z-10 min-w-40 border-b border-r border-border bg-[#eef1f6] p-4">Model</th>

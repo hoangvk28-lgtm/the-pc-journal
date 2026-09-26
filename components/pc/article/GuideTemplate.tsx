@@ -27,7 +27,7 @@ function buildToc(modules: GuideModule[], hasSources: boolean): TocEntry[] {
 }
 
 const h2 = "scroll-mt-28 text-[1.625rem] leading-tight sm:text-[1.875rem]";
-const tableWrap = "overflow-x-auto border border-border bg-surface";
+const tableWrap = "relative overflow-x-auto border border-border bg-surface";
 
 function Module({ m, article }: { m: GuideModule; article: InformationalGuide }) {
   const heading = moduleHeading(m);
@@ -169,7 +169,7 @@ function Module({ m, article }: { m: GuideModule; article: InformationalGuide })
   }
 }
 
-export function GuideTemplate({ article, sample }: { article: InformationalGuide; sample?: boolean }) {
+export function GuideTemplate({ article, sample }: { article: InformationalGuide; sample?: "fixture" | "draft" }) {
   const [first, ...rest] = article.modules;
   const lead = first?.kind === "key-takeaway" ? first : undefined;
   const body = lead ? rest : article.modules;

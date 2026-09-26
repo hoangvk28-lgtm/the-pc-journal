@@ -1,4 +1,5 @@
 import { publishedGuides } from "@/data/pc-articles";
+import { draftBuyingGuides } from "@/data/pc-buying-guides";
 import { fixtures } from "@/data/fixtures/pc-fixtures";
 import type { PcArticle, PcCategory } from "./types";
 import { CATEGORY_LABELS } from "./types";
@@ -7,7 +8,7 @@ import { validateArticle, type ValidationIssue } from "./validate";
 export * from "./types";
 
 /** Registry of all article records. Add new articles here. */
-const allArticles: PcArticle[] = [...publishedGuides];
+const allArticles: PcArticle[] = [...publishedGuides, ...draftBuyingGuides];
 
 /** Published articles that pass validation with no errors. */
 export const publishedArticles: PcArticle[] = (() => {
@@ -49,8 +50,14 @@ export function validationReport(): ValidationIssue[] {
   return [...allArticles, ...fixtures].flatMap((a) => validateArticle(a, slugs));
 }
 
-export const fixturesEnabled = () => process.env.PCJ_ENABLE_FIXTURES === "true";
+/** Drafts and fixtures are viewable only under /dev/preview when PCJ_ENABLE_PREVIEW=true (always noindex). */
+export const previewEnabled = () => process.env.PCJ_ENABLE_PREVIEW === "true";
 
-export function getFixture(slug: string): PcArticle | undefined {
-  return fixturesEnabled() ? fixtures.find((f) => f.slug === slug) : undefined;
+export function getPreview(slug: string): PcArticle | undefined {
+  if (!previewEnabled()) return undefined;
+  return fixtures.find((f) => f.slug === slug) ?? allArticles.find((a) => a.slug === slug && a.status === "draft");
+}
+
+export function previewSlugs(): { slug: string; status: string; title: string }[] {
+  return [...allArticles.filter((a) => a.status === "draft"), ...fixtures].map((a) => ({ slug: a.slug, status: a.status, title: a.title }));
 }

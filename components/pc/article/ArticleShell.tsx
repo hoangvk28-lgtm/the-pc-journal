@@ -132,11 +132,11 @@ export function ArticleShell({
   article: PcArticle;
   toc: TocEntry[];
   showDisclosure: boolean;
-  sample?: boolean;
+  sample?: "fixture" | "draft";
   intro?: React.ReactNode;
   children: React.ReactNode;
 }) {
-  const path = sample ? `/dev/fixtures/${article.slug}` : articleHref(article);
+  const path = sample ? `/dev/preview/${article.slug}` : articleHref(article);
   const meta = [
     article.author ? <span key="a">By {article.author.url ? <Link prefetch={false} href={article.author.url} className="!text-ink font-medium focus-ring">{article.author.name}</Link> : article.author.name}</span> : null,
     article.publishedAt ? <span key="p">Published <time dateTime={article.publishedAt}>{formatDate(article.publishedAt)}</time></span> : null,
@@ -149,7 +149,9 @@ export function ArticleShell({
       {!sample && <ArticleSchema article={article} path={path} />}
       {sample && (
         <p role="note" className="mb-6 border border-[#c9a227] bg-[#fdf6dc] px-4 py-3 text-sm font-semibold text-ink">
-          Development fixture: sample data with fictional products. Not an editorial article, never indexed.
+          {sample === "fixture"
+            ? "Development fixture: sample data with fictional products. Not an editorial article, never indexed."
+            : "Draft for editorial review. Not published, not linked from the site and never indexed."}
         </p>
       )}
       <Breadcrumbs crumbs={[{ label: categoryLabel(article.category), href: categoryHref(article.category) }, { label: article.title }]} />

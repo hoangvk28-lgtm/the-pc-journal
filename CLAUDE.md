@@ -42,7 +42,7 @@
 | `/guides/[slug]` | `ArticleTemplate` → Guide or Buying Guide template |
 | `/topics/[slug]` | the 5 categories; **noindex while a category has no published article** |
 | `/about-the-pc-journal`, `/how-we-review`, `/affiliate-disclosure`, `/privacy-policy` | static pages |
-| `/dev/fixtures/[slug]` | template fixtures; only when `PCJ_ENABLE_FIXTURES=true`, always noindex |
+| `/dev/preview/[slug]` | drafts for review and template fixtures; only when `PCJ_ENABLE_PREVIEW=true`, always noindex |
 
 `proxy.ts` returns 404 for everything else, including all old office routes. Public files must be listed in its `publicPages` set (or live under `/images/pcj/`). **When you add a public asset or page, update `proxy.ts`**, or it 404s.
 
@@ -56,7 +56,7 @@ All articles are typed records. **Never hand-write an article page. Add a record
 - `validate.ts`: `validateArticle()`, `resolveRetailerHref()`, `displayableEvidence()`.
 - `index.ts`: the registry (`allArticles`), `publishedArticles` (status `published` **and** zero validation errors), `relatedArticles()`, `articleHref()`, `categoryHref()`.
 - `views.ts`: `toCardView()` for listing cards.
-- Records: `data/pc-articles.ts` (the 6 published guides, whose body text comes from `data/pc-publication.ts`). New articles go in their own file and are added to `allArticles`.
+- Records: `data/pc-articles.ts` (the 6 published guides, whose body text comes from `data/pc-publication.ts`) and `data/pc-buying-guides.ts` (Best X articles; `status: "draft"` until the user approves them). New articles go in their own file and are added to `allArticles`.
 
 ### Five primary categories (fixed)
 `components`, `pc-builds`, `upgrades`, `monitors`, `peripherals`. Each article has exactly **one**. "Guide", "Buying Guide", "Comparison" and "Best X" are **formats**, never categories. The homepage may group categories visually ("PC Builds & Upgrades"), but each keeps its own link.
@@ -87,7 +87,7 @@ npx tsx scripts/validate-pc-content.ts   # exits 1 on any error in a non-fixture
 Fixture errors are expected (the GPU fixture deliberately contains an unsourced test, an undocumented score and a draft link).
 
 ### Fixtures
-`data/fixtures/pc-fixtures.ts` holds sample data: fictional products and example.com sources. They are never `published`, never listed or in the sitemap, and have no Article schema. View them with `PCJ_ENABLE_FIXTURES=true npm run start` → `/dev/fixtures/sample-gpu-buying-guide` and `/dev/fixtures/sample-minimal-guide`.
+`data/fixtures/pc-fixtures.ts` holds sample data: fictional products and example.com sources. They are never `published`, never listed or in the sitemap, and have no Article schema. View them with `PCJ_ENABLE_PREVIEW=true npm run start` → `/dev/preview/sample-gpu-buying-guide` and `/dev/preview/sample-minimal-guide`.
 
 ---
 
@@ -137,7 +137,7 @@ Every slot resolves against `publishedArticles`, and nothing is invented to fill
 ```bash
 npm run dev                                   # dev server
 npm run build && npm run start                # production build (the build also type-checks)
-PCJ_ENABLE_FIXTURES=true npm run start        # include /dev/fixtures/*
+PCJ_ENABLE_PREVIEW=true npm run start        # include /dev/preview/*
 npx tsc --noEmit                              # type-check
 npm run lint                                  # 0 errors required (inherited warnings in old scripts are known)
 npx tsx scripts/validate-pc-content.ts        # content validation
@@ -168,7 +168,7 @@ Build status: [passed | not verified]
 | `SITE_LAUNCHED` | `true` only after the launch gate in `docs/PCJ-LAUNCH-AUDIT.md` |
 | `NEXT_PUBLIC_GOOGLE_ANALYTICS_ID`, `NEXT_PUBLIC_CLARITY_ID`, `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` | this site's own IDs (unset = inactive) |
 | `AMAZON_PAAPI_PARTNER_TAG` (+ access and secret keys) | this site's own Associates tag; enables retailer CTAs |
-| `PCJ_ENABLE_FIXTURES` | `true` to serve `/dev/fixtures/*` (never in production) |
+| `PCJ_ENABLE_PREVIEW` | `true` to serve `/dev/preview/*` (never in production) |
 | `ADMIN_*`, `SESSION_SECRET`, `SUPABASE_*` | inherited, inactive; only with a dedicated project |
 
 Never commit `.env.local` or real secrets.
