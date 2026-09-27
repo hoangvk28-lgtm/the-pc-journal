@@ -7,7 +7,7 @@ import { withPool } from "./helpers";
 /**
  * Batch 13c monitor fact sheets: ASUS TUF, Dell and Alienware, curved, large, OLED, budget,
  * portable and pivoting monitors. Listing claims only, reviewed by hand; unclear fields are
- * left undefined (for example ASUS Fast IPS response figures cut off in the listing text).
+ * left undefined (for example ASUS Fast IPS response figures cut off in the product description).
  */
 type Pool = Record<string, { img?: string; price?: string }>;
 const F = (asin: string, name: string, short: string, specs: Fact["specs"], notes: string[]) => ({ asin, name, short, specs, notes });
@@ -20,12 +20,12 @@ const hdmi21 = (asin: string, note: string): Record<string, Fact> =>
 
 export const monitors13cFacts: Record<string, Fact> = {
   ...base,
-  ...hdmi21("B0FNQ4B2Z2", "an HDMI 2.1 input listed for consoles"),
-  ...hdmi21("B0FLL3L9JG", "an HDMI 2.1 input listed for consoles"),
-  ...hdmi21("B0D1DPFZLZ", "an HDMI 2.1 input listed for consoles"),
-  ...hdmi21("B0CTS1RQ6Y", "an HDMI 2.1 input listed for consoles"),
-  ...hdmi21("B0CTSC3VS4", "an HDMI 2.1 input listed for consoles"),
-  ...hdmi21("B0D9HY3JH2", "an HDMI 2.1 input listed for consoles"),
+  ...hdmi21("B0FNQ4B2Z2", "an HDMI 2.1 input for consoles"),
+  ...hdmi21("B0FLL3L9JG", "an HDMI 2.1 input for consoles"),
+  ...hdmi21("B0D1DPFZLZ", "an HDMI 2.1 input for consoles"),
+  ...hdmi21("B0CTS1RQ6Y", "an HDMI 2.1 input for consoles"),
+  ...hdmi21("B0CTSC3VS4", "an HDMI 2.1 input for consoles"),
+  ...hdmi21("B0D9HY3JH2", "an HDMI 2.1 input for consoles"),
   ...withPool(pool as Pool, [
     // ASUS TUF
     F("B0F73CV58N", "ASUS TUF Gaming VG259QMRL5A", "VG259QMRL5A", { size: 24.5, res: H, hz: 310, panel: "Fast IPS", hdr: "DisplayHDR 400", gamut: "99% sRGB", sync: "FreeSync Premium, G-SYNC Compatible", stand: "height adjustment" }, ["a 310Hz overclocked refresh rate", "DisplayHDR 400 certification", "a height-adjustable stand"]),
@@ -44,7 +44,7 @@ export const monitors13cFacts: Record<string, Fact> = {
     F("B0GGRKQ494", "Dell 27 SE2726HG 240Hz", "SE2726HG", { size: 27, res: H, hz: 240, panel: "Fast IPS", gamut: "99% sRGB" }, ["240Hz on a 27-inch 1080p panel", "PC and console tear-free play", "99% sRGB coverage"]),
     F("B0GKFLQ9SW", "Dell 24 SE2426HG 240Hz", "SE2426HG", { size: 23.8, res: H, hz: 240, panel: "Fast IPS", gamut: "99% sRGB" }, ["240Hz at a budget price tier", "99% sRGB coverage", "a 23.8-inch size for close desks"]),
     F("B0F1GFD44G", "Dell 27 S2725QC 4K USB-C", "S2725QC", { size: 27, res: K, hz: 120, panel: "IPS", resp: 4, gamut: "99% sRGB", sync: "FreeSync Premium", usbc: true }, ["USB-C with up to 65W power delivery", "4K at 120Hz", "1500:1 contrast"]),
-    F("B0CP9MBSXW", "Alienware AW2525HM", "AW2525HM", { size: 24.5, res: H, hz: 320, panel: "IPS", resp: 0.5, gamut: "99% sRGB", sync: "G-SYNC Compatible" }, ["320Hz at 1080p", "a 0.5ms listed response", "Alienware styling at a mid price tier"]),
+    F("B0CP9MBSXW", "Alienware AW2525HM", "AW2525HM", { size: 24.5, res: H, hz: 320, panel: "IPS", resp: 0.5, gamut: "99% sRGB", sync: "G-SYNC Compatible" }, ["320Hz at 1080p", "a 0.5ms response time", "Alienware styling at a mid price tier"]),
     F("B0DZL719V1", "Alienware 34 Curved AW3425DWM", "AW3425DWM", { size: 34, res: UW, hz: 180, resp: 1, hdr: "DisplayHDR 400", gamut: "95% DCI-P3", sync: "FreeSync Premium" }, ["a 1500R ultrawide curve", "a dedicated console mode", "hardware low blue light"]),
     F("B0F6724X5N", "Alienware 34 QD-OLED AW3425DW", "AW3425DW", { size: 34.2, res: UW, hz: 240, panel: "QD-OLED", resp: 0.03, hdr: "DisplayHDR True Black 400", gamut: "99% DCI-P3" }, ["an 1800R QD-OLED ultrawide", "1000 nits peak HDR brightness", "240Hz at 3440x1440"]),
     F("B0H8YZPY9D", "Alienware AW2725Q 4K QD-OLED", "AW2725Q", { size: 26.7, res: K, hz: 240, panel: "QD-OLED", resp: 0.03, hdr: "DisplayHDR True Black 400", gamut: "99% DCI-P3", usbc: true, stand: "height, tilt, swivel and pivot" }, ["Dolby Vision support", "166 PPI at 4K", "USB-C with 15W power delivery"]),

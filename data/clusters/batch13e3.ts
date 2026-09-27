@@ -32,7 +32,7 @@ const takes: Record<string, string> = {
   B07DYRS1WH: "The Stream Deck Mini has six LCD keys in the smallest footprint. It is the cheapest Stream Deck here.",
   B0C45H4WG9: "FIFINE's BM88 is a low-profile arm that keeps a mic below your eye line and out of camera. It clamps to desks 0.8 to 2.4in thick.",
   B09JBVR5B4: "RODE's PSA1+ is a spring-damped arm for mics from 0.25 to 1.2kg. It clamps to desks up to 70mm thick.",
-  B0GYDFGCCQ: "Elgato's Key Light Air MK.2 lists 2,100 lumens with a CRI above 94 and a 2,900 to 7,000K range. It runs on USB-C PD power.",
+  B0GYDFGCCQ: "Elgato's Key Light Air MK.2 offers 2,100 lumens with a CRI above 94 and a 2,900 to 7,000K range. It runs on USB-C PD power.",
   B0CVYHHPX6: "Elgato's Wave Neo is a USB mic with tap-to-mute and a high-rise stand. It is the audio piece of an Elgato setup.",
   // LED strips
   B0991Q94KP: "Govee's 16.4ft RGBIC strip shows several colors at once and syncs to music through a built-in mic. It is controlled over Bluetooth.",
@@ -46,7 +46,7 @@ const takes: Record<string, string> = {
   B07N1CMGQQ: "Govee's basic smart RGB strip shows one color at a time with Alexa and Google support. It is the simplest Govee here.",
   B09V366BDY: "KSIPZE's 100ft strip uses an IR remote plus an app, with music sync and a timer. It is plain RGB.",
   B0DN1K2RLD: "DAYBETTER's 110ft strip has a 44-key remote and syncs to music through your phone's mic. It is the longest run here.",
-  B0D328GL5M: "Philips Hue's Solo Lightstrip lists 1,700 lumens with tunable white and works over Bluetooth without a Bridge. It is 10ft.",
+  B0D328GL5M: "Philips Hue's Solo Lightstrip offers 1,700 lumens with tunable white and works over Bluetooth without a Bridge. It is 10ft.",
   B0G3CWMTT6: "The Hue Essential Lightstrip adds segmented RGBIC color to the Hue app, with Alexa, Google and Apple Home support. It is 16ft.",
   // Switches
   B0BNGMFBYL: "Keychron's Silent K Pro Red comes as a 110-pack at 45gf and fits both 3-pin and 5-pin sockets. That covers a full-size board.",
@@ -203,7 +203,7 @@ export const batch13e3: Entry[] = [
     seo: "Best Tactile Keyboard Switches", title: "The Best Tactile Mechanical Keyboard Switches",
     meta: "Six tactile mechanical keyboard switches compared by actuation force, bump, rated lifespan and pack size, from light 40gf switches to pronounced 59gf ones.",
     dek: "Tactile switches range from light and subtle to heavy and pronounced. These six span that range.",
-    intro: ["A tactile switch has a bump you feel before the key actuates. Force and bump shape vary widely, so the listed force is the best starting point.", "Every listing here states the switch type and force; we compared those with lifespan and pack size."],
+    intro: ["A tactile switch has a bump you feel before the key actuates. Force and bump shape vary widely, so the force is the best starting point.", "Every listing here states the switch type and force; we compared those with lifespan and pack size."],
     bottom: ["The Gateron G Pro 3.0 Brown is the safe first tactile, factory lubed and rated for 100 million keystrokes. The Keychron Banana covers a full board, the Quinn and Ice King T1 have stronger bumps, the Lavender Purple is the light pick, and the Cherry MX2A Brown is the Cherry option."],
     picks: [
       ["B0CF8DWDGF", "Best First Tactile", "Factory lubed, 100 million keystroke rating", "Moving from stock Browns"],

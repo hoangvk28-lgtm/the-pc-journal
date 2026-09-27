@@ -7,7 +7,7 @@ import { withPool } from "./helpers";
 
 /**
  * Batch 16a fact sheets: Razer wireless mice not yet recorded. Listing claims only, reviewed by hand;
- * a field stays undefined when the listing does not state it in the unit the schema uses.
+ * a field stays undefined when the maker doesn't state it in the unit the schema uses.
  * Combos, microphones, Bluetooth keyboards and ergonomic mice in batch 16a reuse existing fact sheets.
  */
 const P = mice as Record<string, { img?: string; price?: string }>;

@@ -10,7 +10,7 @@ const ch = factory(chairSchema, chairs15cFacts, "peripherals", {
   B0DXS1BVCB: "Razer builds a lumbar arch into the Iskur V2 X's backrest rather than using a strap-on pillow, so it stays in place but cannot be moved. The widened seat and 152-degree recline suit a gaming setup, and the Light Gray fabric breathes better than PU leather.",
   B0H2XNYVQP: "marrap's office chair lists lumbar support that moves up and down as well as forward and back, two directions of adjustment for less money than the ELABEST. Its 3D armrests flip up, slide and rotate, and the mesh back and seat stay cool.",
   B0CQLJ32TC: "MUXX.STIL pairs an adjustable lumbar cushion with an S-shaped mesh backrest and a U-shaped seat with a waterfall edge. It carries a 15-year warranty, the longest stated here, but its 264 lb capacity is the lowest listed.",
-  B0CQD3K8PJ: "TRALT's mesh chair adjusts its lumbar support in depth and lists a Class 3 BIFMA-certified gas lift on a metal-core base rated for 330 lbs. The listing gives a 19.7 inch wide, 17.3 inch deep seat and a 17.7 to 21.7 inch height range, detail most budget listings leave out.",
+  B0CQD3K8PJ: "TRALT's mesh chair adjusts its lumbar support in depth and offers a Class 3 BIFMA-certified gas lift on a metal-core base rated for 330 lbs. The maker quotes a 19.7 inch wide, 17.3 inch deep seat and a 17.7 to 21.7 inch height range, detail most budget listings leave out.",
   B0H8P4FFSG: "DUMOS's executive chair adds an adjustable headrest to up-and-down mesh lumbar support, flip-up arms and a 120-degree rocking mode. It was the lowest-priced chair here at the time of writing.",
 });
 

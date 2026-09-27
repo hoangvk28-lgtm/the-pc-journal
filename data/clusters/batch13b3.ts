@@ -16,12 +16,12 @@ const pcCase = maker(caseSchema, caseExtFacts, "components", {
 const air = maker(airSchema, airFacts, "components");
 const aio = maker(aioSchema, aioFacts, "components");
 const fan = maker(fanSchema, fanFacts, "components", {
-  B09KMBLGV5: "be quiet!'s Light Wings three-pack lights both the front and rear of each fan, with 18 LEDs per fan and a hub that syncs up to six components. The listing does not give airflow or pressure figures.",
-  B0DGL2TGRM: "The Light Wings LX is the high-speed version, with a closed-loop motor that holds its speed against radiators and grilles. The listing gives 2.51mmH2O of static pressure and ARGB plugs for daisy-chaining.",
-  B0D49Q4CGM: "Corsair's RS120 ARGB pack daisy-chains three fans so they run from one PWM and one ARGB header. The listing rates each fan at 72.8 CFM and 2.8mmH2O at up to 2,100 RPM.",
-  B0F8QY1NKY: "The RS120-R is the reverse-rotor version of the RS120, so the lit side faces into the case when the fans are used as front intakes. The listing adds a zero-RPM mode at low PWM.",
+  B09KMBLGV5: "be quiet!'s Light Wings three-pack lights both the front and rear of each fan, with 18 LEDs per fan and a hub that syncs up to six components. The maker doesn't give airflow or pressure figures.",
+  B0DGL2TGRM: "The Light Wings LX is the high-speed version, with a closed-loop motor that holds its speed against radiators and grilles. The maker quotes 2.51mmH2O of static pressure and ARGB plugs for daisy-chaining.",
+  B0D49Q4CGM: "Corsair's RS120 ARGB pack daisy-chains three fans so they run from one PWM and one ARGB header. The maker rates each fan at 72.8 CFM and 2.8mmH2O at up to 2,100 RPM.",
+  B0F8QY1NKY: "The RS120-R is the reverse-rotor version of the RS120, so the lit side faces into the case when the fans are used as front intakes. It also adds a zero-RPM mode at low PWM.",
   B0CCQ8PQB8: "Thermaltake's SWAFAN EX 12 has swappable blades, so each fan can run standard or reverse airflow. Magnetic connections link the three fans with one cable.",
-  B0GVQMQ915: "Lian Li's UNI FAN TL Flex pack lists 83.4 CFM and 2.66mmH2O per fan, with LCP blades set 0.6mm from the frame. These are reverse-blade fans, so check the airflow direction before ordering.",
+  B0GVQMQ915: "Lian Li's UNI FAN TL Flex pack offers 83.4 CFM and 2.66mmH2O per fan, with LCP blades set 0.6mm from the frame. These are reverse-blade fans, so check the airflow direction before ordering.",
   B07C5VG64V: "The Noctua NF-A12x25 is an unlit 120mm fan with Sterrox LCP blades and a 0.5mm tip clearance. It tops out at 2,000 RPM, and the included Low-Noise Adaptor caps it at 1,700 RPM.",
   B0CM41S977: "be quiet!'s Pure Wings 3 is a plain, low-cost single fan with a rifle bearing rated for 80,000 hours. Its frame outlet is shaped for radiators, and it runs at a very low minimum speed.",
   B00KFCRATC: "Noctua's NF-F12 iPPC-3000 spins from 750 to 3,000 RPM and carries IP52 dust and water protection. At a rated 43.5 dB(A) at full speed, it suits radiators and workstations more than quiet desks.",

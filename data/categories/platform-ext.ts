@@ -28,7 +28,7 @@ function boardCompat(f: Fact): string[] {
   if (f.specs.mem === "DDR4") s.push("It takes DDR4 memory only, so reuse or buy a DDR4 kit; DDR5 sticks do not fit its slots.");
   if (f.specs.form === "Mini-ITX") s.push("As a Mini-ITX board it has one PCIe x16 slot and two memory slots, so plan for a two-stick memory kit and check the case's cooler and GPU limits.");
   else if (f.specs.form === "Micro-ATX") s.push("As a Micro-ATX board it fits smaller cases but has fewer expansion slots than ATX; check the gap between the GPU and the lower slots.");
-  else if (f.specs.form === "E-ATX") s.push("Confirm your case lists E-ATX support; many mid-towers stop at ATX.");
+  else if (f.specs.form === "E-ATX") s.push("Confirm your case offers E-ATX support; many mid-towers stop at ATX.");
   if (f.specs.m2 !== undefined) s.push("Check the manual for which M.2 slots share lanes with SATA ports or the second PCIe slot before filling them all.");
   return s;
 }
@@ -198,8 +198,8 @@ export const ramxFacts: Record<string, Fact> = {
   ...withPool(ramPool as Pool, [
     // DDR5 32GB kits
     F("B0C4G6XQQL", "G.SKILL Trident Z5 Neo RGB 32GB (2x16GB) DDR5-6000 CL30", "Trident Z5 Neo RGB CL30", { gen: "DDR5", speed: 6000, cl: 30, capacity: 32, volt: 1.35, profiles: "EXPO and XMP", rgb: true }, ["timings of 30-38-38-96", "a matte black heatspreader"]),
-    F("B0FCLPDV1N", "KLEVV Bolt V 32GB (2x16GB) DDR5-6000 CL30", "Bolt V", { gen: "DDR5", speed: 6000, cl: 30, capacity: 32, volt: 1.35, profiles: "EXPO and XMP", color: "White" }, ["SK Hynix A-die memory, per the listing", "a white heatspreader without lighting"]),
-    F("B0DSVSS2ML", "KLEVV Urbane V RGB 32GB (2x16GB) DDR5-6000 CL30", "Urbane V RGB", { gen: "DDR5", speed: 6000, cl: 30, capacity: 32, volt: 1.35, profiles: "EXPO and XMP", rgb: true }, ["SK Hynix A-die memory, per the listing"]),
+    F("B0FCLPDV1N", "KLEVV Bolt V 32GB (2x16GB) DDR5-6000 CL30", "Bolt V", { gen: "DDR5", speed: 6000, cl: 30, capacity: 32, volt: 1.35, profiles: "EXPO and XMP", color: "White" }, ["SK Hynix A-die memory", "a white heatspreader without lighting"]),
+    F("B0DSVSS2ML", "KLEVV Urbane V RGB 32GB (2x16GB) DDR5-6000 CL30", "Urbane V RGB", { gen: "DDR5", speed: 6000, cl: 30, capacity: 32, volt: 1.35, profiles: "EXPO and XMP", rgb: true }, ["SK Hynix A-die memory"]),
     F("B0D4NLSP87", "Patriot Viper Venom 32GB (2x16GB) DDR5-6000 CL30", "Viper Venom 32GB", { gen: "DDR5", speed: 6000, cl: 30, capacity: 32 }, ["a plain heatspreader with no lighting", "a lower price than most CL30 kits here"]),
     F("B0DPR9ZDRM", "Patriot Viper Elite 5 32GB (2x16GB) DDR5-6000 CL30", "Viper Elite 5", { gen: "DDR5", speed: 6000, cl: 30, capacity: 32 }, ["a non-RGB version of the Viper Elite 5", "one of the lowest CL30 prices here"]),
     F("B0FQMLKVLS", "Crucial Pro 32GB (2x16GB) DDR5-6400 CL32", "Crucial Pro 6400", { gen: "DDR5", speed: 6400, cl: 32, capacity: 32, profiles: "EXPO and XMP", color: "Black" }, ["Micron memory from Crucial's parent company", "a plain black heatspreader"]),
@@ -212,11 +212,11 @@ export const ramxFacts: Record<string, Fact> = {
     F("B0CYH8MD2Y", "Kingston FURY Beast 64GB (2x32GB) DDR5-6400 CL32", "FURY Beast 64GB", { gen: "DDR5", speed: 6400, cl: 32, capacity: 64, profiles: "EXPO" }, ["a plain heatspreader"]),
     F("B0BNTRRLYP", "TEAMGROUP T-Force Vulcan 32GB (2x16GB) DDR5-6000 CL38", "T-Force Vulcan", { gen: "DDR5", speed: 6000, cl: 38, capacity: 32, profiles: "XMP" }, ["a low heatspreader without lighting", "XMP 3.0 tuning for Intel 600 and 700 series boards"]),
     F("B09LHPZK4P", "TEAMGROUP T-Force Delta RGB 32GB (2x16GB) DDR5-6400 CL40", "Delta RGB 6400", { gen: "DDR5", speed: 6400, cl: 40, capacity: 32, rgb: true }, ["a design listed for Z690-class Intel boards"]),
-    F("B0BG5LZQ6M", "TEAMGROUP T-Force Delta RGB 32GB (2x16GB) DDR5-7200 CL34", "Delta RGB 7200", { gen: "DDR5", speed: 7200, cl: 34, capacity: 32, profiles: "XMP", rgb: true }, ["SK Hynix A-die memory, per the listing", "XMP 3.0 tuning for Intel 600 and 700 series boards"]),
+    F("B0BG5LZQ6M", "TEAMGROUP T-Force Delta RGB 32GB (2x16GB) DDR5-7200 CL34", "Delta RGB 7200", { gen: "DDR5", speed: 7200, cl: 34, capacity: 32, profiles: "XMP", rgb: true }, ["SK Hynix A-die memory", "XMP 3.0 tuning for Intel 600 and 700 series boards"]),
     F("B0BMQSYM65", "Kingston FURY Renegade RGB 32GB (2x16GB) DDR5-7200 CL38", "FURY Renegade 7200", { gen: "DDR5", speed: 7200, cl: 38, capacity: 32, profiles: "XMP", rgb: true }, ["Kingston's infrared RGB syncing", "Intel XMP 3.0 tuning"]),
     F("B0D5GJJBHC", "G.SKILL Trident Z5 Royal 32GB (2x16GB) DDR5-6400 CL32", "Trident Z5 Royal", { gen: "DDR5", speed: 6400, cl: 32, capacity: 32, volt: 1.4, profiles: "XMP", rgb: true }, ["timings of 32-39-39-102", "a silver Royal-series lightbar"]),
     F("B0BJ7X9P1W", "G.SKILL Trident Z5 RGB 64GB (2x32GB) DDR5-6400 CL32", "Trident Z5 RGB 64GB", { gen: "DDR5", speed: 6400, cl: 32, capacity: 64, volt: 1.4, profiles: "XMP", rgb: true }, ["timings of 32-39-39-102"]),
-    F("B0F6T9TKVQ", "TEAMGROUP T-Force Delta RGB 64GB (2x32GB) DDR5-6400 CL30", "Delta RGB 64GB", { gen: "DDR5", speed: 6400, cl: 30, capacity: 64, profiles: "XMP", rgb: true }, ["Micron M-die memory, per the listing"]),
+    F("B0F6T9TKVQ", "TEAMGROUP T-Force Delta RGB 64GB (2x32GB) DDR5-6400 CL30", "Delta RGB 64GB", { gen: "DDR5", speed: 6400, cl: 30, capacity: 64, profiles: "XMP", rgb: true }, ["Micron M-die memory"]),
     // White kits
     F("B0CYHBTSHF", "Kingston FURY Beast White 32GB (2x16GB) DDR5-6000 CL30", "FURY Beast White", { gen: "DDR5", speed: 6000, cl: 30, capacity: 32, color: "White" }, ["a white heatspreader without lighting"]),
     F("B0CYM3WSHX", "Kingston FURY Beast White RGB 32GB (2x16GB) DDR5-6000 CL30", "FURY Beast White RGB", { gen: "DDR5", speed: 6000, cl: 30, capacity: 32, profiles: "EXPO and XMP", rgb: true, color: "White" }, ["Kingston's infrared RGB syncing"]),
@@ -255,14 +255,14 @@ export const ssdxFacts: Record<string, Fact> = {
   ...ssdFacts,
   ...withPool(storagePool as Pool, [
     F("B0BHJF2VRN", "Samsung 990 PRO 1TB", "990 PRO 1TB", { capacity: 1, read: 7450, write: 6900, pcie: "PCIe 4.0 x4" }, ["the highest rated reads among the 1TB Gen4 drives here", "Samsung Magician software for firmware updates"]),
-    F("B0DN7CYYSD", "WD_BLACK SN7100 1TB", "SN7100 1TB", { capacity: 1, read: 7250, write: 6900, pcie: "PCIe 4.0 x4" }, ["next-generation TLC NAND, per the listing", "a design aimed at handhelds and laptops as well as desktops"]),
+    F("B0DN7CYYSD", "WD_BLACK SN7100 1TB", "SN7100 1TB", { capacity: 1, read: 7250, write: 6900, pcie: "PCIe 4.0 x4" }, ["next-generation TLC NAND", "a design aimed at handhelds and laptops as well as desktops"]),
     F("B0C9213GBX", "Lexar NM790 1TB", "NM790 1TB", { capacity: 1, read: 7400, write: 6500, tbw: 1000, pcie: "PCIe 4.0 x4", dram: false }, ["a 1,000TBW endurance rating on the 1TB model", "HMB in place of onboard DRAM", "7,400MB/s rated reads, near the PCIe 4.0 ceiling"]),
     F("B0CK39YR9V", "Crucial T500 1TB", "T500 1TB", { capacity: 1, read: 7300, write: 6800, pcie: "PCIe 4.0 x4" }, ["Micron TLC NAND", "a design for laptops and desktops", "6,800MB/s rated writes"]),
     F("B0DHLFWBQ1", "Samsung 990 EVO Plus 1TB", "990 EVO Plus 1TB", { capacity: 1, read: 7150, write: 6300, pcie: "PCIe 4.0 x4 or 5.0 x2" }, ["a design that runs on PCIe 4.0 x4 or PCIe 5.0 x2 lanes", "Samsung Magician software for firmware updates"]),
     F("B0FJ8QFWBQ", "WD Blue SN5100 1TB", "SN5100 1TB", { capacity: 1, read: 7100, pcie: "PCIe 4.0 x4", warranty: 5 }, ["a five-year limited warranty", "the lowest price among the 1TB TLC-class drives here"]),
     F("B0DBR3DZWG", "Kingston NV3 1TB", "NV3 1TB", { capacity: 1, read: 6000, pcie: "PCIe 4.0 x4", warranty: 5 }, ["the lowest price among the 1TB drives here", "6,000MB/s rated reads on PCIe 4.0"]),
     F("B0DC8VPSHV", "Crucial P310 1TB", "P310 1TB", { capacity: 1, read: 7100, write: 6000, pcie: "PCIe 4.0 x4" }, ["an Acronis data migration bundle", "a design that also suits handheld consoles"]),
-    F("B0DN6ZQ3PD", "WD_BLACK SN7100 2TB", "SN7100 2TB", { capacity: 2, read: 7250, write: 6900, pcie: "PCIe 4.0 x4" }, ["next-generation TLC NAND, per the listing", "the highest rated writes among the 2TB Gen4 drives here"]),
+    F("B0DN6ZQ3PD", "WD_BLACK SN7100 2TB", "SN7100 2TB", { capacity: 2, read: 7250, write: 6900, pcie: "PCIe 4.0 x4" }, ["next-generation TLC NAND", "the highest rated writes among the 2TB Gen4 drives here"]),
     F("B0CK2TC9XQ", "Crucial T500 2TB", "T500 2TB", { capacity: 2, read: 7400, write: 7000, pcie: "PCIe 4.0 x4" }, ["Micron TLC NAND", "an Acronis data migration bundle"]),
     F("B0H1N9X2QR", "Samsung 990 2TB", "990 2TB", { capacity: 2, read: 7250, write: 6450, pcie: "PCIe 4.0 x4" }, ["Samsung Magician software for firmware updates", "7,250MB/s rated reads, near the PCIe 4.0 ceiling"]),
     F("B0DC8RVRBZ", "Crucial P310 2TB", "P310 2TB", { capacity: 2, read: 7100, write: 6000, pcie: "PCIe 4.0 x4" }, ["an Acronis data migration bundle", "one of the lowest 2TB prices here"]),
@@ -277,7 +277,7 @@ export const ssdxFacts: Record<string, Fact> = {
     F("B0CSG68HF4", "Corsair MP600 Elite 2TB", "MP600 Elite 2TB", { capacity: 2, read: 7000, write: 6500, pcie: "PCIe 4.0 x4" }, ["high-density 3D TLC NAND", "a bare drive for boards with their own M.2 heatsink"]),
     F("B0DVCCJQ4K", "Corsair MP600 CORE XT 2TB", "MP600 CORE XT 2TB", { capacity: 2, read: 5900, write: 5000, pcie: "PCIe 4.0 x4" }, ["QLC NAND, which trades sustained write speed for price"]),
     F("B0CM42DVBR", "Corsair MP700 PRO 2TB", "MP700 PRO 2TB", { capacity: 2, read: 12400, write: 11800, pcie: "PCIe 5.0 x4" }, ["high-density TLC NAND", "NVMe 2.0 support", "12,400MB/s rated reads on PCIe 5.0"]),
-    F("B0DKNY3HRV", "Corsair MP700 Elite 2TB", "MP700 Elite 2TB", { capacity: 2, read: 10000, write: 8500, pcie: "PCIe 5.0 x4" }, ["DirectStorage support, per the listing", "high-density 3D TLC NAND", "a lower price than the MP700 PRO 2TB"]),
-    F("B0FV33S11L", "Corsair MP700 PRO XT 2TB", "MP700 PRO XT 2TB", { capacity: 2, read: 14900, write: 14500, pcie: "PCIe 5.0 x4" }, ["the highest rated writes among the drives here", "DirectStorage support, per the listing"]),
+    F("B0DKNY3HRV", "Corsair MP700 Elite 2TB", "MP700 Elite 2TB", { capacity: 2, read: 10000, write: 8500, pcie: "PCIe 5.0 x4" }, ["DirectStorage support", "high-density 3D TLC NAND", "a lower price than the MP700 PRO 2TB"]),
+    F("B0FV33S11L", "Corsair MP700 PRO XT 2TB", "MP700 PRO XT 2TB", { capacity: 2, read: 14900, write: 14500, pcie: "PCIe 5.0 x4" }, ["the highest rated writes among the drives here", "DirectStorage support"]),
   ]),
 };

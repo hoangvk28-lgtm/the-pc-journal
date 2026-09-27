@@ -16,7 +16,7 @@ export const deskSchema: CategorySchema = {
     { key: "capacity", label: "Load capacity", noun: "load rating", better: "higher", superlative: ["highest", "lowest"], fmt: (v) => `${v} lb` },
     { key: "type", label: "Type", fmt: (v) => String(v) },
     { key: "height", label: "Height range", fmt: (v) => String(v) },
-    { key: "power", label: "Power", fmt: (v) => String(v), strength: (v) => (String(v) !== "None listed" ? `Built-in ${v}` : undefined) },
+    { key: "power", label: "Power", fmt: (v) => String(v), strength: (v) => (String(v) !== "None" ? `Built-in ${v}` : undefined) },
   ],
   compat: (f) => {
     const t = str(f, "type"), s: string[] = [];
@@ -44,19 +44,19 @@ export const deskSchema: CategorySchema = {
   ],
   evaluated: [
     { title: "Size", description: "We compared listed width and layout, since they decide how many monitors and peripherals fit." },
-    { title: "Stability", description: "We noted desktop thickness, frame type and listed load ratings." },
+    { title: "Stability", description: "We noted desktop thickness, frame type and rated load ratings." },
     { title: "Adjustability", description: "We recorded height ranges and presets for standing desks." },
     { title: "Practical extras", description: "We checked for power outlets, storage and cable management." },
   ],
 };
 
 export const deskFacts = withPool(P, [
-  F("B0DWMJCQBX", "Veken 55-Inch Electric Standing Desk", "Veken 55-inch", { width: 55, type: "Electric standing", height: "About 28.3 to 46 in", power: "None listed" }, ["a motor rated under 52dB", "memory presets for sitting and standing heights"]),
+  F("B0DWMJCQBX", "Veken 55-Inch Electric Standing Desk", "Veken 55-inch", { width: 55, type: "Electric standing", height: "About 28.3 to 46 in", power: "None" }, ["a motor rated under 52dB", "memory presets for sitting and standing heights"]),
   F("B0C3M9RD8Q", "SEDETA 67-Inch L-Shaped Gaming Desk with Pegboard", "SEDETA 67-inch", { width: 67, type: "L-shaped, reversible", power: "Power outlet" }, ["a pegboard for accessories", "conversion to a 94.5-inch two-person desk"]),
   F("B0DZWPVRWT", "Huuger 63-Inch L-Shaped Desk", "Huuger 63-inch", { width: 63, capacity: 220, type: "L-shaped, reversible", power: "Power outlets" }, ["a 0.95-inch thick waterproof desktop"]),
   F("B0D9QK989N", "AODK 59-Inch Gaming Desk with PC Showcase Stand", "AODK 59-inch", { width: 59, type: "Reversible with PC showcase stand" }, ["a raised stand for panoramic fish-tank PC cases", "three drawers and a side display shelf"]),
   F("B0FJ1NYG71", "Korfile 48-Inch Gaming Desk", "Korfile 48-inch", { width: 48, type: "Straight", power: "Power outlet" }, ["LED lighting", "a carbon fiber finish"]),
-  F("B0B41YH9B6", "ErGear 48 x 24-Inch Electric Standing Desk", "ErGear 48-inch", { width: 48, type: "Electric standing", height: "About 28.35 to 46 in", power: "None listed" }, ["memory presets", "a steel frame"]),
+  F("B0B41YH9B6", "ErGear 48 x 24-Inch Electric Standing Desk", "ErGear 48-inch", { width: 48, type: "Electric standing", height: "About 28.35 to 46 in", power: "None" }, ["memory presets", "a steel frame"]),
 ]);
 
 /* ───────────────────────────── Laptop screen extenders ───────────────────────────── */
@@ -91,7 +91,7 @@ export const extenderSchema: CategorySchema = {
     { id: "mac", q: "Do screen extenders work with MacBooks?", a: "Yes, over USB-C, but many base-model MacBooks support only one external display, so a triple extender may mirror one screen." },
     { id: "driver", q: "Do I need to install drivers?", a: "Most plug-and-play models need no drivers when connected over USB-C video or HDMI." },
     { id: "power", q: "Can a laptop power a screen extender?", a: "Often, over USB-C, but it drains the battery faster. Some models need extra power, especially with two screens." },
-    { id: "fit", q: "Will it fit my laptop?", a: "Check the listed laptop size range and whether your lid can carry the added weight." },
+    { id: "fit", q: "Will it fit my laptop?", a: "Check the laptop size range and whether your lid can carry the added weight." },
     { id: "portable-vs", q: "Screen extender or portable monitor?", a: "Extenders attach to the laptop for a compact multi-screen setup; a portable monitor stands on its own and is easier to position." },
     { id: "gaming", q: "Are screen extenders good for gaming?", a: "Most are 60Hz office panels. They suit guides, chat and streaming tools rather than the main game." },
   ],

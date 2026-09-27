@@ -64,7 +64,7 @@ export const batch13a2 = [
     cands: where((f) => u500(f) && n(f, "ram") >= 16, by.ram, 1), count: 5, what: "good gaming PCs under $500 with integrated graphics",
     lead: `${HONEST} A good one here pairs a recent Ryzen chip with dual-channel memory, which integrated graphics depend on.`,
     teaser: "Sub-$500 mini PCs chosen for memory, which integrated graphics rely on.",
-    close: "Integrated graphics run faster with two memory sticks than one; check the listing states dual-channel memory.", rel: R500 }),
+    close: "Integrated graphics run faster with two memory sticks than one; check the product page confirms dual-channel memory.", rel: R500 }),
   build({ slug: "best-great-gaming-pc-under-500", kw: "great gaming pc under 500", seo: "Great Gaming PCs Under $500", h1: "Great Gaming PCs Under $500",
     cands: where(u500, by.ssd, 1), count: 4, what: "great gaming PCs under $500 with integrated graphics",
     lead: `${HONEST} We weighed storage alongside the graphics chip, since these small machines usually hold one main SSD.`,

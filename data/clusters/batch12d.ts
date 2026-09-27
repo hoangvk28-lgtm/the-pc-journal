@@ -25,16 +25,16 @@ const pcCase = maker(caseSchema, caseExtFacts, "components", {
   B0D73S23NB: "be quiet!'s Light Base 600 DX White is windowed on the front and side with a long ARGB strip synced to the motherboard. Removable feet let you invert the layout.",
 });
 const fan = maker(fanSchema, fanFacts, "components", {
-  B07HC782D5: "ARCTIC's P12 PWM PST five-pack lists 56.3 CFM and 2.2 mmH2O per fan at up to 1800 RPM. PST lets you daisy-chain all five from one header, and the fans stop below 5% PWM.",
+  B07HC782D5: "ARCTIC's P12 PWM PST five-pack offers 56.3 CFM and 2.2 mmH2O per fan at up to 1800 RPM. PST lets you daisy-chain all five from one header, and the fans stop below 5% PWM.",
   B0FC636JBS: "Noctua's NF-A12x25 G2 is a single fan with a Sterrox LCP impeller and an SSO2 bearing rated above 150,000 hours. The box adds anti-vibration mounts, a low-noise adaptor and a splitter.",
-  B0B6WPS232: "be quiet!'s Silent Wings 4 uses a fluid-dynamic bearing, a 6-pole motor and a funnel-shaped frame for pressure. The listing does not give airflow or speed figures.",
+  B0B6WPS232: "be quiet!'s Silent Wings 4 uses a fluid-dynamic bearing, a 6-pole motor and a funnel-shaped frame for pressure. The maker doesn't give airflow or speed figures.",
   B0B746VB2F: "The Silent Wings Pro 4 adds a speed switch that raises the ceiling to 3000 RPM, which suits dense radiators. It shares the Silent Wings 4's fluid-dynamic bearing and 6-pole motor.",
-  B0D9M4TV4Q: "Thermalright's TL-C12C-S five-pack lists 66.17 CFM at 1550 RPM with ARGB lighting. At the time of writing it cost less per fan than any other pick here.",
+  B0D9M4TV4Q: "Thermalright's TL-C12C-S five-pack offers 66.17 CFM at 1550 RPM with ARGB lighting. At the time of writing it cost less per fan than any other pick here.",
   B0B4P5S94P: "Lian Li's UNI FAN SL-Infinity fans interlock so their cables join into one run, and the included controller handles up to 16 fans. Each fan carries 40 LEDs behind an infinity mirror.",
-  B09B2LNFV4: "Phanteks's T30-120 uses a rigid LCP frame and blades with a switch for three fan profiles. The listing gives no airflow or speed figures.",
+  B09B2LNFV4: "Phanteks's T30-120 uses a rigid LCP frame and blades with a switch for three fan profiles. The maker gives no airflow or speed figures.",
 });
 const psu = maker(psuGenericSchema, psuGenericFacts, "components", {
-  B0CYTK6LNQ: "Super Flower's Leadex VII XP PRO 1200W carries Platinum ratings from both 80 Plus and Cybenetics. The listing states voltage regulation within 0.5% on the main rails and flexible ribbon cables.",
+  B0CYTK6LNQ: "Super Flower's Leadex VII XP PRO 1200W carries Platinum ratings from both 80 Plus and Cybenetics. The maker specifies voltage regulation within 0.5% on the main rails and flexible ribbon cables.",
   B0DJ1T9VXB: "ASUS's ROG Strix 1000W Platinum uses GaN MOSFETs and GPU-first voltage sensing on the graphics card rail. It carries a Cybenetics LAMBDA A noise rating and a 10-year warranty.",
   B0BZFQZR81: "The ROG Loki is an SFX-L unit, so it uses a 120mm fan instead of the 92mm fan common in SFX. It carries 80 Plus Platinum, a LAMBDA A noise rating and a 10-year warranty.",
   B0D45QCZHX: "Corsair's 2024 SF750 is a fully modular 80 Plus Platinum SFX unit with ATX 3.1 support. It uses a 92mm fluid-dynamic-bearing fan and 105C-rated Japanese capacitors.",
@@ -167,7 +167,7 @@ export const batch12d: Entry[] = [
     asins: ["B07HC782D5", "B0FC636JBS", "B0D9M4TV4Q", "B0B6WPS232", "B0B746VB2F", "B0B4P5S94P", "B09B2LNFV4"],
     labels: {
       B07HC782D5: L("Best Value Pack", "five PWM fans with 2.2 mmH2O rated static pressure", "Filling a whole case."),
-      B0FC636JBS: L("Best Premium Single", "an SSO2 bearing with a listed MTTF above 150,000 hours", "Quiet builds."),
+      B0FC636JBS: L("Best Premium Single", "an SSO2 bearing with a MTTF above 150,000 hours", "Quiet builds."),
       B0D9M4TV4Q: L("Best Budget ARGB", "five ARGB fans at 66.17 CFM rated airflow", "Lighting on a budget."),
       B0B6WPS232: L("Best Quiet Fluid Bearing", "a fluid-dynamic bearing with a 6-pole motor", "Low-noise builds."),
       B0B746VB2F: L("Best for Radiators", "a speed switch up to 3000 RPM", "Dense radiators."),

@@ -27,7 +27,7 @@ export const batch4: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       },
       takes: {
         B0DT58JK2W: "The B850 Tomahawk MAX covers what most Ryzen builds need: four M.2 slots, 5Gbps Ethernet and Wi-Fi 7 on a reinforced PCIe 5.0 graphics slot. It is the board to start from unless you need something specific.",
-        B0DPLPLR88: "The TUF B850-PLUS lists a 14+2+1 layout of 80A power stages and a front USB-C header for 10Gbps ports. It suits builders who want sturdy power delivery for a 12- or 16-core Ryzen.",
+        B0DPLPLR88: "The TUF B850-PLUS offers a 14+2+1 layout of 80A power stages and a front USB-C header for 10Gbps ports. It suits builders who want sturdy power delivery for a 12- or 16-core Ryzen.",
         B0DRTTJ5D6: "The B850 Steel Legend pairs four M.2 slots with a PCIe 5.0 M.2 slot and a white finish. It fits light-themed builds that still need plenty of storage.",
         B0DQLHVQSF: "The B850 AORUS Elite WIFI7 stands out for Gigabyte's five-year warranty and a 14+2+2 power layout. It trades one M.2 slot against the Tomahawk for that longer cover.",
         B0DQB38PL5: "The PRO B850-P keeps Wi-Fi 7 and 5Gbps LAN on a budget board, with tool-free M.2 clips. Three M.2 slots are enough for most gaming builds.",
@@ -62,10 +62,10 @@ export const batch4: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       takes: {
         B0DGVSW4FD: "The X870E AORUS Master lists the fullest connectivity here, with 5Gbps LAN, USB4, Wi-Fi 7 and four M.2 slots, plus Gigabyte's five-year warranty. It suits a high-end Ryzen build that will use all of it.",
         B0DDZNZF76: "The Strix X870E-E has five M.2 slots, the most here, and an 18+2+2 power layout for 16-core chips. It is the pick for builds that keep adding SSDs.",
-        B0DG3QW9TJ: "The X870E Carbon pairs PCIe 5.0 graphics and M.2 slots with USB4 and Wi-Fi 7. MSI's listing does not state its M.2 count, so check the spec page if storage matters.",
+        B0DG3QW9TJ: "The X870E Carbon pairs PCIe 5.0 graphics and M.2 slots with USB4 and Wi-Fi 7. MSI doesn't state its M.2 count, so check the spec page if storage matters.",
         B0DGVBM73J: "The X870E AORUS Elite keeps four M.2 slots, USB4 and a 16+2+2 layout at a lower price than the Master, with 2.5Gbps rather than 5Gbps Ethernet.",
-        B0FDSD77GP: "The TUF X870E-PLUS brings X870E's four M.2 slots and a 16+2+1 layout of 80A stages to a more affordable board. USB4 is not stated in its listing.",
-        B0DFP2Q3TM: "The X870E Taichi is an E-ATX board with USB4, Wi-Fi 7 and four M.2 slots. Check your case lists E-ATX support before choosing it.",
+        B0FDSD77GP: "The TUF X870E-PLUS brings X870E's four M.2 slots and a 16+2+1 layout of 80A stages to a more affordable board. USB4 isn't mentioned.",
+        B0DFP2Q3TM: "The X870E Taichi is an E-ATX board with USB4, Wi-Fi 7 and four M.2 slots. Check your case offers E-ATX support before choosing it.",
       },
       intro: [
         "X870E is AMD's top AM5 chipset. It runs the same CPUs as B850 at the same speed, but adds PCIe 5.0 lanes, USB4 and room for more devices.",
@@ -96,7 +96,7 @@ export const batch4: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       takes: {
         B0DHCQ1MPZ: "The Strix B850-I lists the strongest power layout of the Mini-ITX boards here, 10+2+1, with Wi-Fi 7 and two M.2 slots. It handles a high-end Ryzen chip in a small case.",
         B0FC9CZTXL: "The B850I Edge TI is the only board here with 5Gbps Ethernet, alongside Wi-Fi 7 and two M.2 slots. Its white finish suits light-themed small builds.",
-        B0DQNRGMWH: "The B850I AORUS PRO lists memory support up to DDR5-8400 when overclocked, with Wi-Fi 7 and 2.5Gbps LAN. Gigabyte's listing does not state its M.2 count.",
+        B0DQNRGMWH: "The B850I AORUS PRO lists memory support up to DDR5-8400 when overclocked, with Wi-Fi 7 and 2.5Gbps LAN. Gigabyte doesn't state its M.2 count.",
         B0H862GP41: "The TUF B850I brings a rear USB 20Gbps port and two M.2 slots, with Wi-Fi 6E rather than Wi-Fi 7.",
         B0CKWVHW69: "The B650I Lightning uses the older B650 chipset at a lower price, keeping a PCIe 5.0 M.2 slot and Wi-Fi 6E. It suits budget small builds with a mid-range CPU.",
       },
@@ -164,7 +164,7 @@ export const batch4: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
         B0BPTKD797: "The Vengeance RGB matches that 6000 CL30 rating and adds lighting, with both profiles for AMD or Intel. It is the pick for builds with a glass panel.",
         B0DD295CNY: "The Flare X5 runs 6000 CL30 at 1.35V, the lowest voltage here, and is tuned for AMD with an EXPO profile. It is a quiet-looking match for Ryzen builds.",
         B0D2JLWLWZ: "The Crucial Pro kit runs 6000MT/s at CL36 with both profiles. Its looser timings cost a little latency in exchange for a lower price.",
-        B0B72827G5: "The FURY Renegade kit runs faster at 6400MT/s CL32, which suits Intel Core Ultra builds. Its listing names XMP only, so AM5 boards may need manual settings.",
+        B0B72827G5: "The FURY Renegade kit runs faster at 6400MT/s CL32, which suits Intel Core Ultra builds. The maker specifies XMP only, so AM5 boards may need manual settings.",
         B0C5M6SJYW: "The Vengeance 64GB kit doubles capacity at 6000 CL30. It suits players who also edit video or keep many apps open.",
       },
       intro: [
@@ -231,7 +231,7 @@ export const batch4: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       },
       takes: {
         B0BHJJ9Y77: "The 990 PRO sits near the top of PCIe 4.0 speeds at 7,450MB/s reads, with DRAM cache to hold speed under heavy writes. It is the drive to pick for a gaming PC.",
-        B0B7CKZGN6: "The SN850X with heatsink lists 7,300MB/s reads and comes ready for boards without an M.2 cover. Skip the heatsink version if your board has one.",
+        B0B7CKZGN6: "The SN850X with heatsink offers 7,300MB/s reads and comes ready for boards without an M.2 cover. Skip the heatsink version if your board has one.",
         B0C91X5DZL: "The NM790 reaches 7,400MB/s reads with a 1,500TBW rating and no DRAM, using host memory instead. For games that trade-off rarely shows.",
         B0DHLCRF91: "The 990 EVO Plus can run on PCIe 4.0 x4 or PCIe 5.0 x2 lanes, which suits boards that share lanes. Its 7,250MB/s reads keep it close to the fastest Gen4 drives.",
         B0DX2DPJZ5: "The 9100 PRO doubles PCIe 4.0 speeds at 14,700MB/s reads with DRAM cache. It helps large file work more than game loading.",
@@ -267,7 +267,7 @@ export const batch4: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       },
       takes: {
         B0CHGT1KFJ: "The 990 PRO 4TB keeps its 7,450MB/s reads and DRAM cache at double the capacity. It is the fast, safe choice for a large library.",
-        B0C91RNCDV: "The NM790 4TB lists a 3,000TBW rating, the highest here, with 7,400MB/s reads. It is DRAM-less, which rarely matters for games.",
+        B0C91RNCDV: "The NM790 4TB offers a 3,000TBW rating, the highest here, with 7,400MB/s reads. It is DRAM-less, which rarely matters for games.",
         B0D9WTKV1B: "The SN850X 4TB with heatsink offers 7,300MB/s reads ready for boards without an M.2 cover.",
         B0DHLBDSP7: "The 990 EVO Plus 4TB runs on PCIe 4.0 x4 or PCIe 5.0 x2 with 7,250MB/s reads, a good fit for secondary M.2 slots.",
         B0D7MLB76V: "The WD Blue SN5000 is the slowest drive here at 5,500MB/s reads, but still loads games quickly. It is the budget way to 4TB.",

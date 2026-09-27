@@ -82,16 +82,41 @@ function specPhrase(field: FieldDef, v: unknown): string {
   return typeof v === "number" ? `${s} ${lc(field.noun ?? field.label)}`.replace(/\s+/g, " ") : `${lc(field.label)}: ${s}`;
 }
 
+/** "Flip-up" + "Armrests" -> "flip-up armrests"; "USB-C" + "Connection" -> "a USB-C connection". */
+function featureOf(value: string, label: string): string {
+  const v = lc(value.trim()), l = label.toLowerCase();
+  const head = l.split(/\s+/).pop()!.replace(/s$/, "");
+  const phrase = v.toLowerCase().includes(head) ? v : `${v} ${l}`;
+  return /s$/.test(phrase) || /^(a|an|the)\s/.test(phrase) ? phrase : `${/^(?:[aeio]|8|11\b|18\b)/i.test(phrase) ? "an" : "a"} ${phrase}`;
+}
+
 /** A take built only from listed facts, for products no earlier batch wrote one for. */
 export function autoTake(f: Fact, schema: CategorySchema): string {
-  const specs = schema.fields.filter((x) => has(val(f, x.key))).slice(0, 3).map((x) => specPhrase(x, val(f, x.key)));
+  // Lead with what the product gives the reader (its highlights), then the numbers that back it up.
+  // Descriptive "field: value" pairs are left to the spec table; they read like a form in prose.
+  const nums = schema.fields.filter((x) => typeof val(f, x.key) === "number").slice(0, 2).map((x) => numClaim(x, val(f, x.key) as number));
+  const [n0, n1] = f.notes;
   const v = hash(f.asin) % 3;
-  const first = !specs.length ? `The ${f.short} is a ${f.name}.`
-    : v === 0 ? `The ${f.short} lists ${joinList(specs)}.`
-    : v === 1 ? `Per its listing, the ${f.short} offers ${joinList(specs)}.`
-    : `On paper, the ${f.short} brings ${joinList(specs)}.`;
-  const n = f.notes.slice(0, 2);
-  return n.length ? `${first} ${v === 1 ? "Its maker also points to" : "The listing also calls out"} ${joinList(n)}.` : first;
+  const first = n0
+    ? v === 0 ? `The ${f.short} stands out for ${n0}${n1 ? `, and it adds ${n1}` : ""}.`
+      : v === 1 ? `What the ${f.short} brings to the table is ${n0}${n1 ? `, plus ${n1}` : ""}.`
+      : `The ${f.short} is built around ${n0}${n1 ? `, with ${n1} on top` : ""}.`
+    : nums.length ? `The ${f.short} ${joinList(nums)}.` : `The ${f.short} is a straightforward ${f.name}.`;
+  if (!n0 || !nums.length) return first;
+  return `${first} ${v === 2 ? `On the spec sheet, it ${joinList(nums)}` : `It also ${joinList(nums)}`}.`;
+}
+
+/** Reviewer phrasing for one numeric spec: "reclines to 135°", "is rated for 400 lbs", "offers an 8,000Hz polling rate". */
+function numClaim(field: FieldDef, v: number): string {
+  const s = field.fmt(v as never);
+  const k = `${field.key} ${field.noun ?? ""} ${field.label}`.toLowerCase();
+  if (/capacity|load/.test(k)) return `is rated for ${s}`;
+  if (/weight/.test(k)) return `weighs ${s}`;
+  if (/battery/.test(k)) return `runs for ${/up to/.test(s) ? s : `up to ${s}`}`;
+  if (/recline/.test(k)) return `reclines to ${s}`;
+  if (/pack/.test(k)) return `comes as ${s}`;
+  const noun = lc(field.noun ?? field.label);
+  return `offers ${/^(?:[aeio]|8|11\b|18\b)/i.test(s) ? "an" : "a"} ${s} ${noun}`;
 }
 
 function labelsFor(fs: Fact[], schema: CategorySchema, noun: string): Record<string, ReturnType<typeof L>> {
@@ -115,12 +140,12 @@ function labelsFor(fs: Fact[], schema: CategorySchema, noun: string): Record<str
     const winners = fs.filter((f) => num(val(f, field.key)) === best);
     if (winners.length !== 1 || ruleWinners.has(winners[0].asin)) continue;
     const sup = field.superlative![0];
-    give(winners[0], `${cap(sup)} ${title(field.noun ?? field.label)}`, `the ${sup} listed ${field.noun ?? lc(field.label)} here (${field.fmt(best as never)})`, `Buyers who put ${field.noun ?? lc(field.label)} first.`);
+    give(winners[0], `${cap(sup)} ${title(field.noun ?? field.label)}`, `the ${sup} ${field.noun ?? lc(field.label)} here (${field.fmt(best as never)})`, `Buyers who put ${field.noun ?? lc(field.label)} first.`);
   }
   // 2. Lowest listed price.
   const byPrice = [...fs].filter((f) => price(f) < Infinity).sort((a, b) => price(a) - price(b));
   if (byPrice.length >= 2 && price(byPrice[0]) < price(byPrice[1]) && !ruleWinners.has(byPrice[0].asin))
-    give(byPrice[0], "Lowest Price Here", `the lowest listed price among these ${noun} at the time of writing`, "Keeping the budget tight.");
+    give(byPrice[0], "Lowest Price Here", `the lowest price among these ${noun} at the time of writing`, "Keeping the budget tight.");
   // 3. Highest listed price: the premium end of the set.
   const top = byPrice[byPrice.length - 1];
   if (byPrice.length >= 3 && price(top) > price(byPrice[byPrice.length - 2]) && !ruleWinners.has(top.asin))
@@ -134,7 +159,7 @@ function labelsFor(fs: Fact[], schema: CategorySchema, noun: string): Record<str
       const s = String(field.fmt(v as never));
       if (s.length > 16 || /[,()+/;]/.test(s) || /^(yes|no)$/i.test(s) || fs.filter((o) => String(val(o, field.key) ?? "") === String(v)).length !== 1) continue;
       const badge = `${title(s)} ${title(field.label)}`.replace(/\b(\w+) \1\b/gi, "$1");
-      if (give(f, badge, `${lc(field.label)} listed as ${s}`, `Buyers who want ${lc(field.label)}: ${s}.`)) break;
+      if (give(f, badge, `${featureOf(s, field.label)}`, `Buyers who want ${featureOf(s, field.label)}.`)) break;
     }
   }
   // 5. Remaining picks: a neutral badge whose reason is the pick's first listed highlight.
@@ -170,9 +195,9 @@ export const make = (g: Group) => (s: Spec): Entry => {
   const on = joinList(ranked.slice(0, 4));
   const tails = [
     " from their listings, with the trade-offs of each named.",
-    ", using only what each listing states, with the trade-offs of each pick named.",
-    ", using only listed specifications and noting where a listing leaves details out.",
-    ", using only listed specifications, with each pick's trade-offs and the pick that covers them named.",
+    ", using only what each maker states, with the trade-offs of each pick named.",
+    ", using only specifications and noting where a listing leaves details out.",
+    ", using only specifications, with each pick's trade-offs and the pick that covers them named.",
     " from their listings.",
   ];
   const metas = [4, 3, 2, 5].flatMap((k) => tails.map((tail) => `${N} ${s.kw} picks compared on ${joinList(ranked.slice(0, k))}${tail}`));

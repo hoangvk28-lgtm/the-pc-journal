@@ -26,14 +26,14 @@ const psuWhySchema: CategorySchema = {
     const hp = Number(f.specs.hpwr ?? 0), pc = Number(f.specs.pcie ?? 0);
     const cab = hp === 2 ? "two native 12V-2x6 cables" : "a native 12V-2x6 cable";
     if (hp && pc) s.push(pick([
-      `For the graphics card, it lists ${cab} and ${pc} PCIe 6+2 connectors, so count the sockets on your exact card before buying.`,
+      `For the graphics card, it has ${cab} and ${pc} PCIe 6+2 connectors, so count the sockets on your exact card before buying.`,
       `GPU power comes from ${cab} plus ${pc} PCIe 6+2 leads; match those against the sockets on your card.`,
       `A 16-pin card uses its ${cab.replace(/^(a|two) native /, "")}, and an 8-pin card can draw on ${pc} PCIe 6+2 connectors.`,
       `Count your card's power sockets first: this unit supplies ${cab} and ${pc} PCIe 6+2 connectors.`,
     ], f.name + k));
     if (f.specs.form === "SFX" || f.specs.form === "SFX-L") s.push(`Confirm your case accepts ${f.specs.form}; many small cases take SFX but not the longer SFX-L.`);
     else if (f.specs.depth !== undefined) s.push(`Compare its ${f.specs.depth}mm length with your case's maximum PSU length, leaving room for the modular plugs.`);
-    if (f.specs.atx === undefined) s.push(pick(["Confirm the exact revision supports ATX 3.1, since the listing is not consistent about it.", "The listing mixes ATX 3.0 and 3.1 wording, so check the revision printed on the unit's label or spec page.", "Check which ATX revision your unit ships as; the listing is inconsistent."], k + "a"));
+    if (f.specs.atx === undefined) s.push(pick(["Confirm the exact revision supports ATX 3.1, since the product page is not consistent about it.", "The product page mixes ATX 3.0 and 3.1 wording, so check the revision printed on the unit's label or spec page.", "Check which ATX revision your unit ships as; the product page is inconsistent."], k + "a"));
     return s;
   },
   criteria: [], faq: [], evaluated: [],
@@ -98,23 +98,23 @@ interface Rule {
 const rules: Rule[] = [
   { label: "Most Efficient", score: (f) => effOf(f) || undefined,
     reason: (f) => `the highest efficiency certification here (${effLabel(f)})`,
-    verdict: [(f) => `its ${effLabel(f)} rating means less power lost as heat under sustained load`, (f) => `no other unit here lists a higher efficiency tier than its ${effLabel(f)}`, (f) => `it tops this group on efficiency, with ${effLabel(f)} listed`],
+    verdict: [(f) => `its ${effLabel(f)} rating means less power lost as heat under sustained load`, (f) => `no other unit here offers a higher efficiency tier than its ${effLabel(f)}`, (f) => `it tops this group on efficiency, with ${effLabel(f)} listed`],
     bestFor: ["Machines that run heavy loads for hours, where efficiency and heat matter.", "Builds under long, sustained load where wasted heat adds up.", "Buyers who weigh running cost and heat over price."] },
   { label: "Quietest Rated", score: (f) => (f.lambda ? LAMBDA_RANK[f.lambda] : undefined),
     reason: (f) => `the best listed Cybenetics noise class in this group (LAMBDA ${f.lambda})`,
-    verdict: [(f) => `it carries a Cybenetics LAMBDA ${f.lambda} noise rating, the best listed here`, (f) => `its LAMBDA ${f.lambda} noise class beats every other rating listed in this group`, (f) => `on listed noise ratings it leads, at LAMBDA ${f.lambda}`],
+    verdict: [(f) => `it carries a Cybenetics LAMBDA ${f.lambda} noise rating, the best listed here`, (f) => `its LAMBDA ${f.lambda} noise class beats every other rating in this group`, (f) => `on listed noise ratings it leads, at LAMBDA ${f.lambda}`],
     bestFor: ["Quiet builds where the power supply should never be the loudest part.", "Silent-PC builds and bedrooms or studios.", "Anyone who notices fan noise during long sessions."] },
   { label: "Longest Warranty", score: (f) => f.warrantyYears,
-    reason: (f) => `the longest listed warranty in this comparison (${f.warrantyYears} years)`,
-    verdict: [(f) => `it is backed by a ${f.warrantyYears}-year warranty, the longest listed here`, (f) => `no other pick here lists a warranty as long as its ${f.warrantyYears} years`, (f) => `its ${f.warrantyYears}-year warranty outlasts every other term listed in this group`],
+    reason: (f) => `the longest warranty in this comparison (${f.warrantyYears} years)`,
+    verdict: [(f) => `it is backed by a ${f.warrantyYears}-year warranty, the longest here`, (f) => `no other pick here offers a warranty as long as its ${f.warrantyYears} years`, (f) => `its ${f.warrantyYears}-year warranty outlasts every other term in this group`],
     bestFor: ["Buyers who keep a power supply through several upgrades.", "Builders who want the longest cover for the money.", "A PC you expect to keep running for most of a decade."] },
   { label: "Most Compact", score: (f) => (f.depthMm ? -f.depthMm : undefined),
     reason: (f) => `the shortest stated length here (${f.depthMm}mm)`,
     verdict: [(f) => `at ${f.depthMm}mm it is the shortest unit here`, (f) => `its ${f.depthMm}mm length is the shortest stated in this group`, (f) => `it leaves the most room behind the PSU, at just ${f.depthMm}mm long`],
     bestFor: ["Cases with a tight PSU bay or a fan mounted behind the power supply.", "Compact mid-towers where every millimetre behind the PSU counts.", "Builds with a bottom fan or drive cage near the PSU."] },
   { label: "Most GPU Connectors", score: (f) => f.pcie8,
-    reason: (f) => `the most PCIe 6+2 connectors listed here (${f.pcie8})`,
-    verdict: [(f) => `it lists ${f.pcie8} PCIe 6+2 connectors, more than any other pick here`, (f) => `with ${f.pcie8} PCIe 6+2 connectors listed, it covers the widest range of graphics cards here`, (f) => `its ${f.pcie8} listed PCIe 6+2 connectors lead this group`],
+    reason: (f) => `the most PCIe 6+2 connectors here (${f.pcie8})`,
+    verdict: [(f) => `it has ${f.pcie8} PCIe 6+2 connectors, more than any other pick here`, (f) => `with ${f.pcie8} PCIe 6+2 connectors, it covers the widest range of graphics cards here`, (f) => `its ${f.pcie8} listed PCIe 6+2 connectors lead this group`],
     bestFor: ["Graphics cards that still use several 8-pin connectors.", "Owners of older cards with three or more 8-pin sockets.", "Builds that may swap between 8-pin and 12V-2x6 cards."] },
   { label: "Best for Two 12V-2x6 Cards", score: (f) => (f.hpwr && f.hpwr >= 2 ? f.hpwr : undefined),
     reason: () => "two native 12V-2x6 cables",
@@ -129,8 +129,8 @@ const rules: Rule[] = [
     verdict: [() => "its fan can stop completely at light load", () => "it is the only unit here listed with a fan that switches off at low load", () => "its zero-RPM mode keeps it silent during light work"],
     bestFor: ["PCs that spend most of their time on light work.", "Machines that idle for long periods between heavy tasks.", "Quiet desks where idle noise matters."] },
   { label: "Largest Fan", score: (f) => f.fanMm,
-    reason: (f) => `the largest listed fan here (${f.fanMm}mm)`,
-    verdict: [(f) => `its ${f.fanMm}mm fan is the largest listed here`, (f) => `no other unit in this group lists a fan bigger than its ${f.fanMm}mm`, (f) => `it uses the biggest fan listed here, at ${f.fanMm}mm`],
+    reason: (f) => `the largest fan here (${f.fanMm}mm)`,
+    verdict: [(f) => `its ${f.fanMm}mm fan is the largest here`, (f) => `no other unit in this group offers a fan bigger than its ${f.fanMm}mm`, (f) => `it uses the biggest fan listed here, at ${f.fanMm}mm`],
     bestFor: ["Buyers who want a large, slow-spinning fan.", "Builds where a larger, slower fan helps keep noise down.", "Warm cases where airflow through the PSU matters."] },
 ];
 
@@ -175,9 +175,9 @@ function weaknesses(f: PsuFact, facts: PsuFact[]): string[] {
   if (f.bearing === "rifle") w.push("Rifle-bearing fan");
   if (f.form === "SFX" && f.fanMm && f.fanMm <= 92) w.push("Small 92mm fan works harder under load");
   if (f.form === "SFX-L") w.push("SFX-L is longer than standard SFX");
-  if (!f.warrantyYears) w.push("Warranty term not in the listing");
-  if (!f.zeroRpm && facts.some((x) => x.zeroRpm)) w.push("No zero-RPM mode listed");
-  if (!effLabel(f)) w.push("No efficiency tier in the listing");
+  if (!f.warrantyYears) w.push("No published warranty term");
+  if (!f.zeroRpm && facts.some((x) => x.zeroRpm)) w.push("No zero-RPM mode");
+  if (!effLabel(f)) w.push("No published efficiency tier");
   if (!f.atx) w.push("ATX version not stated consistently");
   return w;
 }
@@ -206,15 +206,15 @@ function comparison(f: PsuFact, other: PsuFact, seed: string): string | undefine
       : v([`It is ${d}mm longer than the ${o}`, `It needs ${d}mm more space than the ${o}`, `Compared with the ${o}, it is ${d}mm longer`]));
   }
   if (f.warrantyYears && other.warrantyYears && f.warrantyYears !== other.warrantyYears)
-    cands.push(v([`Its ${f.warrantyYears}-year warranty compares with ${other.warrantyYears} years on the ${o}`, `The ${o} carries ${other.warrantyYears} years of cover; this one lists ${f.warrantyYears}`, `Warranty is ${f.warrantyYears} years here versus ${other.warrantyYears} on the ${o}`]));
+    cands.push(v([`Its ${f.warrantyYears}-year warranty compares with ${other.warrantyYears} years on the ${o}`, `The ${o} carries ${other.warrantyYears} years of cover; this one carries ${f.warrantyYears}`, `Warranty is ${f.warrantyYears} years here versus ${other.warrantyYears} on the ${o}`]));
   if (effOf(f) && effOf(other) && effOf(f) !== effOf(other))
-    cands.push(v([`It is rated ${effLabel(f)}, against ${effLabel(other)} for the ${o}`, `The ${o} lists ${effLabel(other)}; this unit lists ${effLabel(f)}`, `On efficiency it carries ${effLabel(f)}, where the ${o} carries ${effLabel(other)}`]));
+    cands.push(v([`It is rated ${effLabel(f)}, against ${effLabel(other)} for the ${o}`, `The ${o} is rated ${effLabel(other)}; this unit is rated ${effLabel(f)}`, `On efficiency it carries ${effLabel(f)}, where the ${o} carries ${effLabel(other)}`]));
   if (f.zeroRpm !== other.zeroRpm && (f.zeroRpm || other.zeroRpm))
     cands.push(f.zeroRpm
-      ? v([`Unlike the ${o}, its listing includes a fan that stops at low load`, `It adds a zero-RPM fan mode that the ${o} listing does not mention`, `Where the ${o} lists no fan-stop mode, this one does`])
-      : v([`The ${o} lists a zero-RPM fan mode; this one does not`, `It lacks the fan-stop mode listed for the ${o}`, `If idle silence matters, note that the ${o} lists a zero-RPM mode and this one does not`]));
+      ? v([`Unlike the ${o}, it has a fan that stops at low load`, `It adds a zero-RPM fan mode that the ${o} does not mention`, `Where the ${o} has no fan-stop mode, this one does`])
+      : v([`The ${o} offers a zero-RPM fan mode; this one does not`, `It lacks the fan-stop mode for the ${o}`, `If idle silence matters, note that the ${o} offers a zero-RPM mode and this one does not`]));
   if ((f.pcie8 ?? 0) !== (other.pcie8 ?? 0) && f.pcie8 && other.pcie8)
-    cands.push(v([`It lists ${f.pcie8} PCIe 6+2 connectors to the ${o}'s ${other.pcie8}`, `The ${o} lists ${other.pcie8} PCIe 6+2 connectors against ${f.pcie8} here`]));
+    cands.push(v([`It has ${f.pcie8} PCIe 6+2 connectors to the ${o}'s ${other.pcie8}`, `The ${o} has ${other.pcie8} PCIe 6+2 connectors against ${f.pcie8} here`]));
   if (f.watts !== other.watts)
     cands.push(v([`At ${f.watts}W it sits ${f.watts > other.watts ? "above" : "below"} the ${watt(other)} ${o}`, `It offers ${f.watts}W, ${f.watts > other.watts ? "more" : "less"} than the ${watt(other)} ${o}`]));
   if (cands.length === 0) return undefined;
@@ -228,9 +228,9 @@ const VERDICT_OPENERS = [
   (n: string, why: string) => `The ${n} earns its place because ${why}.`,
 ];
 const NOTE_LEADS = [
-  (n: string) => `The listing also highlights ${n}.`,
+  (n: string) => `It also comes with ${n}.`,
   (n: string) => `Other listed details include ${n}.`,
-  (n: string) => `Beyond that, the maker lists ${n}.`,
+  (n: string) => `Beyond that, it comes with ${n}.`,
 ];
 const CAVEAT_LEADS = [
   (c: string) => `The trade-off: ${c}.`,
@@ -238,12 +238,12 @@ const CAVEAT_LEADS = [
   (c: string) => `One thing to check: ${c}.`,
 ];
 
-const WARRANTY_V = ["the listing does not state a warranty term, so confirm it with the maker", "no warranty length appears in the listing; check the maker's site", "you will need to look up the warranty term, since the listing omits it"];
-const ZERO_V = ["its listing does not mention a zero-RPM fan mode", "the fan is not listed as stopping at low load", "there is no fan-stop mode in its listing, so expect some idle noise"];
+const WARRANTY_V = ["the maker doesn't publish a warranty term here, so confirm it before buying", "no warranty length is given; check the maker's site", "you will need to look up the warranty term, since the listing omits it"];
+const ZERO_V = ["it has no mentioned zero-RPM fan mode", "the fan is not listed as stopping at low load", "there is no fan-stop mode in its listing, so expect some idle noise"];
 function caveatSentence(w: string[], seed = ""): string {
   const map: Record<string, string> = {
-    "Warranty term not in the listing": "WARRANTY",
-    "No zero-RPM mode listed": "ZERO",
+    "No published warranty term": "WARRANTY",
+    "No zero-RPM mode": "ZERO",
     "Non-modular cables": "every cable is fixed, which makes a small case harder to tidy",
     "Semi-modular, not fully modular": "the main cables are fixed rather than detachable",
     "Only 80 Plus Bronze": "Bronze efficiency means more heat under sustained load than Gold units",
@@ -251,8 +251,8 @@ function caveatSentence(w: string[], seed = ""): string {
     "Rifle-bearing fan": "it uses a rifle-bearing fan rather than a fluid dynamic one",
     "Small 92mm fan works harder under load": "its 92mm fan has to spin faster under heavy load",
     "SFX-L is longer than standard SFX": "SFX-L is longer than SFX, so check your case supports it",
-    "No efficiency tier in the listing": "the listing does not state an efficiency certification",
-    "ATX version not stated consistently": "its listing is inconsistent about ATX 3.0 or 3.1, so check the exact revision",
+    "No published efficiency tier": "the maker doesn't state an efficiency certification",
+    "ATX version not stated consistently": "the product page is inconsistent about ATX 3.0 or 3.1, so check the exact revision",
   };
   const first = w.find((x) => map[x]) ?? w.find((x) => /mm long/.test(x));
   if (!first) return "";
@@ -263,8 +263,8 @@ function caveatSentence(w: string[], seed = ""): string {
 }
 
 const SKIP: Record<string, string> = {
-  "Warranty term not in the listing": "You want a clearly stated warranty term before buying.",
-  "No zero-RPM mode listed": "You want a fan that stops at idle; none is listed for this unit.",
+  "No published warranty term": "You want a clearly stated warranty term before buying.",
+  "No zero-RPM mode": "You want a fan that stops at idle; none is rated for this unit.",
   "Non-modular cables": "Your case is small and you need to remove unused cables.",
   "Semi-modular, not fully modular": "You want every cable detachable for a clean build.",
   "Only 80 Plus Bronze": "Heat and efficiency under long, heavy loads matter to you.",
@@ -272,14 +272,14 @@ const SKIP: Record<string, string> = {
   "Rifle-bearing fan": "You prefer a fluid dynamic bearing fan for long service life.",
   "Small 92mm fan works harder under load": "You want the quietest possible unit under sustained heavy load.",
   "SFX-L is longer than standard SFX": "Your case only accepts standard SFX units.",
-  "No efficiency tier in the listing": "You want a stated efficiency certification.",
+  "No published efficiency tier": "You want a stated efficiency certification.",
   "ATX version not stated consistently": "You need confirmed ATX 3.1 support without checking the revision.",
 };
 function skipIf(w: string[]): string {
   const k = w.find((x) => SKIP[x]);
   if (k) return SKIP[k];
   const len = w.find((x) => /mm long/.test(x));
-  return len ? `Your case cannot take a ${len.replace(" long", "")} power supply.` : "You need a feature this unit's listing does not state.";
+  return len ? `Your case cannot take a ${len.replace(" long", "")} power supply.` : "Look at the other picks if you need a feature not covered above.";
 }
 
 export function composePsuGuide(cfg: PsuArticleConfig): BestGuide {
@@ -329,7 +329,7 @@ export function composePsuGuide(cfg: PsuArticleConfig): BestGuide {
       skipIf: skipIf(w),
       specs: specsOf(f),
       pros: pros.length >= 3 ? pros : [...pros, "ATX 3.x compatible", "Native GPU power support"].slice(0, 3),
-      cons: cons.length >= 2 ? cons : [...cons, ...(f.lambda ? [] : ["No Cybenetics noise class listed"]), ...(f.depthMm ? [] : ["Length not stated in the listing"]), "Premium price for the feature set"].slice(0, 2),
+      cons: cons.length >= 2 ? cons : [...cons, ...(f.lambda ? [] : ["No Cybenetics noise class"]), ...(f.depthMm ? [] : ["Length not published"]), "Premium price for the feature set"].slice(0, 2),
     };
   });
 

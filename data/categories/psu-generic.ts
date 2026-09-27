@@ -37,11 +37,11 @@ export const psuGenericSchema: CategorySchema = {
   compat: (f) => {
     const s: string[] = [];
     const n = f.short, h = num(f, "hpwr"), p8 = num(f, "pcie8"), d = num(f, "depth");
-    if (h) s.push(`The ${n} lists ${h === 1 ? "a native 12V-2x6 cable" : `${h} native 12V-2x6 cables`}, so a 16-pin card plugs in without an adapter.`);
-    else s.push(`The ${n} listing does not state a native 12V-2x6 cable; confirm the cable kit before pairing it with a 16-pin card.`);
-    if (p8) s.push(`It also lists ${p8} PCIe 8-pin connectors for cards that use 8-pin power.`);
+    if (h) s.push(`The ${n} comes with ${h === 1 ? "a native 12V-2x6 cable" : `${h} native 12V-2x6 cables`}, so a 16-pin card plugs in without an adapter.`);
+    else s.push(`The ${n} has no stated native 12V-2x6 cable; confirm the cable kit before pairing it with a 16-pin card.`);
+    if (p8) s.push(`It also has ${p8} PCIe 8-pin connectors for cards that use 8-pin power.`);
     if (d) s.push(`At ${d}mm deep, compare it with your case's PSU clearance before buying.`);
-    else s.push(`No depth is listed for the ${n}, so check the maker's page against your case's PSU bay.`);
+    else s.push(`No depth is rated for the ${n}, so check the maker's page against your case's PSU bay.`);
     return s;
   },
   criteria: [
@@ -63,7 +63,7 @@ export const psuGenericSchema: CategorySchema = {
   evaluated: [
     { title: "Wattage", description: "We compared rated output with NVIDIA's or AMD's recommended system power for the card." },
     { title: "Connectors", description: "We recorded native 12V-2x6 cables and PCIe 8-pin connectors where the listing states them." },
-    { title: "Standards", description: "We noted ATX version, 80 Plus and Cybenetics ratings as listed." },
+    { title: "Standards", description: "We noted ATX version, 80 Plus and Cybenetics ratings." },
     { title: "Build and warranty", description: "We checked depth, modular cabling, fan-stop modes and warranty length." },
     { title: "Price", description: "We grouped picks by price at the time of writing." },
   ],

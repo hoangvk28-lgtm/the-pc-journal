@@ -39,7 +39,7 @@ export const caseSchema: CategorySchema = {
   },
   criteria: [
     { id: "gpu-fit", title: "Check GPU length and thickness", body: "Large graphics cards run past 330mm and take three or four slots. Compare your card with the case's GPU length figure, and note that front fans or a front radiator often cut it.\n\nVertical mounts need a riser cable and more width." },
-    { id: "cooler-fit", title: "Match cooler height to the case", body: "Every case lists a maximum CPU air cooler height. Tall dual-tower coolers need about 160mm to 170mm; small cases may take only a low-profile cooler or an AIO." },
+    { id: "cooler-fit", title: "Match cooler height to the case", body: "Every case offers a maximum CPU air cooler height. Tall dual-tower coolers need about 160mm to 170mm; small cases may take only a low-profile cooler or an AIO." },
     { id: "radiator", title: "Plan radiator positions early", body: "A case may list a 360mm radiator only at the front or only on top. Top mounts must clear the motherboard heatsinks and tall RAM, and front mounts can shorten the GPU limit." },
     { id: "airflow", title: "Mesh fronts and included fans", body: "Mesh or perforated front panels breathe more easily than solid or glass fronts. Included fans save money; a case with none needs at least two or three before it is ready to use." },
     { id: "psu-form", title: "Confirm the power supply format", body: "Most mid-towers take ATX power supplies, often with a length limit. Small cases may need SFX or SFX-L units, which cost more at the same wattage." },
@@ -56,7 +56,7 @@ export const caseSchema: CategorySchema = {
   evaluated: [
     { title: "Hardware fit", description: "We compared listed GPU length, CPU cooler height and power supply limits." },
     { title: "Cooling layout", description: "We checked radiator sizes and positions, fan mounts and how many fans come in the box." },
-    { title: "Size", description: "We noted motherboard support and, where the listing states it, the case volume." },
+    { title: "Size", description: "We noted motherboard support and, where the maker states it, the case volume." },
     { title: "Build features", description: "We recorded front USB-C, glass panels and layout features such as dual chambers." },
   ],
 };

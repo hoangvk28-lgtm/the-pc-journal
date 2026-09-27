@@ -32,7 +32,7 @@ export const prebuiltSchema: CategorySchema = {
       strength: (v) => (Number(v) >= 2000 ? `A ${tb(Number(v))} SSD` : undefined),
       weakness: (v) => (Number(v) <= 512 ? `A ${v}GB SSD fills quickly with modern games` : undefined) },
     { key: "psu", label: "Power supply", noun: "power supply wattage", better: "higher", superlative: ["largest", "smallest"], fmt: (v) => `${v}W`,
-      strength: (v) => `A listed ${v}W power supply` },
+      strength: (v) => `A ${v}W power supply` },
     { key: "psuCert", label: "PSU rating", fmt: (v) => String(v), strength: (v) => `An ${v} power supply` },
     { key: "warranty", label: "Warranty", fmt: (v) => String(v) },
     { key: "color", label: "Case colour", fmt: (v) => String(v) },
@@ -41,9 +41,9 @@ export const prebuiltSchema: CategorySchema = {
     const s: string[] = [];
     const n = f.short;
     const vram = num(f, "vram"), ram = num(f, "ram"), psu = num(f, "psu");
-    s.push(`Check the ${n}'s listed ports against your monitor: most graphics cards use DisplayPort and HDMI, so match the cable to the refresh rate you want.`);
-    if (psu) s.push(`The ${psu}W power supply is what the listing states; check its connectors before a later GPU upgrade.`);
-    else s.push(`The ${n}'s listing does not state PSU wattage, so ask the seller before planning a GPU upgrade.`);
+    s.push(`Check the ${n}'s ports against your monitor: most graphics cards use DisplayPort and HDMI, so match the cable to the refresh rate you want.`);
+    if (psu) s.push(`The ${psu}W power supply is the stated figure; check its connectors before a later GPU upgrade.`);
+    else s.push(`The ${n}'s PSU wattage isn't published, so ask the seller before planning a GPU upgrade.`);
     if (ram && ram <= 16) s.push(`With ${ram}GB installed, check for free memory slots before adding more.`);
     if (vram && vram <= 8) s.push(`At ${vram}GB of VRAM, 1080p is the comfortable target for new games.`);
     return s;
@@ -62,7 +62,7 @@ export const prebuiltSchema: CategorySchema = {
     { id: "ram-16-32", q: "Is 16GB of RAM enough for gaming?", a: "For most games, yes. 32GB helps when you stream, keep many browser tabs open or edit video alongside gaming." },
     { id: "vram", q: "How much VRAM do I need?", a: "8GB works at 1080p with some texture compromises in newer games; 12GB to 16GB is more comfortable at 1440p and 4K." },
     { id: "brand-may-vary", q: "What does \"brand may vary\" mean in a listing?", a: "The builder may ship an equivalent part from a different maker. The model and capacity should match; ask the seller if it matters to you." },
-    { id: "bloatware", q: "Do prebuilt PCs come with extra software?", a: "Some do. Check the listing for trial software, and remove what you do not need after setup." },
+    { id: "bloatware", q: "Do prebuilt PCs come with extra software?", a: "Some do. Check the product page for trial software, and remove what you do not need after setup." },
   ],
   evaluated: [
     { title: "Stated parts", description: "We included only listings that name the CPU, the GPU with its VRAM, the RAM and the SSD capacity." },
@@ -76,7 +76,7 @@ const Y1 = "1 year parts and labor";
 export const prebuiltFacts = withPool(pool as Pool, [
   // Under $1,000 and budget
   F("B0FCYPWLSN", "STGAubron Gaming PC (Ryzen 5 5500, RTX 3060 12GB)", "STGAubron R5 5500 RTX 3060", { cpu: "Ryzen 5 5500", gpu: "RTX 3060", vram: 12, ram: 16, ramType: "DDR4", ssd: 1000 }, ["12GB of VRAM on an older RTX 3060 at a sub-$900 price at the time of writing"]),
-  F("B0CRHVTG34", "MXZ Gaming PC (Core i5-12400F, RTX 4060)", "MXZ i5-12400F RTX 4060", { cpu: "Core i5-12400F", gpu: "RTX 4060", vram: 8, ram: 16, ramType: "DDR4-3200", ssd: 500, psu: 550 }, ["six RGB fans listed"]),
+  F("B0CRHVTG34", "MXZ Gaming PC (Core i5-12400F, RTX 4060)", "MXZ i5-12400F RTX 4060", { cpu: "Core i5-12400F", gpu: "RTX 4060", vram: 8, ram: 16, ramType: "DDR4-3200", ssd: 500, psu: 550 }, ["six RGB fans"]),
   F("B0GZNFHK95", "Skytech Gaming PC (Ryzen 5 5500, RTX 3050)", "Skytech R5 5500 RTX 3050", { cpu: "Ryzen 5 5500", gpu: "RTX 3050", vram: 6, ram: 16, ssd: 1000, warranty: Y1 }, ["a one-year parts and labor warranty from Skytech", "a 1TB SSD"]),
   F("B0FNR773ZJ", "ZYNEEX Prebuilt Gaming PC (Ryzen 5 5500, RTX 3050 6GB)", "ZYNEEX R5 5500 RTX 3050", { cpu: "Ryzen 5 5500", gpu: "RTX 3050", vram: 6, ram: 16, ramType: "DDR4-3200", ssd: 1000 }, ["ARGB air cooling and Wi-Fi listed", "a 1TB SSD"]),
   F("B0FCYVNZ16", "STGAubron Gaming PC (Ryzen 7 5700X, RTX 3050 6GB)", "STGAubron R7 5700X RTX 3050", { cpu: "Ryzen 7 5700X", gpu: "RTX 3050", vram: 6, ram: 16, ramType: "DDR4", ssd: 1000 }, ["an eight-core Ryzen 7 5700X"]),
@@ -101,7 +101,7 @@ export const prebuiltFacts = withPool(pool as Pool, [
   F("B0GZKJVFXH", "Skytech Rampage Gaming PC (Core i5-14400F, RTX 5070 12GB)", "Skytech Rampage", { cpu: "Core i5-14400F", gpu: "RTX 5070", vram: 12, ram: 24, ramType: "DDR5-6000", ssd: 1000, psu: 850, psuCert: "80 Plus Gold", warranty: Y1 }, ["an 850W Gold ATX 3 power supply with room for a later GPU"]),
   F("B0FR4CLBC2", "Skytech King 95 Gaming PC (Ryzen 7 7700, RTX 4070 Super 12GB)", "Skytech King 95", { cpu: "Ryzen 7 7700", gpu: "RTX 4070 Super", vram: 12, ram: 16, ramType: "DDR5-6000", ssd: 1000, psu: 750, psuCert: "80 Plus Gold", warranty: Y1, color: "White" }, ["a white Montech King 95 case"]),
   F("B0GYXT94QS", "WIWB Gaming Desktop (Core i7-14700KF, RTX 4070 12GB)", "WIWB i7 RTX 4070", { cpu: "Core i7-14700KF", gpu: "RTX 4070", vram: 12, ram: 16, ramType: "DDR5", ssd: 1000 }, ["a Core i7-14700KF, an unlocked chip"]),
-  F("B0GP66WN2J", "MSI Codex R2 (Core i5-14400F, RTX 5070 12GB)", "MSI Codex R2", { cpu: "Core i5-14400F", gpu: "RTX 5070", vram: 12, ram: 32, ramType: "DDR5", ssd: 1000 }, ["air cooling and Wi-Fi 6E listed"]),
+  F("B0GP66WN2J", "MSI Codex R2 (Core i5-14400F, RTX 5070 12GB)", "MSI Codex R2", { cpu: "Core i5-14400F", gpu: "RTX 5070", vram: 12, ram: 32, ramType: "DDR5", ssd: 1000 }, ["air cooling and Wi-Fi 6E"]),
   F("B0G2RDWN5F", "Skytech Archangel 5 Gaming PC (Ryzen 7 7700X, RTX 5070 12GB)", "Skytech Archangel 5", { cpu: "Ryzen 7 7700X", gpu: "RTX 5070", vram: 12, ram: 32, ramType: "DDR5-6000", ssd: 1000, psu: 750, psuCert: "80 Plus Gold", warranty: Y1, color: "White" }, ["a 360mm ARGB AIO cooler", "a white Archangel 5 case"]),
   F("B0GX8V3P8H", "KOTIN Prebuilt Gaming PC (Ryzen 7 7800X3D, RTX 5060 Ti 8GB)", "KOTIN 7800X3D", { cpu: "Ryzen 7 7800X3D", gpu: "RTX 5060 Ti", vram: 8, ram: 32, ramType: "DDR5", ssd: 1000, psu: 650, psuCert: "80 Plus Gold", warranty: Y1 }, ["a gaming-focused X3D CPU with a mid-range GPU to upgrade later"]),
   // RTX 5070

@@ -97,25 +97,26 @@ function rankingSentences(f: Fact, facts: Fact[], schema: CategorySchema, seed: 
     const noun = field.noun ?? lc(field.label);
     const [best, worst] = field.superlative ?? (field.better === "higher" ? ["highest", "lowest"] : ["lowest", "highest"]);
     const ties = order.filter((x) => num(x.specs[field.key]) === v).length;
+    if (ties === order.length) continue; // every pick shares it, so the comparison tells the reader nothing
     if (ties > 1) {
       const others = order.filter((x) => x.asin !== f.asin && num(x.specs[field.key]) === v).map((x) => `the ${x.short}`);
       out.push(pick([`Its ${field.fmt(v)} ${noun} matches ${listJoin(others)}.`, `On ${noun} it ties with ${listJoin(others)} at ${field.fmt(v)}.`], seed + field.key));
     } else if (pos === 0) {
       const second = order[1];
       out.push(pick([
-        `Its ${field.fmt(v)} ${noun} is the ${best} listed here; the next is the ${second.short} at ${field.fmt(num(second.specs[field.key])!)}.`,
-        `No other pick lists a ${best === "highest" || best === "longest" || best === "largest" ? best : best} ${noun}: ${field.fmt(v)}, against ${field.fmt(num(second.specs[field.key])!)} for the ${second.short}.`,
+        `Its ${field.fmt(v)} ${noun} is the ${best} here; the ${second.short} comes next at ${field.fmt(num(second.specs[field.key])!)}.`,
+        `Nothing else here matches its ${field.fmt(v)} ${noun}; the ${second.short} comes closest at ${field.fmt(num(second.specs[field.key])!)}.`,
         `On ${noun} it leads this guide at ${field.fmt(v)}, ahead of the ${second.short} (${field.fmt(num(second.specs[field.key])!)}).`,
       ], seed + field.key));
     } else if (pos === order.length - 1) {
       out.push(pick([
-        `Its ${field.fmt(v)} ${noun} is the ${worst} of the ${order.length} picks that list one; the ${leader.short} leads at ${field.fmt(num(leader.specs[field.key])!)}.`,
-        `On ${noun} it trails the group at ${field.fmt(v)}, while the ${leader.short} lists ${field.fmt(num(leader.specs[field.key])!)}.`,
+        `Its ${field.fmt(v)} ${noun} is the ${worst} in this group; the ${leader.short} leads at ${field.fmt(num(leader.specs[field.key])!)}.`,
+        `On ${noun} it trails the group at ${field.fmt(v)}, while ${claim(field, leader)}.`,
       ], seed + field.key));
     } else {
       out.push(pick([
-        `Its ${field.fmt(v)} ${noun} ranks ${ordinal(pos + 1)} of ${order.length} listed here, behind the ${leader.short} (${field.fmt(num(leader.specs[field.key])!)}) and ahead of the ${last.short} (${field.fmt(num(last.specs[field.key])!)}).`,
-        `On ${noun} it sits mid-pack at ${field.fmt(v)}: the ${leader.short} lists ${field.fmt(num(leader.specs[field.key])!)} and the ${last.short} ${field.fmt(num(last.specs[field.key])!)}.`,
+        `Its ${field.fmt(v)} ${noun} ranks ${ordinal(pos + 1)} of ${order.length} here, behind the ${leader.short} (${field.fmt(num(leader.specs[field.key])!)}) and ahead of the ${last.short} (${field.fmt(num(last.specs[field.key])!)}).`,
+        `On ${noun} it sits mid-pack at ${field.fmt(v)}: ${claim(field, leader)}, and the ${last.short} comes in at ${field.fmt(num(last.specs[field.key])!)}.`,
       ], seed + field.key));
     }
   }
@@ -126,7 +127,20 @@ const ordinal = (n: number) => ["first", "second", "third", "fourth", "fifth", "
 
 /** A value counts as missing when absent or recorded as "Not stated"/"Not listed". */
 const missingVal = (v: SpecValue | undefined) => v === undefined || (typeof v === "string" && (/^not (stated|listed)/i.test(v.trim()) || !v.trim()));
-const lc = (s: string) => (/^[A-Z][a-z]/.test(s) ? s.charAt(0).toLowerCase() + s.slice(1) : s);
+// Lowercase a leading capital for mid-sentence use, but keep brand-style words ("HyperSpeed", "PowerPlay").
+const lc = (s: string) => (/^[A-Z][a-z]/.test(s) && !/^[A-Z][a-z]+[A-Z]/.test(s) ? s.charAt(0).toLowerCase() + s.slice(1) : s);
+/** A value short and concrete enough to compare in a sentence. */
+const readableValue = (s: string, label = "") => s.trim().toLowerCase() !== label.trim().toLowerCase() && s.length <= 28 && !/,/.test(s) && !/^[\d.,]+$/.test(s.replace(/\s|dpi|hz|mm|g|w$/gi, "")) && !/^(yes|no|none|not listed|not stated)$/i.test(s.trim()) && !/[;:]/.test(s);
+/** "3D" + "Armrests" -> "3D armrests"; "Vibration lumbar cushion" + "Lumbar support" -> "a vibration lumbar cushion". */
+function featurePhrase(value: string, label: string): string {
+  const v = lc(value.trim());
+  const head = label.toLowerCase().split(/\s+/).pop()!.replace(/s$/, "");
+  if (v.toLowerCase().includes(head)) return /^(a|an|the)\s/i.test(v) || /s$/i.test(v) ? v : `${anArticle(v)} ${v}`;
+  const phrase = `${v} ${label.toLowerCase()}`;
+  return /s$/i.test(label) ? phrase : `${anArticle(v)} ${phrase}`;
+}
+/** "an 18-inch", "an 8K", "an 11-button", "an OLED", otherwise "a". */
+const anArticle = (w: string) => (/^(?:[aeio]|8|11\b|18\b)/i.test(w) ? "an" : "a");
 
 /** Descriptive (non-ranked) fields: where this pick's listed value is unique or shared among the picks. */
 function descriptiveSentences(f: Fact, facts: Fact[], schema: CategorySchema, seed: string): string[] {
@@ -134,28 +148,73 @@ function descriptiveSentences(f: Fact, facts: Fact[], schema: CategorySchema, se
   for (const field of schema.fields) {
     if (field.better || out.length >= 2) continue;
     const v = f.specs[field.key];
-    if (missingVal(v) || typeof v === "boolean") continue;
+    if (missingVal(v) || typeof v === "boolean" || typeof v === "number") continue;
     const listed = facts.filter((o) => !missingVal(o.specs[field.key]) && typeof o.specs[field.key] !== "boolean");
     if (listed.length < 3) continue;
     const mine = field.fmt(v!);
+    // Only short, concrete values read well in a comparison ("3D armrests", "USB-C connection");
+    // yes/no flags, long descriptions and category labels ("Audio interface") do not.
+    if (!readableValue(mine, field.label) || /^(type|does|kind|form)$/.test(field.key)) continue;
     const same = listed.filter((o) => o.asin !== f.asin && field.fmt(o.specs[field.key]!) === mine);
-    const diff = listed.filter((o) => field.fmt(o.specs[field.key]!) !== mine);
+    const diff = listed.filter((o) => field.fmt(o.specs[field.key]!) !== mine && readableValue(field.fmt(o.specs[field.key]!)));
     if (!diff.length) continue;
-    const label = lc(field.label);
     const alt = diff[hash(seed + field.key) % diff.length];
+    const mineP = featurePhrase(mine, field.label), altP = featurePhrase(field.fmt(alt.specs[field.key]!), field.label);
     if (!same.length) {
       out.push(pick([
-        `On ${label}, it is the only pick here listing ${lc(mine)}; the ${alt.short}, for comparison, lists ${lc(field.fmt(alt.specs[field.key]!))}.`,
-        `No other pick in this guide lists ${lc(mine)} for ${label}, while the ${alt.short} states ${lc(field.fmt(alt.specs[field.key]!))}.`,
+        `It is the only pick here with ${mineP}; the ${alt.short} has ${altP} instead.`,
+        `You get ${mineP} here, which sets it apart from the ${alt.short} and its ${altP}.`,
       ], seed + field.key + "d"));
     } else if (same.length <= 2) {
       out.push(pick([
-        `Its ${label} (${lc(mine)}) matches ${listJoin(same.map((o) => `the ${o.short}`))}, whereas the ${alt.short} lists ${lc(field.fmt(alt.specs[field.key]!))}.`,
-        `It shares ${lc(mine)} for ${label} with ${listJoin(same.map((o) => `the ${o.short}`))}; the ${alt.short} differs with ${lc(field.fmt(alt.specs[field.key]!))}.`,
+        `Like the ${listJoin(same.map((o) => o.short))}, it has ${mineP}, while the ${alt.short} uses ${altP}.`,
+        `It shares ${mineP} with the ${listJoin(same.map((o) => o.short))}; the ${alt.short} goes with ${altP}.`,
       ], seed + field.key + "d"));
     }
   }
   return out;
+}
+
+/** Turns a con into reader advice ("Skip it if price comes first: ..."), never a raw "not stated" line. */
+function skipLine(con: string, seed: string): string {
+  let m: RegExpMatchArray | null;
+  if ((m = con.match(/^No published (.+)$/i))) return `Skip it if you need to know its ${m[1]} before buying; the maker doesn't publish one.`;
+  if ((m = con.match(/^Costs more than the (.+) at the time of writing$/i))) return `Skip it if price comes first: the ${m[1]} cost less when we checked.`;
+  if ((m = con.match(/^(.+?) trails the (.+) \((.+)\)$/i))) return `Skip it if ${lc(m[1])} matters most to you; the ${m[2]} offers ${m[3]}.`;
+  const c = con.charAt(0).toLowerCase() + con.slice(1);
+  return pick([`Skip it if this is a deal-breaker for you: ${c}.`, `Choose another pick if you can't accept this: ${c}.`], seed + "skip");
+}
+
+/**
+ * Fallback strengths from the product's own stated specs ("9MB L3 cache", "DDR4 memory support"), used only after
+ * strengths, notes and comparisons; they are listed facts, not padding. Yes/no flags and negatives are skipped.
+ */
+function specPros(f: Fact, schema: CategorySchema): string[] {
+  const out: string[] = [];
+  for (const field of schema.fields) {
+    const v = f.specs[field.key];
+    if (missingVal(v) || v === false || v === true) continue;
+    const s = field.fmt(v!);
+    if (/^(no|none)\b/i.test(s) || s.length > 30) continue;
+    out.push(cap(typeof v === "number" ? `${s} ${lc(field.noun ?? field.label)}`.replace(/\s+/g, " ") : featurePhrase(s, field.label).replace(/^(a|an) /, "")));
+  }
+  return out;
+}
+
+/** Reviewer-style verb for a spec: "is rated for 300 lbs", "weighs 54g", "reclines to 155°", else "offers". */
+function verbFor(field: FieldDef): string {
+  const k = `${field.key} ${field.noun ?? ""} ${field.label}`.toLowerCase();
+  if (/capacity|load/.test(k)) return "is rated for";
+  if (/weight/.test(k)) return "weighs";
+  if (/battery/.test(k)) return "runs for";
+  if (/recline/.test(k)) return "reclines to";
+  if (/length|depth|height|thick|size|width|clearance|volume/.test(k)) return "comes in at";
+  return "offers";
+}
+/** "the X Rocker Pixel is rated for 300 lbs" / "the GTPLAYER has 3D armrests". */
+function claim(field: FieldDef, o: Fact): string {
+  const v = o.specs[field.key]!;
+  return typeof v === "number" ? `the ${o.short} ${verbFor(field)} ${field.fmt(v)}` : `the ${o.short} has ${featurePhrase(field.fmt(v), field.label)}`;
 }
 
 /** Price position among the picks, stated only relative to "the time of writing". */
@@ -183,14 +242,14 @@ function comparativeCons(f: Fact, facts: Fact[], schema: CategorySchema): { con:
     if (field.key === "battery" && wiredOnly) continue;
     if (missingVal(v)) {
       const src = others.find((o) => !missingVal(o.specs[field.key]) && o.specs[field.key] !== false);
-      if (src) out.push({ con: `${cap(noun)} not stated in its listing`, alt: `the ${src.short} lists ${lc(field.fmt(src.specs[field.key]!))}` });
+      if (src) out.push({ con: field.better ? `No published ${noun.replace(/^listed /, "")}` : `${cap(lc(field.label))} not specified`, alt: `${claim(field, src)}` });
     } else if (v === false) {
       const src = others.find((o) => o.specs[field.key] === true);
-      if (src) out.push({ con: `No ${noun} listed, unlike the ${src.short}`, alt: `the ${src.short} lists it` });
+      if (src) out.push({ con: `No ${noun}, unlike the ${src.short}`, alt: `the ${src.short} has it` });
     } else if (field.better && typeof v === "number") {
       const order = ranked(field, facts);
       if (order.length >= 3 && order[order.length - 1].asin === f.asin && num(order[0].specs[field.key]) !== v)
-        out.push({ con: `${cap(noun)} trails the ${order[0].short} (${field.fmt(num(order[0].specs[field.key])!)})`, alt: `the ${order[0].short} lists ${field.fmt(num(order[0].specs[field.key])!)}` });
+        out.push({ con: `${cap(noun)} trails the ${order[0].short} (${field.fmt(num(order[0].specs[field.key])!)})`, alt: `${claim(field, order[0])}` });
     }
   }
   const priced = facts.filter((o) => priceNum(o.price)).sort((a, b) => priceNum(a.price)! - priceNum(b.price)!);
@@ -203,7 +262,7 @@ function comparativeCons(f: Fact, facts: Fact[], schema: CategorySchema): { con:
       const order = ranked(field, facts);
       if (!field.better || v === undefined || order.length < 2 || num(order[0].specs[field.key]) === v) continue;
       const lead = order[0], noun = field.noun ?? lc(field.label);
-      out.push({ con: `${cap(noun)} of ${field.fmt(v)}, behind the ${lead.short} (${field.fmt(num(lead.specs[field.key])!)})`, alt: `the ${lead.short} lists ${field.fmt(num(lead.specs[field.key])!)}` });
+      out.push({ con: `${cap(noun)} of ${field.fmt(v)}, behind the ${lead.short} (${field.fmt(num(lead.specs[field.key])!)})`, alt: `${claim(field, lead)}` });
       break;
     }
   return out;
@@ -231,7 +290,8 @@ function comparativePros(f: Fact, facts: Fact[], schema: CategorySchema): string
     if (listed.length < 3) continue;
     const mine = field.fmt(v!);
     if (listed.some((o) => o.asin !== f.asin && field.fmt(o.specs[field.key]!) === mine)) continue;
-    out.push(v === true ? `The only pick here listing ${lc(field.label)}` : `${cap(lc(mine))} ${lc(field.label)}, unique among the picks`);
+    if (v !== true && (!readableValue(mine, field.label) || /^(type|does|kind|form)$/.test(field.key))) continue;
+    out.push(v === true ? `The only pick here with ${lc(field.label)}` : `${cap(featurePhrase(mine, field.label).replace(/^(a|an) /, ""))}, the only one here`);
   }
   return out;
 }
@@ -246,8 +306,9 @@ function reasonCovered(reason: string, pros: string[]): boolean {
 /** Drops phrases that mostly repeat an earlier one (e.g. a label reason restating two pros). */
 function dedupePhrases(items: string[]): string[] {
   const seen: Set<string>[] = [];
+  const STOP = new Set(["that", "the", "with", "and", "for", "only", "one", "here", "degree", "degrees", "its", "has", "have", "this", "listed", "built", "included"]);
   return items.filter((s) => {
-    const w = new Set(s.toLowerCase().match(/[a-z0-9]{3,}/g) ?? []);
+    const w = new Set((s.toLowerCase().match(/[a-z0-9]{2,}/g) ?? []).map((x) => x.replace(/s$/, "")).filter((x) => !STOP.has(x) && x !== "up" && x.length > 1));
     // Near-duplicate of one earlier phrase, or fully contained in earlier phrases combined.
     const single = seen.some((set) => [...w].filter((x) => set.has(x)).length / w.size >= 0.75);
     const union = false;
@@ -267,19 +328,19 @@ function tradeOff(f: Fact, facts: Fact[], schema: CategorySchema, seed: string):
     if (order.length >= 2 && v === undefined) {
       const lead = order[0];
       return pick([
-        `Its listing does not state ${noun}; if that figure matters, the ${lead.short} lists ${field.fmt(num(lead.specs[field.key])!)}.`,
-        `No ${noun} figure appears in its listing, whereas the ${lead.short} states ${field.fmt(num(lead.specs[field.key])!)}.`,
-        `Buyers who need a confirmed ${noun} should compare it with the ${lead.short}, which lists ${field.fmt(num(lead.specs[field.key])!)}.`,
-        `For a documented ${noun}, look to the ${lead.short} instead: it states ${field.fmt(num(lead.specs[field.key])!)}, while this listing gives no figure.`,
+        `The maker doesn't give its ${noun}; if that figure matters, ${claim(field, lead)}.`,
+        `There is no published ${noun} figure, whereas ${claim(field, lead)}.`,
+        `Buyers who need a confirmed ${noun} should compare it with the ${lead.short}, which ${verbFor(field)} ${field.fmt(num(lead.specs[field.key])!)}.`,
+        `If you want a confirmed ${noun}, look to the ${lead.short} instead: it ${verbFor(field)} ${field.fmt(num(lead.specs[field.key])!)}, while this one gives no figure.`,
       ], seed + "t");
     }
     if (order.length >= 3 && order[order.length - 1].asin === f.asin) {
       const lead = order[0];
       return pick([
-        `The trade-off is ${noun}; for more, the ${lead.short} lists ${field.fmt(num(lead.specs[field.key])!)}.`,
-        `It gives ground on ${noun}, where the ${lead.short} lists ${field.fmt(num(lead.specs[field.key])!)}.`,
+        `The trade-off is ${noun}; for more, ${claim(field, lead)}.`,
+        `It gives ground on ${noun}, where ${claim(field, lead)}.`,
         `If ${noun} is your priority, the ${lead.short} (${field.fmt(num(lead.specs[field.key])!)}) is the stronger choice.`,
-        `${cap(noun)} is its weakest listed area, and the ${lead.short} covers it better at ${field.fmt(num(lead.specs[field.key])!)}.`,
+        `${cap(noun)} is its weakest area, and the ${lead.short} covers it better at ${field.fmt(num(lead.specs[field.key])!)}.`,
       ], seed + "t");
     }
   }
@@ -290,7 +351,7 @@ function tradeOff(f: Fact, facts: Fact[], schema: CategorySchema, seed: string):
 export function buildWhy(f: Fact, facts: Fact[], schema: CategorySchema, seed: string, take: string): string {
   const takeWords = new Set(take.toLowerCase().match(/[a-z0-9]{4,}/g) ?? []);
   const freshNotes = f.notes.filter((n) => { const w = n.toLowerCase().match(/[a-z0-9]{4,}/g) ?? []; return w.filter((x) => takeWords.has(x)).length < Math.max(1, Math.ceil(w.length / 2)); });
-  const notes = freshNotes.length ? pick([`The listing also highlights ${listJoin(freshNotes)}.`, `Other listed details include ${listJoin(freshNotes)}.`, `The maker also lists ${listJoin(freshNotes)}.`], seed + "n") : "";
+  const notes = freshNotes.length ? pick([`You also get ${listJoin(freshNotes)}.`, `It also comes with ${listJoin(freshNotes)}.`, `It also offers ${listJoin(freshNotes)}.`], seed + "n") : "";
   return [take, [...rankingSentences(f, facts, schema, seed), notes].filter(Boolean).join(" "), schema.compat(f, facts).join(" "), tradeOff(f, facts, schema, seed) ?? ""].filter((x) => x.trim()).join("\n\n");
 }
 
@@ -305,7 +366,7 @@ export function composeGuide(cfg: GenericArticleConfig, schema: CategorySchema, 
     if (order.length < 2) continue;
     const top = num(order[0].specs[field.key]);
     if (num(order[1].specs[field.key]) === top || taken.has(order[0].asin)) continue;
-    taken.set(order[0].asin, { badge: field.rule.label, reason: `the ${field.superlative?.[0] ?? "best"} listed ${field.noun ?? lc(field.label)} here (${field.fmt(top!)})`, bestFor: pick(field.rule.bestFor, cfg.slug + field.key) });
+    taken.set(order[0].asin, { badge: field.rule.label, reason: `the ${field.superlative?.[0] ?? "best"} ${field.noun ?? lc(field.label)} here (${field.fmt(top!)})`, bestFor: pick(field.rule.bestFor, cfg.slug + field.key) });
   }
   for (const a of cfg.asins) if (!taken.has(a) && cfg.labels?.[a]) taken.set(a, cfg.labels[a]);
   const fallbacks = ["Well-Rounded Choice", "Solid Alternative", "Worth Considering"];
@@ -319,7 +380,7 @@ export function composeGuide(cfg: GenericArticleConfig, schema: CategorySchema, 
     // Skip notes the editorial take already covers (shared distinctive words).
     const takeWords = new Set((take ?? "").toLowerCase().match(/[a-z0-9]{4,}/g) ?? []);
     const freshNotes = f.notes.filter((n) => { const w = n.toLowerCase().match(/[a-z0-9]{4,}/g) ?? []; return w.filter((x) => takeWords.has(x)).length < Math.max(1, Math.ceil(w.length / 2)); });
-    const notes = freshNotes.length ? pick([`The listing also highlights ${listJoin(freshNotes)}.`, `Other listed details include ${listJoin(freshNotes)}.`, `The maker also lists ${listJoin(freshNotes)}.`], seed + "n") : "";
+    const notes = freshNotes.length ? pick([`You also get ${listJoin(freshNotes)}.`, `It also comes with ${listJoin(freshNotes)}.`, `It also offers ${listJoin(freshNotes)}.`], seed + "n") : "";
     const compat = schema.compat(f, facts);
     const cmpCons = comparativeCons(f, facts, schema);
     const altCon = cmpCons.find((c) => c.alt);
@@ -351,9 +412,9 @@ export function composeGuide(cfg: GenericArticleConfig, schema: CategorySchema, 
       summary: lab.reason ? cap(lab.reason) + "." : (take?.split(/(?<=\.)\s/)[0] ?? ""),
       description: paras.join("\n\n"),
       bestFor: lab.bestFor || `Buyers who want ${pros[0]?.toLowerCase() ?? "a balanced option"}.`,
-      skipIf: allCons[0] ? pick([`Look elsewhere if this is a problem for your setup: ${allCons[0].charAt(0).toLowerCase() + allCons[0].slice(1)}.`, `It is the wrong pick if you can't live with this: ${allCons[0].charAt(0).toLowerCase() + allCons[0].slice(1)}.`], seed + "skip") : "You need a feature its listing does not state.",
+      skipIf: allCons[0] ? skipLine(allCons[0], seed) : "Look at the other picks if you need a feature not covered above.",
       specs,
-      pros: dedupePhrases([...pros, ...(lab.reason && (pros.length < 3 || !reasonCovered(lab.reason, pros)) ? [cap(lab.reason)] : [])]).slice(0, 4),
+      pros: ((base) => (base.length >= 3 ? base : dedupePhrases([...base, ...specPros(f, schema)])))(dedupePhrases([...pros, ...(lab.reason && (pros.length < 3 || !reasonCovered(lab.reason, pros)) ? [cap(lab.reason)] : [])])).slice(0, 4),
       cons: [...new Set(allCons)].slice(0, 3),
     };
   });

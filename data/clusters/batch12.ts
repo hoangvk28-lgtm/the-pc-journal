@@ -9,7 +9,7 @@ import { L, maker, type Entry } from "./batch12-lib";
  */
 const cpu = maker(cpuSchema, cpuFacts, "components");
 const psu = maker(psuGenericSchema, psuGenericFacts, "components", {
-  B0DLFM4YNM: "Seasonic's Focus GX-750 lists a native 12V-2x6 cable, a Cybenetics Platinum rating and a 135mm fan that stops at low load. It was one of the pricier 750W units here at the time of writing.",
+  B0DLFM4YNM: "Seasonic's Focus GX-750 offers a native 12V-2x6 cable, a Cybenetics Platinum rating and a 135mm fan that stops at low load. It was one of the pricier 750W units here at the time of writing.",
 });
 
 const CPU_WE = "We compared six processors on L3 cache, core count, rated power and platform, using AMD and Intel specifications. We did not benchmark them.";
@@ -78,10 +78,10 @@ export const batch12: Entry[] = [
     asins: ["B0DVJNMCR1", "B0GCRW4ZK2", "B0DGB1HF7C", "B0GRV3GFZS", "B0FFQN6344", "B0FBX9VS3B"],
     labels: {
       B0DVJNMCR1: L("Most Efficient 850W", "Platinum ratings from both 80 Plus and Cybenetics", "Quiet, efficient builds."),
-      B0GCRW4ZK2: L("Shortest 850W", "a 125mm depth, the shortest listed here", "Cases with a cramped PSU bay."),
+      B0GCRW4ZK2: L("Shortest 850W", "a 125mm depth, the shortest here", "Cases with a cramped PSU bay."),
       B0DGB1HF7C: L("Best White Pick", "a white 850W unit with a 10-year warranty", "White builds."),
       B0GRV3GFZS: L("Best Budget 850W", "850W with a native 12V-2x6 cable in a 140mm body", "Keeping cost down."),
-      B0FFQN6344: L("Best for Power Spikes", "listed support for large GPU power spikes on an 850W Gold unit", "High-power CPU and GPU pairs."),
+      B0FFQN6344: L("Best for Power Spikes", "support for large GPU power spikes on an 850W Gold unit", "High-power CPU and GPU pairs."),
       B0FBX9VS3B: L("Best 750W Option", "750W with Cybenetics Platinum and four PCIe 8-pin connectors", "Builds with a 65W or 120W CPU."),
     },
     intro: ["NVIDIA recommends a 750W power supply for the RTX 4080 Super, which uses a single 16-pin connector. This guide leans toward 850W because many 4080 Super builds pair it with a high-power CPU.", PSU_WE],

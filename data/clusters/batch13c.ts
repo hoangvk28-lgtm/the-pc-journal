@@ -8,13 +8,13 @@ const R = ["best-gaming-monitors", "best-27-inch-gaming-monitors", "best-oled-mo
 const rel = (...skip: string[]) => R.filter((s) => !skip.includes(s)).slice(0, 3);
 
 const m = factory(monitorSchema, monitors13cFacts, "monitors", {
-  B0DY2YQ439: "Samsung's G81SF puts a 240Hz QD-OLED panel at 4K on a 32-inch screen. It lists DisplayHDR True Black 400 and both G-SYNC Compatible and FreeSync Premium Pro support.",
+  B0DY2YQ439: "Samsung's G81SF puts a 240Hz QD-OLED panel at 4K on a 32-inch screen. It has DisplayHDR True Black 400 and both G-SYNC Compatible and FreeSync Premium Pro support.",
   B0CV26XVMD: "ASUS's PG32UCDM is a 32-inch 4K QD-OLED at 240Hz with 99% DCI-P3 coverage. USB-C input and a three-year warranty round out a listing aimed at high-end PCs.",
-  B0CTSC3VS4: "MSI's MPG 321URX pairs a 31.5-inch 4K QD-OLED panel at 240Hz with USB-C input. The listing also names an HDMI 2.1 input, so a console can share the screen.",
+  B0CTSC3VS4: "MSI's MPG 321URX pairs a 31.5-inch 4K QD-OLED panel at 240Hz with USB-C input. It also has an HDMI 2.1 input, so a console can share the screen.",
   B0FLQLPNNH: "LG's 32GX850A is a 32-inch 4K OLED at 165Hz with listed G-SYNC and FreeSync Premium Pro support. It suits a PC that cannot hold 240 frames per second at 4K anyway.",
-  B0D9HY3JH2: "MSI's MAG 321UP is the lower-priced route to a 32-inch 4K QD-OLED, running at 165Hz. Its listing names an HDMI 2.1 input for consoles.",
+  B0D9HY3JH2: "MSI's MAG 321UP is the lower-priced route to a 32-inch 4K QD-OLED, running at 165Hz. The maker specifies an HDMI 2.1 input for consoles.",
   B0D2FSYS5J: "LG's 32GS60QC is a curved 32-inch 1440p screen at 180Hz. It keeps a large screen within a mid-range graphics card's reach.",
-  B09ZH1Q6TT: "Samsung's Odyssey Neo G7 32 is a curved 4K panel at 165Hz with Mini LED backlighting in the listing. It is the non-OLED way to get 4K and a high refresh rate on a 32-inch screen.",
+  B09ZH1Q6TT: "Samsung's Odyssey Neo G7 32 is a curved 4K panel at 165Hz with Mini LED backlighting. It is the non-OLED way to get 4K and a high refresh rate on a 32-inch screen.",
   B0FJS6GGCT: "Acer's SB242Y is a plain 24-inch 1080p screen at 100Hz. It suits a second monitor or light games more than a main gaming display.",
   B0F73CV58N: "ASUS's VG259QMRL5A runs a 24.5-inch 1080p Fast IPS panel at 310Hz and adds DisplayHDR 400 and a height-adjustable stand. It is the esports model in the TUF line.",
   B0FP16G94B: "The VG259QM5A drops TUF's 24.5-inch panel to 240Hz and keeps 99% sRGB coverage and a three-year warranty. It costs less than the 310Hz versions.",
@@ -47,7 +47,7 @@ const m = factory(monitorSchema, monitors13cFacts, "monitors", {
   B0DSGJRKCR: "Samsung's Odyssey OLED G9 is a 49-inch 5120x1440 QD-OLED at 144Hz. It replaces two 27-inch 1440p screens with one curved panel.",
   B0BP94J8VD: "Alienware's AW3423DWF is a 34-inch QD-OLED ultrawide at 165Hz with 99.3% DCI-P3 coverage. Its stand adjusts for height, tilt, swivel and slant.",
   B07ZSGR4CH: "AOC's AG493UCX is a 49-inch 5120x1440 VA screen at 120Hz with USB-C and DisplayHDR 400. It is the non-OLED super-ultrawide here.",
-  B0BW1VM62Y: "Samsung's Odyssey Neo G7 43 is a 43-inch 4K Mini LED screen at 144Hz with built-in Smart TV apps. The listing says the picture can shrink to a smaller on-screen size.",
+  B0BW1VM62Y: "Samsung's Odyssey Neo G7 43 is a 43-inch 4K Mini LED screen at 144Hz with built-in Smart TV apps. The maker says the picture can shrink to a smaller on-screen size.",
   B0BNM56PF5: "INNOCN's 43-inch 4K monitor runs at 144Hz with built-in speakers, USB-C and a height-adjustable stand. It is a lower-cost way to a TV-sized desktop screen.",
   B09ZHQ93VJ: "Samsung's M70B is a 43-inch 4K smart monitor with built-in TV apps, wireless display and USB-C. It runs at 60Hz, so it suits streaming and casual play.",
   B0GP9FFRMB: "Samsung's M70H is a 43-inch 4K Mini LED TV with a 120Hz mode through Motion Xcelerator. Its gaming hub covers consoles and cloud services.",
@@ -61,9 +61,9 @@ const m = factory(monitorSchema, monitors13cFacts, "monitors", {
   B0GX78512M: "AOC's 27G414B is a 27-inch 1080p IPS screen at 144Hz with 99% sRGB coverage. It puts a larger screen within a tight budget.",
   B0FG5XLWNV: "MSI's MP243L is a 23.8-inch 1080p IPS screen at 144Hz with FreeSync. It is one of the lowest-priced monitors here.",
   B0GVVP5K63: "AOC's 27G61ZB is a 27-inch 1440p IPS screen at 200Hz on a height, tilt, swivel and pivot stand. That full stand is rare at about $200.",
-  B09V6PHDG4: "AOC's AG275QXL is a 27-inch 1440p IPS screen at 170Hz with a height-adjustable stand. Its listing names PS5 and Xbox Series X compatibility.",
+  B09V6PHDG4: "AOC's AG275QXL is a 27-inch 1440p IPS screen at 170Hz with a height-adjustable stand. The maker specifies PS5 and Xbox Series X compatibility.",
   B0DCNLNBTV: "CUNPU's 27-inch 4K screen runs at 160Hz with an HDMI 2.1 input and 99% DCI-P3 coverage. It is one of the cheapest 4K high-refresh monitors here.",
-  B0DT11T36K: "CRUA's 32-inch 4K screen curves at 1500R and runs at 160Hz with built-in speakers. Its listing names an HDMI 2.1 input.",
+  B0DT11T36K: "CRUA's 32-inch 4K screen curves at 1500R and runs at 160Hz with built-in speakers. The maker specifies an HDMI 2.1 input.",
   B0966YYP65: "ASUS's ZenScreen is a 15.6-inch 1080p IPS portable powered over USB-C. It is the brand-name choice for a laptop second screen.",
   B0CH9WTW56: "ARZOPA's Z1FC is a 16.1-inch 1080p IPS portable at 144Hz with 106% sRGB coverage. It adds a high refresh rate at a low price.",
   B0FDL2VR2C: "ARZOPA's Z3FC raises a 16.1-inch portable to 2560x1440 at 180Hz with 400 nits of listed brightness. It is the sharpest and fastest portable here.",
@@ -71,7 +71,7 @@ const m = factory(monitorSchema, monitors13cFacts, "monitors", {
   B07ZLY26FW: "cocopar's 15.6-inch 1080p IPS portable runs at 60Hz over USB-C. It is a simple second screen for work.",
   B088D8JG3L: "KYY's 15.6-inch 1080p IPS portable is the lowest-priced here at the time of writing. It connects over USB-C.",
   B09FL2XL2Y: "TECLAST's 16-inch portable runs 1920x1200 at 144Hz with 100% sRGB coverage and FreeSync. It combines a taller screen with a high refresh rate.",
-  B0CMXK5QDD: "CRUA's 24.5-inch 1080p screen pivots 90 degrees and runs at 200Hz over DisplayPort. It lists 120mm of height adjustment.",
+  B0CMXK5QDD: "CRUA's 24.5-inch 1080p screen pivots 90 degrees and runs at 200Hz over DisplayPort. It has 120mm of height adjustment.",
   B0GJ7329CK: "HP's 524pf is a 24-inch 1080p IPS screen on a height, swivel and pivot stand with four USB ports. It suits a portrait second screen.",
 });
 
@@ -279,8 +279,8 @@ export const batch13c: Entry[] = [
   m({
     slug: "best-gaming-monitor-for-ps5-reddit", kw: "best gaming monitor for ps5 reddit", seo: "Best Gaming Monitors for PS5", title: "The Best Gaming Monitors for PS5",
     meta: "Five monitors for PS5 compared on HDMI 2.1, resolution and refresh rate, from a budget 1080p screen to a 4K QD-OLED with a console input.",
-    dek: "Five monitors with a listed HDMI 2.1 input or PS5 support, from 1080p to 4K OLED.",
-    intro: ["The PS5 reaches 4K at 120Hz only over HDMI 2.1, so every monitor here lists an HDMI 2.1 input or PS5 support. This is our own research roundup, not a summary of forum threads.", "We checked each listing for inputs, resolution and refresh rate."],
+    dek: "Five monitors with a HDMI 2.1 input or PS5 support, from 1080p to 4K OLED.",
+    intro: ["The PS5 reaches 4K at 120Hz only over HDMI 2.1, so every monitor here offers an HDMI 2.1 input or PS5 support. This is our own research roundup, not a summary of forum threads.", "We checked each listing for inputs, resolution and refresh rate."],
     bottom: ["LG's 27G810A is the all-round 4K pick for PS5. MSI's MAG 321UP is the OLED choice, and CUNPU's 4K screen is the budget route."],
     picks: [
       ["B0FLL3L9JG", "Best 4K for PS5", "4K at 180Hz with HDMI 2.1", "PS5 and PC on one screen."],
@@ -295,7 +295,7 @@ export const batch13c: Entry[] = [
     slug: "best-gaming-monitor-for-xbox-series-x", kw: "best gaming monitor for xbox series x", seo: "Best Monitors for Xbox Series X", title: "The Best Gaming Monitors for Xbox Series X",
     meta: "Four monitors for Xbox Series X with listed HDMI 2.1 inputs compared on resolution, refresh rate and panel, including 4K and 1440p OLED models.",
     dek: "Four monitors with listed HDMI 2.1 inputs for Xbox Series X, including three OLEDs.",
-    intro: ["Xbox Series X supports 120Hz output, which needs HDMI 2.1 at 4K. Each of these four lists an HDMI 2.1 input.", "We compared inputs, resolution and refresh rate from each listing."],
+    intro: ["Xbox Series X supports 120Hz output, which needs HDMI 2.1 at 4K. Each of these four offers an HDMI 2.1 input.", "We compared inputs, resolution and refresh rate from each listing."],
     bottom: ["MSI's MPG 321URX is the 4K OLED pick for Series X. LG's 27GX704A and Samsung's OLED G6 are the 1440p options, and CUNPU's 4K screen costs the least."],
     picks: [
       ["B0CTSC3VS4", "Best 4K OLED", "a 4K QD-OLED with HDMI 2.1 and USB-C", "Series X at 4K."],
@@ -324,7 +324,7 @@ export const batch13c: Entry[] = [
     slug: "best-high-refresh-gaming-monitors", kw: "best high refresh gaming monitors", seo: "Best High Refresh Gaming Monitors", title: "The Best High Refresh Rate Gaming Monitors",
     meta: "Five high refresh rate gaming monitors from 310Hz to 480Hz compared on panel, resolution and response time, including two QD-OLEDs and a WOLED.",
     dek: "Five monitors at 310Hz and above, including a 480Hz WOLED.",
-    intro: ["Above 300Hz, only a fast PC in light competitive games reaches the refresh rate. These five run between 310Hz and 480Hz.", "We compared panel, resolution and listed response time."],
+    intro: ["Above 300Hz, only a fast PC in light competitive games reaches the refresh rate. These five run between 310Hz and 480Hz.", "We compared panel, resolution and response time."],
     bottom: ["ASUS's PG27AQDP leads at 480Hz. The XG27ACDNG and AW2725DF are the 360Hz QD-OLEDs, and the two 1080p IPS screens cost far less."],
     picks: [
       ["B0D7NXSQ44", "Highest Refresh Rate", "480Hz on a 1440p WOLED", "Top-end esports PCs."],

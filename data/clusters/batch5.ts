@@ -56,7 +56,7 @@ export const batch5: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       teaser: "Count the fans in the box: a cheap case with none can cost more once it is ready to use.",
       asins: ["B0D5PHHCK5", "B0D2MK6NML", "B0GBY1GSDX", "B086YDDV6F", "B0DMPFLHJZ", "B0GWK8BPG3"],
       labels: {
-        B0D5PHHCK5: L("Best Budget Overall", "420mm GPU room, 175mm cooler height and three fans listed", "A budget gaming build with a big graphics card."),
+        B0D5PHHCK5: L("Best Budget Overall", "420mm GPU room, 175mm cooler height and three fans", "A budget gaming build with a big graphics card."),
         B0D2MK6NML: L("Best Airflow for Less", "a perforated front and PSU shroud feeding air to the GPU", "Budget builds that prioritise GPU temperatures."),
         B0GBY1GSDX: L("Best with USB-C", "front USB-C with three ARGB fans included", "Builders who want modern front I/O on a budget."),
         B086YDDV6F: L("Quietest Budget Pick", "sound-dampening foam on closed panels", "A quiet office or study PC."),
@@ -66,9 +66,9 @@ export const batch5: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       takes: {
         B0D5PHHCK5: "The Montech XR lists the most complete set of figures in this price range: 420mm for the GPU, 175mm for the cooler and 230mm for the power supply. Three ARGB fans come fitted, and the glass front and side show off the build.",
         B0D2MK6NML: "The H5 Flow is NZXT's compact mid-tower, with two fans included and a perforated PSU shroud that lets air reach the bottom of the graphics card. It takes a 360mm radiator at the front.",
-        B0GBY1GSDX: "The 3200D RS is Corsair's lowest-cost mid-tower here, yet it lists a front USB-C port, three ARGB fans and a GPU support arm. Radiators up to 360mm fit in the roof.",
+        B0GBY1GSDX: "The 3200D RS is Corsair's lowest-cost mid-tower here, yet it has a front USB-C port, three ARGB fans and a GPU support arm. Radiators up to 360mm fit in the roof.",
         B086YDDV6F: "The XT Pro Silent swaps glass for closed panels lined with sound-dampening foam, which suits a PC that sits near you. Three M25 fans come fitted, and a 360mm radiator fits on top.",
-        B0DMPFLHJZ: "The A31 is built for ASUS BTF motherboards, which hide their connectors on the back, and it has glass on both sides. It lists support for 360mm AIOs but does not state an included fan count.",
+        B0DMPFLHJZ: "The A31 is built for ASUS BTF motherboards, which hide their connectors on the back, and it has glass on both sides. It has support for 360mm AIOs but does not state an included fan count.",
         B0GWK8BPG3: "The Q300L V3 is a Micro-ATX case that still fits a 366mm graphics card and a 178mm tower cooler. Its radiator support stops at 240mm, the trade for its size and price.",
       },
       intro: [
@@ -101,11 +101,11 @@ export const batch5: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       },
       takes: {
         B0DFS88R2L: "The A3-mATX fits a 415mm graphics card and a 360mm radiator into 26.3 litres, and the power supply can sit at the front or the side. ATX, SFX and SFX-L units are all listed.",
-        B0GSWBHYJS: "The D33 lists 435mm of GPU room and a 172mm cooler limit, the most generous figures in this Micro-ATX group. It also takes back-connect mATX BTF boards and has a front USB-C port.",
+        B0GSWBHYJS: "The D33 offers 435mm of GPU room and a 172mm cooler limit, the most generous figures in this Micro-ATX group. It also takes back-connect mATX BTF boards and has a front USB-C port.",
         B0GX5DM6KB: "The B4-mATX is the smallest case here at 21.3 litres and still takes a 358mm graphics card. Choosing an SFX power supply frees room for a 360mm AIO; an ATX unit must be 140mm or shorter.",
         B0B99HTD3B: "The Prime AP201 wraps a 33-litre frame in fine mesh for airflow on every side. It takes 338mm graphics cards and a 360mm radiator, with a 32mm gap behind the tray for cables.",
         B0BQJ9TSP3: "The D31 Mesh takes ATX or SFX power supplies up to 220mm long and a 168mm tower cooler. Its GPU limit runs from 330mm to 400mm depending on how you lay out the case.",
-        B0GWDTKZ9V: "The 2800X RS-R puts three reverse-rotor intake fans in its side panel so the lit side faces the glass. It lists 410mm of GPU room in a Micro-ATX footprint.",
+        B0GWDTKZ9V: "The 2800X RS-R puts three reverse-rotor intake fans in its side panel so the lit side faces the glass. It has 410mm of GPU room in a Micro-ATX footprint.",
       },
       intro: [
         "Micro-ATX cases save desk space and cost less than most mid-towers, and the best of them now take full-length graphics cards and 360mm radiators. The trade-offs are power supply format, cooler height and fan count.",
@@ -176,8 +176,8 @@ export const batch5: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
         B0DDNS2SY3: "The Flux Pro includes six fans, the most in this guide, and takes a 420mm and a 360mm radiator together. Two reverse fans sit on the PSU shroud to feed the graphics card, and a display shows CPU and GPU temperatures. The power supply mounts rotated 90 degrees, and the case takes E-ATX boards.",
         B094442NL5: "The 7000D Airflow is built for liquid cooling, with room for three 360mm or two 420mm radiators at once. Three 140mm fans and a PWM repeater are included, and 30mm behind the tray eases cable work. A hinged front door gives access to the intake filters, and the interior takes up to twelve 120mm or seven 140mm fans.",
         B09BQLD8ZK: "The Torrent is built around big fans: two 180mm and three 140mm units come in the box. It takes boards up to SSI-EEB, and this version has a solid side panel. Fractal lists the fan positions as movable, so the layout can change with the build. It suits an air-cooled workstation more than a showcase.",
-        B086YS7CZK: "The NV9 MKII centres the motherboard behind near-seamless glass with fans around it, and it supports rear-connect boards. It lists 420mm and 280mm radiator mounts and 65mm of bottom intake clearance.",
-        B0D9KG1GD9: "The 9000D is a super full tower with mounts for 18 120mm fans and 480mm radiators at the front and roof. It is the case for dual-loop builds that nothing smaller can hold, with further radiator mounts of 360mm on the side and 240mm at the rear. The listing does not state an included fan count, so budget for fans on top of the case price.",
+        B086YS7CZK: "The NV9 MKII centres the motherboard behind near-seamless glass with fans around it, and it supports rear-connect boards. It has 420mm and 280mm radiator mounts and 65mm of bottom intake clearance.",
+        B0D9KG1GD9: "The 9000D is a super full tower with mounts for 18 120mm fans and 480mm radiators at the front and roof. It is the case for dual-loop builds that nothing smaller can hold, with further radiator mounts of 360mm on the side and 240mm at the rear. The maker doesn't state an included fan count, so budget for fans on top of the case price.",
       },
       intro: [
         "Full towers make sense when a build outgrows a mid-tower: several large radiators, an E-ATX or SSI-EEB board, or a custom loop with room to work. For a single graphics card and one AIO, a mid-tower is usually enough.",
@@ -242,12 +242,12 @@ export const batch5: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
         B0FWWB2MPK: L("Budget Glass Pick", "curved panoramic glass on a dual-chamber layout", "A glass build on a tighter budget."),
       },
       takes: {
-        B0CN95G1YL: "The King 95 PRO curves 4mm glass around the front and side and ships with six fans on a 10-port controller, drawing air in from the side and bottom. It lists 420mm for the GPU and 175mm for the cooler.",
+        B0CN95G1YL: "The King 95 PRO curves 4mm glass around the front and side and ships with six fans on a 10-port controller, drawing air in from the side and bottom. It has 420mm for the GPU and 175mm for the cooler.",
         B0CZV22HDF: "The 3500X wraps its front and side in glass and supports reverse-connection motherboards that hide their cables. Radiators up to 360mm fit in the roof and on the side, and it takes boards from Mini-ITX to E-ATX.",
-        B0D73VS65B: "The Light Base 600 DX pairs a full glass front and side with dual 360mm plus 240mm radiator support. It fits a 400mm graphics card and a 170mm tower cooler, with an anti-sag bracket included. The dual radiator support means a 360mm CPU cooler and a 240mm GPU loop can run side by side, though the listing does not state a fan count.",
+        B0D73VS65B: "The Light Base 600 DX pairs a full glass front and side with dual 360mm plus 240mm radiator support. It fits a 400mm graphics card and a 170mm tower cooler, with an anti-sag bracket included. The dual radiator support means a 360mm CPU cooler and a 240mm GPU loop can run side by side, though the maker doesn't state a fan count.",
         B0C89FCDFP: "The H6 Flow is a compact dual-chamber case whose three included 120mm fans sit at an angle to push air at the GPU. Its top and side panels are patterned for airflow alongside the glass. Moving the power supply into the rear chamber keeps the main compartment clear, which suits a tidy build on a smaller desk than the H9 Flow needs.",
         B0BQP93GYX: "The Y40 turns the graphics card to face the glass using an included riser, and a side 280mm radiator can sit beside it. Two fans come fitted, one under the PSU shroud and one at the rear.",
-        B0FWWB2MPK: "The King 45 brings Montech's curved panoramic glass and dual-chamber layout to a lower price. Its roof takes a 360mm radiator up to 84mm thick; the listing does not state a fan count.",
+        B0FWWB2MPK: "The King 45 brings Montech's curved panoramic glass and dual-chamber layout to a lower price. Its roof takes a 360mm radiator up to 84mm thick; the maker doesn't state a fan count.",
       },
       intro: [
         "Tempered glass cases put the build on show, but a glass front blocks the usual intake. The better designs pull air from the side or bottom instead, and some ship with enough fans to do it.",

@@ -32,7 +32,7 @@ export const batch6: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
         B0FST71VP9: "MSI's Ventus 3X PZ puts the RTX 5070 Ti and 16GB of GDDR7 in a card with NVIDIA's SFF-Ready label. It is the card to pick when DLSS support matters and 12GB feels too tight.",
         B0GK8N9DR7: "Zotac's Solid Core carries the RTX 5080 in a 2.5-slot card with a vapor chamber and a support stand in the box. It is the fastest chip here, and the price reflects that.",
         B0DYG7KB27: "The Ventus 3X is MSI's plain take on the RTX 5070: three TORX fans, a copper baseplate and 12GB of GDDR7. Three DisplayPort 2.1a outputs and one HDMI 2.1b cover most monitor setups.",
-        B0F8B59WP7: "ASRock's Challenger gives the RX 9060 XT a full 16GB of memory in a two-slot, 249mm card. The maker lists a 550W power supply and a single 8-pin plug, so it drops into most existing builds.",
+        B0F8B59WP7: "ASRock's Challenger gives the RX 9060 XT a full 16GB of memory in a two-slot, 249mm card. The maker offers a 550W power supply and a single 8-pin plug, so it drops into most existing builds.",
         B0DNV4NWF7: "Intel's Arc B580 brings 12GB of GDDR6 to the entry tier, more than the 8GB common at this price. ASRock's Challenger version is 249mm long and needs one 8-pin plug and a 650W PSU.",
       },
       intro: [
@@ -67,7 +67,7 @@ export const batch6: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
         B0DNV4NWF7: "The Arc B580 gives 12GB of memory at a price where most cards stop at 8GB. ASRock's Challenger is a 249mm two-slot card with 0dB fan stop and a single 8-pin plug.",
         B0DQYM2MHX: "The Arc B570 is the B580's cheaper sibling with 10GB of memory on a 160-bit bus. It was the least expensive card here at the time of writing and still offers three DisplayPort 2.1 outputs.",
         B0FBX7FB1T: "ASRock's RX 9060 XT Challenger 8GB brings AMD's RDNA 4 architecture to a budget card with 32 compute units. Its 8GB of memory is the compromise; the 16GB version costs more.",
-        B0F8LDHQ7Y: "Gigabyte's RTX 5060 Windforce is the budget route to DLSS 4 and GDDR7 memory. The listing is brief, so confirm length and power needs on Gigabyte's spec page before buying.",
+        B0F8LDHQ7Y: "Gigabyte's RTX 5060 Windforce is the budget route to DLSS 4 and GDDR7 memory. The maker publishes few details, so confirm length and power needs on Gigabyte's spec page before buying.",
         B0FG97XMNG: "Zotac's RTX 5050 Twin Edge is a two-slot, SFF-Ready card with two 90mm fans and one 8-pin plug. It is the smallest NVIDIA option here for a compact case.",
         B0G6FCDZMK: "The RX 7600 is a previous-generation chip, but ASRock's Challenger Pro version asks only for a 550W power supply and uses a triple-fan cooler. Its PCIe 4.0 x8 link is worth noting on older PCIe 3.0 boards.",
       },
@@ -101,9 +101,9 @@ export const batch6: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       takes: {
         B0DTTKCTRD: "ASRock's RX 9070 Challenger is the most completely documented card here: 290mm long, 2.5 slots, two 8-pin plugs and a 700W PSU. Its 16GB of memory on a 256-bit bus suits 1440p at high settings.",
         B0DS6WPTLL: "The ASUS Prime RTX 5070 is a 2.5-slot, SFF-Ready card with a quiet/performance BIOS switch. Its 12GB of GDDR7 is enough for most games at 1440p, though less than the 16GB AMD cards here.",
-        B0DW4FRCQR: "XFX's Swift RX 9070 XT uses AMD's top RDNA 4 chip with 16GB of memory and a listed 2970MHz boost. It is the card to choose for a 240Hz 1440p monitor.",
+        B0DW4FRCQR: "XFX's Swift RX 9070 XT uses AMD's top RDNA 4 chip with 16GB of memory and a 2970MHz boost. It is the card to choose for a 240Hz 1440p monitor.",
         B0F7WB6LSH: "The ASUS Dual RTX 5060 Ti 16GB is the lower-cost NVIDIA route to 16GB at 1440p. It is a 2.5-slot card with 0dB fan stop and dual-ball fan bearings.",
-        B0FC2XXSG5: "XFX's Swift RX 9060 XT is the cheapest 16GB card in this guide, with a dual-fan cooler and a listed 3320MHz boost. It suits 1440p at medium to high settings.",
+        B0FC2XXSG5: "XFX's Swift RX 9060 XT is the cheapest 16GB card in this guide, with a dual-fan cooler and a 3320MHz boost. It suits 1440p at medium to high settings.",
       },
       intro: [
         "1440p is the sweet spot for many gamers: sharper than 1080p without the cost of 4K. It is also where 8GB cards start to run short, so all five picks here have 12GB or more.",
@@ -133,7 +133,7 @@ export const batch6: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
         B0GK7DH248: L("Most VRAM", "32GB of GDDR7 on a 512-bit bus", "4K at maximum settings and local AI work."),
       },
       takes: {
-        B0DQSMMCSH: "The ASUS TUF RTX 5080 lists every figure a builder needs: 348mm long, 3.6 slots, a 16-pin 12V-2x6 plug and an 850W PSU. Its large cooler and protective PCB coating suit a long-term 4K build.",
+        B0DQSMMCSH: "The ASUS TUF RTX 5080 offers every figure a builder needs: 348mm long, 3.6 slots, a 16-pin 12V-2x6 plug and an 850W PSU. Its large cooler and protective PCB coating suit a long-term 4K build.",
         B0GVGP3JG3: "MSI's Ventus 3X Black puts the same RTX 5080 chip and 16GB of GDDR7 in a plainer card. It cost less than the ASUS TUF at the time of writing, but MSI does not list its length in this listing.",
         B0DS6V7L5M: "The ASUS Prime RTX 5070 Ti is the smallest documented 4K option here at 306mm and 2.5 slots. With DLSS, its 16GB of GDDR7 handles 4K in many games at tuned settings.",
         B0DTT7CPWV: "ASRock's RX 9070 XT Steel Legend is the AMD route to 4K, with 16GB of GDDR6 and a reinforced metal frame. It uses two 8-pin plugs, which suits power supplies without a 16-pin cable, but the maker recommends 800W.",
@@ -162,13 +162,13 @@ export const batch6: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       labels: {
         B0DRRMZDH6: L("Best AMD Overall", "an RX 9070 XT with a 3030MHz OC-mode boost and a 2.5-slot cooler", "1440p and 4K gaming on AMD."),
         B0DXLBTL4B: L("Best Mid-Range Radeon", "16GB of GDDR6 on the RX 9070", "1440p gaming for less than an RX 9070 XT."),
-        B0DTT7CPWV: L("Best Documented RX 9070 XT", "a listed 298mm length, 2.9-slot width and 800W PSU guidance", "Builders who want every fit figure up front."),
+        B0DTT7CPWV: L("Best Documented RX 9070 XT", "a 298mm length, 2.9-slot width and 800W PSU guidance", "Builders who want every fit figure up front."),
         B0F91K2KBX: L("Best Budget Radeon", "an RX 9060 XT with a WINDFORCE cooler", "1080p gaming on RDNA 4."),
         B0G6FCDZMK: L("Lowest Power Needs", "a 550W PSU recommendation", "Older PCs with a smaller power supply."),
       },
       takes: {
         B0DRRMZDH6: "ASUS's Prime RX 9070 XT lists the highest boost clock among these Radeon cards and keeps to 2.5 slots. A quiet/performance BIOS switch and 0dB fan stop make it easy to live with.",
-        B0DXLBTL4B: "The RX 9070 keeps 16GB of memory but costs less than the XT. XFX's Swift version uses a triple-fan cooler with a listed 2700MHz boost and three DisplayPort outputs.",
+        B0DXLBTL4B: "The RX 9070 keeps 16GB of memory but costs less than the XT. XFX's Swift version uses a triple-fan cooler with a 2700MHz boost and three DisplayPort outputs.",
         B0DTT7CPWV: "ASRock's Steel Legend is the RX 9070 XT to choose when you want to check the fit before buying: 298mm long, 2.9 slots, two 8-pin plugs and an 800W PSU are all listed.",
         B0F91K2KBX: "Gigabyte's RX 9060 XT Gaming OC 8GB is the entry to AMD's RDNA 4 generation, with Hawk fans and RGB lighting. Its 8GB of memory suits 1080p more than 1440p.",
         B0G6FCDZMK: "The RX 7600 is the older RDNA 3 chip, but ASRock's Challenger Pro asks for only a 550W PSU and one 8-pin plug. It is 303mm long, so check clearance in small cases.",
@@ -231,13 +231,13 @@ export const batch6: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       asins: ["B0FSNZ686T", "B0GK8N1SND", "B0CDJLSZ73", "B0CTJZCJH1"],
       labels: {
         B0FSNZ686T: L("Best Low-Profile Card", "an RTX 5060 with GDDR7 and IP5X dust resistance", "Gaming in a slim desktop."),
-        B0GK8N1SND: L("Best Documented Low-Profile", "a listed two-slot width, one 8-pin plug and four outputs", "Builders who need to confirm fit and power."),
+        B0GK8N1SND: L("Best Documented Low-Profile", "a two-slot width, one 8-pin plug and four outputs", "Builders who need to confirm fit and power."),
         B0CDJLSZ73: L("Best Previous-Generation Pick", "an RTX 4060 with three fans and a dual BIOS", "Slim PCs where an RTX 5060 costs too much."),
         B0CTJZCJH1: L("Cheapest Low-Profile Card", "the lowest price here with two HDMI 2.1a outputs", "Light gaming and multi-monitor office PCs."),
       },
       takes: {
-        B0FSNZ686T: "The ASUS RTX 5060 LP BRK brings the current mainstream GeForce to half-height cases, with GDDR7 memory and IP5X dust resistance. Its listing does not give thickness or power needs, so check those on the ASUS spec page.",
-        B0GK8N1SND: "Zotac's RTX 5060 Low Profile lists a two-slot width, one 8-pin plug and three DisplayPort 2.1b outputs plus HDMI. It uses 40mm fans with composite heatpipes.",
+        B0FSNZ686T: "The ASUS RTX 5060 LP BRK brings the current mainstream GeForce to half-height cases, with GDDR7 memory and IP5X dust resistance. The maker doesn't give thickness or power needs, so check those on the ASUS spec page.",
+        B0GK8N1SND: "Zotac's RTX 5060 Low Profile offers a two-slot width, one 8-pin plug and three DisplayPort 2.1b outputs plus HDMI. It uses 40mm fans with composite heatpipes.",
         B0CDJLSZ73: "Gigabyte's RTX 4060 Low Profile is the previous generation, with DLSS 3 rather than DLSS 4. Three WINDFORCE fans and a dual BIOS make it a solid fallback if the RTX 5060 cards are out of stock.",
         B0CTJZCJH1: "MSI's RTX 3050 LP is an entry card with 6GB of memory, fine for older games and esports titles. Two HDMI 2.1a ports and a DisplayPort make it useful in a multi-monitor work PC.",
       },
@@ -306,10 +306,10 @@ export const batch6: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       },
       takes: {
         B0F77H7NBK: "The ASUS Prime RTX 5060 is a well-rounded 1080p card: GDDR7 memory, a quiet/performance BIOS switch and 0dB fan stop in a 2.5-slot, SFF-Ready design.",
-        B0F8B462JH: "ASRock's RX 9060 XT Steel Legend 8GB uses a triple-fan cooler with 0dB fan stop and a reinforced metal backplate. Its listed 3320MHz boost is the highest among these cards.",
+        B0F8B462JH: "ASRock's RX 9060 XT Steel Legend 8GB uses a triple-fan cooler with 0dB fan stop and a reinforced metal backplate. Its 3320MHz boost is the highest among these cards.",
         B0F4RRQ2WY: "The ASUS TUF RTX 5060 Ti 8GB is the fastest chip here and suits high-refresh 1080p. Its 3.1-slot cooler is large for this class, so check the slot below.",
-        B0C5S9CHMG: "Gigabyte's RX 7600 Gaming OC is a previous-generation card with three WINDFORCE fans and a metal backplate. It lists two DisplayPort 2.1 outputs and one HDMI 2.1.",
-        B0FG8JRDQ6: "Gigabyte's RTX 5050 Windforce is the cheapest way into DLSS 4 here. Its listing is short, so confirm size and power needs on Gigabyte's page.",
+        B0C5S9CHMG: "Gigabyte's RX 7600 Gaming OC is a previous-generation card with three WINDFORCE fans and a metal backplate. It has two DisplayPort 2.1 outputs and one HDMI 2.1.",
+        B0FG8JRDQ6: "Gigabyte's RTX 5050 Windforce is the cheapest way into DLSS 4 here. The maker publishes few details, so confirm size and power needs on Gigabyte's page.",
       },
       intro: [
         "1080p is still the most common gaming resolution, and it asks the least of a graphics card. An 8GB card can handle it well at tuned settings, so the choice comes down to refresh rate, budget and cooler size.",
@@ -334,14 +334,14 @@ export const batch6: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       labels: {
         B0GZR4P62R: L("Best Match for the 9800X3D", "an RTX 5080 in a 2.5-slot, SFF-Ready card", "High-refresh 1440p and 4K gaming."),
         B0FSSYTD49: L("Best AMD Pairing", "an RX 9070 XT with 64 compute units and 16GB of GDDR6", "An all-AMD gaming build."),
-        B0DQSMMCSH: L("Best Cooled RTX 5080", "a 3.6-slot TUF cooler with a listed 850W PSU", "Large cases and quiet high-end builds."),
+        B0DQSMMCSH: L("Best Cooled RTX 5080", "a 3.6-slot TUF cooler with a 850W PSU", "Large cases and quiet high-end builds."),
         B0F8L93H53: L("Best RTX 5070 Pairing", "a ROG Strix cooler with a vapor chamber and 3.2-slot heatsink", "1440p high-refresh builds."),
         B0DS2QZC9P: L("Best Value Pairing", "16GB of GDDR6 on the RX 9070 at the lowest price here", "Keeping the budget for the CPU and platform."),
       },
       takes: {
         B0GZR4P62R: "The ASUS Prime RTX 5080 EVO is fast enough that a 9800X3D and the GPU both stay busy at 1440p and above. Its 2.5-slot, SFF-Ready size fits most mid-towers without trouble.",
         B0FSSYTD49: "ASRock's RX 9070 XT Challenger gives an all-AMD build 16GB of memory on a 256-bit bus and a triple-fan cooler with 0dB fan stop. Three DisplayPort 2.1a outputs suit high-refresh monitors.",
-        B0DQSMMCSH: "The ASUS TUF RTX 5080 uses the same chip as the Prime EVO but a much larger 3.6-slot cooler, and it lists an 850W PSU and a 16-pin plug. Pick it when your case has the room.",
+        B0DQSMMCSH: "The ASUS TUF RTX 5080 uses the same chip as the Prime EVO but a much larger 3.6-slot cooler, and it has an 850W PSU and a 16-pin plug. Pick it when your case has the room.",
         B0F8L93H53: "The ROG Strix RTX 5070 is a premium take on the RTX 5070, with a vapor chamber, digital power control and ARGB lighting. It suits a 9800X3D build aimed at 1440p rather than 4K.",
         B0DS2QZC9P: "Gigabyte's RX 9070 Gaming OC is the lowest-cost card here, with 16GB of GDDR6 and a WINDFORCE cooler. It leaves more of the budget for the CPU, board and memory.",
       },

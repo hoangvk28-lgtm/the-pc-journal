@@ -34,7 +34,7 @@ export const cpuSchema: CategorySchema = {
     const s: string[] = [];
     const socket = String(f.specs.socket ?? "");
     if (socket === "AM5") s.push(`It needs an AM5 board (A620, B650, B850, X670 or X870 series) and DDR5 memory; ${/^(Ryzen [579] 9|Ryzen 7 98)/.test(f.name.replace("AMD ", "")) ? "a 600-series board may need a BIOS update first, so check the maker's CPU support list for the minimum version" : "check the board's CPU support list for the minimum BIOS version"}.`);
-    else if (socket === "AM4") s.push("It drops into an AM4 board with DDR4 memory; older B450 and X470 boards need a BIOS that lists this chip, so check the support list before swapping.");
+    else if (socket === "AM4") s.push("It drops into an AM4 board with DDR4 memory; older B450 and X470 boards need a BIOS that supports this chip, so check the support list before swapping.");
     else if (socket === "LGA1851") s.push("It needs an LGA1851 board (Intel 800-series chipset) and DDR5 memory; LGA1700 boards and coolers without an LGA1851 mounting kit will not fit.");
     else if (socket === "LGA1151") s.push("It fits only LGA1151 boards with an Intel 300-series chipset and DDR4; 100- and 200-series LGA1151 boards do not support it, and some 300-series boards need a BIOS update first.");
     else if (socket === "LGA1700") s.push("It fits LGA1700 boards (600 and 700 series) with either DDR4 or DDR5, depending on the board; 600-series boards may need a BIOS update for 14th-gen chips.");
@@ -113,7 +113,7 @@ export const cpuFacts = withPool(pool as Record<string, { img?: string; price?: 
   // LGA1151 (9th gen) for owners of Intel 300-series boards. Only listing-stated figures are recorded.
   F("B089J731BX", "Intel Core i9-9900K", "Core i9-9900K", { boost: 5.0, cores: 8, tdp: 95, threads: 16, socket: "LGA1151", memory: "DDR4", cooler: false }, ["8 cores and 16 threads, the most on this platform", "an unlocked multiplier"]),
   F("B07MGBZWDZ", "Intel Core i9-9900KF", "Core i9-9900KF", { l3: 16, boost: 5.0, cores: 8, tdp: 95, threads: 16, socket: "LGA1151", memory: "DDR4", igpu: false }, ["8 cores and 16 threads with 16MB of cache", "an unlocked multiplier"]),
-  F("B07HHN6KBZ", "Intel Core i7-9700K", "Core i7-9700K", { l3: 12, boost: 4.9, cores: 8, tdp: 95, threads: 8, socket: "LGA1151", memory: "DDR4", cooler: false, igpu: true }, ["8 cores without Hyper-Threading", "an unlocked multiplier", "Intel UHD Graphics 630", "DDR4-2666 support up to 64GB, as listed"]),
+  F("B07HHN6KBZ", "Intel Core i7-9700K", "Core i7-9700K", { l3: 12, boost: 4.9, cores: 8, tdp: 95, threads: 8, socket: "LGA1151", memory: "DDR4", cooler: false, igpu: true }, ["8 cores without Hyper-Threading", "an unlocked multiplier", "Intel UHD Graphics 630", "DDR4-2666 support up to 64GB"]),
   F("B07S6CRLVD", "Intel Core i7-9700", "Core i7-9700", { boost: 4.7, cores: 8, tdp: 65, threads: 8, socket: "LGA1151", memory: "DDR4" }, ["8 cores at a 65W rating", "a listing note that some boards need a BIOS update first"]),
   F("B07MRCGQQ4", "Intel Core i5-9400F", "Core i5-9400F", { l3: 9, boost: 4.1, cores: 6, tdp: 65, threads: 6, socket: "LGA1151", memory: "DDR4", igpu: false }, ["6 cores at a 65W rating"]),
 ]);

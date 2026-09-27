@@ -2781,10 +2781,11 @@
       "Gaming Made Faster: The MP600 ELITE exceeds all Sony PS5 M.2 performance requirements, so large game files load faster than ever, directly from the SSD.",
       "Low-profile aluminium heatsink: The aluminum heatsink helps disperse heat and reduce throttling, so your SSD maintains sustained high performance right out of the box."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
       "Corsair MP600 SSD",
-      "Corsair NVMe SSD"
+      "Corsair NVMe SSD",
+      "Corsair MP600 Mini 2230"
     ]
   },
   "B0DVCCJQ4K": {
@@ -2800,9 +2801,10 @@
       "High-Density 3D QLC NAND: Provides the ideal combination of performance and value.",
       "Compact M.2 2280 Form-Factor Great for Notebooks: Fits directly onto most motherboards, making a great upgrade for laptops and notebooks with PCIe Gen4-capable CPUs."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
-      "Corsair MP600 SSD"
+      "Corsair MP600 SSD",
+      "Corsair MP600 Mini 2230"
     ]
   },
   "B0DGGSLR69": {
@@ -2908,9 +2910,10 @@
       "High-Density 3D TLC NAND: Provides the ideal mix of performance and endurance to keep your drive performing at its best for years.",
       "Outstanding Endurance: Rated for up to 1,200TB Written, the MP600 ELITE’s longevity ensures that it reliably stores your data through many years of use."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
-      "Corsair MP600 SSD"
+      "Corsair MP600 SSD",
+      "Corsair MP600 Mini 2230"
     ]
   },
   "B0CSG5DXQ9": {
@@ -3039,10 +3042,11 @@
       "Outstanding Endurance – Rated for up to 2,400TB Written, the MP700 ELITE’s longevity ensures that it reliably stores your data through many years of use",
       "Compact M.2 2280 Form Factor – Fits directly into most motherboards, with no heatsink attached for maximum compatibility"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
       "Corsair NVMe SSD",
-      "Corsair MP700 SSD"
+      "Corsair MP700 SSD",
+      "Corsair MP600 Mini 2230"
     ]
   },
   "B0FV33S11L": {
@@ -3094,9 +3098,10 @@
       "Stylish Active Cooler: Helps disperse heat and reduce speed throttling, so your SSD maintains sustained high performance.",
       "High-Density 3D TLC NAND: Provides the ideal mix of performance and endurance to keep your drive performing at its best for years."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
-      "Corsair MP700 SSD"
+      "Corsair MP700 SSD",
+      "Corsair MP600 Mini 2230"
     ]
   },
   "B0FV39RNS7": {
@@ -3223,6 +3228,378 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Kingston KC3000 1TB"
+    ]
+  },
+  "B0D61SDZD2": {
+    "asin": "B0D61SDZD2",
+    "title": "Crucial P310 2TB M.2 2230 SSD, PCIe Gen4 NVMe, Up to 7,100MB/s, Ideal for Steam Deck, ASUS ROG Ally, MSI Claw, Mini PCs & Ultrabooks, Solid State Drive - CT2000P310SSD2",
+    "brand": "Crucial",
+    "price": "$377.50",
+    "img": "https://m.media-amazon.com/images/I/41TlO01590L._SL500_.jpg",
+    "features": [
+      "Broad Compatibility: Works with Valve Steam Deck, ASUS ROG Ally, Microsoft Surface, and select Dell laptops for easy portable upgrades",
+      "PCIe 4.0 Performance: Delivers up to 7,100MB/s read and 6,000MB/s write speeds for quicker game load times, bootups, and smooth multitasking",
+      "Spacious NVMe SSD: This 2TB SSD provides space for AAA games, apps, and media with compact M.2 2230 NVMe SSD form factor for casual gamers and home users",
+      "Power-efficient Design: Engineered for low power draw to extend battery life on handheld consoles and laptops",
+      "Trusted Micron Quality: Built with advanced G8 NAND and thermal control for reliable Gen4 performance trusted by gamers and home users"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "2230 NVMe SSD Steam Deck"
+    ]
+  },
+  "B0DBPTR3G3": {
+    "asin": "B0DBPTR3G3",
+    "title": "Fikwot FX953 M.2 2230 SSD 1TB NVMe SSD for Steam Deck PCIe Gen 4x4, Read Up to 5000MB/s, M2 2230 Internal Soild State Drive, Compatible with ASUS ROG Ally, Microsoft Surface Pro",
+    "brand": "Fikwot",
+    "price": "$179.99",
+    "img": "https://m.media-amazon.com/images/I/412b-NRtF5L._SL500_.jpg",
+    "features": [
+      "[Available Everywhere]: The FX953 M.2 2230 SSD can be used on almost any device with an M.2 interface because it is small enough. It is compatible with handheld computers such as STEAM DECK and ASUS ROG Ally, and you can also use it to expand ultra-thin laptops such as Microsoft Surface Pro.",
+      "[More Powerful]: The FX953 M2 2230 SSD 1TB uses the PCIe Gen4 protocol, and its maximum sequential read and write speeds can reach 5000MB/s and 3100MB/s, which is more than twice the speed of PCIe 3.0 NVMe SSD, so you can enjoy the game more easily.",
+      "[Better Heat Dissipation]: The FX953 1TB 2230 NVMe SSD is covered with an all-in-one graphite heat dissipation sticker, which can be used as an ultra-thin heat sink. During use, it can effectively reduce the heat of the SSD and improve system performance and stability.",
+      "[Better Chips]: FX953 2230 SSD uses 3D NAND Flash chips and excellent main controllers, which have been fully tested and verified by us to ensure longer service life and higher stability.",
+      "[Better Service]: We provide a limited warranty of up to 5 years or 320TBW for FX953 1TB M2 2230 SSD, and you can enjoy very comprehensive technical support and services."
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "2230 NVMe SSD Steam Deck",
+      "WD SN740 2230"
+    ]
+  },
+  "B0C4KVG7R6": {
+    "asin": "B0C4KVG7R6",
+    "title": "TEAMGROUP MP44S SSD 1TB SLC Cache Gen 4x4 M.2 2230 PCIe 4.0 NVMe Steam Deck ASUS ROG Ally Mini PCs R/W Speed up to 5000/3500 MB/s TM5FF3001T0C101",
+    "brand": "TEAMGROUP",
+    "price": "$190.99",
+    "img": "https://m.media-amazon.com/images/I/416jmZNezTL._SL500_.jpg",
+    "features": [
+      "Top choice for STEAM Deck capacity upgrade",
+      "Top choice for capacity upgrade on lightweight devices",
+      "Heat dissipating graphene label for enhanced heat dissipation and system operating stability",
+      "Gen4 read/write speed compatible with PCIe Gen3 interface",
+      "Small-size and High Performance 22x30mm small form factor with sequential read/write speeds up to 5,000 / 3,500 MB/s"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "2230 NVMe SSD Steam Deck"
+    ]
+  },
+  "B0C1BQVZW2": {
+    "asin": "B0C1BQVZW2",
+    "title": "Heatsink Thermal Pad for Steam Deck SSD, M.2 2230 NVME SSD Copper Heat Sink Cooling Thermal Pastes Back Cover Opening Tools Back Screws Replacements Screwdriver Repair Kit for Stream Deck SSD",
+    "brand": "JOYJOM",
+    "price": "$7.99",
+    "img": "https://m.media-amazon.com/images/I/319YHR3XzSL._SL500_.jpg",
+    "features": [
+      "SSD Heatsink Thermal Pads for Steam Deck: the Pure Copper Heatsink is sepcially designed for Steam Deck 2230 SSD ONLY.",
+      "Heatsink and full set opening tools: ssd heatsink and full set tools for removing back plate, include copper heatsink, opening pry tools, thermal pads, screwdriver and screws.",
+      "Pure Copper Heatsink: Pure Copper has good heat dissipation, it will reduce the overheating risk of your steam deck, improve the game experience.",
+      "Phase change and silicone thermal pads: the thermal pads can not only improve heat dissipation, but also can make the ssd surface flat, to aviod bumping up against the Shield cover.",
+      "Package include: 1x Copper Heatsink, 2x Phase change thermal pads, 2x Silicone thermal pads,1x screwdriver, 1x Opening pry bar, 1x Triangle Pry Tool, 18x Screws(8 long and 8 short for back plate, 2 for SSD)."
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "2230 NVMe SSD Steam Deck"
+    ]
+  },
+  "B0GF177449": {
+    "asin": "B0GF177449",
+    "title": "For Steam Deck OLED Handheld Devices M.2 NVMe PCIe 4.0 2230 to 2280 SSD Adapter Converter Expansion Card,Modification 2230 to 2280 Size SSD Converter Board,OLED Model Expand high capacity memory card",
+    "brand": "suckoo",
+    "price": "$21.90",
+    "img": "https://m.media-amazon.com/images/I/314fUqffOmL._SL500_.jpg",
+    "features": [
+      "Brand: Suckoo Patented Product,Compatibility: Specifically designed for the Steam Deck OLED Handheld Devices model,supporting replacement of the 2230 SSD with a 2280 spec M.2 NVMe PCIe 4.0 SSD Expandable High Storage Card.For Steam Deck OLED Handheld Internal Components.",
+      "Conversion Function: Converts shorter M.2 NVMe PCIe 4.0 2230 SSD form factors to longer 2230 2242 2260 2280 SSD form factors while maintaining full M.2 NVMe PCIe 4.0 functionality.",
+      "Durable Construction: Features premium gold plated circuit board materials for stable connection to the host and long lasting performance.",
+      "Easy Installation: Simplified adapter card design allows direct replacement of the 2230 SSD. Color: Black. Included Accessories: Adapter board ×1+Screw ×1+Double-sided tape ×1+Screwdriver ×1+ Black heat pad ×1 (to be applied to the back of the 2280 SSD).",
+      "Performance: Maintains full M.2 NVMe PCIe 4.0 performance while providing an expandable storage solution compatible with the Steam Deck OLED.The adapter is installed flat beneath the handheld's heat sink housing, in the 2230 hard drive bay. Refer to the connection diagram for reference.",
+      "We recommend installation and use under professional guidance. Before modification, connect the M.2 NVMe PCIe 2280 SSD and verify its functionality.Only proceed with system installation and modification after confirming the SSD operates normally."
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "2230 NVMe SSD Steam Deck"
+    ]
+  },
+  "B0H125X15W": {
+    "asin": "B0H125X15W",
+    "title": "Oemgenuine OEM Micron 256GB M.2 PCI-e GEN4 NVME SSD Internal Solid State Drive 30mm 2230 Form Factor M Key Steam Deck",
+    "brand": "Oemgenuine",
+    "price": "$58.95",
+    "img": "https://m.media-amazon.com/images/I/21TeEXhOauL._SL500_.jpg",
+    "features": [
+      "Capacity: 256GB / Interface: M.2 2230 PCIe NVME SSD",
+      "Dimension: 22mm x 30mm x 2.38mm / Key Type: M Key",
+      "Size: Fits 2230 as is / Compatibility: Laptop & Desktop Compatible",
+      "Bulk Packaging - Only the Drive is included. Any screws, cables, or adapter needed are sold separately",
+      "Warranty: 1-Year Oemgenuine Warranty"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "2230 NVMe SSD Steam Deck"
+    ]
+  },
+  "B0GF1JFVTZ": {
+    "asin": "B0GF1JFVTZ",
+    "title": "For Steam Deck LCD Handheld Device M.2 NVMe PCIe 4.0 2230 to 2280 SSD Hard Drive Adapter Expansion Card,Modification 2280 Replacement 2230 SSD Converter Board,Handheld Expand high capacity memory card",
+    "brand": "suckoo",
+    "price": "$19.90",
+    "img": "https://m.media-amazon.com/images/I/314UJEFomAL._SL500_.jpg",
+    "features": [
+      "Brand: Suckoo Patented Product,Compatibility: Designed specifically for the Steam Deck LCD handheld gaming console, enabling the replacement of the 2230 SSD with an M.2 NVMe PCIe 4.0 2280 SSD.For Steam Deck LCD Handheld Internal Components.",
+      "High Performance: Supports M.2 NVMe PCIe 4.0 interface for high data transfer rates and expanded high capacity storage.",
+      "Durable Construction: Features premium gold plated circuit board materials for stable connection to the host and long lasting performance.",
+      "Easy Installation: Simplified adapter card design allows direct replacement of the 2230 SSD. Color: Black. Included Accessories: Adapter board ×1+Screw ×1+Double-sided tape ×1+Screwdriver ×1+ Black heat pad ×1 (to be applied to the back of the 2280 SSD).",
+      "Upgrade Solution: Compatible with Steam Deck LCD users to expand storage using larger capacity, more readily available 2280 format M.2 NVMe PCIe 4.0 SSD.The adapter is installed flat beneath the handheld's heat sink housing, in the 2230 hard drive bay. Refer to the connection diagram for reference.",
+      "We recommend installation and use under professional guidance. Before modification, connect the M.2 NVMe PCIe 2280 SSD and verify its functionality.Only proceed with system installation and modification after confirming the SSD operates normally."
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "2230 NVMe SSD Steam Deck"
+    ]
+  },
+  "B0FNP68QYR": {
+    "asin": "B0FNP68QYR",
+    "title": "OEM Hyn PVC10 256GB M.2 PCI-e GEN 4X4 NVME SSD Internal Solid State Drive 30mm 2230 Form Factor M Key Steam Deck",
+    "brand": "Oemgenuine",
+    "price": "$59.45",
+    "img": "https://m.media-amazon.com/images/I/319ayH1IC4L._SL500_.jpg",
+    "features": [
+      "Capacity: 256GB / Interface: M.2 2230 PCIe NVME SSD",
+      "Dimension: 22mm x 30mm x 2.38mm / Key Type: M Key",
+      "Size: Fits 2230 as is / Compatibility: Laptop & Desktop Compatible",
+      "Bulk Packaging - Only the Drive is included. Any screws, cables, or adapter needed are sold separately",
+      "Warranty: 1-Year Oemgenuine Warranty"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "2230 NVMe SSD Steam Deck"
+    ]
+  },
+  "B0C6MVP42M": {
+    "asin": "B0C6MVP42M",
+    "title": "WD SN740 256GB SSD M.2 2230 30mm NVMe PCIe 4.0 Gen 4 x 4 (OEM)",
+    "brand": "Western Digital",
+    "price": "$99.99",
+    "img": "https://m.media-amazon.com/images/I/51PpUJAN5qL._SL500_.jpg",
+    "features": [
+      "【Model】 SDDPTQD-256G",
+      "<b>【Hardware Interface】</b> PCI Express",
+      "<b>【Form Factor】</b> M.2 2230",
+      "<b>【Storage Capacity】</b> 256 GB",
+      "<b>【Condition】</b>The SSD was pulled from BRAND NEW laptops for upgrade purpose, OEM anti Static bag package"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "WD SN740 2230"
+    ]
+  },
+  "B0H56MYTHQ": {
+    "asin": "B0H56MYTHQ",
+    "title": "Mavark WD PC SN740 512GB NVMe SSD, M.2 2230, PCIe Gen4x4, Internal Storage, High-Speed, for Dell HP Lenovo Laptops and Handheld Devices",
+    "brand": "Mavark",
+    "price": "$179.00",
+    "img": "https://m.media-amazon.com/images/I/31oD56SdDtL._SL500_.jpg",
+    "features": [
+      "PCIe Gen4x4 NVMe Performance: Delivers high-speed read and write performance for faster boot times, quicker app launches, and smooth data transfers.",
+      "M.2 2230 Form Factor: Compact 2230 size makes it ideal for slim laptops, mini PCs, and handheld devices with space-constrained drive bays.",
+      "512GB Storage Capacity: Ample internal solid-state storage for your operating system, applications, games, and everyday files.",
+      "Broad Compatibility: OEM-grade drive designed to work with select Dell, HP, Lenovo laptops, and handheld devices; verify slot compatibility before installing.",
+      "Model SDDPTQD-512G-1012: Reference this model number to confirm fitment with your specific device before purchase."
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "WD SN740 2230"
+    ]
+  },
+  "B0BCQ59XRF": {
+    "asin": "B0BCQ59XRF",
+    "title": "Western Digital 256GB SSD M.2 2230 30mm PC SN530 NVMe PCIe 3.0 Gen3 x4 SDBPTPZ-256G Solid State Drive for Surface Pro Steam Deck Dell HP Lenovo Ultrabook Tablet",
+    "brand": "Western Digital",
+    "price": "$98.97",
+    "img": "https://m.media-amazon.com/images/I/31ofzEkVvwL._SL500_.jpg",
+    "features": [
+      "Sequential read/write up to (MB/s): 2400/950",
+      "Random read/write up to (IOPS): 170K/120K",
+      "Form factor, Interface: M.2 2230, PCIe Gen3 x4",
+      "Compatibility: Surface Pro Tablet, Steam Deck and other systems with M.2 2230 NVMe PCIe slot"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "WD SN740 2230"
+    ]
+  },
+  "B0GWNHBCX2": {
+    "asin": "B0GWNHBCX2",
+    "title": "WD SN740 512GB M.2 2230 NVMe PCIe 4.0 Gen4 x4 SSD (OEM) – 30mm 2230 Single‑Sided TLC NVMe Drive for Steam Deck, ROG Ally, Surface & Ultrabooks",
+    "brand": "Mavark",
+    "price": "$179.00",
+    "img": "https://m.media-amazon.com/images/I/410gbyPJ1fL._SL500_.jpg",
+    "features": [
+      "Ultra‑Compact 2230 Form Factor (30mm) — Perfect for Steam Deck, ROG Ally, Surface devices, and thin‑and‑light laptops",
+      "PCIe 4.0 Gen4 x4 Interface — High‑speed NVMe 1.4 performance",
+      "512GB Capacity — Ideal for OS, apps, and gaming libraries",
+      "TLC NAND Flash — Better endurance and performance than QLC alternatives",
+      "Single‑Sided Design — Ensures compatibility with tight internal spaces"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "WD SN740 2230"
+    ]
+  },
+  "B0D61Z8R1W": {
+    "asin": "B0D61Z8R1W",
+    "title": "Crucial P310 1TB M.2 2230 SSD, PCIe Gen4 NVMe, Up to 7,100MB/s, Internal Solid State Drive, Ideal for Steam Deck, ASUS ROG Ally, MSI Claw, Mini PCs & Ultrabooks - CT1000P310SSD2",
+    "brand": "Crucial",
+    "price": "$250.01",
+    "img": "https://m.media-amazon.com/images/I/41TlO01590L._SL500_.jpg",
+    "features": [
+      "Broad Compatibility: Works with Steam Deck, ROG Ally, Microsoft Surface, and select Dell laptops for easy portable upgrades",
+      "PCIe 4.0 Performance: Delivers up to 7,100MB/s read and 6,000MB/s write speeds for quicker game load times, bootups, and smooth multitasking",
+      "Spacious NVMe SSD: This 1TB SSD provides space for AAA games, apps, and media with compact M.2 2230 NVMe SSD form factor for casual gamers and home users",
+      "Power-efficient Design: Engineered for low power draw to extend battery life on handheld consoles and laptops",
+      "Trusted Micron Quality: Built with advanced G8 NAND and thermal control for reliable Gen4 performance trusted by gamers and home users"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "WD SN740 2230"
+    ]
+  },
+  "B0CN1PFFPS": {
+    "asin": "B0CN1PFFPS",
+    "title": "Oem WD SN740 256GB M.2 PCI-e NVME SSD Internal Solid State Drive 30mm 2230 Form Factor M Key Steam Deck",
+    "brand": "Oemgenuine",
+    "price": "$109.00",
+    "img": "https://m.media-amazon.com/images/I/41Z29D2SSPL._SL500_.jpg",
+    "features": [
+      "Capacity: 256GB / Interface: M.2 2230 PCIe NVME SSD",
+      "Dimension: 22mm x 30mm x 2.38mm / Key Type: M Key",
+      "Size: Fits 2230 as is / Compatibility: Laptop & Desktop Compatible",
+      "Bulk Packaging - Only the Drive is included. Any screws, cables, or adapter needed are sold separately",
+      "Warranty: 2-Year Oemgenuine Warranty"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "WD SN740 2230"
+    ]
+  },
+  "B0CJWJSTFW": {
+    "asin": "B0CJWJSTFW",
+    "title": "Kingston 1TB M.2 2230 PCIe Gen 4.0x4 NVMe SSD TLC NAND (R/W Speeds up to 4,540/4,230 MB/s) OM3PGP41024P-A0 Compatible with Steam Deck Surface Ally Mini PCs",
+    "brand": "Kingston",
+    "price": "$228.99",
+    "img": "https://m.media-amazon.com/images/I/51DxXU+otsL._SL500_.jpg",
+    "features": [
+      "Model Number - OM3PGP41024P-A0",
+      "Capacity - 1TB",
+      "Form Factor & Connection Type - M.2 2230 PCIe 4.0x4",
+      "Read/Write Speed - Up to 4540/4230 MB/s"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "WD SN740 2230"
+    ]
+  },
+  "B0H831CM72": {
+    "asin": "B0H831CM72",
+    "title": "WD PC SN740 512GB NVMe SSD, M.2 2242 PCIe Gen4x4, 3D TLC NAND (OEM New)",
+    "brand": "ist computers",
+    "price": "$129.99",
+    "img": "https://m.media-amazon.com/images/I/41-Y299uqXL._SL500_.jpg",
+    "features": [
+      "High-Speed Gen4 Performance - Upgrade your system with the WD PC SN740 512GB NVMe SSD featuring PCIe Gen4x4 technology, delivering sequential read speeds up to 5000MB/s for faster boot times, quick file transfers, and smooth multitasking performance",
+      "Compact M.2 2242 Form Factor - Designed in the space-saving M.2 2242 size, ideal for thin laptops, business notebooks, mini PCs, handheld gaming devices, and systems requiring short-length SSD solutions",
+      "Reliable 3D TLC NAND Storage - Built with high-quality 3D NAND flash for improved durability, stability, and consistent performance compared with traditional storage drives",
+      "Optimized Power Efficiency - Engineered for OEM system platforms with efficient power management and stable thermal performance, helping extend battery life while maintaining reliable performance across laptops, mini PCs, and handheld gaming devices",
+      "This SSD is OEM new, carefully removed from brand-new systems and never used for data storage. Fully tested for performance and reliability, offering a cost-effective upgrade solution for laptops and desktops"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "WD SN740 2230"
+    ]
+  },
+  "B0D9MJCFNK": {
+    "asin": "B0D9MJCFNK",
+    "title": "Corsair MP600 MINI 1TB M.2 NVMe PCIe x4 Gen4 2 SSD – M.2 2230 – Up to 7,000MB/sec Sequential Read – High-Density 3D TLC NAND – Great for Steam Deck and Microsoft Surface – Black",
+    "brand": "Corsair",
+    "img": "https://m.media-amazon.com/images/I/41fuV-6yZVL._SL500_.jpg",
+    "features": [
+      "Compact M.2 2230 Form-Factor: Fully compatible with Valve Steam Deck, ASUS ROG Ally, MSI Claw, and Microsoft Surface, and other ultra-thin devices, making a great upgrade for compatible machines",
+      "Your PC Made Faster: Load games, boot Windows, open and transfer files, all faster than ever",
+      "Extreme Gen4 Storage Performance: A PCIe Gen4 x4 controller delivers up to 7,000MB/sec sequential read and up to 6,200MB/sec sequential write speeds, for rapid read, write, and response times",
+      "High-Speed PCIe 4.0 x4 NVMe 1.4 M.2 Interface: Using PCIe Gen4 technology for maximum bandwidth, the MP600 MINI delivers great storage performance",
+      "High-Density 3D TLC NAND: Provides the ideal mix of performance and endurance to keep your drive performing at its best for years"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Corsair MP600 Mini 2230"
+    ]
+  },
+  "B0CQ5CNF1B": {
+    "asin": "B0CQ5CNF1B",
+    "title": "Patriot Viper VP4000 Mini 500GB PCIe Gen4 x4 M.2 2230 SSD",
+    "brand": "Patriot Memory",
+    "price": "$104.99",
+    "img": "https://m.media-amazon.com/images/I/31-xOSBUkKL._SL500_.jpg",
+    "features": [
+      "500GB Capacity",
+      "Sequential Read (CDM) up to 4,700MB/s, Sequential Write (CDM) up to 1,700MB/s",
+      "Built with the latest PCIe Gen4 x4 controller",
+      "Compliant with NVMe 1.4",
+      "Compatible with Steam Deck and ROG Ally"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Corsair MP600 Mini 2230"
+    ]
+  },
+  "B0DBPZ6LK2": {
+    "asin": "B0DBPZ6LK2",
+    "title": "Fikwot FX953 M.2 2230 SSD 500GB NVMe SSD for Steam Deck PCIe Gen 4x4, Read Up to 4850MB/s, M2 2230 Internal Soild State Drive, Compatible with ASUS ROG Ally, Microsoft Surface Pro",
+    "brand": "Fikwot",
+    "price": "$109.99",
+    "img": "https://m.media-amazon.com/images/I/412b-NRtF5L._SL500_.jpg",
+    "features": [
+      "[Available Everywhere]: The FX953 M.2 2230 SSD can be used on almost any device with an M.2 interface because it is small enough. It is compatible with handheld computers such as STEAM DECK and ASUS ROG Ally, and you can also use it to expand ultra-thin laptops such as Microsoft Surface Pro.",
+      "[More Powerful]: The FX953 M2 2230 SSD 500GB uses the PCIe Gen4 protocol, and its maximum sequential read and write speeds can reach 4850MB/s and 3600MB/s, which is more than twice the speed of PCIe 3.0 NVMe SSD, so you can enjoy the game more easily.",
+      "[Better Heat Dissipation]: The FX953 500GB 2230 NVMe SSD is covered with an all-in-one graphite heat dissipation sticker, which can be used as an ultra-thin heat sink. During use, it can effectively reduce the heat of the SSD and improve system performance and stability.",
+      "[Better Chips]: FX953 2230 SSD uses 3D NAND Flash chips and excellent main controllers, which have been fully tested and verified by us to ensure longer service life and higher stability.",
+      "[Better Service]: We provide a limited warranty of up to 5 years or 160TBW for FX953 500GB M2 2230 SSD, and you can enjoy very comprehensive technical support and services."
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Corsair MP600 Mini 2230"
+    ]
+  },
+  "B0G2Y1QCSQ": {
+    "asin": "B0G2Y1QCSQ",
+    "title": "Corsair MP600 CORE XT 2TB M.2 PCIe Gen4 NVMe SSD – Up to 5900MB/s – QLC NAND – M.2 2280 – for PCIe 4.0 Notebooks and Desktops – Black (Renewed)",
+    "brand": "Corsair",
+    "price": "$289.50",
+    "img": "https://m.media-amazon.com/images/I/41Np7yar5YL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Corsair MP600 Mini 2230"
+    ]
+  },
+  "B0BZ5TKCWX": {
+    "asin": "B0BZ5TKCWX",
+    "title": "Corsair MP600 CORE XT 1TB PCIe Gen4 x4 NVMe M.2 SSD – High-Density QLC NAND – M.2 2280 – DirectStorage Compatible - Up to 5,000MB/sec – Great for PCIe 4.0 Notebooks and Desktops – Black",
+    "brand": "Corsair",
+    "price": "$199.00",
+    "img": "https://m.media-amazon.com/images/I/41FGS9zMXHL._SL500_.jpg",
+    "features": [
+      "Impressive Gen4 Storage Performance: A PCIe Gen4 x4 controller delivers up to 5,000MB/sec sequential read and 4,400MB/sec sequential write speeds, for outstanding read, write, and response times.",
+      "Your PC Made Faster: Load games, boot Windows, open and transfer files, all faster than ever.",
+      "High-Speed Gen4 PCIe x4 NVMe 1.4 M.2 Interface: Using PCIe Gen4 technology for maximum bandwidth, the MP600 CORE XT delivers great storage performance.",
+      "High-Density 3D QLC NAND: Provides the ideal combination of performance and value.",
+      "Compact M.2 2280 Form-Factor Great for Notebooks: Fits directly onto most motherboards, making a great upgrade for laptops and notebooks with PCIe Gen4-capable CPUs."
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Corsair MP600 Mini 2230"
     ]
   }
 }

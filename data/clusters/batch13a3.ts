@@ -121,7 +121,7 @@ export const batch13a3 = [
     cands: where(rgb, by.priceAsc, 4), count: 5, what: "RGB gaming PCs",
     lead: "Most gaming PCs ship with some RGB lighting. These five list RGB memory or fans in their listing titles, and name every core part.",
     teaser: "Systems whose listings name RGB memory or fans.",
-    close: "RGB is controlled through the motherboard or case software; check which one the listing names.", rel: RB }),
+    close: "RGB is controlled through the motherboard or case software; check which one the seller names.", rel: RB }),
   build({ slug: "best-gaming-pc-liquid-cooled", kw: "gaming pc liquid cooled", seo: "Best Liquid-Cooled Gaming PCs", h1: "The Best Liquid-Cooled Gaming PCs",
     cands: where(liquid, by.priceAsc, 2), count: 5, what: "liquid-cooled gaming PCs",
     lead: "Liquid cooling in prebuilts means an all-in-one (AIO) CPU cooler. These five name a liquid cooler or AIO in their listings.",

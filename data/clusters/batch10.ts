@@ -91,7 +91,7 @@ export const batch10: Entry[] = [
     labels: {
       B0BDTHQTJV: L("Strongest Power", "an 18+2 layout with four heatsinked M.2 slots", "Ryzen 9 builds."),
       B0CRF81BBC: L("Best Value X670E", "the lowest X670E snapshot price here with a 14+2+1 layout", "Builders who want X670E lanes for less."),
-      B0BF6VKQP4: L("Best for USB4", "the only board here that lists USB4", "USB4 drives and docks."),
+      B0BF6VKQP4: L("Best for USB4", "the only board here that offers USB4", "USB4 drives and docks."),
     },
     intro: ["X670E was AMD's first flagship AM5 chipset. It keeps PCIe 5.0 graphics and M.2 lanes but uses Wi-Fi 6E rather than Wi-Fi 7.", `We compared six X670E boards. ${research}`],
     bottomLine: ["The Strix X670E-E has the strongest power delivery here, while the X670E Gaming Plus costs far less. At current prices, compare against X870E boards before buying."],

@@ -18,7 +18,7 @@ export const psuCluster: PsuArticleConfig[] = [
     labels: { B0FH6NV36R: L("Best Mid-Price Alternative", "a 135mm fan and a 5-year warranty for a few dollars more than the cheapest unit here", "Office and light gaming PCs that want a larger fan without paying for modular cables.") },
     intro: [
       "A 550W power supply covers most office PCs, home theatre builds and entry-level gaming systems with a modest graphics card. At this wattage the differences are less about capacity and more about what each maker trims to hit a low price: cable design, efficiency tier and warranty length.",
-      "We compared three ATX 3.1 units on their listed specifications from Amazon. We did not test them ourselves, and we note where a listing leaves out a detail you might want.",
+      "We compared three ATX 3.1 units on their specifications from Amazon. We did not test them ourselves, and we note where a listing leaves out a detail you might want.",
       "Before buying at this wattage, check your graphics card's recommended PSU wattage. If you plan to move to a more demanding card within a year or two, a 650W unit may save you buying twice.",
     ],
     bottomLine: [
@@ -36,7 +36,7 @@ export const psuCluster: PsuArticleConfig[] = [
     asins: ["B0H6NLHFZ9", "B0DP9M9VWD", "B0F2TQV194", "B0FLG4M8S2", "B0CFWQBDXQ"],
     labels: {
       B0DP9M9VWD: L("Best for Mixed GPU Cables", "a 12V-2x6 to dual 8-pin cable in the box as well as a native 12V-2x6", "Upgraders who may move between an 8-pin card and a 12V-2x6 card."),
-      B0F2TQV194: L("Best for Two 8-Pin Cards", "two PCIe 6+2 connectors listed alongside a native 12V-2x6", "Mid-range cards with two 8-pin sockets, or a 12V-2x6 card."),
+      B0F2TQV194: L("Best for Two 8-Pin Cards", "two PCIe 6+2 connectors alongside a native 12V-2x6", "Mid-range cards with two 8-pin sockets, or a 12V-2x6 card."),
       B0FLG4M8S2: L("Best for Fast Wake from Sleep", "Modern Standby support for faster wake from sleep", "PCs that sleep often and should wake quickly."),
     },
     intro: [
@@ -58,7 +58,7 @@ export const psuCluster: PsuArticleConfig[] = [
     teaser: "Compare listed PCIe connectors and fan design; at 750W, several units cost the same but differ in what they include.",
     asins: ["B0FBX9VS3B", "B0DLFM4YNM", "B0DG78SHF2", "B0CC3QBGDL", "B0FLG9Y4HZ", "B0FLFGGDK3"],
     labels: {
-      B0FBX9VS3B: L("Most GPU Connectors Listed", "four 8-pin (6+2) GPU connectors and a native 12V-2x6 cable, the most listed here", "Cards that still use three 8-pin connectors, or a 12V-2x6 card."),
+      B0FBX9VS3B: L("Most GPU Connectors Listed", "four 8-pin (6+2) GPU connectors and a native 12V-2x6 cable, the most here", "Cards that still use three 8-pin connectors, or a 12V-2x6 card."),
       B0CC3QBGDL: L("Best Compact Mainstream Pick", "a 10-year warranty and a compact body at a mid-range price", "Mid-tower builds that want a long warranty without paying Seasonic prices."),
       B0FLG9Y4HZ: L("Best Cable Routing", "embossed cables with low-profile combs", "Windowed cases where tidy cables are part of the look."),
       B0FLFGGDK3: L("Best for Fast Wake from Sleep", "Modern Standby support for faster wake from sleep", "PCs that sleep often and should wake quickly."),
@@ -104,14 +104,14 @@ export const psuCluster: PsuArticleConfig[] = [
     teaser: "Check whether you really need 1200W, then compare fan design and warranty; at this level, length and cables also matter.",
     asins: ["B0GFB83GPM", "B0F1NF61BQ", "B0FKL76KM6", "B0C571DW23", "B0CTXR7M69", "B0CYTK6LNQ"],
     labels: {
-      B0GFB83GPM: L("Most GPU Connectors Listed", "four PCIe 6+2 connectors plus a native 12V-2x6, the most listed here", "Flagship cards or multi-card builds that still use 8-pin connectors."),
+      B0GFB83GPM: L("Most GPU Connectors Listed", "four PCIe 6+2 connectors plus a native 12V-2x6, the most here", "Flagship cards or multi-card builds that still use 8-pin connectors."),
       B0C571DW23: L("Best Hybrid Fan Control", "Seasonic's hybrid silent fan control with a 135mm FDB fan", "Workstations that idle often but run heavy loads in bursts."),
       B0CTXR7M69: L("Most Durable Build", "military-grade capacitors and chokes plus a protective PCB coating", "Humid or dusty rooms and machines expected to run for many years."),
       B0CYTK6LNQ: L("Tightest Listed Regulation", "listed voltage regulation within ±0.5% on the main rails", "Workstations where stable voltage matters more than extras."),
     },
     intro: [
       "Few gaming PCs need 1200W. It makes sense for flagship graphics cards whose makers recommend it, for workstations with heavy CPU and GPU loads, and for builds that will add a second card later.",
-      "Each pick is judged on its listed specifications rather than our own measurements. Two listings here mix ATX 3.0 and 3.1 wording, and we point those out so you can confirm the revision.",
+      "Each pick is judged on its specifications rather than our own measurements. Two listings here mix ATX 3.0 and 3.1 wording, and we point those out so you can confirm the revision.",
       "At this wattage, compare fan design and warranty, then confirm the length against your case. High-wattage units are often longer than mainstream ones.",
     ],
     bottomLine: [
@@ -129,7 +129,7 @@ export const psuCluster: PsuArticleConfig[] = [
     asins: ["B0C57132H5", "B0DMW5F3GG", "B0HF7BB2NF", "B0F1NGKBK3", "B0D1VDZST3", "B0DNNZ9G46"],
     labels: {
       B0C57132H5: L("Best for Dual-GPU Workstations", "two native 12V-2x6 cables with a Cybenetics Titanium rating", "AI or rendering workstations with two high-power graphics cards."),
-      B0DMW5F3GG: L("Quietest Fan Design", "a Noctua NF-A12x25 fan with a custom curve and a listed LAMBDA A rating", "Workstations where noise matters as much as capacity."),
+      B0DMW5F3GG: L("Quietest Fan Design", "a Noctua NF-A12x25 fan with a custom curve and a LAMBDA A rating", "Workstations where noise matters as much as capacity."),
       B0HF7BB2NF: L("Best Fan Mode Control", "a switchable active or semi-passive fan mode with IO Center software", "Users who want to choose between silence and cooling headroom."),
       B0F1NGKBK3: L("Best for Corsair iCUE Systems", "monitoring and fan control through Corsair iCUE", "Builds already managed through Corsair iCUE."),
       B0D1VDZST3: L("Best Digital Platinum Unit", "digital power control and a 140mm magnetic-levitation fan", "Builders who want digital regulation without a Titanium price."),
@@ -222,7 +222,7 @@ export const psuCluster: PsuArticleConfig[] = [
     seoTitle: "Best Platinum and Titanium PSUs", title: "The Best Platinum and Titanium Power Supplies for Efficient, Quiet PCs", breadcrumbLabel: "Best Platinum and Titanium Power Supplies", mainKeyword: "platinum power supply",
     dek: "Six high-efficiency units compared on certification, listed noise ratings, size and build, for quiet PCs and long heavy workloads.",
     metaDescription: "Six Platinum and Titanium power supplies compared on efficiency certification, noise rating, size and build, for quiet PCs and heavy workloads.",
-    teaser: "Check which certification a unit carries and whether it lists a noise rating; high efficiency pays off most under long loads.",
+    teaser: "Check which certification a unit carries and whether it has a noise rating; high efficiency pays off most under long loads.",
     asins: ["B0D467S15T", "B0DVJNMCR1", "B0GCRW4ZK2", "B0C571R3V8", "B0DJ1T9VXB", "B0BV6CWS2Z"],
     labels: {
       B0C571R3V8: L("Best Hybrid Fan Control", "100% Japanese capacitors and hybrid fan control with a 135mm FDB fan", "Machines that idle often but run heavy loads in bursts."),
@@ -232,7 +232,7 @@ export const psuCluster: PsuArticleConfig[] = [
     intro: [
       "Platinum and Titanium power supplies waste less power as heat, which lets them run cooler and quieter under load. The benefit is largest for machines that work hard for hours, such as rendering or AI workstations.",
       "The certifications quoted below are the 80 Plus and Cybenetics ratings each maker lists; this is a research-based comparison, not one built on our own measurements.",
-      "When a listing gives both badges, the Cybenetics rating covers more load levels, and a listed LAMBDA noise class is the most useful quiet-operation signal.",
+      "When a listing gives both badges, the Cybenetics rating covers more load levels, and a LAMBDA noise class is the most useful quiet-operation signal.",
     ],
     bottomLine: [
       "The FSP Hydro Ti Pro 1000W is the standout, with dual Titanium certification, a LAMBDA A++ noise rating and five PCIe connectors. The be quiet! Power Zone 2 850W is the value Platinum pick, and the Super Flower Leadex VIII Platinum PRO 850W is the one for tight cases at 125mm.",

@@ -27,7 +27,7 @@ export const mbSchema: CategorySchema = {
     if (f.specs.socket === "AM5") s.push("It uses AMD's AM5 socket, so it takes Ryzen 7000, 8000 and 9000 chips; a board built before a CPU's launch may need a BIOS update first, so check whether it supports BIOS Flashback.");
     else s.push("It uses Intel's LGA1851 socket for Core Ultra 200S processors, not older 12th to 14th Gen chips.");
     if (f.specs.form === "Mini-ITX") s.push("As a Mini-ITX board it has one PCIe x16 slot and two memory slots, so plan for a two-stick memory kit and check the case's cooler and GPU limits.");
-    else if (f.specs.form === "E-ATX") s.push("Confirm your case lists E-ATX support; many mid-towers stop at ATX.");
+    else if (f.specs.form === "E-ATX") s.push("Confirm your case offers E-ATX support; many mid-towers stop at ATX.");
     if (f.specs.m2 !== undefined) s.push("Check the manual for which M.2 slots share lanes with SATA ports or the second PCIe slot before filling them all.");
     return s;
   },
@@ -128,7 +128,7 @@ export const ramFacts = withPool(ramPool as Pool, [
   F("B0BPTKD797", "CORSAIR Vengeance RGB DDR5 32GB (2x16GB) 6000 CL30", "Vengeance RGB", { speed: 6000, cl: 30, capacity: 32, volt: 1.4, profiles: "EXPO and XMP", rgb: true }, ["iCUE lighting control"]),
   F("B0CYHC58P6", "Kingston FURY Beast 32GB (2x16GB) DDR5-6000 CL30", "FURY Beast", { speed: 6000, cl: 30, capacity: 32, profiles: "EXPO and XMP", lowProfile: true }, ["a plain heatspreader with no lighting"]),
   F("B0DD295CNY", "G.SKILL Flare X5 32GB (2x16GB) DDR5-6000 CL30", "Flare X5 32GB", { speed: 6000, cl: 30, capacity: 32, volt: 1.35, profiles: "EXPO" }, ["a 1.35V rating, the lowest here", "timings of 30-36-36-96"]),
-  F("B0D2JLWLWZ", "Crucial Pro 32GB (2x16GB) DDR5-6000 CL36", "Crucial Pro", { speed: 6000, cl: 36, capacity: 32, profiles: "EXPO and XMP" }, ["Micron memory, per the listing", "an understated black heatspreader"]),
+  F("B0D2JLWLWZ", "Crucial Pro 32GB (2x16GB) DDR5-6000 CL36", "Crucial Pro", { speed: 6000, cl: 36, capacity: 32, profiles: "EXPO and XMP" }, ["Micron memory", "an understated black heatspreader"]),
   F("B0B72827G5", "Kingston FURY Renegade 32GB (2x16GB) DDR5-6400 CL32", "FURY Renegade", { speed: 6400, cl: 32, capacity: 32, profiles: "XMP" }, ["a silver heatspreader", "Intel XMP 3.0 tuning at 6400MT/s"]),
   F("B0C5M6SJYW", "CORSAIR Vengeance 64GB (2x32GB) DDR5-6000 CL30", "Vengeance 64GB", { speed: 6000, cl: 30, capacity: 64, volt: 1.4, profiles: "XMP" }, ["iCUE compatibility for monitoring"]),
   F("B0DGRFBN96", "G.SKILL Trident Z5 Neo RGB 32GB (2x16GB) DDR5-6000 CL28", "Trident Z5 Neo CL28", { speed: 6000, cl: 28, capacity: 32, volt: 1.4, profiles: "EXPO", rgb: true }, ["timings of 28-36-36-96"]),

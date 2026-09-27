@@ -42,7 +42,7 @@ export const webcam13eSchema: CategorySchema = {
     { id: "mic", q: "Are webcam mics good enough?", a: "For calls, often yes. For streaming, a separate mic sounds clearer." },
     { id: "light", q: "Why does my webcam look grainy?", a: "Usually the room is too dim. Face a window or add a key light before upgrading the camera." },
     { id: "obs", q: "Do these work with OBS?", a: "Standard USB webcams appear as video sources in OBS and other streaming apps." },
-    { id: "mac", q: "Do they work on a Mac?", a: "Most USB webcams work on macOS, but companion software can be Windows-only; check the listing." },
+    { id: "mac", q: "Do they work on a Mac?", a: "Most USB webcams work on macOS, but companion software can be Windows-only; check the product page." },
   ],
   evaluated: [
     { title: "Resolution and frame rate", description: "We recorded listed maximum resolution and frame rate." },
@@ -105,7 +105,7 @@ export const stream13eSchema: CategorySchema = {
   ],
   evaluated: [
     { title: "Role", description: "We grouped each item by what it does in a streaming setup." },
-    { title: "Connection", description: "We recorded HDMI, USB and mounting details as listed." },
+    { title: "Connection", description: "We recorded HDMI, USB and mounting details." },
     { title: "Key figures", description: "We noted resolution, key counts, reach and brightness where listed." },
     { title: "Setup needs", description: "We checked what else each item needs to work." },
   ],
@@ -144,7 +144,7 @@ export const strip13eSchema: CategorySchema = {
     const c = str(f, "control");
     if (/wi-fi/i.test(c)) s.push("Wi-Fi control usually needs a 2.4GHz network; check your router before setup.");
     if (/bridge/i.test(c)) s.push("Some features need the Hue Bridge; Bluetooth control works without it at shorter range.");
-    if (!/wi-fi|matter|alexa/i.test(c)) s.push("There is no voice-assistant support listed, so control stays in the app or remote.");
+    if (!/wi-fi|matter|alexa/i.test(c)) s.push("There is no voice-assistant support, so control stays in the app or remote.");
     s.push("Measure the run first and plan where the power adapter plugs in.");
     return s;
   },
@@ -224,7 +224,7 @@ export const switch13eSchema: CategorySchema = {
     { id: "low-profile", q: "Do these fit low-profile keyboards?", a: "No. These are full-height MX-style switches; low-profile boards need their own switch types." },
   ],
   evaluated: [
-    { title: "Switch type", description: "We recorded linear, tactile or silent types as listed." },
+    { title: "Switch type", description: "We recorded linear, tactile or silent types." },
     { title: "Force", description: "We only included packs that state an actuation force." },
     { title: "Lifespan", description: "We noted the rated keystroke life where listed." },
     { title: "Fit", description: "We checked pin count and pack size." },

@@ -204,7 +204,7 @@ export const batch3: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
         B0BFPRYB5Y: "The IS-55 is a 57mm cooler with five heat pipes and a slim 120mm fan, listed for AM5 and LGA1851. It fits cases too short for the 67mm to 70mm coolers.",
         B0CKVZ2NZ1: "The NH-L9x65 uses a 92mm fan on a 95x95mm footprint that keeps clear of the RAM and first PCIe slot. It is a tidy fit for mini-ITX boards with a 65W CPU.",
         B0BB621NMK: "The AXP90-X47 is 47mm tall with four heat pipes and a 92mm fan. It is the slimmest option here with an AM5 listing.",
-        B075SG1T3X: "The NH-L9a-AM4 is just 37mm tall. Its listing names AM4 only; AM5 shares the mounting, but confirm support on Noctua's site before an AM5 build.",
+        B075SG1T3X: "The NH-L9a-AM4 is just 37mm tall. The maker specifies AM4 only; AM5 shares the mounting, but confirm support on Noctua's site before an AM5 build.",
       },
       intro: [
         "Low-profile coolers let small and slim cases run a desktop CPU, but they trade height for cooling capacity. The right one is the largest that fits your case's cooler height limit.",
@@ -302,7 +302,7 @@ export const batch3: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
         B0CCNS5NZ9: L("Budget Low-Speed Pick", "1500 RPM fans and a pump rated for 40,000 hours", "Budget builds that favour lower fan speeds."),
       },
       takes: {
-        B0F6M1MR4P: "The Frozen Notte 240 lists a pump up to 5300 RPM and 2000 RPM fans at a budget price. Thermalright recommends a case wider than 250mm, so check the width.",
+        B0F6M1MR4P: "The Frozen Notte 240 offers a pump up to 5300 RPM and 2000 RPM fans at a budget price. Thermalright recommends a case wider than 250mm, so check the width.",
         B0FRPMHJGX: "The Nautilus 240 RS runs its daisy-chained fans straight from the motherboard, with no hub or app, and a pump Corsair rates at 20 dBA.",
         B0C6PX2BW1: "The H100i RGB lists the fastest fans here at 2400 RPM, with zero RPM mode for idle. It runs through Corsair's iCUE LINK hub.",
         B0F5S84X8P: "The Kraken Plus 240 brings NZXT's 1.54-inch LCD pump head to a 240mm radiator for smaller cases.",
@@ -341,7 +341,7 @@ export const batch3: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
         B0DSTWDYD2: "Duronaut is Thermal Grizzly's long-life paste, built to minimise pump-out and sold with a spatula. It suits high-power CPUs that run hot for hours.",
         B07MZ45X9G: "NT-H2 comes with three cleaning wipes and needs no spreading. Noctua rates it for up to five years on the CPU, which suits builders who set it and forget it.",
         B011F7W3LU: "Kryonaut is the long-standing enthusiast paste, sold here as a 1g syringe with a spatula. It is enough for one or two large CPUs.",
-        B0BPKTNPL3: "TF7 lists 12.8 W/mK and a wide temperature range in a non-conductive formula. It is a low-cost option for a CPU or GPU repaste.",
+        B0BPKTNPL3: "TF7 offers 12.8 W/mK and a wide temperature range in a non-conductive formula. It is a low-cost option for a CPU or GPU repaste.",
         B0BFF1T9PD: "XTM70 includes an applicator kit and three wipes, with a low viscosity that spreads easily. Corsair rates it for CPUs up to 250W and beyond.",
       },
       intro: [

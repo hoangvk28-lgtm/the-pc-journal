@@ -151,13 +151,14 @@
       "Removable cooling brackets on the top, front and PSU shroud.",
       "Supports simultaneous installation of 420mm radiator + 360mm radiator."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
       "Lian Li Lancool 217",
       "Fractal Design North XL",
       "Fractal Design Torrent",
       "Phanteks Evolv X2",
-      "HYTE Y40"
+      "HYTE Y40",
+      "Phanteks PC case"
     ]
   },
   "B0BRP58KHT": {
@@ -193,7 +194,7 @@
       "PRE-INSTALLED FANS-Equipped with two 120mm Quiet Airflow fans—one in front, one in rear—for solid out-of-the-box performance.",
       "SEAMLESS CABLE MANAGEMENT-Effortlessly route and conceal cables using the wide channels, hooks, and straps."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
       "Lian Li Lancool 217",
       "Lian Li Lancool 207",
@@ -205,7 +206,10 @@
       "Phanteks XT Pro",
       "Jonsbo D41",
       "HYTE Y40",
-      "DeepCool CH560"
+      "DeepCool CH560",
+      "Phanteks PC case",
+      "Phanteks NV5",
+      "Phanteks XT View"
     ]
   },
   "B0DHXW28RX": {
@@ -240,14 +244,16 @@
       "Fits high-end hardware with support for GPUs up to 420mm, CPU coolers up to 178mm, and a top radiator up to 360mm",
       "Fan Speed 1800 RPM - Max. Fan Airflow: 61.47-60.4 CFM - Max. Fan Air Pressure: 2.54-2.17 mm-H2O - Fan Noise Level: 26.5-30.8 dBA - Fan Bearing: Hydraulic bearing"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
       "Lian Li Lancool 207",
       "Lian Li Lancool 216",
       "Phanteks XT Pro",
       "Phanteks Evolv X2",
       "Montech AIR 903",
-      "Jonsbo D41"
+      "Jonsbo D41",
+      "Phanteks PC case",
+      "Phanteks NV5"
     ]
   },
   "B0DJDM7V1R": {
@@ -319,12 +325,13 @@
       "The innovative design conceals AIO tubing within the second chamber when the AIO is positioned on the side",
       "Patented three-panel tempered glass design for an uninterrupted view of your components"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
       "Lian Li Lancool 216",
       "Lian Li O11 Vision Compact",
       "Phanteks NV7",
-      "Phanteks Evolv X2"
+      "Phanteks Evolv X2",
+      "Phanteks NV5"
     ]
   },
   "B0DJPY63XL": {
@@ -1192,10 +1199,11 @@
       "Clean Lines or Turbo Cooled – The internal side panel near the motherboard tray can be used as a cable cover for clean cable management, or you can remove it and mount fans to the side for increased cooling potential",
       "3D Y-Pattern Airflow Panel – Optimized for high airflow and minimal restriction, the steel front panel is perforated in three dimensions with a Y-pattern that provides a low-obstruction path for cool air"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
       "Fractal Design Torrent",
-      "Corsair 4000D RS"
+      "Corsair 4000D RS",
+      "Phanteks NV5"
     ]
   },
   "B0BTRYDX4K": {
@@ -1425,12 +1433,13 @@
       "The top and side panels feature an airflow-optimized perforation pattern to enhance overall performance and filter dust.",
       "An intuitive cable management system simplifies the build process by using wide channels and straps."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
       "NZXT H6 Flow",
       "NZXT H5 Flow",
       "NZXT H9 Flow",
-      "Montech King 95"
+      "Montech King 95",
+      "Phanteks NV5"
     ]
   },
   "B0C89F1V5S": {
@@ -1544,10 +1553,11 @@
       "EASY CABLE MANAGEMENT — Extra-wide channels, built-in Velcro straps, and tie-down points make cable routing effortless.",
       "BACK-CONNECT READY — Compatible with rear-connecting motherboards like ASUS BTF and MSI Project Zero for a cable-free look."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
       "NZXT H6 Flow",
-      "NZXT H9 Flow"
+      "NZXT H9 Flow",
+      "Phanteks NV5"
     ]
   },
   "B0D2MHBXRR": {
@@ -1652,9 +1662,11 @@
       "Optimized for Liquid Cooling: Supports AIO coolers with up to 80mm clearance, ensuring superior thermal performance and enhanced system stability",
       "Striking 8° Angled Base Design: Engineered for both function and style, the 8-degree golden angle enhances airflow efficiency for superior cooling while expanding the viewing angle for a more immersive showcase. This bold design also amplifies ARGB lighting effects, making your system a true centerpiece of innovation and personalization"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
-      "NZXT H5 Flow"
+      "NZXT H5 Flow",
+      "Phanteks PC case",
+      "Phanteks NV5"
     ]
   },
   "B0DQPR34HG": {
@@ -2514,10 +2526,11 @@
       "I/O Ports: USB 3.2 (Gen 2) Type-C x 1, USB 3.0 x 2, HD Audio x 1",
       "Max VGA Length: 420mm"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
       "Phanteks XT Pro",
-      "Montech XR"
+      "Montech XR",
+      "Phanteks XT View"
     ]
   },
   "B0D4QVMBTP": {
@@ -2551,11 +2564,12 @@
       "Scale Cooling With Your Build - 3 pre-installed 120 mm ARGB PWM fans provide a ready cooling and lighting layout, while support for up to 9 fans or a top 360 mm radiator lets gamers choose air cooling or an AIO for a new build or later upgrade.",
       "Make Daily Access and Upkeep Easier - USB-C and 2 USB 3.0 ports keep gaming peripherals within reach, while removable magnetic filters at the top, side and bottom simplify routine cleaning for frequently used gaming systems."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
       "Phanteks XT Pro",
       "Montech AIR 903",
-      "Montech XR"
+      "Montech XR",
+      "Phanteks XT View"
     ]
   },
   "B0G8YXGFF2": {
@@ -2901,9 +2915,10 @@
       "Gaming-inspired Front Panel: A boldly styled front panel design enhances visual impact while complementing the illuminated front fans—crafted with gamers in mind.",
       "Carbon Print Accents: Refined carbon texture details are embedded into the front frame, adding a modern and premium finish to the overall look."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
-      "Montech XR"
+      "Montech XR",
+      "Phanteks XT View"
     ]
   },
   "B0HJH66NM9": {
@@ -3067,10 +3082,11 @@
       "Pre-Installed 7 x ARGB PWM Fans Including 6 Reverse Fans.",
       "Built-In ARGB & PWM Fan Controller."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
       "Montech King 95",
-      "HYTE Y40"
+      "HYTE Y40",
+      "Phanteks NV5"
     ]
   },
   "B0DJDTBWVW": {
@@ -5197,6 +5213,241 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "SSUPD Meshroom S"
+    ]
+  },
+  "B0GSBW9HZT": {
+    "asin": "B0GSBW9HZT",
+    "title": "Phanteks EX5 Plus, ATX Multi-Chamber PC Case, 360 AIO Included, ARGB LED",
+    "brand": "Phanteks",
+    "price": "$183.99",
+    "img": "https://m.media-amazon.com/images/I/41TuxinfYYL._SL500_.jpg",
+    "features": [
+      "MULTI-CHAMBER COOLING DESIGN: the compartmentalized design offers direct fresh air to each component directly",
+      "BUILT-IN AIO COOLER: Fully integrated 360 AIO liquid cooler and S25-120 chassis fan included, no additional fans needed",
+      "MOTHERBOARD COMPATIBILITY: Compatible with ATX and Micro-ATX (mATX) form factors.",
+      "MASSIVE GPU CLEARANCE: Accommodates graphics cards based on primary PCIe placement—up to 4.6 slots (Slot 1 entry ATX and mATX boards), 3.6 slots (Standard Slot 2 ATX), or 2.6 slots (Slot 3).",
+      "INTERIOR FEATURES: Integrated ARGB lighting, 40mm cable clearance, Velcro cable ties and server-style GPU mounting bracket",
+      "EXTERIOR FEATURES: Tempered glass GPU and mainboard window, dual USB 3.0 ports and a high-speed Type-C (20Gbps) port"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Phanteks PC case"
+    ]
+  },
+  "B0GSBQKQPH": {
+    "asin": "B0GSBQKQPH",
+    "title": "Phanteks EX5 MAX, ATX Multi-Chamber PC Case, 360 LCD AIO Included, ARGB LED",
+    "brand": "Phanteks",
+    "price": "$229.99",
+    "img": "https://m.media-amazon.com/images/I/41STtEspuSL._SL500_.jpg",
+    "features": [
+      "MULTI-CHAMBER COOLING DESIGN: the compartmentalized design offers direct fresh air to each component directly",
+      "BUILT-IN 6’’ LCD AIO COOLER: Fully integrated 360 AIO with 6’’ LCD & 120 chassis fan included, no additional fans needed",
+      "MOTHERBOARD COMPATIBILITY: Compatible with ATX and Micro-ATX (mATX) form factors.",
+      "MASSIVE GPU CLEARANCE: Accommodates graphics cards based on primary PCIe placement—up to 4.6 slots (Slot 1 entry ATX and mATX boards), 3.6 slots (Standard Slot 2 ATX), or 2.6 slots (Slot 3).",
+      "INTERIOR FEATURES: Integrated ARGB lighting, 40mm cable clearance, Velcro cable ties and server-style GPU mounting bracket",
+      "EXTERIOR FEATURES: Tempered glass GPU and mainboard window, dual USB 3.0 ports and a high-speed Type-C (20Gbps) port"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Phanteks PC case"
+    ]
+  },
+  "B0GSC8FM8R": {
+    "asin": "B0GSC8FM8R",
+    "title": "Phanteks EX5, ATX Multi-Chamber PC Case, S25-120 Fan, ARGB LED, Black",
+    "brand": "Phanteks",
+    "price": "$109.99",
+    "img": "https://m.media-amazon.com/images/I/41QTVY5RQkL._SL500_.jpg",
+    "features": [
+      "MULTI-CHAMBER COOLING DESIGN: the compartmentalized design offers direct fresh air to each component directly",
+      "DESIGNED FOR AIO COOLERS: Supports 360 liquid coolers. The S25-120 chassis fan is included, no additional case fans needed",
+      "MOTHERBOARD COMPATIBILITY: Compatible with ATX and Micro-ATX (mATX) form factors.",
+      "MASSIVE GPU CLEARANCE: Accommodates graphics cards based on primary PCIe placement—up to 4.6 slots (Slot 1 entry ATX and mATX boards), 3.6 slots (Standard Slot 2 ATX), or 2.6 slots (Slot 3).",
+      "INTERIOR FEATURES: Integrated ARGB lighting, 40mm cable clearance, Velcro cable ties and server-style GPU mounting bracket",
+      "EXTERIOR FEATURES: Tempered glass GPU and mainboard window, dual USB 3.0 ports and a high-speed Type-C (20Gbps) port"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Phanteks PC case"
+    ]
+  },
+  "B086YM73V2": {
+    "asin": "B086YM73V2",
+    "title": "Phanteks XT View Matrix Mid-Tower ATX Gaming PC Case, 600-LED Matrix Display, Tempered Glass Front & Side Panels, USB-C 3.2 Gen2, 3X D-RGB Fans Included, Rear-Connector Ready, Charcoal Black",
+    "brand": "Phanteks",
+    "price": "$84.77",
+    "img": "https://m.media-amazon.com/images/I/41lAI9Y39tL._SL500_.jpg",
+    "features": [
+      "Immersive 600-LED Matrix Display - A fabric-covered Matrix Screen adds dynamic lighting, system stats, and custom animations for a personalized desktop setup.",
+      "Next-Gen Rear-Connector Motherboard Support - Designed for the newest back-connector ATX mainboards, helping create a cleaner, cable-free interior.",
+      "Dual Tempered-Glass Showcase Panels - Full front and side tempered-glass windows highlight your components and lighting from every angle.",
+      "High-Airflow Cooling with Fans Included - Comes pre-equipped with 3x M25-120mm D-RGB fans and supports up to 9x 120mm fan positions for powerful cooling potential.",
+      "Optimized Liquid-Cooling Layout - Features unrestricted top-mount 360mm radiator support for high-performance builds.",
+      "Full-Size GPU Compatibility - Supports the largest modern graphics cards without size limitations, ideal for high-end gaming systems."
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Phanteks PC case",
+      "Phanteks XT View"
+    ]
+  },
+  "B0HH1NR49J": {
+    "asin": "B0HH1NR49J",
+    "title": "Phanteks Enthoo Pro 2 Server V2, Full Tower Case, All-Metal Mesh Panels, SSI-EEB, Black",
+    "brand": "Phanteks",
+    "price": "$199.99",
+    "img": "https://m.media-amazon.com/images/I/41jMeV-YVUL._SL500_.jpg",
+    "features": [
+      "All-Metal Mesh Panels for the highest performance and durability",
+      "High-Performance full tower capable of extreme workstation and server systems",
+      "Spacious open interior supports up to SSI-EEB motherboards, 480 and 360 radiators, 11 PCI slots and storage up to 10 HDDs or 11 SSDs",
+      "Up to 15 fans can be installed, of which 3 fans are positioned directly over the PCI and CPU area"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Phanteks PC case"
+    ]
+  },
+  "B0DXLD49DL": {
+    "asin": "B0DXLD49DL",
+    "title": "PHANTEKS Eclipse G400A Tempered Glass ATX MID-Tower Computer CASE - Black",
+    "brand": "Phanteks",
+    "price": "$179.99",
+    "img": "https://m.media-amazon.com/images/I/511EvHCo+lL._SL500_.jpg",
+    "features": [
+      "PHANTEKS ECLIPSE G400A TEMPERED GLASS ATX MID-TOWER COMPUTER CASE - BLACK"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Phanteks PC case"
+    ]
+  },
+  "B0FKZ5FVG1": {
+    "asin": "B0FKZ5FVG1",
+    "title": "MUSETEX ATX PC Case 7 PWM ARGB Fans Pre-Installed, Type-C Mid Tower Computer Case with Full-View Dual Tempered Glass, Gaming PC Case, Black(K2)",
+    "brand": "MUSETEX",
+    "price": "$89.99",
+    "img": "https://m.media-amazon.com/images/I/51CEVk77jsL._SL500_.jpg",
+    "features": [
+      "【MUSETEX presents the K2 gaming pc case】both a visual experience and a first-class installation experience,high configuration,high cost performance. Equipped with 7 pre-installed PWM ARGB fans and expandable to 10 total, it delivers exceptional cooling power to keep high-end hardware chilled during intense sessions. Featuring a 270° panoramic dual tempered glass design offering wider field of view than most similar cases, can display users' high-end and cool PC hardware and beloved dolls, and will gain friends' cool admiration",
+      "【Tower Case Powerful Space Layout】The internal structure of the MUSETEX ATX chassis is clearly partitioned, with each installation space thoughtfully arranged. It is compatible with most common hardware components on the market, supporting GPUs up to 400 mm (15.7\") in length, CPU coolers up to 165 mm (6.5\") in height, and top-mounted liquid coolers up to 360 mm (14.2\"). It supports power supply units up to 140 mm (5.5\") in length when the hard drive cage is installed, and up to 150–180 mm (5.9–7.1\") in length without the hard drive cage",
+      "【Upgrade High Speed IO Panel】1 x Type-C, 2 x USB 3.0, Microphone & Audio, Power Button, Restart Button",
+      "【Good heat dissipation/cool effects all want】MUSETEX pre-installs 7 adjustable speed ARGB fans in the tower case for lighting enthusiasts. Through motherboard software control, you can customize various light modes and adjust fan speeds for colorful, dazzling lights with optimized cooling performance",
+      "【High-performance adjustable-speed cooling ARGB fan】Dimensions: 120*120*25mm; Fan speed: 600-1300±10% RPM; Max airflow: 24.72CFM; Max static pressure: 0.45mm H2O; Noise level: 20.819dB(A); Bearing: hydraulic bearing",
+      "【Packing Contents】K2 Case *1, PWM ARGB Fans *7 (3 reverse fans on the side, 3 forward fans on the top, 1 forward fan on the back), Manual 1, Screw accessory1. (NOT including motherboard, graphics card, power supply, radiator)",
+      "【No risk of purchase】if you have any problems with your pc case, please feel free to contact us by clicking on \"S0ld-by-MUSETEX\" and we will do our best to help you!MUSETEX strives to provide the best support for our customers"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Phanteks NV5"
+    ]
+  },
+  "B0CJCPXXZN": {
+    "asin": "B0CJCPXXZN",
+    "title": "Phanteks NV5 ARGB Lighting Kit - 4X LED Modules & Power Hub, Black",
+    "brand": "Phanteks",
+    "price": "$69.54",
+    "img": "https://m.media-amazon.com/images/I/31Vhyl6bbFL._SL500_.jpg",
+    "features": [
+      "Smooth D-RGB lighting effect - LED modules magnetically secure around the outer frame of the NV5 to provide unique lighting effects.",
+      "Hide the Motherboard cables with the included D-RGB Motherboard Cable Cover",
+      "Expand more lighting products with the extra D-RGB Power Hub that easily connects to the NV5 D-RGB case controller and secures anywhere with the strong magnets.",
+      "Made specifically for NV5 Chassis"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Phanteks NV5"
+    ]
+  },
+  "B0G6B3MWHJ": {
+    "asin": "B0G6B3MWHJ",
+    "title": "Phanteks XT View Matrix Mid-Tower ATX Gaming PC Case, 600-LED Matrix Display, Tempered Glass Front & Side Panels, USB-C 3.2 Gen2, 3X D-RGB Fans Included, Rear-Connector Ready (Grey White)",
+    "brand": "Phanteks",
+    "price": "$88.84",
+    "img": "https://m.media-amazon.com/images/I/41alw6ulmtL._SL500_.jpg",
+    "features": [
+      "Immersive 600-LED Matrix Display - A fabric-covered Matrix Screen adds dynamic lighting, system stats, and custom animations for a personalized desktop setup.",
+      "Next-Gen Rear-Connector Motherboard Support - Designed for the newest back-connector ATX mainboards, helping create a cleaner, cable-free interior.",
+      "Dual Tempered-Glass Showcase Panels - Full front and side tempered-glass windows highlight your components and lighting from every angle.",
+      "High-Airflow Cooling with Fans Included - Comes pre-equipped with 3x M25-120mm D-RGB fans and supports up to 9x 120mm fan positions for powerful cooling potential.",
+      "Optimized Liquid-Cooling Layout - Features unrestricted top-mount 360mm radiator support for high-performance builds.",
+      "Full-Size GPU Compatibility - Supports the largest modern graphics cards without size limitations, ideal for high-end gaming systems."
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Phanteks XT View"
+    ]
+  },
+  "B0D6K4H63X": {
+    "asin": "B0D6K4H63X",
+    "title": "Thermaltake View 170 TG ARGB Black Micro-ATX Case; 3x120mm ARGB Fans Included; Supports Up to 280mm Radiator; Front & Side Dual Tempered Glass Panel; CA-1Z4-00M1WN-00; 3 Year Warranty",
+    "brand": "Thermaltake",
+    "price": "$59.99",
+    "img": "https://m.media-amazon.com/images/I/41gIHy5VA3L._SL500_.jpg",
+    "features": [
+      "Front & side view tempered glass pillarless design.",
+      "3 x 120mm ARGB fans included.",
+      "Supports up to 280mm radiator at top.",
+      "I/O Ports: USB 3.0 x 2, HD Audio x 1.",
+      "Max VGA Length: 340mm."
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Phanteks XT View"
+    ]
+  },
+  "B0F2T74ZBX": {
+    "asin": "B0F2T74ZBX",
+    "title": "Lian Li Vector V100 ATX Mid-Tower PC Case-Tempered Glass-Black-V100X",
+    "brand": "Lian Li",
+    "price": "$59.99",
+    "img": "https://m.media-amazon.com/images/I/41TWDuyRjcL._SL500_.jpg",
+    "features": [
+      "Open chassis layout supports up to 9 fan positions and a 360mm top radiator so you can choose the cooling setup that fits your build.",
+      "4mm tempered glass panels and a dedicated display platform create a clean 270 degree showcase for your components and RGB setup.",
+      "Supports ATX, Micro-ATX, Mini-ITX, and back-connect ATX or M-ATX (under 246mm) motherboards for cleaner routing and flexible builds",
+      "Fits high-end hardware with support for GPUs up to 420mm, CPU coolers up to 178mm, and a top radiator up to 360mm.",
+      "Side I/O with USB-C, front-side cable management, and an included GPU support bracket improve everyday usability and build stability."
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Phanteks XT View"
+    ]
+  },
+  "B0CWXYW8HQ": {
+    "asin": "B0CWXYW8HQ",
+    "title": "Vetroo AL900 Black ATX Computer PC Case with 270° Full View Tempered Glass",
+    "brand": "Vetroo",
+    "price": "$79.99",
+    "img": "https://m.media-amazon.com/images/I/51ie18MG2mL._SL500_.jpg",
+    "features": [
+      "Immersive 270° Full View Tempered Glass Design: Your PC hardware and RGB lighting fans will shine like never before with this stunning full view design that delivers a wider field view of the entire chassis architecture",
+      "New Interior Design: Featuring the innovative YTX design with hidden-connector motherboards installation and easy cable management",
+      "Case Space Wide Compatibility: Support up to 360 mm liquid cooling radiator in top and 10 x 120 mm fans. ATX, M-ATX and YTX motherboard support, max GPU length 410 mm and PSU up to 200 mm. Fits all RTX 50 and RX 9000 series GPUs",
+      "Powerful I/O Panel: Upgrade High Speed Type-C port and a USB 3.0 and other interfaces. Conveniently connect to a variety of new standard devices and enjoy transmission rates up to 10G/s to save waiting time",
+      "Box Include: Manual x 1, AL900 Case x 1, Screw accessory x 1, ARGB & PWM & FDB Fan (Rear) x 1"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Phanteks XT View"
+    ]
+  },
+  "B0CJZYQHRM": {
+    "asin": "B0CJZYQHRM",
+    "title": "Phanteks D30-140 DRGB PWM Fan 3Pack, Reverse Airflow Model, Premium D-RGB Performance Fans, Halos Lighting Effect, ARGB/DRGB Lighting, Daisy-Chain Fan Linking System, 3Pack (Black)",
+    "brand": "Phanteks",
+    "price": "$89.99",
+    "img": "https://m.media-amazon.com/images/I/31xZzbjXtSL._SL500_.jpg",
+    "features": [
+      "Regular & Reverse airflow models available: With regular and reverse airflow models available, the D30 fan allows for the perfect configuration without obstructing the fan blade lighting effect.",
+      "Easy and clean fan linking system: Linking multiple fans together reduces cable clutter considerably while the screw cover plates, and bridge connectors make multiple D30 fans work as one clean unit.",
+      "The D-RGB lighting is integrated and visible from all sides of the D30-140 fan. The blades reflect the light coming from the Halos lighting ring inside the frame. Compatible with Digital-RGB equipped motherboards and Phanteks Digital-RGB products.",
+      "30 mm of performance: On a radiator or behind restrictive mesh/dust filters, the 30 mm thick frame and blades provide plenty of air pressure to keep things cool."
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Phanteks XT View"
     ]
   }
 }

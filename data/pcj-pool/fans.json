@@ -22,7 +22,7 @@
     "asin": "B07HC782D5",
     "title": "ARCTIC P12 PWM PST (5 Pack) - PC Fans, 120mm Case Fan, PWM Sharing Technology (PST), Pressure-optimised, Quiet Motor, Computer, 200–1800 RPM (0 RPM <5%) - Black",
     "brand": "ARCTIC",
-    "price": "$28.99",
+    "price": "$39.99",
     "img": "https://m.media-amazon.com/images/I/41QVgPHkeIL._SL500_.jpg",
     "features": [
       "OPTIMISED FOR STATIC PRESSURE: During the development of the new P12 PWM PST, special emphasis was placed on a focused airstream and thus a high static pressure",
@@ -31,9 +31,10 @@
       "EXTENDED LIFE SPAN: A 10 °C lower motor temperature roughly doubles the life span of a fan, the new ARCTIC motor has a four times longer service life through its low coil temperature",
       "TECHNICAL DATA: 5 Pack, Fan speed: 200–1800 rpm (0 rpm <5 %), Airflow: 56.30 cfm | 95.65 m³/h, Noise Level: 0.3 Sone, Static pressure: 2.20 mmH₂O, Pin: 4-pin"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
-      "Arctic P12 PWM PST case fan 5 pack"
+      "Arctic P12 PWM PST case fan 5 pack",
+      "quiet PC case fan 120mm"
     ]
   },
   "B07HC7P3HJ": {
@@ -49,9 +50,10 @@
       "LONG SERVICE LIFE: The Fluid Dynamic Bearing comes with an oil capsule that avoids lubricant leakage, thus this bearing is as quiet as a sleeve bearing but comes with a higher service life",
       "TECHNICAL DATA: 5 Pack, Fan speed: 1800 rpm, Airflow: 56.3 cfm | 95.7 m³/h, Noise Level: 0.3 Sone, Static Pressure: 2.2 mmH₂O, Pin: 3-pin"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
-      "Arctic P12 PWM PST case fan 5 pack"
+      "Arctic P12 PWM PST case fan 5 pack",
+      "quiet PC case fan 120mm"
     ]
   },
   "B07GJGF56L": {
@@ -139,10 +141,11 @@
       "4-pin PWM version for automatic speed control via 4-pin PWM motherboard fan headers, 450-2000rpm speed range (near silent at idle, powerful under load)",
       "chromax.black.swap edition with swappable red, black, white, blue, yellow, grey and green anti-vibration pads for colour-customising (4 pads of each colour plus black anti-vibration gasket)"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
       "Noctua NF-A12x25 PWM",
-      "Phanteks T30-120"
+      "Phanteks T30-120",
+      "Noctua NF-A12x25"
     ]
   },
   "B07C5VG64V": {
@@ -158,10 +161,11 @@
       "4-pin PWM version for automatic speed control via 4-pin PWM fan headers, 2000rpm maximum speed (1700rpm with supplied Low-Noise Adaptor)",
       "Includes anti-vibration mounts, radiator gasket, fan screws, extension cable and y-cable for running two PWM fans on the same header"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
       "Noctua NF-A12x25 PWM",
-      "Phanteks T30-120"
+      "Phanteks T30-120",
+      "Noctua NF-A12x25"
     ]
   },
   "B0GWJ8TN5N": {
@@ -177,9 +181,10 @@
       "All-black chromax version with black anti-vibration mounts; 12cm anti-vibration gasket for tighter seal on radiators, fan screws, Low-Noise Adaptor (LNA), extension cable and splitter cable included",
       "Trusted Noctua quality with premium-grade SSO2 bearing (MTTF > 150,000 h), safety certifications from UL and TÜV, protected against reverse polarity, overvoltage and overcurrent (short-circuits)"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
-      "Noctua NF-A12x25 PWM"
+      "Noctua NF-A12x25 PWM",
+      "Noctua NF-A12x25"
     ]
   },
   "B0FC67L17G": {
@@ -195,9 +200,10 @@
       "Ideal choice for push-pull applications as well as situations where two or more fans are operating side by side (240 or 360mm water cooling radiators, case intake or exhaust fans, etc.)",
       "Trusted Noctua quality with premium-grade SSO2 bearing (MTTF > 150,000 h), safety certifications from UL and TÜV, protected against reverse polarity, over voltage and over current (short-circuits)"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
-      "Noctua NF-A12x25 PWM"
+      "Noctua NF-A12x25 PWM",
+      "Noctua NF-A12x25"
     ]
   },
   "B0FC636JBS": {
@@ -213,9 +219,10 @@
       "Includes anti-vibration mounts, 12cm anti-vibration gasket for tighter seal on radiators, fan screws, Low-Noise Adaptor, extension cable and splitter cable for running two PWM fans on one Header",
       "Trusted Noctua quality with premium-grade SSO2 bearing (MTTF > 150,000 h), safety certifications from UL and TÜV, protected against reverse polarity, over voltage and over current (short-circuits)"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
-      "Noctua NF-A12x25 PWM"
+      "Noctua NF-A12x25 PWM",
+      "Noctua NF-A12x25"
     ]
   },
   "B0GWJ5JB61": {
@@ -231,9 +238,10 @@
       "4-pin PWM version for automatic speed control via 4-pin PWM motherboard fan headers, 360-1800rpm speed range (near-silent at idle, powerful under load), fan stops at 0% PWM (semi-passive option)",
       "Trusted Noctua quality with premium-grade SSO2 bearing (MTTF > 150,000 h), safety certifications from UL and TÜV, protected against reverse polarity, overvoltage and overcurrent (short-circuits)"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
-      "Noctua NF-A12x25 PWM"
+      "Noctua NF-A12x25 PWM",
+      "Noctua NF-A12x25"
     ]
   },
   "B07CG2PGY6": {
@@ -249,10 +257,12 @@
       "1700rpm 4-pin PWM version with excellent balance of performance and quietness, supports automatic motherboard speed control (powerful airflow when required, virtually silent at idle)",
       "Streamlined redux edition: proven Noctua quality at an attractive price point, wide range of optional accessories (anti-vibration mounts, S-ATA adaptors, y-splitters, extension cables, etc.)"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
       "Noctua NF-A12x25 PWM",
-      "Phanteks T30-120"
+      "Phanteks T30-120",
+      "quiet PC case fan 120mm",
+      "Noctua NF-A12x25"
     ]
   },
   "B00KFCRATC": {
@@ -432,9 +442,10 @@
       "LONG BEARING LIFE: Long life rifle bearing gives an operating lifetime of 80,000 hours",
       "German Design | German Engineering | German Quality | German Performance"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
-      "be quiet Silent Wings 4 120mm"
+      "be quiet Silent Wings 4 120mm",
+      "quiet PC case fan 120mm"
     ]
   },
   "B0CM3Z39J3": {
@@ -522,9 +533,10 @@
       "【Silent Fan Size】 Model: TL-C12C-S X5, Size: 120*120*25mm, Speed: 1550RPM±10%, Noise ≤ 25.6dBA Connector: 4pin pwm, Current: 0.20A, Air Pressure: 1.53mm H2O, Air Flow: 66.17CFM, Higher air flow for improved cooling performance.",
       "【Perfect Match】The PC fan can be used not only as a case fan, but is also suitable for use with a cpu cooler to create a cooling effect together, which can take away the dry heat from the case and the high temperature generated by the CPU in operation, allowing for maximum cooling; Ideal for cases, radiators and CPU coolers."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
-      "Thermalright TL-C12C ARGB fan"
+      "Thermalright TL-C12C ARGB fan",
+      "quiet PC case fan 120mm"
     ]
   },
   "B0D9NRRZQL": {
@@ -597,9 +609,10 @@
       "【Silent Fan Size】 Model: TL-C12C-S X3, Size: 120*120*25mm, Speed: 1550RPM±10%, Noise ≤ 25.6dBA Connector: 4pin pwm, Current: 0.20A, Air Pressure: 1.53mm H2O, Air Flow: 66.17CFM, Higher air flow for improved cooling performance.",
       "【Silent Fan Size】 Model: TL-C12C-S X3, Size: 120*120*25mm, Speed: 1550RPM±10%, Noise ≤ 25.6dBA Connector: 4pin pwm, Current: 0.20A, Air Pressure: 1.53mm H2O, Air Flow: 66.17CFM, Higher air flow for improved cooling performance."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
-      "Thermalright TL-C12C ARGB fan"
+      "Thermalright TL-C12C ARGB fan",
+      "quiet PC case fan 120mm"
     ]
   },
   "B0BKK2MBWG": {
@@ -1048,6 +1061,314 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Corsair RS120 ARGB fan 3 pack"
+    ]
+  },
+  "B0CD7P3S8Q": {
+    "asin": "B0CD7P3S8Q",
+    "title": "DARKROCK 3-Pack 120mm Black Computer Case Fans",
+    "brand": "DARKROCK",
+    "price": "$8.99",
+    "img": "https://m.media-amazon.com/images/I/41VV8KbXiGL._SL500_.jpg",
+    "features": [
+      "High Performance Cooling Fan: The design of nine fan blades, the maximum speed reaches 1200 RPM, and it is connected to the motherboard through the 3 PIN interface, providing a good cooling effect for the case",
+      "Low Noise: Every fans is equipped with four soft silicone cushions that can absorb vibration at high speeds. The maximum noise is only 32.1 dBA. Keep the case in a relatively quiet environment when working",
+      "Hydraulic Bearing Design: High-quality bearings can make the fan rotate more stably, reduce noise, and prolong its service life. Each fan can work an average of 30,000 hours",
+      "Simple Installation: This computer fan's size is 120 mm and is compatible with all types of cases, making it easy to install. You can do it even if you have no installation experience",
+      "Good Insulation and Heat Resistance: Case fan uses PBT environmental protection material, with good insulation and heat resistance, tough and durable quality"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "quiet PC case fan 120mm"
+    ]
+  },
+  "B0D1RK8Q43": {
+    "asin": "B0D1RK8Q43",
+    "title": "NZXT F120Q - 120mm Quiet Airflow PC Case Fan - Black",
+    "brand": "NZXT",
+    "price": "$17.07",
+    "img": "https://m.media-amazon.com/images/I/41BaoZtbRfL._SL500_.jpg",
+    "features": [
+      "HIGH AIRFLOW — Nine sickle-style blades are optimized to move large amounts of air, ensuring versatile use for intake or exhaust.",
+      "EFFICIENT DESIGN — Minimal gap between blade edges and frame maximizes the spinning area for higher airflow and reduced turbulence.",
+      "POWERFUL COOLING — Chamfered frame design directs air in a highly-concentrated flow pattern, traveling far into the case to cool vital components.",
+      "LOW NOISE, LONG LASTING — Fluid dynamic bearings provide unwavering stability, low-noise operation, and a 60,000-hour lifespan.",
+      "WORKS SMARTER — PWM control dynamically adjusts fan speed for higher output or lower noise based on system temperatures for efficient cooling."
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "quiet PC case fan 120mm"
+    ]
+  },
+  "B07GSTMRFB": {
+    "asin": "B07GSTMRFB",
+    "title": "ARCTIC P12 Silent - PC Fan, 120 mm Fan, PC Case Fan, Pressure-optimised",
+    "brand": "ARCTIC",
+    "price": "$6.99",
+    "img": "https://m.media-amazon.com/images/I/41Nj1ej5FKL._SL500_.jpg",
+    "features": [
+      "OPTIMISED FOR STATIC PRESSURE: The fan guarantees extremely efficient cooling, even with increased air resistance, therefore, the P12 Silent is particularly suitable for use on heatsinks and radiators",
+      "HIGH QUALITY BEARING: Thanks to an alloy/lubricant combination developed in Germany, friction within the bearing is reduced and greater efficiency is achieved",
+      "VIRTUALLY SILENT MOTOR: At low fan speed, the motor is the main source of unwanted noise, a motor developed in Germany with an enhanced bearing reduces friction and noise",
+      "HIGH AIR RESISTANCE: Thus, the P12 Silent is especially effective when used on heatsinks and with higher air resistance, the motor of the fan was developed in Germany and is virtually silent",
+      "TECHNICAL DATA: Fan speed: 1050 rpm, Airflow: 24.1 cfm | 41 m³/h, Noise Level: 0.08 Sone, Static pressure: 0.5 mmH₂O, Pin: 3-pin"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "quiet PC case fan 120mm"
+    ]
+  },
+  "B07DXQTCK6": {
+    "asin": "B07DXQTCK6",
+    "title": "Noctua NF-A12x25 5V PWM, High-Performance Quiet Fan 120mm",
+    "brand": "Noctua",
+    "price": "$34.95",
+    "img": "https://m.media-amazon.com/images/I/41v52Uc+rWL._SL500_.jpg",
+    "features": [
+      "Premium quiet fan, 120x120x25mm, 5V, 4-pin PWM, 1900 RPM, max. 21.4 dB(A), >150,000 h MTTF",
+      "Next-generation 120x25mm A-series design provides unprecedented quiet cooling performance, ideal for CPU coolers and watercooling radiators",
+      "5V 4-pin PWM version with polarity protection for 5V applications with PWM speed control",
+      "USB power adaptor cable allows the fan to run on devices with USB host ports, power banks or USB power supplies such as those used by smartphones",
+      "Includes anti-vibration mounts, fan screws, extension cable and OmniJoin adaptor set for connection to proprietary fan headers"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Noctua NF-A12x25"
+    ]
+  },
+  "B07C5LRQD3": {
+    "asin": "B07C5LRQD3",
+    "title": "Noctua NF-A12x25 FLX, High-Performance Quiet Fan 120mm",
+    "brand": "Noctua",
+    "price": "$34.95",
+    "img": "https://m.media-amazon.com/images/I/41v52Uc+rWL._SL500_.jpg",
+    "features": [
+      "Premium quiet fan, 120x120x25mm, 12V, 3-pin Molex, 2000/1700/1350 RPM, max. 22.6 dB(A), >150,000 h MTTF",
+      "Next-gen A-series design combines high airflow and high static pressure performance, ideal both as a case fan and for CPU coolers, watercooling radiators and AIO liquid cooling systems",
+      "State-of-the-art engineering (AAO frame, Flow Acceleration Channels, record tight 0.5mm tip clearance) and construction (Sterrox LCP material, metal-reinforced hub, metal bearing shell, etc.)",
+      "3-pin FLX version provides 2000/1700/1350rpm speed settings via Low-Noise Adaptors to fine-tune the fan for maximum airflow or near-silent operation",
+      "Includes anti-vibration mounts, radiator gasket, fan screws, extension cable and 3:4-pin adaptor for powering the fan directly from the power supply"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Noctua NF-A12x25"
+    ]
+  },
+  "B07C5Q2VW6": {
+    "asin": "B07C5Q2VW6",
+    "title": "Noctua NF-A12x25 ULN, High-Performance Whisper Quiet Fan 120mm",
+    "brand": "Noctua",
+    "price": "$34.95",
+    "img": "https://m.media-amazon.com/images/I/41v52Uc+rWL._SL500_.jpg",
+    "features": [
+      "Ultra low noise fan, 120x120x25mm, 12V, 3-pin Molex, 1200/900 RPM, max. 12.1 dB(A), >150,000 h MTTF",
+      "Next-generation 120x25mm A-series design provides unprecedented quiet cooling performance, ideal for CPU coolers and watercooling radiators",
+      "State-of-the-art engineering (AAO frame, Flow Acceleration Channels, record tight 0.5mm tip clearance) and construction (Sterrox LCP material, metal-reinforced hub, metal bearing shell, etc.)",
+      "3-pin ULN version with 1200rpm (900rpm with supplied Ultra-Low-Noise Adaptor) for serious silent enthusiasts who demand the utmost quietness of operation",
+      "Includes anti-vibration mounts, radiator gasket, fan screws, extension cable and 3:4-pin adaptor for powering the fan directly from the power supply"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Noctua NF-A12x25"
+    ]
+  },
+  "B0D49P65L2": {
+    "asin": "B0D49P65L2",
+    "title": "CORSAIR RS140 140mm PWM Fans – Daisy-Chain Connection – Low-Noise – Magnetic Dome Bearing – Dual Pack – Black",
+    "brand": "Corsair",
+    "price": "$34.00",
+    "img": "https://m.media-amazon.com/images/I/41G+iY9GBzL._SL500_.jpg",
+    "features": [
+      "Streamlined Fan Connections: Daisy-chain multiple fans together and control them all through just a single 4-pin PWM connector.",
+      "Precise PWM Speeds: Set your fan speeds up to 1,700 RPM while providing up to 95.5 CFM airflow to your system.",
+      "CORSAIR AirGuide Technology: Anti-vortex vanes direct airflow at your hottest components for concentrated cooling, pushing air in the direction you need when mounted to a radiator or heatsink.",
+      "High Static Pressure: RS fans work well as radiator fans with a static pressure of 3.46mm-H2O to push through obstructions.",
+      "Quiet Operation with Magnetic Dome Bearing: CORSAIR’s Magnetic Dome bearing minimises noise and reduces friction for greater longevity."
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "140mm PC case fan"
+    ]
+  },
+  "B0BSLKR3LH": {
+    "asin": "B0BSLKR3LH",
+    "title": "Thermalright TL-C14 140mm Fan, Quiet Operation, S-FDB Bearing, PWM Control, 1500RPM, Balance Performance Case Fan",
+    "brand": "Thermalright",
+    "price": "$6.90",
+    "img": "https://m.media-amazon.com/images/I/41lknxcwnfL._SL500_.jpg",
+    "features": [
+      "Premium quiet fan,140*140*26mm, 12V, 4-pin PWM",
+      "High performance: Air volume: 74.3CFM (MAX), Wind pressure: 2.0mm H2O (MAX), Speed: 1500RPM±10%, Noise≤26.6DBA",
+      "Special high profile fan blades for maximum air flow",
+      "Higher air flow to enhance cooling performance",
+      "Provides excellent ventilation for pc cases"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "140mm PC case fan"
+    ]
+  },
+  "B00KF7O58G": {
+    "asin": "B00KF7O58G",
+    "title": "Noctua NF-P14s redux-1500 PWM, Quiet Fan 140mm",
+    "brand": "Noctua",
+    "price": "$17.95",
+    "img": "https://m.media-amazon.com/images/I/41pfSztXv7L._SL500_.jpg",
+    "features": [
+      "High performance cooling fan, 140x140x25 mm, 12V, 4-pin PWM, max. 1500 RPM, max. 25.8 dB(A), >150,000 h MTTF",
+      "Renowned NF-P14s high-end 140x25mm 12V fan, more than 100 awards and recommendations from international computer hardware websites and magazines, hundreds of thousands of satisfied users",
+      "Highly optimised low-noise design provides outstanding quietness of operation, excellent static pressure and strong airflow (CFM), square frame for water cooling radiators and chassis ventilation",
+      "1500rpm 4-pin PWM version with excellent balance of performance and quietness, supports automatic motherboard speed control (powerful airflow when required, virtually silent at idle)",
+      "Streamlined redux edition: proven Noctua quality at an attractive price point, wide range of optional accessories (anti-vibration mounts, S-ATA adaptors, y-splitters, extension cables, etc.)"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "140mm PC case fan"
+    ]
+  },
+  "B0DGGKQFM6": {
+    "asin": "B0DGGKQFM6",
+    "title": "Thermalright TL-C14C-S X3 CPU Fan, 140mm ARGB Case Cooler, 4pin PWM Silent Computer Fan with S-FDB Bearing,3-Pack Fans,up to 1500RPM PC Cooling",
+    "brand": "Thermalright",
+    "price": "$18.39",
+    "img": "https://m.media-amazon.com/images/I/31rWURT1d5L._SL500_.jpg",
+    "features": [
+      "[Silent Fan Size] Model: TL-C14C-S X3, Size: 140*140*25mm, Speed: 1500RPM±10%, Noise ≤ 26.4dBA, Current: 0.13A, Air Pressure: 1.93mm H2O, Air Flow: 75.8CFM, Fan power supply connector：4PIN PWM,Lighting Interface：5V 3PIN ARGB;Higher air flow for improved cooling performance.",
+      "[High Performance Cooling Fan] Automatic speed control of the motherboard through the 4PIN PWM fan cable interface, which can determine the speed according to the temperature of the motherboard, with a maximum speed of 1500RPM.",
+      "[Excellent LED Light] The high-brightness LED atomizing argb fan blade can effectively reflect the light, making the ARGB lighting effect softer, and it matches the cooler and case more perfectly. Up to 17 modes of light effects with ARGB support, color can be managed and synchronized through the port on motherboard.",
+      "[Detail Optimization] The pwm fan adopts PBT+PC material with insulation level, with a cable up to 55CM, and supports PWM series control of the pc fan.",
+      "[Perfect Match] The PC fan can be used not only as a case fan, but is also suitable for use with a cpu cooler/water cooler radiators to create a cooling effect together, which can take away the dry heat from the case and the high temperature generated by the CPU in operation, allowing for maximum cooling; Ideal for cases, radiators and CPU coolers."
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "140mm PC case fan"
+    ]
+  },
+  "B0DDY14DQD": {
+    "asin": "B0DDY14DQD",
+    "title": "Noctua NF-A14x25 G2 PWM, High-Performance Quiet Fan 140mm",
+    "brand": "Noctua",
+    "price": "$44.95",
+    "img": "https://m.media-amazon.com/images/I/412gfglQgEL._SL500_.jpg",
+    "features": [
+      "Next-gen 140x25mm design for unprecedented quiet cooling performance in both high airflow and high static pressure applications: ideal as a PC case fan, on CPU coolers and water cooling radiators!",
+      "State-of-the-art engineering (Progressive-Bend impeller with winglets and Centrifugal Turbulator, Flow Acceleration Channels, AAO frame) and construction (Sterrox LCP, ultra-tight tip clearance)",
+      "4-pin PWM version for automatic speed control via 4-pin PWM motherboard fan headers, 300-1500rpm speed range (near-silent at idle, powerful under load), fan stops at 0% PWM (semi-passive option)",
+      "Includes anti-vibration mounts, 14cm anti-vibration gasket for tighter seal on radiators, fan screws, Low-Noise Adaptor (LNA), extension cable and splitter cable for running two PWM fans on the same header",
+      "Trusted Noctua quality with premium-grade SSO2 bearing (MTTF > 150,000 h), safety certifications from UL and TÜV, protected against reverse polarity, over voltage and over current (short-circuits)"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "140mm PC case fan",
+      "Noctua NF-A14"
+    ]
+  },
+  "B00CP6QLY6": {
+    "asin": "B00CP6QLY6",
+    "title": "Noctua NF-A14 PWM, High-Performance Quiet Fan 140mm",
+    "brand": "Noctua",
+    "price": "$24.95",
+    "img": "https://m.media-amazon.com/images/I/41u2egrC2vL._SL500_.jpg",
+    "features": [
+      "Premium quiet fan, 140x140x25 mm, 12V, 4-pin PWM, max. 1500 RPM, max. 24.6 dB(A), >150,000 h MTTF",
+      "Award-winning 140x25mm A-series fan with Flow Acceleration Channels and Advanced Acoustic Optimisation frame for superior quiet cooling performance",
+      "Square frame design is ideal for water cooling radiators (AIO or DIY), PC cases and other chassis (intake & exhaust), cabinet ventilation, etc.",
+      "4-pin PWM version for automatic speed control via 4-pin PWM fan headers, broad 300-1500rpm speed range (1200rpm max. with supplied Low-Noise Adaptor)",
+      "Includes anti-vibration mounts, fan screws, Low-Noise Adaptor, extension cable and y-cable for running two PWM fans on the same header"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "140mm PC case fan",
+      "Noctua NF-A14"
+    ]
+  },
+  "B07655KF5C": {
+    "asin": "B07655KF5C",
+    "title": "Noctua NF-A14 PWM chromax.Black.swap, High-Performance Quiet Fan 140mm",
+    "brand": "Noctua",
+    "price": "$28.95",
+    "img": "https://m.media-amazon.com/images/I/41-tYGcIWEL._SL500_.jpg",
+    "features": [
+      "Premium quiet fan, 140x140x25mm, 12V, 4-pin PWM, max. 1500 RPM, max. 24.6 dB(A), >150,000 h MTTF",
+      "Award-winning NF-A14 design has received more than 100 recommendations from international hardware websites and magazines",
+      "Square frame with excellent airflow and pressure performance: ideal for use on water cooling radiators or as a case fan",
+      "4-pin PWM version for automatic speed control via 4-pin PWM fan headers, 1500rpm maximum speed",
+      "chromax.black.swap edition with attractive all-black design and swappable red, black, white, blue, yellow and green anti-vibration pads for colour-customising"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Noctua NF-A14"
+    ]
+  },
+  "B0FXGXFXGS": {
+    "asin": "B0FXGXFXGS",
+    "title": "Noctua NF-A14x25 G2 PWM Sx2-PP chromax.Black, High-Performance Quiet Fans",
+    "brand": "Noctua",
+    "price": "$84.95",
+    "img": "https://m.media-amazon.com/images/I/41Za---wR4L._SL500_.jpg",
+    "features": [
+      "Dedicated dual fan set with two NF-A14x25 G2 PWM 140x25mm fans that are slightly off-set in speed (+/- ~25rpm) in order to avoid undesired acoustic interaction phenomena",
+      "State-of-the-art engineering (Progressive-Bend impeller with winglets and Centrifugal Turbulator, Flow Acceleration Channels, AAO frame) and construction (Sterrox LCP, ultra-tight tip clearance)",
+      "Ideal choice for push-pull applications as well as situations where two fans are operating side by side (280mm water cooling radiators, case intake or exhaust fans, etc.)",
+      "All-black chromax version with black anti-vibration mounts, 14cm anti-vibration gaskets for tighter seal on radiators, fan screws, Low-Noise Adaptors (L.N.A.), extension cables and splitter cable",
+      "Trusted Noctua quality with premium-grade SSO2 bearing (MTTF > 150,000 h), safety certifications from UL and TÜV, protected against reverse polarity, over voltage and over current (short-circuits)"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Noctua NF-A14"
+    ]
+  },
+  "B00KFCR0PQ": {
+    "asin": "B00KFCR0PQ",
+    "title": "Noctua NF-A14 iPPC-2000 IP67 PWM, High-End Industrial Fan 140mm",
+    "brand": "Noctua",
+    "price": "$32.95",
+    "img": "https://m.media-amazon.com/images/I/411TnwdR5NL._SL500_.jpg",
+    "features": [
+      "Heavy duty cooling fan, 140x140x25 mm, 12V, 4-pin PWM, IP67 certified, max. 2000 RPM, max. 31.5 dB(A), >150,000 h MTTF",
+      "Award-winning 140x25mm A-series fan with Flow Acceleration Channels and Advanced Acoustic Optimisation frame for superior cooling efficiency",
+      "12V 2000rpm model (31.5 dB(A)) with 4-pin PWM connector for automatic speed control via 4-pin PWM fan headers, broad 500-2000rpm speed range",
+      "High-speed industrialPPC version for industrial heavy-duty applications that require extreme cooling performance and advanced ingress protection",
+      "Ruggedised fibre-glass reinforced polyamide construction and IP67 certified water and dust protection"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Noctua NF-A14"
+    ]
+  },
+  "B0DDXRD5RK": {
+    "asin": "B0DDXRD5RK",
+    "title": "Noctua NF-A14x25 G2 PWM Sx2-PP, High-Performance Quiet Fans 2x140mm",
+    "brand": "Noctua",
+    "price": "$84.95",
+    "img": "https://m.media-amazon.com/images/I/41u8eV9MafL._SL500_.jpg",
+    "features": [
+      "Dedicated dual fan set with two NF-A14x25 G2 PWM 140x25mm fans that are slightly off-set in speed (+/- ~25rpm) in order to avoid undesired acoustic interaction phenomena",
+      "State-of-the-art engineering (Progressive-Bend impeller with winglets and Centrifugal Turbulator, Flow Acceleration Channels, AAO frame) and construction (Sterrox LCP, ultra-tight tip clearance)",
+      "Ideal choice for push-pull applications as well as situations where two fans are operating side by side (280mm water cooling radiators, case intake or exhaust fans, etc.)",
+      "Includes anti-vibration mounts, anti-vibration gaskets for tighter seal on radiators, fan screws, Low-Noise Adaptors (LNA), extension cables and y-cable for running two fans on the same header",
+      "Trusted Noctua quality with premium-grade SSO2 bearing (MTTF > 150,000 h), safety certifications from UL and TÜV, protected against reverse polarity, over voltage and over current (short-circuits)"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Noctua NF-A14"
+    ]
+  },
+  "B00KFCRMSG": {
+    "asin": "B00KFCRMSG",
+    "title": "Noctua NF-A14 iPPC-2000 PWM, High-Performance Industrial Fan 140mm",
+    "brand": "Noctua",
+    "price": "$32.95",
+    "img": "https://m.media-amazon.com/images/I/411TnwdR5NL._SL500_.jpg",
+    "features": [
+      "Heavy duty cooling fan, 140x140x25 mm, 12V, 4-pin PWM, max. 2000 RPM, max. 31.5 dB(A), >150,000 h MTTF",
+      "Award-winning 140x25mm A-series fan with Flow Acceleration Channels and Advanced Acoustic Optimisation frame for superior cooling efficiency",
+      "12V 2000rpm model (31.5dB) with 4-pin PWM connector for automatic speed control via 4-pin PWM fan headers, broad 500-2000rpm speed range",
+      "High-speed industrialPPC version for industrial heavy-duty applications that require extreme cooling performance and advanced ingress protection",
+      "Ruggedised fibre-glass reinforced polyamide construction and IP52 certified water and dust protection"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Noctua NF-A14"
     ]
   }
 }

@@ -40,7 +40,7 @@ export const workKeyboardSchema: CategorySchema = {
   faq: [
     { id: "mechanical-office", q: "Is a mechanical keyboard OK for the office?", a: "Yes, if the switches are quiet. Tactile quiet or linear switches suit shared spaces better than clicky ones." },
     { id: "ergo-learn", q: "How long does it take to get used to an ergonomic keyboard?", a: "Usually a few days to a couple of weeks, depending on how different the layout is from a flat board." },
-    { id: "mac", q: "Will these work with a Mac?", a: "Most wireless work keyboards support macOS, and several switch layouts automatically. Check the listing for Mac key labels." },
+    { id: "mac", q: "Will these work with a Mac?", a: "Most wireless work keyboards support macOS, and several switch layouts automatically. Check the product page for Mac key labels." },
     { id: "wired-wireless", q: "Wired or wireless for work?", a: "Wireless keeps the desk tidy and moves between devices; wired needs no charging and suits locked-down office PCs." },
     { id: "numpad", q: "Do I need a number pad?", a: "If you work with spreadsheets or figures, a full-size layout saves time. Otherwise a compact board leaves more room for the mouse." },
     { id: "clean", q: "How do I clean a keyboard safely?", a: "Unplug or switch it off, use compressed air between keys and wipe with a slightly damp cloth. Some office keyboards are rated for alcohol wipes." },
@@ -48,7 +48,7 @@ export const workKeyboardSchema: CategorySchema = {
   evaluated: [
     { title: "Layout and ergonomics", description: "We compared layouts, wrist support and tilt options described in each listing." },
     { title: "Connections", description: "We recorded Bluetooth, receiver and wired options and how many devices each keyboard pairs with." },
-    { title: "Battery claims", description: "We compared listed battery life with the backlight off, since that is how makers quote it." },
+    { title: "Battery claims", description: "We compared rated battery life with the backlight off, since that is how makers quote it." },
     { title: "Noise and key feel", description: "We noted key type and whether the listing describes quiet operation." },
   ],
 };
@@ -78,7 +78,7 @@ export const workMouseSchema: CategorySchema = {
   ],
   compat: (f) => {
     const g = str(f, "grip"), c = str(f, "connection"), s: string[] = [];
-    if (/vertical/i.test(g)) s.push("Vertical mice put your hand in a handshake position; allow a week to adjust, and check the listed hand size.");
+    if (/vertical/i.test(g)) s.push("Vertical mice put your hand in a handshake position; allow a week to adjust, and check the hand size.");
     if (/trackball/i.test(g)) s.push("A trackball stays still on the desk, so it suits cramped desks, but precise selection takes practice.");
     if (/right/i.test(g)) s.push("It is shaped for right hands only.");
     if (/bolt/i.test(c)) s.push("It connects over Bluetooth or a Logi Bolt receiver; Bolt does not pair with older Unifying receivers.");
@@ -96,14 +96,14 @@ export const workMouseSchema: CategorySchema = {
     { id: "vertical", q: "Is a vertical mouse better for programmers?", a: "It can reduce forearm twisting for people who feel strain. It takes about a week to get used to." },
     { id: "trackball", q: "Are trackballs good for coding?", a: "They save desk space and keep the arm still. Fine selection takes practice, but many users adapt quickly." },
     { id: "dpi", q: "Does DPI matter for work?", a: "Higher DPI helps on large or high-resolution displays. Most work needs far less than the maximum." },
-    { id: "left", q: "Are there left-handed versions?", a: "Many ergonomic mice are right-handed only. Check the listing for a left-handed model." },
+    { id: "left", q: "Are there left-handed versions?", a: "Many ergonomic mice are right-handed only. Check the product page for a left-handed model." },
     { id: "software", q: "Do I need the maker's software?", a: "Basic use works without it, but button remapping and per-app profiles need the software." },
     { id: "glass", q: "Will it work on a glass desk?", a: "Only mice whose listings mention glass tracking are designed for it. Others may need a mouse pad." },
   ],
   evaluated: [
     { title: "Shape and grip", description: "We grouped each mouse by grip style and noted listed hand sizes." },
     { title: "Productivity features", description: "We compared scroll wheels, programmable buttons and multi-computer control as described by each maker." },
-    { title: "Connection and battery", description: "We recorded connection options and listed battery life." },
+    { title: "Connection and battery", description: "We recorded connection options and rated battery life." },
     { title: "Sensor", description: "We noted listed sensor resolution and surface support." },
   ],
 };

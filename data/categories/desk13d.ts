@@ -20,7 +20,7 @@ export const floorMatSchema: CategorySchema = {
   ],
   compat: (f) => {
     const s: string[] = [];
-    if (/carpet/i.test(str(f, "floor"))) s.push(`The ${f.short} grips carpet with studs; check your pile height against the listing before buying.`);
+    if (/carpet/i.test(str(f, "floor"))) s.push(`The ${f.short} grips carpet with studs; check your pile height against the product page before buying.`);
     if (/hard/i.test(str(f, "floor"))) s.push(`The ${f.short} is for hard floors; on carpet it will shift and can crack.`);
     return s;
   },
@@ -55,7 +55,7 @@ export const floorMat13dFacts: Record<string, Fact> = withPool(P, [
   F("B0F1R227SY", "Staples Office Chair Mat with Lip for Flat-Pile Carpet", "Staples", { size: "48 x 36 in", area: 1728, floor: "Carpet up to 1/8 in", lip: "Yes" }, ["a lip", "flat-pile commercial carpet up to 1/8 inch", "a 48 x 36 inch size"]),
   F("B0CSKKMDSP", "MuArts Thick Crystal Clear Chair Mat", "MuArts", { size: "Four sizes, 32 x 54 to 47 x 59 in", thick: 5, floor: "Carpet or hard floor" }, ["a 1/5 inch thickness", "a 14 lb weighted build", "sizes from 32 x 54 to 47 x 59 inches"]),
   F("B0CC1ZGMKV", "BesWin Office Chair Mat for Carpet (48 x 60 in)", "BesWin 48 x 60", { size: "48 x 60 in", area: 2880, thick: 2.2, floor: "Carpet" }, ["a 48 x 60 inch size", "2.2mm thickness", "3mm studs underneath"]),
-  F("B0BNP1BX45", "Gorilla Grip Office Chair Mat for Carpet", "Gorilla Grip", { size: "29 x 47 in", area: 1363, thick: 2.3, floor: "Carpet", lip: "No" }, ["a 400 lb tested load per the listing", "a 0.09 inch thickness", "a 29 x 47 inch size without a lip"]),
+  F("B0BNP1BX45", "Gorilla Grip Office Chair Mat for Carpet", "Gorilla Grip", { size: "29 x 47 in", area: 1363, thick: 2.3, floor: "Carpet", lip: "No" }, ["a 400 lb tested load", "a 0.09 inch thickness", "a 29 x 47 inch size without a lip"]),
 ]);
 
 // ---------- Headset stands and hangers ----------
@@ -65,7 +65,7 @@ export const headsetStandSchema: CategorySchema = {
   fields: [
     { key: "type", label: "Type", fmt: (v) => String(v) },
     { key: "height", label: "Height", noun: "height", better: "higher", superlative: ["tallest", "shortest"], fmt: (v) => `${v} in` },
-    { key: "load", label: "Listed load", noun: "load rating", better: "higher", superlative: ["highest", "lowest"], fmt: (v) => `${v} lbs` },
+    { key: "load", label: "Load", noun: "load rating", better: "higher", superlative: ["highest", "lowest"], fmt: (v) => `${v} lbs` },
     { key: "usb", label: "USB ports", fmt: (v) => String(v), strength: (v) => `USB ports (${v})` },
     { key: "mount", label: "Mounting", fmt: (v) => String(v) },
     { key: "extra", label: "Extras", fmt: (v) => String(v) },
@@ -79,7 +79,7 @@ export const headsetStandSchema: CategorySchema = {
   },
   criteria: [
     { id: "type", title: "Desk stand or under-desk hanger", body: "A stand shows the headset on the desk; a hanger clamps or sticks under the edge and frees the surface." },
-    { id: "fit", title: "Fit the headband", body: "Wide or heavy headsets need a broad, padded cradle. Check the listed headband width or load." },
+    { id: "fit", title: "Fit the headband", body: "Wide or heavy headsets need a broad, padded cradle. Check the headband width or load." },
     { id: "stability", title: "Weighted bases stop tipping", body: "A heavy headset on a light stand can tip. Look for a weighted or wide base with non-slip pads." },
     { id: "usb", title: "USB ports add a hub", body: "Some stands add USB-A or USB-C ports for a mouse dongle or phone charging. They need a cable to the PC." },
     { id: "mount", title: "Clamp or adhesive", body: "Clamp hangers move easily; adhesive hangers are permanent-ish and need a clean surface." },
@@ -88,7 +88,7 @@ export const headsetStandSchema: CategorySchema = {
     { id: "need", q: "Do I need a headset stand?", a: "It keeps the headband and cushions from being crushed in a drawer and keeps the cable tidy." },
     { id: "adhesive", q: "Will an adhesive hanger damage my desk?", a: "It can leave residue on removal. Use a clamp hanger on a desk you want to keep clean." },
     { id: "rgb", q: "Do RGB stands need power?", a: "Yes, over USB from the PC or a wall adapter." },
-    { id: "controller", q: "Can a stand hold a controller too?", a: "Some add a controller hook. Check the listing for one." },
+    { id: "controller", q: "Can a stand hold a controller too?", a: "Some add a controller hook. Check the product page for one." },
     { id: "heavy", q: "Will a stand hold a heavy headset?", a: "Most do. A weighted base or a stated load rating is the thing to check." },
   ],
   evaluated: [
@@ -189,12 +189,12 @@ export const lampSchema: CategorySchema = {
     { id: "cct-pick", q: "What color temperature is best for a home office?", a: "Many people use around 4000 to 5000K during the day and warmer light in the evening. A lamp with a range lets you choose." },
     { id: "lumens", q: "How many lumens do I need for a desk?", a: "Around 500 to 800 lumens for a typical desk; more for a wide L-shaped desk." },
     { id: "glare", q: "How do I avoid glare on my monitor?", a: "Place the lamp to the side and aim it at the desk, not the screen." },
-    { id: "clamp", q: "Will a clamp lamp fit my desk?", a: "Check the listed maximum desk thickness; most fit up to about 2 to 2.75 inches." },
+    { id: "clamp", q: "Will a clamp lamp fit my desk?", a: "Check the maximum desk thickness; most fit up to about 2 to 2.75 inches." },
     { id: "watts", q: "Do watts tell me brightness?", a: "Not reliably with LEDs. Look for the lumen figure." },
   ],
   evaluated: [
     { title: "Brightness", description: "We recorded lumens and watts where listed." },
-    { title: "Color", description: "We recorded the listed color temperature range and number of levels." },
+    { title: "Color", description: "We recorded the color temperature range and number of levels." },
     { title: "Mounting", description: "We noted clamps, bases and listed desk thickness limits." },
     { title: "Extras", description: "We noted charging ports, remotes and timers." },
   ],
@@ -219,7 +219,7 @@ export const towerStandSchema: CategorySchema = {
   id: "tower-stand",
   plural: "Computer Stands",
   fields: [
-    { key: "load", label: "Listed load", noun: "load rating", better: "higher", superlative: ["highest", "lowest"], fmt: (v) => `${v} lbs`, strength: (v) => (Number(v) >= 88 ? `${v} lb rating` : undefined) },
+    { key: "load", label: "Load", noun: "load rating", better: "higher", superlative: ["highest", "lowest"], fmt: (v) => `${v} lbs`, strength: (v) => (Number(v) >= 88 ? `${v} lb rating` : undefined) },
     { key: "width", label: "Case width", fmt: (v) => String(v) },
     { key: "type", label: "Type", fmt: (v) => String(v) },
     { key: "height", label: "Height", fmt: (v) => String(v) },
@@ -227,7 +227,7 @@ export const towerStandSchema: CategorySchema = {
     { key: "wheels", label: "Wheels", fmt: (v) => String(v) },
   ],
   compat: (f) => {
-    const s = [`Measure your case width against the ${f.short}'s listed fit before ordering.`];
+    const s = [`Measure your case width against the ${f.short}'s fit before ordering.`];
     if (/desk-side|cart/i.test(str(f, "type"))) s.push(`Leave airflow room: keep the ${f.short}'s case vents clear of the desk and wall.`);
     if (f.specs.power) s.push(`The ${f.short}'s outlets share one wall plug; do not run a high-wattage PC and a space heater from it.`);
     return s;
@@ -241,10 +241,10 @@ export const towerStandSchema: CategorySchema = {
   ],
   faq: [
     { id: "carpet", q: "Should a PC sit on carpet?", a: "It is better lifted. Carpet can block bottom intakes and adds dust." },
-    { id: "width", q: "Will my case fit?", a: "Measure its width at the widest point, including feet, and compare with the listed range." },
+    { id: "width", q: "Will my case fit?", a: "Measure its width at the widest point, including feet, and compare with the rated range." },
     { id: "cart", q: "What is a desk-side PC cart?", a: "A taller stand that puts the tower at desk height beside the desk, often with a shelf." },
     { id: "wheels", q: "Are wheeled stands safe?", a: "Yes with locking casters. Lock them before plugging in cables." },
-    { id: "outlets", q: "Can I plug my PC into a stand's outlets?", a: "Check the listed rating. They share one wall plug, so avoid adding heaters or other high-draw devices." },
+    { id: "outlets", q: "Can I plug my PC into a stand's outlets?", a: "Check the rating. They share one wall plug, so avoid adding heaters or other high-draw devices." },
   ],
   evaluated: [
     { title: "Load", description: "We recorded listed load ratings for each shelf." },

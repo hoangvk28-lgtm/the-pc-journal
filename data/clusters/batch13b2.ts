@@ -9,14 +9,14 @@ import { L, maker, type Entry } from "./batch13b-lib";
 const cpu = maker(cpuSchema, cpuFacts, "components", {
   B07HHN6KBZ: "The Core i7-9700K has eight cores without Hyper-Threading and an unlocked multiplier. It is the most common upgrade for a Z370 or Z390 board still running a four- or six-core chip.",
   B089J731BX: "The Core i9-9900K is the top of Intel's 9th generation, with eight cores, sixteen threads and a 5.0GHz boost. It needs a capable cooler and a board with solid power delivery.",
-  B07MGBZWDZ: "The Core i9-9900KF matches the 9900K's eight cores and sixteen threads but has no integrated graphics. The listing states 16MB of cache, the most among these LGA1151 chips.",
-  B07S6CRLVD: "The Core i7-9700 is the locked, 65W version of the 9700K. It suits B365 and H370 boards that cannot overclock anyway, and the listing notes that some boards need a BIOS update first.",
+  B07MGBZWDZ: "The Core i9-9900KF matches the 9900K's eight cores and sixteen threads but has no integrated graphics. The maker specifies 16MB of cache, the most among these LGA1151 chips.",
+  B07S6CRLVD: "The Core i7-9700 is the locked, 65W version of the 9700K. It suits B365 and H370 boards that cannot overclock anyway, and the maker notes that some boards need a BIOS update first.",
   B07MRCGQQ4: "The Core i5-9400F has six cores at a 65W rating and no integrated graphics. It is the low-cost way to move a 300-series board off a dual- or quad-core chip.",
 });
 const mb = maker(mbxSchema, mbxFacts, "components");
 const ram = maker(ramxSchema, ramxFacts, "components");
 const ssd = maker(ssdxSchema, ssdxFacts, "components", {
-  B0BWYX6BQ3: "Corsair's MP600 PRO LPX pairs a PCIe 4.0 drive with a low-profile heatsink sized to fit the PS5 bay as well as a desktop M.2 slot. It lists 7,100MB/s reads.",
+  B0BWYX6BQ3: "Corsair's MP600 PRO LPX pairs a PCIe 4.0 drive with a low-profile heatsink sized to fit the PS5 bay as well as a desktop M.2 slot. It has 7,100MB/s reads.",
 });
 
 export const batch13b2: Entry[] = [
@@ -354,7 +354,7 @@ export const batch13b2: Entry[] = [
       B0DC8RVRBZ: L("Best Budget 2TB", "7,100MB/s reads at a lower price", "Game libraries on a budget."),
     },
     intro: ["A 2TB drive holds a large game library with room left over. PCIe 4.0 drives suit most PCs; PCIe 5.0 drives need a Gen5 M.2 slot and often a heatsink.", "We compared speeds, DRAM and endurance from each listing; we did not benchmark these drives."],
-    bottomLine: ["The Samsung 990 PRO is the best 2TB NVMe SSD for most PCs, and the 9100 PRO is the PCIe 5.0 pick. The Lexar NM790 lists 1,500TBW, the 990 EVO Plus works across interfaces, and the Crucial P310 is the budget choice."],
+    bottomLine: ["The Samsung 990 PRO is the best 2TB NVMe SSD for most PCs, and the 9100 PRO is the PCIe 5.0 pick. The Lexar NM790 offers 1,500TBW, the 990 EVO Plus works across interfaces, and the Crucial P310 is the budget choice."],
     priorityCriteria: ["gen4", "dram", "endurance"], related: ["best-2tb-gen4-ssds", "best-ssds", "best-nvme-ssd-gaming"],
   }),
   ssd({

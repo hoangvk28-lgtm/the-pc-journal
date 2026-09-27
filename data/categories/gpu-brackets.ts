@@ -46,8 +46,8 @@ export const gpuBracketSchema: CategorySchema = {
     { id: "height", q: "How do I know what height I need?", a: "Measure from where the stand will sit, usually the PSU shroud, to the underside of the card, and choose a range that covers it." },
   ],
   evaluated: [
-    { title: "Reach and adjustment", description: "We recorded each bracket's listed height range and how it adjusts." },
-    { title: "Build", description: "We noted material and any listed load or card-length rating." },
+    { title: "Reach and adjustment", description: "We recorded each bracket's height range and how it adjusts." },
+    { title: "Build", description: "We noted material and any rated load or card-length rating." },
     { title: "Mounting", description: "We compared freestanding, slot-mounted and fan-mounted designs." },
     { title: "Lighting and wiring", description: "We checked lighting type and connector." },
   ],

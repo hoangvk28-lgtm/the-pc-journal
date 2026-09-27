@@ -43,8 +43,8 @@ export const storage13eSchema: CategorySchema = {
     { id: "lifespan", q: "How long do portable drives last?", a: "It depends on use and handling. Check the warranty length as a signal of the maker's confidence, and replace a drive that reports errors." },
   ],
   evaluated: [
-    { title: "Drive type and speed", description: "We recorded whether each drive is an SSD or hard drive and its listed read speed." },
-    { title: "Connection", description: "We checked the USB standard and connector each listing names." },
+    { title: "Drive type and speed", description: "We recorded whether each drive is an SSD or hard drive and its read speed." },
+    { title: "Connection", description: "We checked the USB standard and connector each maker names." },
     { title: "Durability", description: "We noted listed drop, water and dust claims." },
     { title: "Security and extras", description: "We checked for password protection, encryption and backup software." },
   ],

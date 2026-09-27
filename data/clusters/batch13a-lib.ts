@@ -75,14 +75,14 @@ function takeFor(f: Fact): string {
   const mem = `${ram}GB of ${rt || "RAM"}`;
   const v = hash(f.asin) % 3;
   const first = v === 0 ? `${f.short} pairs ${art(cpu)} ${cpu} with ${gpuPhrase(f)}, plus ${mem} and a ${ssd} SSD.`
-    : v === 1 ? `This ${f.short} listing names ${art(cpu)} ${cpu}, ${gpuPhrase(f)}, ${mem} and a ${ssd} SSD.`
+    : v === 1 ? `The ${f.short} build pairs ${art(cpu)} ${cpu}, ${gpuPhrase(f)}, ${mem} and a ${ssd} SSD.`
     : `Inside the ${f.short} are ${art(cpu)} ${cpu} and ${gpuPhrase(f)}, backed by ${mem} and ${ssd} of SSD storage.`;
   const extra: string[] = [];
-  if (f.notes[0]) extra.push(`Its listing also highlights ${f.notes[0]}.`);
+  if (f.notes[0]) extra.push(`It also comes with ${f.notes[0]}.`);
   if (integrated(f)) extra.push("There is no separate graphics card, so plan on lighter games and esports titles at modest settings.");
   else if (/laptop-class/.test(s(f, "gpu"))) extra.push("A laptop-class GPU runs at lower power than the desktop card with the same name.");
-  else if (n(f, "psu") && !f.notes.join(" ").includes(`${n(f, "psu")}W`)) extra.push(`The power supply is listed at ${n(f, "psu")}W${s(f, "psuCert") ? ` (${s(f, "psuCert")})` : ""}.`);
-  else if (!n(f, "psu")) extra.push("The listing does not state PSU wattage.");
+  else if (n(f, "psu") && !f.notes.join(" ").includes(`${n(f, "psu")}W`)) extra.push(`The power supply is rated at ${n(f, "psu")}W${s(f, "psuCert") ? ` (${s(f, "psuCert")})` : ""}.`);
+  else if (!n(f, "psu")) extra.push("Its PSU wattage isn't published, so ask the seller before a GPU upgrade.");
   return [first, ...extra.slice(0, 2)].join(" ");
 }
 export const takes: Record<string, string> = Object.fromEntries(all.map((f) => [f.asin, takeFor(f)]));
@@ -106,11 +106,11 @@ function labelsFor(fs: Fact[], ctx: string): Record<string, Lab> {
       [onlyOne(x3d, f), { badge: "Gaming-Focused CPU", reason: `a ${cpu} with 3D V-Cache`, bestFor: "High-refresh play where the CPU matters." }],
       [strictMax(fs, "ram", f), { badge: "Most Memory", reason: `${n(f, "ram")}GB of RAM`, bestFor: "Gaming alongside streaming, browsers or editing." }],
       [strictMax(fs, "ssd", f), { badge: "Most Storage", reason: `a ${tb(n(f, "ssd"))} SSD`, bestFor: "Large game libraries." }],
-      [strictMax(fs, "psu", f), { badge: "Largest Listed PSU", reason: `a listed ${n(f, "psu")}W power supply${s(f, "psuCert") ? ` rated ${s(f, "psuCert")}` : ""}`, bestFor: "A bigger graphics card later." }],
+      [strictMax(fs, "psu", f), { badge: "Largest Listed PSU", reason: `a ${n(f, "psu")}W power supply${s(f, "psuCert") ? ` rated ${s(f, "psuCert")}` : ""}`, bestFor: "A bigger graphics card later." }],
       [onlyOne((x) => /3 years|2 years/.test(s(x, "warranty")), f), { badge: "Longest Warranty", reason: `a ${s(f, "warranty")} warranty`, bestFor: "Long-term ownership." }],
       [onlyOne(white, f), { badge: "White Build", reason: "a white case", bestFor: "Matching a white desk setup." }],
       [onlyOne((x) => !!s(x, "warranty"), f), { badge: "Stated Warranty", reason: `a ${s(f, "warranty")} warranty in the listing`, bestFor: "Buyers who want support terms in writing." }],
-      [cheapest[0] === f && price(f) < price(cheapest[1]), { badge: "Lowest Price Here", reason: `the lowest listed price among these ${ctx} at the time of writing`, bestFor: "Keeping the budget tight." }],
+      [cheapest[0] === f && price(f) < price(cheapest[1]), { badge: "Lowest Price Here", reason: `the lowest price among these ${ctx} at the time of writing`, bestFor: "Keeping the budget tight." }],
       [onlyOne((x) => s(x, "gpu") === s(f, "gpu"), f) && !integrated(f), { badge: `${g} Pick`, reason: `${art(g)} ${g} with ${n(f, "vram")}GB of VRAM`, bestFor: n(f, "vram") >= 12 ? "1440p gaming." : "1080p gaming." }],
       [onlyOne((x) => s(x, "cpu") === cpu, f), { badge: `${cpu.replace(/^(Core|Ryzen) /, "$1 ")} Pick`, reason: `${art(cpu)} ${cpu} processor`, bestFor: "Buyers who prefer this CPU platform." }],
     ];
@@ -127,7 +127,7 @@ function labelsFor(fs: Fact[], ctx: string): Record<string, Lab> {
         [`${g} + ${cpu}`, `${art(g)} ${g} paired with ${art(s(f, "cpu"))} ${s(f, "cpu")}`],
         [`${g} + ${tb(n(f, "ssd"))} SSD`, `${art(g)} ${g} with a ${tb(n(f, "ssd"))} SSD`],
         [`${g} + ${n(f, "ram")}GB RAM`, `${art(g)} ${g} with ${n(f, "ram")}GB of RAM`],
-        [`${f.short} Pick`, `the ${f.short} configuration's listed parts`],
+        [`${f.short} Pick`, `the ${f.short} configuration's parts`],
       ];
       const key = (x: Fact, i: number) => {
         const gx = s(x, "gpu").replace(/ \(.*\)/, "");
@@ -178,7 +178,7 @@ export function build(a: A): Entry {
   const metaDescription = metaOpts.find((m) => m.length >= 120 && m.length <= 160);
   if (!metaDescription) throw new Error(`batch13a ${a.slug}: meta length ${metaOpts.map((m) => m.length).join("/")}`);
   const gpus = [...new Set(fs.map((f) => s(f, "gpu").replace(/ \(.*\)/, "")))];
-  const dek = `${N} ${a.what}, from ${gpus.length > 1 ? `${gpus[0]} to ${gpus[gpus.length - 1]}` : `${gpus[0]} configurations`}, each with its CPU, graphics, memory and storage named in the listing.`;
+  const dek = `${N} ${a.what}, from ${gpus.length > 1 ? `${gpus[0]} to ${gpus[gpus.length - 1]}` : `${gpus[0]} configurations`}, each with its CPU, graphics, memory and storage named.`;
   const lines = fs.map((f) => (labels[f.asin] ? `the ${f.short} for ${labels[f.asin].reason}` : undefined)).filter(Boolean) as string[];
   const bottom = [`Our first pick is the ${fs[0].short}${labels[fs[0].asin] ? `, chosen for ${labels[fs[0].asin].reason}` : ""}. ${lines.length > 1 ? `Look at ${joinList(lines.slice(1))} if those matter more to you.` : ""}`.trim(), a.close];
   const idx = hash(a.slug);

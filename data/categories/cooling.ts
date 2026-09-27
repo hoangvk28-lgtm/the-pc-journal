@@ -7,7 +7,7 @@ const F = (asin: string, name: string, short: string, specs: Fact["specs"], note
 const sockets = (f: Fact) => String(f.specs.sockets ?? "");
 
 const airCriteria = [
-  { id: "height", title: "Check the cooler height against your case", body: "Every case lists a maximum CPU cooler height. Tower coolers run from about 150mm to 170mm, and low-profile coolers from under 40mm to about 70mm.\n\nLeave a few millimetres for the side panel." },
+  { id: "height", title: "Check the cooler height against your case", body: "Every case offers a maximum CPU cooler height. Tower coolers run from about 150mm to 170mm, and low-profile coolers from under 40mm to about 70mm.\n\nLeave a few millimetres for the side panel." },
   { id: "ram", title: "Watch RAM clearance", body: "Large towers and low-profile coolers can overhang the memory slots. Tall RAM heatsinks may force you to raise a fan or pick a slimmer cooler.\n\nMakers publish RAM clearance figures; check them against your memory's height." },
   { id: "tdp", title: "Size the cooler to the CPU", body: "A 65W chip runs well on a single tower or a good low-profile cooler. Chips rated at 120W to 170W need a dual tower or an AIO to hold their boost clocks without loud fans." },
   { id: "socket", title: "Confirm the mounting kit", body: "Check that the cooler lists your socket: AM5 and AM4 share mounting, while Intel LGA1851 and LGA1700 share hole spacing. Older coolers may need a free or paid adapter." },
@@ -25,8 +25,8 @@ const airFaq = [
 const airEvaluated = [
   { title: "Fit", description: "We compared listed heights and footprints, since case and RAM clearance decide what fits." },
   { title: "Cooling hardware", description: "We noted heat pipes, fan size and fan count from each listing." },
-  { title: "Sockets", description: "We checked that each listing names current AM5 and Intel LGA1851 support." },
-  { title: "Support", description: "We recorded warranty length where the listing states it." },
+  { title: "Sockets", description: "We checked that each maker names current AM5 and Intel LGA1851 support." },
+  { title: "Support", description: "We recorded warranty length where the maker states it." },
 ];
 
 /** Tower and low-profile air coolers. */
@@ -39,16 +39,16 @@ export const airSchema: CategorySchema = {
     { key: "height", label: "Height", noun: "height", better: "lower", superlative: ["lowest", "tallest"], fmt: (v) => `${v}mm`, strength: (v) => (Number(v) <= 47 ? `Very low ${v}mm height for slim cases` : undefined), weakness: (v) => (Number(v) >= 165 ? `${v}mm height rules out many mid-size cases` : undefined) },
     { key: "warranty", label: "Warranty", noun: "warranty", better: "higher", superlative: ["longest", "shortest"], fmt: (v) => `${v}-year`, strength: (v) => (Number(v) >= 6 ? `${v}-year warranty` : undefined) },
     { key: "fans", label: "Fans included", fmt: (v) => String(v), strength: (v) => (Number(v) >= 2 ? "Two fans included" : undefined) },
-    { key: "sockets", label: "Sockets named", fmt: (v) => String(v), strength: (v) => (/AM5/.test(String(v)) && /1851/.test(String(v)) ? "Listed for both AM5 and Intel LGA1851" : undefined) },
+    { key: "sockets", label: "Sockets named", fmt: (v) => String(v), strength: (v) => (/AM5/.test(String(v)) && /1851/.test(String(v)) ? "Mounts on both AM5 and Intel LGA1851" : undefined) },
   ],
   compat: (f) => {
     const s: string[] = [];
     const h = Number(f.specs.height ?? 0);
     if (h && h <= 70) s.push(`At ${h}mm tall it suits slim and small form factor cases, but a cooler this low sits close to the memory, so check your RAM height against the maker's clearance figure.`);
-    else if (h) s.push(`Check that your case lists at least ${h}mm of CPU cooler clearance before ordering.`);
+    else if (h) s.push(`Check that your case offers at least ${h}mm of CPU cooler clearance before ordering.`);
     const so = sockets(f);
-    if (so && !/AM5/.test(so)) s.push(`The listing names ${so} only; AM5 uses the same mounting as AM4, but confirm on the maker's compatibility list.`);
-    else if (so && !/1851/.test(so)) s.push("The listing names AM5 but not Intel LGA1851, so check the maker's site if you are building on Core Ultra.");
+    if (so && !/AM5/.test(so)) s.push(`The maker names ${so} only; AM5 uses the same mounting as AM4, but confirm on the maker's compatibility list.`);
+    else if (so && !/1851/.test(so)) s.push("The maker names AM5 but not Intel LGA1851, so check the maker's site if you are building on Core Ultra.");
     return s;
   },
   criteria: airCriteria,
@@ -70,15 +70,15 @@ export const aioSchema: CategorySchema = {
     { key: "cabling", label: "Cabling", fmt: (v) => String(v), strength: (v) => (v ? `${v}` : undefined) },
     { key: "software", label: "Software", fmt: (v) => String(v), weakness: (v) => (v ? `Lighting and display control need ${v}` : undefined) },
     { key: "tubes", label: "Tube length", fmt: (v) => `${v}mm` },
-    { key: "sockets", label: "Sockets named", fmt: (v) => String(v), strength: (v) => (/AM5/.test(String(v)) && /1851/.test(String(v)) ? "Listed for both AM5 and Intel LGA1851" : undefined) },
+    { key: "sockets", label: "Sockets named", fmt: (v) => String(v), strength: (v) => (/AM5/.test(String(v)) && /1851/.test(String(v)) ? "Mounts on both AM5 and Intel LGA1851" : undefined) },
   ],
   compat: (f) => {
     const s: string[] = [];
     const rad = Number(f.specs.rad ?? 0);
-    if (rad) s.push(`Check that your case lists ${rad}mm radiator support at the front or top, and allow for the radiator's thickness plus fans above the motherboard's heatsinks.`);
+    if (rad) s.push(`Check that your case offers ${rad}mm radiator support at the front or top, and allow for the radiator's thickness plus fans above the motherboard's heatsinks.`);
     const so = sockets(f);
-    if (/1851/.test(so)) s.push("Its listing names AM5 and Intel LGA1851 support.");
-    else s.push("The listing does not spell out LGA1851 mounting, so confirm it on the maker's site for a Core Ultra build.");
+    if (/1851/.test(so)) s.push("It supports both AM5 and Intel LGA1851.");
+    else s.push("The maker doesn't spell out LGA1851 mounting, so confirm it on the maker's site for a Core Ultra build.");
     if (f.specs.software) s.push(`Plan to install ${f.specs.software} for lighting${f.specs.lcd ? " and display" : ""} control; fan and pump speed can also run from the motherboard's headers.`);
     return s;
   },

@@ -21,9 +21,9 @@ const razer = factory(mouseSchema, razerWireless16aFacts, "peripherals", {
   B0B6XZLNHQ: "Razer's DeathAdder V3 Pro is the 63g wireless version of the long right-handed DeathAdder, refined with esports players and fitted with a Focus Pro 30K sensor. It charges over USB-C and connects over HyperSpeed 2.4GHz.",
   B0D4RF55QK: "The DeathAdder V3 HyperSpeed trims the same family to 55g and uses a 26K sensor instead of the Pro's 30K. Razer rates it for up to 100 hours per charge, and polling can be raised to 8000Hz by adding the HyperPolling Wireless Dongle.",
   B0FSG67VPX: "Razer's Viper V3 Pro SE is a 54g esports mouse with the Focus Pro 35K Gen-2 sensor, which tracks on glass and adjusts in 1-DPI steps. It ships with a 1000Hz USB-A dongle and is rated for up to 95 hours per charge.",
-  B0FD5DP9CC: "The Cobra HyperSpeed is a 62g mouse Razer describes as suiting most grip styles, and it connects three ways: HyperSpeed, Bluetooth or USB-C. Razer lists up to 110 hours on the dongle and 170 on Bluetooth, and it can charge wirelessly on Razer's dock or puck, sold separately.",
+  B0FD5DP9CC: "The Cobra HyperSpeed is a 62g mouse Razer describes as suiting most grip styles, and it connects three ways: HyperSpeed, Bluetooth or USB-C. Razer offers up to 110 hours on the dongle and 170 on Bluetooth, and it can charge wirelessly on Razer's dock or puck, sold separately.",
   B0BGJT87N2: "Razer's Naga V2 HyperSpeed is the MMO mouse of the group, with 19 programmable buttons and a HyperScroll wheel that switches between free-spin and tactile modes. It takes a replaceable battery, which Razer rates at 250 hours on HyperSpeed and 400 on Bluetooth.",
-  B0916N2LPZ: "The Orochi V2 is Razer's compact mobile mouse, under 60g and powered by one AA or AAA battery in a hybrid slot. Razer lists up to 950 hours on Bluetooth, and it was the lowest-priced Razer here at the time of writing.",
+  B0916N2LPZ: "The Orochi V2 is Razer's compact mobile mouse, under 60g and powered by one AA or AAA battery in a hybrid slot. Razer offers up to 950 hours on Bluetooth, and it was the lowest-priced Razer here at the time of writing.",
 });
 
 const mics = factory(mic16aSchema, mic13eFacts, "peripherals", {
@@ -36,17 +36,17 @@ const mics = factory(mic16aSchema, mic13eFacts, "peripherals", {
 });
 
 const btKeys = factory(workKeyboardSchema, btKeyboards16aFacts, "peripherals", {
-  B0BT4DP7SC: "Logitech's K380s is a compact Bluetooth keyboard with round, quiet scooped keys that pairs with three devices. Logitech lists up to 36 months on its batteries, and the Fn keys can be customised in Logi Options+.",
+  B0BT4DP7SC: "Logitech's K380s is a compact Bluetooth keyboard with round, quiet scooped keys that pairs with three devices. Logitech offers up to 36 months on its batteries, and the Fn keys can be customised in Logi Options+.",
   B098JPSVKY: "The MX Keys Mini packs spherically dished Perfect Stroke keys into a compact Bluetooth LE board with no number pad. Its backlight comes on as your hands approach, and dedicated dictation, mic-mute and emoji keys sit on the top row.",
   B0F37LY1FN: "Logitech's K250 keeps a number pad inside a compact frame and connects over Bluetooth. It adds deep-profile keys, a spill-resistant design and adjustable tilt legs, with a battery rating of up to 12 months.",
   B0BKW3LB2B: "The MX Keys S is the full-size member of Logitech's MX line, with spherically dished scissor keys and a number pad. It pairs over Bluetooth or a Logi Bolt receiver with up to three devices, and Smart Actions shortcuts run through Logi Options+.",
   B0BTNY72VD: "Logitech's Wave Keys curves the key rows into a wave and adds a cushioned memory-foam palm rest. It connects over Bluetooth or Logi Bolt and is certified by United States Ergonomics.",
-  B09LK63PKB: "The MX Mechanical Mini for Mac is a 75% low-profile board with Tactile Quiet mechanical switches and a Mac key layout. It connects over Bluetooth LE to three devices, and Logitech lists up to 15 days per charge with the backlight on.",
+  B09LK63PKB: "The MX Mechanical Mini for Mac is a 75% low-profile board with Tactile Quiet mechanical switches and a Mac key layout. It connects over Bluetooth LE to three devices, and Logitech offers up to 15 days per charge with the backlight on.",
 });
 
 const ergoMice = factory(workMouseSchema, ergoMice16aFacts, "peripherals", {
   B0BBQ3ZYNY: "Logitech's Ergo M575S is a right-handed thumb trackball, so the mouse body stays still and the thumb moves the cursor. It connects over Bluetooth or Logi Bolt and Logitech rates it for up to 18 months on its battery.",
-  B09KX66ZCD: "The Signature M650 is a contoured right-handed mouse Logitech sizes for small to medium hands, with silent clicks and customisable side buttons. It pairs over Bluetooth or Logi Bolt, and the listing names Windows, macOS, Linux, ChromeOS, iPadOS and Android.",
+  B09KX66ZCD: "The Signature M650 is a contoured right-handed mouse Logitech sizes for small to medium hands, with silent clicks and customisable side buttons. It pairs over Bluetooth or Logi Bolt, and the maker specifies Windows, macOS, Linux, ChromeOS, iPadOS and Android.",
   B087Z6LSHW: "Logitech's M720 is a full-size right-handed mouse with six buttons that switches between three computers at a press. It connects over Bluetooth or a Unifying receiver and is rated for up to 24 months per battery.",
   B0D2JGKRMM: "Lenovo's Yoga Pro Mouse is a right-handed ergonomic shape with silent main buttons and programmable side and top buttons. It pairs with two devices over Bluetooth 5.1 and recharges over USB-C.",
   B07YVMXLQC: "Kensington's Orbit is a finger-operated trackball with a scroll ring around the ball, a detachable wrist rest and an ambidextrous design. Its two buttons can be reassigned in Kensington's software, and it was the lowest-priced pick here at the time of writing.",
@@ -64,7 +64,7 @@ export const batch16a: Entry[] = [
       "We researched five wireless sets from their Amazon listings. We did not test them, and where a listing does not state a figure, such as a battery capacity, we leave it out rather than estimate it.",
     ],
     bottom: [
-      "The Redragon 75% combo is the most rounded choice, with tri-mode connection and the largest listed batteries of these five. The Redragon K719 PRO combo adds a gasket-mount board with a TFT screen for more money, and the Redragon S142 suits MMO and strategy players who want macro keys.",
+      "The Redragon 75% combo is the most rounded choice, with tri-mode connection and the largest batteries of these five. The Redragon K719 PRO combo adds a gasket-mount board with a TFT screen for more money, and the Redragon S142 suits MMO and strategy players who want macro keys.",
       "For a full-size board that charges instead of taking batteries, the RisoPhy set adds a metal top panel, and the CHONCHOW wireless set covers the same need at the lowest price here at the time of writing.",
     ],
     picks: [

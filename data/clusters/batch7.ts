@@ -63,8 +63,8 @@ export const batch7: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
         B0FF5HXGJK: "The Q27G41ZE runs 1440p at 240Hz natively, with an overclocked 260Hz mode, on an IPS panel. It is rare to see that combination at this price.",
         B0H4WTGTXH: "The MAG 274QF runs 1440p at 200Hz on a Rapid IPS panel with FreeSync Premium. It is a balanced step down from the AOC.",
         B0BZR9TMBJ: "The VG27AQ3A pairs 1440p at 180Hz with wide colour coverage and speakers. It suits a desk used for games and video alike.",
-        B0HFHZCZW8: "The AW2726DL runs a 1440p IPS panel at 280Hz. Its listing is brief, so check the stand and ports on Dell's spec page.",
-        B0DGMQ2M1G: "The G2725D offers 1440p at 180Hz with 99% sRGB at a very low price. Dell's listing does not name the panel type.",
+        B0HFHZCZW8: "The AW2726DL runs a 1440p IPS panel at 280Hz. The maker publishes few details, so check the stand and ports on Dell's spec page.",
+        B0DGMQ2M1G: "The G2725D offers 1440p at 180Hz with 99% sRGB at a very low price. Dell doesn't name the panel type.",
         B0F72R4KLC: "The VG259QMR5A is the esports pick, with a 310Hz Fast IPS panel at 1080p and a 3-year warranty.",
       },
       intro: [
@@ -98,7 +98,7 @@ export const batch7: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
         B0DT1HS4N9: "The Nitro KG241Y X1 gives 200Hz on IPS for well under $100. It is a solid first gaming monitor.",
         B0FF5ZQWV6: "The 24G42HE matches that 200Hz rate with a wider 116% sRGB colour coverage and G-SYNC Compatible support.",
         B0FY4LVHYH: "The 25G51Z reaches 260Hz overclocked on a 25-inch IPS panel, the highest refresh here.",
-        B0GXCH5GTL: "The 24G414B stays at 144Hz but lists 99% sRGB and HDR10 support, a good fit for mixed use.",
+        B0GXCH5GTL: "The 24G414B stays at 144Hz but offers 99% sRGB and HDR10 support, a good fit for mixed use.",
         B0GLQXKKVY: "The SE2426H is Dell's 144Hz IPS monitor at the lowest price in this list. It covers the basics without extras.",
       },
       intro: [
@@ -130,8 +130,8 @@ export const batch7: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       takes: {
         B0FSB6WX8J: "The Nitro KG251Q X3 runs 200Hz with FreeSync Premium on a 24.5-inch screen for under $90. It is the best gaming screen at this price.",
         B0H85B13JT: "The G24B36N runs 180Hz overclocked on a VA panel and includes HDMI 2.1 and DisplayPort 1.4 inputs. VA gives good contrast but can smear dark scenes.",
-        B0FHKDC59F: "The 24U411A lists 99% sRGB colour, HDR10 input and a 120Hz rate. It suits work and casual games alike.",
-        B0F5RHB9MZ: "The 24B35H3 lists 100% sRGB on an IPS panel at 120Hz. It is a colour-accurate budget screen.",
+        B0FHKDC59F: "The 24U411A offers 99% sRGB colour, HDR10 input and a 120Hz rate. It suits work and casual games alike.",
+        B0F5RHB9MZ: "The 24B35H3 offers 100% sRGB on an IPS panel at 120Hz. It is a colour-accurate budget screen.",
         B0CMW2FYZ2: "The VA24EHF has a frameless IPS design at 100Hz, which makes it easy to pair two side by side.",
       },
       intro: [
@@ -162,9 +162,9 @@ export const batch7: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       },
       takes: {
         B0F1GF1KFC: "The S2725QS runs 4K at 120Hz on a 27-inch IPS panel with FreeSync Premium. That refresh rate makes it the best all-rounder among cheap 4K screens.",
-        B0DSR9VPGX: "The 27US500 lists 90% DCI-P3 coverage and HDR10 input on an IPS panel in a white finish. It suits creative work more than gaming.",
+        B0DSR9VPGX: "The 27US500 offers 90% DCI-P3 coverage and HDR10 input on an IPS panel in a white finish. It suits creative work more than gaming.",
         B0F1GD9YFN: "The S3225QS brings 4K at 120Hz to 32 inches with 95% DCI-P3 on a VA panel. It suits a deeper desk and media.",
-        B0H85RW8H8: "The ViewFinity S7 27-inch is a plain 4K IPS screen for sharp text. Samsung's listing does not state a refresh rate.",
+        B0H85RW8H8: "The ViewFinity S7 27-inch is a plain 4K IPS screen for sharp text. Samsung doesn't state a refresh rate.",
         B0GZ61BN6Z: "The ViewFinity S70H adds a KVM switch, so one keyboard and mouse can control two computers.",
         B0H85TLJML: "The 32-inch ViewFinity S7 gives 4K on a larger IPS panel for spreadsheets and video.",
       },
@@ -199,7 +199,7 @@ export const batch7: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
         B0FDL8QKDW: "The MO27U2 uses a QD-OLED panel at 4K and 240Hz, the fastest here, with 99% DCI-P3. It needs a top-end card to use it fully.",
         B0CZMCR9XD: "The MAG 274UPF gives 4K at 160Hz with a fully adjustable stand. It is a straightforward, well-equipped IPS choice.",
         B0GR79KXGX: "The XG27UCSR adds USB-C and a dual mode at 1080p 324Hz, with ASUS's 3-year warranty.",
-        B0FR671G1H: "The M27UP lists 4K at 160Hz with DisplayHDR 400 and a 1080p 320Hz mode at a lower price.",
+        B0FR671G1H: "The M27UP offers 4K at 160Hz with DisplayHDR 400 and a 1080p 320Hz mode at a lower price.",
         B0DQQCK3VS: "The Odyssey G7 runs 4K at 144Hz with DisplayHDR 400 and Samsung's smart features.",
       },
       intro: [
@@ -265,7 +265,7 @@ export const batch7: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
         B0D68C1BVS: "The MAG 271QPX pairs a 240Hz QD-OLED panel with a height-adjustable stand. It is the complete OLED option at this refresh rate.",
         B0FNQ4B2Z2: "The 27GX704A is LG's 240Hz OLED with True Black 400 HDR and HDMI 2.1 at a strong price.",
         B0BCXJ7XXM: "The AW2723DF is an IPS monitor with DisplayHDR 600, 95% DCI-P3 and a 280Hz overclock mode, on a fully adjustable stand.",
-        B0GV155YQM: "The GO27Q24G is the cheapest way to a 240Hz OLED panel here. Its listing is brief on ports and stand.",
+        B0GV155YQM: "The GO27Q24G is the cheapest way to a 240Hz OLED panel here. The maker publishes few details on ports and stand.",
         B0D682HF6R: "The AG276QZD2 is AOC's 240Hz QD-OLED in its AGON PRO line.",
         B0H4LST97W: "The H27E6S runs 240Hz on Fast IPS with a 275Hz overclock, speakers and a swivel and pivot stand at a budget price.",
       },

@@ -10,21 +10,21 @@ import { factory } from "./batch13c-lib";
 const gm = factory(mouseSchema, mice13cFacts, "peripherals", {
   B0G12HGHGM: "Logitech's PRO X2 Superstrike adds haptic click feedback to the PRO shape, so the click feel is set in software rather than fixed by the switch. It pairs that with a Hero 2 sensor and 8kHz polling over Lightspeed.",
   B0F3QCXL82: "Razer's DeathAdder V4 Pro keeps the long right-handed DeathAdder shape at 56g, with 8000Hz wireless polling. Its Gen-4 optical switches are rated for 100 million clicks and the scroll wheel is optical too.",
-  B0CVR5DM26: "ASUS's ROG Strix Impact III Wireless is a 57g ambidextrous shape with a 36K sensor and switches you can replace. ASUS lists up to 618 hours of battery life, and it pairs over Bluetooth with up to three devices.",
+  B0CVR5DM26: "ASUS's ROG Strix Impact III Wireless is a 57g ambidextrous shape with a 36K sensor and switches you can replace. ASUS offers up to 618 hours of battery life, and it pairs over Bluetooth with up to three devices.",
   B0BXBC26X8: "Razer's Basilisk V3 X HyperSpeed is a right-handed mouse with a built-in thumb rest and nine programmable buttons. It runs on one AA battery, which Razer rates at up to 535 hours over Bluetooth.",
   B0F6B4TY2W: "SteelSeries's Rival 3 Wireless Gen 2 connects over 2.4GHz for games and Bluetooth for a laptop, powered by a single AAA battery. Its switches are rated for 60 million clicks.",
-  B0916N2LPZ: "Razer's Orochi V2 is a compact mobile mouse under 60g that takes either one AA or one AAA battery. Razer lists up to 950 hours on Bluetooth, and it was the lowest-priced mouse here at the time of writing.",
+  B0916N2LPZ: "Razer's Orochi V2 is a compact mobile mouse under 60g that takes either one AA or one AAA battery. Razer offers up to 950 hours on Bluetooth, and it was the lowest-priced mouse here at the time of writing.",
   B0943HXDVM: "Logitech's wired G502 X has 13 programmable controls on an 89g body, with Lightforce hybrid optical-mechanical switches. The DPI-shift button can be reversed or removed.",
   B0B6XTDJS1: "The wired DeathAdder V3 trims Razer's right-handed shape to 59g and supports 8000Hz polling over its cable. It uses a Focus Pro 30K optical sensor.",
   B093LSC9KY: "SteelSeries's Prime is a 69g wired esports mouse with optical magnetic switches rated for 100 million clicks, the highest click rating among these wired picks. It was also the lowest-priced of the six at the time of writing.",
   B0C51J2ZXN: "Razer's Cobra is a compact 58g wired mouse with Gen-3 optical switches rated for 90 million clicks. Sensitivity adjusts in 50 DPI steps.",
-  B0DHYNCKKK: "Glorious's Model O 2 Mini is a 49g symmetrical wired mouse with a 26K sensor, the lightest listed weight here. Glorious lists it for palm, claw and fingertip grips.",
+  B0DHYNCKKK: "Glorious's Model O 2 Mini is a 49g symmetrical wired mouse with a 26K sensor, the lightest weight here. Glorious lists it for palm, claw and fingertip grips.",
   B0BX52PCJ5: "HyperX's wired Pulsefire Haste 2 weighs 53g and supports 8000Hz polling, with four pieces of grip tape in the box. It uses a 26K sensor.",
 });
 
 const vm = factory(workMouseSchema, verticalMice15aFacts, "peripherals", {
   B07FNJB8TT: "Logitech's MX Vertical sets the hand at 57 degrees with a thumb rest and a textured rubber surface. A cursor speed switch changes sensitivity with one press, and Logitech says the shape fits a variety of hand sizes.",
-  B09J1TB35S: "Logitech's Lift is a smaller vertical mouse sized for small to medium right hands, with whisper-quiet clicks and a SmartWheel. It connects over Bluetooth LE or a Logi Bolt receiver and Logitech lists up to two years of battery life.",
+  B09J1TB35S: "Logitech's Lift is a smaller vertical mouse sized for small to medium right hands, with whisper-quiet clicks and a SmartWheel. It connects over Bluetooth LE or a Logi Bolt receiver and Logitech offers up to two years of battery life.",
   B09J1SYX5B: "The Lift Left mirrors Logitech's Lift for the left hand, with the thumb rest sculpted on the other side. The quiet clicks, SmartWheel and two-year battery rating are the same.",
   B0DVD5RTZ5: "Razer's Pro Click V2 Vertical adds a base support that raises the wrist off the desk, plus six buttons and 18-zone lighting. It connects to up to five devices over HyperSpeed, Bluetooth or cable, and a 5-minute charge gives three working days.",
   B0DCBW3B3T: "ProtoArc's EM11 NL is a 58-degree vertical mouse for hands under 7.5 inches, with silent left and right buttons. It recharges over USB-C and pairs with three devices across two Bluetooth channels and a 2.4GHz receiver.",
@@ -61,7 +61,7 @@ export const batch15a: Entry[] = [
     ],
     picks: [
       ["B0G12HGHGM", "Best for Click Feel", "haptic click feedback with 8kHz wireless polling", "Competitive players who want to tune how a click feels."],
-      ["B0F3QCXL82", "Lightest Listed Weight", "56g, the lightest listed weight here, with 8000Hz wireless polling", "Right-handed players who flick-aim in shooters."],
+      ["B0F3QCXL82", "Lightest Listed Weight", "56g, the lightest weight here, with 8000Hz wireless polling", "Right-handed players who flick-aim in shooters."],
       ["B0CVR5DM26", "Best Ambidextrous Pick", "a 57g ambidextrous shape with replaceable switches and up to 618 hours of listed battery life", "Left-handed players and anyone who swaps hands."],
       ["B0BXBC26X8", "Best for Palm Grip", "a right-handed shape with a built-in thumb rest and 9 programmable buttons", "Palm-grip players in MMOs and single-player games."],
       ["B0F6B4TY2W", "Best for PC and Laptop", "2.4GHz for games and Bluetooth for a second device on one AAA battery", "Players who move one mouse between a desktop and a laptop."],
@@ -84,10 +84,10 @@ export const batch15a: Entry[] = [
       "For lighter mice, the Glorious Model O 2 Mini is the lightest at 49g, the HyperX Pulsefire Haste 2 adds 8000Hz polling and grip tape, and the Razer Cobra is a compact all-rounder with fine DPI steps.",
     ],
     picks: [
-      ["B0943HXDVM", "Most Buttons", "13 programmable controls, the most listed here", "MMO, MOBA and productivity macros on one mouse."],
+      ["B0943HXDVM", "Most Buttons", "13 programmable controls, the most here", "MMO, MOBA and productivity macros on one mouse."],
       ["B0B6XTDJS1", "Best Right-Handed Shape", "the DeathAdder ergonomic shape refined with esports players, with 8000Hz polling", "Right-handed palm and claw grips in shooters."],
       ["B093LSC9KY", "Longest-Rated Switches", "optical magnetic switches rated for 100 million clicks", "Heavy clickers who keep a mouse for years."],
-      ["B0DHYNCKKK", "Lightest Listed Weight", "a 49g symmetrical shape, the lightest listed here", "Small to medium hands and fingertip or claw grip."],
+      ["B0DHYNCKKK", "Lightest Listed Weight", "a 49g symmetrical shape, the lightest here", "Small to medium hands and fingertip or claw grip."],
       ["B0BX52PCJ5", "Best Value 8K Polling", "8000Hz polling on a 53g wired mouse with grip tape in the box", "Players who want high polling without a flagship price."],
       ["B0C51J2ZXN", "Best Compact All-Rounder", "a 58g compact shape with sensitivity adjustable in 50 DPI steps", "Most grip styles on a smaller desk."],
     ],
@@ -98,7 +98,7 @@ export const batch15a: Entry[] = [
     seo: "Best Vertical Ergonomic Mice", title: "The Best Vertical Ergonomic Mice",
     meta: "Six vertical ergonomic mice compared on grip angle, hand size, connection and battery, including a left-handed model and a wired option.",
     dek: "Six vertical mice that turn the hand to a handshake position, including a left-handed Logitech and a wired Anker under $20.",
-    teaser: "Check the listed hand size and grip angle first; a vertical mouse that is too small or too large undoes the point of buying one.",
+    teaser: "Check the hand size and grip angle first; a vertical mouse that is too small or too large undoes the point of buying one.",
     intro: [
       "A vertical mouse turns your hand to a handshake position instead of palm-down, which reduces forearm twist for people who feel strain from a flat mouse. Expect a week or so to adjust. The biggest mistake is buying the wrong size, so check the hand-size guidance each maker gives.",
       "We researched six vertical mice from their Amazon listings and makers' specifications. We did not test them, and we make no medical claims; if you have pain, a clinician is the right person to advise on it.",

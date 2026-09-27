@@ -7,7 +7,7 @@ import { withPool } from "./helpers";
 
 /**
  * Batch 15a fact sheets: vertical ergonomic mice and quiet gaming keyboards. Listing claims only,
- * reviewed by hand; a field stays undefined when the listing does not state it in the unit the schema uses.
+ * reviewed by hand; a field stays undefined when the maker doesn't state it in the unit the schema uses.
  */
 const P = { ...(kb as Record<string, { img?: string; price?: string }>), ...(mice as Record<string, { img?: string; price?: string }>) };
 const F = (asin: string, name: string, short: string, specs: Fact["specs"], notes: string[]) => ({ asin, name, short, specs, notes });

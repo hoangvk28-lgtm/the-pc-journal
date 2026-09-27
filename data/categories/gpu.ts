@@ -21,8 +21,8 @@ export const gpuSchema: CategorySchema = {
   ],
   compat: (f) => {
     const s = ["Like every RTX 5070 Ti, it takes power through a 16-pin 12V-2x6 connector; use a native cable from an ATX 3.1 power supply or the adapter in the box, and seat it fully."];
-    if (f.specs.length !== undefined) s.push(`Compare its ${f.specs.length}mm length with your case's listed GPU clearance, allowing for front fans or a radiator.`);
-    else s.push("Its listing does not state a length, so check the exact dimensions on the maker's spec page against your case.");
+    if (f.specs.length !== undefined) s.push(`Compare its ${f.specs.length}mm length with your case's GPU clearance, allowing for front fans or a radiator.`);
+    else s.push("The maker doesn't state a length here, so check the exact dimensions on the maker's spec page against your case.");
     if (f.specs.sff) s.push("The SFF-Ready label means it meets NVIDIA's size guidance for small cases, but still check the exact dimensions.");
     if (f.specs.psu !== undefined) s.push(`The maker recommends at least a ${f.specs.psu}W power supply.`);
     return s;
@@ -118,7 +118,7 @@ export const gpuRangeSchema: CategorySchema = {
     { key: "slots", label: "Thickness", noun: "cooler thickness", better: "lower", superlative: ["slimmest", "thickest"], fmt: (v) => `${v}-slot`, strength: (v) => (Number(v) <= 2 ? "Dual-slot cooler leaves the next slot free" : undefined), weakness: (v) => (Number(v) >= 3 ? `Its ${v}-slot cooler covers the slots below` : undefined) },
     { key: "psu", label: "Recommended PSU", noun: "recommended power supply", better: "lower", superlative: ["lowest", "highest"], fmt: (v) => `${v}W`, strength: (v) => (Number(v) <= 600 ? `A modest ${v}W PSU recommendation` : undefined), weakness: (v) => (Number(v) >= 800 ? `Calls for a ${v}W or larger PSU` : undefined) },
     { key: "power", label: "Power connector", fmt: (v) => String(v), strength: (v) => (String(v) === "1 x 8-pin" ? "A single 8-pin power connector" : undefined), weakness: (v) => (/16-pin/.test(String(v)) ? "Needs a 16-pin 12V-2x6 power cable" : /2 x 8-pin/.test(String(v)) ? "Needs two 8-pin PCIe power cables" : undefined) },
-    { key: "boost", label: "Listed boost clock", fmt: (v) => String(v) },
+    { key: "boost", label: "Boost clock", fmt: (v) => String(v) },
     { key: "lp", label: "Low profile", fmt: (v) => (v ? "Yes" : "No"), strength: (v) => (v ? "Low-profile design for slim desktops" : undefined) },
     { key: "sff", label: "SFF-Ready", fmt: (v) => (v ? "Yes" : "No"), strength: (v) => (v ? "Carries NVIDIA's SFF-Ready label" : undefined) },
     { key: "outputs", label: "Outputs", fmt: (v) => String(v) },
@@ -130,11 +130,11 @@ export const gpuRangeSchema: CategorySchema = {
     const pw = f.specs.power === undefined ? "" : String(f.specs.power);
     if (len && sl) s.push(`Measure for ${len}mm and ${sl} slots before ordering the ${n}.`);
     else if (len) s.push(`The ${n} is ${len}mm long; compare that with your case's GPU limit.`);
-    else if (sl) s.push(`The ${n} occupies ${sl} slots, but its listing gives no length, so check the maker's spec page against your case.`);
-    else s.push(`No dimensions appear in the ${n} listing; get length and thickness from the maker's page first.`);
+    else if (sl) s.push(`The ${n} occupies ${sl} slots, but no length is published, so check the maker's spec page against your case.`);
+    else s.push(`No dimensions are published for the ${n}; get length and thickness from the maker's page first.`);
     if (pw) s.push(`Power for the ${n} comes through ${pw}${psu ? `, with ${psu}W the maker's minimum PSU` : ""}.`);
     else if (psu) s.push(`${n}: the maker suggests a PSU of ${psu}W or more.`);
-    else s.push(`Its connector and PSU figure are not in the listing, so confirm both for the ${n} with the maker.`);
+    else s.push(`Its power connector and recommended PSU are not published, so confirm both for the ${n} with the maker.`);
     if (f.specs.lp) s.push(`Half-height cases need the low-profile bracket; confirm it ships with the ${n}.`);
     if (f.specs.sff && !f.specs.lp) s.push(`SFF-Ready is NVIDIA's size guideline, not a guarantee the ${n} fits every small case.`);
     return s;

@@ -47,7 +47,7 @@ const cpuTakes: Record<string, string> = {
   B0CGJDKLB8: "The Core i9-14900K is the last LGA1700 flagship with a 6.0GHz boost clock. Check your board has the latest BIOS for Intel's stability microcode.",
   B0BCDR9M33: "The Core i5-13600K is the previous-generation fourteen-core LGA1700 chip. It fits the same boards as the 14600K.",
   B0CQ1Y7KHV: "The Core i5-14400F is a locked ten-core LGA1700 chip with no integrated graphics. It pairs well with a B660 or B760 board and DDR4.",
-  B0B2X1KDNS: "The Core i5-12400F is a six-core LGA1700 chip at a low price. This listing is the OEM pack, so budget for a cooler; it suits a low-cost gaming build with DDR4.",
+  B0B2X1KDNS: "The Core i5-12400F is a six-core LGA1700 chip at a low price. This is the OEM pack, so budget for a cooler; it suits a low-cost gaming build with DDR4.",
 };
 
 const pick = (asins: string[]) => Object.fromEntries(asins.map((a) => [a, cpuTakes[a]]));

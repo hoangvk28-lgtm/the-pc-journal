@@ -53,10 +53,10 @@ const takes: Record<string, string> = {
   // Arms
   B0FQM6QB48: "ErGear's single arm takes 13 to 34 inch screens up to 19.8 lb. It mounts by C-clamp or grommet at a low price.",
   B07T5SY43L: "HUANUO's FlowLift Dual uses gas-spring arms on a dual C-clamp. Each arm holds 4.4 to 19.8 lb.",
-  B0DGPZR6P1: "WALI's single arm lists 26.4 lb for flat screens and 19.8 lb for curved ones. It takes screens up to 34 inches.",
+  B0DGPZR6P1: "WALI's single arm offers 26.4 lb for flat screens and 19.8 lb for curved ones. It takes screens up to 34 inches.",
   B0FPXFYG17: "ErGear's dual arm holds two 13 to 32 inch screens at up to 19.8 lb each. It mounts with a one-piece C-clamp or a grommet.",
   B07T3KCQ94: "HUANUO's FlowLift Single is a gas-spring arm for 13 to 32 inch screens from 4.4 to 19.8 lb. It mounts by clamp or grommet.",
-  B0GK7FVTR4: "HUANUO's FlowLift Pro uses a MechaSpring mechanical spring instead of gas. It lists 19.8 lb for flat and 15.4 lb for curved screens.",
+  B0GK7FVTR4: "HUANUO's FlowLift Pro uses a MechaSpring mechanical spring instead of gas. It has 19.8 lb for flat and 15.4 lb for curved screens.",
   B0G523STF2: "NB's SmooVex uses a mechanical spring in place of gas for screens up to 32 inches. It includes C-clamp and grommet options.",
   B0GJZNQ417: "ErGear's heavy-duty arm takes ultrawides up to 49 inches and 37.4 lb. Its clamp fits desks up to 3.15 inches thick.",
   B0DGPT759H: "WALI's dual arm holds two screens up to 32 inches at 22 lb per arm. It mounts by clamp or grommet.",
@@ -78,8 +78,8 @@ const takes: Record<string, string> = {
   B0G257412H: "HUANUO's ultrawide arm takes screens up to 40 inches and 26.4 lb. Its clamp fits desks up to 3.15 inches thick.",
   // Risers
   B073VKC134: "HUANUO's riser has a vented steel platform and a 44 lb limit. It also suits a laptop or printer.",
-  B00X4SCCFG: "Amazon Basics' riser adjusts in height and lists a 22 lb limit. The platform is about 11 inches deep at the center.",
-  B0G2RTY746: "WALI's adjustable stand lists a 44 lb (20 kg) limit.",
+  B00X4SCCFG: "Amazon Basics' riser adjusts in height and offers a 22 lb limit. The platform is about 11 inches deep at the center.",
+  B0G2RTY746: "WALI's adjustable stand offers a 44 lb (20 kg) limit.",
   B0GDTXTCWV: "Canyora's riser has three height settings and a 44 lb limit. It suits a single monitor.",
   B0DJKSMV2T: "gianotter's dual riser adds a drawer and two magnetic pen holders. It spans two monitors or a monitor and a laptop.",
   B0DB8F7GDN: "OPNICE's two-tier riser adds a drawer and two hanging pen holders. The second tier holds small items.",

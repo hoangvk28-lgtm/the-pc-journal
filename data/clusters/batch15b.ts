@@ -11,7 +11,7 @@ import { factory } from "./batch13c-lib";
 const hs = factory(headsetSchema, headsets13cFacts, "peripherals", {
   B0CXH14PPD: "The PlayStation version of Razer's BlackShark V2 X has the same 240g frame, 50mm TriForce drivers and HyperClear cardioid microphone as the PC model, and its 3.5mm plug works on a PC too. A cardioid mic picks up mostly what is in front of it, which helps in a noisy room.",
   B0DK6N6ZHJ: "Redragon's H888 is the only headset here with three connection modes: 2.4GHz, Bluetooth and a 3.5mm cable. At 168g it is also the lightest listed, and the microphone detaches when you only want headphones.",
-  B08TBF4S42: "NUBWO's G06 lists up to 100 hours of battery across 2.4GHz and Bluetooth, the longest battery figure here. It is one of the cheapest ways to go wireless at the time of writing.",
+  B08TBF4S42: "NUBWO's G06 offers up to 100 hours of battery across 2.4GHz and Bluetooth, the longest battery figure here. It is one of the cheapest ways to go wireless at the time of writing.",
   B0B8Q8P1FY: "SteelSeries's Arctis Nova 1 is the priciest headset here, and it comes from an established gaming-audio maker. It uses a noise-cancelling microphone and a 3.5mm plug that works across PC and consoles, with Tempest 3D audio support on PS5.",
   B0DBLHVGV7: "WIRWTRU's headset weighs 198g and lists ear pads designed for glasses wearers, a detail most budget listings skip. It uses 40mm drivers and a 3.5mm plug for PC and consoles.",
   B0FKTFMH2F: "NUBWO's HG04L pairs a cardioid boom microphone with a 250g frame and a 3.5mm plug. It was the lowest-priced headset here at the time of writing.",
@@ -28,11 +28,11 @@ const cam = factory(webcam13eSchema, webcams15bFacts, "peripherals", {
 
 const sp = factory(speaker13eSchema, speakers15bFacts, "peripherals", {
   B08F57GSJ7: "Creative's Pebble V3 runs on a single USB-C cable for power and sound, with Bluetooth 5.0 and a 3.5mm input as alternatives. Its 2.25in drivers angle up at 45 degrees toward the listener, and a gain switch adds volume.",
-  B0DXW25R3D: "Creative's Pebble Pro keeps the Pebble shape and adds BassFlex tuning, Bluetooth 5.3 and RGB lighting. Creative lists up to 10W RMS and 20W peak when powered from a suitable USB-C source.",
-  B002HWRZ2K: "Logitech's Z313 is a simple 2.1 set: two satellites, a compact subwoofer and a control pod on the cable. Logitech lists 25W RMS in total.",
+  B0DXW25R3D: "Creative's Pebble Pro keeps the Pebble shape and adds BassFlex tuning, Bluetooth 5.3 and RGB lighting. Creative offers up to 10W RMS and 20W peak when powered from a suitable USB-C source.",
+  B002HWRZ2K: "Logitech's Z313 is a simple 2.1 set: two satellites, a compact subwoofer and a control pod on the cable. Logitech offers 25W RMS in total.",
   B01LXDZ8WB: "Edifier's R980T is a wooden bookshelf pair with 24W RMS in total and a front bass port. Two AUX inputs, 3.5mm and RCA, can stay connected at the same time.",
   B06XGG6MFV: "Edifier's R1280DB adds Bluetooth, optical and coaxial inputs to Edifier's bookshelf design, with a 4in bass driver and a 13mm silk dome tweeter on each side. A remote and side knobs handle volume, bass and treble.",
-  B000062VUO: "Klipsch's ProMedia 2.1 is THX certified and pairs horn-loaded satellites with a 6.5in side-firing subwoofer. Klipsch lists 200W peak, the highest figure here, and the control pod sets subwoofer level separately.",
+  B000062VUO: "Klipsch's ProMedia 2.1 is THX certified and pairs horn-loaded satellites with a 6.5in side-firing subwoofer. Klipsch offers 200W peak, the highest figure here, and the control pod sets subwoofer level separately.",
 });
 
 export const batch15b: Entry[] = [
@@ -47,7 +47,7 @@ export const batch15b: Entry[] = [
       "We compared six headsets using the specifications in their Amazon listings and prices at the time of writing. We did not test them, and where a listing leaves out a figure such as driver size or battery life we say so.",
     ],
     bottom: [
-      "The Razer BlackShark V2 X is the pick for a clear microphone, with a cardioid mic and 50mm drivers. The Redragon H888 is the most flexible, with 2.4GHz, Bluetooth and wired modes at the lightest listed weight, and the NUBWO G06 lists the longest battery life.",
+      "The Razer BlackShark V2 X is the pick for a clear microphone, with a cardioid mic and 50mm drivers. The Redragon H888 is the most flexible, with 2.4GHz, Bluetooth and wired modes at the lightest weight, and the NUBWO G06 lists the longest battery life.",
       "The SteelSeries Arctis Nova 1 is the name-brand wired option, the WIRWTRU headset suits glasses wearers, and the NUBWO HG04L adds a cardioid mic at the lowest price here.",
     ],
     picks: [
@@ -55,8 +55,8 @@ export const batch15b: Entry[] = [
       ["B0DK6N6ZHJ", "Most Connection Modes", "2.4GHz, Bluetooth and 3.5mm wired modes with a detachable mic", "One headset for a PC, a phone and a console."],
       ["B08TBF4S42", "Longest Battery Life", "up to 100 hours of listed battery life over 2.4GHz and Bluetooth", "Wireless play without frequent charging."],
       ["B0B8Q8P1FY", "Best Name-Brand Wired", "a noise-cancelling microphone and a multi-system 3.5mm connection", "PC and console players who want an established brand."],
-      ["B0DBLHVGV7", "Best for Glasses", "ear pads the listing describes as glasses-friendly on a 198g frame", "Glasses wearers on long sessions."],
-      ["B0FKTFMH2F", "Lowest Price Here", "a cardioid boom microphone at the lowest listed price here", "The tightest budgets."],
+      ["B0DBLHVGV7", "Best for Glasses", "ear pads described as glasses-friendly on a 198g frame", "Glasses wearers on long sessions."],
+      ["B0FKTFMH2F", "Lowest Price Here", "a cardioid boom microphone at the lowest price here", "The tightest budgets."],
     ],
     prio: ["mic", "connection", "weight"], related: ["best-gaming-headsets-under-50", "best-gaming-headsets-under-40", "best-cheap-gaming-headset"],
   }),
@@ -67,8 +67,8 @@ export const batch15b: Entry[] = [
     dek: "Six streaming webcams, from Elgato's 1080p60 Facecam Neo to Razer's 4K60 Kiyo V2 Pro and an OBSBOT that tracks you on a gimbal.",
     teaser: "Check the frame rate before the resolution; most streams go out at 1080p, so 60fps matters more than 4K30 for smooth motion.",
     intro: [
-      "Most streaming platforms deliver 1080p or lower, so a streaming webcam earns its place with smooth frame rates, reliable autofocus and good behaviour in a dim room rather than a 4K label. Each webcam here lists both its resolution and its frame rate.",
-      "We researched these six from their Amazon listings and makers' specifications. We did not test them, and each pick's label names the listed feature that sets it apart.",
+      "Most streaming platforms deliver 1080p or lower, so a streaming webcam earns its place with smooth frame rates, reliable autofocus and good behaviour in a dim room rather than a 4K label. Each webcam here offers both its resolution and its frame rate.",
+      "We researched these six from their Amazon listings and makers' specifications. We did not test them, and each pick's label names the feature that sets it apart.",
     ],
     bottom: [
       "The Elgato Facecam Neo is the straightforward 1080p60 pick with HDR and no software to install. The Razer Kiyo V2 Pro is the step up to 4K60 with full manual control, and the OBSBOT Tiny 3 Lite follows you on a gimbal and reaches 1080p at 120fps.",
@@ -79,7 +79,7 @@ export const batch15b: Entry[] = [
       ["B0FNBGBJ12", "Best 4K60", "4K at 60fps from a Sony STARVIS 2 sensor with manual controls", "Streamers who crop, zoom or record in 4K."],
       ["B0G63LXK6R", "Best Tracking", "a motorized gimbal with AI tracking and 1080p at 120fps", "Streamers who move around, stand or demo products."],
       ["B0GCYZVCSD", "Best Built-In Light", "a ring light with three color temperatures and a brightness dial", "Dim rooms without a separate key light."],
-      ["B0GXT9CXT1", "Best Budget 4K", "4K30 and 1080p60 with PDAF at the lowest listed price here", "Starting a stream on a small budget."],
+      ["B0GXT9CXT1", "Best Budget 4K", "4K30 and 1080p60 with PDAF at the lowest price here", "Starting a stream on a small budget."],
       ["B0BFJ4CRKD", "Best Image Controls", "ISO, shutter, tint and vibrance controls with 4K30 and 1080p60", "Streamers who also run calls and want a consistent image."],
     ],
     prio: ["resolution", "focus", "sensor"], related: ["best-webcams-streaming", "best-4k-webcams", "best-streaming-gear-for-pc"],
@@ -100,11 +100,11 @@ export const batch15b: Entry[] = [
     ],
     picks: [
       ["B08F57GSJ7", "Best Single-Cable Setup", "USB-C power and audio on one cable, with Bluetooth 5.0 and 3.5mm as alternatives", "Small desks and laptops docked at a monitor."],
-      ["B0DXW25R3D", "Best Compact Bass", "BassFlex tuning with a listed 20W peak from USB-C power", "Compact desks that still want fuller bass."],
+      ["B0DXW25R3D", "Best Compact Bass", "BassFlex tuning with a 20W peak from USB-C power", "Compact desks that still want fuller bass."],
       ["B002HWRZ2K", "Best Budget 2.1", "a compact subwoofer and a wired control pod", "Adding bass on a tight budget."],
       ["B01LXDZ8WB", "Best Wired Bookshelf Pair", "wooden enclosures and two AUX inputs usable at the same time", "A PC and a second source on one pair of speakers."],
       ["B06XGG6MFV", "Most Inputs", "Bluetooth, optical, coaxial and AUX inputs with a remote", "Desks that share speakers between a PC, a phone and a TV."],
-      ["B000062VUO", "Highest Listed Peak Power", "a listed 200W peak with a 6.5in side-firing subwoofer and THX certification", "Games and films at room-filling volume."],
+      ["B000062VUO", "Highest Listed Peak Power", "a 200W peak with a 6.5in side-firing subwoofer and THX certification", "Games and films at room-filling volume."],
     ],
     prio: ["form", "inputs", "sub"], related: ["best-speakers-for-gaming-pc", "best-gaming-speaker-bar", "best-streaming-gear-for-pc"],
   }),

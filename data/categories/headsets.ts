@@ -11,7 +11,7 @@ export const headsetSchema: CategorySchema = {
       rule: { label: "Longest Battery Life", bestFor: ["Players who hate charging mid-week.", "Long sessions away from a charging cable."] },
       strength: (v) => (Number(v) >= 50 ? `Up to ${v} hours of battery life` : undefined), weakness: (v) => (Number(v) < 30 ? `Shorter ${v}-hour battery` : undefined) },
     { key: "driver", label: "Driver size", noun: "driver size", better: "higher", superlative: ["largest", "smallest"], fmt: (v) => `${v}mm`,
-      rule: { label: "Largest Drivers", bestFor: ["Listeners who want the biggest listed drivers here.", "Players who favour a fuller low end."] },
+      rule: { label: "Largest Drivers", bestFor: ["Listeners who want the biggest drivers here.", "Players who favour a fuller low end."] },
       strength: (v) => (Number(v) >= 50 ? `${v}mm drivers` : undefined) },
     { key: "weight", label: "Weight", noun: "weight", better: "lower", superlative: ["lightest", "heaviest"], fmt: (v) => `${v}g`,
       rule: { label: "Lightest Build", bestFor: ["Long sessions where clamp and weight add up.", "Players who notice a heavy headset after an hour."] },
@@ -24,7 +24,7 @@ export const headsetSchema: CategorySchema = {
   ],
   compat: (f) => {
     const c = str(f, "connection"), s: string[] = [];
-    if (/xbox wireless/i.test(c)) s.push("It connects to Xbox consoles over Xbox Wireless; on a PC, check the listing for the connection it supports, since Xbox Wireless on Windows usually needs Microsoft's adapter or a built-in radio.");
+    if (/xbox wireless/i.test(c)) s.push("It connects to Xbox consoles over Xbox Wireless; on a PC, check the product page for the connection it supports, since Xbox Wireless on Windows usually needs Microsoft's adapter or a built-in radio.");
     else if (/2\.4/i.test(c) && /bluetooth/i.test(c)) s.push(`On a PC, use the ${/lightspeed/i.test(c) ? "Lightspeed" : "2.4GHz"} dongle for games and keep Bluetooth for a phone, since Bluetooth adds latency.`);
     else if (/2\.4/i.test(c)) s.push("It connects through a USB wireless dongle, so keep a free USB port near your desk for the best range.");
     if (/usb/i.test(c) && /3\.5/.test(c)) s.push("USB and 3.5mm options let it move between a PC and a controller.");
@@ -52,11 +52,11 @@ export const headsetSchema: CategorySchema = {
     { id: "glasses", q: "Are gaming headsets comfortable with glasses?", a: "Softer memory foam pads and lighter clamp help. Look for listings that mention glasses support if it matters to you." },
   ],
   evaluated: [
-    { title: "Connection options", description: "We recorded each headset's listed connections, since they decide which systems it works with and how much latency to expect." },
-    { title: "Battery and weight", description: "We compared listed battery life and weight where makers state them, noting where lighting affects the battery claim." },
+    { title: "Connection options", description: "We recorded each headset's connections, since they decide which systems it works with and how much latency to expect." },
+    { title: "Battery and weight", description: "We compared rated battery life and weight where makers state them, noting where lighting affects the battery claim." },
     { title: "Drivers and design", description: "We noted driver size and whether the design is open or closed, which shapes sound and isolation." },
     { title: "Microphone", description: "We checked whether a microphone is included, detachable or noise-rejecting." },
-    { title: "Platform support", description: "We checked which consoles and PCs each listing names, and flagged Xbox-specific connections." },
+    { title: "Platform support", description: "We checked which consoles and PCs each maker names, and flagged Xbox-specific connections." },
   ],
 };
 
@@ -75,7 +75,7 @@ export const headsetFacts = withPool(pool as Record<string, { img?: string; pric
   F("B086PKMZ21", "Razer BlackShark V2 X", "BlackShark V2 X", { driver: 50, weight: 240, connection: "Wired 3.5mm", mic: "HyperClear cardioid" }, ["passive noise cancellation", "breathable foam ear cushions"]),
   F("B07PDFBJZD", "Logitech G PRO X Wired", "G PRO X", { driver: 50, connection: "Wired (USB sound card and 3.5mm)", mic: "Detachable with Blue VO!CE" }, ["a USB external sound card with EQ profile storage", "an aluminum fork and steel headband"]),
   F("B0GT6CX8MV", "Sony INZONE H6 Air Open-Back", "INZONE H6 Air", { driver: 40, weight: 199, connection: "Wired", design: "Open-back", mic: "Included" }, ["drivers adapted from studio monitor headphones", "a custom RPG and adventure equalizer"]),
-  F("B00ENMK1DW", "Philips SHP9500 Open-Back Headphones", "SHP9500", { driver: 50, connection: "Wired 3.5mm, 1.5m cable", design: "Open-back", mic: "None listed" }, ["a double-layered, breathable headband cushion"]),
+  F("B00ENMK1DW", "Philips SHP9500 Open-Back Headphones", "SHP9500", { driver: 50, connection: "Wired 3.5mm, 1.5m cable", design: "Open-back", mic: "None" }, ["a double-layered, breathable headband cushion"]),
   F("B00SAYCXWG", "HyperX Cloud II", "Cloud II", { driver: 53, connection: "Wired (USB and 3.5mm)", mic: "Detachable, noise-cancelling" }, ["7.1 virtual surround", "memory foam ear pads and an aluminum frame"]),
   // Xbox
   F("B0DH689JGY", "Xbox Wireless Gaming Headset", "Xbox Wireless Headset", { battery: 20, connection: "Xbox Wireless and Bluetooth LE", mic: "Included" }, ["Dolby Atmos spatial audio support", "dual wireless connectivity"]),

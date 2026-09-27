@@ -54,7 +54,7 @@ export const keyboardSchema: CategorySchema = {
   ],
   evaluated: [
     { title: "Layout and switches", description: "We recorded the layout, the switch type and whether the switches are mechanical, magnetic or membrane." },
-    { title: "Connection", description: "We checked wired, dongle and Bluetooth options and listed battery life." },
+    { title: "Connection", description: "We checked wired, dongle and Bluetooth options and rated battery life." },
     { title: "Polling rate", description: "We recorded polling rates where listings state them." },
     { title: "Build", description: "We noted keycap material, frame material and extra controls such as knobs or screens." },
   ],
@@ -107,7 +107,7 @@ export const mouseSchema: CategorySchema = {
   evaluated: [
     { title: "Weight and shape", description: "We recorded listed weights and whether the shape is right-handed or ambidextrous." },
     { title: "Buttons", description: "We counted programmable buttons where the listing states them." },
-    { title: "Connection and battery", description: "We checked dongle, Bluetooth and wired modes and the listed battery life." },
+    { title: "Connection and battery", description: "We checked dongle, Bluetooth and wired modes and the rated battery life." },
     { title: "Sensor figures", description: "We noted maximum DPI and polling rate, while treating them as secondary." },
   ],
 };

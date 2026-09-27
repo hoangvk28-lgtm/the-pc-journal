@@ -12,7 +12,7 @@ export const speaker13eSchema: CategorySchema = {
   plural: "Speakers",
   fields: [
     { key: "form", label: "Form", fmt: (v) => String(v) },
-    { key: "peak", label: "Peak power (listed)", noun: "listed peak power", better: "higher", superlative: ["highest", "lowest"], fmt: (v) => `${v}W` },
+    { key: "peak", label: "Peak power", noun: "peak power", better: "higher", superlative: ["highest", "lowest"], fmt: (v) => `${v}W` },
     { key: "inputs", label: "Inputs", fmt: (v) => String(v) },
     { key: "sub", label: "Subwoofer", fmt: (v) => String(v), weakness: (v) => (/^none/i.test(String(v)) ? "No subwoofer, so deep bass comes only from the main drivers" : undefined) },
     { key: "extras", label: "Extras", fmt: (v) => String(v) },
@@ -39,19 +39,19 @@ export const speaker13eSchema: CategorySchema = {
     { id: "rgb", q: "Does RGB lighting affect sound?", a: "No. Lighting is cosmetic; some sets let you turn it off." },
     { id: "latency", q: "Is Bluetooth fine for games?", a: "For casual play it is usable, but it adds delay. A wired input avoids that." },
     { id: "surround", q: "Do virtual surround modes work on PC?", a: "Some need the brand's software or Windows spatial sound settings. Support can differ between Windows and macOS." },
-    { id: "headphones", q: "Can I plug headphones into the speakers?", a: "Only if the listing names a headphone output. Otherwise, use the PC's own jack." },
+    { id: "headphones", q: "Can I plug headphones into the speakers?", a: "Only if the maker specifies a headphone output. Otherwise, use the PC's own jack." },
     { id: "placement", q: "Where should desk speakers go?", a: "Place stereo speakers either side of the monitor at ear height, angled toward you. Keep a soundbar centered below the screen." },
   ],
   evaluated: [
     { title: "Form and size", description: "We recorded whether each is a soundbar, a stereo pair or a 2.1 set." },
     { title: "Inputs", description: "We checked USB, 3.5mm, Bluetooth, optical and HDMI support." },
-    { title: "Power figures", description: "We noted peak and RMS figures as listed, without comparing unlike figures." },
+    { title: "Power figures", description: "We noted peak and RMS figures, without comparing unlike figures." },
     { title: "Extras", description: "We checked subwoofers, lighting, remotes and headphone outputs." },
   ],
 };
 
 export const speaker13eFacts = withPool(speakerPool as Pool, [
-  F("B0BCCCNHD8", "Razer Leviathan V2 X PC Soundbar", "Leviathan V2 X", { form: "Desktop soundbar", inputs: "USB-C (power and audio), Bluetooth 5.0", sub: "Two passive radiators", extras: "14 Chroma RGB zones" }, ["two drivers with two passive radiators", "power and audio over one USB-C cable", "a listed 90dB maximum volume"]),
+  F("B0BCCCNHD8", "Razer Leviathan V2 X PC Soundbar", "Leviathan V2 X", { form: "Desktop soundbar", inputs: "USB-C (power and audio), Bluetooth 5.0", sub: "Two passive radiators", extras: "14 Chroma RGB zones" }, ["two drivers with two passive radiators", "power and audio over one USB-C cable", "a 90dB maximum volume"]),
   F("B09VX86JR6", "Razer Leviathan V2 PC Soundbar with Subwoofer", "Leviathan V2", { form: "Desktop soundbar with subwoofer", inputs: "USB, Bluetooth 5.2", sub: "Down-firing subwoofer", extras: "THX Spatial Audio, 18 RGB zones" }, ["a down-firing subwoofer", "THX Spatial Audio 7.1 virtual surround", "18 Chroma RGB zones"]),
   F("B0CTHBSG6X", "Creative Sound Blaster GS3 Soundbar", "GS3", { form: "Desktop soundbar", peak: 24, inputs: "USB-C, AUX, Bluetooth 5.4", sub: "None", extras: "Headphone output" }, ["a headphone output", "Bluetooth 5.4", "three inputs in a compact bar"]),
   F("B08X6LYPHK", "Redragon GS560 PC Soundbar", "GS560", { form: "Desktop soundbar", inputs: "USB power, 3.5mm audio", sub: "None", extras: "4 lighting modes, volume knob" }, ["a roughly 16in body that fits under most monitors", "a front volume knob", "four lighting modes"]),
@@ -68,7 +68,7 @@ export const speaker13eFacts = withPool(speakerPool as Pool, [
   F("B0FJRM9GKQ", "JBL Bar 700MK2 Soundbar with Detachable Surrounds", "Bar 700MK2", { form: "7.1 soundbar", peak: 780, inputs: "HDMI eARC, optical, Bluetooth, Wi-Fi", sub: "10in wireless subwoofer", extras: "Detachable surrounds, Dolby Atmos, DTS Virtual:X" }, ["detachable wireless surround speakers", "Dolby Atmos and DTS Virtual:X", "a 10in subwoofer"]),
   F("B0FHBKBMRZ", "JBL Bar 1000MK2 7.1.4 Soundbar", "Bar 1000MK2", { form: "7.1.4 soundbar", inputs: "HDMI eARC, optical, Bluetooth, Wi-Fi", sub: "10in wireless subwoofer", extras: "Detachable surrounds, Dolby Atmos, DTS:X" }, ["a 7.1.4 channel layout with up-firing drivers", "detachable surrounds", "480W RMS output"]),
   F("B0CLMCK8SN", "JBL Bar 800 5.1.2 Soundbar", "Bar 800", { form: "5.1.2 soundbar", peak: 720, inputs: "HDMI eARC, optical, Bluetooth, Wi-Fi", sub: "10in wireless subwoofer", extras: "AirPlay, Chromecast" }, ["AirPlay and Chromecast built in", "a 5.1.2 layout", "a 10in subwoofer"]),
-  F("B0FN1JLNCN", "JBL Bar 1300XMK2 11.1.4 Soundbar", "Bar 1300XMK2", { form: "11.1.4 soundbar", peak: 1570, inputs: "HDMI eARC, optical, Bluetooth, Wi-Fi", sub: "12in wireless subwoofer", extras: "Detachable surrounds, Dolby Atmos" }, ["an 11.1.4 channel layout", "a 12in subwoofer", "the highest listed power of the JBL bars here"]),
+  F("B0FN1JLNCN", "JBL Bar 1300XMK2 11.1.4 Soundbar", "Bar 1300XMK2", { form: "11.1.4 soundbar", peak: 1570, inputs: "HDMI eARC, optical, Bluetooth, Wi-Fi", sub: "12in wireless subwoofer", extras: "Detachable surrounds, Dolby Atmos" }, ["an 11.1.4 channel layout", "a 12in subwoofer", "the highest rated power of the JBL bars here"]),
 ]);
 
 export const mic13eSchema: CategorySchema = {
@@ -105,11 +105,11 @@ export const mic13eSchema: CategorySchema = {
     { id: "keyboard", q: "How do I reduce keyboard noise?", a: "Use a dynamic or cardioid mic, position it close to your mouth and pointed away from the keyboard, and consider a boom arm." },
     { id: "pop", q: "Do I need a pop filter?", a: "It helps with plosive sounds such as P and B. Many mics include a foam cover or internal filter." },
     { id: "interface", q: "What interface do I need for XLR?", a: "Any USB audio interface with an XLR input and enough gain. Condensers also need 48V phantom power." },
-    { id: "console", q: "Do USB mics work on consoles?", a: "Some do; check the listing for PS4, PS5 or Xbox support." },
+    { id: "console", q: "Do USB mics work on consoles?", a: "Some do; check the product page for PS4, PS5 or Xbox support." },
     { id: "distance", q: "How far should I sit from the mic?", a: "About a hand's width to 15cm for most voice mics; dynamic mics often want to be closer." },
   ],
   evaluated: [
-    { title: "Connection", description: "We recorded USB, XLR or hybrid connections as listed." },
+    { title: "Connection", description: "We recorded USB, XLR or hybrid connections." },
     { title: "Capsule and pattern", description: "We noted dynamic or condenser capsules and polar patterns." },
     { title: "Controls", description: "We checked mute, gain and headphone monitoring." },
     { title: "Mounting", description: "We noted stands, arms, shock mounts and pop filters in the box." },

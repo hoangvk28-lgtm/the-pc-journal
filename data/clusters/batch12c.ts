@@ -5,14 +5,14 @@ import { L, maker, type Entry } from "./batch12-lib";
 
 /** Batch 12c: keyboards, mice and a general gaming headset roundup. Asin order = editorial rank. */
 const kb = maker(keyboardSchema, keyboardExtFacts, "peripherals", {
-  B0C7KFZ5TL: "The ROG Strix Scope II 96 Wireless keeps a number pad in a frame ASUS lists as only 1cm wider than an 80% board. It connects over 2.4GHz, Bluetooth or cable, with a listed 1,500 hours of battery on 2.4GHz.",
+  B0C7KFZ5TL: "The ROG Strix Scope II 96 Wireless keeps a number pad in a frame ASUS lists as only 1cm wider than an 80% board. It connects over 2.4GHz, Bluetooth or cable, with a 1,500 hours of battery on 2.4GHz.",
   B0FGGZK4X7: "ASUS's Scope II X is a wired 100% board with hot-swappable, pre-lubed NX V2 switches and double-shot PBT keycaps. An aluminium top plate and a multi-function wheel round it out.",
   B0CP6J59XB: "The ROG Azoth is ASUS's enthusiast 75% board: gasket-mounted with three layers of foam, hot-swappable, and wireless over 2.4GHz or Bluetooth. A small OLED display shows settings and battery.",
   B0DG7H487F: "The Falchion Ace HFX uses Hall effect switches with actuation adjustable from 0.1 to 4.0mm and Rapid Trigger, in a 65% layout. Two USB-C ports let it switch between two PCs.",
   B0D9Y83J89: "ASUS's TUF K3 Gen II is a 97-key wired board with optical-mechanical switches, PBT keycaps and an IP57 rating against water and dust. A gasket mount and foam are unusual at its price.",
   B0CG2ZX7J6: "The ROG Falchion Ace fits arrow and navigation keys into a 306mm, 65% frame with ROG NX mechanical switches and double-shot PBT keycaps. It is wired only.",
   B0D631D7N9: "Keychron's K10 Max is a 108-key board that connects over 2.4GHz, Bluetooth or cable and remaps through QMK and a web app. It suits a desk that mixes work and games.",
-  B0GQHDP2SP: "The Keychron K10 Ultra 8K is a full-size wireless board that lists 8000Hz polling over both cable and 2.4GHz. Keychron quotes up to 760 hours of battery with the backlight off.",
+  B0GQHDP2SP: "The Keychron K10 Ultra 8K is a full-size wireless board that offers 8000Hz polling over both cable and 2.4GHz. Keychron quotes up to 760 hours of battery with the backlight off.",
   B0BLYKTL78: "Redragon's K556 PRO is a 104-key aluminium-framed board with quiet linear switches and hot-swap sockets for 3-pin and 5-pin switches. It adds 2.4GHz and Bluetooth to the wired K556.",
 });
 const mouse = maker(mouseSchema, mouseFacts, "peripherals");
@@ -67,7 +67,7 @@ export const batch12c: Entry[] = [
       B0CP6J59XB: L("Best Wireless Enthusiast Board", "a gasket mount with hot-swap switches and tri-mode wireless", "Typing feel and wireless."),
       B0DB1X3LLT: L("Best Low-Profile Wireless", "a low-profile TKL with Lightspeed and Bluetooth", "Slim keyboards."),
       B0DJD163HT: L("Best Hall Effect", "Hall effect magnetic switches on a TKL", "Competitive shooters."),
-      B0CQ31VFT4: L("Best 75% Wireless", "a 75% layout with Slipstream, Bluetooth and a listed 266 hours of battery", "Compact wireless desks."),
+      B0CQ31VFT4: L("Best 75% Wireless", "a 75% layout with Slipstream, Bluetooth and a 266 hours of battery", "Compact wireless desks."),
       B0GQHDP2SP: L("Best Full-Size Wireless", "a full-size layout with 8000Hz polling over 2.4GHz", "Keeping a number pad."),
     },
     intro: ["Up to $200 at the time of writing, gaming keyboards add build quality: gasket mounts, aluminium plates and long battery life, along with Hall effect switches.", KB_WE],
@@ -100,7 +100,7 @@ export const batch12c: Entry[] = [
     asins: ["B0CP6J59XB", "B0C7KFZ5TL", "B0DG7H487F", "B0FGGZK4X7", "B0CG2ZX7J6", "B0D9Y83J89"],
     labels: {
       B0CP6J59XB: L("Best Enthusiast Board", "a gasket mount with three foam layers and hot-swap switches", "Typing feel."),
-      B0C7KFZ5TL: L("Best Wireless With Numpad", "a 96% layout with a listed 1,500 hours on 2.4GHz", "Work and games."),
+      B0C7KFZ5TL: L("Best Wireless With Numpad", "a 96% layout with a 1,500 hours on 2.4GHz", "Work and games."),
       B0DG7H487F: L("Best Hall Effect", "HFX magnetic switches adjustable from 0.1 to 4.0mm", "Competitive shooters."),
       B0FGGZK4X7: L("Best Wired Full-Size", "a hot-swappable 100% layout with an aluminium top plate", "Desks with room for a numpad."),
       B0CG2ZX7J6: L("Best Compact Wired", "a 65% layout in a 306mm frame", "Small desks."),
@@ -119,7 +119,7 @@ export const batch12c: Entry[] = [
     labels: {
       B0D631D7N9: L("Best for Work and Play", "a 108-key wireless board with QMK remapping", "Mixed work and gaming desks."),
       B0D83TJ5RB: L("Best Hall Effect", "MGX Hall effect switches with double-shot PBT", "Competitive games."),
-      B0CQ31VFT4: L("Best Compact Wireless", "a 75% layout with a listed 266 hours of battery", "Small desks without cables."),
+      B0CQ31VFT4: L("Best Compact Wireless", "a 75% layout with a 266 hours of battery", "Small desks without cables."),
       B0DT43NNNF: L("Best Budget Hall Effect", "Hall effect switches with 8000Hz polling", "Tight budgets."),
       B0D1DSW8TF: L("Best Low-Profile", "a low-profile TKL with Lightspeed and Bluetooth", "Laptop-style typing."),
       B07KCRTN9Q: L("Lowest Price", "the lowest price among these picks at the time of writing", "A first mechanical board."),
@@ -153,7 +153,7 @@ export const batch12c: Entry[] = [
     teaser: "Under $50 you can get wireless or a light shell; extra buttons usually mean a cable.",
     asins: ["B07CMS5Q6P", "B0CYHH583P", "B0CTN2SRTH", "B07GBZ4Q68", "B07HC4NBQ8"],
     labels: {
-      B07CMS5Q6P: L("Best Wireless Value", "Lightspeed wireless with a listed 250 hours of battery", "A first wireless gaming mouse."),
+      B07CMS5Q6P: L("Best Wireless Value", "Lightspeed wireless with a 250 hours of battery", "A first wireless gaming mouse."),
       B0CYHH583P: L("Best Light Wireless", "a 69g weight with tri-mode connection", "Fast aiming."),
       B0CTN2SRTH: L("Best Ambidextrous", "an ambidextrous shape at 89g", "Left-handed players."),
       B07GBZ4Q68: L("Best Wired", "11 buttons on a wired mouse", "Wired setups with extra binds."),
@@ -172,7 +172,7 @@ export const batch12c: Entry[] = [
     labels: {
       B0C84ZD7L6: L("Best Dual Wireless", "Lightspeed and Bluetooth at 68g", "Gaming and laptop use."),
       B0CYHH583P: L("Best Tri-Mode", "2.4GHz, Bluetooth and wired modes", "Switching between devices."),
-      B07CMS5Q6P: L("Best Battery Value", "a listed 250 hours of battery", "Long sessions without charging."),
+      B07CMS5Q6P: L("Best Battery Value", "a 250 hours of battery", "Long sessions without charging."),
       B0CTN2SRTH: L("Best Ambidextrous", "an ambidextrous shape", "Left-handed players."),
       B0FWR3P1FT: L("Best MMO Pick", "an 18,000 DPI wired mouse built for MMO keybinds", "MMO keybinds."),
     },
@@ -191,7 +191,7 @@ export const batch12c: Entry[] = [
       B0CV16ZSMY: L("Best Lightweight", "a 60g weight", "Fast flick aiming."),
       B0GNC8YQ6L: L("Best MMO Wireless", "15 buttons with 2000Hz polling", "MMO and MOBA binds."),
       B07Q424WFW: L("Best Tri-Mode", "10 buttons with 2.4GHz, Bluetooth and wired modes", "Switching between devices."),
-      B0BGJT87N2: L("Longest Battery", "a listed 400 hours of battery with 19 buttons", "Long MMO sessions."),
+      B0BGJT87N2: L("Longest Battery", "a 400 hours of battery with 19 buttons", "Long MMO sessions."),
     },
     intro: ["Under $100 at the time of writing, gaming mice reach flagship sensor and polling specs. The main choices are weight, button count and grip.", MS_WE],
     bottomLine: ["Corsair's Sabre v2 PRO is the esports pick with 8000Hz polling, and Corsair's M75 AIR weighs 60g. The Darkstar and Naga V2 HyperSpeed cover MMO players."],
@@ -206,7 +206,7 @@ export const batch12c: Entry[] = [
     labels: {
       B0B3F8V4JG: L("Best Wireless Flagship", "Lightspeed, Bluetooth and 3.5mm with a detachable cardioid mic", "One headset for every device."),
       B0FRNR8Y11: L("Best for Phone and PC", "2.4GHz and Bluetooth at the same time", "Taking calls while gaming."),
-      B09TRW57WB: L("Longest Battery", "a listed 300 hours of battery", "Rarely charging."),
+      B09TRW57WB: L("Longest Battery", "a 300 hours of battery", "Rarely charging."),
       B0DB96KTGL: L("Best Cross-Platform", "a CrossPlay dual transmitter with 60mm drivers", "PC and console households."),
       B0CF3LHQSM: L("Best Budget Wireless", "HyperSpeed wireless at 280g", "Wireless under $100."),
       B0C3BV19Q3: L("Best Wired", "53mm drivers with USB and 3.5mm connections", "Wired setups."),

@@ -45,7 +45,7 @@ export const padSchema: CategorySchema = {
   ],
   evaluated: [
     { title: "Size", description: "We recorded listed width and depth and converted millimetres to inches." },
-    { title: "Thickness", description: "We noted base thickness where the listing gives one." },
+    { title: "Thickness", description: "We noted base thickness where the maker gives one." },
     { title: "Surface and edges", description: "We noted cloth type, glass or hard surfaces and stitched edges from the listing." },
     { title: "Extras", description: "We noted lighting, cable management and water resistance where claimed." },
   ],

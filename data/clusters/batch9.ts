@@ -49,7 +49,7 @@ const cpuTakes: Record<string, string> = {
   B0CGJDKLB8: "The Core i9-14900K is the last LGA1700 flagship with a 6.0GHz boost clock. Check your board has the latest BIOS for Intel's stability microcode.",
   B0BCDR9M33: "The Core i5-13600K is the previous-generation fourteen-core LGA1700 chip. It fits the same boards as the 14600K.",
   B0CQ1Y7KHV: "The Core i5-14400F is a locked ten-core LGA1700 chip with no integrated graphics. It pairs well with a B660 or B760 board and DDR4.",
-  B0B2X1KDNS: "The Core i5-12400F is a six-core LGA1700 chip at a low price. This listing is the OEM pack, so budget for a cooler; it suits a low-cost gaming build with DDR4.",
+  B0B2X1KDNS: "The Core i5-12400F is a six-core LGA1700 chip at a low price. This is the OEM pack, so budget for a cooler; it suits a low-cost gaming build with DDR4.",
 };
 
 const airTakes: Record<string, string> = {
@@ -75,7 +75,7 @@ const airTakes: Record<string, string> = {
 const aioTakes: Record<string, string> = {
   B0DLWGG85P: "The Liquid Freezer III Pro 360 is a thick-radiator AIO at a price close to many 240mm units. A small fan on the pump block cools the motherboard's power stages.",
   B0DLWFCVSD: "The Liquid Freezer III Pro 360 A-RGB is the lit version of ARCTIC's thick-radiator 360, with the same VRM fan and offset mounting.",
-  B0DPHSLXSS: "The Liquid Freezer III Pro 420 uses three 140mm fans on a larger radiator. Check that your case lists 420mm radiator support.",
+  B0DPHSLXSS: "The Liquid Freezer III Pro 420 uses three 140mm fans on a larger radiator. Check that your case offers 420mm radiator support.",
   B0DF7C4YPQ: "The Nautilus 360 RS keeps Corsair's lighting but drops the iCUE hub, so the fans connect straight to the motherboard.",
   B0DF7G8JFP: "The Nautilus 360 RS White is the white version of Corsair's hub-free 360, with fans that plug straight into the motherboard.",
   B0D6BFBLTK: "The Titan 360 RX runs its pump and fans through one iCUE LINK cable. The FlowDrive pump uses a three-phase motor.",
