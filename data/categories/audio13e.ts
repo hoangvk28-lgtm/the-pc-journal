@@ -13,6 +13,7 @@ export const speaker13eSchema: CategorySchema = {
   fields: [
     { key: "form", label: "Form", fmt: (v) => String(v) },
     { key: "peak", label: "Peak power", noun: "peak power", better: "higher", superlative: ["highest", "lowest"], fmt: (v) => `${v}W` },
+    { key: "woofer", label: "Woofer size", noun: "woofer size", better: "higher", superlative: ["largest", "smallest"], fmt: (v) => `${v}-inch` },
     { key: "inputs", label: "Inputs", fmt: (v) => String(v) },
     { key: "sub", label: "Subwoofer", fmt: (v) => String(v), weakness: (v) => (/^none/i.test(String(v)) ? "No subwoofer, so deep bass comes only from the main drivers" : undefined) },
     { key: "extras", label: "Extras", fmt: (v) => String(v) },

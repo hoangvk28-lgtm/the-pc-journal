@@ -8,11 +8,13 @@ import fs from "node:fs";
 import { registry } from "@/lib/pc-content";
 import { PLAN as PLAN17 } from "@/data/clusters/batch17-plan";
 import { PLAN as PLAN18 } from "@/data/clusters/batch18-plan";
+import { PLAN as PLAN19 } from "@/data/clusters/batch19-plan";
+import { PLAN as PLAN20 } from "@/data/clusters/batch20-plan";
 import { GROUPS } from "@/data/clusters/batch17-groups";
 import type { Fact } from "@/lib/pc-compose/generic";
 
 const BATCH = process.argv[2] ?? "batch17";
-const PLAN = ({ batch17: PLAN17, batch18: PLAN18 } as const)[BATCH as "batch17" | "batch18"];
+const PLAN = ({ batch17: PLAN17, batch18: PLAN18, batch19: PLAN19, batch20: PLAN20 } as const)[BATCH as "batch17" | "batch18" | "batch19" | "batch20"];
 if (!PLAN) throw new Error(`unknown batch ${BATCH}`);
 
 /** Products whose listings are too thin to give three listed strengths; excluded rather than padded. */

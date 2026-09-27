@@ -209,7 +209,9 @@
       "DeepCool CH560",
       "Phanteks PC case",
       "Phanteks NV5",
-      "Phanteks XT View"
+      "Phanteks XT View",
+      "Phanteks XT Pro Silent",
+      "NZXT H7 Flow"
     ]
   },
   "B0DHXW28RX": {
@@ -633,7 +635,7 @@
       "Remove the side panels, unclip the front and pop off the top panel using an integrated tab",
       "Featuring clear tempered glass side panel for scratch resistance and crystal clear viewing of your build components."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
       "Fractal Design North",
       "Fractal Design North XL",
@@ -659,7 +661,7 @@
       "Remove the side panels, unclip the front and pop off the top panel using an integrated tab",
       "Advanced ventilated performance featuring airflow engineered of fine-patterned mesh ventilation with full mesh side panel in addition to stylishly integrated top panel"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
       "Fractal Design North",
       "Fractal Design North XL",
@@ -682,7 +684,7 @@
       "Compatible with front radiators up to 420 mm and top radiators up to 360 mm",
       "Get a head start on your build with the three included 140 mm Aspect PWM fans"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
       "Fractal Design North",
       "Fractal Design North XL",
@@ -1203,7 +1205,8 @@
     "queries": [
       "Fractal Design Torrent",
       "Corsair 4000D RS",
-      "Phanteks NV5"
+      "Phanteks NV5",
+      "Corsair 4000D Airflow"
     ]
   },
   "B0BTRYDX4K": {
@@ -1557,7 +1560,8 @@
     "queries": [
       "NZXT H6 Flow",
       "NZXT H9 Flow",
-      "Phanteks NV5"
+      "Phanteks NV5",
+      "NZXT H7 Flow"
     ]
   },
   "B0D2MHBXRR": {
@@ -1979,9 +1983,10 @@
       "Clean Lines or Turbo Cooled – The internal side panel near the motherboard tray can be used as a cable cover for clean cable management, or you can remove it and mount fans to the side for increased cooling potential",
       "3D Y-Pattern Airflow Panel – Optimized for high airflow and minimal restriction, the steel front panel is perforated in three dimensions with a Y-pattern that provides a low-obstruction path for cool air"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
-      "Corsair 4000D RS"
+      "Corsair 4000D RS",
+      "Corsair 4000D Airflow"
     ]
   },
   "B0DPJ9FD5N": {
@@ -1997,9 +2002,10 @@
       "Clean Lines or Turbo Cooled – The internal side panel near the motherboard tray can be used as a cable cover for clean cable management, or you can remove it and mount fans to the side for increased cooling potential",
       "3D Y-Pattern Airflow Panel – Optimized for high airflow and minimal restriction, the steel front panel is perforated in three dimensions with a Y-pattern that provides a low-obstruction path for cool air"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
-      "Corsair 4000D RS"
+      "Corsair 4000D RS",
+      "Corsair 4000D Airflow"
     ]
   },
   "B0DFHQ5HVL": {
@@ -2508,9 +2514,10 @@
       "Support for the largest graphics cards without compromise",
       "Solid sound dampening foam on panels: Front, Left and Right panels."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
-      "Phanteks XT Pro"
+      "Phanteks XT Pro",
+      "Phanteks XT Pro Silent"
     ]
   },
   "B0D1MM3961": {
@@ -3176,9 +3183,10 @@
       "Efficient Layout and Connectivity: Compact yet spacious, the Pure Base 501 provides smart cable management and front I/O ports with USB 3.2 Gen. 2 Type C and dual Type A for fast and convenient access.",
       "German Design I German Engineering I German Quality I German Performance"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
-      "be quiet Pure Base 501"
+      "be quiet Pure Base 501",
+      "be quiet Pure Base 500"
     ]
   },
   "B0DGXQXVSV": {
@@ -3284,10 +3292,11 @@
       "State-of-the-art I/O-panel with fan controller and USB 3.2 Gen. 2 Type C",
       "Decoupled motherboard tray can be relocated for an inverted layout"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
       "be quiet Pure Base 501",
-      "be quiet Dark Base 901"
+      "be quiet Dark Base 901",
+      "be quiet Silent Base 802"
     ]
   },
   "B0FV38L6LT": {
@@ -3303,10 +3312,11 @@
       "The motherboard tray fully supports backside connector designs like Asus BTF (Back to Future), MSI Project Zero, and Gigabyte Project Stealth, for a true and cable-free view. To enable backside connector support without giving up a drive slot, the position of the PSU and drive bracket are simply swapped!",
       "Do you prefer a stealthy look? If so: we’ve got you covered with the Light Base 500, a perfect blend of the classic be quiet! style with no LED lighting and modern form. Enjoy your next gaming session without flashing lights in your peripheral view."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
       "be quiet Pure Base 501",
-      "be quiet Light Base 600"
+      "be quiet Light Base 600",
+      "be quiet Pure Base 500"
     ]
   },
   "B0C86GC1LB": {
@@ -3499,9 +3509,11 @@
       "ADJUSTABLE TOP COVER: Comes with an adjustable top cover vent, providing enhanced cooling options and a dedicated mounting location for a radiator.",
       "WARRANTY: Backed by a 3-year manufacturer's warranty, offering peace of mind and assurance of quality."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-27",
     "queries": [
-      "be quiet Light Base 600"
+      "be quiet Light Base 600",
+      "be quiet Silent Base 802",
+      "be quiet Pure Base 500"
     ]
   },
   "B0DGT8L9DG": {
@@ -5448,6 +5460,114 @@
     "fetchedAt": "2026-09-27",
     "queries": [
       "Phanteks XT View"
+    ]
+  },
+  "B08146GB6Y": {
+    "asin": "B08146GB6Y",
+    "title": "Fractal Design Define 7 XL Black Solid Brushed Aluminum/Steel E-ATX Silent Modular Full Tower Computer Case",
+    "brand": "Fractal Design",
+    "price": "$239.99",
+    "img": "https://m.media-amazon.com/images/I/31jEeb+ggiL._SL500_.jpg",
+    "features": [
+      "An expansive internal layout easily accommodates large motherboards up to E-ATX and SSI-EEB.",
+      "Install up to 18 HDDs alongside 5 SSDs mounts in the default Storage Layout.",
+      "Convert to Open Layout and get more than enough room for your custom water loop with large reservoirs and radiators up to 480 mm.",
+      "Brushed aluminum encases a refined front door design with reversible dual-handed hinges and magnetic latching.",
+      "Versatile new multi-brackets convert any unused fan position to an HDD, SSD or pump mount"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Fractal Design Define 7",
+      "Fractal Design Define 7 Compact"
+    ]
+  },
+  "B08146X79Y": {
+    "asin": "B08146X79Y",
+    "title": "Fractal Design Define 7 Black Brushed Aluminum/Steel E-ATX Silent Modular Dark Tempered Glass Window Mid Tower Computer Case",
+    "brand": "Fractal Design",
+    "price": "$204.99",
+    "img": "https://m.media-amazon.com/images/I/315tIi-1w9L._SL500_.jpg",
+    "features": [
+      "Solid construction with industrial high-density sound damping helps maintain whisper silent operation.",
+      "Convert to Storage Layout and install up to 14 HDDs alongside four dedicated SSDs mounts",
+      "Three Dynamic X2 GP-14 fans come preinstalled with room to expand up to a total of nine fans.",
+      "The included multi-bracket lets you convert any unused fan position to an HDD, SSD or pump mount.",
+      "Brushed aluminum encases a refined front door design with dual-handed reversible hinges and magnetic latching."
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Fractal Design Define 7",
+      "Fractal Design Define 7 Compact"
+    ]
+  },
+  "B08146HTV5": {
+    "asin": "B08146HTV5",
+    "title": "Fractal Design Define 7 XL Black Brushed Aluminum/Steel E-ATX Silent Modular Tempered Glass Window Full Tower Computer Case",
+    "brand": "Fractal Design",
+    "price": "$254.99",
+    "img": "https://m.media-amazon.com/images/I/41dvoLfqgQL._SL500_.jpg",
+    "features": [
+      "Spacious and extensively adaptable dual-layout interior easily accommodates large motherboards up to and including 285 mm E-ATX",
+      "Support for radiators up to 360 mm in front, 420 mm up top, or 280 mm in the base in the default Open Layout",
+      "Convert to Storage Layout for up to 14 HDDs along with 4 dedicated SSD mounts and one ODD bay (6 HDD/SSD + 2 SSD brackets + 1 multi-bracket included)",
+      "The single 5.25” ODD bay can be converted to an additional 140 mm front fan mount with filtered louver covering",
+      "Silence-optimized construction with industrial sound-damped front, top, and side panels"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Fractal Design Define 7"
+    ]
+  },
+  "B08NW5741Z": {
+    "asin": "B08NW5741Z",
+    "title": "be quiet! Silent Base 802 Black ATX Midi Tower PC Case, 3 Installed Fans",
+    "brand": "be quiet!",
+    "price": "$189.90",
+    "img": "https://m.media-amazon.com/images/I/21+dtVq4yzL._SL500_.jpg",
+    "features": [
+      "VERSATILITY: Interchangeable top cover and front panel cater to either maximum airflow or silent operation.",
+      "MODULARITY: Decoupled motherboard tray allows for an inverted layout.",
+      "IO-PANEL: State of the art IO panel boasts a fan controller and USB 3.2 Gen. 2 Type C.",
+      "THICK INSULATION: Extra thick insulation mats enhance noise reduction capabilities."
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "be quiet Silent Base 802"
+    ]
+  },
+  "B0CV365B3B": {
+    "asin": "B0CV365B3B",
+    "title": "Phanteks XT Pro, Mid-Tower Gaming Chassis, High Airflow Performance Mesh, Tempered Glass Window, 10x 120mm Fan Positions, Black",
+    "brand": "Phanteks",
+    "img": "https://m.media-amazon.com/images/I/41XSCkysf2L._SL500_.jpg",
+    "features": [
+      "Support for the latest rear-side connector mainboards",
+      "Support up to 10x 120mm or 6x 140mm and 3x 120mm fan positions",
+      "Dedicated 360 radiator support in the top without restrictions",
+      "Support for the largest graphics cards without compromise",
+      "Ultra-fine Performance mesh front panel and top dust filter"
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "Phanteks XT Pro Silent"
+    ]
+  },
+  "B0CV4RRBNJ": {
+    "asin": "B0CV4RRBNJ",
+    "title": "NZXT H7 Flow RGB - Mid-Tower ATX Airflow PC Case - Black",
+    "brand": "NZXT",
+    "price": "$149.99",
+    "img": "https://m.media-amazon.com/images/I/41R4HxltLIL._SL500_.jpg",
+    "features": [
+      "DEDICATED GPU COOLING — Supports three bottom-mounted 120mm fans for direct GPU cooling while retaining a narrow mid-tower footprint.",
+      "OUT-OF-THE-BOX PERFORMANCE — Comes equipped with three front-mounted 120mm fans for exceptional out-of-the-box cooling.",
+      "OPTIMIZED FOR AIRFLOW — High-performance mesh panels maximize airflow for both intake and exhaust, as well as filter dust.",
+      "LARGE RADIATOR SUPPORT — Supports up to 420mm radiators in the front and 360mm radiators in the top for poweful cooling potential.",
+      "EASILY MANAGE CABLES — Intuitive cable management system with wide channels, built-in hooks, and included straps for easy routing."
+    ],
+    "fetchedAt": "2026-09-27",
+    "queries": [
+      "NZXT H7 Flow"
     ]
   }
 }

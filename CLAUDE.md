@@ -162,6 +162,11 @@ Every slot resolves against `publishedArticles`, and nothing is invented to fill
 - Templates must not turn schema fields into prose as "label: value". Descriptive comparisons only use short, concrete values ("3D armrests", "a USB-C connection"); yes/no flags, category labels (type/does/kind/form) and long descriptions stay in the spec table.
 - Scan for these phrases across the registry after any composer or batch change (`scanphr` pattern: `/\b(the|its) listing\b|shares (yes|no)|Look elsewhere if|lists [a-z ]+: [A-Z]/i`), including text after `\n\n` in source strings, which `\b` regexes miss.
 
+**Unique openings and sections (batch 19 fix)**
+- Each batch19-plan `lead` must be 2 sentences: a keyword-specific buying point, then what every pick shares. A lone "Every pick…" sentence was rejected as samey.
+- `batch17-lib.ts` builds the dek (price span plus spec leader), the method line (combinatorial, named fields), badge reasons and `extraFaq`/`extraCriteria` from each guide's own picks; the composer shows these before 3-4 pooled category items. Never go back to one fixed dek/method template.
+- Measure 8-word repeats across the new batch by section (dek, intro, desc, pros, FAQ, criteria) before shipping.
+
 **"Why we like it" length and paragraphing (user request, Sept 2026)**
 - Keep "Why we like it" length even across picks and across guides (target 100-160 words per pick); no pick should be a one-paragraph stub next to 200-word neighbours.
 - Write paragraphs of about three sentences each. Do not split the text into one-sentence paragraphs (e.g. a lone "It also offers X." or a lone price-position line); merge short layers (notes, compatibility, price position, trade-off) into the neighbouring paragraph when composing.

@@ -112,6 +112,10 @@ export const pasteSchema: CategorySchema = {
   plural: "Pastes",
   fields: [
     { key: "grams", label: "Amount", noun: "tube size", better: "higher", superlative: ["largest", "smallest"], fmt: (v) => `${v}g`, strength: (v) => (Number(v) >= 4 ? `${v}g is enough for several applications` : undefined), weakness: (v) => (Number(v) <= 1 ? `${v}g covers only a couple of large CPUs` : undefined) },
+    { key: "life", label: "Rated service life", noun: "rated service life", better: "higher", superlative: ["longest", "shortest"], fmt: (v) => `up to ${v} years`, strength: (v) => `Maker-rated for up to ${v} years without reapplying` },
+    { key: "maxTemp", label: "Top rated temperature", noun: "top rated temperature", better: "higher", superlative: ["highest", "lowest"], fmt: (v) => `${v}°C` },
+    { key: "kind", label: "Compound", fmt: (v) => String(v), strength: (v) => (/silver|carbon|diamond|ceramic|aluminium/i.test(String(v)) ? `${v} formula` : undefined), weakness: (v) => (/liquid metal/i.test(String(v)) ? "Liquid metal conducts electricity and corrodes aluminium" : undefined) },
+    { key: "apps", label: "Applications per tube", fmt: (v) => String(v) },
     { key: "wmk", label: "Conductivity", fmt: (v) => `${v} W/mK (maker's figure)`, strength: (v) => `Maker-rated ${v} W/mK conductivity` },
     { key: "nonConductive", label: "Electrically non-conductive", fmt: (v) => (v ? "Yes" : "Not listed"), strength: (v) => (v ? "Electrically non-conductive, so spills are harmless" : undefined) },
     { key: "extras", label: "In the box", fmt: (v) => String(v), strength: (v) => (v ? `Includes ${v}` : undefined) },
@@ -128,6 +132,10 @@ export const pasteSchema: CategorySchema = {
     { id: "conductive", title: "Choose non-conductive paste", body: "Non-conductive pastes are safe if a little spills onto nearby parts. Avoid liquid metal unless you know the risks." },
     { id: "amount", title: "Buy the amount you will use", body: "One large CPU uses about 0.2g to 0.5g. A 1g tube covers a couple of builds; 4g or more suits regular remounts or several machines." },
     { id: "viscosity", title: "Thicker pastes are harder to spread", body: "High-performance pastes are often thick. Warming the tube in your hand makes them easier to apply." },
+    { id: "life", title: "Check the rated service life", body: "Some makers state how long the paste can stay on a CPU before it needs replacing, from about five years to eight. A longer rating suits a PC you won't open often." },
+    { id: "kit", title: "Kits save a trip to the drawer", body: "Wipes, a spatula or an applicator card make a repaste cleaner. They matter most for a first build or for repasting a graphics card." },
+    { id: "wmk-claims", title: "Treat W/mK figures with care", body: "Makers measure conductivity under their own conditions, so a higher W/mK number on the box does not always mean lower temperatures in a PC. Compare pastes from the same test source instead." },
+    { id: "tube", title: "Syringes are easier to control", body: "A syringe tip lets you place a precise dot and reseal the rest. Tubs and wide nozzles tend to waste paste." },
     { id: "gpu", title: "GPU repasting needs more care", body: "Graphics card dies are bare, so non-conductive paste and a thin, even layer matter more. Some pastes are sold specifically for direct-die use." },
   ],
   faq: [
@@ -136,6 +144,10 @@ export const pasteSchema: CategorySchema = {
     { id: "amount", q: "How much paste should I use?", a: "About a pea-sized dot on most desktop CPUs. Too much mostly spills out; too little leaves gaps." },
     { id: "clean", q: "How do I remove old paste?", a: "Wipe it off with a lint-free cloth and 90% or stronger isopropyl alcohol, then let it dry." },
     { id: "gpu", q: "Can I use CPU paste on a graphics card?", a: "Yes, if it is non-conductive. Apply a thin, even layer on the bare die." },
+    { id: "dry", q: "Does thermal paste expire in the tube?", a: "It can separate or thicken after a few years in storage. Noctua, for example, recommends using its paste within three years of purchase." },
+    { id: "wmk", q: "Is a higher W/mK rating always better?", a: "Not reliably. Makers test conductivity differently, so the figures are not directly comparable between brands." },
+    { id: "spread", q: "Should I spread the paste or let the cooler do it?", a: "Either works if the layer is thin and even. Some pastes, such as ARCTIC's MX-7, are designed to be pressed out by the cooler rather than spread." },
+    { id: "pads", q: "Can a thermal pad replace paste on a CPU?", a: "Phase-change pads such as PTM7950 can, but ordinary gap-filling pads are too thick for a CPU heatspreader and run hotter." },
     { id: "liquid-metal", q: "Should I use liquid metal instead?", a: "Only if you know the risks. It is electrically conductive and damages aluminium, so it is not a drop-in replacement." },
   ],
   evaluated: [

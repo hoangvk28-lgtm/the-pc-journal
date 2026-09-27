@@ -31,6 +31,10 @@ import { mic13eFacts } from "@/data/categories/audio13e";
 import { mic16aSchema } from "@/data/categories/misc16a";
 import { stream18Facts } from "@/data/categories/stream18";
 import { webcams18Facts, fans18Facts, ssd18Facts, cases18Facts, arms18Facts, planar18Facts, chairs18Facts } from "@/data/categories/misc18";
+import { airSchema, airFacts, aioSchema, aioFacts, pasteSchema, pasteFacts } from "@/data/categories/cooling";
+import { psuGenericSchema, psuGenericFacts } from "@/data/categories/psu-generic";
+import { paste20Facts } from "@/data/categories/paste20";
+import { air20Facts, cases20Facts, speakers20Facts } from "@/data/categories/misc20";
 import type { Group } from "./batch17-lib";
 
 /** Fact groups for the batch 17 pipeline: each pairs a schema with the reviewed facts older guides already use. */
@@ -50,7 +54,7 @@ export const GROUPS = {
   floormat: { schema: floorMatSchema, facts: floorMat13dFacts, category: "peripherals", noun: "chair mats", related: ["best-floor-mat-for-office-chair", "best-office-chair-for-lower-back-pain", "best-gaming-chair"] },
   monitor: { schema: monitorSchema, facts: monitors15eFacts, category: "monitors", noun: "monitors", related: ["best-gaming-monitor", "best-1440p-gaming-monitor", "best-oled-gaming-monitors"] },
   storage: { schema: storage13eSchema, facts: storage15dFacts, category: "peripherals", noun: "external drives", related: ["best-external-ssd", "best-portable-ssd-drive", "best-external-storage-for-laptop"] },
-  speaker: { schema: speaker13eSchema, facts: speakers15bFacts, category: "peripherals", noun: "speakers", related: ["best-pc-speakers", "best-speakers-for-gaming-pc", "best-gaming-speaker-bar"] },
+  speaker: { schema: speaker13eSchema, facts: { ...speakers15bFacts, ...speakers20Facts }, category: "peripherals", noun: "speakers", related: ["best-pc-speakers", "best-speakers-for-gaming-pc", "best-gaming-speaker-bar"] },
   webcam: { schema: webcam13eSchema, facts: webcams18Facts, category: "peripherals", noun: "webcams", related: ["best-webcam-for-streaming", "best-4k-webcams", "best-webcams-streaming"] },
   stream: { schema: stream13eSchema, facts: stream18Facts, category: "peripherals", noun: "streaming devices", related: ["best-streaming-gear-for-pc", "best-webcam-for-streaming", "best-streaming-gear-for-gaming"] },
   gpu: { schema: gpuRangeSchema, facts: { ...gpuFacts, ...gpuExtFacts }, category: "components", noun: "graphics cards", related: ["best-graphics-cards", "best-graphics-cards-for-1440p", "best-budget-graphics-cards"] },
@@ -60,8 +64,12 @@ export const GROUPS = {
   ssd: { schema: ssdxSchema, facts: ssd18Facts, category: "components", noun: "SSDs", related: ["best-ssds-for-gaming", "best-ssds", "best-2tb-gen4-ssds"] },
   prebuilt: { schema: prebuiltSchema, facts: prebuiltFacts, category: "pc-builds", noun: "gaming PCs", related: ["best-prebuilt-gaming-pcs", "best-prebuilt-gaming-pcs-under-1000", "best-mini-pcs-for-gaming"] },
   fan: { schema: fanSchema, facts: fans18Facts, category: "components", noun: "case fans", related: ["best-case-fans", "best-argb-case-fans", "best-pc-cooling-fan"] },
-  pcCase: { schema: caseSchema, facts: cases18Facts, category: "components", noun: "PC cases", related: ["best-pc-cases", "best-pc-case-for-gaming", "best-white-pc-cases"] },
+  pcCase: { schema: caseSchema, facts: { ...cases18Facts, ...cases20Facts }, category: "components", noun: "PC cases", related: ["best-pc-cases", "best-pc-case-for-gaming", "best-white-pc-cases"] },
   mic: { schema: mic16aSchema, facts: mic13eFacts, category: "peripherals", noun: "microphones", related: ["best-microphone-for-gaming", "best-usb-microphones", "best-xlr-microphones"] },
+  air: { schema: airSchema, facts: { ...airFacts, ...air20Facts }, category: "components", noun: "air coolers", related: ["best-air-coolers", "best-cpu-coolers", "best-low-profile-cpu-coolers"] },
+  aio: { schema: aioSchema, facts: aioFacts, category: "components", noun: "liquid coolers", related: ["best-360mm-aio-coolers", "best-240mm-aio-coolers", "best-cpu-coolers"] },
+  paste: { schema: pasteSchema, facts: { ...pasteFacts, ...paste20Facts }, category: "components", noun: "thermal pastes", related: ["best-thermal-pastes", "best-cpu-coolers", "best-air-coolers"] },
+  psu: { schema: psuGenericSchema, facts: psuGenericFacts, category: "components", noun: "power supplies", related: ["best-power-supplies", "best-850w-power-supplies", "best-sfx-power-supplies"] },
 } satisfies Record<string, Group>;
 
 export type GroupId = keyof typeof GROUPS;

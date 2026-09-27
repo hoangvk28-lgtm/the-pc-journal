@@ -73,6 +73,9 @@ export interface GenericArticleConfig {
   bottomLine: string[];
   priorityCriteria?: string[];
   related: string[];
+  /** Guide-specific FAQ and buying criteria, shown before the shared category pool so guides in one category differ. */
+  extraFaq?: { q: string; a: string }[];
+  extraCriteria?: { title: string; body: string }[];
 }
 
 const num = (v: SpecValue | undefined) => (typeof v === "number" ? v : undefined);
@@ -100,7 +103,7 @@ function rankingSentences(f: Fact, facts: Fact[], schema: CategorySchema, seed: 
     if (ties === order.length) continue; // every pick shares it, so the comparison tells the reader nothing
     if (ties > 1) {
       const others = order.filter((x) => x.asin !== f.asin && num(x.specs[field.key]) === v).map((x) => `the ${x.short}`);
-      out.push(pick([`Its ${field.fmt(v)} ${noun} matches ${listJoin(others)}.`, `On ${noun} it ties with ${listJoin(others)} at ${field.fmt(v)}.`], seed + field.key));
+      out.push(pick([`It matches ${listJoin(others)} on ${noun} (${field.fmt(v)}).`, `On ${noun} it ties with ${listJoin(others)} at ${field.fmt(v)}.`], seed + field.key));
     } else if (pos === 0) {
       const second = order[1];
       out.push(pick([
@@ -137,10 +140,10 @@ function featurePhrase(value: string, label: string): string {
   const head = label.toLowerCase().split(/\s+/).pop()!.replace(/s$/, "");
   if (v.toLowerCase().includes(head)) return /^(a|an|the)\s/i.test(v) || /s$/i.test(v) ? v : `${anArticle(v)} ${v}`;
   const phrase = `${v} ${label.toLowerCase()}`;
-  return /s$/i.test(label) ? phrase : `${anArticle(v)} ${phrase}`;
+  return /s$/i.test(label) || /^(memory|software|cabling|upholstery|lighting)$/.test(head) ? phrase : `${anArticle(v)} ${phrase}`;
 }
 /** "an 18-inch", "an 8K", "an 11-button", "an OLED", otherwise "a". */
-const anArticle = (w: string) => (/^(?:[aeio]|8|11\b|18\b)/i.test(w) ? "an" : "a");
+const anArticle = (w: string) => (/^(?:[aeio]|8|11\b|18\b)/i.test(w) || /^[FHLMNRSX](?:[A-Z0-9]|\.\d)/.test(w) ? "an" : "a");
 
 /** Descriptive (non-ranked) fields: where this pick's listed value is unique or shared among the picks. */
 function descriptiveSentences(f: Fact, facts: Fact[], schema: CategorySchema, seed: string): string[] {
@@ -164,6 +167,8 @@ function descriptiveSentences(f: Fact, facts: Fact[], schema: CategorySchema, se
       out.push(pick([
         `It is the only pick here with ${mineP}; the ${alt.short} has ${altP} instead.`,
         `You get ${mineP} here, which sets it apart from the ${alt.short} and its ${altP}.`,
+        `No other pick in this guide offers ${mineP}; compare the ${alt.short}, which has ${altP}.`,
+        `${cap(mineP)} is unique to it among these picks, while the ${alt.short} uses ${altP}.`,
       ], seed + field.key + "d"));
     } else if (same.length <= 2) {
       out.push(pick([
@@ -178,11 +183,11 @@ function descriptiveSentences(f: Fact, facts: Fact[], schema: CategorySchema, se
 /** Turns a con into reader advice ("Skip it if price comes first: ..."), never a raw "not stated" line. */
 function skipLine(con: string, seed: string): string {
   let m: RegExpMatchArray | null;
-  if ((m = con.match(/^No published (.+)$/i))) return `Skip it if you need to know its ${m[1]} before buying; the maker doesn't publish one.`;
-  if ((m = con.match(/^Costs more than the (.+) at the time of writing$/i))) return `Skip it if price comes first: the ${m[1]} cost less when we checked.`;
+  if ((m = con.match(/^No published (.+)$/i))) return pick([`Skip it if you need to know its ${m[1]} before buying; the maker doesn't publish one.`, `The maker gives no ${m[1]}, so look elsewhere if that figure decides it for you.`, `Pass if a published ${m[1]} matters; this one has none.`, `Its ${m[1]} is not published, which rules it out if you need that number.`], seed + "skipn");
+  if ((m = con.match(/^Costs more than the (.+) at the time of writing$/i))) return pick([`Skip it if price comes first: the ${m[1]} cost less when we checked.`, `If budget leads, the ${m[1]} was cheaper at our last price check.`, `Price-first buyers should look at the ${m[1]}, which cost less when we checked.`], seed + "skipp");
   if ((m = con.match(/^(.+?) trails the (.+) \((.+)\)$/i))) return `Skip it if ${lc(m[1])} matters most to you; the ${m[2]} offers ${m[3]}.`;
   const c = con.charAt(0).toLowerCase() + con.slice(1);
-  return pick([`Skip it if this is a deal-breaker for you: ${c}.`, `Choose another pick if you can't accept this: ${c}.`], seed + "skip");
+  return pick([`Skip it if this is a deal-breaker for you: ${c}.`, `Choose another pick if you can't accept this: ${c}.`, `Pass on it if ${c.replace(/.$/, "")} rules it out for your setup.`, `Look at the others if this bothers you: ${c}.`, `Worth skipping when ${c.replace(/.$/, "")} is a problem.`], seed + "skip");
 }
 
 /**
@@ -224,9 +229,9 @@ function priceSentence(f: Fact, facts: Fact[], seed: string): string | undefined
   if (priced.length < 3 || pos < 0) return undefined;
   const n = priced.length;
   if (priceNum(priced[pos].price) === priceNum(priced[pos === 0 ? 1 : pos - 1].price)) return undefined;
-  if (pos === 0) return pick([`It undercut the ${priced[1].short} and every other pick on price at the time of writing.`, `It cost the least of the ${n} picks at the time of writing, with the ${priced[1].short} the next step up.`], seed + "p");
-  if (pos === n - 1) return pick([`It was the highest-priced of the ${n} picks at the time of writing, so the case for it rests on what it adds over the ${priced[n - 2].short} and the rest.`, `Only the ${priced[n - 2].short} came close to it on price at the time of writing; it cost the most of the ${n} picks.`], seed + "p");
-  return pick([`On price it sat ${ordinal(pos + 1)} of ${n}, between the cheaper ${priced[pos - 1].short} and the pricier ${priced[pos + 1].short}, at the time of writing.`, `It was priced above the ${priced[pos - 1].short} and below the ${priced[pos + 1].short} at the time of writing.`], seed + "p");
+  if (pos === 0) return pick([`It undercut the ${priced[1].short} and every other pick on price at the time of writing.`, `It cost the least of the ${n} picks at the time of writing, with the ${priced[1].short} the next step up.`, `It was the cheapest of the group when we checked; the ${priced[1].short} was the next step up.`, `No other pick here cost less at our last price check, and the ${priced[1].short} was closest.`], seed + "p");
+  if (pos === n - 1) return pick([`It was the highest-priced of the ${n} picks at the time of writing, so the case for it rests on what it adds over the ${priced[n - 2].short} and the rest.`, `Only the ${priced[n - 2].short} came close to it on price at the time of writing; it cost the most of the ${n} picks.`, `It was the most expensive pick when we checked, so weigh what it adds over the ${priced[n - 2].short}.`, `At our last price check it topped the group, with the ${priced[n - 2].short} the nearest cheaper option.`], seed + "p");
+  return pick([`On price it sat ${ordinal(pos + 1)} of ${n}, between the cheaper ${priced[pos - 1].short} and the pricier ${priced[pos + 1].short}, at the time of writing.`, `It was priced above the ${priced[pos - 1].short} and below the ${priced[pos + 1].short} at the time of writing.`, `Its price falls between the ${priced[pos - 1].short} and the ${priced[pos + 1].short}, based on our last check.`, `When we checked, only the ${priced[pos - 1].short}${pos > 1 ? " and cheaper picks" : ""} cost less, and the ${priced[pos + 1].short} cost more.`], seed + "p");
 }
 
 /** Comparative cons derived from the picks' listed facts; each names the pick that covers the gap. */
@@ -242,7 +247,9 @@ function comparativeCons(f: Fact, facts: Fact[], schema: CategorySchema): { con:
     if (field.key === "battery" && wiredOnly) continue;
     if (missingVal(v)) {
       const src = others.find((o) => !missingVal(o.specs[field.key]) && o.specs[field.key] !== false);
-      if (src) out.push({ con: field.better ? `No published ${noun.replace(/^listed /, "")}` : `${cap(lc(field.label))} not specified`, alt: `${claim(field, src)}` });
+      // A gap is only a real con when most picks state the figure; "In the box not specified" style filler is skipped.
+      const stated = facts.filter((o) => !missingVal(o.specs[field.key])).length;
+      if (src && field.better && stated * 2 >= facts.length) out.push({ con: field.better ? `No published ${noun.replace(/^listed /, "")}` : `${cap(lc(field.label))} not specified`, alt: `${claim(field, src)}` });
     } else if (v === false) {
       const src = others.find((o) => o.specs[field.key] === true);
       if (src) out.push({ con: `No ${noun}, unlike the ${src.short}`, alt: `the ${src.short} has it` });
@@ -398,7 +405,8 @@ export function composeGuide(cfg: GenericArticleConfig, schema: CategorySchema, 
     const specs = schema.fields.map((fd) => (f.specs[fd.key] !== undefined ? `${fd.label}: ${fd.fmt(f.specs[fd.key]!)}` : "")).filter(Boolean);
     const pros = dedupePhrases([...schema.fields.map((fd) => (!missingVal(f.specs[fd.key]) ? fd.strength?.(f.specs[fd.key]!) : undefined)).filter(Boolean) as string[], ...f.notes.map((n) => cap(n.replace(/^an? /, ""))), ...comparativePros(f, facts, schema)]);
     const cons = schema.fields.map((fd) => (!missingVal(f.specs[fd.key]) ? fd.weakness?.(f.specs[fd.key]!) : undefined)).filter(Boolean) as string[];
-    const allCons = dedupePhrases([...cons, ...cmpCons.map((c) => c.con)]);
+    const conKey = (c: string) => c.toLowerCase().replace(/,.*$/, "").replace(/\b(the|a|an|in|of)\b/g, "").replace(/\s+/g, " ").trim();
+    const allCons = dedupePhrases([...cons, ...cmpCons.map((c) => c.con)]).filter((c, i, arr) => arr.findIndex((o) => conKey(o) === conKey(c)) === i);
 
     return {
       id: f.asin.toLowerCase(),
@@ -420,8 +428,9 @@ export function composeGuide(cfg: GenericArticleConfig, schema: CategorySchema, 
   });
 
   const prio = cfg.priorityCriteria ?? [];
-  const crit = [...prio.map((id) => schema.criteria.find((c) => c.id === id)!).filter(Boolean), ...shuffle(schema.criteria.filter((c) => !prio.includes(c.id)), cfg.slug)].slice(0, 6);
-  const faq = shuffle(schema.faq, cfg.slug + "faq").slice(0, 6);
+  const xc = cfg.extraCriteria ?? [], xf = cfg.extraFaq ?? [];
+  const crit = [...xc.map((c, i) => ({ id: `x${i}`, title: c.title, body: c.body })), ...[...prio.map((id) => schema.criteria.find((c) => c.id === id)!).filter(Boolean), ...shuffle(schema.criteria.filter((c) => !prio.includes(c.id)), cfg.slug)].slice(0, xc.length ? 4 : 6)].slice(0, 6);
+  const faq = [...xf, ...shuffle(schema.faq, cfg.slug + "faq").slice(0, xf.length ? Math.max(3, 5 - xf.length) : 6)].slice(0, 6);
   const evaluated = shuffle(schema.evaluated, cfg.slug + "eval").slice(0, 4);
 
   const cmpFields = schema.fields.filter((fd) => facts.filter((f) => f.specs[fd.key] !== undefined).length >= 2).slice(0, 4);
@@ -435,7 +444,7 @@ export function composeGuide(cfg: GenericArticleConfig, schema: CategorySchema, 
     { subheading: "By priority", table: { headers: ["Priority", "Consider", "Why"], rows: products.filter((p) => taken.has(p.asin)).map((p) => { const l = taken.get(p.asin)!; return [l.bestFor.replace(/\.$/, ""), factsById[p.asin].short, cap(l.reason)]; }) } },
   ];
   if (cmpFields.length)
-    howToChoose.push({ subheading: "Key specs side by side", intro: "Figures as stated in each listing.", table: { headers: [schema.plural.replace(/s$/, ""), ...cmpFields.map((c) => c.label)], rows: facts.map((f) => [f.short, ...cmpFields.map((c) => (f.specs[c.key] !== undefined ? c.fmt(f.specs[c.key]!) : "Not listed"))]) } });
+    howToChoose.push({ subheading: "Key specs side by side", intro: "Figures as each maker states them.", table: { headers: [schema.plural.replace(/s$/, ""), ...cmpFields.map((c) => c.label)], rows: facts.map((f) => [f.short, ...cmpFields.map((c) => (f.specs[c.key] !== undefined ? c.fmt(f.specs[c.key]!) : "Not listed"))]) } });
   if (groups.size > 1)
     howToChoose.push({ subheading: "By price at the time of writing", intro: "Prices change often; these tiers reflect Amazon prices when this guide was updated.", table: { headers: ["Price tier", schema.plural], rows: [...groups.entries()].map(([k, v]) => [k, v.join(", ")]) } });
 
