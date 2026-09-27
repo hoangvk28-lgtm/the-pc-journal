@@ -104,7 +104,7 @@ export const monitorFacts = withPool(pool as Pool, [
   F("B0FLL3L9JG", "LG UltraGear 27G810A-B", "27G810A", { size: 27, res: K, hz: 180, panel: "IPS", resp: 1, hdr: "DisplayHDR 400", gamut: "95% DCI-P3", sync: "G-SYNC Compatible, FreeSync Premium", stand: "swivel and pivot" }, ["a dual mode that switches to 1080p at 360Hz", "HDMI 2.1 inputs"]),
   F("B0FDL8QKDW", "GIGABYTE MO27U2", "MO27U2", { size: 27, res: K, hz: 240, panel: "QD-OLED", resp: 0.03, gamut: "99% DCI-P3", sync: "FreeSync Premium Pro" }, ["a 240Hz QD-OLED panel at 4K"]),
   // 360Hz+
-  F("B0D1DPFZLZ", "Samsung Odyssey OLED G6 (G60SD)", "Odyssey OLED G6", { size: 27, res: Q, hz: 360, panel: "QD-OLED", resp: 0.03, sync: "FreeSync Premium Pro" }, ["HDMI 2.1 inputs"]),
+  F("B0D1DPFZLZ", "Samsung Odyssey OLED G6 (G60SD)", "Odyssey OLED G6", { size: 27, res: Q, hz: 360, panel: "QD-OLED", resp: 0.03, sync: "FreeSync Premium Pro", warranty: 3 }, ["HDMI 2.1 inputs", "an anti-glare finish and a built-in cooling system"]),
   F("B0D7NSZRJW", "ASUS ROG Strix XG27ACDNG", "XG27ACDNG", { size: 26.5, res: Q, hz: 360, panel: "QD-OLED", resp: 0.03, hdr: "DisplayHDR True Black 400", gamut: "99% DCI-P3", sync: "G-SYNC Compatible", warranty: 3 }, ["a 3-year warranty on an OLED panel"]),
   F("B0CTS1RQ6Y", "MSI MPG 271QRX QD-OLED", "MPG 271QRX", { size: 27, res: Q, hz: 360, panel: "QD-OLED", resp: 0.03, hdr: "DisplayHDR True Black 400" }, ["a built-in KVM switch", "HDMI 2.1 inputs"]),
   F("B0GV5JZG1Q", "BenQ ZOWIE XQ2566X", "XQ2566X", { size: 24.1, res: Q, hz: 360, panel: "Fast TN" }, ["DyAc 3 motion blur reduction for esports"]),

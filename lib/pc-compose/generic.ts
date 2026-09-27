@@ -173,10 +173,14 @@ function priceSentence(f: Fact, facts: Fact[], seed: string): string | undefined
 /** Comparative cons derived from the picks' listed facts; each names the pick that covers the gap. */
 function comparativeCons(f: Fact, facts: Fact[], schema: CategorySchema): { con: string; alt?: string }[] {
   const out: { con: string; alt?: string }[] = [];
+  // A wired-only product has no battery, so an unstated battery figure is not a gap.
+  const conn = String(f.specs.connection ?? "");
+  const wiredOnly = /\bwired\b/i.test(conn) && !/wireless|bluetooth|2\.4|dongle|receiver|lightspeed|hyperspeed|slipstream/i.test(conn);
   for (const field of schema.fields) {
     const v = f.specs[field.key];
     const noun = field.noun ?? lc(field.label);
     const others = facts.filter((o) => o.asin !== f.asin);
+    if (field.key === "battery" && wiredOnly) continue;
     if (missingVal(v)) {
       const src = others.find((o) => !missingVal(o.specs[field.key]) && o.specs[field.key] !== false);
       if (src) out.push({ con: `${cap(noun)} not stated in its listing`, alt: `the ${src.short} lists ${lc(field.fmt(src.specs[field.key]!))}` });

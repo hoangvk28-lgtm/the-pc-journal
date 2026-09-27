@@ -123,7 +123,7 @@ export const chair13dFacts: Record<string, Fact> = withPool(P, [
   F("B0FL7NTDGC", "GABRYLLY Ergonomic Mesh Chair with Footrest", "GABRYLLY footrest", { capacity: 300, recline: 135, arms: "3D", footrest: "Yes", material: "Mesh" }, ["3D armrests", "a footrest", "a 135 degree recline"]),
   F("B0GRZDXRP4", "Ergonomic Mesh Office Chair with Footrest (275 lb)", "275 lb mesh chair", { capacity: 275, recline: 135, lumbar: "Pillow", footrest: "Yes", material: "Mesh" }, ["a footrest", "a lumbar pillow", "a 90 to 135 degree recline"]),
   F("B0HBR1SLVR", "CYKOV Ergonomic Mesh Chair with Footrest", "CYKOV", { capacity: 350, recline: 135, footrest: "Yes", material: "Mesh" }, ["a 350 lb listed capacity", "a footrest", "a 135 degree recline"]),
-  F("B0DPHLWNBG", "ELABEST X100 Ergonomic Office Chair", "ELABEST X100", { arms: "5D flip-up", lumbar: "3D adjustable", footrest: "Yes", material: "Mesh" }, ["3D adjustable lumbar support", "5D flip-up armrests", "a footrest"]),
+  F("B0DPHLWNBG", "ELABEST X100 Ergonomic Office Chair", "ELABEST X100", { capacity: 300, seat: "18.3 to 23 in", arms: "5D flip-up", lumbar: "3D adjustable", footrest: "Yes", material: "Mesh" }, ["3D adjustable lumbar support", "5D flip-up armrests", "a footrest"]),
   F("B0GHWLZF39", "Kslysuty Office Chair with Footrest and Massage Lumbar", "Kslysuty", { lumbar: "USB massage", footrest: "Yes" }, ["a USB massage lumbar", "a footrest"]),
   F("B0H6F2X4WF", "GTPOFFICE Office Chair with Flip-Up Arms", "GTPOFFICE", { arms: "Flip-up (90°)" }, ["armrests that flip up 90 degrees"]),
   F("B0CP22DQQS", "Marsail Ergonomic Mesh Office Chair", "Marsail", { capacity: 330, recline: 120, arms: "3D", material: "Mesh" }, ["a 2D headrest", "3D armrests", "a 330 lb listed capacity"]),

@@ -35,7 +35,7 @@ export const monitors13cFacts: Record<string, Fact> = {
     F("B0F237NSVQ", "ASUS TUF Gaming VG27AQL5A", "VG27AQL5A", { size: 27, res: Q, hz: 210, panel: "Fast IPS", sync: "FreeSync Premium", stand: "height adjustment" }, ["1440p at 210Hz with overclock", "a height-adjustable stand", "a mid price tier for 1440p"]),
     F("B0DHG1GTG2", "ASUS TUF Gaming VG27UQ1A", "VG27UQ1A", { size: 27, res: K, hz: 160, panel: "Fast IPS", resp: 1, hdr: "HDR", gamut: "95% DCI-P3", sync: "G-SYNC Compatible, FreeSync Premium", warranty: 3 }, ["4K at 120Hz for consoles over HDMI", "a 3-year warranty with advance replacement", "95% DCI-P3 coverage"]),
     F("B0DQ9MMZVV", "ASUS TUF Gaming VG32WQ3B", "VG32WQ3B", { size: 31.5, res: Q, hz: 180, panel: "VA", gamut: "90% DCI-P3", sync: "FreeSync", warranty: 3 }, ["a 1500R curved 31.5-inch screen", "a 3-year warranty", "90% DCI-P3 coverage"]),
-    F("B0F233D6W1", "ASUS TUF Gaming VG27AQM5A", "VG27AQM5A", { size: 27, res: Q, hz: 300, panel: "Fast IPS", gamut: "95% DCI-P3", warranty: 3 }, ["1440p at 300Hz", "built-in speakers", "a 3-year warranty"]),
+    F("B0F233D6W1", "ASUS TUF Gaming VG27AQM5A", "VG27AQM5A", { size: 27, res: Q, hz: 300, panel: "Fast IPS", resp: 0.3, gamut: "95% DCI-P3", sync: "G-SYNC, ELMB Sync", warranty: 3 }, ["1440p at 300Hz", "built-in speakers", "a 3-year warranty"]),
     F("B0F234D8G9", "ASUS TUF Gaming VG249QE5A", "VG249QE5A", { size: 23.8, res: H, hz: 146, panel: "IPS" }, ["146Hz with overclock", "an HDMI cable in the box", "the lowest ASUS TUF price tier here"]),
     // Dell and Alienware
     F("B0GD1LMWH3", "Dell 27 Plus S2725DSM", "S2725DSM", { size: 27, res: Q, hz: 144, resp: 1 }, ["dual 3W speakers", "1440p at 144Hz", "HDMI and DisplayPort inputs"]),

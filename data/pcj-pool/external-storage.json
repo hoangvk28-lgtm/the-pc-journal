@@ -19,14 +19,16 @@
       "SanDisk Extreme portable SSD",
       "Crucial X9 Pro",
       "Samsung T9",
-      "Samsung T7"
+      "Samsung T7",
+      "portable external SSD",
+      "Samsung T7 Shield"
     ]
   },
   "B07CRG94G3": {
     "asin": "B07CRG94G3",
     "title": "Seagate 2TB Portable Hard Drive | USB 3.0 (STGX2000400)",
     "brand": "Seagate",
-    "price": "$128.00",
+    "price": "$129.99",
     "img": "https://m.media-amazon.com/images/I/21Y2T3kG97L._SL500_.jpg",
     "features": [
       "Easily store and access 2TB to content on the go with the Seagate Portable Drive, a USB external hard drive",
@@ -44,14 +46,15 @@
       "WD My Passport",
       "Seagate Ultra Touch portable hard drive",
       "Seagate One Touch portable hard drive",
-      "Seagate Expansion portable hard drive"
+      "Seagate Expansion portable hard drive",
+      "portable external SSD"
     ]
   },
   "B0GMWYYRQL": {
     "asin": "B0GMWYYRQL",
     "title": "Sandisk 1TB Extreme Portable SSD, Up to 2000MB/s Transfer Speeds-New Model",
     "brand": "Sandisk",
-    "price": "$259.47",
+    "price": "$259.46",
     "img": "https://m.media-amazon.com/images/I/41UpTn5oveL._SL500_.jpg",
     "features": [
       "NEARLY 2X FASTER THAN OUR PREVIOUS GENERATION(8) – move 1,000 high-res photos in under 60 seconds(6) with up to 2000MB/s transfer speeds(2).",
@@ -67,7 +70,8 @@
       "SanDisk Extreme portable SSD",
       "Samsung T9",
       "LaCie Rugged",
-      "Seagate One Touch SSD"
+      "Seagate One Touch SSD",
+      "portable external SSD"
     ]
   },
   "B0874XN4D8": {
@@ -93,7 +97,9 @@
       "Samsung T9",
       "external SSD gaming PS5",
       "Samsung T7",
-      "Seagate One Touch SSD"
+      "Seagate One Touch SSD",
+      "portable external SSD",
+      "Samsung T7 Shield"
     ]
   },
   "B0H4HKMBB4": {
@@ -135,7 +141,8 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "portable SSD",
-      "external SSD"
+      "external SSD",
+      "portable external SSD"
     ]
   },
   "B0H4H1SNMY": {
@@ -178,7 +185,8 @@
       "external SSD",
       "Crucial X9 Pro",
       "Samsung T9",
-      "Samsung T7"
+      "Samsung T7",
+      "Samsung T7 Shield"
     ]
   },
   "B0BGKXX9TK": {
@@ -200,7 +208,8 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "portable SSD",
-      "external SSD"
+      "external SSD",
+      "portable external SSD"
     ]
   },
   "B0874XWW23": {
@@ -224,14 +233,15 @@
       "external SSD",
       "Crucial X9 Pro",
       "Samsung T9",
-      "Samsung T7"
+      "Samsung T7",
+      "Samsung T7 Shield"
     ]
   },
   "B0GMX4CN7X": {
     "asin": "B0GMX4CN7X",
     "title": "Sandisk 2TB Extreme Portable SSD, Up to 2000MB/s Transfer Speeds-New Model",
     "brand": "Sandisk",
-    "price": "$434.60",
+    "price": "$427.17",
     "img": "https://m.media-amazon.com/images/I/41UpTn5oveL._SL500_.jpg",
     "features": [
       "NEARLY 2X FASTER THAN OUR PREVIOUS GENERATION(8) – move 1,000 high-res photos in under 60 seconds(6) with up to 2000MB/s transfer speeds(2).",
@@ -267,7 +277,7 @@
     "asin": "B0GMX1JSGL",
     "title": "Sandisk 4TB Extreme Portable SSD, Up to 2000MB/s Transfer Speeds-New Model",
     "brand": "Sandisk",
-    "price": "$874.56",
+    "price": "$867.13",
     "img": "https://m.media-amazon.com/images/I/41UpTn5oveL._SL500_.jpg",
     "features": [
       "NEARLY 2X FASTER THAN OUR PREVIOUS GENERATION(8) – move 1,000 high-res photos in under 60 seconds(6) with up to 2000MB/s transfer speeds(2).",
@@ -322,7 +332,7 @@
     "asin": "B08RX4QKXS",
     "title": "Sandisk 4TB Extreme Portable SSD, Up to 1050MB/s, USB-C, USB 3.2 Gen 2, IP65 Water and Dust Resistance, Updated Firmware, External Solid State Drive, SDSSDE61-4T00-G25",
     "brand": "Sandisk",
-    "price": "$655.55",
+    "price": "$719.00",
     "img": "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     "features": [
       "Get NVMe solid state performance with up to 1050MB/s read and 1000MB/s write speeds in a portable, high-capacity drive(1) (Based on internal testing; performance may be lower depending on host device & other factors. 1MB=1,000,000 bytes.)",
@@ -633,7 +643,8 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Seagate portable external hard drive",
-      "external hard drive for Mac"
+      "external hard drive for Mac",
+      "portable external SSD"
     ]
   },
   "B0B28PQ4QW": {
@@ -786,7 +797,7 @@
     "asin": "B0CHFS9K14",
     "title": "Samsung T9 Portable SSD 2TB, USB 3.2 Gen 2x2 External SSD, Up to 2,000 MB/s",
     "brand": "Samsung",
-    "price": "$450.96",
+    "price": "$453.48",
     "img": "https://m.media-amazon.com/images/I/41JHNVamFwL._SL500_.jpg",
     "features": [
       "NONSTOP SPEED: Race through projects with our fastest SSD for creators; Load, edit and transfer with sustained read and write speeds of up to 2,000MB/s1; The T9 Portable SSD performs at high speeds even during longer processes",
@@ -799,7 +810,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "Samsung T9"
+      "Samsung T9",
+      "Samsung T7 Shield"
     ]
   },
   "B0CHFSZX9W": {
@@ -859,7 +871,8 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Samsung T9",
-      "Samsung T7"
+      "Samsung T7",
+      "Samsung T7 Shield"
     ]
   },
   "B0CX9BV341": {
@@ -1196,7 +1209,7 @@
     "asin": "B09VLK9W3S",
     "title": "Samsung T7 Shield Portable SSD 1TB, USB 3.2 Gen 2, Up to 1,050 MB/s",
     "brand": "Samsung",
-    "price": "$277.04",
+    "price": "$279.56",
     "img": "https://m.media-amazon.com/images/I/21mARCvUWxL._SL500_.jpg",
     "features": [
       "GO THE DISTANCE: Withstand whatever adventure with the wildly reliable T7 Shield; It’s designed for the elements with water1, dust2 and drop3 resistance—all, of course, at lightning speeds",
@@ -1211,7 +1224,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "Samsung T7"
+      "Samsung T7",
+      "Samsung T7 Shield"
     ]
   },
   "B0874YJP92": {
@@ -1253,7 +1267,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "Samsung T7"
+      "Samsung T7",
+      "Samsung T7 Shield"
     ]
   },
   "B0BHZQGN26": {
@@ -1276,7 +1291,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "Samsung T7"
+      "Samsung T7",
+      "Samsung T7 Shield"
     ]
   },
   "B088CMBD2Q": {
@@ -1566,6 +1582,103 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Seagate One Touch SSD"
+    ]
+  },
+  "B0D7MJQL82": {
+    "asin": "B0D7MJQL82",
+    "title": "SSK 128GB Portable SSD External Hard Drive Solid State Drive up to 550MB/s",
+    "brand": "SSK",
+    "price": "$38.99",
+    "img": "https://m.media-amazon.com/images/I/31R9XJJ9sJL._SL500_.jpg",
+    "features": [
+      "Capacity Reminder: Display capacity of 128GB SSD often appears as around 116GB on Windows. MacOS typically shows full 128GB. This display capacity reduction of 7% to 10% from SSD actual capacity is from algorithms differences in which 1GB is interpreted as 1024MB on Windows and 1000MB on SSDs",
+      "550MB/s: Instantly access to your files with blazing 6Gbps external ssd speed up to 550MB/s. LED Light indicates portable ssd instant activity (Actual speed depends on drive capacity, host device, OS and application)",
+      "Data Security: Master external solid state drives health with S.M.A.R.T. monitoring. TRIM technology ensures consistent write speeds and extends the longevity of the portable SSD",
+      "USB C+A : Both USB-C cable and USB-A adapter featuring rapid USB 3.2 Gen2, this USB SSD effortlessly bridges devices, enabling seamless cross-platform file transfers between computers, smartphones, tablets and Phones",
+      "Always Fast: No slowdowns during large file transfers. This external ssd remains steady 6Gbps by using high speed SLC caching (25%of the current available capacity is allocated for high speed cache)"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "portable external SSD"
+    ]
+  },
+  "B0H8RN8L3F": {
+    "asin": "B0H8RN8L3F",
+    "title": "128GB External SSD USB Drive, 520MB/s USB-C & USB-A Portable SSD -F901",
+    "brand": "fanxiang",
+    "price": "$36.99",
+    "img": "https://m.media-amazon.com/images/I/31tQe3J6VWL._SL500_.jpg",
+    "features": [
+      "【USB-A + USB-C Dual Interface】Designed with both USB-A and USB-C connectors, F901 makes it easy to transfer files between smartphones, tablets, laptops, and desktop computers without carrying extra adapters. The push-pull design lets you slide out the USB-C or USB-A connector you need while keeping the connectors protected without a separate cap.",
+      "【SSD-Level Performance, Up to 520MB/s】Experience faster file transfers with USB 3.2 Gen 2 technology, delivering up to 520MB/s read and 450MB/s write speeds under supported conditions. The SSD-level storage solution helps you move photos, videos, documents, and other large files faster than conventional USB flash drives.",
+      "【Portable with Convenient Lanyard Hole】A built-in lanyard hole gives you an easy way to attach F901 to a lanyard, keychain, bag, or other gear. Keep your 128GB USB flash drive close at hand and ready for quick file transfers wherever you go.",
+      "【Broad Device Compatibility】Pre-formatted with exFAT, ready for Android smartphones and tablets, MacBook, Windows PCs, car audio systems, and smart TVs with compatible USB ports.",
+      "【Durable Zinc Alloy Housing】Built with a zinc alloy housing for durability and efficient heat dissipation during high-speed transfers. F901 is designed for stable operation from 32°F to 122°F (0°C to 50°C).",
+      "【4K ProRes Direct Recording for iPhone】 Record 4K ProRes video directly onto the F901 using iPhone 15 Pro & Pro Max or later—helping free up internal storage and reducing the need for extra file transfers. Files are accessible through Files > Browse > F901. A practical storage companion for filmmakers, vloggers, and outdoor creators.",
+      "Capacity Reminder : A 128GB drive may display less on Windows because manufacturers use decimal calculation (1GB=1000MB) but Windows uses binary (1GB=1024MB). This is standard across all SSDs and does not reduce usable storage.",
+      "5-Year After-Sales Service : Comes with 5 years of after-sales support for long-term peace of mind. Our support team is available to assist with product-related questions or issues."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "portable external SSD"
+    ]
+  },
+  "B0HGR2Y8VV": {
+    "asin": "B0HGR2Y8VV",
+    "title": "Portable External Solid State Drive, Ultra Slim External HDD Store USB 3.0 Type-C SSD External Hard Drive for Creators, Gaming, Compatible with Mac, PC, Phone",
+    "brand": "Generic",
+    "price": "$54.98",
+    "img": "https://m.media-amazon.com/images/I/41zUwTYRRCL._SL500_.jpg",
+    "features": [
+      "【High-Speed Data Transfer】 Utilizes advanced solid-state technology and a high-speed Type-C interface to deliver fast, reliable data transfers. Perfect for creators transferring massive video files and gamers demanding smooth, responsive performance.",
+      "【Pocket-Sized & Ultra-Slim】 Exceptionally slim and lightweight architectural design. Crafted from premium materials to offer robust protection while remaining compact enough to carry anywhere, anytime.",
+      "【Plug & Play Cross-Platform】 Universal compatibility right out of the box. Seamlessly connects to Mac, Windows PC, laptops, and Type-C smartphones/tablets without needing to install any external drivers or software.",
+      "【Storage Expansion】 The ideal storage expansion solution for creators to save high-res footage, design assets, and photos, and for gamers to back up their favorite gaming setups.",
+      "【Shockproof & Durable Reliability】 Built with no moving parts to ensure silent operation, low heat generation, and superior resistance to accidental drops or vibrations, keeping your data safe."
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "portable external SSD"
+    ]
+  },
+  "B09VLHP827": {
+    "asin": "B09VLHP827",
+    "title": "Samsung T7 Shield Portable SSD 2TB, USB 3.2 Gen 2, Up to 1,050 MB/s",
+    "brand": "Samsung",
+    "price": "$546.24",
+    "img": "https://m.media-amazon.com/images/I/114OYt3SkNL._SL500_.jpg",
+    "features": [
+      "GO THE DISTANCE: Withstand whatever adventure with the wildly reliable T7 Shield; It’s designed for the elements with water1, dust2 and drop3 resistance—all, of course, at lightning speeds",
+      "YOUR CONTENT CAPTURED: Take on the project, then transfer all your heavy files within seconds with the USB 3.2 Gen 2 Portable Solid-State Drive; Compatible with PC, Mac, Android devices, gaming consoles and more",
+      "SHARE IDEAS IN A FLASH: The T7 is embedded with PCIe NVME technology that brings you fast read and write speeds up to 1,050/1,000 MB/s4, making it almost twice as fast as the T5",
+      "MAKE ROOM FOR MEMORIES: Forge your own path with a full range of storage capacities; Keep all your prized files in one place with options from 1TB to 4TB; Pack in more personal content or store your biggest tasks on this palm-sized SSD",
+      "BRAVE THE ELEMENTS: Get it done, rain or shine. With an IP65 rating for water1 and dust2 resistance, this SSD is ready to rough it; So even when you’ve got a dreary-day deadline, you can keep your projects in perfect condition",
+      "YOUR ADVENTURE'S ADVANTAGE: Secure the shot with the drop resistant T7 Shield. Its rugged design adds extra durability with protection from falls up to 9.8 feet so you can dare to reach higher5",
+      "SAMSUNG MAGICIAN SOFTWARE: Get the most out of your SSD with Samsung Magician's advanced yet intuitive optimization tools; Monitor drive health, protect valuable data, receive important updates and set up LED color combinations",
+      "WORLD’S #1 FLASH MEMORY BRAND: Performance and reliability from the world’s #1 brand for flash memory since 20036; All firmware and components are produced in-house, including our world renowned DRAM and NAND, for quality and you can trust",
+      "SUPPORTS iPHONE: Supports iPhone 15 Pro Res 4K at 60fps video and more7; Included SSD cable recommended"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "Samsung T7 Shield"
+    ]
+  },
+  "B0H6CC2KRQ": {
+    "asin": "B0H6CC2KRQ",
+    "title": "Sandisk Extreme Portable SSD - 1TB",
+    "brand": "Sandisk",
+    "price": "$229.99",
+    "img": "https://m.media-amazon.com/images/I/41GbWoP05BL._SL500_.jpg",
+    "features": [
+      "Carry your photo and video collection in this compact drive, ready to relive at a moment’s notice.",
+      "Easy Content Management: Select, copy, move, and organize content from your iPhone or iPad to the drive using the Files App",
+      "Time Machine Compatibility: Time Machine compatible for seamless backup solutions with your Mac devices",
+      "Universal Connectivity: Connections include USB-C for broad compatibility with modern devices",
+      "Massive Storage Capacity: 1TB of storage space provides ample room for your creative projects, photos, videos, and precious memories"
+    ],
+    "fetchedAt": "2026-09-26",
+    "queries": [
+      "SanDisk Extreme portable SSD"
     ]
   }
 }
