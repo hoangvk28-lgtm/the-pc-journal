@@ -170,6 +170,8 @@ Every slot resolves against `publishedArticles`, and nothing is invented to fill
 **"Why we like it" length and paragraphing (user request, Sept 2026)**
 - Keep "Why we like it" length even across picks and across guides (target 100-160 words per pick); no pick should be a one-paragraph stub next to 200-word neighbours.
 - Write paragraphs of about three sentences each. Do not split the text into one-sentence paragraphs (e.g. a lone "It also offers X." or a lone price-position line); merge short layers (notes, compatibility, price position, trade-off) into the neighbouring paragraph when composing.
+- Enforced in code since Sept 2026: `whyParagraphs()` in `lib/pc-compose/generic.ts` packs sentences into 2-4-sentence paragraphs (the renderer splits the take's first sentence off as the verdict, so the rest of the take shares a paragraph), drops sentences that restate an earlier one (60% stemmed-word overlap), trims to 160 words and only then tops up to 100 with novel, pick-specific extras. Never pad with label-restating filler ("That is why it carries the X label").
+- When a product's facts are too thin to reach 100 words, add 1-3 sentences for that ASIN in `data/clusters/why-extra.ts`, written from listing bullets that the description does not already use (not marketing copy, no invented positions or features). Measure every batch: median, <100, >160 and one-sentence paragraphs, using the renderer's verdict split.
 
 **Process and cost (batches 14-17)**
 - The planner and validator are the quality gate for scale. After each run, read a sample per group (labels, word counts, cons, one full description) before building; the validator does not catch awkward labels, wrong-audience picks or empty-sounding cons.

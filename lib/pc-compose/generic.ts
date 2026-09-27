@@ -91,7 +91,7 @@ function ranked(field: FieldDef, facts: Fact[]) {
 function rankingSentences(f: Fact, facts: Fact[], schema: CategorySchema, seed: string): string[] {
   const out: string[] = [];
   for (const field of schema.fields) {
-    if (!field.better || out.length >= 3) continue;
+    if (!field.better || out.length >= 6) continue;
     const v = num(f.specs[field.key]);
     const order = ranked(field, facts);
     if (v === undefined || order.length < 3) continue;
@@ -149,7 +149,7 @@ const anArticle = (w: string) => (/^(?:[aeio]|8|11\b|18\b)/i.test(w) || /^[FHLMN
 function descriptiveSentences(f: Fact, facts: Fact[], schema: CategorySchema, seed: string): string[] {
   const out: string[] = [];
   for (const field of schema.fields) {
-    if (field.better || out.length >= 2) continue;
+    if (field.better || out.length >= 3) continue;
     const v = f.specs[field.key];
     if (missingVal(v) || typeof v === "boolean" || typeof v === "number") continue;
     const listed = facts.filter((o) => !missingVal(o.specs[field.key]) && typeof o.specs[field.key] !== "boolean");
@@ -178,6 +178,105 @@ function descriptiveSentences(f: Fact, facts: Fact[], schema: CategorySchema, se
     }
   }
   return out;
+}
+
+/** Splits prose into sentences without breaking on decimals or model numbers. */
+const sentencesOf = (t: string) => t.split(/(?<=[.!?])\s+(?=[A-Z"(])/).map((x) => x.trim()).filter(Boolean);
+const wordsIn = (xs: string[]) => xs.join(" ").split(/\s+/).filter(Boolean).length;
+
+/**
+ * Extra, pick-specific sentences used only when "Why we like it" would fall under 100 words: who the label suits,
+ * strengths not yet mentioned, and the pick's nearest rival on its best ranked spec.
+ */
+function whyExtras(f: Fact, facts: Fact[], schema: CategorySchema, lab: { badge: string; reason: string; bestFor: string }, seed: string, cons: string[]): string[] {
+  const out: string[] = [];
+  const others = facts.filter((o) => o.asin !== f.asin);
+  // Strengths the listing supports: schema strengths, maker notes and comparative pros.
+  const strengths = [
+    ...(schema.fields.map((fd) => (!missingVal(f.specs[fd.key]) ? fd.strength?.(f.specs[fd.key]!) : undefined)).filter(Boolean) as string[]),
+    ...f.notes.map((n) => n.replace(/^(a|an|the) /i, "")),
+    ...comparativePros(f, facts, schema),
+  ];
+  // Keep brand and product words capitalised ("Logitech Flow"); lower-case only ordinary sentence starts.
+  const brand = new Set(f.name.split(/\s+/).map((w) => w.toLowerCase()));
+  const phrase = (x: string) => { const t = x.replace(/\.$/, ""); return brand.has(t.split(/\s+/)[0].toLowerCase()) ? t : lc(t); };
+  strengths.forEach((x, i) => out.push(pick([
+    `It also brings ${phrase(x)}.`,
+    `Worth noting too: ${phrase(x)}.`,
+    `Another plus is ${phrase(x)}.`,
+  ], seed + "xs" + i)));
+  // Nearest rival on each ranked spec, so the reader can see how close the alternatives are.
+  for (const fd of schema.fields.filter((x) => x.better)) {
+    const v = num(f.specs[fd.key]);
+    if (v === undefined) continue;
+    const near = others.filter((o) => num(o.specs[fd.key]) !== undefined && num(o.specs[fd.key]) !== v).sort((x, y) => Math.abs(num(x.specs[fd.key])! - v) - Math.abs(num(y.specs[fd.key])! - v))[0];
+    if (near) out.push(`The nearest alternative on ${fd.noun ?? lc(fd.label)} is the ${near.short} at ${fd.fmt(num(near.specs[fd.key])!)}, against ${fd.fmt(v)} here.`);
+  }
+  // Who it suits and what to weigh, from this pick's own label and cons.
+  if (lab.bestFor) out.push(`It makes the most sense for ${lc(lab.bestFor.replace(/\.$/, ""))}${lab.reason ? `, since it offers ${lab.reason}` : ""}.`);
+  if (cons[0]) out.push(`Before buying, weigh one limit: ${lc(cons[0].replace(/\.$/, ""))}.`);
+  return out;
+}
+
+/**
+ * Builds the description: the take's first sentence stays the verdict, and "Why we like it" is packed into paragraphs
+ * of about three sentences (never one), kept between roughly 100 and 160 words (the user's rule in CLAUDE.md).
+ */
+function whyParagraphs(p: { take: string; ranking: string[]; descriptive: string[]; notes: string; compat: string[]; price?: string; trade?: string; extras: string[] }): string[] {
+  const takeS = sentencesOf(p.take);
+  const verdict = takeS[0] ?? "";
+  const groups = [
+    [...takeS.slice(1), ...p.ranking],
+    [...p.descriptive, ...(p.notes ? [p.notes] : []), ...p.compat],
+    [...(p.price ? [p.price] : []), ...(p.trade ? [p.trade] : [])],
+  ].map((g) => g.filter((x) => x.trim()));
+  const all = () => groups.flat();
+  // Drop any sentence that restates an earlier one (e.g. a ranking line and a trade-off naming the same leader).
+  {
+    const DSTOP = new Set("the and with for its this that from have has into than more when your you are was were over under also about which while only offers offer runs run comes come here group picks pick".split(" "));
+    const dk = (t: string) => (t.toLowerCase().match(/\d+(?:\.\d+)?|[a-z]{3,}/g) ?? []).filter((w) => !DSTOP.has(w)).map((w) => w.replace(/(ing|ed|es|s)$/, ""));
+    const kept: string[][] = [dk(verdict)];
+    for (const g of groups) for (let i = 0; i < g.length; i++) {
+      const k = dk(g[i]);
+      const dup = k.length >= 3 && kept.some((o) => { const s = new Set(o); return k.filter((w) => s.has(w)).length / k.length >= 0.6; });
+      if (dup) { g.splice(i, 1); i--; } else kept.push(k);
+    }
+  }
+  // Too long: drop ranking and descriptive sentences from the end until the text fits.
+  // Order: extra descriptive/compat lines, then ranking beyond two, then the price line; the take and trade-off stay.
+  const keep0 = takeS.length - 1 + 2;
+  while (wordsIn(all()) > 160) {
+    if (groups[1].length > 1) groups[1].pop();
+    else if (groups[0].length > keep0) groups[0].pop();
+    else if (groups[1].length) groups[1].pop();
+    else if (groups[2].length > 1) groups[2].shift();
+    else if (groups[0].length > takeS.length - 1 + 1) groups[0].pop();
+    else break;
+  }
+  // Too short: add pick-specific extras.
+  // An extra is added only if most of its content words (stemmed) are new to this pick's text.
+  const STOP = new Set(["also", "brings", "worth", "noting", "another", "plus", "nearest", "alternative", "against", "here", "makes", "most", "sense", "since", "offers", "before", "buying", "weigh", "limit", "with", "that", "this", "than", "from", "your"]);
+  const stem = (w: string) => w.replace(/(ing|ed|es|s)$/, "");
+  const key = (t: string) => (t.toLowerCase().match(/\d+(?:\.\d+)?|[a-z]{3,}/g) ?? []).filter((w) => !STOP.has(w) && w !== "one" && w !== "the").map(stem);
+  for (const x of p.extras) {
+    if (wordsIn(all()) >= 100) break;
+    const seen = new Set(key([verdict, ...all()].join(" ")));
+    const k = key(x);
+    if (!k.length || k.filter((w) => seen.has(w)).length * 5 > k.length * 2) continue;
+    if (wordsIn([...all(), x]) <= 160) groups[1].push(x);
+  }
+  // Pack into paragraphs of 2-4 sentences, keeping group order.
+  const flat = all();
+  const paras: string[][] = [];
+  let cur: string[] = [];
+  for (const sent of flat) {
+    cur.push(sent);
+    if (cur.length >= 3) { paras.push(cur); cur = []; }
+  }
+  if (cur.length) { if (cur.length === 1 && paras.length) paras[paras.length - 1].push(cur[0]); else paras.push(cur); }
+  // The first "why" paragraph shares the take's paragraph so the renderer's verdict split leaves no lone sentence.
+  const body = paras.map((x) => x.join(" "));
+  return [[verdict, body[0] ?? ""].filter(Boolean).join(" "), ...body.slice(1)];
 }
 
 /** Turns a con into reader advice ("Skip it if price comes first: ..."), never a raw "not stated" line. */
@@ -395,12 +494,12 @@ export function composeGuide(cfg: GenericArticleConfig, schema: CategorySchema, 
       `The main gap: ${lc(altCon.con)}. If that matters, ${altCon.alt}.`,
       `What it gives up: ${lc(altCon.con)}; by contrast, ${altCon.alt}.`,
     ], seed + "t2") : undefined);
-    const paras = [
-      take ?? `The ${f.short} is a ${lab.badge.toLowerCase()} in this guide.`,
-      [...ranking, ...descriptiveSentences(f, facts, schema, seed), notes].filter(Boolean).join(" "),
-      [...compat, priceSentence(f, facts, seed) ?? ""].filter(Boolean).join(" "),
-      trade ?? "",
-    ].filter((p) => p.trim());
+    const paras = whyParagraphs({
+      take: take ?? `The ${f.short} is a ${lab.badge.toLowerCase()} in this guide.`,
+      ranking, descriptive: descriptiveSentences(f, facts, schema, seed), notes, compat,
+      price: priceSentence(f, facts, seed), trade,
+      extras: whyExtras(f, facts, schema, lab, seed, cmpCons.map((c) => c.con)),
+    });
 
     const specs = schema.fields.map((fd) => (f.specs[fd.key] !== undefined ? `${fd.label}: ${fd.fmt(f.specs[fd.key]!)}` : "")).filter(Boolean);
     const pros = dedupePhrases([...schema.fields.map((fd) => (!missingVal(f.specs[fd.key]) ? fd.strength?.(f.specs[fd.key]!) : undefined)).filter(Boolean) as string[], ...f.notes.map((n) => cap(n.replace(/^an? /, ""))), ...comparativePros(f, facts, schema)]);
