@@ -4,7 +4,7 @@ import { publishedArticles, PC_CATEGORIES } from "@/lib/pc-content";
 const publicPages = new Set([
   "/", "/guides", "/how-we-review", "/about-the-pc-journal",
   "/affiliate-disclosure", "/privacy-policy", "/robots.txt", "/sitemap.xml",
-  "/pc-mark.svg", "/pc-og.svg", "/pc-apple-icon.png", "/pc-logo.png", "/pc-icon-512.png", "/favicon-16x16.png", "/favicon-32x32.png",
+  "/pc-mark.svg", "/pc-og.svg", "/pc-og.png", "/pc-apple-icon.png", "/pc-logo.png", "/pc-icon-512.png", "/favicon-16x16.png", "/favicon-32x32.png",
 ]);
 const guideSlugs = new Set(publishedArticles.map((a) => a.slug));
 const topicSlugs = new Set<string>(PC_CATEGORIES);

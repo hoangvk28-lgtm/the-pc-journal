@@ -30,6 +30,8 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       { source: "/about", destination: "/about-the-pc-journal", permanent: true },
+      // Canonical host is www: send the bare domain there with a 301 (path preserved).
+      { source: "/:path*", has: [{ type: "host", value: "thepcjournal.com" }], destination: "https://www.thepcjournal.com/:path*", permanent: true },
     ];
   },
   experimental: {

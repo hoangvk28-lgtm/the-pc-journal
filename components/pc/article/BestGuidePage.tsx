@@ -99,10 +99,6 @@ export function BestGuidePage({ article, sample }: { article: BestGuide; sample?
               {products.length} products evaluated
             </p>
           </div>
-          <p className="mt-2 text-[0.8125rem] leading-snug text-ink-secondary">
-            We may earn a commission from purchases made through links in this guide.{" "}
-            <Link prefetch={false} href="/affiliate-disclosure" className="!text-ink-secondary underline underline-offset-2 hover:!text-ink">Learn more</Link>.
-          </p>
         </header>
 
         <div className="mt-6 lg:mt-8 lg:grid lg:grid-cols-[minmax(0,760px)_220px] lg:justify-between lg:gap-12">

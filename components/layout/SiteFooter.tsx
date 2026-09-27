@@ -48,7 +48,9 @@ export function SiteFooter() {
 
         <div className="mt-10 flex flex-col gap-3 border-t border-border pt-6 text-sm text-ink-secondary sm:flex-row sm:items-start sm:justify-between">
           <p className="max-w-2xl !text-sm">
-            Some retailer links may earn a commission when affiliate tracking is configured. Our guides explain their evidence and limitations.{" "}
+            As an Amazon Associate, The PC Journal earns from qualifying purchases. Our guides explain their evidence and limitations. Contact:{" "}
+            <a href="mailto:contact@thepcjournal.com" className="underline underline-offset-2 focus-ring">contact@thepcjournal.com</a>
+            {" · "}
             <Link prefetch={false} href="/affiliate-disclosure" className="underline underline-offset-2 focus-ring">
               Affiliate disclosure
             </Link>

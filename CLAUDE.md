@@ -15,7 +15,7 @@
 ## 1. Project Overview
 
 - **Site name:** The PC Journal (`SITE_NAME` in `lib/seo.ts`)
-- **Domain:** `NEXT_PUBLIC_SITE_URL`, fallback `https://thepcjournal.com`. Confirm the final canonical host (www or bare) before launch.
+- **Domain:** canonical host is `https://www.thepcjournal.com` (`NEXT_PUBLIC_SITE_URL`, same fallback in `lib/seo.ts`); the bare domain 301-redirects to www (`next.config.ts`). Contact: contact@thepcjournal.com.
 - **Repo:** `https://github.com/hoangvk28-lgtm/the-pc-journal` (`origin`). The remote `office-journal` points at the old site; never push there.
 - **Business model:** affiliate content site. Retailer links are inactive until this site's own Amazon Associates tag is configured.
 - **Niche:** research-based PC decisions: building, upgrading and choosing compatible hardware for a stated workload and budget.

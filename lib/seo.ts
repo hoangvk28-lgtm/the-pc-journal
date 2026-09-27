@@ -8,7 +8,7 @@ const SITE_NAME = "The PC Journal";
 // through and `new URL("")` crashes the build.
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-  "https://thepcjournal.com";
+  "https://www.thepcjournal.com";
 const SITE_DESCRIPTION =
   "Understand PC hardware, check compatibility and make sensible build and upgrade decisions.";
 const TWITTER_HANDLE = "";
@@ -39,7 +39,7 @@ export function buildMetadata({
     ? image.startsWith("http")
       ? image
       : `${SITE_URL}${image}`
-    : `${SITE_URL}/pc-og.svg`;
+    : `${SITE_URL}/pc-og.png`;
 
   return {
     title: { absolute: fullTitle },

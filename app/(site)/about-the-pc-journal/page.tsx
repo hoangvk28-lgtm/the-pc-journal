@@ -18,7 +18,7 @@ export default function AboutPage() {
       <p>We organize buying advice around real uses. A tiny home server, a gaming display and an everyday desktop each need different strengths. Our guides explain the specifications, trade-offs and upgrade limits to check before buying.</p>
       <h2>How we choose</h2>
       <p>We review product specifications, current listings and stated use cases, then compare the features that matter for each category. We do not claim hands-on testing unless an article explicitly documents it.</p>
-      <h2>Corrections and contact</h2><p>Found an error or an unclear compatibility claim? We welcome corrections. A dedicated publisher contact channel will be listed here before launch.</p><h2>How this site is funded</h2>
+      <h2>Corrections and contact</h2><p>Found an error or an unclear compatibility claim? We welcome corrections. Email <a href="mailto:contact@thepcjournal.com">contact@thepcjournal.com</a> with the guide&apos;s link and what needs checking, and we will review it.</p><h2>How this site is funded</h2>
       <p>Some links may earn us a commission, at no additional cost to you. Affiliate relationships do not determine which products appear in a guide.</p>
     </div>
     <Link prefetch={false} href="/guides" className="mt-8 inline-block bg-brand px-6 py-3 font-semibold text-white">Explore the guides →</Link>
