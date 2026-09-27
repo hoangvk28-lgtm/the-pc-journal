@@ -123,7 +123,7 @@ function numClaim(field: FieldDef, v: number): string {
 }
 
 /** Field labels that read badly after a value ("Autofocus Focus and Framing", "Wi-Fi 6E Wi-Fi", "White Colour"). */
-const BADGE_SKIP = /focus|privacy|resolution|wi-?fi|type|form factor|motherboards|processor|chipset|colou?r|rating|sensor|connector|gpu|memory|hdr|seat height|fans included|warranty/i;
+const BADGE_SKIP = /focus|privacy|resolution|wi-?fi|type|form factor|motherboards|processor|chipset|colou?r|rating|sensor|connector|gpu|memory|hdr|seat height|fans included|warranty|extras|connection/i;
 /** "Largest Largest Radiator Size" -> "Largest Radiator Size"; "Most M.2 Slot Count" -> "Most M.2 Slots". */
 function supBadge(sup: string, noun: string) {
   let n = title(noun).replace(new RegExp(`^${sup} `, "i"), "");
@@ -219,25 +219,25 @@ function dekFor(slug: string, fs: Fact[], schema: CategorySchema, noun: string, 
   const N = NUM[fs.length];
   const byP = [...fs].filter((f) => price(f) < Infinity).sort((a, b) => price(a) - price(b));
   const cheap = byP[0]?.short, top = byP[byP.length - 1]?.short;
-  let lead: string | undefined;
+  let lead: string | undefined; let leadAsin: string | undefined;
   for (const fd of schema.fields.filter((x) => x.better && x.superlative)) {
     const vals = fs.map((f) => num(val(f, fd.key))).filter((x): x is number => x !== undefined);
     if (vals.length < 3) continue;
     const best = fd.better === "higher" ? Math.max(...vals) : Math.min(...vals);
     const w = fs.filter((f) => num(val(f, fd.key)) === best);
-    if (w.length === 1) { lead = `the ${w[0].short} has the ${fd.superlative![0]} ${(fd.noun ?? lc(fd.label)).replace(new RegExp(`^${fd.superlative![0]} `, "i"), "")}`; break; }
+    if (w.length === 1) { leadAsin = w[0].asin; lead = `the ${w[0].short} has the ${fd.superlative![0]} ${(fd.noun ?? lc(fd.label)).replace(new RegExp(`^${fd.superlative![0]} `, "i"), "")}`; break; }
   }
   const core = (x: string) => x.toLowerCase().replace(/^(largest|highest|lowest|longest|most|max|maximum) /, "").replace(/ (size|count)$/, "");
   const uniq = fields.filter((x, i) => fields.findIndex((y) => core(y) === core(x)) === i);
   const two = joinList(uniq.slice(0, 2));
-  if (lead && cheap && lead.startsWith(`the ${cheap} `)) lead = `${lead}, and it also costs the least`;
+  if (lead && leadAsin && leadAsin === byP[0]?.asin) lead = `${lead}, and it also costs the least`;
   const v = [
     `${N} ${noun} compared, from the ${cheap} to the ${top}, with the trade-offs of each named.`,
     `We weighed ${lc(N)} ${noun} on ${two}${lead ? `; ${lead}` : ""}${lead?.endsWith("costs the least") ? "" : `, and the ${cheap} costs the least`}.`,
     `From the ${cheap} to the ${top}: ${lc(N)} ${noun} ranked on ${two}, with who should skip each one.`,
     `${N} ${noun} ranked on ${two}${lead ? `, where ${lead}` : ""}${lead?.endsWith("costs the least") ? "" : `; the ${cheap} is the cheapest route in`}.`,
   ];
-  return v[hash(slug + "d") % v.length];
+  return two ? v[hash(slug + "d") % v.length] : v[0];
 }
 /** Guide-specific FAQ and criterion built from this guide's own picks, so guides in one category do not share them. */
 function extras(s: { slug: string; kw: string; lead: string }, fs: Fact[], schema: CategorySchema, noun: string) {
@@ -304,6 +304,8 @@ export const make = (g: Group) => (s: Spec): Entry => {
     ", using what each maker states, with the trade-offs of each pick named.",
     ", with the gaps in each maker's specs noted.",
     ", with each pick's trade-offs and the pick that covers them named.",
+    ", with who each one suits, what it gives up and which pick covers that gap named.",
+    ", with who each one suits, what it gives up, which pick covers that gap and what to check before buying.",
     ".",
   ];
   const subject = s.seo && /^Best /.test(s.seo) ? s.seo.replace(/^Best /, "").split(" ").map((w) => PROPER[w.toLowerCase()] ?? (/^[A-Z][a-z]+$/.test(w) && !KEEP.has(w) ? w.toLowerCase() : w)).join(" ") : `${kwCase(s.kw)} picks`;
