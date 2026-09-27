@@ -11,8 +11,8 @@ import { toCardView } from "@/lib/pc-content/views";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
-  title: "The PC Journal",
-  description: "Research-based PC guides that help you choose compatible hardware for your workload and budget, and decide which build or upgrade makes sense.",
+  title: "The PC Journal | PC Building Guides & Hardware Picks",
+  description: "Independent guides and buying advice on PC components, builds, upgrades, monitors and peripherals, to help you choose compatible hardware for your budget.",
   path: "/",
 });
 

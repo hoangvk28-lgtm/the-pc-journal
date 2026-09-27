@@ -84,7 +84,7 @@ export function buildMetadata({
 }
 
 export const defaultMetadata: Metadata = buildMetadata({
-  title: SITE_NAME,
+  title: "The PC Journal | PC Building Guides & Hardware Picks",
   description: SITE_DESCRIPTION,
   path: "/",
 });
