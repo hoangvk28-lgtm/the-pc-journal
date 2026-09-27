@@ -1,5 +1,6 @@
 import type { BestGuide, BestProduct, HowToChooseSection, PcCategory } from "@/lib/pc-content/types";
 import { cap, hash, listJoin, pick, shuffle } from "./seed";
+import { WHY_EXTRA } from "@/data/clusters/why-extra";
 
 /**
  * Category-agnostic Best X composer.
@@ -458,7 +459,12 @@ export function buildWhy(f: Fact, facts: Fact[], schema: CategorySchema, seed: s
   const takeWords = new Set(take.toLowerCase().match(/[a-z0-9]{4,}/g) ?? []);
   const freshNotes = f.notes.filter((n) => { const w = n.toLowerCase().match(/[a-z0-9]{4,}/g) ?? []; return w.filter((x) => takeWords.has(x)).length < Math.max(1, Math.ceil(w.length / 2)); });
   const notes = freshNotes.length ? pick([`You also get ${listJoin(freshNotes)}.`, `It also comes with ${listJoin(freshNotes)}.`, `It also offers ${listJoin(freshNotes)}.`], seed + "n") : "";
-  return [take, [...rankingSentences(f, facts, schema, seed), notes].filter(Boolean).join(" "), schema.compat(f, facts).join(" "), tradeOff(f, facts, schema, seed) ?? ""].filter((x) => x.trim()).join("\n\n");
+  return whyParagraphs({
+    take: [take, WHY_EXTRA[f.asin]].filter(Boolean).join(" "),
+    ranking: rankingSentences(f, facts, schema, seed), descriptive: [], notes, compat: schema.compat(f, facts),
+    trade: tradeOff(f, facts, schema, seed),
+    extras: whyExtras(f, facts, schema, { badge: "", reason: "", bestFor: "" }, seed, comparativeCons(f, facts, schema).map((c) => c.con)),
+  }).join("\n\n");
 }
 
 export function composeGuide(cfg: GenericArticleConfig, schema: CategorySchema, factsById: Record<string, Fact>): BestGuide {
@@ -481,7 +487,7 @@ export function composeGuide(cfg: GenericArticleConfig, schema: CategorySchema, 
   const products: BestProduct[] = facts.map((f, i) => {
     const seed = `${cfg.slug}:${f.asin}`;
     const lab = taken.get(f.asin) ?? { badge: fallbacks[fb++ % fallbacks.length], reason: "", bestFor: "" };
-    const take = cfg.takes[f.asin];
+    const take = [cfg.takes[f.asin], WHY_EXTRA[f.asin]].filter(Boolean).join(" ") || undefined;
     const ranking = rankingSentences(f, facts, schema, seed);
     // Skip notes the editorial take already covers (shared distinctive words).
     const takeWords = new Set((take ?? "").toLowerCase().match(/[a-z0-9]{4,}/g) ?? []);

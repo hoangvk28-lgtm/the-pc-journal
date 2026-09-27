@@ -1,6 +1,5 @@
 import type { CategorySchema, Fact, FieldDef } from "@/lib/pc-compose/generic";
 import { TAKES20 } from "./batch20-takes";
-import { WHY_EXTRA } from "./why-extra";
 import type { PcCategory } from "@/lib/pc-content/types";
 import { batch2 } from "./batch2";
 import { batch3 } from "./batch3";
@@ -315,7 +314,7 @@ export const make = (g: Group) => (s: Spec): Entry => {
   const missingField = ranked.find((r) => fs.some((f) => val(f, g.schema.fields.find((x) => lc(x.label) === r)!.key) === undefined));
   const lines = fs.slice(1).map((f) => (labels[f.asin] ? `the ${f.short} for ${labels[f.asin].reason}` : undefined)).filter(Boolean) as string[];
   const bottom = [`Our first pick is the ${fs[0].short}${labels[fs[0].asin] ? `, chosen for ${labels[fs[0].asin].reason}` : ""}.${lines.length ? ` Look at ${joinList(lines.slice(0, 3))} if those matter more to you.` : ""}`, s.close];
-  const takes = Object.fromEntries(fs.map((f) => [f.asin, [TAKES[f.asin] ?? autoTake(f, g.schema), WHY_EXTRA[f.asin]].filter(Boolean).join(" ")]));
+  const takes = Object.fromEntries(fs.map((f) => [f.asin, TAKES[f.asin] ?? autoTake(f, g.schema)]));
   const prio = s.prio ?? g.schema.criteria.slice(0, 6).filter((_, i) => (hash(s.slug) + i) % 2 === 0).slice(0, 3).map((c) => c.id);
   return {
     schema: g.schema, facts: g.facts,

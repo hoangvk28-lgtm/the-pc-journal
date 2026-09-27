@@ -324,7 +324,7 @@ export function composePsuGuide(cfg: PsuArticleConfig): BestGuide {
       imageUrl: poolData[asin]?.img ?? "",
       amazonUrl: `https://www.amazon.com/dp/${asin}`,
       summary: rule ? cap(rule.reason(f, facts)) + "." : `${cap(strengths(f)[0] ?? "A balanced option")}, among other listed strengths.`,
-      description: psuDescriptions[cfg.slug]?.[asin] ? buildWhy(toWhyFact(f), facts.map(toWhyFact), psuWhySchema, seed, psuDescriptions[cfg.slug][asin].replace(/\n\n/g, " ")) : (templatedDescriptions.push(`${cfg.slug}:${asin}`), [verdict, p2, p3].filter(Boolean).join("\n\n")),
+      description: psuDescriptions[cfg.slug]?.[asin] ? buildWhy(toWhyFact(f), facts.map(toWhyFact), psuWhySchema, seed, psuDescriptions[cfg.slug][asin].replace(/\n\n/g, " ")) : (templatedDescriptions.push(`${cfg.slug}:${asin}`), buildWhy(toWhyFact(f), facts.map(toWhyFact), psuWhySchema, seed, [verdict, p2, p3].filter(Boolean).join(" "))),
       bestFor: (rule ? pick(rule.bestFor, seed + "b") : undefined) ?? `A ${f.watts}W ${f.form} build that values ${strengths(f).slice(0, 2).map((s) => s.toLowerCase()).join(" and ")}.`,
       skipIf: skipIf(w),
       specs: specsOf(f),
