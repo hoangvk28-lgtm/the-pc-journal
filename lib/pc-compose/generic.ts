@@ -467,6 +467,180 @@ export function buildWhy(f: Fact, facts: Fact[], schema: CategorySchema, seed: s
   }).join("\n\n");
 }
 
+const PRICE_EDGES = [50, 100, 150, 250, 500, 1000, 1500, Infinity];
+function priceBucket(v: number): string {
+  const i = PRICE_EDGES.findIndex((e) => v < e);
+  const lo = i === 0 ? 0 : PRICE_EDGES[i - 1];
+  return i === 0 ? "Under $50" : PRICE_EDGES[i] === Infinity ? `Over $${lo}` : `About $${lo} to $${PRICE_EDGES[i]}`;
+}
+
+type Label = { badge: string; reason: string; bestFor: string };
+
+/**
+ * FAQ, buying criteria, method and table intros built from this guide's own picks.
+ * Pooled category text repeated verbatim across 100+ guides (Sept 2026 audit), so pooled items are
+ * now only a small tail; the rest names this guide's products and figures. Prices stay as tiers.
+ */
+function guideSections(cfg: GenericArticleConfig, facts: Fact[], schema: CategorySchema, taken: Map<string, Label>) {
+  const s = cfg.slug;
+  const pk = <T,>(xs: T[], k: string) => xs[hash(s + k) % xs.length];
+  const plural = lc(schema.plural);
+  const N = facts.length;
+  const the = (f: Fact) => `the ${f.short}`;
+  const nounOf = (fd: FieldDef) => fd.noun ?? lc(fd.label);
+  const has = (f: Fact, fd: FieldDef) => !missingVal(f.specs[fd.key]);
+  const fmtOf = (f: Fact, fd: FieldDef) => fd.fmt(f.specs[fd.key]!);
+  const byPrice = facts.filter((f) => priceNum(f.price)).sort((a, b) => priceNum(a.price)! - priceNum(b.price)!);
+
+  // Numeric fields where the picks actually differ, most-stated first.
+  const numF = schema.fields.filter((fd) => fd.better).map((fd) => ({ fd, order: ranked(fd, facts) }))
+    .filter((x) => x.order.length >= 2 && num(x.order[0].specs[x.fd.key]) !== num(x.order[x.order.length - 1].specs[x.fd.key]))
+    .sort((a, b) => b.order.length - a.order.length);
+  // Descriptive fields with short values or yes/no flags that split the picks.
+  const catF = schema.fields.filter((fd) => !fd.better && !/^(type|does|kind|form)$/.test(fd.key)).map((fd) => {
+    const groups = new Map<string, Fact[]>();
+    for (const f of facts) {
+      if (!has(f, fd)) continue;
+      const v = f.specs[fd.key]!;
+      const key = typeof v === "boolean" ? (v ? "yes" : "no") : /^(yes|no)$/i.test(String(v)) ? String(v).toLowerCase() : fd.fmt(v);
+      groups.set(key, [...(groups.get(key) ?? []), f]);
+    }
+    return { fd, groups };
+  }).filter((x) => { const k = [...x.groups.keys()]; const yn = k.filter((v) => /^(yes|no)$/.test(v)).length; return [...x.groups.values()].flat().length >= 2 && (yn === k.length || (yn === 0 && k.every((v) => readableValue(v, x.fd.label)))); });
+  const missingOf = (fd: FieldDef) => facts.filter((f) => !has(f, fd));
+  const names = (fs: Fact[]) => listJoin(fs.map(the));
+  const verb = (fs: Fact[], one: string, many: string) => (fs.length === 1 ? one : many);
+
+  const faq: { q: string; a: string }[] = [];
+  // Head-to-head on up to three ranked fields.
+  numF.filter(({ fd, order }) => num(order[0].specs[fd.key]) !== num(order[1].specs[fd.key])).slice(0, 3).forEach(({ fd, order }, i) => {
+    const [a, b] = order, z = order[order.length - 1], n = nounOf(fd);
+    const miss = missingOf(fd);
+    const [best] = fd.superlative ?? (fd.better === "higher" ? ["highest"] : ["lowest"]);
+    faq.push({
+      q: pk([`Which has the ${best} ${n}: ${the(a)} or ${the(b)}?`, `How does ${the(b)} compare with ${the(a)} on ${n}?`, `Is ${the(a)} ahead of ${the(b)} on ${n}?`], `fq${i}`),
+      a: `${cap(the(a))} ${fd.better === "higher" ? "leads" : "comes out best"} at ${fmtOf(a, fd)}, with ${the(b)} at ${fmtOf(b, fd)}.`
+        + (order.length >= 3 && num(z.specs[fd.key]) !== num(b.specs[fd.key]) ? ` ${cap(the(z))} is at the other end of this group with ${fmtOf(z, fd)}.` : "")
+        + (miss.length ? ` ${cap(names(miss))} ${verb(miss, "doesn't", "don't")} state a figure, so ${verb(miss, "it sits", "they sit")} outside this comparison.` : ""),
+    });
+  });
+  // What the premium pick adds over the cheapest one.
+  if (byPrice.length >= 2) {
+    const lo = byPrice[0], hi = byPrice[byPrice.length - 1];
+    const gains = numF.filter(({ fd }) => has(hi, fd) && has(lo, fd) && (fd.better === "higher" ? num(hi.specs[fd.key])! > num(lo.specs[fd.key])! : num(hi.specs[fd.key])! < num(lo.specs[fd.key])!));
+    const losses = numF.filter(({ fd }) => has(hi, fd) && has(lo, fd) && !gains.includes(numF.find((x) => x.fd === fd)!) && num(hi.specs[fd.key]) !== num(lo.specs[fd.key]));
+    const g = gains.slice(0, 3).map(({ fd }) => `${nounOf(fd)} (${fmtOf(hi, fd)} against ${fmtOf(lo, fd)})`);
+    const l = losses.slice(0, 2).map(({ fd }) => `${nounOf(fd)} (${fmtOf(lo, fd)})`);
+    if (g.length || l.length)
+      faq.push({
+        q: pk([`Is ${the(hi)} worth paying more than ${the(lo)}?`, `What does ${the(hi)} add over ${the(lo)}?`], "fp"),
+        a: (g.length ? `On paper it adds ${listJoin(g)}.` : `On the figures both makers state, it adds little.`)
+          + (l.length ? ` It does not win everywhere: ${the(lo)} still leads on ${listJoin(l)}.` : "")
+          + ` ${cap(the(lo))} was the lowest-priced pick when we checked, so pay the difference only if ${g.length ? "those gains" : "a feature outside the spec sheet"} matter${g.length ? "" : "s"} to you.`,
+      });
+  }
+  // Why a labelled pick carries its badge.
+  const NEUTRAL = /^(Also Consider|Strong Alternative|Worth a Look|Solid Runner-Up|Honourable Mention|Well-Rounded Choice|Solid Alternative|Worth Considering)$/;
+  const labelled = ((l) => (l.filter((f) => !/price/i.test(taken.get(f.asin)!.reason)).length ? l.filter((f) => !/price/i.test(taken.get(f.asin)!.reason)) : l))(facts.filter((f) => taken.get(f.asin)?.reason && !NEUTRAL.test(taken.get(f.asin)!.badge)));
+  if (labelled.length) {
+    const f = pk(labelled, "fl"), l = taken.get(f.asin)!;
+    faq.push({
+      q: pk([`Why is ${the(f)} our ${l.badge} pick?`, `What makes ${the(f)} the ${l.badge}?`], "flq"),
+      a: `It earns the label for ${lc(l.reason.replace(/\.$/, ""))}.${l.bestFor ? ` It suits ${lc(l.bestFor.replace(/\.$/, "").replace(/^(buyers|anyone|people|gamers|users|those) (who|that) /i, "anyone who ").replace(/^anyone who (want|need|have|like|prefer|use|play|work|sit)\b/, (m, v) => `anyone who ${v === "have" ? "has" : v + "s"}`))}.` : ""}`,
+    });
+  }
+  // A feature that splits the picks.
+  const split = catF.find((x) => x.groups.size >= 2 || (x.groups.has("yes") && [...x.groups.values()].flat().length < N));
+  if (split) {
+    const { fd, groups } = split, lbl = lc(fd.label);
+    const yes = groups.get("yes"), no = groups.get("no");
+    const miss = missingOf(fd);
+    let a: string;
+    if (yes || no) a = `${yes ? `${cap(names(yes))} ${verb(yes, "has", "have")} it` : "None of the picks lists it"}${no ? `; ${names(no)} ${verb(no, "does", "do")} not` : ""}.`;
+    else a = [...groups.entries()].map(([v, fs]) => `${names(fs)} ${verb(fs, "uses", "use")} ${/d|[A-Z].*[A-Z]/.test(v) ? v : lc(v)}`).map((x, i) => (i === 0 ? cap(x) : x)).join("; ") + ".";
+    if (miss.length) a += ` The maker${miss.length > 1 ? "s" : ""} of ${names(miss)} ${verb(miss, "doesn't", "don't")} say.`;
+    const gs = [...groups.values()];
+    const q = yes || no
+      ? pk([`Which of these ${plural} have ${lbl}?`, `Does ${the((yes ?? no)![0])} have ${lbl}, and which others do?`], "fsq")
+      : `Do ${the(gs[0][0])} and ${the(gs[1]?.[0] ?? gs[0][1] ?? gs[0][0])} differ on ${lbl}?`;
+    faq.push({ q, a });
+  }
+  const withCompat = facts.map((f) => ({ f, c: schema.compat(f, facts) })).filter((x) => x.c.length);
+  if (withCompat.length) {
+    const x = pk(withCompat, "fc");
+    faq.push({ q: pk([`What should I check before buying ${the(x.f)}?`, `Will ${the(x.f)} work with my setup?`], "fcq"), a: x.c.slice(0, 2).join(" ") });
+  }
+  const noted = facts.filter((f) => f.notes.length);
+  if (noted.length >= 2 && faq.length < 6) {
+    const two = noted.slice(0, 3);
+    faq.push({ q: pk([`What extras do ${names(two.slice(0, 2))} include?`, `Beyond the specs, what sets ${names(two.slice(0, 2))} apart?`], "fnq"), a: two.map((f) => `${cap(the(f))} adds ${f.notes[0]}.`).join(" ") });
+  }
+  // Pooled category questions only fill a guide whose picks give too little to compare.
+  const pooledFaq = shuffle(schema.faq, s + "faq");
+  const faqOut = [...faq.slice(0, 6), ...pooledFaq.slice(0, Math.max(0, 5 - faq.length))].slice(0, 6);
+
+  // Buying criteria: ranges from this guide's picks, then a short pooled tail.
+  const crit: { title: string; body: string }[] = [];
+  numF.slice(0, 3).forEach(({ fd, order }, i) => {
+    const a = order[0], z = order[order.length - 1], n = nounOf(fd);
+    const pa = priceNum(a.price), pb = priceNum(order[1]?.price);
+    const cheaperLeader = order.length >= 3 && pa && pb && pb < pa && num(order[1].specs[fd.key]) !== num(z.specs[fd.key]) ? order[1] : undefined;
+    crit.push({
+      title: pk([`${cap(n)}`, `How much ${n} you need`, `${cap(n)} across these picks`], `ct${i}`),
+      body: `Here ${n} runs from ${fmtOf(z, fd)} on ${the(z)} to ${fmtOf(a, fd)} on ${the(a)}.`
+        + (cheaperLeader && cheaperLeader.asin !== a.asin ? pk([` ${cap(the(cheaperLeader))} comes second for less money.`, ` For less, ${the(cheaperLeader)} is the runner-up at ${fmtOf(cheaperLeader, fd)}.`], `cv${i}`) : pk([` Start with ${the(a)} if ${n} decides it.`, ` ${cap(the(a))} is the pick for ${n}.`], `cl${i}`))
+        + (missingOf(fd).length ? ` No figure for ${names(missingOf(fd))}.` : ""),
+    });
+  });
+  catF.filter((x) => x !== split).slice(0, 2).forEach(({ fd, groups }) => {
+    const parts = [...groups.entries()].map(([v, fs]) => (v === "yes" ? `${names(fs)} ${verb(fs, "has", "have")} it` : v === "no" ? `${names(fs)} ${verb(fs, "goes", "go")} without` : `${names(fs)} ${verb(fs, "lists", "list")} ${/d|[A-Z].*[A-Z]/.test(v) ? v : lc(v)}`));
+    if (groups.size < 2 && !groups.has("yes") && !groups.has("no")) return;
+    crit.push({ title: cap(lc(fd.label)), body: `${cap(parts.join("; "))}.${pk([" Settle this first, then compare prices.", " Rule out the mismatches before looking at price.", ""], "cc" + fd.key)}` });
+  });
+  if (withCompat.length >= 2 && crit.length < 5)
+    crit.push({ title: pk(["Fit and compatibility", "What to check at home", "Setup checks"], "cf"), body: withCompat.map((x) => x.c[0]).filter((c, i, arr) => arr.findIndex((o) => o.replace(/the [^,;:.]+?('s)? /gi, "").slice(-40) === c.replace(/the [^,;:.]+?('s)? /gi, "").slice(-40)) === i).slice(0, 3).map(cap).join(" ") });
+  if (noted.length >= 2 && crit.length < 5)
+    crit.push({ title: pk(["Extras that separate them", "Features beyond the spec table"], "cn"), body: noted.map((f) => ({ f, n: f.notes[f.notes.length > 1 ? 1 : 0] })).filter((x, i, arr) => arr.findIndex((o) => o.n === x.n) === i).slice(-3).map((x) => `${cap(the(x.f))} brings ${x.n}.`).join(" ") });
+  const prio = cfg.priorityCriteria ?? [];
+  const pooledCrit = crit.length >= 3 ? shuffle(schema.criteria, s) : [...prio.map((id) => schema.criteria.find((c) => c.id === id)!).filter(Boolean), ...shuffle(schema.criteria.filter((c) => !prio.includes(c.id)), s)];
+  const critOut = [...crit.slice(0, 5), ...pooledCrit.slice(0, Math.max(1, 5 - crit.length)).map((c) => ({ title: c.title, body: c.body }))].slice(0, 6);
+
+  // How we chose: this guide's fields, shared features and gaps.
+  const stated = schema.fields.filter((fd) => facts.filter((f) => has(f, fd)).length >= 2);
+  const evaluated: { title: string; description: string }[] = [];
+  if (stated.length)
+    evaluated.push({
+      title: pk(["What we compared", "The figures behind the order", "How these picks were ranked"], "e1"),
+      description: `${pk(["We lined up", "We compared", "We set side by side"], "e1a")} ${["zero", "one", "two", "three", "four", "five", "six", "seven"][N] ?? N} ${plural} on ${listJoin(stated.slice(0, 4).map((fd) => nounOf(fd)))}${pk([", using each maker's published specs", " as the makers state them", " from manufacturer specifications"], "e1b")}. We did not test them in-house.`,
+    });
+  const allStated = stated.filter((fd) => facts.every((f) => has(f, fd)));
+  const shared = catF.filter((x) => x.groups.size === 1 && [...x.groups.values()][0].length === N).map((x) => { const [v] = [...x.groups.keys()]; return v === "yes" ? lc(x.fd.label) : v === "no" ? "" : `${v} ${lc(x.fd.label)}`; }).filter(Boolean);
+  if (allStated.length || shared.length)
+    evaluated.push({
+      title: pk(["What every pick has in common", "The shared baseline"], "e2"),
+      description: [allStated.length ? `All ${N} state ${listJoin(allStated.slice(0, 3).map((fd) => nounOf(fd)))}` : "", shared.length ? `${allStated.length ? "and" : `All ${N}`} share ${listJoin(shared.slice(0, 2))}` : ""].filter(Boolean).join(" ") + ".",
+    });
+  const gaps = stated.map((fd) => ({ fd, miss: missingOf(fd) })).filter((x) => x.miss.length && x.miss.length < N);
+  const suits = facts.filter((f) => taken.get(f.asin)?.reason);
+  if (gaps.length || suits.length) evaluated.push(gaps.length
+    ? { title: "Where the specs have gaps", description: gaps.slice(0, 2).map(({ fd, miss }, i) => `${i ? names(miss) : cap(names(miss))} ${verb(miss, "gives", "give")} no ${nounOf(fd)}`).join("; ") + "." }
+    : { title: "Who each pick suits", description: suits.slice(0, 3).map((f) => `${cap(the(f))} for ${lc(taken.get(f.asin)!.reason)}`).join("; ") + "." });
+  if (byPrice.length >= 2) {
+    const lo = priceBucket(priceNum(byPrice[0].price)!), hi = priceBucket(priceNum(byPrice[byPrice.length - 1].price)!);
+    evaluated.push({ title: "Price range", description: lo === hi ? `From ${the(byPrice[0])} to ${the(byPrice[byPrice.length - 1])}, all sat in the ${lo.toLowerCase().replace(/^about /, "")} tier when we checked.` : `At our last check the picks ran from ${the(byPrice[0])} (${lo.toLowerCase().replace(/^about /, "")}) to ${the(byPrice[byPrice.length - 1])} (${hi.toLowerCase().replace(/^about /, "")}).` });
+  }
+  const evalOut = evaluated.length >= 3 ? evaluated : [...evaluated, ...shuffle(schema.evaluated, s + "eval").slice(0, 3 - evaluated.length)];
+
+  const lead = numF[0];
+  const specIntro = lead
+    ? `${cap(the(lead.order[0]))} leads on ${nounOf(lead.fd)} at ${fmtOf(lead.order[0], lead.fd)}. "Not listed" means the maker leaves that figure out.`
+    : `${cap(names(facts.slice(0, 2)))} and the rest, as their makers list them.`;
+  const priceIntro = byPrice.length >= 2
+    ? `${cap(the(byPrice[0]))} was the lowest-priced pick and ${the(byPrice[byPrice.length - 1])} the highest when we checked; tiers move with Amazon pricing.`
+    : "Prices change often; these tiers reflect Amazon prices when this guide was updated.";
+  return { faq: faqOut, criteria: critOut, evaluated: evalOut, specIntro, priceIntro };
+}
+
 export function composeGuide(cfg: GenericArticleConfig, schema: CategorySchema, factsById: Record<string, Fact>): BestGuide {
   const facts = cfg.asins.map((a) => { const f = factsById[a]; if (!f) throw new Error(`No fact sheet for ${a}`); return f; });
 
@@ -532,26 +706,21 @@ export function composeGuide(cfg: GenericArticleConfig, schema: CategorySchema, 
     };
   });
 
-  const prio = cfg.priorityCriteria ?? [];
-  const xc = cfg.extraCriteria ?? [], xf = cfg.extraFaq ?? [];
-  const crit = [...xc.map((c, i) => ({ id: `x${i}`, title: c.title, body: c.body })), ...[...prio.map((id) => schema.criteria.find((c) => c.id === id)!).filter(Boolean), ...shuffle(schema.criteria.filter((c) => !prio.includes(c.id)), cfg.slug)].slice(0, xc.length ? 4 : 6)].slice(0, 6);
-  const faq = [...xf, ...shuffle(schema.faq, cfg.slug + "faq").slice(0, xf.length ? Math.max(3, 5 - xf.length) : 6)].slice(0, 6);
-  const evaluated = shuffle(schema.evaluated, cfg.slug + "eval").slice(0, 4);
+  const sec = guideSections(cfg, facts, schema, taken);
+  const crit = sec.criteria, faq = sec.faq, evaluated = sec.evaluated;
 
   const cmpFields = schema.fields.filter((fd) => facts.filter((f) => f.specs[fd.key] !== undefined).length >= 2).slice(0, 4);
   const priced = facts.map((f) => ({ s: f.short, v: priceNum(f.price) })).filter((x) => x.v) as { s: string; v: number }[];
-  const edges = [50, 100, 150, 250, 500, 1000, 1500, Infinity];
-  const bucket = (v: number) => { const i = edges.findIndex((e) => v < e); const lo = i === 0 ? 0 : edges[i - 1]; return i === 0 ? "Under $50" : edges[i] === Infinity ? `Over $${lo}` : `About $${lo} to $${edges[i]}`; };
   const groups = new Map<string, string[]>();
-  for (const p of priced.sort((a, b) => a.v - b.v)) groups.set(bucket(p.v), [...(groups.get(bucket(p.v)) ?? []), p.s]);
+  for (const p of priced.sort((a, b) => a.v - b.v)) groups.set(priceBucket(p.v), [...(groups.get(priceBucket(p.v)) ?? []), p.s]);
 
   const howToChoose: HowToChooseSection[] = [
     { subheading: "By priority", table: { headers: ["Priority", "Consider", "Why"], rows: products.filter((p) => taken.has(p.asin)).map((p) => { const l = taken.get(p.asin)!; return [l.bestFor.replace(/\.$/, ""), factsById[p.asin].short, cap(l.reason)]; }) } },
   ];
   if (cmpFields.length)
-    howToChoose.push({ subheading: "Key specs side by side", intro: "Figures as each maker states them.", table: { headers: [schema.plural.replace(/s$/, ""), ...cmpFields.map((c) => c.label)], rows: facts.map((f) => [f.short, ...cmpFields.map((c) => (f.specs[c.key] !== undefined ? c.fmt(f.specs[c.key]!) : "Not listed"))]) } });
+    howToChoose.push({ subheading: "Key specs side by side", intro: sec.specIntro, table: { headers: [schema.plural.replace(/s$/, ""), ...cmpFields.map((c) => c.label)], rows: facts.map((f) => [f.short, ...cmpFields.map((c) => (f.specs[c.key] !== undefined ? c.fmt(f.specs[c.key]!) : "Not listed"))]) } });
   if (groups.size > 1)
-    howToChoose.push({ subheading: "By price at the time of writing", intro: "Prices change often; these tiers reflect Amazon prices when this guide was updated.", table: { headers: ["Price tier", schema.plural], rows: [...groups.entries()].map(([k, v]) => [k, v.join(", ")]) } });
+    howToChoose.push({ subheading: "By price at the time of writing", intro: sec.priceIntro, table: { headers: ["Price tier", schema.plural], rows: [...groups.entries()].map(([k, v]) => [k, v.join(", ")]) } });
 
   return {
     slug: cfg.slug, type: "best-guide", status: "published", category: cfg.category,

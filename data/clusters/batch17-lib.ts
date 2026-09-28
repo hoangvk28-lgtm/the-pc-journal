@@ -239,56 +239,6 @@ function dekFor(slug: string, fs: Fact[], schema: CategorySchema, noun: string, 
   ];
   return two ? v[hash(slug + "d") % v.length] : v[0];
 }
-/** Guide-specific FAQ and criterion built from this guide's own picks, so guides in one category do not share them. */
-function extras(s: { slug: string; kw: string; lead: string }, fs: Fact[], schema: CategorySchema, noun: string) {
-  const h = (k: string) => hash(s.slug + k);
-  const pickOf = <T,>(xs: T[], k: string) => xs[h(k) % xs.length];
-  const kw = kwCase(s.kw);
-  const extraFaq: { q: string; a: string }[] = [];
-  const extraCriteria: { title: string; body: string }[] = [];
-  // Ranked fields with at least three stated values, each giving a leader and a spread.
-  const spreads = schema.fields.filter((fd) => fd.better && fd.superlative).map((fd) => {
-    const have = fs.filter((f) => num(val(f, fd.key)) !== undefined).sort((a, b) => (fd.better === "higher" ? num(val(b, fd.key))! - num(val(a, fd.key))! : num(val(a, fd.key))! - num(val(b, fd.key))!));
-    return { fd, have };
-  }).filter((x) => x.have.length >= 3 && num(val(x.have[0], x.fd.key)) !== num(val(x.have[x.have.length - 1], x.fd.key)));
-  const noun1 = (fd: FieldDef) => (fd.noun ?? lc(fd.label)).replace(new RegExp(`^${fd.superlative![0]} `, "i"), "");
-  const fmt = (fd: FieldDef, f: Fact) => String(fd.fmt(val(f, fd.key) as never));
-  const sp = spreads[h("f") % Math.max(spreads.length, 1)];
-  if (sp) {
-    const [a, b] = sp.have, z = sp.have[sp.have.length - 1];
-    extraFaq.push({
-      q: pickOf([`Which of these ${noun} has the ${sp.fd.superlative![0]} ${noun1(sp.fd)}?`, `Which pick leads on ${noun1(sp.fd)}?`, `How do these ${noun} compare on ${noun1(sp.fd)}?`], "q1"),
-      a: pickOf([
-        `The ${a.short} leads at ${fmt(sp.fd, a)}, ahead of the ${b.short} at ${fmt(sp.fd, b)}; the ${z.short} sits at the other end with ${fmt(sp.fd, z)}.`,
-        `The ${a.short}, at ${fmt(sp.fd, a)}. The ${b.short} follows at ${fmt(sp.fd, b)}, while the ${z.short} has ${fmt(sp.fd, z)}.`,
-      ], "a1"),
-    });
-  }
-  const byP = [...fs].filter((f) => price(f) < Infinity).sort((a, b) => price(a) - price(b));
-  if (byP.length >= 3) {
-    const lo = byP[0], hi = byP[byP.length - 1];
-    extraFaq.push({
-      q: pickOf([`Which is the cheapest pick in this guide?`, `What is the least I can spend on one of these ${noun}?`, `Which pick costs the least here?`], "q2"),
-      a: pickOf([
-        `The ${lo.short} cost the least when we checked, and the ${hi.short} sat at the top of the range. Prices move often, so check the current listing before buying.`,
-        `The ${lo.short}. It undercut the ${byP[1].short} when we checked, while the ${hi.short} cost the most of the group.`,
-        `That was the ${lo.short} at our last check; if you can stretch, the ${byP[1].short} is the next step up and the ${hi.short} the priciest.`,
-        `Start with the ${lo.short}, the lowest-priced pick when we checked. The ${hi.short} is the premium end, so the spread between them shows what extra money buys here.`,
-        `At our last price check the ${lo.short} was the cheapest pick and the ${hi.short} the most expensive; the ${byP[1].short} was the next step up from the ${lo.short}.`,
-      ], "a2"),
-    });
-  }
-  const sp2 = spreads.find((x) => x !== sp);
-  if (sp2) {
-    const a = sp2.have[0], z = sp2.have[sp2.have.length - 1];
-    extraCriteria.push({
-      title: pickOf([`How much ${noun1(sp2.fd)} you need`, `Decide on ${noun1(sp2.fd)} first`, `Where these picks differ: ${noun1(sp2.fd)}`], "c1"),
-      body: `Among these picks, ${noun1(sp2.fd)} runs from ${fmt(sp2.fd, z)} on the ${z.short} to ${fmt(sp2.fd, a)} on the ${a.short}. ${pickOf(["Settle how much you need before comparing prices, since paying for more rarely helps if your use never reaches it.", "Pick the lowest figure that covers your use; the extra usually costs more than it returns.", "Match this to what you will actually do with it, then let price decide between the picks that qualify."], "c1b")}`,
-    });
-  }
-  return { extraFaq, extraCriteria };
-}
-
 const NUM = ["zero", "one", "two", "Three", "Four", "Five", "Six", "Seven"];
 
 export const make = (g: Group) => (s: Spec): Entry => {
@@ -323,7 +273,7 @@ export const make = (g: Group) => (s: Spec): Entry => {
     cfg: {
       slug: s.slug, category: g.category, updatedAt, seoTitle, title: s.h1 ?? (s.seo && /^Best /.test(s.seo) ? `The ${s.seo}` : `The Best ${title(s.kw)}`), breadcrumbLabel: s.crumb ?? seoTitle,
       mainKeyword: s.kw, dek, metaDescription, teaser: s.teaser ?? s.lead.split(/(?<=\.)\s/)[0], asins: s.asins, labels, takes,
-      intro: [s.lead, method(s.slug, ranked, missingField, g.noun)], ...extras(s, fs, g.schema, g.noun), bottomLine: bottom, priorityCriteria: prio,
+      intro: [s.lead, method(s.slug, ranked, missingField, g.noun)], bottomLine: bottom, priorityCriteria: prio,
       related: (s.rel ?? g.related).filter((x) => x !== s.slug).slice(0, 3),
     },
   };
