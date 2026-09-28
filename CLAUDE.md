@@ -173,6 +173,10 @@ Every slot resolves against `publishedArticles`, and nothing is invented to fill
 - Enforced in code since Sept 2026: `whyParagraphs()` in `lib/pc-compose/generic.ts` packs sentences into 2-4-sentence paragraphs (the renderer splits the take's first sentence off as the verdict, so the rest of the take shares a paragraph), drops sentences that restate an earlier one (60% stemmed-word overlap), trims to 160 words and only then tops up to 100 with novel, pick-specific extras. Never pad with label-restating filler ("That is why it carries the X label").
 - When a product's facts are too thin to reach 100 words, add 1-3 sentences for that ASIN in `data/clusters/why-extra.ts`, written from listing bullets that the description does not already use (not marketing copy, no invented positions or features). Measure every batch: median, <100, >160 and one-sentence paragraphs, using the renderer's verdict split.
 
+**Sections after the picks (Sept 2026 fix)**
+- FAQ, buying criteria, How We Chose and How to Choose intros are built per guide in `guideSections()` (`lib/pc-compose/generic.ts`) from the guide's own picks: named head-to-heads, premium vs cheapest, label reasons, compat checks, spec ranges, price tiers. Pooled category text only fills a guide whose picks give too little to compare.
+- The validator errors when a guide has more than 2 FAQ/criteria/method/table texts repeated verbatim in more than 10 guides. Fix it with data-driven text, never by adding pool synonyms.
+
 **Process and cost (batches 14-17)**
 - The planner and validator are the quality gate for scale. After each run, read a sample per group (labels, word counts, cons, one full description) before building; the validator does not catch awkward labels, wrong-audience picks or empty-sounding cons.
 - Subagents can hit the account's weekly limit (HTTP 429) and stop before writing anything. Check that their files changed before assuming work was done, and review everything an agent writes: agent output in these batches missed a G-SYNC field and duplicated an existing slug.

@@ -568,12 +568,12 @@ function guideSections(cfg: GenericArticleConfig, facts: Fact[], schema: Categor
   const withCompat = facts.map((f) => ({ f, c: schema.compat(f, facts) })).filter((x) => x.c.length);
   if (withCompat.length) {
     const x = pk(withCompat, "fc");
-    faq.push({ q: pk([`What should I check before buying ${the(x.f)}?`, `Will ${the(x.f)} work with my setup?`], "fcq"), a: x.c.slice(0, 2).join(" ") });
+    faq.push({ q: pk([`What should I check before buying ${the(x.f)}?`, `Will ${the(x.f)} work with my setup?`], "fcq"), a: x.c.slice(0, 2).join(" ") + ` In this guide it ranks ${ordinal(facts.indexOf(x.f) + 1)} of ${N}${taken.get(x.f.asin) && !NEUTRAL.test(taken.get(x.f.asin)!.badge) ? `, as our ${taken.get(x.f.asin)!.badge} pick` : ""}.` });
   }
   const noted = facts.filter((f) => f.notes.length);
   if (noted.length >= 2 && faq.length < 6) {
     const two = noted.slice(0, 3);
-    faq.push({ q: pk([`What extras do ${names(two.slice(0, 2))} include?`, `Beyond the specs, what sets ${names(two.slice(0, 2))} apart?`], "fnq"), a: two.map((f) => `${cap(the(f))} adds ${f.notes[0]}.`).join(" ") });
+    faq.push({ q: pk([`What extras do ${names(two.slice(0, 2))} include?`, `Beyond the specs, what sets ${names(two.slice(0, 2))} apart?`], "fnq"), a: two.map((f) => `${cap(the(f))}: ${f.notes[0]}.`).join(" ") });
   }
   // Pooled category questions only fill a guide whose picks give too little to compare.
   const pooledFaq = shuffle(schema.faq, s + "faq");
@@ -600,7 +600,17 @@ function guideSections(cfg: GenericArticleConfig, facts: Fact[], schema: Categor
   if (withCompat.length >= 2 && crit.length < 5)
     crit.push({ title: pk(["Fit and compatibility", "What to check at home", "Setup checks"], "cf"), body: withCompat.map((x) => x.c[0]).filter((c, i, arr) => arr.findIndex((o) => o.replace(/the [^,;:.]+?('s)? /gi, "").slice(-40) === c.replace(/the [^,;:.]+?('s)? /gi, "").slice(-40)) === i).slice(0, 3).map(cap).join(" ") });
   if (noted.length >= 2 && crit.length < 5)
-    crit.push({ title: pk(["Extras that separate them", "Features beyond the spec table"], "cn"), body: noted.map((f) => ({ f, n: f.notes[f.notes.length > 1 ? 1 : 0] })).filter((x, i, arr) => arr.findIndex((o) => o.n === x.n) === i).slice(-3).map((x) => `${cap(the(x.f))} brings ${x.n}.`).join(" ") });
+    crit.push({ title: pk(["Extras that separate them", "Features beyond the spec table"], "cn"), body: noted.map((f) => ({ f, n: f.notes[f.notes.length > 1 ? 1 : 0] })).filter((x, i, arr) => arr.findIndex((o) => o.n === x.n) === i).slice(-3).map((x) => `${cap(the(x.f))}: ${x.n}.`).join(" ") });
+  if (byPrice.length >= 3 && crit.length < 5) {
+    const tiers = new Map<string, Fact[]>();
+    for (const f of byPrice) { const b = priceBucket(priceNum(f.price)!).replace(/^About /, ""); tiers.set(b, [...(tiers.get(b) ?? []), f]); }
+    crit.push({ title: pk(["Budget", "How much to spend", "Where your budget lands"], "cb"), body: tiers.size > 1
+      ? [...tiers.entries()].map(([b, fs]) => `${b.toLowerCase().replace(/^under/, "under")} buys ${names(fs)}`).map((x, i) => (i ? x : cap(x))).join("; ") + " at our last check."
+      : `All ${byPrice.length} sat in one tier when we checked, from ${the(byPrice[0])} at the low end to ${the(byPrice[byPrice.length - 1])} at the top, so decide on features first.` });
+  }
+  const suitsCrit = facts.filter((f) => taken.get(f.asin)?.bestFor && !NEUTRAL.test(taken.get(f.asin)!.badge));
+  if (suitsCrit.length >= 2 && crit.length < 5)
+    crit.push({ title: pk(["Match the pick to your priority", "Start from what matters most"], "cs"), body: suitsCrit.slice(0, 3).map((f) => `${cap(lc(taken.get(f.asin)!.bestFor.replace(/\.$/, "")))}: ${the(f)}.`).join(" ") });
   const prio = cfg.priorityCriteria ?? [];
   const pooledCrit = crit.length >= 3 ? shuffle(schema.criteria, s) : [...prio.map((id) => schema.criteria.find((c) => c.id === id)!).filter(Boolean), ...shuffle(schema.criteria.filter((c) => !prio.includes(c.id)), s)];
   const critOut = [...crit.slice(0, 5), ...pooledCrit.slice(0, Math.max(1, 5 - crit.length)).map((c) => ({ title: c.title, body: c.body }))].slice(0, 6);
@@ -618,13 +628,13 @@ function guideSections(cfg: GenericArticleConfig, facts: Fact[], schema: Categor
   if (allStated.length || shared.length)
     evaluated.push({
       title: pk(["What every pick has in common", "The shared baseline"], "e2"),
-      description: [allStated.length ? `All ${N} state ${listJoin(allStated.slice(0, 3).map((fd) => nounOf(fd)))}` : "", shared.length ? `${allStated.length ? "and" : `All ${N}`} share ${listJoin(shared.slice(0, 2))}` : ""].filter(Boolean).join(" ") + ".",
+      description: [allStated.length ? `All ${N}, from ${the(facts[0])} to ${the(facts[N - 1])}, state ${listJoin(allStated.slice(0, 3).map((fd) => nounOf(fd)))}` : "", shared.length ? `${allStated.length ? "and" : `All ${N}`} share ${listJoin(shared.slice(0, 2))}` : ""].filter(Boolean).join(" ") + ".",
     });
   const gaps = stated.map((fd) => ({ fd, miss: missingOf(fd) })).filter((x) => x.miss.length && x.miss.length < N);
   const suits = facts.filter((f) => taken.get(f.asin)?.reason);
   if (gaps.length || suits.length) evaluated.push(gaps.length
     ? { title: "Where the specs have gaps", description: gaps.slice(0, 2).map(({ fd, miss }, i) => `${i ? names(miss) : cap(names(miss))} ${verb(miss, "gives", "give")} no ${nounOf(fd)}`).join("; ") + "." }
-    : { title: "Who each pick suits", description: suits.slice(0, 3).map((f) => `${cap(the(f))} for ${lc(taken.get(f.asin)!.reason)}`).join("; ") + "." });
+    : { title: "Who each pick suits", description: suits.slice(0, 3).map((f, i) => `${i ? the(f) : cap(the(f))} for ${lc(taken.get(f.asin)!.reason)}`).join("; ") + "." });
   if (byPrice.length >= 2) {
     const lo = priceBucket(priceNum(byPrice[0].price)!), hi = priceBucket(priceNum(byPrice[byPrice.length - 1].price)!);
     evaluated.push({ title: "Price range", description: lo === hi ? `From ${the(byPrice[0])} to ${the(byPrice[byPrice.length - 1])}, all sat in the ${lo.toLowerCase().replace(/^about /, "")} tier when we checked.` : `At our last check the picks ran from ${the(byPrice[0])} (${lo.toLowerCase().replace(/^about /, "")}) to ${the(byPrice[byPrice.length - 1])} (${hi.toLowerCase().replace(/^about /, "")}).` });
@@ -632,9 +642,10 @@ function guideSections(cfg: GenericArticleConfig, facts: Fact[], schema: Categor
   const evalOut = evaluated.length >= 3 ? evaluated : [...evaluated, ...shuffle(schema.evaluated, s + "eval").slice(0, 3 - evaluated.length)];
 
   const lead = numF[0];
+  const cmpMissing = schema.fields.filter((fd) => facts.filter((f) => f.specs[fd.key] !== undefined).length >= 2).slice(0, 4).some((fd) => facts.some((f) => f.specs[fd.key] === undefined));
   const specIntro = lead
-    ? `${cap(the(lead.order[0]))} leads on ${nounOf(lead.fd)} at ${fmtOf(lead.order[0], lead.fd)}. "Not listed" means the maker leaves that figure out.`
-    : `${cap(names(facts.slice(0, 2)))} and the rest, as their makers list them.`;
+    ? `${cap(the(lead.order[0]))} leads on ${nounOf(lead.fd)} at ${fmtOf(lead.order[0], lead.fd)}, ahead of ${the(lead.order[1])} at ${fmtOf(lead.order[1], lead.fd)}.${cmpMissing ? ` "Not listed" means the maker leaves that figure out.` : ""}`
+    : `${cap(the(facts[0]))}, ${the(facts[1])} and the rest, as their makers list them.`;
   const priceIntro = byPrice.length >= 2
     ? `${cap(the(byPrice[0]))} was the lowest-priced pick and ${the(byPrice[byPrice.length - 1])} the highest when we checked; tiers move with Amazon pricing.`
     : "Prices change often; these tiers reflect Amazon prices when this guide was updated.";

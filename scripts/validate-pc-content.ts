@@ -32,6 +32,18 @@ const repeated = [...grams.entries()].filter(([, s]) => s.size > 3);
 for (const [g, s] of repeated.slice(0, 15)) cross.push(`WARNING phrase in ${s.size} guides: "${g}"`);
 if (repeated.length > 15) cross.push(`WARNING ... ${repeated.length - 15} more repeated 8-word phrases`);
 
+// Sections after the picks must be written from each guide's own products: a guide may carry at most
+// 2 FAQ/criteria/method/table texts that appear verbatim in more than 10 guides (shared general advice).
+const backTexts = (a: BestGuide) => [
+  ...a.faq.flatMap((q) => [q.q, q.a]), ...a.buyingCriteria.map((c) => c.explanation),
+  ...a.howWeEvaluated.map((e) => e.description), ...a.howToChoose.flatMap((h) => [h.intro, h.note]),
+].filter((t): t is string => !!t);
+const backCount = new Map<string, number>();
+for (const a of best) for (const t of new Set(backTexts(a))) backCount.set(t, (backCount.get(t) ?? 0) + 1);
+for (const a of best) {
+  const shared = [...new Set(backTexts(a))].filter((t) => backCount.get(t)! > 10);
+  if (shared.length > 2) cross.push(`ERROR ${a.slug}: ${shared.length} FAQ/criteria/method texts repeated verbatim in 10+ guides, e.g. "${shared[0].slice(0, 70)}"`);
+}
 for (const t of templatedDescriptions) cross.push(`WARNING template description (write an article-specific one): ${t}`);
 
 // 3. Copy-paste artifacts and truncation.
