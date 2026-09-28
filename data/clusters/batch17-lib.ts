@@ -172,7 +172,7 @@ function labelsFor(fs: Fact[], schema: CategorySchema, noun: string): Record<str
       if (!has(v)) continue;
       const s = String(field.fmt(v as never));
       if (s.length > 16 || /[,()+/;\d]/.test(s) || /^(yes|no)$/i.test(s) || BADGE_SKIP.test(field.label) || fs.filter((o) => String(val(o, field.key) ?? "") === String(v)).length !== 1) continue;
-      const badge = (s.toLowerCase().includes(field.label.toLowerCase()) ? title(s) : `${title(s)} ${title(field.label)}`).replace(/\b(\w+) \1\b/gi, "$1");
+      const badge = (s.toLowerCase().includes(field.label.toLowerCase()) ? title(s) : `${title(s)} ${title(field.label)}`).replace(/\b(\w+) \1\b/gi, "$1").replace(/\bMic Microphone\b/i, "Mic");
       if (give(f, badge, `${featureOf(s, field.label)}`, `Buyers who want ${featureOf(s, field.label)}.`)) break;
     }
   }
