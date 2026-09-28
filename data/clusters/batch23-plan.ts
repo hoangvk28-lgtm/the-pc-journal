@@ -1,0 +1,166 @@
+import type { Fact } from "@/lib/pc-compose/generic";
+import type { PlanItem } from "./batch17-plan";
+
+/**
+ * Batch 23 keyword plan (guru sitemaps 18/19). Most of that list duplicates existing guides and is held in
+ * docs/batch23-held-keywords.md; this plan keeps the keywords with a distinct intent (new GPU and CPU
+ * families, per-game GPUs, switch and keycap types, mouse shapes, HDR tiers, RAM profiles).
+ */
+const s = (f: Fact, k: string) => String(f.specs[k] ?? "");
+const n = (f: Fact, k: string) => (typeof f.specs[k] === "number" ? (f.specs[k] as number) : 0);
+const t = (f: Fact) => `${f.name} ${f.short} ${f.notes.join(" ")} ${Object.values(f.specs).join(" ")}`;
+const p = (f: Fact) => Number(String(f.price ?? "").replace(/[^0-9.]/g, "")) || Infinity;
+const re = (r: RegExp) => (f: Fact) => r.test(t(f));
+const wireless = (f: Fact) => /2\.4|bluetooth|lightspeed|hyperspeed|slipstream|wireless|receiver/i.test(s(f, "connection"));
+const wired = (f: Fact) => /wired|3\.5mm|USB/i.test(s(f, "connection")) && !wireless(f);
+const oled = (f: Fact) => /OLED/i.test(s(f, "panel"));
+const size = (f: Fact) => Number(s(f, "size")) || 0;
+const chip = (c: string) => (f: Fact) => s(f, "chip") === c;
+
+const E = (slug: string, kw: string, g: PlanItem["g"], where: PlanItem["where"], sort: string, seo: string, lead: string, close: string): PlanItem => ({ slug, kw, g, where, sort, seo, lead, close });
+
+export const PLAN: PlanItem[] = [
+  // Graphics cards by model
+  E("best-gaming-gpu-rtx-5070", "gaming gpu rtx 5070", "gpu", chip("RTX 5070"), "price", "Best RTX 5070 Graphics Cards",
+    "Partner RTX 5070 cards share the same chip, so size, cooling and price separate them. Every pick is an RTX 5070 with 12GB of GDDR7, ordered from the lowest price.", "Check card length against your case before ordering a triple-fan model."),
+  E("best-gaming-gpu-rtx-5080", "gaming gpu rtx 5080", "gpu", chip("RTX 5080"), "-boost", "Best RTX 5080 Graphics Cards",
+    "The RTX 5080 targets 4K and high-refresh 1440p, and its partner cards differ mainly in clocks and cooler size. Every pick is an RTX 5080 with 16GB of GDDR7, ordered by boost clock.", "Plan for the 12V-2x6 power connector and a PSU that meets the card's recommendation."),
+  E("best-gaming-gpu-rtx-5060-ti", "gaming gpu rtx 5060 ti", "gpu", chip("RTX 5060 Ti"), "-vram", "Best RTX 5060 Ti Graphics Cards",
+    "The RTX 5060 Ti comes in 8GB and 16GB versions, and the memory size matters more than the cooler. Every pick is an RTX 5060 Ti, ordered with the larger-memory cards first.", "Read the exact memory size in the model name; both versions share one name."),
+  E("best-gaming-gpu-rx-9070-xt", "gaming gpu rx 9070 xt", "gpu", chip("RX 9070 XT"), "price", "Best RX 9070 XT Graphics Cards",
+    "The RX 9070 XT is AMD's high-end 1440p and entry 4K card for this generation. Every pick uses the RX 9070 XT with 16GB of GDDR6, ordered from the lowest price.", "Turn on FSR 4 in games that support it for the best image quality."),
+  E("best-gaming-gpu-rx-9070", "gaming gpu rx 9070", "gpu", (f) => /^RX 9070( GRE)?$/.test(s(f, "chip")), "price", "Best RX 9070 Graphics Cards",
+    "The non-XT RX 9070 trades some clock speed for lower power than the XT. Every pick is an RX 9070-class card, ordered from the lowest price.", "Compare the price gap to the XT before buying; it is sometimes small."),
+  E("best-gaming-gpu-rx-9060-xt", "gaming gpu rx 9060 xt", "gpu", chip("RX 9060 XT"), "-vram", "Best RX 9060 XT Graphics Cards",
+    "Like the 5060 Ti, the RX 9060 XT is sold with 8GB or 16GB, and the 16GB cards hold up better in newer games. Every pick is an RX 9060 XT, ordered with the larger-memory cards first.", "Check the memory size in the exact model name before buying."),
+  E("best-gaming-gpu-under-200", "gaming gpu under 200", "gpu", (f) => p(f) <= 200, "-vram", "Best Gaming GPUs Under $200",
+    "Under $200, memory size decides how long a card stays useful. Every pick cost $200 or less when we checked, ordered by video memory.", "Pair a budget card with a 1080p monitor and medium settings."),
+  // Graphics cards by game
+  E("best-gpu-for-palworld", "gpu for palworld", "gpu", (f) => n(f, "vram") >= 12 && p(f) <= 600, "-vram", "Best GPUs for Palworld",
+    "Palworld is an open-world Unreal Engine game, so video memory helps with large bases and draw distance. Every pick has 12GB or more and cost $600 or less.", "Lower shadow quality first if frame rates dip in busy bases."),
+  E("best-gpu-for-black-desert", "gpu for black desert", "gpu", (f) => n(f, "vram") >= 16 && p(f) <= 900, "price", "Best GPUs for Black Desert",
+    "Black Desert's remastered mode and crowded towns push both GPU and memory. Every pick has 16GB of video memory and cost $900 or less, ordered from the lowest price.", "Use the game's optimization mode in large siege battles."),
+  E("best-gpu-for-warframe", "gpu for warframe", "gpu", (f) => p(f) <= 350 && n(f, "vram") >= 8, "-vram", "Best GPUs for Warframe",
+    "Warframe runs well on modest hardware, so a budget card covers high frame rates at 1080p. Every pick cost $350 or less and has at least 8GB of video memory.", "Cap the frame rate to your monitor's refresh rate to keep the card cool."),
+  E("best-gpu-for-dayz", "gpu for dayz", "gpu", (f) => n(f, "vram") >= 12 && p(f) > 350 && p(f) <= 700, "-boost", "Best GPUs for DayZ",
+    "DayZ leans on the CPU in towns, so a mid-range card is enough once the processor is sorted. Every pick has 12GB or more and cost between $350 and $700.", "Lower object detail before resolution when the frame rate drops in cities."),
+  E("best-gpu-for-genshin-impact", "gpu for genshin impact", "gpu", (f) => p(f) <= 400 && n(f, "vram") >= 8, "price", "Best GPUs for Genshin Impact",
+    "Genshin Impact is light on graphics hardware, so there is little reason to overspend. Every pick cost $400 or less with at least 8GB, ordered from the lowest price.", "Spend the savings on a better monitor instead of a bigger card."),
+  E("best-gpu-for-arc-raiders", "gpu for arc raiders", "gpu", (f) => /RTX 50|RX 90/.test(s(f, "chip")) && n(f, "vram") >= 12, "price", "Best GPUs for Arc Raiders",
+    "Arc Raiders is a recent Unreal Engine 5 shooter, where current upscalers matter. Every pick is an RTX 50 or RX 9000 card with 12GB or more, so DLSS 4 or FSR 4 is available.", "Enable upscaling before lowering texture quality."),
+  E("best-gpu-for-rocket-league", "gpu for rocket league", "gpu", (f) => p(f) <= 300, "-boost", "Best GPUs for Rocket League",
+    "Rocket League is an esports title where high frame rates matter more than detail. Every pick cost $300 or less, ordered by boost clock.", "Use a high-refresh monitor; the game can drive one easily."),
+  E("best-gpu-for-ea-sports-fc-26", "gpu for ea sports fc 26", "gpu", (f) => p(f) > 250 && p(f) <= 450, "-vram", "Best GPUs for EA Sports FC 26",
+    "FC 26 runs well on mainstream cards, and a mid-range GPU keeps it smooth at 1440p. Every pick cost between $250 and $450, ordered by video memory.", "Check the game's latest PC requirements before upgrading."),
+  E("best-gpu-for-dead-by-daylight", "gpu for dead by daylight", "gpu", (f) => p(f) <= 350 && /RTX|RX/.test(s(f, "chip")), "price", "Best GPUs for Dead by Daylight",
+    "Dead by Daylight is not demanding, so an entry card is enough for high frame rates at 1080p. Every pick is an NVIDIA or AMD card that cost $350 or less.", "Keep drivers current; the game updates often."),
+  E("best-gpu-for-dota-2", "gpu for dota 2", "gpu", (f) => p(f) <= 250, "-vram", "Best GPUs for Dota 2",
+    "Dota 2 depends more on the CPU than the graphics card. Every pick cost $250 or less, ordered by video memory, so the rest of the budget can go to the processor.", "Pair the card with a fast CPU for late-game team fights."),
+  E("best-gpu-for-gta-v", "gpu for gta v", "gpu", (f) => /RTX/.test(s(f, "chip")) && n(f, "vram") >= 8 && p(f) <= 500, "-vram", "Best GPUs for GTA V",
+    "GTA V Enhanced adds ray-traced effects to an older game, so an RTX card makes sense. Every pick is an NVIDIA RTX card with 8GB or more that cost $500 or less.", "Choose the Enhanced edition to use ray tracing and DLSS."),
+  // Processors
+  E("best-gaming-cpu-ryzen-9000", "gaming cpu ryzen 9000", "cpu", (f) => /Ryzen \d 9\d{3}/.test(f.short), "-boost", "Best Ryzen 9000 CPUs for Gaming",
+    "Ryzen 9000 chips use AMD's Zen 5 cores on the AM5 socket. Every pick is a Ryzen 9000-series processor, ordered by boost clock.", "Update the motherboard BIOS before installing a Ryzen 9000 chip on an older AM5 board."),
+  E("best-gaming-cpu-intel-core-ultra", "gaming cpu intel core ultra", "cpu", re(/Core Ultra/), "-cores", "Best Intel Core Ultra CPUs for Gaming",
+    "Core Ultra 200S chips moved Intel to the LGA1851 socket and DDR5 only. Every pick is a Core Ultra processor, ordered by core count.", "Budget for an LGA1851 motherboard; older Intel boards do not fit."),
+  E("best-gaming-cpu-ryzen-9", "gaming cpu ryzen 9", "cpu", re(/Ryzen 9/), "-cores", "Best Ryzen 9 CPUs for Gaming",
+    "Ryzen 9 chips add cores for streaming, rendering and compiling on top of gaming. Every pick is a Ryzen 9, ordered by core count.", "A 12- or 16-core chip needs a capable cooler; budget for one."),
+  E("best-gaming-cpu-ryzen-7", "gaming cpu ryzen 7", "cpu", re(/Ryzen 7/), "-l3", "Best Ryzen 7 CPUs for Gaming",
+    "Ryzen 7 is AMD's eight-core tier, and the X3D models add cache that helps games. Every pick is a Ryzen 7, ordered by L3 cache.", "Check whether a cooler is in the box; many Ryzen 7 chips ship without one."),
+  E("best-gaming-cpu-i5", "gaming cpu i5", "cpu", (f) => /Core i5/.test(f.short) && s(f, "socket") === "LGA1700", "-boost", "Best Intel Core i5 CPUs for Gaming",
+    "Core i5 is Intel's mainstream gaming tier. Every pick is a Core i5 on the LGA1700 socket, ordered by boost clock.", "K and KF chips need a Z-series board to overclock."),
+  E("best-gaming-cpu-rtx-4090-pairing", "gaming cpu rtx 4090 pairing", "cpu", (f) => n(f, "l3") >= 96 || /285K|14900K/.test(f.short), "-l3", "Best CPUs to Pair With an RTX 4090",
+    "An RTX 4090 is fast enough that the CPU often limits it below 4K. Every pick has 96MB or more of L3 cache or is Intel's top gaming chip, ordered by cache.", "Play at 4K or with high settings to keep the GPU as the limit."),
+  // Monitors
+  E("best-gaming-monitor-1080p-240hz", "gaming monitor 1080p 240hz", "monitor", (f) => s(f, "res") === "1920x1080" && n(f, "hz") >= 240, "price", "Best 1080p 240Hz Gaming Monitors",
+    "1080p at 240Hz is the budget route to esports frame rates. Every pick is a 1080p panel at 240Hz or more, ordered from the lowest price.", "Use DisplayPort to reach the full refresh rate."),
+  E("best-gaming-monitor-1080p-144hz", "gaming monitor 1080p 144hz", "monitor", (f) => s(f, "res") === "1920x1080" && n(f, "hz") >= 144 && n(f, "hz") <= 200, "price", "Best 1080p 144Hz Gaming Monitors",
+    "A 1080p high-refresh monitor is the cheapest real upgrade over 60Hz. Every pick is a 1080p panel between 144Hz and 200Hz, ordered from the lowest price.", "Set the refresh rate in Windows; many monitors start at 60Hz."),
+  E("best-gaming-monitor-hdmi-21", "gaming monitor hdmi 2.1", "monitor", re(/HDMI 2\.1/), "-hz", "Best HDMI 2.1 Gaming Monitors",
+    "HDMI 2.1 lets a PS5 or Xbox Series X run 4K at 120Hz. Every pick lists HDMI 2.1, ordered by refresh rate.", "Use the certified cable that comes with the monitor."),
+  E("best-gaming-monitor-freesync-premium", "gaming monitor freesync premium", "monitor", (f) => /FreeSync Premium(?! Pro)/.test(s(f, "sync")), "price", "Best FreeSync Premium Gaming Monitors",
+    "FreeSync Premium adds low framerate compensation, which keeps motion smooth when frame rates fall. Every pick is certified FreeSync Premium, ordered from the lowest price.", "Turn on adaptive sync in both the monitor menu and the GPU driver."),
+  E("best-gaming-monitor-freesync-premium-pro", "gaming monitor freesync premium pro", "monitor", (f) => /Premium Pro/.test(s(f, "sync")), "-hz", "Best FreeSync Premium Pro Monitors",
+    "FreeSync Premium Pro adds HDR handling on top of low framerate compensation. Every pick is certified FreeSync Premium Pro, ordered by refresh rate.", "Use HDR mode in games that support it; the certification covers HDR tone mapping."),
+  E("best-gaming-monitor-27-4k-ips", "gaming monitor 27 4k ips", "monitor", (f) => size(f) >= 26.5 && size(f) <= 28 && s(f, "res") === "3840x2160" && /IPS/.test(s(f, "panel")), "-hz", "Best 27-Inch 4K IPS Gaming Monitors",
+    "A 27-inch 4K screen gives very sharp text and games. Every pick is a 27-inch 4K IPS panel, ordered by refresh rate.", "Set Windows scaling to 150% for readable text."),
+  E("best-gaming-monitor-oled-1440p", "gaming monitor oled 1440p", "monitor", (f) => oled(f) && s(f, "res") === "2560x1440", "price", "Best 1440p OLED Gaming Monitors",
+    "1440p OLED pairs near-instant response with a resolution mid-range GPUs can drive. Every pick is a 1440p OLED, ordered from the lowest price.", "Leave the panel's refresh cycle enabled to limit burn-in."),
+  E("best-gaming-monitor-oled-27", "gaming monitor oled 27", "monitor", (f) => oled(f) && size(f) >= 26.5 && size(f) <= 27.5, "-hz", "Best 27-Inch OLED Gaming Monitors",
+    "27 inches is the most common OLED gaming size. Every pick is a 27-inch OLED, ordered by refresh rate.", "Hide the taskbar to reduce static elements on screen."),
+  E("best-gaming-monitor-oled-32", "gaming monitor oled 32", "monitor", (f) => oled(f) && size(f) >= 31 && size(f) <= 32.5, "price", "Best 32-Inch OLED Gaming Monitors",
+    "32-inch OLEDs are mostly 4K, which suits both games and desk work. Every pick is a 32-inch OLED, ordered from the lowest price.", "Sit about 70 to 90cm away to take in the whole screen."),
+  E("best-gaming-monitor-oled-ultrawide", "gaming monitor oled ultrawide", "monitor", (f) => oled(f) && /^(3440|5120)x1440/.test(s(f, "res")), "price", "Best Ultrawide OLED Gaming Monitors",
+    "Ultrawide OLEDs combine a wider field of view with OLED contrast. Every pick is an OLED at 3440x1440 or wider, ordered from the lowest price.", "Check that your games support 21:9 or 32:9 before buying."),
+  E("best-gaming-monitor-curved-27", "gaming monitor curved 27", "monitor", (f) => size(f) >= 26.5 && size(f) <= 27.5 && re(/curved|\d{3,4}R\b/i)(f), "price", "Best 27-Inch Curved Gaming Monitors",
+    "A mild curve on a 27-inch screen keeps the edges closer to your eyes. Every pick is a curved 27-inch monitor, ordered from the lowest price.", "Curves matter most when you sit close; keep it at arm's length."),
+  E("best-gaming-monitor-curved-32", "gaming monitor curved 32", "monitor", (f) => size(f) >= 31 && size(f) <= 32.5 && re(/curved|\d{3,4}R\b/i)(f), "-hz", "Best 32-Inch Curved Gaming Monitors",
+    "At 32 inches, a curve helps keep the corners in view. Every pick is a curved 31.5 to 32-inch monitor, ordered by refresh rate.", "Measure desk depth; a 32-inch curved screen needs room."),
+  E("best-gaming-monitor-hdr600", "gaming monitor hdr600", "monitor", (f) => /600|True Black 400|True Black 500|1000/.test(s(f, "hdr")), "price", "Best HDR600 and Better Gaming Monitors",
+    "DisplayHDR 400 panels rarely look like real HDR; 600 and OLED True Black tiers do. Every pick is certified DisplayHDR 600, True Black or higher, ordered from the lowest price.", "Calibrate HDR with the Windows HDR Calibration app."),
+  E("best-gaming-monitor-4k-under-500", "gaming monitor 4k under 500", "monitor", (f) => s(f, "res") === "3840x2160" && p(f) <= 500, "-hz", "Best 4K Gaming Monitors Under $500",
+    "Under $500, 4K monitors differ most in refresh rate. Every pick is 4K and cost $500 or less, ordered by refresh rate.", "Pair 4K with a GPU that can use upscaling."),
+  E("best-24-inch-gaming-monitor", "24 inch gaming monitor", "monitor", (f) => size(f) >= 23.5 && size(f) <= 25, "-hz", "Best 24-Inch Gaming Monitors",
+    "24 inches is the esports standard because the whole screen fits in view. Every pick is between 23.8 and 24.5 inches, ordered by refresh rate.", "Lower the screen so the top edge sits at eye level."),
+  E("best-gaming-monitor-1080p", "gaming monitor 1080p", "monitor", (f) => s(f, "res") === "1920x1080" && size(f) >= 24, "-size", "Best 1080p Gaming Monitors",
+    "1080p keeps frame rates high on modest GPUs. Every pick is a 1080p monitor of 24 inches or more, ordered with the larger screens first.", "Above 27 inches, 1080p looks soft up close; sit farther back."),
+  // Headsets
+  E("best-gaming-headset-dolby-atmos", "gaming headset dolby atmos", "headset", re(/Atmos/), "-driver", "Best Dolby Atmos Gaming Headsets",
+    "Dolby Atmos for Headphones places sounds above and around you, which helps locate footsteps. Every pick supports Dolby Atmos, ordered by driver size.", "Check whether the Atmos license is included or a separate purchase."),
+  E("best-gaming-headset-noise-cancelling-mic", "gaming headset noise cancelling mic", "headset", (f) => !!s(f, "mic") && !/^(no|none)/i.test(s(f, "mic")) && re(/noise[- ]cancel\w* (mic|microphone|boom)|\bENC\b|AI noise/i)(f), "price", "Best Headsets With Noise-Cancelling Mics",
+    "A noise-cancelling mic keeps keyboard clicks and room noise out of voice chat. Every pick lists a noise-cancelling microphone, ordered from the lowest price.", "Position the mic at the corner of your mouth, not in front."),
+  E("best-gaming-headset-anc", "gaming headset anc", "headset", re(/active noise|\bANC\b/), "-battery", "Best ANC Gaming Headsets",
+    "Active noise cancelling blocks steady noise such as fans and traffic. Every pick lists ANC, ordered by battery life.", "ANC uses battery; turn it off at a quiet desk."),
+  E("best-gaming-headset-usb-c", "gaming headset usb c", "headset", (f) => /USB-C/i.test(s(f, "connection")) && !/in-ear/i.test(s(f, "design")), "-driver", "Best USB-C Gaming Headsets",
+    "A USB-C headset or dongle plugs into phones, handhelds and laptops without an adapter. Every pick connects over USB-C, ordered by driver size.", "Check that your device supports USB audio before buying."),
+  E("best-gaming-headset-wireless-under-100", "gaming headset wireless under 100", "headset", (f) => wireless(f) && p(f) <= 100, "-battery", "Best Wireless Gaming Headsets Under $100",
+    "Under $100, battery life is the clearest difference between wireless headsets. Every pick is wireless and cost $100 or less, ordered by battery life.", "Use the 2.4GHz dongle for games; Bluetooth lags."),
+  E("best-gaming-headset-for-switch", "gaming headset for switch", "headset", re(/Switch/), "price", "Best Gaming Headsets for Switch",
+    "The Switch takes 3.5mm headsets in handheld mode, and some USB-C or Bluetooth headsets in the dock. Every pick lists Switch support, ordered from the lowest price.", "Use the 3.5mm jack on the console for voice chat."),
+  E("best-gaming-headset-planar-magnetic", "gaming headset planar magnetic", "headset", re(/planar/i), "price", "Best Planar Magnetic Headphones for Gaming",
+    "Planar magnetic drivers give low distortion and detailed sound. Every pick uses planar drivers, ordered from the lowest price.", "Planars can need more power; a USB DAC or amp helps."),
+  E("best-gaming-headset-audiophile", "gaming headset audiophile", "headset", (f) => /open/i.test(s(f, "design")) && p(f) >= 100, "-driver", "Best Audiophile Headphones for Gaming",
+    "Open-back audiophile headphones give a wider soundstage than most gaming headsets. Every pick is open-back and cost $100 or more, ordered by driver size.", "Add a separate mic; most audiophile headphones have none."),
+  // Keyboards
+  E("best-gaming-keyboard-wireless-full-size", "gaming keyboard wireless full size", "gkb", (f) => wireless(f) && /full|100%|104|108|96%/i.test(s(f, "layout")), "-battery", "Best Wireless Full-Size Gaming Keyboards",
+    "A wireless full-size board keeps the number pad without a cable across the desk. Every pick is wireless with a full or 96% layout, ordered by battery life.", "Use the 2.4GHz dongle for gaming."),
+  E("best-gaming-keyboard-wireless-tkl", "gaming keyboard wireless tkl", "gkb", (f) => wireless(f) && /TKL|tenkeyless|80%/i.test(s(f, "layout")), "-battery", "Best Wireless TKL Gaming Keyboards",
+    "A tenkeyless layout frees mouse space, and wireless removes the cable. Every pick is a wireless TKL, ordered by battery life.", "Turn off RGB to stretch battery life."),
+  E("best-gaming-keyboard-tkl-wired", "gaming keyboard tkl wired", "gkb", (f) => wired(f) && /TKL|tenkeyless|80%/i.test(s(f, "layout")), "price", "Best Wired TKL Gaming Keyboards",
+    "A wired TKL never needs charging and costs less than wireless. Every pick is a wired tenkeyless board, ordered from the lowest price.", "A detachable cable is easier to route and replace."),
+  E("best-gaming-keyboard-optical-switches", "gaming keyboard optical switches", "gkb", (f) => /optical|OptiPoint/i.test(s(f, "switch")), "-polling", "Best Optical-Switch Gaming Keyboards",
+    "Optical switches register a press with light, so there is no contact bounce. Every pick uses optical switches, ordered by polling rate.", "Check switch compatibility before buying replacement switches."),
+  E("best-gaming-keyboard-pbt-keycaps", "gaming keyboard pbt keycaps", "gkb", (f) => /PBT/i.test(s(f, "keycaps")), "price", "Best Gaming Keyboards With PBT Keycaps",
+    "PBT keycaps resist the shine that ABS caps develop. Every pick ships with PBT keycaps, ordered from the lowest price.", "Double-shot legends last longer than printed ones."),
+  E("best-gaming-keyboard-aluminum", "gaming keyboard aluminum", "gkb", re(/alumin/i), "price", "Best Aluminum Gaming Keyboards",
+    "An aluminum plate or case adds stiffness and weight so the board does not slide. Every pick lists aluminum in its build, ordered from the lowest price.", "Aluminum boards are heavy; fine for a desk, less for travel."),
+  E("best-gaming-keyboard-membrane", "gaming keyboard membrane", "gkb", (f) => /membrane/i.test(s(f, "switch")), "price", "Best Membrane Gaming Keyboards",
+    "Membrane keyboards are quieter and cheaper than most mechanical boards. Every pick uses membrane switches, ordered from the lowest price.", "Check for anti-ghosting on the keys you use together."),
+  // Mice
+  E("best-gaming-mouse-right-handed", "gaming mouse right handed", "gmouse", (f) => /Right-handed/.test(s(f, "shape")), "weight", "Best Right-Handed Gaming Mice",
+    "A right-handed shape supports the palm and thumb better than a symmetrical one. Every pick has a right-handed ergonomic shape, ordered from the lightest.", "Measure your hand; ergonomic shapes suit a size range."),
+  E("best-gaming-mouse-ambidextrous", "gaming mouse ambidextrous", "gmouse", (f) => /Ambidextrous/.test(s(f, "shape")), "weight", "Best Ambidextrous Gaming Mice",
+    "An ambidextrous mouse works in either hand. Every pick is listed as ambidextrous, ordered from the lightest.", "Check that side buttons exist on both sides if you are left-handed."),
+  E("best-gaming-mouse-8000hz", "gaming mouse 8000hz", "gmouse", (f) => n(f, "polling") >= 8000, "weight", "Best 8000Hz Gaming Mice",
+    "8000Hz polling cuts input delay to a fraction of a millisecond on high-refresh monitors. Every pick supports 8000Hz, ordered from the lightest.", "8000Hz uses more CPU; drop to 2000Hz if games stutter."),
+  E("best-gaming-mouse-wired-ultralight", "gaming mouse wired ultralight", "gmouse", (f) => wired(f) && n(f, "weight") > 0 && n(f, "weight") <= 65, "weight", "Best Wired Ultralight Gaming Mice",
+    "A wired ultralight saves the weight of a battery. Every pick is wired and weighs 65g or less, ordered from the lightest.", "A paracord-style cable or bungee reduces drag."),
+  E("best-gaming-mouse-budget-under-25", "gaming mouse budget under 25", "gmouse", (f) => p(f) <= 25, "-dpi", "Best Gaming Mice Under $25",
+    "Under $25, sensor range and button count are what change between mice. Every pick cost $25 or less, ordered by DPI.", "Most players use 800 to 1600 DPI; a higher maximum is not a reason on its own."),
+  E("best-gaming-mouse-high-dpi", "gaming mouse high dpi", "gmouse", (f) => n(f, "dpi") >= 26000, "-dpi", "Best High-DPI Gaming Mice",
+    "High-DPI sensors matter on 4K screens where low DPI means long swipes. Every pick reaches 26,000 DPI or more, ordered by maximum DPI.", "Raise DPI and lower in-game sensitivity rather than the reverse."),
+  E("best-gaming-mousepad-hard", "gaming mousepad hard", "pad", (f) => /glass|hard|polycarbonate/i.test(s(f, "surface")), "price", "Best Hard Gaming Mousepads",
+    "Hard pads glide faster than cloth and are easy to clean. Every pick has a glass, polycarbonate or hard polymer surface, ordered from the lowest price.", "Check that your mouse feet suit a hard surface; some wear faster."),
+  // Memory
+  E("best-gaming-ram-ddr5-expo", "gaming ram ddr5 expo", "ram", (f) => /EXPO/.test(s(f, "profiles")) && s(f, "gen") === "DDR5", "cl", "Best DDR5 EXPO RAM Kits",
+    "EXPO profiles set AMD-tested speed and timings in one BIOS setting. Every pick is DDR5 with an EXPO profile, ordered by CAS latency.", "Enable EXPO in the BIOS; kits run at base speed until you do."),
+  E("best-gaming-ram-ddr5-6000", "gaming ram ddr5 6000", "ram", (f) => n(f, "speed") === 6000 && s(f, "gen") === "DDR5", "cl", "Best DDR5-6000 Gaming RAM",
+    "DDR5-6000 is the speed AMD recommends for Ryzen 7000 and 9000. Every pick runs at 6,000MT/s, ordered by CAS latency.", "Update the BIOS before enabling EXPO or XMP."),
+  E("best-gaming-ram-16gb-ddr4", "gaming ram 16gb ddr4", "ram", (f) => n(f, "capacity") === 16 && s(f, "gen") === "DDR4", "-speed", "Best 16GB DDR4 Gaming RAM",
+    "16GB of DDR4 still suits budget AM4 and older Intel builds. Every pick is a 16GB DDR4 kit, ordered by speed.", "Buy a matched two-stick kit rather than two single sticks."),
+  E("best-rgb-gaming-ram", "rgb gaming ram", "ram", (f) => f.specs.rgb === true, "-speed", "Best RGB Gaming RAM",
+    "RGB kits add lighting on top of the same memory chips. Every pick has RGB lighting, ordered by speed.", "Check whether the lighting software supports your motherboard's sync."),
+  // Power
+  E("best-gaming-psu-atx3", "gaming psu atx 3.1", "psu", (f) => /3\.[01]/.test(s(f, "atx")) && n(f, "hpwr") >= 1, "price", "Best ATX 3.1 Gaming Power Supplies",
+    "ATX 3.1 units handle GPU power spikes and include a native 12V-2x6 cable. Every pick is ATX 3.x with a native 12V-2x6 connector, ordered from the lowest price.", "Seat the 12V-2x6 plug fully; a partly inserted plug can overheat."),
+];

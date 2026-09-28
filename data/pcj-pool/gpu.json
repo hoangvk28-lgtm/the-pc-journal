@@ -179,7 +179,7 @@
       "Metal Backplate, Bundled GPU Support Stand, White LED Lighting",
       "3 x DisplayPort 2.1b, 1 x HDMI 2.1b, 8K Ready, 4 Display Ready, HDCP 2.3, VR Ready"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-28",
     "queries": [
       "RTX 5070 Ti graphics card",
       "MSI RTX 5070 Ti",
@@ -187,7 +187,8 @@
       "Zotac RTX 5070 Ti",
       "PNY RTX 5070 Ti",
       "SFF ready RTX 5070",
-      "ZOTAC Gaming GeForce RTX graphics card"
+      "ZOTAC Gaming GeForce RTX graphics card",
+      "ZOTAC RTX 5090 Solid"
     ]
   },
   "B0DTR7GWG6": {
@@ -406,7 +407,7 @@
     "asin": "B0DV9GMDLR",
     "title": "MSI NVIDIA GeForce RTX 5070 Ti 16G Gaming Trio OC Plus Graphics Card - 16 GB GDDR7 (28 GB/s, 256-bit), PCIe 5.0 - TRI FROZR 4 (3 x STORMFORCE Fans) - RGB - HDMI 2.1b, DisplayPort 2.1b",
     "brand": "msi",
-    "price": "$1,599.99",
+    "price": "$1,595.00",
     "img": "https://m.media-amazon.com/images/I/41WXO+1IipL._SL500_.jpg",
     "features": [
       "NVIDIA GEFORCE RTX 5070 Ti GPU - Blackwell advanced architecture with extreme 4th generation RTX ray tracing capabilities (QHD/1440p) and 16GB (28Gbps) GDDR7 memory); Supports DLSS 4.0 enhanced frame rate performance.",
@@ -415,9 +416,10 @@
       "Careful design – The metal back plate reinforces the chassis and its perforated design helps reduce trapped heat; The PCB includes high power limit circuits and high-end electrical protectors.",
       "STURDY & POWERFUL - 2.5-slot card (PCIe 5.0 x16); Measures 338mm long and weighs 1310g; Recommended PSU power of 650W or more (16 pins, 250W power consumption); Rear ports include 3 x DisplayPort 2.1b and 1 x HDMI 2.1b B (4K / 480Hz)"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-28",
     "queries": [
-      "MSI RTX 5070 Ti"
+      "MSI RTX 5070 Ti",
+      "MSI GeForce RTX 5090 Gaming Trio"
     ]
   },
   "B0FP7H2FFY": {
@@ -460,7 +462,7 @@
     "asin": "B0DS2R6948",
     "title": "GIGABYTE GeForce RTX 5080 Gaming OC 16G Graphics Card, WINDFORCE Cooling System, 16GB 256-bit GDDR7, GV-N5080GAMING OC-16GD Video Card",
     "brand": "GIGABYTE",
-    "price": "$1,599.99",
+    "price": "$1,658.51",
     "img": "https://m.media-amazon.com/images/I/416yjutbhcL._SL500_.jpg",
     "features": [
       "Powered by the NVIDIA Blackwell architecture and DLSS 4",
@@ -469,7 +471,7 @@
       "PCIe 5.0",
       "WINDFORCE cooling system"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-28",
     "queries": [
       "MSI RTX 5070 Ti",
       "Gigabyte RTX 5070 Ti",
@@ -478,7 +480,8 @@
       "RTX 5060 Ti 16GB graphics card",
       "RTX 4090 graphics card",
       "RTX 4080 Super graphics card",
-      "RTX 4080 graphics card 16GB"
+      "RTX 4080 graphics card 16GB",
+      "Gigabyte GeForce RTX 5090 Gaming OC"
     ]
   },
   "B0DZZ6VGJW": {
@@ -729,7 +732,7 @@
     "asin": "B0DVCB114L",
     "title": "Gigabyte AORUS GeForce RTX 5090 Xtreme WATERFORCE 32G Graphics Card - 32 GB GDDR7, 512 Bits, PCI-E 5.0, 2655 MHz Core Frequency, 3 x DP 2.1a, 1 x HDMI 2.1b, NVIDIA DLSS 4, GV-N5090AORUSX W-32GD",
     "brand": "GIGABYTE",
-    "price": "$7,099.99",
+    "price": "$7,055.90",
     "img": "https://m.media-amazon.com/images/I/51KUZYCFvgL._SL500_.jpg",
     "features": [
       "Equipped with GeForce RTX 5090 chipset",
@@ -739,16 +742,18 @@
       "Protective metal back plate",
       "4 year warranty (online registration required)"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-28",
     "queries": [
-      "RTX 5090 graphics card"
+      "RTX 5090 graphics card",
+      "MSI GeForce RTX 5090 Gaming Trio",
+      "Gigabyte GeForce RTX 5090 Gaming OC"
     ]
   },
   "B0GK7GWKT2": {
     "asin": "B0GK7GWKT2",
     "title": "ASUS ROG Astral GeForce RTX 5090 OC Edition Quad Fan Graphics Card, 32GB GDDR7, 3352 AI Tops, 512-bit, DLSS 4, AI Content Creation, Local LLM Inference, DP 2.1b x3, HDMI 2.1b x2, with GPU Holder",
     "brand": "ASUS",
-    "price": "$6,699.99",
+    "price": "$7,629.00",
     "img": "https://m.media-amazon.com/images/I/51zwOrJ0p6L._SL500_.jpg",
     "features": [
       "[3352 AI TOPS, 5th Gen Tensor Cores, AI Content Creation] Built for AI-assisted photo and video workflows including upscaling, denoise, background removal, masking, and generative AI creation for faster creator productivity.",
@@ -757,16 +762,20 @@
       "[Quad-Fan Force, Vapor Chamber, Phase-Change Thermal Pad] Designed for sustained performance under heavy loads with quad-fan cooling, a patented vapor chamber, and a phase-change GPU thermal pad to help lower temps and reduce hotspots.",
       "[DP 2.1b x3, HDMI 2.1b x2, Bundle GPU Holder] Multi-display ready with up to 4 displays and up to 7680 x 4320 max digital resolution, plus an included GPU Holder to help reduce GPU sag and improve long-term build stability."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-28",
     "queries": [
-      "RTX 5090 graphics card"
+      "RTX 5090 graphics card",
+      "ASUS ROG Astral RTX 5090",
+      "MSI GeForce RTX 5090 Gaming Trio",
+      "Gigabyte GeForce RTX 5090 Gaming OC",
+      "PNY RTX 5090 OC"
     ]
   },
   "B0H1X77HTF": {
     "asin": "B0H1X77HTF",
     "title": "Gigabyte AORUS GeForce RTX 5090 Infinity 32G Graphics Card - 32GB GDDR7, 512bit, PCI-E 5.0, 2730MHz Core Clock, 3 x DP 2.1b, 1 x HDMI 2.1b, DLSS 4, GV-N5090AORUS IF-32GD",
     "brand": "GIGABYTE",
-    "price": "$7,299.99",
+    "price": "$7,199.99",
     "img": "https://m.media-amazon.com/images/I/41A-8DtvUAL._SL500_.jpg",
     "features": [
       "Powered by GeForce RTX 5090",
@@ -777,9 +786,12 @@
       "Dual BIOS (Performance / Silent)",
       "4 years warranty (Online registration required)"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-28",
     "queries": [
-      "RTX 5090 graphics card"
+      "RTX 5090 graphics card",
+      "ASUS ROG Astral RTX 5090",
+      "MSI GeForce RTX 5090 Gaming Trio",
+      "Gigabyte GeForce RTX 5090 Gaming OC"
     ]
   },
   "B0FKX6LPR6": {
@@ -800,11 +812,12 @@
       "Full metal diecast shroud, frame backplate, and rear I/O bracket brace the PCB for rigidity",
       "Powerful 80-amp MOSFETs help ensure enhanced performance, stability, and higher overclocking potential Protective PCB coating guards against moisture, dust, and extreme temperatures"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-28",
     "queries": [
       "RTX 5090 graphics card",
       "RTX 5080 graphics card",
-      "RTX 4080 Super graphics card"
+      "RTX 4080 Super graphics card",
+      "ASUS ROG Astral RTX 5090"
     ]
   },
   "B0F433V3FJ": {
@@ -827,7 +840,7 @@
     "asin": "B0DTV54ZNH",
     "title": "Asus ROG Astral LC GeForce RTX 5090 Gaming Graphics Card (PCIe 5.0, 32GB GDDR7, HDMI/DP 2.1, Cooling Plate, 360mm Radiator, Chain-Connectable Magnetic Fans)",
     "brand": "ASUS",
-    "price": "$7,929.00",
+    "price": "$7,449.00",
     "img": "https://m.media-amazon.com/images/I/41KNezjNzHL._SL500_.jpg",
     "features": [
       "Powered by NVIDIA Blackwell architecture and DLSS 4",
@@ -836,9 +849,10 @@
       "Full-coverage cooling board brings liquid cooling to GPU matrix, VRMs and memory",
       "GPU phase change heating pad helps ensure optimal heat transfer, reducing GPU temperatures to improve performance and reliability"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-28",
     "queries": [
-      "RTX 5090 graphics card"
+      "RTX 5090 graphics card",
+      "ASUS ROG Astral RTX 5090"
     ]
   },
   "B0GK7DH248": {
@@ -942,9 +956,10 @@
       "Protective PCB coating guards against moisture, dust, and extreme temperatures",
       "Auto-Extreme manufacturing process for precision and reliability GPU Tweak III software provides intuitive performance tweaking, advanced thermal controls, and system monitoring"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-28",
     "queries": [
-      "RTX 5080 graphics card"
+      "RTX 5080 graphics card",
+      "ASUS ROG Astral RTX 5090"
     ]
   },
   "B0DSWR8WMB": {
@@ -1568,14 +1583,15 @@
       "Dual ball fan bearings last up to twice as long as sleeve bearing designs",
       "OC mode (GPU Tweak III): up to 3250 MHz (Boost Clock)/up to 2640 MHz (Game Clock)/ Default mode: up to 3230 MHz (Boost Clock)/up to 2620 MHz (Game Clock)"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-28",
     "queries": [
       "Radeon RX 9070",
       "Radeon RX 9060 XT 16GB",
       "Radeon RX 9060 XT 8GB",
       "Radeon RX 7600",
       "Radeon RX 7600 XT graphics card",
-      "Radeon RX 7600 XT 16GB graphics card"
+      "Radeon RX 7600 XT 16GB graphics card",
+      "Intel Arc B580 graphics card"
     ]
   },
   "B0F91KM1CK": {
@@ -1867,9 +1883,12 @@
       "Blue Breathing Light",
       "Graphic card sag bracket"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-28",
     "queries": [
-      "Intel Arc B580"
+      "Intel Arc B580",
+      "Intel Arc B580 graphics card",
+      "Sparkle Intel Arc B580",
+      "ASRock Intel Arc B580"
     ]
   },
   "B0DQYM2MHX": {
@@ -1890,16 +1909,19 @@
       "Future-Ready Features: DirectX 12 Ultimate support and advanced media engine with AV1 encoding capabilities",
       "Dedicated Support: Contact us directly through Amazon for any product questions or assistance"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-28",
     "queries": [
-      "Intel Arc B580"
+      "Intel Arc B580",
+      "Intel Arc B580 graphics card",
+      "Sparkle Intel Arc B580",
+      "ASRock Intel Arc B580"
     ]
   },
   "B0CJGSP9R7": {
     "asin": "B0CJGSP9R7",
     "title": "ASRock Intel Arc A580 Challenger 8GB OC Graphics Card, Intel Xe HPG Architecture, 8GB GDDR6, PCIe 4.0, Dual Fans, 0dB Silent Cooling, DisplayPort 2.0",
     "brand": "ASRock",
-    "price": "$183.71",
+    "price": "$181.72",
     "img": "https://m.media-amazon.com/images/I/41i+cPRnpdL._SL500_.jpg",
     "features": [
       "Next-Gen Intel Arc Graphics: Powered by Intel Arc A580 GPU with Intel Xe HPG microarchitecture, featuring 384 XMX engines for enhanced AI acceleration and content creation.",
@@ -1913,9 +1935,12 @@
       "System Compatibility Note: 2.4-slot design with dimensions 271 x 132 x 48 mm; requires 2 x 8-pin PCIe power connectors and a recommended 650W power supply. Please verify available space and PSU compatibility before purchase.",
       "Dedicated Support: Please contact us directly through Amazon for any product questions or assistance you may require."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-28",
     "queries": [
-      "Intel Arc B580"
+      "Intel Arc B580",
+      "Intel Arc B580 graphics card",
+      "Sparkle Intel Arc B580",
+      "ASRock Intel Arc B580"
     ]
   },
   "B0GKCMGH3N": {
@@ -1954,10 +1979,13 @@
       "AV1 Hardware Encode & XeSS Support: Industry‑first AV1 encode accelerates creation workflows. Intel XeSS upscaling boosts gaming performance.",
       "Multi‑Display Connectivity: 3x DisplayPort 2.0 with DSC and 1x HDMI 2.0b, supporting up to 4 displays with resolutions up to 8K."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-28",
     "queries": [
       "Intel Arc B580",
-      "low profile graphics card"
+      "low profile graphics card",
+      "Intel Arc B580 graphics card",
+      "Sparkle Intel Arc B580",
+      "ASRock Intel Arc B580"
     ]
   },
   "B0GJ3CFPG1": {
@@ -1996,9 +2024,11 @@
       "4x DisplayPort 2.1 Outputs: Connect up to four high-resolution 8K displays simultaneously for expansive multi-monitor workflows.",
       "Scalable Multi-GPU Support: Optimized for Linux multi-GPU LLM deployments, allowing you to scale AI performance across multiple cards."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-28",
     "queries": [
-      "Intel Arc B580"
+      "Intel Arc B580",
+      "Intel Arc B580 graphics card",
+      "ASRock Intel Arc B580"
     ]
   },
   "B0GKHW41PB": {
@@ -2014,9 +2044,10 @@
       "Efficient Gold-Rated Power: The PRO-650G PSU is 80 PLUS Gold certified and ATX3.1 ready, delivering stable, clean, and highly efficient power to maximize system performance.",
       "Effective & Quiet Cooling: The GPU's dual Striped Axial Fan design and 0dB Silent Cooling ensure effective heat dissipation and total silence during light usage or idle states."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-28",
     "queries": [
-      "Intel Arc B580"
+      "Intel Arc B580",
+      "ASRock Intel Arc B580"
     ]
   },
   "B0HJBFMK27": {
@@ -2380,9 +2411,10 @@
       "Upgrade to advanced AI with NVIDIA GeForce RTX GPUs and accelerate your gaming, creating, productivity, and development. Thanks to built-in AI processors, you get world-leading AI technology powering your Windows PC.",
       "Experience RTX accelerations in top creative apps, world-class NVIDIA Studio drivers engineered and continually updated to provide maximum stability, and a suite of exclusive tools that harness the power of RTX for AI-assisted creative workflows."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-28",
     "queries": [
-      "SFF ready RTX 5070"
+      "SFF ready RTX 5070",
+      "PNY RTX 5090 OC"
     ]
   },
   "B0FD8KYCX4": {
@@ -2850,9 +2882,10 @@
       "Integrated with 8GB GDDR7 128bit memory interface",
       "PCIe 5.0"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-28",
     "queries": [
-      "RTX 5060 Ti low profile"
+      "RTX 5060 Ti low profile",
+      "Gigabyte GeForce RTX 5090 Gaming OC"
     ]
   },
   "B0DRPRZMK2": {
@@ -3013,9 +3046,10 @@
       "Core Pipe-Precision-machined heat pipes ensure max contact and spread heat along the full length of the heatsink.",
       "Airflow Control-Sections of different heatsink fins disrupt unwanted airflow harmonics and reduce noise."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-28",
     "queries": [
-      "RTX 4090 graphics card"
+      "RTX 4090 graphics card",
+      "MSI GeForce RTX 5090 Gaming Trio"
     ]
   },
   "B0BGT61797": {
@@ -3073,9 +3107,10 @@
       "PCI Express 4.0 interface - Offers compatibility with a range of systems. Also includes DisplayPort and HDMI outputs for expanded connectivity.",
       "NVIDIA GeForce Experience - Capture and share videos, screenshots, and livestreams with friends. Keep your drivers up to date and optimize your game settings. It's the essential companion to your GeForce graphics card."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-28",
     "queries": [
-      "RTX 4090 graphics card"
+      "RTX 4090 graphics card",
+      "PNY RTX 5090 OC"
     ]
   },
   "B0CQPZTRL3": {
@@ -4473,9 +4508,10 @@
       "8K Ready, 4 Display Ready, HDCP 2.3, VR Ready.Avoid using unofficial software",
       "3 x DisplayPort 1.4a, 1 x HDMI 2.1, DirectX 12 Ultimate, Vulkan RT API, OpenGL 4.6"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-09-28",
     "queries": [
-      "ZOTAC Gaming GeForce RTX graphics card"
+      "ZOTAC Gaming GeForce RTX graphics card",
+      "ZOTAC RTX 5090 Solid"
     ]
   },
   "B08ZL6XD9H": {
@@ -4513,6 +4549,680 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "ZOTAC Gaming GeForce RTX graphics card"
+    ]
+  },
+  "B0GK6QZJDT": {
+    "asin": "B0GK6QZJDT",
+    "title": "ASUS ROG Astral GeForce RTX 5090 White OC Edition GPU, 32GB GDDR7, 3352 AI Tops, DLSS 4, 512-bit, DP 2.1b x3, HDMI 2.1b x2, AI Content Creation, LLM Inference, with GPU Holder",
+    "brand": "ASUS",
+    "price": "$7,298.00",
+    "img": "https://m.media-amazon.com/images/I/51sVTuheygL._SL500_.jpg",
+    "features": [
+      "[3352 AI TOPS, 5th Gen Tensor Cores, AI Content Creation] Accelerate AI-powered photo and video workflows like upscaling, denoise, background removal, masking, and generative AI creation for faster creator productivity.",
+      "[32GB GDDR7 VRAM, Local LLM Inference, Larger Models] Run local LLM inference and on-device AI tools with massive VRAM headroom for larger models, longer context, and heavier multitasking across creator and AI apps.",
+      "[28 Gbps, 512-bit Memory Bus, OC Boost 2610 MHz] High-throughput next-gen memory and factory OC clocks for demanding creator projects, complex timelines, large assets, and GPU-accelerated AI and rendering pipelines.",
+      "[Quad-Fan Cooling, Patented Vapor Chamber, Phase-Change Thermal Pad] ROG’s first quad-fan design with upgraded cooling hardware to help sustain performance under heavy loads in long gaming or creator sessions.",
+      "[DP 2.1b x3, HDMI 2.1b x2, Bundle GPU Holder] Multi-display ready with up to 4 displays and up to 7680 x 4320 max digital resolution, plus an included GPU Holder to help reduce GPU sag and improve long-term build stability."
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "ASUS ROG Astral RTX 5090"
+    ]
+  },
+  "B0F4ZCN7FV": {
+    "asin": "B0F4ZCN7FV",
+    "title": "ASUS ROG Astral GeForce RTX 5090 32GB GDDR7 White OC Edition Gaming Quad Fan Graphics Card (NVIDIA DLSS 4, 3.8 Slot Design, PCIe 5.0, 3X DP 2.1b, 2X HDMI 2.1b, White)",
+    "brand": "ASUS",
+    "price": "$7,298.00",
+    "img": "https://m.media-amazon.com/images/I/414H6MgSUcL._SL500_.jpg",
+    "features": [
+      "The four-fan design increases airflow and pressure by up to 20%",
+      "Patented Vapor Chamber with machined heat spreader for lower GPU temperatures",
+      "The phase-change GPU thermal pad ensures optimal heat transfer and lowers GPU temperatures for more performance and reliability",
+      "3.8-Slot Design: Massive heatsink and fin arrangement optimized for the airflow of the four Axial Tech fans",
+      "Secure GPU protection with GPU Guard technology, which protects the four corners of the GPU and the GPU bracket ensures stable mounting."
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "ASUS ROG Astral RTX 5090"
+    ]
+  },
+  "B0DS2X13PH": {
+    "asin": "B0DS2X13PH",
+    "title": "ASUS TUF Gaming GeForce RTX 5090 32GB GDDR7 OC Edition Gaming Graphics Card",
+    "brand": "ASUS",
+    "price": "$6,995.95",
+    "img": "https://m.media-amazon.com/images/I/41Nr2F9IC2L._SL500_.jpg",
+    "features": [
+      "AI Performance: 772 AI TOPS",
+      "OC mode: 2580 MHz Default mode: 2550 MHz(Boost clock)",
+      "Powered by the NVIDIA Blackwell architecture and DLSS 4",
+      "SFF-Ready Enthusiast GeForce Card",
+      "Axial-tech fans feature a smaller fan hub that facilitates longer blades and a barrier ring that increases downward air pressure",
+      "2.5-slot design allows for greater build compatibility while maintaining cooling performance",
+      "Dual-ball fan bearings last up to twice as long as standard sleeve bearings",
+      "0dB technology lets you enjoy light gaming in relative silence",
+      "Dual BIOS switch lets you toggle between Quiet and Performance BIOS profiles",
+      "Auto-Extreme manufacturing process for precision and reliability GPU Tweak III software provides intuitive performance tweaking, advanced thermal control, and system monitoring"
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "ASUS ROG Astral RTX 5090",
+      "MSI GeForce RTX 5090 Gaming Trio",
+      "Gigabyte GeForce RTX 5090 Gaming OC",
+      "PNY RTX 5090 OC"
+    ]
+  },
+  "B0HHSVJJ3C": {
+    "asin": "B0HHSVJJ3C",
+    "title": "ASUS ROG Astral GeForce RTX 5090 Edition 20 OC Quad-Fan Gaming Graphics Card, 32GB GDDR7, PCIe 5.0, Detachable Curved AMOLED Display, Liquid Metal & Vapor Chamber Cooling, Black",
+    "brand": "ASUS",
+    "price": "$11,299.00",
+    "img": "https://m.media-amazon.com/images/I/41CSz3EnliL._SL500_.jpg",
+    "features": [
+      "Powered by NVIDIA GeForce RTX 5090: Built with 21,760 CUDA cores, 170 Ray Tracing cores, and 680 Tensor cores, delivering high-level ray tracing performance, DLSS capabilities, and AI processing power.",
+      "32GB GDDR7 High-Speed VRAM: Massive 32GB GDDR7 video memory with a 512-bit memory interface and up to 1.79 TB/s memory bandwidth to easily handle 8K resolutions and complex texture packs.",
+      "Interactive Curved AMOLED Screen: Includes a detachable curved AMOLED display that renders live GPU temperatures, clock speeds, custom animations, and system diagnostics right on the card.",
+      "Quad-Fan Vapor Chamber Cooling: Combines a custom quad-fan design, direct-contact vapor chamber, and liquid metal thermal compound for high thermal efficiency and whisper-quiet operation.",
+      "Up to 800W Dual-Power Input: Designed for extreme overclocking headroom, utilizing a detachable GC-HPWR adapter and dual power delivery to supply up to 800 watts of stable power.",
+      "Comprehensive Output Options: Equipped with 2x DisplayPort 2.1b ports and 3x HDMI 2.1b ports to connect up to 4 high-refresh-rate displays simultaneously.",
+      "20th Anniversary Collector's Edition Extras: Comes packaged with exclusive anniversary items including an ROG Edition 20 graphics card holder, custom keycap, PCB ruler, collective coin, and velcro straps."
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "ASUS ROG Astral RTX 5090"
+    ]
+  },
+  "B0GMFLRTHL": {
+    "asin": "B0GMFLRTHL",
+    "title": "ASUS ROG Astral LC GeForce RTX 5090 OC 32GB GDDR7 Gaming Graphics Card, 360mm AIO Liquid Cooling, PCIe 5.0, 2X HDMI 2.1b, 3X DisplayPort 2.1b, Includes RGB GPU Holder",
+    "brand": "ASUS",
+    "price": "$7,929.00",
+    "img": "https://m.media-amazon.com/images/I/4111Tl5jfZL._SL500_.jpg",
+    "features": [
+      "[RTX 5090 Flagship Gaming Performance] Powered by the NVIDIA Blackwell architecture with DLSS 4 and full ray tracing, this RTX 5090 OC gaming graphics card is built for 4K and 8K gaming, ultra settings AAA titles, VR ready experiences, and high refresh rate competitive play with lower latency support.",
+      "[32GB GDDR7 for 8K and Creator Workflows] Featuring 32GB GDDR7 with a 512-bit memory interface and 28 Gbps memory speed, ideal for 8K video editing, 3D rendering, AI workloads, large texture mods, and demanding content creation that needs massive VRAM headroom.",
+      "[360mm AIO Liquid Cooling for Sustained Boost] Premium 360mm AIO liquid cooling with full-coverage cold plate helps keep temperatures stable for long gaming sessions, streaming, and heavy rendering so the GPU can maintain strong boost behavior instead of throttling.",
+      "[PCIe 5.0 and Multi-Monitor Ready Outputs] PCI Express 5.0 support plus 2x native HDMI 2.1b and 3x native DisplayPort 2.1b, supporting up to 4 displays for 4K high refresh monitors, 8K setups, ultrawide gaming, and multi-monitor creator stations.",
+      "[OC Edition Build Support and Bundle GPU Holder] OC Edition boost clocks up to 2610 MHz, includes a graphics card holder to help reduce GPU sag for clean PC builds; recommended 1000W PSU and 1x 16-pin power connector make it a strong choice for high-end custom gaming PC and workstation upgrades."
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "ASUS ROG Astral RTX 5090"
+    ]
+  },
+  "B0DSXGNFJL": {
+    "asin": "B0DSXGNFJL",
+    "title": "msi Gaming RTX 5080 16G Gaming Trio OC White Graphics Card (16GB GDDR7, 256-bit, Extreme Clock TBD MHz, DisplayPort x 3 2.1a, HDMI 2.1b, NVIDIA Blackwell Architecture)",
+    "brand": "msi",
+    "price": "$1,943.99",
+    "img": "https://m.media-amazon.com/images/I/41sgTduweEL._SL500_.jpg",
+    "features": [
+      "Chipset: NVIDIA GeForce RTX 5080",
+      "Video Memory: 16 GB GDDR7",
+      "Memory Interface: 256-bit",
+      "Output: DisplayPort x 3 (v2.1a) / HDMI 2.1b x 1",
+      "Digital maximum resolution: 7680 x 4320"
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "MSI GeForce RTX 5090 Gaming Trio"
+    ]
+  },
+  "B0BX6LGM2X": {
+    "asin": "B0BX6LGM2X",
+    "title": "MSI GeForce RTX 5080 16G Gaming Trio OC Graphics Card - RTX 5080 GPU, 16GB GDDR7 (30Gbps/256-bit), PCIe 5.0 - TRI FROZR 4 (3 x STORMFORCE Fan), Gaming & Silent Mode, RGB - HDMI 2.1b, DisplayPort 2.1b",
+    "brand": "msi",
+    "price": "$2,019.99",
+    "img": "https://m.media-amazon.com/images/I/41gqxULCwvL._SL500_.jpg",
+    "features": [
+      "GeForce RTX 5080 16G GAMING TRIO OC"
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "MSI GeForce RTX 5090 Gaming Trio",
+      "Gigabyte GeForce RTX 5090 Gaming OC"
+    ]
+  },
+  "B0BNWBJ8Z6": {
+    "asin": "B0BNWBJ8Z6",
+    "title": "MSI Gaming GeForce RTX 4070 Ti 12GB GDRR6X 192-Bit Extreme Clock: 2760 MHz HDMI/DP Nvlink Tri-Frozr 3 Ada Lovelace Architecture Graphics Card (RTX 4070 Ti Gaming X Trio 12G)",
+    "brand": "msi",
+    "price": "$1,345.00",
+    "img": "https://m.media-amazon.com/images/I/41Tu96H1HfL._SL500_.jpg",
+    "features": [
+      "Chipset: GeForce RTX 4070 Ti.Recommended PSU : 700 W, G-SYNC technology : Yes, Power consumption : 285 W..Power consumption : 285 W. Recommended PSU : 700 W.",
+      "Video Memory: 12GB GDDR6X",
+      "Memory Interface: 192-bit",
+      "Output: DisplayPort x 3 (v1.4a) / HDMI 2.1 x 1",
+      "Digital maximum resolution: 7680 x 4320"
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "MSI GeForce RTX 5090 Gaming Trio"
+    ]
+  },
+  "B0BSZGBBRW": {
+    "asin": "B0BSZGBBRW",
+    "title": "MSI Gaming GeForce RTX 4070 Ti 12GB GDRR6X 192-Bit HDMI/DP Nvlink Tri-Frozr 3 Ada Lovelace Architecture Graphics Card (RTX 4070 Ti Gaming Trio 12G)",
+    "brand": "msi",
+    "price": "$1,245.00",
+    "img": "https://m.media-amazon.com/images/I/41EjyxzKwHL._SL500_.jpg",
+    "features": [
+      "Chipset: GeForce RTX 4070 Ti.CUDA CORES : 7680 Units. Power consumption : 285 W..Recommended PSU : 700 W",
+      "Boost Clock: 2610 MHz",
+      "Video Memory: 12GB GDDR6X",
+      "Memory Interface: 192-bit",
+      "Output: DisplayPort x 3 (v1.4a) / HDMI x 1 (2.1a)"
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "MSI GeForce RTX 5090 Gaming Trio"
+    ]
+  },
+  "B0DTJF8YT4": {
+    "asin": "B0DTJF8YT4",
+    "title": "PNY NVIDIA GeForce RTX™ 5090 OC Triple-Fan Graphics Card",
+    "brand": "PNY",
+    "img": "https://m.media-amazon.com/images/I/41H327pLCvL._SL500_.jpg",
+    "features": [
+      "Axial-Fan Tech Built to Endure - Triple 100mm axial fans feature refined blades for 15% more airflow, counter-rotation to cut turbulence, and durable dual-ball bearings. Stealth Mode stops fans at low temps for silent operation, boosting card longevity and performance.",
+      "Masterfully Crafted Cooling - Advanced vapor chamber and ultra-dense heatsink rapidly pull heat from the GPU, while an open aluminum backplate boosts airflow and ventilation, resulting in lower temperatures for stronger performance and stability in demanding workloads.",
+      "VelocityX Software - Gain full control over your PNY graphics card to maximize its performance. Fine-tune core and memory clocks, dial in custom fan curves, and monitor real-time temperatures and speeds, all from one intuitive interface. Save up to five profiles for instant recall.",
+      "Your Creative AI-dvantage - Experience RTX accelerations in top creative apps, world-class NVIDIA Studio drivers engineered and continually updated to provide maximum stability, and a suite of exclusive tools that harness the power of RTX for AI-assisted creative workflows.",
+      "NVIDIA Blackwell Architecture - The Ultimate Platform for Gamers and Creators. Do it all with 5th-Gen Tensor cores for Max AI performance, new streaming multiprocessors that are optimized for neural shaders, and 4th-Gen Ray Tracing cores built for Mega Geometry."
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "Gigabyte GeForce RTX 5090 Gaming OC",
+      "PNY RTX 5090 OC"
+    ]
+  },
+  "B08HJGNJ81": {
+    "asin": "B08HJGNJ81",
+    "title": "ASUS TUF Gaming NVIDIA GeForce RTX 3090 OC Edition Graphics Card- PCIe 4.0, 24GB GDDR6X, HDMI 2.1, DisplayPort 1.4a, Dual Ball Fan Bearings",
+    "brand": "ASUS",
+    "price": "$2,149.99",
+    "img": "https://m.media-amazon.com/images/I/51GBXWDKhZL._SL500_.jpg",
+    "features": [
+      "Memory Speed:24 Gbps.Digital Max Resolution:7680 x 4320.Recommended PSU : 850W",
+      "NVIDIA Ampere Streaming Multiprocessors: The building blocks for the world’s fastest, most efficient GPU, the all-new Ampere SM brings 2X the FP32 throughput and improved power efficiency.",
+      "2nd Generation RT Cores: Experience 2X the throughput of 1st gen RT Cores, plus concurrent RT and shading for a whole new level of ray tracing performance.",
+      "3rd Generation Tensor Cores: Get up to 2X the throughput with structural sparsity and advanced AI algorithms such as DLSS. Now with support for up to 8K resolution, these cores deliver a massive boost in game performance and all-new AI capabilitiesAvoid using unofficial software",
+      "Axial-Tech Fan Design has been newly tuned with a reversed central fan direction for less turbulence.",
+      "Military-grade Capacitors and other TUF components enhance durability and performance.",
+      "Dual Ball Fan Bearings can last up to twice as long as sleeve bearing designs.",
+      "GPU Tweak II provides intuitive performance tweaking, thermal controls, and system monitoring."
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "Gigabyte GeForce RTX 5090 Gaming OC"
+    ]
+  },
+  "B08KHKDTSJ": {
+    "asin": "B08KHKDTSJ",
+    "title": "Gigabyte 24GB NVIDIA GeForce RTX 3090 Turbo GDDR6X Graphics Card Model GV-N3090TURBO-24GD",
+    "brand": "GIGABYTE",
+    "price": "$2,499.00",
+    "img": "https://m.media-amazon.com/images/I/41JVtYgKITL._SL500_.jpg",
+    "features": [
+      "<p><b>KEY FEATURE</b></p> <p>NVIDIA Ampere Streaming Multiprocessors<br /> 2nd Generation RT Cores<br /> 3rd Generation Tensor Cores<br /> Powered by GeForce RTX™ 3090<br /> Integrated with 24GB"
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "Gigabyte GeForce RTX 5090 Gaming OC"
+    ]
+  },
+  "B0H2FZ3J4W": {
+    "asin": "B0H2FZ3J4W",
+    "title": "ZOTAC MEK Gaming PC, Ryzen 7 9800X3D, NVIDIA RTX 5080 16GB, Apocalypse",
+    "brand": "ZOTAC",
+    "price": "$3,399.99",
+    "img": "https://m.media-amazon.com/images/I/41f+idBNboL._SL500_.jpg",
+    "features": [
+      "Effortless Gaming: MEK from ZOTAC comes with all hardware and Windows 11 Pro pre-installed. Crafted in the USA, simply unbox, plug in, power up, and dive into your favorite games with ease. Backed by a 1-Year Complete System Warranty and 3-Year GPU Warranty — no registration required.",
+      "Heart of the MEK: the ZOTAC GAMING GeForce RTX 5080 Apocalypse Special Edition OC 16GB GDDR7 uses NVIDIA Blackwell architecture with DLSS 4 Multi Frame Generation and real-time ray tracing — delivering stunning 4K gaming performance with AI-driven frame rates and next-gen visual fidelity, featuring a premium white Special Edition GPU paired with an exclusive Apocalypse-themed chassis showcasing the iconic mascot artwork.",
+      "Powerful Processor: the AMD Ryzen 7 9800X3D AM5 Desktop CPU delivers up to 5.2GHz with 8 cores, 16 threads, and 96MB L3 3D V-Cache — the ultimate gaming processor, delivering industry-leading gaming performance, seamless multitasking, and professional content creation.",
+      "Well-Rounded: 32GB DDR5 6000MHz RGB RAM, 2TB NVMe M.2 SSD, and 850W 80+ Gold PSU provide lightning-fast loading times and rock-solid power delivery in a clean white chassis. Connections: HDMI 2.1b, 3x DisplayPort 2.1b (up to 4 displays), USB 3.2 Gen 2, WiFi 6E, Bluetooth 5.3, 5-Gigabit LAN, 7.1 HD Audio.",
+      "Clean White Design & Warranty Support: MEK Apocalypse Special Edition features an all-white build with exclusive Apocalypse artwork on the tempered glass panels, showcasing the white Special Edition GPU and RGB lighting, 8x 120mm ARGB PWM fans, a 360mm AIO liquid cooler, easy-clean screwless filters, and professional cable management for optimal airflow. Warranty service is provided through ZOTAC USA. Return shipping after warranty service is available only for U.S. addresses."
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "ZOTAC RTX 5090 Solid"
+    ]
+  },
+  "B0GWD4PC19": {
+    "asin": "B0GWD4PC19",
+    "title": "(No GPU) ZOTAC Gaming GeForce RTX 5090 Solid Graphics Card, Only as Decoration or Display, Collectible Model, Card Figure, Decorate Gaming Room or Office",
+    "brand": "Generic",
+    "price": "$190.00",
+    "img": "https://m.media-amazon.com/images/I/517v4XvUBML._SL500_.jpg",
+    "features": [
+      "no Core, no VRAM!!! The core chip and VRAMs are removed.",
+      "Intended Use: Display or decoration office / gaming room; Video recording / content creation; Replace heatsink fan; Repair and soldering PCB practice; Parts harvesting",
+      "Nearly New Condition: This card has never been used and remains in nearly 100% new condition",
+      "Box Included: Comes with original box, but the serial number on the GPU won't match the box, and does not include other accessories",
+      "Decorative Purpose: The core chip and VRAMs are removed so the graphics card cannot be used for computing, however the fans and RGB lighting work well for decorating your office or gaming room",
+      "Collectible Model: Non-functional decorative card that captures the design elements of ZOTAC’s graphics card lineup for fans of gaming hardware aesthetics",
+      "Display Decoration Piece: Eye-catching decoration piece for desks, shelves, gaming setups, or display cases to celebrate your passion for PC gaming hardware"
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "ZOTAC RTX 5090 Solid"
+    ]
+  },
+  "B0DTZ48TCY": {
+    "asin": "B0DTZ48TCY",
+    "title": "ZOTAC Gaming GeForce RTX 5080 Solid OC DLSS 4 16GB GDDR7 256-bit 30 Gbps PCIE 5.0 Gaming Graphics Card, IceStorm 3.0 Advanced Cooling, Spectra 2.0 ARGB Lighting, ZT-B50800J-10P",
+    "brand": "ZOTAC",
+    "price": "$2,088.88",
+    "img": "https://m.media-amazon.com/images/I/41-SC8G-unL._SL500_.jpg",
+    "features": [
+      "Powered by the NVIDIA Blackwell architecture and DLSS 4",
+      "16GB GDDR7, 256-bit, 28 Gbps, PCIE 5.0, Boost Clock 2640 MHz",
+      "IceStorm 3.0 Advanced Cooling, 3x 100mm BladeLink fans, Vapor Chamber, Composite Heatpipes, Pass-thru Airflow Design, FREEZE Fan Stop, Active Fan Control 2.0",
+      "Metal Backplate, Reinforced Frame Structure, Dual BIOS, SPECTRA 2.0 ARGB Lighting, SPECTRA Link, Bundled GPU Support Stand",
+      "3 x DisplayPort 2.1b, 1 x HDMI 2.1b, 8K Ready, 4 Display Ready, HDCP 2.3, VR Ready"
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "ZOTAC RTX 5090 Solid"
+    ]
+  },
+  "B0GWFFMMG7": {
+    "asin": "B0GWFFMMG7",
+    "title": "(No GPU) ZOTAC Gaming GeForce RTX 5090 Solid Graphics Card, White, Only as Decoration or Display, Collectible Model, Card Figure, Decorate Gaming Room or Office",
+    "brand": "Generic",
+    "price": "$200.00",
+    "img": "https://m.media-amazon.com/images/I/51dq2QUHMNL._SL500_.jpg",
+    "features": [
+      "no Core, no VRAM!!! The core chip and VRAMs are removed.",
+      "Intended Use: Display or decoration office / gaming room; Video recording / content creation; Replace heatsink fan; Repair and soldering PCB practice; Parts harvesting",
+      "Nearly New Condition: This card has never been used and remains in nearly 100% new condition",
+      "Box Included: Comes with original box, but the serial number on the GPU won't match the box, and does not include other accessories",
+      "Decorative Purpose: The core chip and VRAMs are removed so the graphics card cannot be used for computing, however the fans and RGB lighting work well for decorating your office or gaming room",
+      "Collectible Model: Non-functional decorative card that captures the design elements of ZOTAC’s graphics card lineup for fans of gaming hardware aesthetics",
+      "Display Decoration Piece: Eye-catching decoration piece for desks, shelves, gaming setups, or display cases to celebrate your passion for PC gaming hardware"
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "ZOTAC RTX 5090 Solid"
+    ]
+  },
+  "B0H1JS381B": {
+    "asin": "B0H1JS381B",
+    "title": "(No GPU) ZOTAC Gaming GeForce RTX 5090 Arcticstorm Graphics Card, Only as Decoration or Display, Collectible Model, Card Figure, Decorate Gaming Room or Office",
+    "brand": "Generic",
+    "price": "$370.00",
+    "img": "https://m.media-amazon.com/images/I/41RhMaszEmL._SL500_.jpg",
+    "features": [
+      "no Core, no VRAM!!! The core chip and VRAMs are removed.",
+      "Intended Use: Display or decoration office / gaming room; Video recording / content creation; Replace heatsink fan; Repair and soldering PCB practice; Parts harvesting",
+      "Box Included: Comes with original box, but the serial number on the GPU won't match the box, and does not include other accessories",
+      "Decorative Purpose: The core chip and VRAMs are removed so the graphics card cannot be used for computing, however the fans and RGB lighting work well for decorating your office or gaming room",
+      "Collectible Model: Non-functional decorative card that captures the design elements of ZOTAC’s graphics card lineup for fans of gaming hardware aesthetics",
+      "Display Decoration Piece: Eye-catching decoration piece for desks, shelves, gaming setups, or display cases to celebrate your passion for PC gaming hardware"
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "ZOTAC RTX 5090 Solid"
+    ]
+  },
+  "B0F5626L8J": {
+    "asin": "B0F5626L8J",
+    "title": "ZOTAC GAMING GeForce RTX 5080 SOLID CORE",
+    "brand": "ZOTAC",
+    "price": "$1,849.00",
+    "img": "https://m.media-amazon.com/images/I/31ChxVN0v-L._SL500_.jpg",
+    "features": [
+      "Powered by the NVIDIA Blackwell architecture and DLSS 4",
+      "IceStorm 3.0 Advanced Cooling",
+      "Vapour Chamber",
+      "BladeLink Fans",
+      "Reinforced Metal Mid-Frame",
+      "FREEZE Fan Stop, Active Fan Control",
+      "SPECTRA RGB Lighting Metal BackPlate"
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "ZOTAC RTX 5090 Solid"
+    ]
+  },
+  "B0F79S343Y": {
+    "asin": "B0F79S343Y",
+    "title": "ZOTAC Gaming GeForce RTX 5080 Solid Core DLSS 4 16GB GDDR7 256-bit 30Gbps PCIE 5.0 Gaming Graphics Card, IceStorm 3.0 Advanced Cooling, Spectra RGB Lighting, ZT-B50800D2-10P",
+    "brand": "ZOTAC",
+    "price": "$2,288.88",
+    "img": "https://m.media-amazon.com/images/I/415bArqWUrL._SL500_.jpg",
+    "features": [
+      "Powered by the NVIDIA Blackwell architecture and DLSS 4",
+      "2.5 slot, 16GB GDDR7, 256-bit, 30Gbps, PCIE 5.0",
+      "IceStorm 3.0 Advanced Cooling, 3 x 90mm BladeLink Fan, Steam Chamber, Composite Heatpipes, Pass-Thru Airflow Design, Freeze Fan Stop, Active Fan Control",
+      "Metal back plate, reinforced frame structure, Spectra RGB lighting, bundled GPU support stand",
+      "3 x DisplayPort 2.1b, 1 x HDMI 2.1b, 8K Ready, 4 Display Ready, HDCP 2.3, VR Ready"
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "ZOTAC RTX 5090 Solid"
+    ]
+  },
+  "B09WH4XGDM": {
+    "asin": "B09WH4XGDM",
+    "title": "ZOTAC Gaming GeForce RTX™ 3090 Ti AMP Extreme Holo 24GB GDDR6X 384-bit 21 Gbps PCIE 4.0 Gaming Graphics Card, HoloBlack, IceStorm 2.0 Advanced Cooling, Spectra 2.0 RGB Lighting, ZT-A30910B-10P",
+    "brand": "ZOTAC",
+    "price": "$2,349.00",
+    "img": "https://m.media-amazon.com/images/I/41GMzdSQojL._SL500_.jpg",
+    "features": [
+      "NVIDIA Ampere architecture, 2nd Gen Ray Tracing Cores, 3rd Gen Tensor Cores",
+      "24GB 384-bit GDDR6X, 21 Gbps, PCIE 4.0; Boost Clock 1890 MHz",
+      "HoloBlack, SPECTRA 2.0 RGB Lighting, IceStorm 2.0 Advanced Cooling, 3x 100mm fans, FREEZE Fan Stop, Active Fan Control, Metal RGB Lighted Backplate, Dual BIOS, Bundled RGB GPU Support Bracket",
+      "8K Ready, 4 Display Ready, HDCP 2.3, VR Ready.Avoid using unofficial software",
+      "3 x DisplayPort 1.4a, 1 x HDMI 2.1, DirectX 12 Ultimate, Vulkan RT API, OpenGL 4.6"
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "ZOTAC RTX 5090 Solid"
+    ]
+  },
+  "B0DTJFZ4YS": {
+    "asin": "B0DTJFZ4YS",
+    "title": "PNY NVIDIA GeForce RTX™ 5080 OC Triple-Fan Graphics Card",
+    "brand": "PNY",
+    "price": "$1,639.99",
+    "img": "https://m.media-amazon.com/images/I/41q1oZvWYQL._SL500_.jpg",
+    "features": [
+      "Axial-Fan Tech Built to Endure - Triple 100mm axial fans feature refined blades for 15% more airflow, counter-rotation to cut turbulence, and durable dual-ball bearings. Stealth Mode stops fans at low temps for silent operation, boosting card longevity and performance.",
+      "Masterfully Crafted Cooling - Advanced vapor chamber and ultra-dense heatsink rapidly pull heat from the GPU, while an open aluminum backplate boosts airflow and ventilation, resulting in lower temperatures for stronger performance and stability in demanding workloads.",
+      "VelocityX Software - Gain full control over your PNY graphics card to maximize its performance. Fine-tune core and memory clocks, dial in custom fan curves, and monitor real-time temperatures and speeds, all from one intuitive interface. Save up to five profiles for instant recall.",
+      "Your Creative AI-dvantage - Experience RTX accelerations in top creative apps, world-class NVIDIA Studio drivers engineered and continually updated to provide maximum stability, and a suite of exclusive tools that harness the power of RTX for AI-assisted creative workflows.",
+      "NVIDIA Blackwell Architecture - The Ultimate Platform for Gamers and Creators. Do it all with 5th-Gen Tensor cores for Max AI performance, new streaming multiprocessors that are optimized for neural shaders, and 4th-Gen Ray Tracing cores built for Mega Geometry."
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "PNY RTX 5090 OC"
+    ]
+  },
+  "B0D7TQCP1Y": {
+    "asin": "B0D7TQCP1Y",
+    "title": "PNY Technology VCNRTX2000ADA-PB NVIDIA RTX 2000 ADA Generation 16GB GDDR6 Generation Graphic Card",
+    "brand": "PNY",
+    "price": "$779.59",
+    "img": "https://m.media-amazon.com/images/I/317cPXEZzcL._SL500_.jpg",
+    "features": [
+      "Model: RTX 2000 ADA Generation",
+      "Memory: 16GB GDDR6",
+      "Satisfaction Ensured.",
+      "Produced with the highest grade materials",
+      "Memory: 16GB GDDR6"
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "PNY RTX 5090 OC"
+    ]
+  },
+  "B0DYRZZJZ1": {
+    "asin": "B0DYRZZJZ1",
+    "title": "PNY NVIDIA GeForce RTX™ 5080 Triple-Fan Graphics Card",
+    "brand": "PNY",
+    "price": "$1,638.00",
+    "img": "https://m.media-amazon.com/images/I/41RJRwDb55L._SL500_.jpg",
+    "features": [
+      "Axial-Fan Tech Built to Endure - Triple 100mm axial fans feature refined blades for 15% more airflow, counter-rotation to cut turbulence, and durable dual-ball bearings. Stealth Mode stops fans at low temps for silent operation, boosting card longevity and performance.",
+      "Masterfully Crafted Cooling - Advanced vapor chamber and ultra-dense heatsink rapidly pull heat from the GPU, while an open aluminum backplate boosts airflow and ventilation, resulting in lower temperatures for stronger performance and stability in demanding workloads.",
+      "VelocityX Software - Gain full control over your PNY graphics card to maximize its performance. Fine-tune core and memory clocks, dial in custom fan curves, and monitor real-time temperatures and speeds, all from one intuitive interface. Save up to five profiles for instant recall.",
+      "Your Creative AI-dvantage - Experience RTX accelerations in top creative apps, world-class NVIDIA Studio drivers engineered and continually updated to provide maximum stability, and a suite of exclusive tools that harness the power of RTX for AI-assisted creative workflows.",
+      "NVIDIA Blackwell Architecture - The Ultimate Platform for Gamers and Creators. Do it all with 5th-Gen Tensor cores for Max AI performance, new streaming multiprocessors that are optimized for neural shaders, and 4th-Gen Ray Tracing cores built for Mega Geometry."
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "PNY RTX 5090 OC"
+    ]
+  },
+  "B0C2KNGV5L": {
+    "asin": "B0C2KNGV5L",
+    "title": "PNY NVIDIA RTX 4000 SFF Ada Gen OEM",
+    "brand": "PNY",
+    "price": "$2,141.00",
+    "img": "https://m.media-amazon.com/images/I/31+V45jVKsL._SL500_.jpg",
+    "features": [
+      "Good quality item and easy to use",
+      "Product type :VIDEO_CARD",
+      "Brand :PNY"
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "PNY RTX 5090 OC"
+    ]
+  },
+  "B0F59N58GV": {
+    "asin": "B0F59N58GV",
+    "title": "PNY GEFORCE RTX™ 5070 12GB Triple Fan DLSS 4 Graphics Card",
+    "brand": "PNY",
+    "price": "$849.00",
+    "img": "https://m.media-amazon.com/images/I/41-qhlPQ3LL._SL500_.jpg",
+    "features": [
+      "Featuring NVIDIA DLSS 4, ultra-powerful Blackwell architecture and full ray tracing",
+      "NVIDIA Blackwell, with a clock frequency of 2325 MHz and a boosted clock frequency of 2512 MHz to meet the needs of demanding games.",
+      "12GB GDDR7 (192-bit), 6144 CUDA processing cores and memory bandwidth of up to 672GB/s to provide the memory needed to create striking visual realism.",
+      "PCI Express 5.0 interface - Provides compatibility with a range of systems. Also includes DisplayPort and HDMI outputs for expanded connectivity.",
+      "VelocityX Software: Get full control over your PNY graphics card to maximize performance"
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "PNY RTX 5090 OC"
+    ]
+  },
+  "B0C74RQV9K": {
+    "asin": "B0C74RQV9K",
+    "title": "Sparkle Intel Arc A380 ELF, 6GB GDDR6, Single Fan, SA380E-6G",
+    "brand": "Sparkle",
+    "price": "$169.99",
+    "img": "https://m.media-amazon.com/images/I/31rMVllCf4L._SL500_.jpg",
+    "features": [
+      "Intel Arc A380 Chipset",
+      "6GB, 96-bit, GDDR6 memory, 15.5 Gbps graphics memory speed",
+      "3x DisplayPort 2.0 ready, up to 8K@60Hz, 1x HDMI 2.0"
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "Intel Arc B580 graphics card",
+      "Sparkle Intel Arc B580"
+    ]
+  },
+  "B0GXHLFV2G": {
+    "asin": "B0GXHLFV2G",
+    "title": "ASRock Intel Arc Pro B70 Creator 32GB Workstation Graphics Card, Xe2-HPG, 32GB GDDR6, PCIe 5.0, 4X DP 2.1, Blower Fan, Vapor Chamber, Honeywell PTM7950",
+    "brand": "ASRock",
+    "price": "$1,599.00",
+    "img": "https://m.media-amazon.com/images/I/31+aIQX1hwL._SL500_.jpg",
+    "features": [
+      "System Compatibility Note: This 2-slot card measures 271 x 112 x 39 mm and requires a single 12V-2x6-pin power connector. Please verify chassis and PSU compatibility before purchase.",
+      "Dedicated Support: Please contact us directly through Amazon for any product questions or assistance you may require.",
+      "Professional Intel Arc Pro B70 GPU: Built on the Intel Xe2-HPG architecture, it features 32 Xe cores and 256 XMX engines, designed to accelerate AI, rendering, and complex visualization workloads.",
+      "Massive 32GB GDDR6 VRAM: Equipped with 32GB of high-speed GDDR6 memory on a 256-bit bus, running at 19 Gbps, which allows for handling large AI models and complex datasets locally.",
+      "High-Performance Engine Clock: Delivers an engine clock of 2540 MHz, providing the compute power needed for demanding professional applications and AI inference.",
+      "Next-Gen PCIe 5.0 Interface: Utilizes a PCI Express 5.0 x16 interface, ensuring maximum data transfer bandwidth for seamless interaction with the latest workstation platforms.",
+      "Advanced Cooling for Sustained Performance: Features a robust blower-style cooling system combined with a high-efficiency vapor chamber and Honeywell PTM7950 phase-change material for excellent thermal conductivity and sustained performance.",
+      "Quad DisplayPort 2.1 Outputs: Includes four DisplayPort 2.1 ports, supporting multi-display setups with the latest high-resolution, high-refresh-rate professional monitors.",
+      "Professional-Grade Construction: Built with a die-cast metal shroud, a metal backplate, and ASRock's Super Alloy Graphics Card components, ensuring durability and reliability in demanding environments.",
+      "Optimized for Multi-GPU & Linux Workloads: Supports scalable multi-GPU configurations under Linux, making it ideal for large language model (LLM) deployments and other intensive compute tasks."
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "Intel Arc B580 graphics card"
+    ]
+  },
+  "B0H4WQCMNL": {
+    "asin": "B0H4WQCMNL",
+    "title": "ASRock Intel Arc Pro B65 Creator 32GB Workstation Graphics Card, Intel Xe2-HPG, 32GB GDDR6, PCIe 5.0, 4X DisplayPort 2.1, Blower Fan, Vapor Chamber, Honeywell PTM7950",
+    "brand": "ASRock",
+    "price": "$1,199.99",
+    "img": "https://m.media-amazon.com/images/I/31ruu+qYPFL._SL500_.jpg",
+    "features": [
+      "System Compatibility Note: This 2‑slot card measures 271 mm (L) x 112 mm (W) x 39 mm (H) and uses a 12V‑2x6 power connector. It consumes up to 200 W. The package includes a 12V‑2x6 to dual 8‑pin adapter cable. Please verify chassis clearance and ensure your power supply is properly rated before purchase.",
+      "Dedicated Support: Please contact us directly through Amazon for any product questions or assistance you may require.",
+      "Optimized for Professional Workloads with 32GB GDDR6: Powered by 32GB of GDDR6 memory on a 192‑bit interface running at 19 Gbps, this card delivers a massive 608 GB/s of memory bandwidth. This is ideal for local AI model inference, LLM deployments, large‑scale rendering, and heavy multitasking without relying on cloud resources.",
+      "Next‑Gen Intel Xe2-HPG Architecture with AI Acceleration: Built on Intel’s Xe2-HPG architecture, it features 20 Xe cores and 160 Xe Matrix eXtension (XMX) engines, delivering up to 197 TOPS of INT8 AI compute power. It is equipped with 3rd Gen Ray Tracing and 2nd Gen AI Accelerators to significantly speed up demanding AI and rendering workflows.",
+      "PCIe 5.0 Support for Maximum Bandwidth: Uses a PCI Express 5.0 x16 interface, providing ample data throughput for high‑speed data transfers, ensuring large models and datasets move efficiently between storage and GPU.",
+      "Four DisplayPort 2.1 Outputs for Expansive Workflows: Features four DisplayPort 2.1 outputs, with one port supporting up to UHBR13.5 bandwidth. This allows you to connect up to four modern high‑resolution 8K displays simultaneously for an immersive multi‑monitor professional setup.",
+      "Blower‑Style Cooling with Vapor Chamber: Designed for sustained professional workloads, it features a high‑performance blower fan combined with a vapor chamber heatsink. This effectively exhausts hot air out of the chassis, ideal for dense workstation configurations and multi‑GPU environments. The cooling is further enhanced by Honeywell PTM7950 phase‑change thermal material for reliable long‑term thermal management.",
+      "Professional‑Grade Construction for Durability: The die‑cast metal shroud and reinforced metal backplate provide exceptional structural rigidity for long‑term reliability. It also uses ASRock's Super Alloy components to ensure stable power delivery and overall durability in demanding environments.",
+      "Broad OS and Application Support & ECC Memory: Supports Windows 10, Windows 11, and various Linux distributions with Intel-certified Arc Pro drivers for both compute and creative applications. It also includes ECC-capable memory to maintain data integrity over long periods of operation.",
+      "Single 12V-2x6 Power Connector: It uses a single 12V‑2x6 power connector, simplifying cable management. The included 12V‑2x6 to 2x 8‑pin adapter ensures compatibility with most modern power supplies, making it a flexible choice for system integrations."
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "Intel Arc B580 graphics card",
+      "ASRock Intel Arc B580"
+    ]
+  },
+  "B092JJCHZG": {
+    "asin": "B092JJCHZG",
+    "title": "ASRock Phantom Gaming D RX580 4G OC, 1424MHz Boost, 4GB GDDR5 256-bit, PCIe 3.0, Dual Fan, 8K Support Graphics Card",
+    "brand": "ASRock",
+    "price": "$69.99",
+    "img": "https://m.media-amazon.com/images/I/41fybD32BFL._SL500_.jpg",
+    "features": [
+      "System Compatibility: 236.2x127.5x41.91mm, 2-slot card, single 6-pin power, recommended 550W PSU. Verify chassis clearance.",
+      "Dedicated Support: Contact us via Amazon for any product questions or assistance.",
+      "Three Pre-Set Performance Modes: OC Mode (1424 MHz core / 8032 MHz memory), Default Mode (1370 MHz / 8000 MHz), Silent Mode (1315 MHz / 7968 MHz) for flexibility.",
+      "4GB GDDR5 on 256-bit Bus: 256 GB/s bandwidth, 2304 stream processors deliver solid 1080p gaming performance.",
+      "PCIe 3.0 Support: PCI Express 3.0 x16 interface for broad compatibility with modern motherboards.",
+      "Dual Fan Design: Double ball bearings fans with high-performance composite heatpipes ensure reliable cooling and extended lifespan.",
+      "8K Resolution Support: Digital max resolution up to 8K (7680 x 4320) for ultimate visual experience.",
+      "Phantom Gaming Tweak Utility: Real-time monitoring of temperature and fan speed, plus core/memory clock and voltage tweaking.",
+      "Comprehensive Display Connectivity: 3x DisplayPort 1.4, 1x HDMI 2.0, 1x Dual-link DVI-D, supporting up to 5 displays simultaneously."
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "Intel Arc B580 graphics card"
+    ]
+  },
+  "B0DR337DJG": {
+    "asin": "B0DR337DJG",
+    "title": "Sparkle Intel Arc B570 Guardian OC Graphics Card, 10GB GDDR6, Torn Cooling 2.0, Axial Fan, Breathing Light, Metal Backplate, SB570G-10GOC",
+    "brand": "Sparkle",
+    "price": "$419.00",
+    "img": "https://m.media-amazon.com/images/I/51KqtdQR2zL._SL500_.jpg",
+    "features": [
+      "OC Edition Boost Clock: 2660MHz",
+      "TORN Cooling 2.0",
+      "Metal Backplate",
+      "Blue Breathing Light"
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "Sparkle Intel Arc B580",
+      "ASRock Intel Arc B580"
+    ]
+  },
+  "B0CHN5KQS8": {
+    "asin": "B0CHN5KQS8",
+    "title": "Sparkle Intel Arc A580 ORC OC Edition, 8GB GDDR6, ThermalSync, Torn Cooling, Axial Fan, Metal Backplate, SA580C-8GOC",
+    "brand": "Sparkle",
+    "price": "$393.36",
+    "img": "https://m.media-amazon.com/images/I/314F7c8ec1L._SL500_.jpg",
+    "features": [
+      "Intel Arc A580 Chipset",
+      "8GB, 256-bit, GDDR6 memory, 16 Gbps graphics memory speed",
+      "3x DisplayPort 2.0 ready, up to 8K@60Hz, 1x HDMI 2.0",
+      "Xe HPG Architecture, Real Time Ray Tracing, Intel XeSS upscaling, 225W TDP, DirectX 12 Ultimate, Vulkan 1.3",
+      "TORN Cooling with double customized AXL fans, 2.2-slot design and full-metal backplate, patented(pending) ThermalSync."
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "Sparkle Intel Arc B580"
+    ]
+  },
+  "B0DW9GM74Z": {
+    "asin": "B0DW9GM74Z",
+    "title": "Sparkle Intel Arc B570 Guardian Luna OC",
+    "brand": "Sparkle",
+    "price": "$445.14",
+    "img": "https://m.media-amazon.com/images/I/41BmkqoNqpL._SL500_.jpg",
+    "features": [
+      "Intel Arc B570",
+      "10 GB GDDR6 RAM (memory interface)",
+      "Core/memory clock: (boost: 2660) MHz",
+      "1x HDMI, 3x DP, height: dual slot",
+      "DirectX 12"
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "Sparkle Intel Arc B580"
+    ]
+  },
+  "B0DVS931KM": {
+    "asin": "B0DVS931KM",
+    "title": "Sparkle Intel Arc A310 Omni View, 4GB GDDR6, 4X HDMI, 50W TBP, Single Fan, Single Slot, SA310F-4G",
+    "brand": "Sparkle",
+    "price": "$223.23",
+    "img": "https://m.media-amazon.com/images/I/41K-LDPVk7L._SL500_.jpg",
+    "features": [
+      "Intel ARC A310, 4GB GDDR6",
+      "4x HDMI Display Output",
+      "SPARKLE Exclusive 50W Design",
+      "Single-fan, Single-slot configuration"
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "Sparkle Intel Arc B580"
+    ]
+  },
+  "B0HKP536ZZ": {
+    "asin": "B0HKP536ZZ",
+    "title": "Graphics Card Fit for Sparkle, Arc B580 Titan OC 12GB Blue/White Graphics Card GDDR6 Torn Cooling 2.0 Axial Breathing Light SB580T-12 G",
+    "brand": "Generic",
+    "price": "$958.82",
+    "img": "https://m.media-amazon.com/images/I/31FR0dFF--L._SL500_.jpg",
+    "features": [
+      "Metal backplate installation reduces the risk of graphics card deformation.",
+      "Smooth, High-Frame-Rate Gaming – Say goodbye to choppy gameplay! The delivers fluid, stutter-free performance, even at high frame rates. Its enhanced contrast and color bring out stunning visuals with sharp, vibrant detail, making your gaming more immersive than ever."
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "Sparkle Intel Arc B580"
+    ]
+  },
+  "B0FC7NKQWQ": {
+    "asin": "B0FC7NKQWQ",
+    "title": "ASRock Intel Arc A380 Challenger ITX 6GB OC + Challenger CL-550B 550W PSU Bundle - SFF Ready, 80 Plus Bronze, 0dB Cooling",
+    "brand": "ASRock",
+    "price": "$172.96",
+    "img": "https://m.media-amazon.com/images/I/517+uuBEIQL._SL500_.jpg",
+    "features": [
+      "Compact Powerhouse: Features the space-saving ASRock Intel Arc A380 Challenger ITX 6GB GPU with 2250 MHz clock, 6GB GDDR6, and ultra-quiet 0dB Striped Axial Fan cooling – perfect for small form factor builds.",
+      "Efficient & Reliable Power: Includes the ASRock Challenger CL-550B 550W PSU with 80 Plus Bronze efficiency, delivering stable power with OCP/OVP/OTP protections and a 5-year warranty.",
+      "SFF Optimized Design: GPU's mini-ITX size fits tiny cases, while the PSU's flat cables enable effortless cable management in compact spaces.",
+      "Premium Features: Enjoy 8K resolution support (GPU), Super Alloy components, and the PSU's built-in 5V Boost for stable peripheral power.",
+      "📦 Seperate Pack"
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "ASRock Intel Arc B580"
+    ]
+  },
+  "B0DTC5QFN6": {
+    "asin": "B0DTC5QFN6",
+    "title": "acer Nitro Intel Arc B570 Overclocking Graphics Card | 10GB GDDR6 | Xe2 18 Cores | Dual Fan Frostblade Cooling System | Graphics Clock 2.69 GHz | 1 x HDMI 2.1 Supporting HDMI 4K & 3 x DisplayPort 2.1",
+    "brand": "Acer",
+    "price": "$365.27",
+    "img": "https://m.media-amazon.com/images/I/319bvSEsGXL._SL500_.jpg",
+    "features": [
+      "B A Game Changer: Introducing the Nitro Intel Arc B-Series Graphics Card—A modern graphics card, engineered to be packed with tech that delivers exceptional gaming, versatile creation, and accessible AI experiences.",
+      "Stay Frosty, Play Fierce: Designed for gamers who demand more, the superior Frostblade cooling thermal system keeps your card cool in game under fire. With the small form factor, it fits perfectly into your rig, leaving no room for compromise—just victory.",
+      "Every Frame, Every Victory: Dominate the battlefield with high FPS gaming, with support up to 8K display to bring your games to life with unmatched detail and clarity.",
+      "B Ready To Create: A versatile Creator toolkit is at your fingertips with Intel Arc B Series. Create, edit, and upload content quickly with a wide range of support for the most popular media formats.",
+      "B Ready to Generate: Explore the latest AI experiences right on your PC with AI Playground, an app that does everything from text to image generation, to AI chatbots.",
+      "Acer Intelligence Space: Your central hub for intelligent device features, Acer Intelligence Space detects your system hardware and recommends compatible AI applications, helping you optimize performance, enhance your gaming experiences, and discover new tools effortlessly.",
+      "GPU Clock: Graphics Clock 2.69 GHz | GPU Core: Xe2 18 Cores | Max Resolution: 7680 x 4320 (8K)",
+      "Memory Spec: 10 GB GDDR6 VRAM Memory | Memory Interface: 160bit | Memory Bandwidth: 380 GBps | Memory Speed: 19 Gbps",
+      "Ports: 1 x HDMI 2.1 Supporting HDMI 4K and 3 x DisplayPort 2.1 | Connect Up to 4 Displays: Up to 8K/60 Hz for a single display output - Up to 4K/60 Hz for 4 display output",
+      "Technology: Intel Adaptive Sync, DirectX 12 Ultimate, OpenGL 4.6, OpenCL 3.0, Ray Tracing (Units 18), HDR10, HDR10+ Gaming, Dolby Vision and AI-Enhanced Upscaling with XeSS (Xe Super Sampling)"
+    ],
+    "fetchedAt": "2026-09-28",
+    "queries": [
+      "ASRock Intel Arc B580"
     ]
   }
 }

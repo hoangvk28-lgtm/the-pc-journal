@@ -53,6 +53,7 @@ import { batch19 } from "@/data/clusters/batch19";
 import { batch20 } from "@/data/clusters/batch20";
 import { batch21 } from "@/data/clusters/batch21";
 import { batch22 } from "@/data/clusters/batch22";
+import { batch23 } from "@/data/clusters/batch23";
 import { composeGuide } from "@/lib/pc-compose/generic";
 import { fixtures } from "@/data/fixtures/pc-fixtures";
 import type { PcArticle, PcCategory } from "./types";
@@ -62,7 +63,7 @@ import { validateArticle, type ValidationIssue } from "./validate";
 export * from "./types";
 
 /** Registry of all article records. Add new articles here. */
-const allArticles: PcArticle[] = [...publishedGuides, ...draftBuyingGuides, ...psuCluster.map(composePsuGuide), ...[...batch2, ...batch3, ...batch4, ...batch5, ...batch6, ...batch7, ...batch8, ...batch9, ...batch10, ...batch10b, ...batch10c, ...batch11, ...batch11b, ...batch11c, ...batch12, ...batch12b, ...batch12c, ...batch12d, ...batch12e, ...batch13c, ...batch13c2, ...batch13c3, ...batch13c4, ...batch13a, ...batch13a2, ...batch13a3, ...batch13a4, ...batch13a5, ...batch13b, ...batch13b2, ...batch13b3, ...batch13d, ...batch13d2, ...batch13d3, ...batch13e, ...batch13e2, ...batch13e3, ...batch13e4, ...batch14, ...batch15a, ...batch15b, ...batch15c, ...batch15d, ...batch15e, ...batch16a, ...batch17, ...batch18, ...batch19, ...batch20, ...batch21, ...batch22].map((b) => composeGuide(b.cfg, b.schema, b.facts))];
+const allArticles: PcArticle[] = [...publishedGuides, ...draftBuyingGuides, ...psuCluster.map(composePsuGuide), ...[...batch2, ...batch3, ...batch4, ...batch5, ...batch6, ...batch7, ...batch8, ...batch9, ...batch10, ...batch10b, ...batch10c, ...batch11, ...batch11b, ...batch11c, ...batch12, ...batch12b, ...batch12c, ...batch12d, ...batch12e, ...batch13c, ...batch13c2, ...batch13c3, ...batch13c4, ...batch13a, ...batch13a2, ...batch13a3, ...batch13a4, ...batch13a5, ...batch13b, ...batch13b2, ...batch13b3, ...batch13d, ...batch13d2, ...batch13d3, ...batch13e, ...batch13e2, ...batch13e3, ...batch13e4, ...batch14, ...batch15a, ...batch15b, ...batch15c, ...batch15d, ...batch15e, ...batch16a, ...batch17, ...batch18, ...batch19, ...batch20, ...batch21, ...batch22, ...batch23].map((b) => composeGuide(b.cfg, b.schema, b.facts))];
 
 export const registry: readonly PcArticle[] = allArticles;
 

@@ -35,7 +35,7 @@ if (repeated.length > 15) cross.push(`WARNING ... ${repeated.length - 15} more r
 // Sections after the picks must be written from each guide's own products: a guide may carry at most
 // 2 FAQ/criteria/method/table texts that appear verbatim in more than 10 guides (shared general advice).
 const backTexts = (a: BestGuide) => [
-  ...a.faq.flatMap((q) => [q.q, q.a]), ...a.buyingCriteria.map((c) => c.explanation),
+  ...a.faq.map((q) => `${q.q}\n${q.a}`), ...a.buyingCriteria.map((c) => c.explanation),
   ...a.howWeEvaluated.map((e) => e.description), ...a.howToChoose.flatMap((h) => [h.intro, h.note]),
 ].filter((t): t is string => !!t);
 const backCount = new Map<string, number>();
