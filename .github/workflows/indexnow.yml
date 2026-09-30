@@ -1,11 +1,11 @@
-name: Ping IndexNow on new/updated guides
+name: Ping IndexNow on new/updated PC guides
 
 on:
   push:
     branches: [main]
     paths:
-      - "data/guides/**"
-      - "app/(site)/guide/**"
+      - "data/first-fifty.json"
+      - "data/next-hundred.json"
 
 jobs:
   ping-indexnow:
@@ -20,8 +20,4 @@ jobs:
         run: sleep 90
 
       - name: Submit changed guide URLs to IndexNow
-        # Diff the full push range (before..after), not just the latest commit -
-        # a single `git push` can carry several commits (e.g. batch clusters
-        # committed separately then pushed together), and HEAD~1 alone would
-        # silently miss every commit but the last one in that push.
         run: node scripts/indexnow.mjs --auto --since=${{ github.event.before }}

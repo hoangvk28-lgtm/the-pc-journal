@@ -1,78 +1,69 @@
-/**
- * Reusable IndexNow submitter. Notifies Bing + Yandex about new/changed URLs.
- *
- * Usage:
- *   node scripts/indexnow.mjs <slug1> <slug2> ...        # submit specific guide slugs
- *   node scripts/indexnow.mjs --auto                      # auto-detect from the last git commit
- *   node scripts/indexnow.mjs --auto --since=HEAD~5        # auto-detect since a specific ref
- *
- * Rate limit: 10,000 URLs/day (well above this site's publishing volume).
- */
-import { execSync } from "child_process";
+/** Submit The PC Journal's public URLs through IndexNow. */
+import { execFileSync } from "node:child_process";
+import { readFileSync } from "node:fs";
 
-const HOST = "www.deskfinds.com";
-const KEY = "a7c91f60c6ae407994153f996878409e";
-const KEY_LOCATION = `https://${HOST}/${KEY}.txt`;
+const HOST = "www.thepcjournal.com";
+const KEY_FILE = "f734233bb0bf4a4eb7a09e0dfa6a9ec9.txt";
+const KEY = readFileSync(new URL(`../public/${KEY_FILE}`, import.meta.url), "utf8").trim();
+const KEY_LOCATION = `https://${HOST}/${KEY_FILE}`;
+const DATA_FILES = ["data/first-fifty.json", "data/next-hundred.json"];
 
-function slugsFromGitDiff(sinceRef) {
-  const range = sinceRef ?? "HEAD~1";
-  let diffOutput;
-  try {
-    diffOutput = execSync(`git diff --name-status ${range} HEAD`, { encoding: "utf-8" });
-  } catch (e) {
-    console.error(`Could not diff against ${range}, falling back to last commit only.`);
-    diffOutput = execSync(`git show --name-status --format="" HEAD`, { encoding: "utf-8" });
-  }
+function git(...args) {
+  return execFileSync("git", args, { encoding: "utf8" });
+}
 
+function changedGuides(since) {
+  const changedFiles = new Set(git("diff", "--name-only", since, "HEAD").trim().split(/\r?\n/));
   const slugs = new Set();
-  for (const line of diffOutput.split("\n")) {
-    const match = line.match(/^[AM]\s+data\/guides\/(.+)\.ts$/);
-    if (match) slugs.add(match[1]);
-    const pageMatch = line.match(/^[AM]\s+app\/\(site\)\/guide\/(.+)\/page\.tsx$/);
-    if (pageMatch) slugs.add(pageMatch[1]);
+  for (const file of DATA_FILES) {
+    if (!changedFiles.has(file)) continue;
+    const current = JSON.parse(readFileSync(new URL(`../${file}`, import.meta.url), "utf8"));
+    let previous = [];
+    try { previous = JSON.parse(git("show", `${since}:${file}`)); } catch { /* New file. */ }
+    const oldBySlug = new Map(previous.map((article) => [article.slug, JSON.stringify(article)]));
+    for (const article of current) {
+      if (oldBySlug.get(article.slug) !== JSON.stringify(article)) slugs.add(article.slug);
+    }
   }
-  return [...slugs];
+  return [...slugs].map((slug) => `https://${HOST}/guides/${slug}`);
+}
+
+async function allPublicUrls() {
+  const response = await fetch(`https://${HOST}/sitemap.xml`);
+  if (!response.ok) throw new Error(`Sitemap returned HTTP ${response.status}`);
+  const xml = await response.text();
+  const urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1].replaceAll("&amp;", "&"));
+  if (urls.length === 0) throw new Error("Sitemap has no URLs; refusing empty submission");
+  return urls;
+}
+
+if (!/^[a-f0-9]{32}$/i.test(KEY) || KEY_FILE !== `${KEY}.txt`) {
+  throw new Error("IndexNow key file is invalid");
 }
 
 const args = process.argv.slice(2);
-const isAuto = args.includes("--auto");
-const sinceArg = args.find((a) => a.startsWith("--since="));
-const sinceRef = sinceArg ? sinceArg.split("=")[1] : undefined;
-
-let guideSlugs;
-if (isAuto) {
-  guideSlugs = slugsFromGitDiff(sinceRef);
-  console.log(`Auto-detected ${guideSlugs.length} changed guide(s) from git diff.`);
+let urls;
+if (args.includes("--all")) {
+  urls = await allPublicUrls();
+} else if (args.includes("--auto")) {
+  const since = args.find((arg) => arg.startsWith("--since="))?.slice(8) || "HEAD~1";
+  if (!/^[a-f0-9^~]+$/i.test(since)) throw new Error("Invalid git ref");
+  urls = changedGuides(since);
 } else {
-  guideSlugs = args.filter((a) => !a.startsWith("--"));
+  urls = args.filter((arg) => !arg.startsWith("--")).map((slug) => `https://${HOST}/guides/${slug}`);
 }
 
-if (guideSlugs.length === 0) {
-  console.log("No guide URLs to submit. Exiting without pinging IndexNow.");
+urls = [...new Set(urls)];
+if (urls.length === 0) {
+  console.log("No changed guide URLs to submit.");
   process.exit(0);
 }
+if (urls.some((url) => new URL(url).host !== HOST)) throw new Error("URL outside the site host");
 
-const urlList = guideSlugs.map((s) => `https://${HOST}/guide/${s}`);
-
-console.log(`Pinging IndexNow with ${urlList.length} URL(s):`);
-for (const u of urlList) console.log(`  ${u}`);
-
-const res = await fetch("https://api.indexnow.org/indexnow", {
+const response = await fetch("https://api.indexnow.org/indexnow", {
   method: "POST",
-  headers: { "Content-Type": "application/json" },
-  body: JSON.stringify({
-    host: HOST,
-    key: KEY,
-    keyLocation: KEY_LOCATION,
-    urlList,
-  }),
+  headers: { "Content-Type": "application/json; charset=utf-8" },
+  body: JSON.stringify({ host: HOST, key: KEY, keyLocation: KEY_LOCATION, urlList: urls }),
 });
-
-if (res.ok) {
-  console.log(`OK IndexNow accepted -- HTTP ${res.status}`);
-  console.log(`  ${urlList.length} URL(s) submitted to Bing + Yandex`);
-} else {
-  const body = await res.text();
-  console.error(`FAILED IndexNow rejected -- HTTP ${res.status}: ${body}`);
-  process.exit(1);
-}
+if (!response.ok) throw new Error(`IndexNow rejected ${urls.length} URLs: HTTP ${response.status}`);
+console.log(`IndexNow accepted ${urls.length} URLs: HTTP ${response.status}`);
