@@ -21,7 +21,7 @@ export const CATEGORY_LABELS: Record<PcCategory, string> = {
   peripherals: "Peripherals",
 };
 
-export type ContentType = "guide" | "best-guide";
+export type ContentType = "guide" | "best-guide" | "long-form";
 
 /**
  * published: public, in sitemap and homepage.
@@ -106,6 +106,11 @@ export interface InformationalGuide extends ArticleBase {
   modules: GuideModule[];
 }
 
+export interface LongFormGuide extends ArticleBase {
+  type: "long-form";
+  body: string;
+}
+
 /* ──────────────────────── Best X guide (The Office Journal template) ─────────────────────── */
 
 /** One pick. Shape matches components/guide/RichGuidePage GuideProduct so the editorial components render it unchanged. */
@@ -156,4 +161,4 @@ export interface BestGuide extends ArticleBase {
   bottomLine: string[];
 }
 
-export type PcArticle = InformationalGuide | BestGuide;
+export type PcArticle = InformationalGuide | BestGuide | LongFormGuide;

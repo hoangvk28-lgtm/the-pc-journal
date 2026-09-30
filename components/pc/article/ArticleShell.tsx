@@ -16,7 +16,7 @@ export function headingId(text: string): string {
   return text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 
-const typeLabel = { guide: "Guide", "best-guide": "Buying Guide" } as const;
+const typeLabel = { guide: "Guide", "best-guide": "Buying Guide", "long-form": "Guide" } as const;
 
 function ArticleSchema({ article, path }: { article: PcArticle; path: string }) {
   const url = `${SITE_URL}${path}`;

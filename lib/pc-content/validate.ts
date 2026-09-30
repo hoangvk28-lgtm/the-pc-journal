@@ -74,6 +74,7 @@ export function validateArticle(a: PcArticle, publishedSlugs: Set<string>): Vali
   if (DASHES.test(text)) push("warning", "copy", "Em or en dash in copy.");
 
   if (a.type === "best-guide") validateBestGuide(a, push);
+  else if (a.type === "long-form") { if (!a.body.trim()) push("error", "body", "A guide needs body content."); }
   else if (a.modules.length === 0) push("error", "modules", "A guide needs at least one content module.");
   return issues;
 }
