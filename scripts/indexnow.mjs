@@ -60,10 +60,20 @@ if (urls.length === 0) {
 }
 if (urls.some((url) => new URL(url).host !== HOST)) throw new Error("URL outside the site host");
 
-const response = await fetch("https://api.indexnow.org/indexnow", {
-  method: "POST",
-  headers: { "Content-Type": "application/json; charset=utf-8" },
-  body: JSON.stringify({ host: HOST, key: KEY, keyLocation: KEY_LOCATION, urlList: urls }),
-});
-if (!response.ok) throw new Error(`IndexNow rejected ${urls.length} URLs: HTTP ${response.status}`);
-console.log(`IndexNow accepted ${urls.length} URLs: HTTP ${response.status}`);
+const offset = Number(args.find((arg) => arg.startsWith("--offset="))?.slice(9) || 0);
+if (!Number.isInteger(offset) || offset < 0 || offset >= urls.length) throw new Error("Invalid offset");
+const batchSize = 100;
+for (let start = offset; start < urls.length; start += batchSize) {
+  const batch = urls.slice(start, start + batchSize);
+  const response = await fetch("https://api.indexnow.org/indexnow", {
+    method: "POST",
+    headers: { "Content-Type": "application/json; charset=utf-8" },
+    body: JSON.stringify({ host: HOST, key: KEY, keyLocation: KEY_LOCATION, urlList: batch }),
+  });
+  if (!response.ok) {
+    const detail = (await response.text()).replaceAll(KEY, "[redacted]").slice(0, 500);
+    throw new Error(`IndexNow rejected batch ${start}-${start + batch.length - 1}: HTTP ${response.status}${detail ? ` (${detail})` : ""}`);
+  }
+  console.log(`IndexNow accepted ${start + batch.length}/${urls.length} URLs: HTTP ${response.status}`);
+  if (start + batchSize < urls.length) await new Promise((resolve) => setTimeout(resolve, 750));
+}
