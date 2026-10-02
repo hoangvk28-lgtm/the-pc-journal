@@ -565,7 +565,8 @@ function guideSections(cfg: GenericArticleConfig, facts: Fact[], schema: Categor
       : `Do ${the(gs[0][0])} and ${the(gs[1]?.[0] ?? gs[0][1] ?? gs[0][0])} differ on ${lbl}?`;
     faq.push({ q, a });
   }
-  const withCompat = facts.map((f) => ({ f, c: schema.compat(f, facts) })).filter((x) => x.c.length);
+  // Only compat lines that name the pick; generic category advice repeats across too many guides.
+  const withCompat = facts.map((f) => ({ f, c: schema.compat(f, facts).filter((l) => l.includes(f.short)) })).filter((x) => x.c.length);
   if (withCompat.length) {
     const x = pk(withCompat, "fc");
     faq.push({ q: pk([`What should I check before buying ${the(x.f)}?`, `Will ${the(x.f)} work with my setup?`], "fcq"), a: x.c.slice(0, 2).join(" ") + ` In this guide it ranks ${ordinal(facts.indexOf(x.f) + 1)} of ${N}${taken.get(x.f.asin) && !NEUTRAL.test(taken.get(x.f.asin)!.badge) ? `, as our ${taken.get(x.f.asin)!.badge} pick` : ""}.` });
@@ -575,7 +576,22 @@ function guideSections(cfg: GenericArticleConfig, facts: Fact[], schema: Categor
     const two = noted.slice(0, 3);
     faq.push({ q: pk([`What extras do ${names(two.slice(0, 2))} include?`, `Beyond the specs, what sets ${names(two.slice(0, 2))} apart?`], "fnq"), a: two.map((f) => `${cap(the(f))}: ${f.notes[0]}.`).join(" ") });
   }
-  // Pooled category questions only fill a guide whose picks give too little to compare.
+  // More pick-specific questions before any pooled text: a second labelled pick, then two picks' best-for lines.
+  const lab2 = labelled.filter((f) => f !== pk(labelled, "fl"));
+  if (faq.length < 5 && lab2.length) {
+    const f = lab2[0], l = taken.get(f.asin)!;
+    faq.push({ q: `Who should choose ${the(f)}?`, a: `${cap(the(f))} carries our ${l.badge} label for ${lc(l.reason.replace(/\.$/, ""))}. It ranks ${ordinal(facts.indexOf(f) + 1)} of ${N} here.` });
+  }
+  const suited = facts.filter((f) => taken.get(f.asin)?.bestFor);
+  if (faq.length < 5 && suited.length >= 2) {
+    const [a, b] = [suited[0], suited[suited.length - 1]];
+    faq.push({ q: `Should I pick ${the(a)} or ${the(b)}?`, a: `${cap(the(a))} suits ${lc(taken.get(a.asin)!.bestFor.replace(/\.$/, ""))}; ${the(b)} suits ${lc(taken.get(b.asin)!.bestFor.replace(/\.$/, ""))}.` });
+  }
+  if (faq.length < 5 && noted.length >= 4) {
+    const two = noted.slice(-2);
+    faq.push({ q: `What else do ${names(two)} offer?`, a: two.map((f) => `${cap(the(f))}: ${f.notes[f.notes.length - 1]}.`).join(" ") });
+  }
+  // Pooled category questions only fill a guide whose picks give too little to compare (at most one).
   const pooledFaq = shuffle(schema.faq, s + "faq");
   const faqOut = [...faq.slice(0, 6), ...pooledFaq.slice(0, Math.max(0, 5 - faq.length))].slice(0, 6);
 
@@ -613,7 +629,7 @@ function guideSections(cfg: GenericArticleConfig, facts: Fact[], schema: Categor
     crit.push({ title: pk(["Match the pick to your priority", "Start from what matters most"], "cs"), body: suitsCrit.slice(0, 3).map((f) => `${cap(lc(taken.get(f.asin)!.bestFor.replace(/\.$/, "")))}: ${the(f)}.`).join(" ") });
   const prio = cfg.priorityCriteria ?? [];
   const pooledCrit = crit.length >= 3 ? shuffle(schema.criteria, s) : [...prio.map((id) => schema.criteria.find((c) => c.id === id)!).filter(Boolean), ...shuffle(schema.criteria.filter((c) => !prio.includes(c.id)), s)];
-  const critOut = [...crit.slice(0, 5), ...pooledCrit.slice(0, Math.max(1, 5 - crit.length)).map((c) => ({ title: c.title, body: c.body }))].slice(0, 6);
+  const critOut = [...crit.slice(0, 5), ...pooledCrit.slice(0, Math.max(0, 5 - crit.length)).map((c) => ({ title: c.title, body: c.body }))].slice(0, 6);
 
   // How we chose: this guide's fields, shared features and gaps.
   const stated = schema.fields.filter((fd) => facts.filter((f) => has(f, fd)).length >= 2);
