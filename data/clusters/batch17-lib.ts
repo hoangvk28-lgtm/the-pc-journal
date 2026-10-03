@@ -76,6 +76,8 @@ const kwCase = (s: string) => s.split(" ").map((w) => PROPER[w.toLowerCase()] ??
 const title = (s: string) => s.split(" ").map((w, i) => PROPER[w.toLowerCase()] ?? (i > 0 && SMALL.has(w.toLowerCase()) ? w.toLowerCase() : w.charAt(0).toUpperCase() + w.slice(1))).join(" ").replace("Mac Mini", "Mac mini");
 const price = (f: Fact) => Number(String(f.price ?? "").replace(/[^0-9.]/g, "")) || Infinity;
 const val = (f: Fact, k: string) => f.specs[k];
+/** Next round price edge above a price: "under $150". */
+const edge = (p: number) => `$${[50, 100, 150, 250, 500, 1000, 1500, 2500].find((e) => p < e) ?? Math.ceil(p / 500) * 500}`;
 const has = (v: unknown) => v !== undefined && v !== null && v !== "" && v !== false && !/^(none|not stated)/i.test(String(v));
 const num = (v: unknown) => (typeof v === "number" ? v : undefined);
 const joinList = (xs: string[]) => (xs.length < 2 ? xs.join("") : `${xs.slice(0, -1).join(", ")} and ${xs[xs.length - 1]}`);
@@ -158,12 +160,12 @@ function labelsFor(fs: Fact[], schema: CategorySchema, noun: string): Record<str
   const byPrice = [...fs].filter((f) => price(f) < Infinity).sort((a, b) => price(a) - price(b));
   if (byPrice.length >= 2 && price(byPrice[0]) < price(byPrice[1]) && !ruleWinners.has(byPrice[0].asin))
     { const lo = byPrice[0], nx = byPrice[1], k = hash(lo.asin + noun), note = lo.notes[0]?.replace(/^(a|an|the) /i, "");
-    give(lo, "Lowest Price Here", [`the lowest price among these ${noun} at the time of writing`, `a lower price than the ${nx.short} and the rest when we checked`, `the cheapest way into this group, below the ${nx.short}`, `undercutting the ${nx.short} on price when we checked`, `the lowest price of the group at our last check`][k % 5], [note ? `Getting ${note} for the least money.` : "Keeping the budget tight.", "Spending as little as possible.", "Buyers who would rather put the savings elsewhere in the build.", "Keeping the budget tight."][k % 4]); }
+    give(lo, "Lowest Price Here", [`the lowest price among these ${noun} at the time of writing`, `a lower price than the ${nx.short} and the rest when we checked`, `the cheapest way into this group, below the ${nx.short}`, `undercutting the ${nx.short} on price when we checked`, `the lowest price of the group at our last check`][k % 5], [note ? `Getting ${note} for the least money.` : `Keeping this part of the build under ${edge(price(lo))}.`, `Spending as little as possible, with the ${nx.short} the next step up.`, `Buyers who would rather put the savings elsewhere than into the ${nx.short}.`, `Keeping the cost under ${edge(price(lo))}.`][k % 4]); }
   // 3. Highest listed price: the premium end of the set.
   const top = byPrice[byPrice.length - 1];
   if (byPrice.length >= 3 && price(top) > price(byPrice[byPrice.length - 2]) && !ruleWinners.has(top.asin))
     { const k = hash(top.asin + noun), note = top.notes[0];
-    give(top, "Premium Pick", [`the highest-priced pick here at the time of writing${note ? `, with ${note}` : ""}`, `the top of this price range${note ? `, adding ${note}` : ""}`, `${note ? `${note} at ` : ""}the highest price in the group`][k % 3], ["Buyers who want the most complete package.", "Spending more for the fullest feature set.", "Buyers for whom price is not the deciding factor."][k % 3]); }
+    give(top, "Premium Pick", [`the highest-priced pick here at the time of writing${note ? `, with ${note}` : ""}`, `the top of this price range${note ? `, adding ${note}` : ""}`, `${note ? `${note} at ` : ""}the highest price in the group`][k % 3], [`Buyers who want ${note ? note : "the most complete package"} and can spend more than the ${byPrice[byPrice.length - 2].short} costs.`, `Spending more than the ${byPrice[byPrice.length - 2].short} costs for the fullest feature set in this group.`, `Buyers for whom price is not the deciding factor, since the ${byPrice[0].short} costs less.`][k % 3]); }
   // 4. A short, clean descriptive value no other pick shares ("Flip-up Armrests", "Open-back Design").
   for (const f of fs) {
     if (out[f.asin] || ruleWinners.has(f.asin)) continue;
@@ -189,6 +191,8 @@ export type Spec = {
   slug: string; kw: string; asins: string[];
   /** 1-2 sentences written for this keyword. */
   lead: string; close: string;
+  /** Key into data/game-requirements.ts when the slug is not in its table. */
+  game?: string;
   seo?: string; h1?: string; crumb?: string; teaser?: string; rel?: string[]; prio?: string[];
 };
 
@@ -272,7 +276,7 @@ export const make = (g: Group) => (s: Spec): Entry => {
     schema: g.schema, facts: g.facts,
     cfg: {
       slug: s.slug, category: g.category, updatedAt, seoTitle, title: s.h1 ?? (s.seo && /^Best /.test(s.seo) ? `The ${s.seo}` : `The Best ${title(s.kw)}`), breadcrumbLabel: s.crumb ?? seoTitle,
-      mainKeyword: s.kw, dek, metaDescription, teaser: s.teaser ?? s.lead.split(/(?<=\.)\s/)[0], asins: s.asins, labels, takes,
+      game: s.game, mainKeyword: s.kw, dek, metaDescription, teaser: s.teaser ?? s.lead.split(/(?<=\.)\s/)[0], asins: s.asins, labels, takes,
       intro: [s.lead, method(s.slug, ranked, missingField, g.noun)], bottomLine: bottom, priorityCriteria: prio,
       related: (s.rel ?? g.related).filter((x) => x !== s.slug).slice(0, 3),
     },

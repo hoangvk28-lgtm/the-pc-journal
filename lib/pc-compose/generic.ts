@@ -1,6 +1,7 @@
 import type { BestGuide, BestProduct, HowToChooseSection, PcCategory } from "@/lib/pc-content/types";
 import { cap, hash, listJoin, pick, shuffle } from "./seed";
 import { WHY_EXTRA } from "@/data/clusters/why-extra";
+import { gameBlock, gameForSlug } from "./game-requirements";
 
 /**
  * Category-agnostic Best X composer.
@@ -77,6 +78,8 @@ export interface GenericArticleConfig {
   /** Guide-specific FAQ and buying criteria, shown before the shared category pool so guides in one category differ. */
   extraFaq?: { q: string; a: string }[];
   extraCriteria?: { title: string; body: string }[];
+  /** Key into data/game-requirements.ts; defaults to the slug table there. */
+  game?: string;
 }
 
 const num = (v: SpecValue | undefined) => (typeof v === "number" ? v : undefined);
@@ -491,6 +494,17 @@ function guideSections(cfg: GenericArticleConfig, facts: Fact[], schema: Categor
   const has = (f: Fact, fd: FieldDef) => !missingVal(f.specs[fd.key]);
   const fmtOf = (f: Fact, fd: FieldDef) => fd.fmt(f.specs[fd.key]!);
   const byPrice = facts.filter((f) => priceNum(f.price)).sort((a, b) => priceNum(a.price)! - priceNum(b.price)!);
+  const an = (n: number) => (/^(8|11|18)/.test(String(n)) ? "an" : "a");
+  const tierOf = (f: Fact) => priceBucket(priceNum(f.price) ?? 0).replace(/^About /, "").replace(/^Under/, "under").replace(/^Over/, "over");
+  /** "buyers who put X first" -> "anyone who puts X first": the verb after "who" takes its third-person form. */
+  const fixWho = (bestFor: string) => {
+    const t = lc(bestFor.replace(/\.$/, ""));
+    return t.replace(/^(buyers|anyone|people|gamers|users|those|players|streamers|creators|readers) (who|that) (\w+)/i, (_m, _n, _w, v: string) => {
+      const lv = v.toLowerCase();
+      const third = /^(would|can|will|must|should|may|might|could|is|are|was|were|has)$/.test(lv) ? lv : lv === "have" ? "has" : lv === "do" ? "does" : lv === "go" ? "goes" : /(s|sh|ch|x|z)$/.test(lv) ? `${lv}es` : /[^aeiou]y$/.test(lv) ? `${lv.slice(0, -1)}ies` : `${lv}s`;
+      return `anyone who ${third}`;
+    });
+  };
 
   // Numeric fields where the picks actually differ, most-stated first.
   const numF = schema.fields.filter((fd) => fd.better).map((fd) => ({ fd, order: ranked(fd, facts) }))
@@ -519,9 +533,13 @@ function guideSections(cfg: GenericArticleConfig, facts: Fact[], schema: Categor
     const [best] = fd.superlative ?? (fd.better === "higher" ? ["highest"] : ["lowest"]);
     faq.push({
       q: pk([`Which has the ${best} ${n}: ${the(a)} or ${the(b)}?`, `How does ${the(b)} compare with ${the(a)} on ${n}?`, `Is ${the(a)} ahead of ${the(b)} on ${n}?`], `fq${i}`),
-      a: `${cap(the(a))} ${fd.better === "higher" ? "leads" : "comes out best"} at ${fmtOf(a, fd)}, with ${the(b)} at ${fmtOf(b, fd)}.`
-        + (order.length >= 3 && num(z.specs[fd.key]) !== num(b.specs[fd.key]) ? ` ${cap(the(z))} is at the other end of this group with ${fmtOf(z, fd)}.` : "")
-        + (miss.length ? ` ${cap(names(miss))} ${verb(miss, "doesn't", "don't")} state a figure, so ${verb(miss, "it sits", "they sit")} outside this comparison.` : ""),
+      a: ((pct) => pk([
+        `${cap(the(a))} ${fd.better === "higher" ? "leads" : "comes out best"} at ${fmtOf(a, fd)}, with ${the(b)} at ${fmtOf(b, fd)}.`,
+        `${cap(the(a))} ${fd.better === "higher" ? "tops" : "is lowest on"} ${n} at ${fmtOf(a, fd)}; ${the(b)} follows at ${fmtOf(b, fd)}${pct ? `, ${pct}% apart` : ""}.`,
+        `Between the top two, it is ${fmtOf(a, fd)} on ${the(a)} against ${fmtOf(b, fd)} on ${the(b)}${pct ? `, ${an(pct)} ${pct}% difference` : ""}.`,
+      ], `fa${i}`))(num(a.specs[fd.key]) && num(b.specs[fd.key]) ? Math.round((Math.abs(num(a.specs[fd.key])! - num(b.specs[fd.key])!) / Math.abs(num(b.specs[fd.key])!)) * 100) : 0)
+        + (order.length >= 3 && num(z.specs[fd.key]) !== num(b.specs[fd.key]) ? " " + pk([`${cap(the(z))} is at the other end of this group with ${fmtOf(z, fd)}.`, `The spread runs down to ${the(z)} at ${fmtOf(z, fd)}.`, `${cap(the(z))} closes the ranking at ${fmtOf(z, fd)}.`], `fz${i}`) : "")
+        + (miss.length ? ` ${pk([`${cap(names(miss))} ${verb(miss, "doesn't", "don't")} state a ${n} figure, so ${verb(miss, "it sits", "they sit")} outside this comparison`, `No ${n} figure is published for ${names(miss)}, which leaves ${order.length} of ${N} picks ranked here`, `${cap(names(miss))} ${verb(miss, "is", "are")} left out of this ranking because ${verb(miss, "its", "their")} ${n} isn't stated`], `fm${i}`)}${order.length < N ? `; ${order.length} of ${N} picks are ranked` : ""}.`.replace(/(ranked here); \d+ of \d+ picks are ranked/, "$1") : ""),
     });
   });
   // What the premium pick adds over the cheapest one.
@@ -534,9 +552,12 @@ function guideSections(cfg: GenericArticleConfig, facts: Fact[], schema: Categor
     if (g.length || l.length)
       faq.push({
         q: pk([`Is ${the(hi)} worth paying more than ${the(lo)}?`, `What does ${the(hi)} add over ${the(lo)}?`], "fp"),
-        a: (g.length ? `On paper it adds ${listJoin(g)}.` : `On the figures both makers state, it adds little.`)
+        a: (g.length ? pk([`On paper it adds ${listJoin(g)}.`, `The spec sheets show ${listJoin(g)} in its favour.`, `What it brings is ${listJoin(g)}.`], "fpg")
+            : `${cap(the(hi))} matches or trails ${the(lo)} on ${listJoin(numF.filter(({ fd }) => has(hi, fd) && has(lo, fd)).slice(0, 3).map(({ fd }) => nounOf(fd))) || "every ranked spec"}, so the extra spend buys only what the spec sheet doesn't show.`)
           + (l.length ? ` It does not win everywhere: ${the(lo)} still leads on ${listJoin(l)}.` : "")
-          + ` ${cap(the(lo))} was the lowest-priced pick when we checked, so pay the difference only if ${g.length ? "those gains" : "a feature outside the spec sheet"} matter${g.length ? "" : "s"} to you.`,
+          + (tierOf(hi) !== tierOf(lo)
+            ? pk([` ${cap(the(lo))} sat in the ${tierOf(lo)} tier and ${the(hi)} in the ${tierOf(hi)} tier when we checked`, ` On our last price check ${the(lo)} was in the ${tierOf(lo)} tier and ${the(hi)} in the ${tierOf(hi)} tier`], "fpt") + `${byPrice.length > 2 ? `, with ${byPrice.length - 2} other pick${byPrice.length === 3 ? "" : "s"} between them` : ""}${g.length ? `; pay the difference only if ${listJoin(gains.slice(0, 2).map(({ fd }) => nounOf(fd)))} decide${gains.length === 1 ? "s" : ""} your purchase.` : "."}`
+            : ` Both sat in the ${tierOf(lo)} tier when we checked${g.length ? `, so the gains in ${listJoin(gains.slice(0, 2).map(({ fd }) => nounOf(fd)))} cost little extra by tier.` : ", so the choice comes down to features."}`),
       });
   }
   // Why a labelled pick carries its badge.
@@ -544,9 +565,28 @@ function guideSections(cfg: GenericArticleConfig, facts: Fact[], schema: Categor
   const labelled = ((l) => (l.filter((f) => !/price/i.test(taken.get(f.asin)!.reason)).length ? l.filter((f) => !/price/i.test(taken.get(f.asin)!.reason)) : l))(facts.filter((f) => taken.get(f.asin)?.reason && !NEUTRAL.test(taken.get(f.asin)!.badge)));
   if (labelled.length) {
     const f = pk(labelled, "fl"), l = taken.get(f.asin)!;
+    // Where the label rests on a ranked spec this pick leads, say by how much; then what it costs against the cheapest pick.
+    const lead = numF.find(({ fd, order }) => order[0].asin === f.asin && order.length >= 2 && num(order[0].specs[fd.key]) !== num(order[1].specs[fd.key]) && l.reason.toLowerCase().includes(nounOf(fd).toLowerCase().replace(/^(largest|highest|lowest|longest|most) /, "")));
+    let margin = "";
+    if (lead) {
+      const second = lead.order[1], a1 = num(f.specs[lead.fd.key])!, a2 = num(second.specs[lead.fd.key])!;
+      const pct = a2 ? Math.round((Math.abs(a1 - a2) / Math.abs(a2)) * 100) : 0;
+      margin = pk([
+        ` On ${nounOf(lead.fd)} it leads ${the(second)}, ${fmtOf(f, lead.fd)} against ${fmtOf(second, lead.fd)}${pct >= 1 ? `, ${an(pct)} ${pct}% margin` : ""}.`,
+        ` ${cap(the(second))} is next on ${nounOf(lead.fd)} at ${fmtOf(second, lead.fd)}${pct >= 1 ? `, so this pick's ${fmtOf(f, lead.fd)} is ${pct}% further out` : `, just behind ${fmtOf(f, lead.fd)}`}.`,
+      ], "flm");
+    }
+    const cheapest = byPrice[0];
+    let cost = "";
+    if (cheapest && cheapest.asin !== f.asin) {
+      const behind = numF.filter(({ fd }) => has(f, fd) && has(cheapest, fd) && (fd.better === "higher" ? num(cheapest.specs[fd.key])! > num(f.specs[fd.key])! : num(cheapest.specs[fd.key])! < num(f.specs[fd.key])!)).slice(0, 2);
+      cost = behind.length
+        ? pk([` The price of that: ${the(cheapest)}, the cheapest pick, still beats it on ${listJoin(behind.map(({ fd }) => `${nounOf(fd)} (${fmtOf(cheapest, fd)} against ${fmtOf(f, fd)})`))}.`, ` It gives up ${listJoin(behind.map(({ fd }) => `${nounOf(fd)} (${fmtOf(f, fd)} against ${fmtOf(cheapest, fd)})`))} to ${the(cheapest)}, the cheapest pick.`], "flc")
+        : priceNum(f.price) && tierOf(f) !== tierOf(cheapest) ? ` ${cap(the(cheapest))}, the cheapest pick, sat in the ${tierOf(cheapest)} tier against ${tierOf(f)} here, without out-ranking it on any listed spec.` : "";
+    }
     faq.push({
-      q: pk([`Why is ${the(f)} our ${l.badge} pick?`, `What makes ${the(f)} the ${l.badge}?`], "flq"),
-      a: `It earns the label for ${lc(l.reason.replace(/\.$/, ""))}.${l.bestFor ? ` It suits ${lc(l.bestFor.replace(/\.$/, "").replace(/^(buyers|anyone|people|gamers|users|those) (who|that) /i, "anyone who ").replace(/^anyone who (want|need|have|like|prefer|use|play|work|sit)\b/, (m, v) => `anyone who ${v === "have" ? "has" : v + "s"}`))}.` : ""}`,
+      q: pk([`Why is ${the(f)} our ${l.badge}${/\bpick$/i.test(l.badge) ? "" : " pick"}?`, `What makes ${the(f)} the ${l.badge}?`], "flq"),
+      a: `${pk(["It earns the label for", "The label rests on", "It carries the badge for"], "fla")} ${lc(l.reason.replace(/\.$/, ""))}.${margin}${cost}${l.bestFor ? ` ${pk(["It suits", "It is aimed at", "It makes sense for"], "flb")} ${fixWho(l.bestFor)}.` : ""}`,
     });
   }
   // A feature that splits the picks.
@@ -558,7 +598,7 @@ function guideSections(cfg: GenericArticleConfig, facts: Fact[], schema: Categor
     let a: string;
     if (yes || no) a = `${yes ? `${cap(names(yes))} ${verb(yes, "has", "have")} it` : "None of the picks lists it"}${no ? `; ${names(no)} ${verb(no, "does", "do")} not` : ""}.`;
     else a = [...groups.entries()].map(([v, fs]) => `${names(fs)} ${verb(fs, "uses", "use")} ${/d|[A-Z].*[A-Z]/.test(v) ? v : lc(v)}`).map((x, i) => (i === 0 ? cap(x) : x)).join("; ") + ".";
-    if (miss.length) a += ` The maker${miss.length > 1 ? "s" : ""} of ${names(miss)} ${verb(miss, "doesn't", "don't")} say.`;
+    if (miss.length) a += ` ${pk([`The maker${miss.length > 1 ? "s" : ""} of ${names(miss)} ${verb(miss, "doesn't", "don't")} state ${lbl}`, `${cap(names(miss))} ${verb(miss, "has", "have")} no ${lbl} listed`], "fsm")}, so ${[...groups.values()].flat().length} of ${N} picks are covered here.`;
     const gs = [...groups.values()];
     const q = yes || no
       ? pk([`Which of these ${plural} have ${lbl}?`, `Does ${the((yes ?? no)![0])} have ${lbl}, and which others do?`], "fsq")
@@ -569,7 +609,12 @@ function guideSections(cfg: GenericArticleConfig, facts: Fact[], schema: Categor
   const withCompat = facts.map((f) => ({ f, c: schema.compat(f, facts).filter((l) => l.includes(f.short)) })).filter((x) => x.c.length);
   if (withCompat.length) {
     const x = pk(withCompat, "fc");
-    faq.push({ q: pk([`What should I check before buying ${the(x.f)}?`, `Will ${the(x.f)} work with my setup?`], "fcq"), a: x.c.slice(0, 2).join(" ") + ` In this guide it ranks ${ordinal(facts.indexOf(x.f) + 1)} of ${N}${taken.get(x.f.asin) && !NEUTRAL.test(taken.get(x.f.asin)!.badge) ? `, as our ${taken.get(x.f.asin)!.badge} pick` : ""}.` });
+    faq.push({ q: pk([`What should I check before buying ${the(x.f)}?`, `Will ${the(x.f)} work with my setup?`], "fcq"), a: x.c.slice(0, 2).join(" ") + ` In this guide it ranks ${ordinal(facts.indexOf(x.f) + 1)} of ${N}${taken.get(x.f.asin) && !NEUTRAL.test(taken.get(x.f.asin)!.badge) ? `, as our ${taken.get(x.f.asin)!.badge} pick` : ""}${(() => {
+      const r = numF.find(({ fd, order }) => has(x.f, fd) && order.some((o) => o.asin === x.f.asin));
+      if (!r) return "";
+      const pos = r.order.findIndex((o) => o.asin === x.f.asin) + 1;
+      return `, and ${ordinal(pos)} of ${r.order.length} on ${nounOf(r.fd)} (${fmtOf(x.f, r.fd)})`;
+    })()}.` });
   }
   const noted = facts.filter((f) => f.notes.length);
   if (noted.length >= 2 && faq.length < 6) {
@@ -580,7 +625,7 @@ function guideSections(cfg: GenericArticleConfig, facts: Fact[], schema: Categor
   const lab2 = labelled.filter((f) => f !== pk(labelled, "fl"));
   if (faq.length < 5 && lab2.length) {
     const f = lab2[0], l = taken.get(f.asin)!;
-    faq.push({ q: `Who should choose ${the(f)}?`, a: `${cap(the(f))} carries our ${l.badge} label for ${lc(l.reason.replace(/\.$/, ""))}. It ranks ${ordinal(facts.indexOf(f) + 1)} of ${N} here.` });
+    faq.push({ q: `Who should choose ${the(f)}?`, a: `${cap(the(f))} carries our ${l.badge} label for ${lc(l.reason.replace(/\.$/, ""))}. It ranks ${ordinal(facts.indexOf(f) + 1)} of ${N} here${priceNum(f.price) ? ` and sat in the ${tierOf(f)} tier at our last price check` : ""}${l.bestFor ? `; it suits ${fixWho(l.bestFor)}` : ""}.` });
   }
   const suited = facts.filter((f) => taken.get(f.asin)?.bestFor);
   if (faq.length < 5 && suited.length >= 2) {
@@ -603,15 +648,30 @@ function guideSections(cfg: GenericArticleConfig, facts: Fact[], schema: Categor
     const cheaperLeader = order.length >= 3 && pa && pb && pb < pa && num(order[1].specs[fd.key]) !== num(z.specs[fd.key]) ? order[1] : undefined;
     crit.push({
       title: pk([`${cap(n)}`, `How much ${n} you need`, `${cap(n)} across these picks`], `ct${i}`),
-      body: `Here ${n} runs from ${fmtOf(z, fd)} on ${the(z)} to ${fmtOf(a, fd)} on ${the(a)}.`
-        + (cheaperLeader && cheaperLeader.asin !== a.asin ? pk([` ${cap(the(cheaperLeader))} comes second for less money.`, ` For less, ${the(cheaperLeader)} is the runner-up at ${fmtOf(cheaperLeader, fd)}.`], `cv${i}`) : pk([` Start with ${the(a)} if ${n} decides it.`, ` ${cap(the(a))} is the pick for ${n}.`], `cl${i}`))
-        + (missingOf(fd).length ? ` No figure for ${names(missingOf(fd))}.` : ""),
+      body: ((pct, tops) => pk([
+        `Here ${n} runs from ${fmtOf(z, fd)} on ${the(z)} to ${fmtOf(a, fd)} on ${the(a)}${pct ? `, ${an(pct)} ${pct}% spread` : ""}.`,
+        `${cap(the(a))} tops ${n} at ${fmtOf(a, fd)} and ${the(z)} sits lowest at ${fmtOf(z, fd)}${tops > 1 ? `; ${tops} picks share the top figure` : ""}.`,
+        `Across these ${order.length} picks ${n} spans ${fmtOf(z, fd)} (${the(z)}) to ${fmtOf(a, fd)} (${the(a)}).`,
+      ], `cr${i}`))(num(a.specs[fd.key]) && num(z.specs[fd.key]) ? Math.round((Math.abs(num(a.specs[fd.key])! - num(z.specs[fd.key])!) / Math.abs(num(z.specs[fd.key])!)) * 100) : 0, order.filter((o) => num(o.specs[fd.key]) === num(a.specs[fd.key])).length)
+        + (cheaperLeader && cheaperLeader.asin !== a.asin ? pk([
+          ` ${cap(the(cheaperLeader))} comes second at ${fmtOf(cheaperLeader, fd)}${priceNum(cheaperLeader.price) && priceNum(a.price) ? `, in the ${tierOf(cheaperLeader)} tier against ${tierOf(a)} for ${the(a)}` : " for less money"}.`,
+          ` For less, ${the(cheaperLeader)} is the runner-up at ${fmtOf(cheaperLeader, fd)}${priceNum(cheaperLeader.price) && priceNum(a.price) ? ` (${tierOf(cheaperLeader)} tier)` : ""}.`,
+        ], `cv${i}`) : pk([` Start with ${the(a)} if ${n} decides it.`, ` ${cap(the(a))} is the pick for ${n}.`, ` If ${n} is your first filter, ${the(a)} sets the ceiling at ${fmtOf(a, fd)}.`], `cl${i}`))
+        + (missingOf(fd).length ? ` ${cap(names(missingOf(fd)))} ${verb(missingOf(fd), "gives", "give")} no ${n} figure, so ${order.length} of ${N} picks are compared here.` : ""),
     });
   });
   catF.filter((x) => x !== split).slice(0, 2).forEach(({ fd, groups }) => {
     const parts = [...groups.entries()].map(([v, fs]) => (v === "yes" ? `${names(fs)} ${verb(fs, "has", "have")} it` : v === "no" ? `${names(fs)} ${verb(fs, "goes", "go")} without` : `${names(fs)} ${verb(fs, "lists", "list")} ${/d|[A-Z].*[A-Z]/.test(v) ? v : lc(v)}`));
     if (groups.size < 2 && !groups.has("yes") && !groups.has("no")) return;
-    crit.push({ title: cap(lc(fd.label)), body: `${cap(parts.join("; "))}.${pk([" Settle this first, then compare prices.", " Rule out the mismatches before looking at price.", ""], "cc" + fd.key)}` });
+    crit.push({ title: cap(lc(fd.label)), body: `${cap(parts.join("; "))}.${(() => {
+      const sizes = [...groups.values()].map((g) => g.length).sort((x, y) => y - x);
+      const total = sizes.reduce((x, y) => x + y, 0);
+      return pk([
+        ` Settling ${lc(fd.label)} first narrows ${total} picks to ${listJoin(sizes.map(String)).replace(/, ([^,]+)$/, " or $1").replace(/ and (\d+)$/, " or $1")}.`,
+        ` Sort out ${lc(fd.label)} before price: it splits ${total} stated picks into groups of ${listJoin(sizes.map(String))}.`,
+        "",
+      ], "cc" + fd.key);
+    })()}` });
   });
   if (withCompat.length >= 2 && crit.length < 5)
     crit.push({ title: pk(["Fit and compatibility", "What to check at home", "Setup checks"], "cf"), body: withCompat.map((x) => x.c[0]).filter((c, i, arr) => arr.findIndex((o) => o.replace(/the [^,;:.]+?('s)? /gi, "").slice(-40) === c.replace(/the [^,;:.]+?('s)? /gi, "").slice(-40)) === i).slice(0, 3).map(cap).join(" ") });
@@ -622,7 +682,10 @@ function guideSections(cfg: GenericArticleConfig, facts: Fact[], schema: Categor
     for (const f of byPrice) { const b = priceBucket(priceNum(f.price)!).replace(/^About /, ""); tiers.set(b, [...(tiers.get(b) ?? []), f]); }
     crit.push({ title: pk(["Budget", "How much to spend", "Where your budget lands"], "cb"), body: tiers.size > 1
       ? [...tiers.entries()].map(([b, fs]) => `${b.toLowerCase().replace(/^under/, "under")} buys ${names(fs)}`).map((x, i) => (i ? x : cap(x))).join("; ") + " at our last check."
-      : `All ${byPrice.length} sat in one tier when we checked, from ${the(byPrice[0])} at the low end to ${the(byPrice[byPrice.length - 1])} at the top, so decide on features first.` });
+      : pk([
+        `All ${byPrice.length} sat in the ${tierOf(byPrice[0])} tier when we checked, from ${the(byPrice[0])} at the low end to ${the(byPrice[byPrice.length - 1])} at the top, so decide on features first.`,
+        `Price does little to separate these ${byPrice.length}: ${the(byPrice[0])} through ${the(byPrice[byPrice.length - 1])} all landed in the ${tierOf(byPrice[0])} tier, which leaves ${numF[0] ? nounOf(numF[0].fd) : "features"} to decide it.`,
+      ], "cbt") });
   }
   const suitsCrit = facts.filter((f) => taken.get(f.asin)?.bestFor && !NEUTRAL.test(taken.get(f.asin)!.badge));
   if (suitsCrit.length >= 2 && crit.length < 5)
@@ -637,7 +700,11 @@ function guideSections(cfg: GenericArticleConfig, facts: Fact[], schema: Categor
   if (stated.length)
     evaluated.push({
       title: pk(["What we compared", "The figures behind the order", "How these picks were ranked"], "e1"),
-      description: `${pk(["We lined up", "We compared", "We set side by side"], "e1a")} ${["zero", "one", "two", "three", "four", "five", "six", "seven"][N] ?? N} ${plural} on ${listJoin(stated.slice(0, 4).map((fd) => nounOf(fd)))}${pk([", using each maker's published specs", " as the makers state them", " from manufacturer specifications"], "e1b")}. We did not test them in-house.`,
+      description: `${pk(["We lined up", "We compared", "We set side by side"], "e1a")} ${["zero", "one", "two", "three", "four", "five", "six", "seven"][N] ?? N} ${plural} on ${listJoin(stated.slice(0, 4).map((fd) => nounOf(fd)))}${pk([", using each maker's published specs", " as the makers state them", " from manufacturer specifications"], "e1b")}. ${((full, partial) => pk([
+        `Nothing was tested in-house; ${full.length} of the ${stated.length} fields compared are stated for every pick${partial.length ? `, while ${listJoin(partial.slice(0, 2).map((fd) => nounOf(fd)))} ${partial.length > 1 ? "have" : "has"} gaps` : ""}.`,
+        `We did not test them in-house, and ${partial.length ? `${listJoin(partial.slice(0, 2).map((fd) => nounOf(fd)))} ${partial.length > 1 ? "are" : "is"} missing for at least one pick` : `all ${stated.length} compared fields are stated for every pick`}.`,
+        `These are research figures, not bench results${partial.length ? `: ${missingOf(partial[0]).length} of ${N} picks leave out ${nounOf(partial[0])}` : `, and every compared field is stated for all ${N} picks`}.`,
+      ], "e1c"))(stated.filter((fd) => facts.every((f) => has(f, fd))), stated.filter((fd) => !facts.every((f) => has(f, fd))))}`,
     });
   const allStated = stated.filter((fd) => facts.every((f) => has(f, fd)));
   const shared = catF.filter((x) => x.groups.size === 1 && [...x.groups.values()][0].length === N).map((x) => { const [v] = [...x.groups.keys()]; return v === "yes" ? lc(x.fd.label) : v === "no" ? "" : `${v} ${lc(x.fd.label)}`; }).filter(Boolean);
@@ -660,10 +727,13 @@ function guideSections(cfg: GenericArticleConfig, facts: Fact[], schema: Categor
   const lead = numF[0];
   const cmpMissing = schema.fields.filter((fd) => facts.filter((f) => f.specs[fd.key] !== undefined).length >= 2).slice(0, 4).some((fd) => facts.some((f) => f.specs[fd.key] === undefined));
   const specIntro = lead
-    ? `${cap(the(lead.order[0]))} leads on ${nounOf(lead.fd)} at ${fmtOf(lead.order[0], lead.fd)}, ahead of ${the(lead.order[1])} at ${fmtOf(lead.order[1], lead.fd)}.${cmpMissing ? ` "Not listed" means the maker leaves that figure out.` : ""}`
+    ? `${cap(the(lead.order[0]))} leads on ${nounOf(lead.fd)} at ${fmtOf(lead.order[0], lead.fd)}, ahead of ${the(lead.order[1])} at ${fmtOf(lead.order[1], lead.fd)}.${cmpMissing ? ((cm) => cm ? ` "Not listed" marks ${nounOf(cm.fd)} where ${names(cm.miss)} ${verb(cm.miss, "leaves", "leave")} the figure out.` : "")(schema.fields.filter((fd) => facts.filter((f) => f.specs[fd.key] !== undefined).length >= 2).slice(0, 4).map((fd) => ({ fd, miss: facts.filter((f) => f.specs[fd.key] === undefined) })).find((x) => x.miss.length)) : ""}`
     : `${cap(the(facts[0]))}, ${the(facts[1])} and the rest, as their makers list them.`;
   const priceIntro = byPrice.length >= 2
-    ? `${cap(the(byPrice[0]))} was the lowest-priced pick and ${the(byPrice[byPrice.length - 1])} the highest when we checked; tiers move with Amazon pricing.`
+    ? pk([
+      `${cap(the(byPrice[0]))} was the lowest-priced pick (${tierOf(byPrice[0])}) and ${the(byPrice[byPrice.length - 1])} the highest (${tierOf(byPrice[byPrice.length - 1])}) when we checked; tiers move with Amazon pricing.`,
+      `At our last check the cheapest pick, ${the(byPrice[0])}, sat in the ${tierOf(byPrice[0])} tier, ${[...new Set(byPrice.map(tierOf))].length} tier${[...new Set(byPrice.map(tierOf))].length === 1 ? "" : "s"} in all up to ${the(byPrice[byPrice.length - 1])} at ${tierOf(byPrice[byPrice.length - 1])}; Amazon prices move, so recheck before buying.`,
+    ], "pi")
     : "Prices change often; these tiers reflect Amazon prices when this guide was updated.";
   return { faq: faqOut, criteria: critOut, evaluated: evalOut, specIntro, priceIntro };
 }
@@ -733,6 +803,7 @@ export function composeGuide(cfg: GenericArticleConfig, schema: CategorySchema, 
     };
   });
 
+  const gm = gameBlock(gameForSlug(cfg.slug, cfg.game), cfg.slug, facts, lc(schema.plural));
   const sec = guideSections(cfg, facts, schema, taken);
   const crit = sec.criteria, faq = sec.faq, evaluated = sec.evaluated;
 
@@ -754,11 +825,12 @@ export function composeGuide(cfg: GenericArticleConfig, schema: CategorySchema, 
     seoTitle: cfg.seoTitle, title: cfg.title, breadcrumbLabel: cfg.breadcrumbLabel, mainKeyword: cfg.mainKeyword,
     dek: cfg.dek, metaDescription: cfg.metaDescription, teaser: cfg.teaser, updatedAt: cfg.updatedAt,
     readTime: `${9 + Math.round(products.length / 2)} min read`,
-    introParagraphs: cfg.intro, products,
+    introParagraphs: gm ? [cfg.intro[0], gm.intro, ...cfg.intro.slice(1)] : cfg.intro, products,
+    ...(gm ? { sources: [{ id: "game-requirements", label: gm.source.label, url: gm.source.url, kind: "manufacturer" as const, accessed: "2026-10-03" }] } : {}),
     howWeEvaluated: evaluated,
     buyingCriteria: crit.map((c) => ({ criterion: c.title, explanation: c.body })),
     howToChoose,
-    faq: faq.map((q) => ({ q: q.q, a: q.a })),
+    faq: [...(gm?.faq ? [gm.faq] : []), ...faq].slice(0, 6).map((q) => ({ q: q.q, a: q.a })),
     bottomLine: cfg.bottomLine,
     related: cfg.related,
   };

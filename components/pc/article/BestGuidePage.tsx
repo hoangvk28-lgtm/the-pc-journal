@@ -110,6 +110,11 @@ export function BestGuidePage({ article, sample }: { article: BestGuide; sample?
             {introParagraphs.length > 0 && (
               <div className="mt-6 max-w-[68ch] space-y-5 text-[1.0625rem] leading-[1.75] lg:mt-0">
                 {introParagraphs.map((p, i) => <p key={i}>{p}</p>)}
+                {article.sources?.map((s) => (
+                  <p key={s.id} className="text-sm opacity-80">
+                    Requirements source: <a href={s.url} target="_blank" rel="noopener noreferrer nofollow" className="underline">{s.label}</a>
+                  </p>
+                ))}
               </div>
             )}
 
