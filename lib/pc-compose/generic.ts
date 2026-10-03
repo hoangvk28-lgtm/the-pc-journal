@@ -487,7 +487,8 @@ type Label = { badge: string; reason: string; bestFor: string };
 function guideSections(cfg: GenericArticleConfig, facts: Fact[], schema: CategorySchema, taken: Map<string, Label>) {
   const s = cfg.slug;
   const pk = <T,>(xs: T[], k: string) => xs[hash(s + k) % xs.length];
-  const plural = lc(schema.plural);
+  // "Monitor Arms" -> "monitor arms"; keep acronyms and model words ("SSDs", "AIO coolers").
+  const plural = schema.plural.split(" ").map((w) => (/^[A-Z][a-z]+$/.test(w) ? w.toLowerCase() : w)).join(" ");
   const N = facts.length;
   const the = (f: Fact) => `the ${f.short}`;
   const nounOf = (fd: FieldDef) => fd.noun ?? lc(fd.label);
@@ -553,11 +554,11 @@ function guideSections(cfg: GenericArticleConfig, facts: Fact[], schema: Categor
       faq.push({
         q: pk([`Is ${the(hi)} worth paying more than ${the(lo)}?`, `What does ${the(hi)} add over ${the(lo)}?`], "fp"),
         a: (g.length ? pk([`On paper it adds ${listJoin(g)}.`, `The spec sheets show ${listJoin(g)} in its favour.`, `What it brings is ${listJoin(g)}.`], "fpg")
-            : `${cap(the(hi))} matches or trails ${the(lo)} on ${listJoin(numF.filter(({ fd }) => has(hi, fd) && has(lo, fd)).slice(0, 3).map(({ fd }) => nounOf(fd))) || "every ranked spec"}, so the extra spend buys only what the spec sheet doesn't show.`)
-          + (l.length ? ` It does not win everywhere: ${the(lo)} still leads on ${listJoin(l)}.` : "")
+            : `${cap(the(hi))} matches or trails ${the(lo)} on ${listJoin(numF.filter(({ fd }) => has(hi, fd) && has(lo, fd)).slice(0, 3).map(({ fd }) => nounOf(fd))) || "every ranked spec"}${tierOf(hi) !== tierOf(lo) ? ", so pay more only for a feature the spec sheet doesn't cover" : ""}.`)
+          + (l.length ? (g.length ? ` It does not win everywhere: ${the(lo)} still leads on ${listJoin(l)}.` : ` ${cap(the(lo))} leads on ${listJoin(l)}.`) : "")
           + (tierOf(hi) !== tierOf(lo)
             ? pk([` ${cap(the(lo))} sat in the ${tierOf(lo)} tier and ${the(hi)} in the ${tierOf(hi)} tier when we checked`, ` On our last price check ${the(lo)} was in the ${tierOf(lo)} tier and ${the(hi)} in the ${tierOf(hi)} tier`], "fpt") + `${byPrice.length > 2 ? `, with ${byPrice.length - 2} other pick${byPrice.length === 3 ? "" : "s"} between them` : ""}${g.length ? `; pay the difference only if ${listJoin(gains.slice(0, 2).map(({ fd }) => nounOf(fd)))} decide${gains.length === 1 ? "s" : ""} your purchase.` : "."}`
-            : ` Both sat in the ${tierOf(lo)} tier when we checked${g.length ? `, so the gains in ${listJoin(gains.slice(0, 2).map(({ fd }) => nounOf(fd)))} cost little extra by tier.` : ", so the choice comes down to features."}`),
+            : ` Both sat in the ${tierOf(lo)} tier when we checked${g.length ? `, so the gains in ${listJoin(gains.slice(0, 2).map(({ fd }) => nounOf(fd)))} cost little extra by tier.` : ", so choose on the features you need."}`),
       });
   }
   // Why a labelled pick carries its badge.
@@ -654,8 +655,8 @@ function guideSections(cfg: GenericArticleConfig, facts: Fact[], schema: Categor
         `Across these ${order.length} picks ${n} spans ${fmtOf(z, fd)} (${the(z)}) to ${fmtOf(a, fd)} (${the(a)}).`,
       ], `cr${i}`))(num(a.specs[fd.key]) && num(z.specs[fd.key]) ? Math.round((Math.abs(num(a.specs[fd.key])! - num(z.specs[fd.key])!) / Math.abs(num(z.specs[fd.key])!)) * 100) : 0, order.filter((o) => num(o.specs[fd.key]) === num(a.specs[fd.key])).length)
         + (cheaperLeader && cheaperLeader.asin !== a.asin ? pk([
-          ` ${cap(the(cheaperLeader))} comes second at ${fmtOf(cheaperLeader, fd)}${priceNum(cheaperLeader.price) && priceNum(a.price) ? `, in the ${tierOf(cheaperLeader)} tier against ${tierOf(a)} for ${the(a)}` : " for less money"}.`,
-          ` For less, ${the(cheaperLeader)} is the runner-up at ${fmtOf(cheaperLeader, fd)}${priceNum(cheaperLeader.price) && priceNum(a.price) ? ` (${tierOf(cheaperLeader)} tier)` : ""}.`,
+          ` ${cap(the(cheaperLeader))} comes second at ${fmtOf(cheaperLeader, fd)}${priceNum(cheaperLeader.price) && priceNum(a.price) ? (tierOf(cheaperLeader) !== tierOf(a) ? `, in the ${tierOf(cheaperLeader)} tier against ${tierOf(a)} for ${the(a)}` : `, in the same price tier as ${the(a)}`) : " for less money"}.`,
+          ` For less, ${the(cheaperLeader)} is the runner-up at ${fmtOf(cheaperLeader, fd)}${priceNum(cheaperLeader.price) && priceNum(a.price) && tierOf(cheaperLeader) !== tierOf(a) ? ` (${tierOf(cheaperLeader)} tier)` : ""}.`,
         ], `cv${i}`) : pk([` Start with ${the(a)} if ${n} decides it.`, ` ${cap(the(a))} is the pick for ${n}.`, ` If ${n} is your first filter, ${the(a)} sets the ceiling at ${fmtOf(a, fd)}.`], `cl${i}`))
         + (missingOf(fd).length ? ` ${cap(names(missingOf(fd)))} ${verb(missingOf(fd), "gives", "give")} no ${n} figure, so ${order.length} of ${N} picks are compared here.` : ""),
     });

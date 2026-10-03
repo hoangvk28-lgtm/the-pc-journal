@@ -175,7 +175,7 @@ function labelsFor(fs: Fact[], schema: CategorySchema, noun: string): Record<str
       const v = val(f, field.key);
       if (!has(v)) continue;
       const s = String(field.fmt(v as never));
-      if (s.length > 16 || /[,()+/;\d]/.test(s) || /^(yes|no)$/i.test(s) || BADGE_SKIP.test(field.label) || fs.filter((o) => String(val(o, field.key) ?? "") === String(v)).length !== 1) continue;
+      if (s.length > 16 || /\s/.test(s.trim()) || /[,()+/;\d]/.test(s) || /^(yes|no)$/i.test(s) || BADGE_SKIP.test(field.label) || fs.filter((o) => String(val(o, field.key) ?? "") === String(v)).length !== 1) continue;
       const badge = (s.toLowerCase().includes(field.label.toLowerCase()) ? title(s) : `${title(s)} ${title(field.label)}`).replace(/\b(\w+) \1\b/gi, "$1").replace(/\bMic Microphone\b/i, "Mic");
       if (give(f, badge, `${featureOf(s, field.label)}`, `Buyers who want ${featureOf(s, field.label)}.`)) break;
     }
@@ -200,7 +200,7 @@ export type Spec = {
 
 /** Research-method sentence, built from the fields this guide actually ranks so it differs between guides. */
 function method(slug: string, fields: string[], missing: string | undefined, noun: string): string {
-  const on = joinList(fields.slice(0, 3));
+  const on = joinList(fields.slice(0, 3)) || "the features each maker lists";
   const gaps = missing ? [`where a maker leaves out ${missing}, we say so`, `a missing ${missing} is flagged, not filled in`, `if a maker skips ${missing}, the guide says so`] : ["where a maker leaves a figure out, we say so", "gaps in the specs are flagged, not filled in", "any figure a maker omits is noted as missing"];
   const gap = gaps[hash(slug + "g") % gaps.length];
   const open = [
