@@ -1,37 +1,44 @@
-# Batch 28: held keywords (PCGameCheck list)
+# Batches 28-30: held keywords (PCGameCheck list)
 
-Batch 28 publishes 14 GPU and 13 CPU per-game guides (`data/clusters/batch28-plan.ts`). Each compares its picks with the
-game's official requirements on its Steam store page (`data/game-requirements.ts`). The rows below were held.
+Written: batch 28 = 27 guides (14 GPU, 13 CPU) for demanding games, each compared with the official requirements on its
+Steam store page (`data/game-requirements.ts`). Batch 29 = 60 CPU guides and batch 30 = 103 GPU guides for lighter, older
+and indie PC games; these are budget-band guides with no invented requirements (an entry exists only for Dark Souls III,
+Metal Gear Solid V, Octopath Traveler II and Shin Megami Tensei V: Vengeance, whose Steam pages state figures).
+Plans: `data/clusters/batch28-plan.ts`, `batch29-plan.ts` (CPU), `batch30-plan.ts` (GPU).
 
-## Already exists in the registry
-- Baldur's Gate 3 (GPU and CPU), Cyberpunk 2077 Phantom Liberty (CPU), Elden Ring (GPU and CPU), Red Dead Redemption 2 (GPU),
-  Resident Evil 4 2023 (GPU), Street Fighter 6 (GPU), Microsoft Flight Simulator (GPU).
+## Already in the registry
+- Baldur's Gate 3 (GPU, CPU), Cyberpunk 2077 Phantom Liberty (CPU), Elden Ring (GPU, CPU), Red Dead Redemption 2 (GPU),
+  Resident Evil 4 2023 (GPU), Street Fighter 6 (GPU), Microsoft Flight Simulator 2024 (CPU) and MSFS GPU, ARK, Apex Legends,
+  Tekken 8, Counter-Strike 2, Dead Space 2023 (GPU) and the other earlier per-game guides.
 
-## Duplicate edition (same game, one guide kept)
-- Baldur S Gate 3 spelling variants, Resident Evil 4 (non-2023), The Witcher 3 Game of the Year / Blood and Wine / Hearts of Stone
-  / Wild Hunt (covered by one Witcher 3 CPU guide), The Last of Us Remastered, Mass Effect Trilogy, God of War Ragnarok 2,
-  Dead Space 2008 and Dead Space 2, Kingdom Come Deliverance Goodie Pack, Ghost of Tsushima Director's Cut (the Director's Cut is
-  the Steam listing used), Microsoft Flight Simulator 2020 CPU and GPU (the 2024 CPU guide and the existing MSFS GPU guide cover it).
+## Duplicate editions (one CPU and one GPU slug kept per game)
+- Baldur S Gate 3 spellings, Resident Evil 4 (non-2023), Witcher 3 GOTY / Blood and Wine / Hearts of Stone / Complete Edition (one
+  Witcher 3 CPU guide), Witcher 3 GPU, The Last of Us Remastered, Mass Effect Trilogy, Dead Space 2008 and Dead Space 2, Kingdom Come
+  Goodie Pack, Ghost of Tsushima Director's Cut (one guide), Diablo 2 expansion, Disco Elysium Final Cut spellings, Company of Heroes
+  Legacy Edition, StarCraft II expansions (one StarCraft II guide), Counter-Strike and Counter-Strike: Source (Counter-Strike 2 exists),
+  Microsoft Flight Simulator 2020 40th Anniversary, Hitman 2 Silent Assassin kept only as GPU, Sims 2 Legacy Collection kept only as GPU.
 
-## Light game where any current hardware works (no useful recommended tier to filter on)
-- Dying Light, Subnautica, Sekiro, Monster Hunter World, Persona 3 Reload, Metaphor ReFantazio, Devil May Cry 5, Hi-Fi Rush,
-  Psychonauts 2, God of War (GPU): the planner found fewer than 3 distinct current cards under the budget these games imply
-  (skipped by the planner), so the GPU guides were not written. Factorio, RimWorld, Dwarf Fortress CPU guides: see below.
+## No PC release, unreleased, demo or mobile-only
+- Splatoon 2 Octo Expansion, Zelda Wind Waker HD, Zelda Twilight Princess HD, Yo-kai Watch 2, Bloodborne, Jump Ultimate Stars,
+  Mario & Luigi Bowser's Inside Story, Harvest Moon Friends of Mineral Town, Mega Man Zero 1 and 3, Mega Man Maverick Hunter X,
+  Sengoku Basara 2, Shinobido, Project Gotham Racing 2, Shining Force III, Virtua Racing, Gimmick, Kick Master, Shatterhand,
+  Rockin' Kats, Pang, Volfied, Gemfire, Nekketsu Kakutou Densetsu, Adventure Island IV, Super Robot Taisen OG, Dai Gyakuten Saiban 2,
+  Lunar Silver Star Story, Godzilla Save the Earth, Sonic Triple Trouble, Midnight Club 3, Aliens Infestation, Mahjong Titans,
+  Elder Scrolls VI, God of War Ragnarok 2 (duplicate and unreleased naming), Dispatch 2, Outlast mobile demo, Arcaea, Bike Baron,
+  Online Soccer Manager, Duskwood, That Level Again 2, Project M (mod), Turrican, X-Tension 2 (PC release unconfirmed).
 
-## No official source found (search result not clearly the Steam or publisher list)
-- Doom Eternal (search noted the Steam requirements were pulled), Factorio (store page may carry newer Space Age figures),
-  RimWorld and Dwarf Fortress (no CPU model named in the requirements).
+## Skipped by the planner (not enough distinct products without sharing more than 2 picks with an existing guide)
+- GPU: Slay the Spire, The Witcher 2, Thief Gold, Trails in the Sky.
+- CPU: Thief Gold, Championship Manager 03/04, Fallen Hero: Rebirth, Death Palette, Mars First Logistics, One Night at Flumpty's,
+  Planetarian HD, Shoot Shoot My Waifu, Attack the Light, Flowers: Le Volume sur Ete, Athanasy, Majesty, Siren Head Simulator,
+  Dungeons of Dreadrock, Osake Riesz, Winter Memories 2. Their PC release status was not verified because no guide was produced.
+- Held for title length (a "Best CPUs for <name>" title would exceed 43 characters): No Case Should Remain Unsolved.
+- Batch 28 GPU guides skipped for lack of distinct cheap cards: God of War, Monster Hunter World, Sekiro, Metaphor ReFantazio,
+  Persona 3 Reload, Devil May Cry 5, Hi-Fi Rush, Psychonauts 2.
 
-## Retro, 2D, indie or console-only titles
-- All pre-2012 and 16-bit titles (Quake, Bioshock series, Batman Arkham, Thief Gold, Gothic 2, Mega Man, Sonic, StarCraft, Age of
-  Empires II, Civilization IV, Fallout 1, Far Cry, Half-Life, Counter-Strike and Source, Mafia, Max Payne 3, Mass Effect 2007/2012
-  and similar), 2D and pixel indies (Celeste, Hollow Knight, Cuphead, Dead Cells, Balatro, Hades, Binding of Isaac, Limbo, Inside,
-  Owlboy and similar), and console-only entries (Bloodborne, Wind Waker HD, Twilight Princess HD, Splatoon 2, Project Gotham Racing 2,
-  Mario and Luigi, Yo-kai Watch 2).
+## No official source found
+- Doom Eternal (Steam requirements reported as pulled), Dying Light and Subnautica (very old tiers, no GPU guide written),
+  Grand Theft Auto V (Legacy and Enhanced editions list different figures; the guide is budget-band without a requirements entry).
 
-## Games with lighter or unclear Steam CPU/GPU tiers, not written this batch
-- Europa Universalis IV GPU, Crusader Kings III GPU, Total War Warhammer II GPU, Factorio GPU, RimWorld GPU, Dwarf Fortress GPU,
-  Satisfactory (GPU written, CPU written), Subnautica: strategy and sim titles whose GPU needs are minimal.
-
-## Blog non-roundups
-- Rows in the list that are commercial or informational pages (not "Best X for <game>" roundups) were ignored.
+## Blog and commercial rows
+- All rows under pcgamecheck.com/blog and the Best Picks hub are non-roundups for this publication and were not used.

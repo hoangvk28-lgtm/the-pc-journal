@@ -212,6 +212,18 @@ export const GAME_REQUIREMENTS: Record<string, GameReq> = {
   "mass-effect-legendary-edition": { name: "Mass Effect Legendary Edition", source: store(1328670),
     min: { gpu: "NVIDIA GTX 760 or AMD Radeon R9 280X", cpu: "Intel Core i5 3570 or AMD FX-8350", ram: 8, vram: 2 },
     rec: { gpu: "NVIDIA GTX 1070 or AMD Radeon Vega 56", cpu: "Intel Core i7-7700 or AMD Ryzen 7 3700X", ram: 16, vram: 4 } },
+  "dark-souls-3": { name: "Dark Souls III", source: store(374320),
+    min: { gpu: "GeForce GTX 465 or Radeon HD 6870", cpu: "A8 3870 or Core i3 2100", ram: 8 },
+    rec: { gpu: "GeForce GTX 750 or Radeon HD 7850", cpu: "FX 8150 or Core i7 2600", ram: 8 } },
+  "mgsv-phantom-pain": { name: "Metal Gear Solid V: The Phantom Pain", source: store(287700),
+    min: { gpu: "NVIDIA GeForce GTX 650 (2GB)", cpu: "Intel Core i5-4460", ram: 4 },
+    rec: { gpu: "NVIDIA GeForce GTX 760", cpu: "Intel Core i7-4790", ram: 8 } },
+  "octopath-traveler-2": { name: "Octopath Traveler II", source: store(1971650),
+    min: { gpu: "AMD Radeon RX 460 or NVIDIA GeForce GTX 750", cpu: "AMD Ryzen 3 1200 or Intel Core i3-6100", ram: 8, vram: 2 },
+    rec: { gpu: "AMD Radeon RX 470, Intel Arc A750, or NVIDIA GeForce GTX 1060 6GB", cpu: "AMD Ryzen 3 1200 or Intel Core i5-6400", ram: 8, vram: 6 } },
+  "smt-v-vengeance": { name: "Shin Megami Tensei V: Vengeance", source: store(1875830),
+    min: { gpu: "NVIDIA GeForce GTS 450 or AMD Radeon HD 5770", cpu: "Intel Core i5-2300 or AMD FX-6300", ram: 6, vram: 1 },
+    rec: { gpu: "NVIDIA GeForce GTX 960 or AMD Radeon R9 290X", cpu: "Intel Core i5-4570 or AMD Ryzen 5 1400", ram: 8, vram: 4 } },
 };
 
 /** Guide slug to game key. Only guides built around one game with a recorded requirement list appear here. */
@@ -286,4 +298,8 @@ export const GAME_SLUGS: Record<string, string> = {
   "best-cpu-for-the-witcher-3": "witcher-3",
   "best-cpu-for-mass-effect-legendary-edition": "mass-effect-legendary-edition",
   "best-cpu-for-street-fighter-6": "street-fighter-6",
+  "best-gpu-for-dark-souls-iii": "dark-souls-3", "best-cpu-for-dark-souls-iii": "dark-souls-3",
+  "best-gpu-for-metal-gear-solid-v-the-phantom-pain": "mgsv-phantom-pain",
+  "best-gpu-for-octopath-traveler-ii": "octopath-traveler-2", "best-cpu-for-octopath-traveler-ii": "octopath-traveler-2",
+  "best-gpu-for-shin-megami-tensei-v-vengeance": "smt-v-vengeance",
 };

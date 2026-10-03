@@ -771,4 +771,6 @@ export const WHY_EXTRA: Record<string, string> = {
   B0GG53SPJC: "The headband has eight adjustment levels with a metal frame and hinges, extra ear pads come in the box, and the mic covers 20Hz to 20kHz. Plugs include 4.4mm balanced, 3.5mm and 6.3mm, plus a USB-C adapter.",
   B0GVVP5K63: "Features include Dynamic Action Sync, Black Stabilizer, an FPS counter and a crosshair, and the Switch app splits the screen into up to six sections. The monitor supports HDR10.",
   B0FR6948FR: "It has one PCIe 4.0 x16 slot and four DDR5 slots, with one Gen5 and one Gen4 M.2 slot, and the wireless module includes Bluetooth 5.3.",
+  B09NMPD8V2: "The maker lists 18MB of L3 cache and an LGA1700 socket, so it needs a compatible board. Built-in Intel UHD Graphics 730 supports up to four monitors, which lets you set up the PC before adding a graphics card.",
+  B0CBW16TL3: "It carries 8GB of GDDR6 on a 128-bit memory interface and a two-fan WINDFORCE cooling system. A metal back plate protects the card, and the maker lists DLSS 3 support with fourth-generation Tensor cores.",
 };
