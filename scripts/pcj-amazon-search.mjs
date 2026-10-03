@@ -32,7 +32,9 @@ for (const q of queries) {
     const rec = { asin, title: i.itemInfo?.title?.displayValue, brand: i.itemInfo?.byLineInfo?.brand?.displayValue,
       price: i.offersV2?.listings?.[0]?.price?.money?.displayAmount, img: i.images?.primary?.large?.url,
       features: i.itemInfo?.features?.displayValues || [], fetchedAt: new Date().toISOString().slice(0, 10) };
-    pool[asin] = { ...(pool[asin] || {}), ...rec, queries: [...new Set([...(pool[asin]?.queries || []), q])] };
+    // Append-only: an existing record keeps its fields (price, title, bullets), so later searches never change
+    // the facts or price tiers published guides were built from. Only the query list grows.
+    pool[asin] = pool[asin] ? { ...pool[asin], queries: [...new Set([...(pool[asin].queries || []), q])] } : { ...rec, queries: [q] };
     console.log(`  ${asin} | ${rec.price ?? "-"} | ${rec.title?.slice(0, 100)}`);
   }
   await new Promise((r) => setTimeout(r, 1100));
