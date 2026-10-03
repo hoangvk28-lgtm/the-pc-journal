@@ -56,7 +56,7 @@ import { L, updatedAt, type Entry } from "./batch12-lib";
  * same product in any earlier batch; products that never had one get a take built from their listed facts.
  * Labels: schema rule labels first (in the composer), then the fact-based labels below; never "Best Overall".
  */
-const TAKES: Record<string, string> = { ...TAKES20 };
+export const TAKES: Record<string, string> = { ...TAKES20 };
 for (const b of [batch2, batch3, batch4, batch5, batch6, batch7, batch8, batch9, batch10, batch10b, batch10c, batch11, batch11b, batch11c,
   batch12, batch12b, batch12c, batch12d, batch12e, batch13a, batch13a2, batch13a3, batch13a4, batch13a5, batch13b, batch13b2, batch13b3,
   batch13c, batch13c2, batch13c3, batch13c4, batch13d, batch13d2, batch13d3, batch13e, batch13e2, batch13e3, batch13e4, batch14,
