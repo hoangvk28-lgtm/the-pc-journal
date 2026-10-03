@@ -14,11 +14,12 @@ import { PLAN as PLAN21 } from "@/data/clusters/batch21-plan";
 import { PLAN as PLAN22 } from "@/data/clusters/batch22-plan";
 import { PLAN as PLAN23 } from "@/data/clusters/batch23-plan";
 import { PLAN as PLAN24 } from "@/data/clusters/batch24-plan";
+import { PLAN as PLAN27 } from "@/data/clusters/batch27-plan";
 import { GROUPS } from "@/data/clusters/batch17-groups";
 import type { Fact } from "@/lib/pc-compose/generic";
 
 const BATCH = process.argv[2] ?? "batch17";
-const PLAN = ({ batch17: PLAN17, batch18: PLAN18, batch19: PLAN19, batch20: PLAN20, batch21: PLAN21, batch22: PLAN22, batch23: PLAN23, batch24: PLAN24 } as const)[BATCH as "batch17" | "batch18" | "batch19" | "batch20" | "batch21" | "batch22" | "batch23" | "batch24"];
+const PLAN = ({ batch17: PLAN17, batch18: PLAN18, batch19: PLAN19, batch20: PLAN20, batch21: PLAN21, batch22: PLAN22, batch23: PLAN23, batch24: PLAN24, batch27: PLAN27 } as const)[BATCH as "batch17" | "batch18" | "batch19" | "batch20" | "batch21" | "batch22" | "batch23" | "batch24" | "batch27"];
 if (!PLAN) throw new Error(`unknown batch ${BATCH}`);
 
 /** Products whose listings are too thin to give three listed strengths; excluded rather than padded. */

@@ -4,6 +4,8 @@
  * the reader-facing voice; no marketing claims are repeated as fact. Appended to the product's take by batch17-lib.
  */
 export const WHY_EXTRA: Record<string, string> = {
+  B0DZH9BHDW: "The two dynamic drivers measure 10mm and 7.8mm, and the smaller one is tuned for mid and high frequencies. The cable is detachable with a 0.78mm 2-pin connection and a 3.5mm plug.",
+  B0BR6HZZ6Z: "Its boost clock reaches up to 2525MHz, and the 24GB of GDDR6 sits on a 384-bit bus. The cooler is 2.7 slots thick and 313mm long, and the outputs are two HDMI and two DisplayPort.",
   // Batch 17-20 short picks, part 1
   B087Z6LSHW: "Its hyper-fast scroll wheel spins freely through long documents and switches back to click-by-click scrolling when you need precision. The rubber body and sculpted right-hand shape suit a relaxed palm grip. Logitech Flow moves the cursor, text and files between up to three computers, and it connects over Bluetooth or the Unifying receiver. The Unifying receiver can also pair up to six compatible Logitech devices, which saves USB ports.",
   B0BC9VJVVL: "The Dark Knight edition uses cold-cure foam, a magnetic memory-foam head pillow and full-metal 4D armrests with replaceable tops. Secretlab says its leatherette is several times more durable than standard PU, which matters on a chair you'll sit in daily.",
@@ -146,7 +148,7 @@ export const WHY_EXTRA: Record<string, string> = {
   B0DMF4GLR8: "It records 1080p at up to 100fps and 720p at 150fps, and AI tracking keeps you in frame. It suits streamers who move around.",
   B0CP6BR96G: "Ten-zone RGB lighting and four media keys cover the basics, and its membrane keys are quiet. It is a low-cost first gaming keyboard.",
   B0CF4L9LPR: "It weighs 49g and connects over Bluetooth 5.2, 2.4GHz or a cable, and the PAW3395 sensor reaches 26,000 DPI. It suits fast aim games on a budget.",
-  B0CYHH583P: "It weighs 69g and connects over sub-1ms SLIPSTREAM wireless or Bluetooth, with up to 110 hours per charge. The small shape suits claw and fingertip grips. Its small, light shell makes quick flicks easy over long sessions.",
+  B0CYHH583P: "It weighs 69g and connects over sub-1ms SLIPSTREAM wireless or Bluetooth, with up to 110 hours per charge. The small shape suits claw and fingertip grips. Its small, light shell makes quick flicks easy over long sessions. Battery life is 110 hours over Bluetooth and 60 hours over SLIPSTREAM wireless, and a USB wired mode is also available.",
   B0BQM4TKF7: "It has both XLR and USB-C outputs, so it can move from a laptop to an interface later. Over USB, onboard APHEX processing adds compression, and zero-latency monitoring runs through its headphone jack.",
   B074HZFG3P: "Its cardioid dynamic capsule gives high gain before feedback, and the metal body is solid. It needs an XLR interface or mixer. It suits podcasting, vocals, streaming and instrument recording. Its extended frequency response gives warm, natural vocals.",
   B076WWQ4WT: "It is a handheld cardioid dynamic mic with a silent mute switch, a clip and a pouch. It connects over XLR.",
@@ -519,7 +521,7 @@ export const WHY_EXTRA: Record<string, string> = {
   B0H9CC8JCZ: "A PPS plate and two layers of silicone dampening soften the sound, and Snap Tap resolves opposing keys. ABS doubleshot keycaps resist fading. The socketed PCB accepts both 3-pin and 5-pin switches, and it ships with Razer Orange tactile Gen-3 switches. A PPS plate, custom stabilizers and two layers of silicone dampening soften the sound.",
   B0FLGMTSRQ: "It is Cybenetics Gold rated at up to 91% efficiency, and its embossed cables with low-profile combs route easily.",
   B0B41YH9B6: "It raises from 28.35 inches on a steel frame with aerospace-grade lifting columns, and it uses low-VOC materials.",
-  B0CM3GGZDZ: "Its DLP-3D printed shell is usually reserved for high-end IEMs, and it comes with a thicker copper-plated silver cable.",
+  B0CM3GGZDZ: "Its DLP-3D printed shell is usually reserved for high-end IEMs, and it comes with a thicker copper-plated silver cable. The two dynamic drivers measure 10mm and 7.8mm.",
   B08923SXXP: "Its arm bends 230 degrees and the base 90 degrees, and it folds away. Touch controls cycle brightness and colour.",
   B0BKW3LB2B: "It lasts up to 10 days with backlighting or 5 months without, and charges over USB-C. The low-profile angle suits wrist posture.",
   B09DKPXSFJ: "It fits GPUs up to 322mm in 10.4 litres, and a sliding central wall gives 30mm of layout flexibility. The walnut front is FSC-certified.",
