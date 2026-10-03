@@ -114,9 +114,9 @@ export const chair13dFacts: Record<string, Fact> = withPool(P, [
   F("B0H87FW5S4", "Heavy Duty Office Chair with 5D Flip-Up Arms (700 lb)", "700 lb 5D chair", { capacity: 700, arms: "5D flip-up", lumbar: "Air" }, ["a 700 lb weight capacity", "5D flip-up armrests", "an air lumbar support"]),
   F("B0GJCSD4W8", "Big and Tall Office Chair with Inflatable Lumbar (600 lb)", "600 lb inflatable-lumbar chair", { capacity: 600, lumbar: "Inflatable" }, ["a 600 lb weight capacity", "an inflatable lumbar support"]),
   F("B0FRMPDKPR", "Heavy Duty Mesh Office Chair (700 lb)", "700 lb mesh chair", { capacity: 700, recline: 135, arms: "4D", material: "Mesh" }, ["a 700 lb weight capacity", "4D armrests", "a mesh back that rocks to 135 degrees"]),
-  F("B0F7QNJP67", "HYLONE Big and Tall Mesh Office Chair", "HYLONE", { capacity: 400, arms: "Flip-up", material: "Mesh" }, ["a listing for users from 5'5\" to 6'2\"", "flip-up armrests", "a 400 lb weight capacity"]),
+  F("B0F7QNJP67", "HYLONE Big and Tall Mesh Office Chair", "HYLONE", { capacity: 400, arms: "Flip-up", material: "Mesh" }, ["a stated fit for users from 5'5\" to 6'2\"", "flip-up armrests", "a 400 lb weight capacity"]),
   F("B0D9VPSQM7", "CAPOT Big and Tall Mesh Office Chair", "CAPOT", { capacity: 400, arms: "4D flip-up", lumbar: "8-level adjustable", material: "Mesh" }, ["8-level lumbar adjustment", "4D armrests that flip up", "a 3-level tilt lock"]),
-  F("B0FQN62VY2", "Nexthro Big and Tall Mesh Office Chair", "Nexthro", { capacity: 400, lumbar: "Adjustable", material: "Mesh" }, ["adjustable lumbar support", "a listing for users from 5'4\" to 6'3\"", "a 400 lb weight capacity"]),
+  F("B0FQN62VY2", "Nexthro Big and Tall Mesh Office Chair", "Nexthro", { capacity: 400, lumbar: "Adjustable", material: "Mesh" }, ["adjustable lumbar support", "a stated fit for users from 5'4\" to 6'3\"", "a 400 lb weight capacity"]),
   F("B0FF3GMW36", "Big and Tall Office Chair with Footrest (400 lb)", "400 lb footrest chair", { capacity: 400, arms: "Flip-up", footrest: "Yes" }, ["flip-up armrests", "a footrest", "a 400 lb weight capacity"]),
   // Ergonomic office chairs
   F("B0H82J3BL8", "Ergonomic Mesh Office Chair with Footrest (365 lb)", "365 lb mesh recliner", { capacity: 365, recline: 145, footrest: "Yes", material: "Mesh" }, ["a headrest that tilts 45 degrees", "a 90 to 145 degree recline", "a 365 lb weight capacity"]),
@@ -128,7 +128,7 @@ export const chair13dFacts: Record<string, Fact> = withPool(P, [
   F("B0H6F2X4WF", "GTPOFFICE Office Chair with Flip-Up Arms", "GTPOFFICE", { arms: "Flip-up (90°)" }, ["armrests that flip up 90 degrees"]),
   F("B0CP22DQQS", "Marsail Ergonomic Mesh Office Chair", "Marsail", { capacity: 330, recline: 120, arms: "3D", material: "Mesh" }, ["a 2D headrest", "3D armrests", "a 330 lb weight capacity"]),
   F("B0DKF26SZR", "MOLENTS Ergonomic Office Chair", "MOLENTS", { recline: 120, arms: "3D" }, ["BIFMA X5.1 certification", "3D armrests", "a 90 to 120 degree recline"]),
-  F("B0CG6V2XGS", "TRALT Ergonomic Mesh Office Chair", "TRALT", { capacity: 330, lumbar: "Adjustable", material: "Mesh" }, ["adjustable lumbar support", "a listing for users from 5'4\" to 6'2\"", "a 330 lb weight capacity"]),
+  F("B0CG6V2XGS", "TRALT Ergonomic Mesh Office Chair", "TRALT", { capacity: 330, lumbar: "Adjustable", material: "Mesh" }, ["adjustable lumbar support", "a stated fit for users from 5'4\" to 6'2\"", "a 330 lb weight capacity"]),
   F("B0FR981Z25", "CLOUVOU Ergonomic Mesh Office Chair", "CLOUVOU", { recline: 135, material: "Mesh" }, ["a tilt up to 135 degrees", "a mesh back"]),
   F("B07Y8BXBX8", "GABRYLLY Ergonomic Mesh Chair with Flip-Up Arms", "GABRYLLY flip-up", { capacity: 300, recline: 120, seat: "18.9 to 23.6 in", arms: "Flip-up", material: "Mesh" }, ["an 18.9 to 23.6 inch seat height", "flip-up armrests", "a 300 lb weight capacity"]),
 ]);

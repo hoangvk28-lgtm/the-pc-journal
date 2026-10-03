@@ -60,7 +60,7 @@ const m = factory(monitorSchema, monitors13cFacts, "monitors", {
   B097FZG8QQ: "Sceptre's 24-inch IPS screen runs 1080p at 180Hz with 100% sRGB coverage. It is a low-cost high-refresh monitor.",
   B0GX78512M: "AOC's 27G414B is a 27-inch 1080p IPS screen at 144Hz with 99% sRGB coverage. It puts a larger screen within a tight budget.",
   B0FG5XLWNV: "MSI's MP243L is a 23.8-inch 1080p IPS screen at 144Hz with FreeSync. It is one of the lowest-priced monitors here.",
-  B0GVVP5K63: "AOC's 27G61ZB is a 27-inch 1440p IPS screen at 200Hz on a height, tilt, swivel and pivot stand. That full stand is rare at about $200.",
+  B0GVVP5K63: "LG's 27G61ZB is a 27-inch 1440p IPS screen at 200Hz on a height, tilt, swivel and pivot stand. That full stand is rare at about $200.",
   B09V6PHDG4: "AOC's AG275QXL is a 27-inch 1440p IPS screen at 170Hz with a height-adjustable stand. The maker specifies PS5 and Xbox Series X compatibility.",
   B0DCNLNBTV: "CUNPU's 27-inch 4K screen runs at 160Hz with an HDMI 2.1 input and 99% DCI-P3 coverage. It is one of the cheapest 4K high-refresh monitors here.",
   B0DT11T36K: "CRUA's 32-inch 4K screen curves at 1500R and runs at 160Hz with built-in speakers. The maker specifies an HDMI 2.1 input.",
@@ -81,7 +81,7 @@ export const batch13c: Entry[] = [
     meta: "Five 27-inch gaming monitors compared on resolution, refresh rate, panel type and stand, from a 240Hz 1080p screen to a 240Hz 1440p OLED.",
     dek: "Five 27-inch monitors from a 240Hz 1080p budget screen to a 1440p OLED and a 4K IPS model.",
     intro: ["At 27 inches, resolution matters more than on a smaller screen. These five cover 1080p, 1440p and 4K so you can match the monitor to your graphics card.", "We researched manufacturer listings for panel type, refresh rate and stand adjustment."],
-    bottom: ["LG's 27GX704A is the pick if your budget reaches OLED. AOC's 27G61ZB is the value 1440p screen, and Dell's SE2726HG is the cheapest route to 240Hz at this size."],
+    bottom: ["LG's 27GX704A is the pick if your budget reaches OLED. LG's 27G61ZB is the value 1440p screen, and Dell's SE2726HG is the cheapest route to 240Hz at this size."],
     picks: [
       ["B0FNQ4B2Z2", "Best OLED Option", "a 240Hz 1440p OLED panel", "High-contrast games at 1440p."],
       ["B0GVVP5K63", "Best Value 1440p", "a pivot stand on a 200Hz 1440p screen", "Mid-range PCs."],
@@ -401,7 +401,7 @@ export const batch13c: Entry[] = [
     meta: "Six monitors with a pivot stand for vertical use compared on size, refresh rate and resolution, from a 24-inch 1080p screen to a 4K 160Hz panel.",
     dek: "Six monitors whose stands pivot to portrait, for chat, stream tools or a vertical second screen.",
     intro: ["A vertical monitor usually sits beside a main screen for chat, stream tools or long documents. Every stand here pivots to portrait without an arm.", "We checked each listing for pivot support and stand range."],
-    bottom: ["AOC's 27G61ZB is the value pick with a pivot stand at 1440p. CRUA's 24.5-inch screen is the cheapest, and MSI's MAG 274UPF adds 4K."],
+    bottom: ["LG's 27G61ZB is the value pick with a pivot stand at 1440p. CRUA's 24.5-inch screen is the cheapest, and MSI's MAG 274UPF adds 4K."],
     picks: [
       ["B0GVVP5K63", "Best Value Pivot", "a pivot stand on a 200Hz 1440p screen", "Main and side screens."],
       ["B0CMXK5QDD", "Cheapest Pivot", "a 90-degree pivot and 200Hz near $130", "Side screens."],

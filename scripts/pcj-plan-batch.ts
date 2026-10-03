@@ -25,7 +25,7 @@ const PLAN = ({ batch17: PLAN17, batch18: PLAN18, batch19: PLAN19, batch20: PLAN
 if (!PLAN) throw new Error(`unknown batch ${BATCH}`);
 
 /** Products whose listings are too thin to give three listed strengths; excluded rather than padded. */
-const EXCLUDE = new Set(["B0FS1KMMZM", "B08LRTS3WJ", "B0GJCSD4W8", "B0GF9TKQTW", "B0CMW2FYZ2", "B0F3BD1W6R", "B08PJNVWNZ", "B07RS1G6XW", "B0BHJJ9Y77", "B0FCYVNZ16", "B0H6F2X4WF", "B0HH993S42", "B07H6B3QS2", "B0GP9FFRMB"]);
+const EXCLUDE = new Set(["B0FS9YN8FJ", "B0FRPMHJGX", "B0CYHH583P", "B0FS1KMMZM", "B08LRTS3WJ", "B0GJCSD4W8", "B0GF9TKQTW", "B0CMW2FYZ2", "B0F3BD1W6R", "B08PJNVWNZ", "B07RS1G6XW", "B0BHJJ9Y77", "B0FCYVNZ16", "B0H6F2X4WF", "B0HH993S42", "B07H6B3QS2", "B0GP9FFRMB"]);
 const planned = new Set(PLAN.map((p) => p.slug));
 const existing = new Set((registry as unknown as { slug: string }[]).map((a) => a.slug));
 const sets: string[][] = (registry as unknown as { slug: string; products?: { asin: string }[] }[])

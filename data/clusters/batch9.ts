@@ -511,7 +511,7 @@ export const batch9: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
     dek: "Six 240mm and 360mm AIO coolers for the Core i5-14600K, compared on pumps, fans, cabling and LGA1700 support.",
     metaDescription: "Six AIO coolers for the Core i5-14600K compared on radiator size, pump, fans and LGA1700 support, to hold boost clocks in long loads and tuned setups.",
     teaser: "A 240mm AIO handles a stock 14600K; pick a 360mm unit if you plan to overclock.",
-    asins: ["B0DLWFCVSD", "B0DM4BRSV5", "B0F6M1MR4P", "B0FRPMHJGX", "B0CZMPHCPG", "B0C6PX2BW1"],
+    asins: ["B0DLWFCVSD", "B0DM4BRSV5", "B0F6M1MR4P", "B0CZMPHCPG", "B0C6PX2BW1"],
     labels: {
       B0DLWFCVSD: L("Best for the i5-14600K", "a thick 360mm radiator with a VRM fan and lighting", "Tuned 14600K builds."),
       B0DM4BRSV5: L("Best Slim-Block Pick", "a pump in the radiator", "Builders who want a small CPU block."),

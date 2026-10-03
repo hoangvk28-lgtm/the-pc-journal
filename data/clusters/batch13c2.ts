@@ -145,7 +145,6 @@ export const batch13c2: Entry[] = [
     bottom: ["Logitech's G PRO X 2 is the complete esports pick. Razer's BlackShark V3 Pro is the tri-mode alternative, and the wired Cloud Alpha avoids charging altogether."],
     picks: [
       ["B0B3F8V4JG", "Best Esports Pick", "50mm drivers, a 6mm cardioid mic and 50 hours of battery", "Competitive shooters."],
-      ["B0FS9YN8FJ", "Best Tri-Mode", "HyperSpeed, Bluetooth and 3.5mm", "PC plus phone."],
       ["B0CF3LHQSM", "Best Wireless Value", "70 hours on HyperSpeed with 50mm drivers", "Esports on a budget."],
       ["B074NBSF9N", "Best Wired Pick", "dual-chamber drivers with a detachable mic", "No-charge setups."],
       ["B07PDFBJZD", "Best Mic Filters", "Blue VO!CE mic filters and a USB sound card", "Team voice chat."],
@@ -532,7 +531,6 @@ export const batch13c2: Entry[] = [
     picks: [
       ["B0FRNR8Y11", "Best All-Rounder", "simultaneous 2.4GHz and Bluetooth", "PC and phone."],
       ["B0FJXLBWWT", "Longest Battery", "250 hours of listed battery life", "Rare charging."],
-      ["B0FS9YN8FJ", "Best Tri-Mode", "HyperSpeed, Bluetooth and 3.5mm", "Esports."],
       ["B0DB7ZW7J4", "Best Base Station", "a charging base that switches three platforms", "Multi-platform desks."],
       ["B0FFM5SP6M", "Best Mic", "a 48kHz/16-bit mic", "Streaming."],
       ["B0DB96KTGL", "Best CrossPlay", "a dual CrossPlay transmitter", "PC and console."],

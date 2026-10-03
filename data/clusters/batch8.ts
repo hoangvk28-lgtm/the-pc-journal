@@ -168,7 +168,7 @@ export const batch8: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       dek: "Six Corsair mice compared on weight, buttons, polling rate and battery, from the 8,000Hz Sabre v2 PRO to the palm-grip Ironclaw RGB Wireless.",
       metaDescription: "Six Corsair gaming mice compared on weight, buttons, polling rate and battery life, so you can match a shape and feature set to the games you play.",
       teaser: "Corsair's mice range from 60g esports shells to a large palm-grip Ironclaw; weight and buttons tell them apart.",
-      asins: ["B0CV16ZSMY", "B0G39J5KQQ", "B0CYHH583P", "B0CTN2SRTH", "B0CHN1DKLV", "B07Q424WFW"],
+      asins: ["B0CV16ZSMY", "B0G39J5KQQ", "B0CTN2SRTH", "B0CHN1DKLV", "B07Q424WFW"],
       labels: {
         B0CV16ZSMY: L("Best Lightweight Pick", "a 60g body with a 26,000 DPI sensor", "Fast-aim shooter players."),
         B0G39J5KQQ: L("Best for Polling Rate", "8,000Hz polling across three connection modes", "Competitive players with high-refresh monitors."),
@@ -228,7 +228,7 @@ export const batch8: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       dek: "Six PC gaming headsets compared on connection, battery life, driver size and microphone, from the ANC BlackShark V3 Pro to the wired HS65 Surround.",
       metaDescription: "Six PC gaming headsets compared on wireless modes, battery life, drivers and microphones, so you can choose between ANC, battery and wired value.",
       teaser: "On PC, a 2.4GHz dongle and a detachable mic matter more than surround labels; battery life separates the wireless picks.",
-      asins: ["B0FH5XX7GP", "B0F6NZWPTC", "B0FS9YN8FJ", "B0D2YBQQ1P", "B0DG8XHXPD", "B09YHT473M"],
+      asins: ["B0FH5XX7GP", "B0F6NZWPTC", "B0D2YBQQ1P", "B0DG8XHXPD", "B09YHT473M"],
       labels: {
         B0FH5XX7GP: L("Best Dual-Mode Headset", "50mm drivers, dongle plus Bluetooth and a 70-hour battery", "Most PC players who want wireless."),
         B0F6NZWPTC: L("Longest Battery Life", "a 120 hours on 2.4GHz", "Players who rarely want to charge."),

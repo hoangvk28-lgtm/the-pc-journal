@@ -293,7 +293,7 @@ export const batch3: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       dek: "Six 240mm AIO liquid coolers compared on pump and fan speed, cabling, displays and socket support for mid-size cases.",
       metaDescription: "Six 240mm AIO liquid coolers compared on pump and fan speed, cabling, LCD screens and socket support, for gaming CPUs in mid-size and compact cases.",
       teaser: "A 240mm radiator fits most cases; check socket support and how many fan headers the cooler needs.",
-      asins: ["B0F6M1MR4P", "B0FRPMHJGX", "B0C6PX2BW1", "B0F5S84X8P", "B0CCNS5NZ9", "B0DM4CBKFY"],
+      asins: ["B0F6M1MR4P", "B0C6PX2BW1", "B0F5S84X8P", "B0CCNS5NZ9", "B0DM4CBKFY"],
       labels: {
         B0F6M1MR4P: L("Best Value 240mm", "a pump up to 5300 RPM and 2000 RPM fans", "Budget gaming builds with a mid-size case."),
         B0FRPMHJGX: L("Simplest Setup", "daisy-chained fans with no software required", "Builders who want a clean install without a hub."),

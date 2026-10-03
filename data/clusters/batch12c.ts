@@ -151,7 +151,7 @@ export const batch12c: Entry[] = [
     dek: "Five gaming mice under $50 at the time of writing, including three wireless models, compared on weight, sensor and buttons.",
     metaDescription: "Five gaming mice under $50 at the time of writing compared on weight, sensor, buttons and wireless connection, including three wireless picks and an MMO mouse.",
     teaser: "Under $50 you can get wireless or a light shell; extra buttons usually mean a cable.",
-    asins: ["B07CMS5Q6P", "B0CYHH583P", "B0CTN2SRTH", "B07GBZ4Q68", "B07HC4NBQ8"],
+    asins: ["B07CMS5Q6P", "B0CTN2SRTH", "B07GBZ4Q68", "B07HC4NBQ8"],
     labels: {
       B07CMS5Q6P: L("Best Wireless Value", "Lightspeed wireless with a 250 hours of battery", "A first wireless gaming mouse."),
       B0CYHH583P: L("Best Light Wireless", "a 69g weight with tri-mode connection", "Fast aiming."),
@@ -168,7 +168,7 @@ export const batch12c: Entry[] = [
     dek: "Six gaming mice under $75 at the time of writing, from a 68g wireless shape to a 12-button MMO mouse, compared on weight and connection.",
     metaDescription: "Six gaming mice under $75 at the time of writing compared on weight, sensor, buttons and wireless connection, from a 68g wireless mouse to an MMO model.",
     teaser: "Up to $75, Bluetooth plus 2.4GHz and a sub-70g shell start to appear together.",
-    asins: ["B0C84ZD7L6", "B0CYHH583P", "B07CMS5Q6P", "B0CTN2SRTH", "B0FWR3P1FT", "B07GBZ4Q68"],
+    asins: ["B0C84ZD7L6", "B07CMS5Q6P", "B0CTN2SRTH", "B0FWR3P1FT", "B07GBZ4Q68"],
     labels: {
       B0C84ZD7L6: L("Best Dual Wireless", "Lightspeed and Bluetooth at 68g", "Gaming and laptop use."),
       B0CYHH583P: L("Best Tri-Mode", "2.4GHz, Bluetooth and wired modes", "Switching between devices."),
