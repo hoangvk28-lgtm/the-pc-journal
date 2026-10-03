@@ -269,7 +269,7 @@ export const batch13b3: Entry[] = [
     slug: "best-good-power-supply-for-gaming-pc", seoTitle: "Good Power Supplies for a Gaming PC", title: "Good Power Supplies for a Gaming PC", breadcrumbLabel: "Good Gaming PC Power Supplies", mainKeyword: "best good power supply for gaming pc",
     dek: "Five good power supplies for a gaming PC, from a 650W be quiet! unit to a 1000W Platinum Seasonic.",
     metaDescription: "Five good power supplies for a gaming PC, from the be quiet! Pure Power 12 650W to the Seasonic Vertex PX-1000, compared on efficiency, wattage and fit.",
-    teaser: "A good PSU lists its efficiency, warranty and connectors clearly; these five do.",
+    teaser: "A good PSU states its efficiency, warranty and connectors clearly; these five do.",
     asins: ["B0FBX9VS3B", "B0DJ6DGHCP", "B0C571R3V8", "B0H14KK47V", "B0F2TQV194"],
     labels: {
       B0FBX9VS3B: L("Best Good Gaming PSU", "750W with Cybenetics Platinum and four 8-pin PCIe cables", "Most gaming PCs."),

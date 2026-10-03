@@ -185,7 +185,7 @@ export const batch10: Entry[] = [
     teaser: "B760 suits locked Core i5 and i7 chips; check DDR4 or DDR5 and the M.2 count first.",
     asins: ["B0BSB6MZ2L", "B0FBTJZJ9F", "B0BVKYWPFT", "B0CK582LX5", "B0BRQSWSFQ", "B0BZTB5LKJ"],
     labels: {
-      B0BSB6MZ2L: L("Best Overall B760", "a 12+1+1 layout, three M.2 slots and Q-Flash Plus", "Most B760 builds."),
+      B0BSB6MZ2L: L("Most Complete B760", "a 12+1+1 layout, three M.2 slots and Q-Flash Plus", "Most B760 builds."),
       B0CK582LX5: L("Best Micro-ATX", "a 14+1+1 layout on Micro-ATX with Wi-Fi 6E", "Compact builds."),
       B0BRQSWSFQ: L("Best for DDR4", "DDR4 support with Wi-Fi 6E and 2.5Gbps LAN", "Builders reusing DDR4."),
     },

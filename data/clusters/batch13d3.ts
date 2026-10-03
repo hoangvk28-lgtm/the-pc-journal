@@ -63,7 +63,7 @@ export const batch13d3: Entry[] = [
   m({
     slug: "best-floor-mat-for-office-chair", kw: "best floor mat for office chair", seo: "Best Floor Mats for Office Chairs", title: "The Best Floor Mats for Office Chairs",
     meta: "Seven office chair floor mats compared on floor type, carpet pile, size, thickness and lip, from MuArts's 5mm mat to BesWin's 48 x 60 inch carpet mat.",
-    dek: "Seven chair mats for carpet and hard floors, sorted by what the listing supports.",
+    dek: "Seven chair mats for carpet and hard floors, sorted by what each mat supports.",
     intro: ["A chair mat must match the floor: studs for carpet, a smooth base for wood or tile. These seven cover both.", "Sizes, thickness and pile ratings come from each listing."],
     bottom: ["MuArts's 5mm mat is the pick for carpet or hard floors. BesWin's 48 x 60 inch mat covers the most area, and HON adds a lip for the under-desk zone."],
     picks: [

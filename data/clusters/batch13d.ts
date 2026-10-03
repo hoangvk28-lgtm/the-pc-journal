@@ -106,7 +106,7 @@ export const batch13d: Entry[] = [
     intro: ["Amazon's gaming chair listings vary in how much they state. These five give recline, seat height or capacity figures we could compare.", "Prices are tiers at the time of writing."],
     bottom: ["GTRACING's chair is the pick for 3D arms, a 155 degree recline and a 300 lb rating. Respawn's 110 Pro adds a footrest, and Corsair's TC100 offers a 100mm lift range."],
     picks: [
-      ["B0FDKL2Q8Z", "Best Overall Value", "3D armrests, 155 degree recline and a 300 lb rating", "Most desks."],
+      ["B0FDKL2Q8Z", "Best Feature-Rich Chair", "3D armrests, 155 degree recline and a 300 lb rating", "Most desks."],
       ["B0DGKVGH8X", "Best With Footrest", "a 155 degree recline and a footrest", "Reclining breaks."],
       ["B01MRZ02TL", "Lowest Seat", "a seat height from 17.3 inches", "Shorter users."],
       ["B0DFFXW22P", "Best Listed Seat Range", "a 19 to 22.6 inch seat height", "Taller desks."],
@@ -121,7 +121,7 @@ export const batch13d: Entry[] = [
     intro: ["Under $100, most gaming chairs use PU leather, a lumbar pillow and a footrest. These six differ in armrests, seat height and recline.", "All six were under $100 at the time of writing."],
     bottom: ["N-GEN's chair is the pick for linkage arms and a retractable footrest. Yaheetech lists the widest seat range, and DUMOS or Sweetcrispy suit desks where the arms must flip up."],
     picks: [
-      ["B0H2HR6XP3", "Best Overall Under $100", "linkage armrests and a retractable footrest", "Most budget desks."],
+      ["B0H2HR6XP3", "Best Linkage Armrests", "linkage armrests and a retractable footrest", "Most budget desks."],
       ["B0DFFXW22P", "Widest Seat Range", "a 19 to 22.6 inch seat height", "Taller users."],
       ["B0FP4S6DDL", "Best Flip-Up Arms", "flip-up armrests and a 275 lb rating", "Low desks."],
       ["B0CKCT1KL5", "Best Seat Height Range", "an 18 to 22 inch seat and 92 degree flip-up arms", "Shared desks."],
@@ -180,7 +180,7 @@ export const batch13d: Entry[] = [
     intro: ["An ergonomic gaming chair should adjust where you sit, not only recline. These five have built-in lumbar or multi-way armrests.", "We compared adjustment details from each listing."],
     bottom: ["Corsair's TC500 Luxe is the pick for four-way built-in lumbar and five-way arms. ELABEST's X100 adds a footrest, and Marsail's mesh chair is the lower-cost option."],
     picks: [
-      ["B0D47CZT4G", "Best Overall Ergonomics", "four-way built-in lumbar and five-way armrests", "Upright play."],
+      ["B0D47CZT4G", "Best Four-Way Lumbar", "four-way built-in lumbar and five-way armrests", "Upright play."],
       ["B0DPHLWNBG", "Best 3D Lumbar", "3D adjustable lumbar and 5D flip-up arms", "Fine tuning."],
       ["B0BC9VJVVL", "Best Recline", "a 165 degree recline with four-way lumbar", "Reclined breaks."],
       ["B0CP22DQQS", "Best Mesh", "a mesh back with 3D arms and a 2D headrest", "Warm rooms."],
@@ -228,7 +228,7 @@ export const batch13d: Entry[] = [
     picks: [
       ["B0H8LWQ9CB", "Best Air Lumbar", "a 500 lb rating with an air-cushion lumbar", "Heavier users."],
       ["B0H14F136K", "Deepest Recline", "a 90 to 150 degree recline at 400 lb", "Reclined play."],
-      ["B0GWHYHVSJ", "Best Listed Cylinder", "a class-3 gas cylinder named in the listing", "Heavy daily use."],
+      ["B0GWHYHVSJ", "Best Listed Cylinder", "a class-3 gas cylinder", "Heavy daily use."],
       ["B0H262PKQ1", "Best Budget 400 lb", "400 lb with a footrest", "Tight budgets."],
       ["B07X5WDP2L", "Simplest Design", "400 lb with a footrest and no extras", "Plain setups."],
       ["B0DYNW9SW6", "Best Pocket-Spring Lumbar", "pocket-spring lumbar and 145 degree recline", "Lower-back support."],

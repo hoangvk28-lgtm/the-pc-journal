@@ -124,7 +124,7 @@ export const batch12e: Entry[] = [
     teaser: "Up to $1,500 buys an RTX 5060 Ti and a newer CPU; decide whether 32GB of RAM matters more.",
     asins: ["B0H27NNNK4", "B0H1VDTQWR", "B0G2RDTD1Y", "B0DXVK2SLY", "B0FNMKGVCB", "B0DXVDC556"],
     labels: {
-      B0H27NNNK4: L("Best Overall Balance", "an RTX 5060 Ti with a Ryzen 7 8700F and a 650W Gold PSU", "1080p high settings and some 1440p."),
+      B0H27NNNK4: L("Best RTX 5060 Ti Build", "an RTX 5060 Ti with a Ryzen 7 8700F and a 650W Gold PSU", "1080p high settings and some 1440p."),
       B0H1VDTQWR: L("Best AM5 Value", "an RTX 5060 on an AM5 Ryzen 5 8400F", "Buyers planning a CPU upgrade."),
       B0G2RDTD1Y: L("Most Memory", "32GB of RAM with an RTX 5060", "Gaming alongside streaming."),
       B0DXVK2SLY: L("Best 5060 Ti Alternative", "an RTX 5060 Ti with a Ryzen 7 8700F and a one-year warranty", "Buyers who want a warranty stated."),
@@ -230,7 +230,7 @@ export const batch12e: Entry[] = [
     teaser: "Every pick pairs an RTX 5080 with an X3D chip; cooling, PSU and warranty set them apart.",
     asins: ["B0GS3K5JHK", "B0F6MY44CT", "B0DVZY7V6Z", "B0GR8ZP38W", "B0GPWNQN9H", "B0H2FZ3J4W"],
     labels: {
-      B0GS3K5JHK: L("Best Overall Listing", "a 9800X3D, DDR5-6000, 2TB SSD and 850W Gold PSU with a complete-system warranty", "4K gaming."),
+      B0GS3K5JHK: L("Best 9800X3D Build", "a 9800X3D, DDR5-6000, 2TB SSD and 850W Gold PSU with a complete-system warranty", "4K gaming."),
       B0F6MY44CT: L("Best Cooled", "a 360mm ARGB AIO with an 850W Gold ATX 3 PSU", "Quiet high-end builds."),
       B0DVZY7V6Z: L("Largest PSU", "a 1000W power supply", "Upgrade headroom."),
       B0GR8ZP38W: L("Best Alternative to the MEK", "the same price as the ZOTAC MEK at the time of writing, with a 2TB SSD and 850W Gold PSU", "Value-minded 4K builds."),

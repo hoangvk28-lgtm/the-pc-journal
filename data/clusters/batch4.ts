@@ -154,7 +154,7 @@ export const batch4: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       teaser: "32GB of DDR5-6000 CL30 in two sticks covers most gaming builds; check EXPO or XMP for your platform.",
       asins: ["B0CYHC58P6", "B0BPTKD797", "B0DD295CNY", "B0D2JLWLWZ", "B0B72827G5", "B0C5M6SJYW"],
       labels: {
-        B0CYHC58P6: L("Best Overall RAM", "DDR5-6000 CL30 with EXPO and XMP in a low-profile design", "Most AMD and Intel gaming builds."),
+        B0CYHC58P6: L("Best Low-Profile DDR5-6000", "DDR5-6000 CL30 with EXPO and XMP in a low-profile design", "Most AMD and Intel gaming builds."),
         B0BPTKD797: L("Best RGB Kit", "DDR5-6000 CL30 with RGB and both profiles", "Builds with lighting."),
         B0D2JLWLWZ: L("Best Budget Kit", "EXPO and XMP on a DDR5-6000 kit", "Budget builds that still want 6000MT/s."),
         B0C5M6SJYW: L("Best 64GB Kit", "64GB at DDR5-6000 CL30", "Gaming plus video editing or heavy multitasking."),

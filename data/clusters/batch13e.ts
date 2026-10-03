@@ -42,7 +42,7 @@ const takes: Record<string, string> = {
   B0DLBD36HL: "EDJO's set pairs a silent membrane keyboard with a quiet 1600 DPI mouse. The maker claims up to 365 days of battery life.",
   B0DDT75R2R: "RECCAZR's silent set has 12 multimedia keys and a mouse with 800, 1200 and 1600 DPI steps. The maker quotes a 10m range.",
   B0FSQLVXHR: "QUASIO's silent set offers up to 365 days of battery life and a 10m range. It is a plain full-size layout.",
-  B0DM7Y6CFD: "Trueque's palm-rest set adds a 7.8in phone holder and a mouse the listing rates at 97% less click noise. The palm rest is built in.",
+  B0DM7Y6CFD: "Trueque's palm-rest set adds a 7.8in phone holder and a mouse the maker rates at 97% less click noise. The palm rest is built in.",
   B014EUQOGK: "Logitech's K400 Plus puts a 76 x 47mm touchpad beside a compact spill-resistant keyboard. It is built for a PC connected to a TV.",
   B09KLPJQPD: "Arteck's HB305 is a Bluetooth touchpad keyboard with a seven-color backlight that charges over USB-C. Arteck offers a 24-month warranty.",
   B0GSQ1M76R: "Bnnwa's rechargeable keyboard pairs with three devices over a receiver and two Bluetooth channels. It uses scissor keys.",

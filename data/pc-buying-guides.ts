@@ -110,7 +110,7 @@ const psu: BestGuide = {
     { title: "Efficiency and warranty", description: "We compared Cybenetics efficiency results and warranty length as secondary factors once fit and connectors were settled." },
   ],
   buyingCriteria: [
-    { criterion: "Count connectors before watts", explanation: "Your graphics card's spec page lists its power sockets: one 12V-2x6, two 8-pin or three 8-pin. A unit needs a matching cable for each socket, and 850W does not help if it has too few connectors.\n\nCheck the exact card model, not the GPU name. Partner cards with the same chip often use different sockets." },
+    { criterion: "Count connectors before watts", explanation: "Your graphics card's spec page names its power sockets: one 12V-2x6, two 8-pin or three 8-pin. A unit needs a matching cable for each socket, and 850W does not help if it has too few connectors.\n\nCheck the exact card model, not the GPU name. Partner cards with the same chip often use different sockets." },
     { criterion: "One cable, two plugs", explanation: "Some units put two PCIe connectors on one cable. That is common and not a defect, but the Corsair RM850e does it on two of its three connectors.\n\nIf you plan to use both plugs on one card, read the graphics card maker's installation guidance first." },
     { criterion: "Depth and case clearance", explanation: "Case manuals list a maximum PSU length. Subtract room for the modular plugs, which stick out from the back of the unit, and for any bottom fan or drive cage behind it.\n\nA 140mm unit like the Seasonic or RM850e fits more compact cases than the 160mm be quiet! or RM850x." },
     { criterion: "12V-2x6 is a socket change", explanation: "ATX 3.1 replaced the 12VHPWR socket with 12V-2x6, whose shorter sense pins keep power off until the plug is fully seated. The cable itself did not change.\n\nWhichever unit you buy, push the plug in until it clicks and avoid bending the cable right at the connector." },
@@ -161,7 +161,7 @@ const psu: BestGuide = {
     { q: "Can I reuse the modular cables from my old power supply?", a: "No. Pinouts at the PSU end differ between brands and models, and a mismatched cable can damage components. Use only the cables supplied with the new unit." },
     { q: "Is Platinum efficiency worth paying more for?", a: "Efficiency mainly affects heat and a little power cost. For a quiet build, the Cybenetics noise rating is the more useful number to compare." },
     { q: "How do I check that a PSU fits my case?", a: "Find the maximum PSU length in the case manual, then leave space for the modular plugs and anything mounted behind the PSU. Compare that with the unit's depth." },
-    { q: "Does the fan stop at low load?", a: "The be quiet! and Corsair RM850e list a fan that stops or runs slowly at low load. Check the listing for a zero-RPM or hybrid fan mode if silence at idle matters." },
+    { q: "Does the fan stop at low load?", a: "The be quiet! and Corsair RM850e list a fan that stops or runs slowly at low load. Check the exact model for a zero-RPM or hybrid fan mode if silence at idle matters." },
   ],
   bottomLine: [
     "Start with your graphics card's power sockets and your case's PSU clearance. Those two checks narrow five units to one or two. The be quiet! Pure Power 13 M is the quietest and most flexible if you have 160mm of room; the Seasonic Focus GX-850 and Corsair RM850e are the 140mm options, with the Seasonic trading noise for three separate cables.",
@@ -418,7 +418,7 @@ const keyboards: BestGuide = {
     },
   ]),
   howWeEvaluated: [
-    { title: "Connection and polling", description: "We recorded each connection mode and the polling rate the listing gives for it, since wireless boards often slow down over Bluetooth." },
+    { title: "Connection and polling", description: "We recorded each connection mode and the polling rate stated for it, since wireless boards often slow down over Bluetooth." },
     { title: "Switch type and hot-swap", description: "We separated MX-style boards with hot-swap sockets from magnetic and optical boards that use their own switches." },
     { title: "Layout and build", description: "We noted layout, case material and extras that affect desk space and feel." },
     { title: "Software", description: "We checked whether remapping uses open firmware, a browser tool or onboard controls rather than required vendor software." },
@@ -464,7 +464,7 @@ const keyboards: BestGuide = {
     { q: "Are magnetic switches better than mechanical ones?", a: "For fast games they add adjustable actuation and Rapid Trigger. For typing, a traditional mechanical board is usually just as good and offers more switch choice." },
     { q: "Do I need 8000Hz polling?", a: "Most players will not notice the difference from 1000Hz. It matters mainly to competitive players with a high-refresh monitor." },
     { q: "Is a 75% layout too small?", a: "It keeps the function row and arrow keys but drops the number pad. If you enter numbers often, a full-size or 96% board suits you better." },
-    { q: "Will these work on a Mac?", a: "The Keychron boards include Mac and Windows keycaps and a system toggle. Check the listing for the others if you switch between systems." },
+    { q: "Will these work on a Mac?", a: "The Keychron boards include Mac and Windows keycaps and a system toggle. Check the others if you switch between systems." },
   ],
   bottomLine: [
     "For typing and general use, the Keychron V1 Max is the best value, and the Q1 Max is the upgrade if you want an aluminum body. The AULA F75 Pro is the budget option if you can live without documented polling rates or QMK/VIA.",

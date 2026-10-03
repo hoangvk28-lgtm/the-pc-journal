@@ -200,7 +200,7 @@ export const psuCluster: PsuArticleConfig[] = [
     teaser: "Compare certification, warranty and fan mode; budget units cut costs in different places.",
     asins: ["B0DJ6DGHCP", "B0DM2HP39G", "B0F2TNT86D", "B0GRV3GFZS", "B0H14KK47V", "B0FFQN6344"],
     labels: {
-      B0DJ6DGHCP: L("Best Overall Under $100", "850W with Gold efficiency, fully modular cables and a Smart Zero Fan mode", "Gaming builds that want 850W headroom without paying for premium brands."),
+      B0DJ6DGHCP: L("Best Modular 850W Under $100", "850W with Gold efficiency, fully modular cables and a Smart Zero Fan mode", "Gaming builds that want 850W headroom without paying for premium brands."),
       B0DM2HP39G: L("Best Cybenetics-Rated Budget Unit", "a Cybenetics Gold rating and an ECO silent fan mode", "Buyers who want an independently certified unit on a tight budget."),
       B0F2TNT86D: L("Most GPU Connectors Listed", "three PCIe 6+2 connectors plus a native 12V-2x6", "Budget builds with a card that uses several 8-pin connectors."),
       B0GRV3GFZS: L("Best 850W for Small Cases", "850W in a 140mm body", "Smaller mid-towers that need 850W."),

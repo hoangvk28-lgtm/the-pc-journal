@@ -17,7 +17,7 @@ export const psuCriteria: PoolBlock[] = [
     id: "connectors", tags: ["all"],
     title: ["Count connectors before watts", "Match cables to your graphics card"],
     body: [
-      "Your graphics card's spec page lists its power sockets: one 12V-2x6, two 8-pin or three 8-pin. A unit needs a matching cable for each socket, and extra wattage does not help if it has too few.\n\nCheck the exact card model rather than the GPU name, since partner cards with the same chip often use different sockets.",
+      "Your graphics card's spec page names its power sockets: one 12V-2x6, two 8-pin or three 8-pin. A unit needs a matching cable for each socket, and extra wattage does not help if it has too few.\n\nCheck the exact card model rather than the GPU name, since partner cards with the same chip often use different sockets.",
       "Before comparing wattage, look up the power sockets on your exact graphics card. Each socket needs its own matching cable from the power supply.\n\nPartner cards built on the same GPU can differ, so use the model number, not the chip name.",
     ],
   },

@@ -22,7 +22,7 @@ export const batch8: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       teaser: "Decide on layout first; at this price, switch type and wireless support separate the picks more than lighting.",
       asins: ["B0BLGD269Q", "B08HMNS8B3", "B0DT43NNNF", "B0CZ6SMBR4", "B016MAK38U", "B089GN2KBT", "B07KCRTN9Q"],
       labels: {
-        B0BLGD269Q: L("Best Overall Under $50", "double-shot PBT keycaps and QMK/VIA remapping on a tenkeyless frame", "Typists who also game and want to remap keys."),
+        B0BLGD269Q: L("Best for Key Remapping", "double-shot PBT keycaps and QMK/VIA remapping on a tenkeyless frame", "Typists who also game and want to remap keys."),
         B08HMNS8B3: L("Best Build Quality", "an aluminum body and a detachable USB-C cable", "Players who want a sturdier tenkeyless board."),
         B0DT43NNNF: L("Best Magnetic-Switch Budget Pick", "Hall effect switches and 8,000Hz polling", "Shooter players curious about adjustable actuation."),
         B0CZ6SMBR4: L("Best Wireless Budget Pick", "dongle, Bluetooth and wired modes with a volume knob", "Desks that switch between a PC and a laptop."),
@@ -54,7 +54,7 @@ export const batch8: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       teaser: "Logitech's range splits into low-profile wireless boards, a magnetic esports board and wired value models.",
       asins: ["B0D1DSW8TF", "B0DJD163HT", "B0DB1X3LLT", "B099Y6TSHF", "B08Z6X4NK3"],
       labels: {
-        B0D1DSW8TF: L("Best Overall Logitech Keyboard", "Lightspeed, Bluetooth and wired modes with PBT keycaps", "Players who want one slim board for games and work."),
+        B0D1DSW8TF: L("Best Three-Mode Logitech", "Lightspeed, Bluetooth and wired modes with PBT keycaps", "Players who want one slim board for games and work."),
         B0DJD163HT: L("Best for Competitive Shooters", "Hall effect switches with rapid trigger", "Fast strafing in competitive shooters."),
         B0DB1X3LLT: L("Best Premium Pick", "an aluminum top plate, media keys and a volume roller", "Players who want the most premium low-profile board."),
         B099Y6TSHF: L("Best With a Palm Rest", "an included palm rest and media controls", "Long sessions on a wired board."),
@@ -230,7 +230,7 @@ export const batch8: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       teaser: "On PC, a 2.4GHz dongle and a detachable mic matter more than surround labels; battery life separates the wireless picks.",
       asins: ["B0FH5XX7GP", "B0F6NZWPTC", "B0FS9YN8FJ", "B0D2YBQQ1P", "B0DG8XHXPD", "B09YHT473M"],
       labels: {
-        B0FH5XX7GP: L("Best Overall PC Headset", "50mm drivers, dongle plus Bluetooth and a 70-hour battery", "Most PC players who want wireless."),
+        B0FH5XX7GP: L("Best Dual-Mode Headset", "50mm drivers, dongle plus Bluetooth and a 70-hour battery", "Most PC players who want wireless."),
         B0F6NZWPTC: L("Longest Battery Life", "a 120 hours on 2.4GHz", "Players who rarely want to charge."),
         B0FS9YN8FJ: L("Best With ANC", "active noise cancellation with a 3.5mm option", "Noisy rooms and travel."),
         B0D2YBQQ1P: L("Best Retractable Mic", "a retractable mic and USB-C fast charging", "Players who also wear it away from the desk."),

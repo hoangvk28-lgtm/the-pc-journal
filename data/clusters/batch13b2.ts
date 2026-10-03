@@ -63,7 +63,7 @@ export const batch13b2: Entry[] = [
     asins: ["B0DKFMSMYK", "B0H2Z7VF4G", "B0D6NMDNNX", "B0CGJ4MLC8", "B09VCJ2SHD", "B0DT7CW7VR"],
     labels: {
       B0DKFMSMYK: L("Best New-Build Pick", "96MB of L3 cache on AM5", "New high-refresh builds."),
-      B0H2Z7VF4G: L("Best LGA1851 Pick", "20 cores without integrated graphics", "New Intel builds."),
+      B0H2Z7VF4G: L("Best Current-Socket Intel", "20 cores without integrated graphics", "New Intel builds."),
       B0D6NMDNNX: L("Best Efficient AM5 Chip", "eight cores at a 65W rating", "Quiet builds with a modest cooler."),
       B0CGJ4MLC8: L("Best LGA1700 Upgrade", "14 cores with DDR4 or DDR5 support", "Existing 600- and 700-series boards."),
       B09VCJ2SHD: L("Best AM4 Upgrade", "96MB of L3 cache on AM4 with DDR4", "Upgrading an older Ryzen PC."),

@@ -113,7 +113,7 @@ export const batch13c2: Entry[] = [
     intro: ["Cheap does not have to mean bare. Each of these five offers a feature that matters in use, such as a mute switch or a light frame.", "We compared mic type, drivers and weight from each listing."],
     bottom: ["HyperX's Stinger 2 Core is the pick for its swivel-to-mute mic. JBL's Quantum 100M2 has the detachable mic, and WIRWTRU's 198g frame is the lightest."],
     picks: [
-      ["B0BDHYF8YS", "Best Overall Value", "a swivel-to-mute mic and 40mm drivers", "PC and PlayStation."],
+      ["B0BDHYF8YS", "Best Swivel-to-Mute Mic", "a swivel-to-mute mic and 40mm drivers", "PC and PlayStation."],
       ["B0DRM949PC", "Best Detachable Mic", "a detachable directional mic", "Use as plain headphones."],
       ["B0DBLHVGV7", "Lightest", "a 198g frame", "Glasses wearers."],
       ["B07S9FMPD2", "Best Controller Headset", "a flip-to-mute mic on a 3.5mm plug", "Console controllers."],
@@ -159,7 +159,7 @@ export const batch13c2: Entry[] = [
     intro: ["Open-back headphones sound more spacious than closed gaming headsets but leak sound and block little noise. These six suit a quiet room.", "Most have no mic, so plan for a separate microphone."],
     bottom: ["Sennheiser's HD 599 is the balanced pick. Philips's SHP9500 is the value choice, and EPOS's H6Pro Open is the only one here with a boom mic."],
     picks: [
-      ["B01L1IICR2", "Best Overall Open-Back", "aluminum voice coils and a detachable cable", "Quiet rooms."],
+      ["B01L1IICR2", "Best Detachable-Cable Open-Back", "aluminum voice coils and a detachable cable", "Quiet rooms."],
       ["B00ENMK1DW", "Best Value", "50mm drivers in an open-back design", "Budget buyers."],
       ["B09FPFN78X", "Best With a Mic", "a detachable boom mic on an open design", "Voice chat."],
       ["B0011UB9CQ", "Best for an Audio Interface", "a 250-ohm load", "Setups with an amp."],

@@ -268,7 +268,7 @@ export const batch3: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
         B0FNMP513T: L("Quiet-Focused Pick", "Pure Wings 3 fans and a PWM pump with a six-pole motor", "Quiet builds without RGB software."),
       },
       takes: {
-        B09W2GLV3D: "The FX280 PRO SE lists its details plainly: a 2900 RPM pump rated at 25dB(A), two 140mm fans at 300 to 1800 RPM and 400mm tubes. It is the value route to a 280mm radiator.",
+        B09W2GLV3D: "The FX280 PRO SE keeps its details simple: a 2900 RPM pump rated at 25dB(A), two 140mm fans at 300 to 1800 RPM and 400mm tubes. It is the value route to a 280mm radiator.",
         B0F5SJS2JB: "The Kraken Plus 280 pairs 140mm fans with NZXT's 1.54-inch LCD pump head and zero RPM mode. It suits builders who want a display without a separate controller.",
         B0C6Q25HTR: "The H115i RGB runs pump and fans through Corsair's iCUE LINK hub, with fans up to 2000 RPM and zero RPM mode. It belongs in Corsair-based builds.",
         B0FG7LGDDL: "The Galahad II LCD 280 has the largest screen here, a 2.88-inch IPS panel, on an Asetek pump rated up to 3600 RPM. Its fans use wireless lighting and speed control.",

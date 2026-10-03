@@ -228,7 +228,7 @@ export const batch9: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
     labels: {
       B0F9XH8DBP: L("Best Match for an RTX 4070", "96MB of L3 on a six-core AM5 chip", "1440p builds around a 4070."),
       B0BTZB7F88: L("Best for High Refresh", "eight cores with 96MB of L3", "4070 owners with 1080p 240Hz monitors."),
-      B0D6NN6TM7: L("Best Zen 5 Pick", "six Zen 5 cores at 65W", "New AM5 builds."),
+      B0D6NN6TM7: L("Best Entry Zen 5", "six Zen 5 cores at 65W", "New AM5 builds."),
       B0CGJ4MLC8: L("Best Intel Pairing", "fourteen cores with DDR4 support", "Intel builds reusing DDR4."),
       B0BMQJWBDM: L("Best Budget Pairing", "a bundled cooler", "Keeping total cost down."),
       B09VCJ2SHD: L("Best AM4 Pairing", "96MB of L3 on AM4", "Older AM4 PCs getting a 4070."),
@@ -282,7 +282,7 @@ export const batch9: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       B0D6NN6TM7: L("Best Under $200", "six Zen 5 cores at 65W on AM5", "New AM5 gaming builds."),
       B0BBJDS62N: L("Best Zen 4 Value", "six AM5 cores at a lower price", "Budget AM5 builds."),
       B0DFK8HHK4: L("Best Intel Under $200", "fourteen unlocked cores on LGA1851", "New Intel builds."),
-      B08166SLDF: L("Best AM4 Pick", "six cores for existing AM4 boards", "Upgrades on DDR4."),
+      B08166SLDF: L("Best Budget AM4 Upgrade", "six cores for existing AM4 boards", "Upgrades on DDR4."),
       B0CQ4GYTTX: L("Best With Integrated Graphics", "Radeon 760M graphics", "PCs without a graphics card yet."),
     },
     intro: ["Under $200 you can buy six fast cores on AM5, fourteen on Intel, or an AM4 chip that keeps DDR4 useful. Prices move often, so check the current listing.", "We compared eight processors on cores, cache, graphics and platform, using manufacturer specifications."],

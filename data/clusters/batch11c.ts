@@ -229,7 +229,7 @@ export const batch11c: { cfg: GenericArticleConfig; schema: CategorySchema; fact
     slug: "best-rtx-4070-graphics-cards", seoTitle: "Best RTX 4070 Graphics Cards", title: "The Best RTX 4070 Graphics Cards", breadcrumbLabel: "Best RTX 4070 Cards", mainKeyword: "best rtx 4070",
     dek: "Four RTX 4070 cards compared on memory type, cooler and power guidance, including the GDDR6 variant.",
     metaDescription: "Four RTX 4070 cards compared on memory type, cooler, power supply guidance and price at the time of writing, including how the GDDR6 version differs.",
-    teaser: "Some RTX 4070 cards use GDDR6 instead of GDDR6X; check the listing before you buy.",
+    teaser: "Some RTX 4070 cards use GDDR6 instead of GDDR6X; check the exact model before you buy.",
     asins: ["B0BZHCQ6PF", "B0DG42QD5H", "B0BZB7DS7Q", "B0BZDYZ4V5"],
     labels: {
       B0BZHCQ6PF: L("Lowest Price at Writing", "the least expensive RTX 4070 here at the time of writing, with dual BIOS", "Budget 1440p builds."),

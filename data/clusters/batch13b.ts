@@ -65,7 +65,7 @@ export const batch13b: Entry[] = [
     slug: "best-entry-level-gaming-gpu", seoTitle: "Best Entry-Level Gaming GPUs", title: "The Best Entry-Level Gaming GPUs", breadcrumbLabel: "Best Entry-Level GPUs", mainKeyword: "best entry level gaming gpu",
     dek: "Five first graphics cards for 1080p, chosen for modest power needs and single-connector setups that suit prebuilt and older PCs.",
     metaDescription: "Five entry-level gaming graphics cards for 1080p, compared on VRAM, power connectors and recommended PSU so a first upgrade fits the PC you already own.",
-    teaser: "A first card should fit your PSU; each pick here lists its connector and VRAM.",
+    teaser: "A first card should fit your PSU; each pick here names its connector and VRAM.",
     asins: ["B0DNV4NWF7", "B0FFXT3TRD", "B0C59RVD98", "B0CJGSP9R7", "B0DQK4XSC7"],
     labels: {
       B0DNV4NWF7: L("Best First Card", "12GB of GDDR6 on a single 8-pin connector", "A first build that needs room for newer games."),
@@ -291,7 +291,7 @@ export const batch13b: Entry[] = [
     teaser: "Value picks under $630 at the time of writing; the RX 9070 GRE sits at the top.",
     asins: ["B0H3MCRPSV", "B0CHK343YR", "B0DQYM2MHX", "B0F91K2KBX", "B0FG97XMNG"],
     labels: {
-      B0H3MCRPSV: L("Best Value Overall", "an RX 9070 GRE with 12GB and a 2880MHz OC-mode boost", "1440p on a mid budget."),
+      B0H3MCRPSV: L("Best 12GB 1440p Value", "an RX 9070 GRE with 12GB and a 2880MHz OC-mode boost", "1440p on a mid budget."),
       B0CHK343YR: L("Best 16GB Value", "an RX 7800 XT with 16GB of GDDR6", "The most VRAM here."),
       B0DQYM2MHX: L("Best Value Under $300", "10GB of GDDR6 with one 8-pin connector", "Budget 1080p builds."),
       B0F91K2KBX: L("Best Value Current AMD", "an RX 9060 XT 8GB on AMD's newest architecture", "1080p with FSR 4 support."),

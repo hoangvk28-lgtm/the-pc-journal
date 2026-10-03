@@ -60,7 +60,7 @@ export const batch12: Entry[] = [
     asins: ["B0BMQJWBDM", "B0D6NN6TM7", "B0CQ1Y7KHV", "B09VCHR1VH", "B09VCHQHZ6", "B0B2X1KDNS"],
     labels: {
       B0BMQJWBDM: L("Best Match for an RX 7600 XT", "six AM5 cores with a cooler in the box", "New builds with an upgrade path."),
-      B0D6NN6TM7: L("Best Zen 5 Pick", "six Zen 5 cores at a 65W rating", "Builds that may take a faster card later."),
+      B0D6NN6TM7: L("Best Entry Zen 5", "six Zen 5 cores at a 65W rating", "Builds that may take a faster card later."),
       B0CQ1Y7KHV: L("Best Intel Pick", "ten cores on LGA1700 with DDR4 or DDR5 support", "Intel builds on B760."),
       B09VCHR1VH: L("Best AM4 Value", "six cores with a Wraith Stealth cooler on AM4", "Upgrading an existing AM4 PC."),
       B09VCHQHZ6: L("Best Eight-Core AM4", "eight cores at a 65W rating on DDR4", "Streaming on a budget."),

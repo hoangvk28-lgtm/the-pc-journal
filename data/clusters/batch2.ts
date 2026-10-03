@@ -23,7 +23,7 @@ export const batch2: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       teaser: "Compare connection types and battery claims; a 2.4GHz dongle matters more for games than any spec on the box.",
       asins: ["B0B3F8V4JG", "B0FRNR8Y11", "B09TRW57WB", "B0CF3LHQSM", "B0FFM5SP6M", "B0DXQ8X9GT"],
       labels: {
-        B0B3F8V4JG: L("Best Overall Wireless", "Lightspeed, Bluetooth and 3.5mm in one headset, with 50mm graphene drivers", "PC players who also want Bluetooth and wired options."),
+        B0B3F8V4JG: L("Most Connection Options", "Lightspeed, Bluetooth and 3.5mm in one headset, with 50mm graphene drivers", "PC players who also want Bluetooth and wired options."),
         B0FRNR8Y11: L("Best for PC and Phone at Once", "simultaneous 2.4GHz and Bluetooth audio", "Gamers who take calls or play music from a phone mid-game."),
         B0CF3LHQSM: L("Best Value Wireless", "a 70-hour battery and 50mm drivers at a mid-range price", "Players who want long battery life without paying pro prices."),
         B0FFM5SP6M: L("Best Microphone", "a full-bandwidth 48kHz microphone", "Streamers and players who spend hours on voice chat."),
@@ -59,7 +59,7 @@ export const batch2: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       teaser: "Choose USB or 3.5mm and open or closed back first; those two decisions matter more than driver size.",
       asins: ["B0C3BV19Q3", "B086PKMZ21", "B07PDFBJZD", "B0GT6CX8MV", "B00ENMK1DW", "B00SAYCXWG"],
       labels: {
-        B0C3BV19Q3: L("Best Overall Wired", "angled 53mm drivers with USB and 3.5mm connections", "Most PC gamers who want one wired headset for PC and console."),
+        B0C3BV19Q3: L("USB and 3.5mm Wired Pick", "angled 53mm drivers with USB and 3.5mm connections", "Most PC gamers who want one wired headset for PC and console."),
         B086PKMZ21: L("Best Budget Wired", "50mm drivers, a cardioid mic and a 240g frame at a low price", "Budget builds and players who want a light headset."),
         B07PDFBJZD: L("Best for EQ Control", "a USB sound card that stores EQ profiles", "Players who like to tune sound per game."),
         B00ENMK1DW: L("Best Open-Back Value", "50mm open-back drivers at a lower price than open-back gaming headsets", "Quiet rooms and players who also listen to music."),
@@ -130,7 +130,7 @@ export const batch2: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       teaser: "Decide how much ergonomic shape you want before comparing switches; layout matters most over an eight-hour day.",
       asins: ["B0BKW3LB2B", "B07ZWK2TQT", "B0BTNY72VD", "B09LK1P1RD", "B0F9YQYYJ2", "B07XGD9XJL"],
       labels: {
-        B0BKW3LB2B: L("Best Overall for Work", "low-profile keys, smart backlighting and three-device pairing", "Most office and home-office setups."),
+        B0BKW3LB2B: L("Best Three-Device Keyboard", "low-profile keys, smart backlighting and three-device pairing", "Most office and home-office setups."),
         B07ZWK2TQT: L("Best Split Ergonomic", "a curved split layout with a pillowed wrist rest and negative tilt", "Long typing days and wrist discomfort."),
         B0BTNY72VD: L("Best Ergonomic Value", "a wave layout and memory-foam palm rest at well under the K860's price", "A first ergonomic keyboard."),
         B0F9YQYYJ2: L("Best Budget Slim Keyboard", "a full-size ultra-slim layout and long listed battery life at a low price", "Tight budgets and laptop-style typists."),
@@ -166,7 +166,7 @@ export const batch2: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       teaser: "Pick a grip that suits your wrist, then compare scroll wheels and shortcuts; those matter most in an editor.",
       asins: ["B0FC5SJNQX", "B0G2SG3NFT", "B09J1TB35S", "B0BBQ3ZYNY", "B0DVD5RTZ5", "B07YVMXLQC"],
       labels: {
-        B0FC5SJNQX: L("Best Overall for Coding", "a 1,000-lines-per-second scroll wheel, an Actions Ring and a haptic panel", "Developers who live in long files and many shortcuts."),
+        B0FC5SJNQX: L("Best for Fast Scrolling", "a 1,000-lines-per-second scroll wheel, an Actions Ring and a haptic panel", "Developers who live in long files and many shortcuts."),
         B0G2SG3NFT: L("Best Value MX Mouse", "MagSpeed scrolling, an 8,000 DPI sensor and Flow across computers", "Developers who want most of the MX Master 4 for less."),
         B09J1TB35S: L("Best Vertical for Smaller Hands", "a 57-degree grip sized for small to medium hands", "Forearm discomfort and smaller hands."),
         B07YVMXLQC: L("Best Budget Trackball", "a scroll ring and detachable wrist rest at the lowest price here", "Small desks and tight budgets."),

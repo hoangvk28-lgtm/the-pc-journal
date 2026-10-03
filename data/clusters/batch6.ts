@@ -56,7 +56,7 @@ export const batch6: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       teaser: "At this price, memory varies from 8GB to 12GB; check VRAM before clock speeds.",
       asins: ["B0DNV4NWF7", "B0DQYM2MHX", "B0FBX7FB1T", "B0F8LDHQ7Y", "B0FG97XMNG", "B0G6FCDZMK"],
       labels: {
-        B0DNV4NWF7: L("Best Budget Overall", "12GB of VRAM, the most in this guide, with a 650W PSU recommendation", "1080p and light 1440p gaming on a budget."),
+        B0DNV4NWF7: L("Most VRAM on a Budget", "12GB of VRAM, the most in this guide, with a 650W PSU recommendation", "1080p and light 1440p gaming on a budget."),
         B0DQYM2MHX: L("Cheapest 10GB Card", "10GB of GDDR6 on a 160-bit bus at the lowest price here at the time of writing", "The tightest budgets that still want more than 8GB."),
         B0FBX7FB1T: L("Best Budget AMD", "an RDNA 4 RX 9060 XT with a 3290MHz listed boost", "1080p high-refresh gaming with FSR."),
         B0F8LDHQ7Y: L("Best Budget NVIDIA", "an RTX 5060 with GDDR7 memory", "DLSS 4 support on a budget."),
@@ -96,7 +96,7 @@ export const batch6: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
         B0DS6WPTLL: L("Best NVIDIA for 1440p", "an RTX 5070 with 12GB of GDDR7 and a dual BIOS", "DLSS users at 1440p."),
         B0DW4FRCQR: L("Most Headroom", "the RX 9070 XT, the fastest chip in this guide", "1440p at maximum settings and 240Hz monitors."),
         B0F7WB6LSH: L("Best 16GB NVIDIA Value", "16GB of GDDR7 on an RTX 5060 Ti", "1440p with high textures on a mid budget."),
-        B0FC2XXSG5: L("Cheapest 16GB Pick", "16GB of GDDR6 at the lowest price here at the time of writing", "Entry 1440p builds."),
+        B0FC2XXSG5: L("Lowest-Priced 16GB Card", "16GB of GDDR6 at the lowest price here at the time of writing", "Entry 1440p builds."),
       },
       takes: {
         B0DTTKCTRD: "ASRock's RX 9070 Challenger is the most completely documented card here: 290mm long, 2.5 slots, two 8-pin plugs and a 700W PSU. Its 16GB of memory on a 256-bit bus suits 1440p at high settings.",
@@ -160,7 +160,7 @@ export const batch6: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       teaser: "Radeon cards use standard 8-pin plugs here; check how many your PSU has spare.",
       asins: ["B0DRRMZDH6", "B0DXLBTL4B", "B0DTT7CPWV", "B0F91K2KBX", "B0G6FCDZMK"],
       labels: {
-        B0DRRMZDH6: L("Best AMD Overall", "an RX 9070 XT with a 3030MHz OC-mode boost and a 2.5-slot cooler", "1440p and 4K gaming on AMD."),
+        B0DRRMZDH6: L("Best AMD High-End", "an RX 9070 XT with a 3030MHz OC-mode boost and a 2.5-slot cooler", "1440p and 4K gaming on AMD."),
         B0DXLBTL4B: L("Best Mid-Range Radeon", "16GB of GDDR6 on the RX 9070", "1440p gaming for less than an RX 9070 XT."),
         B0DTT7CPWV: L("Best Documented RX 9070 XT", "a 298mm length, 2.9-slot width and 800W PSU guidance", "Builders who want every fit figure up front."),
         B0F91K2KBX: L("Best Budget Radeon", "an RX 9060 XT with a WINDFORCE cooler", "1080p gaming on RDNA 4."),
@@ -302,7 +302,7 @@ export const batch6: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
         B0F8B462JH: L("Best AMD for 1080p", "an RX 9060 XT with a triple-fan cooler and 3320MHz listed boost", "1080p on AMD with quiet cooling."),
         B0F4RRQ2WY: L("Fastest 1080p Pick", "the RTX 5060 Ti, the highest GPU tier here", "240Hz 1080p monitors."),
         B0C5S9CHMG: L("Best Previous-Generation Value", "an RX 7600 with three WINDFORCE fans", "1080p on a lower budget."),
-        B0FG8JRDQ6: L("Cheapest 1080p Pick", "an RTX 5050 at the lowest price here at the time of writing", "Entry 1080p builds."),
+        B0FG8JRDQ6: L("Lowest-Priced 1080p Card", "an RTX 5050 at the lowest price here at the time of writing", "Entry 1080p builds."),
       },
       takes: {
         B0F77H7NBK: "The ASUS Prime RTX 5060 is a well-rounded 1080p card: GDDR7 memory, a quiet/performance BIOS switch and 0dB fan stop in a 2.5-slot, SFF-Ready design.",

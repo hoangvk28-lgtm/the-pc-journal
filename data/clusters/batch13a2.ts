@@ -101,7 +101,7 @@ export const batch13a2 = [
     cands: where((f) => dgpuMini(f) || (integrated(f) && price(f) >= 800), by.priceDesc), count: 5, what: "mini PC gaming desktops",
     lead: "This list covers the mini PCs we found with a dedicated NVIDIA GPU, plus Minisforum's UM890 Pro as a lower-priced option with Radeon 780M integrated graphics.",
     teaser: "Dedicated-GPU mini PCs, plus one integrated-graphics alternative.",
-    close: "An OCuLink port lets an integrated-graphics mini PC use an external GPU later; check the listing for it.", rel: RMINI }),
+    close: "An OCuLink port lets an integrated-graphics mini PC use an external GPU later; check the exact model for it.", rel: RMINI }),
   build({ slug: "best-mini-pcs-for-gaming", kw: "mini pcs for gaming", seo: "Best Mini PCs for Gaming", h1: "The Best Mini PCs for Gaming",
     cands: where((f) => integrated(f) && price(f) >= 550, by.priceDesc), count: 5, what: "mini PCs for gaming with integrated graphics",
     lead: "If you want a mini PC without a dedicated GPU, the Radeon 780M and 890M are the strongest integrated chips we found in listings that name every part.",

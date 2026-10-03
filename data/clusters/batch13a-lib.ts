@@ -109,10 +109,10 @@ function labelsFor(fs: Fact[], ctx: string): Record<string, Lab> {
       [strictMax(fs, "psu", f), { badge: "Largest Listed PSU", reason: `a ${n(f, "psu")}W power supply${s(f, "psuCert") ? ` rated ${s(f, "psuCert")}` : ""}`, bestFor: "A bigger graphics card later." }],
       [onlyOne((x) => /3 years|2 years/.test(s(x, "warranty")), f), { badge: "Longest Warranty", reason: `a ${s(f, "warranty")} warranty`, bestFor: "Long-term ownership." }],
       [onlyOne(white, f), { badge: "White Build", reason: "a white case", bestFor: "Matching a white desk setup." }],
-      [onlyOne((x) => !!s(x, "warranty"), f), { badge: "Stated Warranty", reason: `a ${s(f, "warranty")} warranty in the listing`, bestFor: "Buyers who want support terms in writing." }],
+      [onlyOne((x) => !!s(x, "warranty"), f), { badge: "Stated Warranty", reason: `a ${s(f, "warranty")} warranty`, bestFor: "Buyers who want support terms in writing." }],
       [cheapest[0] === f && price(f) < price(cheapest[1]), { badge: "Lowest Price Here", reason: `the lowest price among these ${ctx} at the time of writing`, bestFor: "Keeping the budget tight." }],
-      [onlyOne((x) => s(x, "gpu") === s(f, "gpu"), f) && !integrated(f), { badge: `${g} Pick`, reason: `${art(g)} ${g} with ${n(f, "vram")}GB of VRAM`, bestFor: n(f, "vram") >= 12 ? "1440p gaming." : "1080p gaming." }],
-      [onlyOne((x) => s(x, "cpu") === cpu, f), { badge: `${cpu.replace(/^(Core|Ryzen) /, "$1 ")} Pick`, reason: `${art(cpu)} ${cpu} processor`, bestFor: "Buyers who prefer this CPU platform." }],
+      [onlyOne((x) => s(x, "gpu") === s(f, "gpu"), f) && !integrated(f), { badge: `${g} Build`, reason: `${art(g)} ${g} with ${n(f, "vram")}GB of VRAM`, bestFor: n(f, "vram") >= 12 ? "1440p gaming." : "1080p gaming." }],
+      [onlyOne((x) => s(x, "cpu") === cpu, f), { badge: `${cpu.replace(/^(Core|Ryzen) /, "$1 ")} Build`, reason: `${art(cpu)} ${cpu} processor`, bestFor: "Buyers who prefer this CPU platform." }],
     ];
     const hit = opts.find(([ok, l]) => ok && !usedBadges.has(l.badge));
     if (hit) { out[f.asin] = hit[1]; usedBadges.add(hit[1].badge); }

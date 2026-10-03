@@ -56,7 +56,7 @@ export const batch5: { cfg: GenericArticleConfig; schema: CategorySchema; facts:
       teaser: "Count the fans in the box: a cheap case with none can cost more once it is ready to use.",
       asins: ["B0D5PHHCK5", "B0D2MK6NML", "B0GBY1GSDX", "B086YDDV6F", "B0DMPFLHJZ", "B0GWK8BPG3"],
       labels: {
-        B0D5PHHCK5: L("Best Budget Overall", "420mm GPU room, 175mm cooler height and three fans", "A budget gaming build with a big graphics card."),
+        B0D5PHHCK5: L("Best Roomy Budget Case", "420mm GPU room, 175mm cooler height and three fans", "A budget gaming build with a big graphics card."),
         B0D2MK6NML: L("Best Airflow for Less", "a perforated front and PSU shroud feeding air to the GPU", "Budget builds that prioritise GPU temperatures."),
         B0GBY1GSDX: L("Best with USB-C", "front USB-C with three ARGB fans included", "Builders who want modern front I/O on a budget."),
         B086YDDV6F: L("Quietest Budget Pick", "sound-dampening foam on closed panels", "A quiet office or study PC."),

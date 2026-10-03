@@ -125,7 +125,7 @@ export const batch15a: Entry[] = [
     teaser: "Look for silent switches or listed dampening layers; lighting and polling matter less than how loudly each key bottoms out.",
     intro: [
       "Most keyboard noise comes from two places: the switch itself, and the keycap and plate ringing when a key bottoms out. Silent switches add pads to soften the first; foam, silicone and gasket mounts deal with the second. The quietest boards do both.",
-      "Every keyboard here lists at least one quiet feature: silent switches, dampening layers or both. We researched them from their Amazon listings and makers' specifications, did not test them ourselves, and name the specific quiet feature in each pick's label.",
+      "Every keyboard here offers at least one quiet feature: silent switches, dampening layers or both. We researched them from their Amazon listings and makers' specifications, did not test them ourselves, and name the specific quiet feature in each pick's label.",
     ],
     bottom: [
       "The Cherry MX 3.0S is the pick for silent switches from the switch maker itself, and the SOLAKAKA KI99 Pro combines silent switches with five noise-reducing layers in a wireless 96% board. The ASUS ROG Strix Scope II 96 Wireless adds dampening foam, PBT keycaps and a stated 1,500-hour battery on 2.4GHz.",
