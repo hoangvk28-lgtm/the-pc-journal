@@ -5,7 +5,7 @@
  */
 export const WHY_EXTRA: Record<string, string> = {
   B0DZH9BHDW: "The two dynamic drivers measure 10mm and 7.8mm, and the smaller one is tuned for mid and high frequencies. The cable is detachable with a 0.78mm 2-pin connection and a 3.5mm plug.",
-  B0BR6HZZ6Z: "Its boost clock reaches up to 2525MHz, and the 24GB of GDDR6 sits on a 384-bit bus. The cooler is 2.7 slots thick and 313mm long, and the outputs are two HDMI and two DisplayPort.",
+  B0BR6HZZ6Z: "Its boost clock reaches up to 2525MHz, and the 24GB of GDDR6 sits on a 384-bit bus. The cooler is 2.7 slots thick and 313mm long, and the outputs are two HDMI and two DisplayPort. It measures 313mm long and 2.7 slots thick, and it carries 24GB of GDDR6 on a 384-bit bus with two HDMI and two DisplayPort outputs.",
   // Batch 17-20 short picks, part 1
   B087Z6LSHW: "Its hyper-fast scroll wheel spins freely through long documents and switches back to click-by-click scrolling when you need precision. The rubber body and sculpted right-hand shape suit a relaxed palm grip. Logitech Flow moves the cursor, text and files between up to three computers, and it connects over Bluetooth or the Unifying receiver. The Unifying receiver can also pair up to six compatible Logitech devices, which saves USB ports.",
   B0BC9VJVVL: "The Dark Knight edition uses cold-cure foam, a magnetic memory-foam head pillow and full-metal 4D armrests with replaceable tops. Secretlab says its leatherette is several times more durable than standard PU, which matters on a chair you'll sit in daily. It has full-metal 4D armrests and comes in three sizes, with a memory foam magnetic head pillow included.",
@@ -737,7 +737,6 @@ export const WHY_EXTRA: Record<string, string> = {
   B0BGT61797: "A vapor chamber with a milled heatspreader and scaled-up axial-tech fans cool the chip, which supports DLSS 3.",
   B0BHBTJ2X2: "The 24GB of GDDR6X sits on a 384-bit bus with 1008GB/s of bandwidth, and the card runs a 2520MHz boost clock on a triple-fan cooler.",
   B0CQTP6J3Z: "WINDFORCE cooling, RGB Fusion, dual BIOS and a metal backplate come with the 2595MHz boost clock.",
-  B0BR6HZZ6Z: "It measures 313mm long and 2.7 slots thick, and it carries 24GB of GDDR6 on a 384-bit bus with two HDMI and two DisplayPort outputs.",
   B0DQF23NLJ: "The card is 260mm long, needs two 8-pin power connectors and lists a 750W minimum system power rating.",
   B0CRZBXYVQ: "Its dual-fan cooler pairs with 16GB of GDDR6 and a boost clock up to 2755MHz.",
   B0BN696NKQ: "The fabric enclosure slides off for access, and the case includes a PCIe 4.0 riser, a 180mm top fan, room for a 280mm radiator and CPU coolers up to 114mm tall.",
