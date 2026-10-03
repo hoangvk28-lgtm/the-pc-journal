@@ -302,4 +302,10 @@ export const GAME_SLUGS: Record<string, string> = {
   "best-gpu-for-metal-gear-solid-v-the-phantom-pain": "mgsv-phantom-pain",
   "best-gpu-for-octopath-traveler-ii": "octopath-traveler-2", "best-cpu-for-octopath-traveler-ii": "octopath-traveler-2",
   "best-gpu-for-shin-megami-tensei-v-vengeance": "smt-v-vengeance",
+  // batch 34
+  "best-cpus-for-hogwarts-legacy": "hogwarts-legacy", "best-cpus-for-starfield": "starfield", "best-cpus-for-palworld": "palworld",
+  "best-cpus-for-marvel-rivals": "marvel-rivals", "best-cpus-for-path-of-exile-2": "path-of-exile-2",
+  "best-cpus-for-monster-hunter-wilds": "monster-hunter-wilds", "best-cpus-for-black-myth-wukong": "black-myth-wukong",
+  "best-cpus-for-diablo-4": "diablo-4", "best-cpus-for-stalker-2": "stalker-2",
+  "best-gpus-for-overwatch-2": "overwatch-2", "best-gpus-for-fortnite": "fortnite",
 };

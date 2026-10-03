@@ -23,11 +23,12 @@ import { PLAN as PLAN30 } from "@/data/clusters/batch30-plan";
 import { PLAN as PLAN31 } from "@/data/clusters/batch31-plan";
 import { PLAN as PLAN32 } from "@/data/clusters/batch32-plan";
 import { PLAN as PLAN33 } from "@/data/clusters/batch33-plan";
+import { PLAN as PLAN34 } from "@/data/clusters/batch34-plan";
 import { GROUPS } from "@/data/clusters/batch17-groups";
 import type { Fact } from "@/lib/pc-compose/generic";
 
 const BATCH = process.argv[2] ?? "batch17";
-const PLAN = ({ batch17: PLAN17, batch18: PLAN18, batch19: PLAN19, batch20: PLAN20, batch21: PLAN21, batch22: PLAN22, batch23: PLAN23, batch24: PLAN24, batch25: PLAN25, batch26: PLAN26, batch27: PLAN27, batch28: PLAN28, batch29: PLAN29, batch30: PLAN30, batch31: PLAN31, batch32: PLAN32, batch33: PLAN33 } as const)[BATCH as "batch17" | "batch18" | "batch19" | "batch20" | "batch21" | "batch22" | "batch23" | "batch24" | "batch25" | "batch26" | "batch27" | "batch28" | "batch29" | "batch30" | "batch31" | "batch32" | "batch33"];
+const PLAN = ({ batch17: PLAN17, batch18: PLAN18, batch19: PLAN19, batch20: PLAN20, batch21: PLAN21, batch22: PLAN22, batch23: PLAN23, batch24: PLAN24, batch25: PLAN25, batch26: PLAN26, batch27: PLAN27, batch28: PLAN28, batch29: PLAN29, batch30: PLAN30, batch31: PLAN31, batch32: PLAN32, batch33: PLAN33, batch34: PLAN34 } as const)[BATCH as "batch17" | "batch18" | "batch19" | "batch20" | "batch21" | "batch22" | "batch23" | "batch24" | "batch25" | "batch26" | "batch27" | "batch28" | "batch29" | "batch30" | "batch31" | "batch32" | "batch33" | "batch34"];
 if (!PLAN) throw new Error(`unknown batch ${BATCH}`);
 
 /** Products whose listings are too thin to give three listed strengths; excluded rather than padded. */
