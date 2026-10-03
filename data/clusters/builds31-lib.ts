@@ -57,9 +57,9 @@ export function memGens(f: Fact): string[] {
 
 /** Maker-recommended system power by GPU chip (NVIDIA, AMD and Intel reference specifications). A listing figure above this wins. */
 export const CHIP_PSU: Record<string, number> = {
-  "RTX 5050": 450, "RTX 5060": 550, "RTX 5060 Ti": 600, "RTX 5070": 650, "RTX 5070 Ti": 750, "RTX 5080": 850, "RTX 5090": 1000,
+  "RTX 5050": 550, "RTX 5060": 550, "RTX 5060 Ti": 600, "RTX 5070": 650, "RTX 5070 Ti": 750, "RTX 5080": 850, "RTX 5090": 1000,
   "RTX 4060": 550, "RTX 4060 Ti": 550, "RTX 4070": 650, "RTX 4070 Super": 650, "RTX 4070 Ti": 700, "RTX 4070 Ti Super": 700, "RTX 4080": 750, "RTX 4080 Super": 750, "RTX 4090": 850, "RTX 3050": 550,
-  "RX 9060 XT": 450, "RX 9070 GRE": 650, "RX 9070": 650, "RX 9070 XT": 750, "RX 7600": 550, "RX 7600 XT": 600, "RX 7700 XT": 700, "RX 7800 XT": 700, "RX 7900 XT": 750, "RX 7900 XTX": 800, "RX 6600": 450, "RX 6500 XT": 400,
+  "RX 9060 XT": 450, "RX 9070 GRE": 650, "RX 9070": 650, "RX 9070 XT": 750, "RX 7600": 550, "RX 7600 XT": 600, "RX 7700 XT": 700, "RX 7800 XT": 700, "RX 7900 XT": 750, "RX 7900 XTX": 800, "RX 6600": 500, "RX 6500 XT": 400,
   "Arc B570": 550, "Arc B580": 600, "Arc A580": 600,
 };
 /** Rough performance order of GPU chips, for choosing a card at a budget. Not a benchmark claim. */
