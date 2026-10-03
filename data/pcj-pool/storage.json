@@ -9126,5 +9126,439 @@
     "queries": [
       "Toshiba Canvio"
     ]
+  },
+  "B0H67RTS5D": {
+    "asin": "B0H67RTS5D",
+    "title": "SUNEAST 1TB M.2 2280 PCIe4.0 NVMe Gen4x4 Internal SSD,Up to 7000MB/s Read",
+    "brand": "SUNEAST",
+    "price": "$152.99",
+    "img": "https://m.media-amazon.com/images/I/218FAAzPjrL._SL500_.jpg",
+    "features": [
+      "Blazing Fast PCIe 4.0 Performance: Delivers extreme read speeds up to 7000 MB/s and write speeds up to 6000 MB/s, significantly reducing game loading times, file transfers, and system boot delays.",
+      "Next-Gen 3D NAND Technology: Built with advanced 3D NAND architecture, offering higher storage density, improved endurance, and more stable long-term performance.",
+      "Ultra-Safe Shock & Drop Resistance: No mechanical moving parts, ensuring strong resistance to vibration and shock. Your data stays protected even in accidental drops or movement.",
+      "Wide Compatibility Across Devices: Perfectly compatible with personal computers, laptops, and gaming consoles such as PS5, delivering flexible high-speed storage expansion.",
+      "Enhanced System Efficiency & Gaming Experience: Built for gamers, creators, and professionals. Optimized for high-performance computing, allowing smoother multitasking, faster application response, and improved gaming performance.",
+      "Please note that actual usable storage may be slightly less due to system formatting and a portion reserved for card management functions, which is a standard industry practice to ensure optimal performance and reliability."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Crucial P3 Plus 1TB NVMe"
+    ]
+  },
+  "B0B217LZBG": {
+    "asin": "B0B217LZBG",
+    "title": "Silicon Power 1TB UD90 NVMe 4.0 Gen4 PCIe M.2 SSD R/W up to 5,000/4,800 MB/s (SP01KGBP44UD9005)",
+    "brand": "SP Silicon Power",
+    "price": "$179.97",
+    "img": "https://m.media-amazon.com/images/I/41gs9wielGL._SL500_.jpg",
+    "features": [
+      "To bolster its multi-tasking factor even further, the UD90 takes advantage of increased bandwidth when used in conjunction with motherboards equipped with PCIe 4.0 slots. In fact, it has nearly double the bandwidth of PCIe 3.0 for shorter download times and the ability to download more files within the same amount of time.",
+      "An SSD's speed is meaningless without the ability to handle that speed reliably. The UD90 achieves improved sequential read/write and random read/write performance with support for SLC Caching. At the same time, it supports low density parity check (LDPC) coding to ensure accuracy of data transmission and reliability of data access.",
+      "The UD90 supports RAID to protect data in the case of a drive failure. It's also equipped with built-in E2E data protection for enhanced data transfer integrity. Unexpected things can happen at any moment, but the UD90 is prepared for them with your data at its utmost priority.",
+      "5-year limited warranty"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Kingston NV3 1TB NVMe"
+    ]
+  },
+  "B0CZN1RT44": {
+    "asin": "B0CZN1RT44",
+    "title": "TEAMGROUP MP44Q 1TB SLC Cache Gen 4x4 M.2 2280 PCIe 4.0 w/NVMe Laptop, Desktop, NUC, NAS SSD Read/Write Speed up to 7000/5900MB/s TM8FFD001T0C101",
+    "brand": "TEAMGROUP",
+    "price": "$169.99",
+    "img": "https://m.media-amazon.com/images/I/414WVZUvoTL._SL500_.jpg",
+    "features": [
+      "MP44Q has Outstanding Performance Exceeding 7,000MB/s Transmission Speed.Effortless Storage Expansion with 3D QLC NAND",
+      "Graphene Heat Dissipation Label.",
+      "Exclusive Intelligent S.M.A.R.T. Monitoring Software",
+      "5-year warranty for comprehensive protection.",
+      "Before purchasing, please make sure that your motherboard/laptops, processor (CPU), and BIOS support the SSD you are buying to avoid incompatibility issues.",
+      "Refer to the latest version on the official website. In case of discrepancies, the official website prevails."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "TEAMGROUP MP44L 1TB"
+    ]
+  },
+  "B0FCS69ZZJ": {
+    "asin": "B0FCS69ZZJ",
+    "title": "TEAMGROUP NV5000 1TB SLC Cache NVMe PCIe Gen4x4 M.2 2280 Laptop, Desktop SSD Read/Write Speed up to 4500 / 1900MB/s TM8FGM001T0C101",
+    "brand": "TEAMGROUP",
+    "price": "$161.99",
+    "img": "https://m.media-amazon.com/images/I/419hyoEaVBL._SL500_.jpg",
+    "features": [
+      "High-performance Entry-level PCIe Gen4 x4 SSD",
+      "Patented Graphene Cooling Technology for Stable Performances",
+      "Monitor SSD Health with S.M.A.R.T.",
+      "Warranty:3-year or TBW (Terabytes Written) limited warranty. Free Technical Support and Customer Service on TEAMGROUP official website.",
+      "Before purchasing, please make sure that your motherboard/laptops, processor (CPU), and BIOS support the SSD you are buying to avoid incompatibility issues.",
+      "Refer to the latest version on the official website. In case of discrepancies, the official website prevails."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "TEAMGROUP MP44L 1TB"
+    ]
+  },
+  "B0BTDP6P7Y": {
+    "asin": "B0BTDP6P7Y",
+    "title": "Patriot P400 Lite 1TB PCIe Gen 4 x4 SSD",
+    "brand": "Patriot Memory",
+    "price": "$149.99",
+    "img": "https://m.media-amazon.com/images/I/31xsZ-NMDBL._SL500_.jpg",
+    "features": [
+      "Capacity 1TB - Built with the latest PCIe 4X4 controller",
+      "End to end data path protection",
+      "High efficiency slim Graphene heatshield",
+      "O/S Supported: Windows 7*/8.0*/8.1/12",
+      "Sequential Read (ATTO): up to 3,500MB/s ; Sequential Write (ATTO): up to 2,700MB/s"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "TEAMGROUP MP44L 1TB",
+      "SK hynix Gold P31 1TB",
+      "Crucial P310 1TB"
+    ]
+  },
+  "B0F25F243C": {
+    "asin": "B0F25F243C",
+    "title": "Lexar 1TB NQ780 Internal NVMe SSD, 6500/2500 MB/s, M.2 2280, PCIe Gen 4x4",
+    "brand": "Lexar",
+    "price": "$191.99",
+    "img": "https://m.media-amazon.com/images/I/41on2XuPOUL._SL500_.jpg",
+    "features": [
+      "Delivers read/write speeds up to 6500/2500 MB/s for fast gameplay and boot-ups",
+      "High-quality 8-channel Gen 4 controller provides better sustained write performance while HMB and SLC cache technologies improve performance and user experience and reduce latency",
+      "Great for laptops too thanks to its single-sided design and Intelligent Power Control",
+      "Lexar DiskMaster SSD Management tool lets you perform firmware updates, manage the drive and its data, and monitor drive health",
+      "A 5-year limited warranty offers peace of mind"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Lexar NM790 1TB"
+    ]
+  },
+  "B091H9DZ83": {
+    "asin": "B091H9DZ83",
+    "title": "SKHynix SK Hynix SSD 1TB M.2 2280 PCIe Gen3 x4 PC711 HFS001TDE9X080N 152P8 0152P8 Solid State Drive",
+    "brand": "SK Hynix",
+    "price": "$229.00",
+    "img": "https://m.media-amazon.com/images/I/41CXKbrSa+L._SL500_.jpg",
+    "features": [
+      "Compatibility: all systems that support PCIe Gen3 x4",
+      "Hard disk size: 1.0 TB",
+      "Memory storage capacity: 1.0"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "SK hynix Gold P31 1TB"
+    ]
+  },
+  "B0DM9341L3": {
+    "asin": "B0DM9341L3",
+    "title": "Crucial P310 1TB 232L Micron QLC NAND PCIE GEN 4 X4 NVME M.2 Internal SSD",
+    "brand": "Crucial",
+    "price": "$184.99",
+    "img": "https://m.media-amazon.com/images/I/31c3ejzWiqL._SL500_.jpg",
+    "features": [
+      "CRUCIAL P310 1TB 232L MICRON QLC NAND PCIE GEN 4 X4 NVME M.2 INTERNAL SSD"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Crucial P310 1TB"
+    ]
+  },
+  "B0F3XLCMPZ": {
+    "asin": "B0F3XLCMPZ",
+    "title": "Acer Predator GM9000 1TB SSD, PCIe Gen5x4 NVMe M.2 SSD, Up to 14,000MB/s, SLC + DRAM Cache, PCIe 5.0 Internal Solid State Drive, Compatible with Desktops Laptop PC AI Work",
+    "brand": "Acer",
+    "price": "$229.99",
+    "img": "https://m.media-amazon.com/images/I/317MnKxyrkL._SL500_.jpg",
+    "features": [
+      "Upgraded Performance: PCIe 5.0 SSD has performance doubled compared to PCIe 4.0. It delivers blazing-fast speed, a maximum read speed of 14000 MB/s and a maximum write speed of 13000 MB/s."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Acer Predator GM7000 1TB"
+    ]
+  },
+  "B09F5P2JT8": {
+    "asin": "B09F5P2JT8",
+    "title": "Predator M.2 SSD 1TB GM7000 with DRAM cache NVMe 1.4 2280 PCIe Gen4×4 Ultra high speed (maximum read: 7400MB/s, max write: 6700MB/s) 3D NAND TLC Internal SSD Compatible with PS5 Pro - BL.9BWWR.105",
+    "brand": "Acer",
+    "img": "https://m.media-amazon.com/images/I/41+S7r3q7FL._SL500_.jpg",
+    "features": [
+      "PCIe Gen4 Standard: The Acer Predator GM7000 M.2 NVMe SSD utilizes the PCIe Gen4 standard to deliver impressive sequential read speeds up to 7400 MB/s and write speeds up to 6700 MB/s, making it an ideal 1TB NVMe SSD for high-performance gaming PCs.",
+      "Efficient Heat Dissipation: Acer Predator GM7000 NVMe SSD features a customized heat spreader designed to enhance heat dissipation, ensuring lower operating temperatures during heavy use for improved performance and reliability.",
+      "Less Energy: The GM7000 SSD's advanced controller includes an integrated PMU (Power Management Unit) that optimizes energy efficiency, reducing power consumption and helping your Gaming PC run cooler, last longer, and maintain overall system health for an extended lifespan.",
+      "Biwin Intelligence is multifunctional management software, designed to support Predator branded storage products. For a more convenient and more secure storage experience, this software helps users manage their drives with features like performance test, data migration, drive cloning, and more.",
+      "Robust Warranty & Build: The GM7000 offers peace of mind with a 5-year limited warranty, covering up to 1300TBW. Built with 3D NAND TLC and DRAM cache, this 4TB SSD ensures reliability and endurance for intensive gaming and data processing"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Acer Predator GM7000 1TB"
+    ]
+  },
+  "B0F3XL469M": {
+    "asin": "B0F3XL469M",
+    "title": "Bestoss 1TB M.2 SSD NVMe PCIe4.0 2280 Internal Hard Drive, Up to 5000 MB/s",
+    "brand": "Bestoss",
+    "price": "$167.99",
+    "img": "https://m.media-amazon.com/images/I/51cR7XE78xL._SL500_.jpg",
+    "features": [
+      "THE ALL-ROUNDER: This m.2 2280 NVMe 1tb SSD unleashes powerful performance through PCIe Gen4×4 and NVMe protocols. The 1tb internal hard drive ssd achieves a balance between high performance and daily use, and is suitable for office work, home entertainment, creative work, video editing, and mainstream gaming.",
+      "Stable and reliable: This 1tb m.2 SSD adopts TLC NAND + dynamic SLC cache technology and is equipped with a PCIe Gen4×4 controller. The 1tb m2 NVMe SSD can achieve a speed of 5000/4200 MB/s. The long-lasting and stable performance is the greatest advantage of this",
+      "NOVEL GRAPHENE-COPPER COOLING SOLUTION: Dedicated graphene-copper cooling for 1tb SSD NVMe, ensuring PS5 SSD expansion stays cool under AAA games. Sustains near-peak read speeds, instant boot, lag-free multitasking.",
+      "Widespread compatibility: This 1tb NVMe SSD supports PCIe 3.0/4.0 interfaces. It is plug-and-play compatible with laptops, desktops, and NAS devices. Seamless installation through M.2 2280 NVMe SSD. Note the device - PC interface: This M2 internal SSD 1tb can reach the maximum speed only through PCIe 4.0. For external hard drive enclosures, USB often limits the speed.",
+      "3 YEAR WARRANTY FOR YOUR PEACE OF MIND: All built-in SSDs are covered by a 3-year limited warranty, backed by lifetime technical support. Our products undergo rigorous quality control standards, with each drive tested extensively before shipment to ensure zero quality issues. If you have any questions or suggestions about our products, we are committed to providing you with the most sincere service."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Acer Predator GM7000 1TB"
+    ]
+  },
+  "B0F43QH751": {
+    "asin": "B0F43QH751",
+    "title": "Bestoss 1TB NVMe M.2 SSD PCIe 3.0 M.2 2280 SSD, Internal SSD,Up to 3500MB/s",
+    "brand": "Bestoss",
+    "price": "$154.99",
+    "img": "https://m.media-amazon.com/images/I/412ZHTVvmML._SL500_.jpg",
+    "features": [
+      "Unicorn Star Sprint: Breathe New Life into Old Equipment: The top choice for upgrading SSDs in older machines; easily revitalize aging motherboards. Experience galloping speeds that crush SATA/HDD performance, breathing new life into your system. Boosts efficiency for handling large files and high-demand applications.",
+      "Eternal Guardian of Data: Enduring Security: Features HMB+ Dynamic SLC Cache for perfect software-hardware synergy. With read/write speeds of up to 3500/3000 MB/s, enjoy smooth loading, efficient stability, and system responsiveness. Experience system startup, multi-tasking, and game loading as light and smooth as a unicorn.",
+      "Diverse Capacity Storage: Unleash Your Unicorn's Fantastical Space: Offers a range of capacity options from 256GB to 2TB. Save numerous files, documents, photos, videos, games, and apps to fulfill all your data storage needs.",
+      "Passed Rigorous Quality Testing: Undergoes strict endurance testing to ensure zero quality issues. Adopts TLC NAND flash for longer write endurance compared to QLC, ensuring a more reliable data storage solution. Enhances product lifespan and stability, offers good shock resistance, high data security, a reduced failure rate, and lag-free continuous operation.",
+      "Wide Compatibility & Flexible Adaptation: Supports the PCIe 3.0 interface and is compatible with Windows/Linux systems. Adapts seamlessly to laptops, desktops, all-in-one PCs, and other devices. Plug and play for effortless installation.",
+      "Note Device - PC Interface: Max speed only via PCIe 3.0. For external hard drive enclosures, USB often limits speed.",
+      "3-Year Warranty for Your Peace of Mind: All built-in SSDs are covered by a 3-year limited warranty, backed by lifetime technical support. Our products undergo rigorous quality control standards, with each drive tested extensively before shipment to ensure zero quality issues. If you have any questions or suggestions about our products, we are committed to providing you with the most sincere service."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Acer Predator GM7000 1TB"
+    ]
+  },
+  "B0H4H1SNMY": {
+    "asin": "B0H4H1SNMY",
+    "title": "Sandisk 1TB Portable SSD, Up to 1000MB/s Read Speeds, Black (New Model)",
+    "brand": "Sandisk",
+    "price": "$159.99",
+    "img": "https://m.media-amazon.com/images/I/41wIe7KK-mL._SL500_.jpg",
+    "features": [
+      "UP TO 5X FASTER THAN OLD-SCHOOL PORTABLE HARD DRIVES(4). Transfer large files quickly with read speeds up to 1000 MB/s(2), so you spend less time waiting and more time creating.",
+      "DURABLE DESIGN. With no moving parts and drop protection up to 2 meters(3), help your files stay protected on the go.",
+      "POCKET-SIZED PORTABILITY. Slim and lightweight enough to fit in your pocket or bag without adding bulk.",
+      "SPACE FOR MODERN FILES. Store photos, videos, and AI-generated edits with fast, reliable performance.",
+      "USB-C READY. Plug in and start transferring instantly, no drivers or setup needed."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "SanDisk Portable SSD 1TB",
+      "Kingston XS1000 1TB portable SSD",
+      "SanDisk Extreme Portable SSD 1TB"
+    ]
+  },
+  "B0H3XD9351": {
+    "asin": "B0H3XD9351",
+    "title": "Sandisk 1TB Portable Drive, Up to 600MB/s Read Speeds - Black",
+    "brand": "Sandisk",
+    "price": "$129.99",
+    "img": "https://m.media-amazon.com/images/I/41UT8mRtwQL._SL500_.jpg",
+    "features": [
+      "Up to 4x faster transfer speeds than old-school portable hard drives(3) - skip the wait when moving large files with up to 600MB/s(2) read speeds.​",
+      "Durable design - no moving parts means better durability with up to 2-meter drop protection(4).",
+      "POCKET-SIZED – fits easily in pockets and small bags.",
+      "Space to own your AI content – fast storage to quickly download your AI edits, clips, and files.",
+      "USB-C ready - plug in and get to work instantly."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "SanDisk Portable SSD 1TB",
+      "Kingston XS1000 1TB portable SSD",
+      "WD My Passport SSD 1TB",
+      "SanDisk Extreme Portable SSD 1TB"
+    ]
+  },
+  "B0H6CC2KRQ": {
+    "asin": "B0H6CC2KRQ",
+    "title": "Sandisk Extreme Portable SSD - 1TB",
+    "brand": "Sandisk",
+    "price": "$229.99",
+    "img": "https://m.media-amazon.com/images/I/41GbWoP05BL._SL500_.jpg",
+    "features": [
+      "Carry your photo and video collection in this compact drive, ready to relive at a moment’s notice.",
+      "Easy Content Management: Select, copy, move, and organize content from your iPhone or iPad to the drive using the Files App",
+      "Time Machine Compatibility: Time Machine compatible for seamless backup solutions with your Mac devices",
+      "Universal Connectivity: Connections include USB-C for broad compatibility with modern devices",
+      "Massive Storage Capacity: 1TB of storage space provides ample room for your creative projects, photos, videos, and precious memories"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "SanDisk Portable SSD 1TB",
+      "SanDisk Extreme Portable SSD 1TB"
+    ]
+  },
+  "B0FL23M1S1": {
+    "asin": "B0FL23M1S1",
+    "title": "GARMESE 1TB External SSD Up to 2000MB/s, USB 3.2 Gen 2x2 Portable SSD USB C",
+    "brand": "GARMESE",
+    "price": "$153.99",
+    "img": "https://m.media-amazon.com/images/I/318yhCNxgRL._SL500_.jpg",
+    "features": [
+      "2000MB/s Read & 1800MB/s Write: This USB 3.2 Gen 2x2 external SSD lets you load, transfer, or manage large files, 4K videos, and massive game assets in seconds. Load games faster, edit RAW footage instantly, and manage massive creative assets without waiting",
+      "Plug-and-Play: No drivers, no software needed. Our portable SSD works instantly with Windows, macOS, iPadOS, Android, Chrome OS, and Linux. Just plug in and expand your storage in seconds. Perfect for users who want a simple, hassle-free setup",
+      "Ultraportable with Keychain Hole: The USB‑C external SSD weighs just 33g and fits in your palm. Attach it to your keychain, backpack, or lanyard—your photos, projects, and game libraries always travel with you",
+      "Ready for Your Devices: Includes a USB-C cable and a USB-C-to-USB-A adapter. Works with USB-C iPhones (15/16), iPad Pro, MacBooks, Android phones, Windows PCs, PS5, Xbox, and laptops. A true universal external hard drive alternative",
+      "Shock‑Resistant & Travel‑Ready: Built to withstand drops and bumps. Perfect for gamers moving libraries, students backing up assignments, and professionals editing on location. A reliable external solid state drive for daily use"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Kingston XS1000 1TB portable SSD"
+    ]
+  },
+  "B0GG4BTNXY": {
+    "asin": "B0GG4BTNXY",
+    "title": "Lexar D50E 128GB Solid State Dual Drive, Up to 400MB/s Read 360MB/s Write",
+    "brand": "Lexar",
+    "price": "$39.99",
+    "img": "https://m.media-amazon.com/images/I/31wHL537L9L._SL500_.jpg",
+    "features": [
+      "Dual USB-A and USB-C connectors for wide compatibility with USB devices. Cable-free to provide everything you need within a compact design",
+      "Up to 400MB/s read transfer, 360MB/s write speeds. Provide file transfers 4X faster than USB 3.0. The comparison is based on internal testing at a speed of 100 MB/s; actual performance may vary",
+      "The free Lexar App Photo Backup function is available for both iOS and Android to give an easy way to back up and manage media. iCloud content backup is not supported yet",
+      "A durable metal housing offers exceptional durability and protects the USB-A and USB-C connectors",
+      "Available in capacities up to 1TB to carry your entire content library in your pocket"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Lexar SL500 portable SSD"
+    ]
+  },
+  "B07VTWX8MN": {
+    "asin": "B07VTWX8MN",
+    "title": "WD 1TB My Passport, Portable External Hard Drive, Black, backup software with defense against ransomware, and password protection, USB 3.1/USB 3.0 compatible - WDBYVG0010BBK-WESN",
+    "brand": "WD",
+    "price": "$132.95",
+    "img": "https://m.media-amazon.com/images/I/31XSW15lDAL._SL500_.jpg",
+    "features": [
+      "Slim durable design to help take your important files with you",
+      "Vast capacities up to 6TB[1] to store your photos, videos, music, important documents and more",
+      "Back up smarter with included device management software[2] with defense against ransomware",
+      "Help secure your important files with password protection and hardware encryption",
+      "3-year limited warranty"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "WD My Passport SSD 1TB"
+    ]
+  },
+  "B08F2G1XPH": {
+    "asin": "B08F2G1XPH",
+    "title": "Western Digital 1TB My Passport SSD Portable External Solid State Drive, Gold, Sturdy and Blazing Fast, Password Protection with Hardware Encryption - WDBAGF0010BGD-WESN",
+    "brand": "Western Digital",
+    "price": "$219.99",
+    "img": "https://m.media-amazon.com/images/I/214N9LpyRWL._SL500_.jpg",
+    "features": [
+      "Blazing fast NVMe technology with speeds of up to 1050MB/s and write speeds of up to 1000MB/s. Based on read speed unless otherwise stated. As used for transfer rate, 1 MB/s = one million bytes per second. Based on internal testing; performance may vary depending upon host device, usage conditions, drive capacity, and other factors.",
+      "Password enabled 256-bit AES hardware encryption",
+      "Shock and vibration resistant. Drop resistant up to 6.5ft (1.98m)",
+      "Cross Compatible USB 3.2 Gen-2 and USB-C (USB-A for older systems)",
+      "Simple back up"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "WD My Passport SSD 1TB"
+    ]
+  },
+  "B08F27J5SQ": {
+    "asin": "B08F27J5SQ",
+    "title": "WD 1TB My Passport SSD Portable External Solid State Drive, Red, Sturdy and Blazing Fast, Password Protection with Hardware Encryption - WDBAGF0010BRD-WESN",
+    "brand": "Western Digital",
+    "price": "$228.90",
+    "img": "https://m.media-amazon.com/images/I/31Kl1zNoHVL._SL500_.jpg",
+    "features": [
+      "Blazing fast NVMe technology with speeds of up to 1050MB/s and write speeds of up to 1000MB/s. | Based on read speed unless otherwise stated. As used for transfer rate, 1 MB/s = one million bytes per second. Based on internal testing; performance may vary depending upon host device, usage conditions, drive capacity, and other factors.",
+      "Password enabled 256-bit AES hardware encryption",
+      "Shock and vibration resistant. Drop resistant up to 6.5ft (1.98m)",
+      "Cross Compatible USB 3.2 Gen-2 and USB-C (USB-A for older systems)"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "WD My Passport SSD 1TB"
+    ]
+  },
+  "B0CCYJ2TZD": {
+    "asin": "B0CCYJ2TZD",
+    "title": "Crucial X10 Pro USB 3.2 Type-C Portable External SSD - 1TB",
+    "brand": "Crucial",
+    "price": "$229.90",
+    "img": "https://m.media-amazon.com/images/I/21UAuAIP6yL._SL500_.jpg",
+    "features": [
+      "Storage Capacity: 1 TB",
+      "Platform Supported: iPad",
+      "Platform Supported: PC",
+      "Platform Supported: Mac",
+      "Encryption Standard: 256-bit AES"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Crucial X10 portable SSD 1TB"
+    ]
+  },
+  "B093275Z7V": {
+    "asin": "B093275Z7V",
+    "title": "BUFFALO External SSD 1TB - Up to 600MB/s - USB-C - USB-A - USB 3.2 Gen 2 (Compatible with PS4 / PS5 / Windows/Mac) - External Solid State Drive Stick - ‎‎SSD-PUT1.0U3B",
+    "brand": "BUFFALO",
+    "price": "$149.99",
+    "img": "https://m.media-amazon.com/images/I/31yH9fVLakL._SL500_.jpg",
+    "features": [
+      "BEST STICK SSD – Compact and reliable SSD to meet your on-the-go demand. Compatible with PS4/PS5, Macs, and PCs. Save space and loading time on your console by storing your game data on Buffalo SSDs.",
+      "IDEAL ON-THE-GO ACCESSORY - Quickly copy your large data. If you are a professional in need of fast and secure storage, the Buffalo SSD is ready for on-the-go backup for photos, videos, docs, and more.",
+      "FAST SPEEDS AND MULTI-TASKING - Blazing fast speed (up to 600 MB/s) enables you to connect the drive to PC and perform large intensive tasks simultaneously.",
+      "COMPACT, DURABLE, & RELIABLE – Shock-resistant, rugged design provides drop protection. Stick and retractable form factor to carry your data in the palm of your hand. No matter if it’s for work or fun, you can easily use your Buffalo SSD on-the-go.",
+      "USB 3.2 CONNECTIVITY & 3-YEAR WARRANTY – Supports USB-C / USB-A. Easily connect the Buffalo SSD to your PC and other mobile devices. THREE-YEAR WARRANTY for registered devices (two years if unregistered)."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Crucial X10 portable SSD 1TB"
+    ]
+  },
+  "B0874Y1FZZ": {
+    "asin": "B0874Y1FZZ",
+    "title": "Samsung T7 500GB, Portable SSD, up to 1050MB/s, USB 3.2 Gen2, Gaming, Students, & Professionals, External Solid State Drive (MU-PC2T0R/AM), Red",
+    "brand": "Samsung",
+    "price": "$233.00",
+    "img": "https://m.media-amazon.com/images/I/31pLuKdxJFL._SL500_.jpg",
+    "features": [
+      "TRANSFER IN A FLASH: Transfers files nearly 9.5x faster than external hard disk drive (HDD). Reads up to 1,050 MB/s / Writes up to 1,000 MB/s on USB 3.2 gen 2 supported devices*.",
+      "*SAMSUNG RECOMMENDS users to download the latest firmware update via the included Portable SSD Software 1.0 to ensure optimal performance",
+      "Data transfer speed may vary depending on the user’s PC environment and the types of data being transferred. USB 3.2 Gen2 and UASP support are required for maximum transfer speed (1,050MB/s)**",
+      "**SAMSUNG RECOMMENDS the usage of the included USB Type-C to C and USB Type-C to A cables. Non-original cables may cause performance degradation due to the varying internal resistance and maximum allowable currency",
+      "BUILT STRONG & SECURE: Shock-resistant and withstands drops from 6ft.",
+      "ADVANCED HEAT CONTROL: DYNAMIC THERMAL GUARD (DTG) TECHNOLOGY protects the T7(T7 Touch) from overheating by automatically slowing down data transfer if necessary. DTG technology enhances product safety and reliability by preventing the T7(T7 Touch) from reaching an excessively high temperature",
+      "PASSWORD SECURITY"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Samsung T7 Portable SSD 500GB"
+    ]
+  },
+  "B0DQWHWWNS": {
+    "asin": "B0DQWHWWNS",
+    "title": "Sandisk 1TB Extreme Portable SSD for PS5, Up to 1050MB/s Read Speeds",
+    "brand": "Sandisk",
+    "price": "$239.99",
+    "img": "https://m.media-amazon.com/images/I/315v3KiRmoL._SL500_.jpg",
+    "features": [
+      "Designed, tested, and approved for PlayStation consoles so gamers can jump into the PlayStation action fast and seamlessly.",
+      "With enhanced speeds up to 1000MB/s(1) quickly transfer games from external SSD archive to your PlayStation5 internal storage. (Based on internal testing; performance may be lower depending on host device, interface, usage conditions and other factors. 1MB=1,000,000) bytes.",
+      "Expand your space for the size of the newest and greatest PlayStation 5 titles, allowing you to store more games without having to delete old ones.",
+      "Unleash more fun and get the most out of Discord with a 1-month trial of Nitro – get access to all Nitro perks, including HD streaming, 2 Server Boosts, and more(5).",
+      "With an IP65 rating and up to 3-meter drop protection(4). PlayStation adventures are backed by SanDisk purpose-built quality and reliability – plus a 5-year limited warranty(6)."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "SanDisk Extreme Portable SSD 1TB"
+    ]
   }
 }

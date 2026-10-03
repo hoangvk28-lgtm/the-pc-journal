@@ -66,6 +66,7 @@ function choose(cands: Fact[], count: number): string[] {
 
 // Optional: PREV=<old batch file>. A guide never loses picks on a re-plan: when the new set is smaller than the previous one
 // (and every previous ASIN still exists in the group's facts), the previous ASIN list is kept.
+const KEEP = new Set((process.env.KEEP ?? "").split(",").filter(Boolean)); // slugs whose previous picks are kept as they are
 const prev = new Map<string, string[]>();
 if (process.env.PREV && fs.existsSync(process.env.PREV)) {
   const text = fs.readFileSync(process.env.PREV, "utf-8");
@@ -80,7 +81,7 @@ for (const item of PLAN) {
   const cands = Object.values(g.facts).filter((f) => !EXCLUDE.has(f.asin) && price(f) < Infinity && (item.where ? item.where(f) : true)).sort(sorter(item.sort));
   let asins = cands.length >= 3 ? choose(cands, item.count ?? 5) : [];
   const old = prev.get(item.slug);
-  if (old && old.length > asins.length && old.every((a) => g.facts[a])) asins = old;
+  if (old && (old.length > asins.length || KEEP.has(item.slug)) && old.every((a) => g.facts[a])) asins = old;
   if (asins.length < 3) { skipped.push(`${item.slug}: ${cands.length} candidates, no valid set`); continue; }
   sets.push(asins);
   usedGroups.add(item.g);

@@ -6741,5 +6741,225 @@
     "queries": [
       "GTX 1650 graphics card"
     ]
+  },
+  "B0C8ZRMDC3": {
+    "asin": "B0C8ZRMDC3",
+    "title": "Gigabyte NVIDIA GeForce RTX 4060 Eagle OC Graphics Card - 8GB GDDR6, 128-bit, PCI-E 4.0, 2505MHz Core Clock, 2X DP 1.4, 2X HDMI 2.1a, NVIDIA DLSS 3 - GV-N4060EAGLE OC-8GD",
+    "brand": "GIGABYTE",
+    "price": "$499.22",
+    "img": "https://m.media-amazon.com/images/I/51rruD0u42L._SL500_.jpg",
+    "features": [
+      "GIGABYTE RTX 4060 EAGLE OC-8GD"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4060 8GB graphics card"
+    ]
+  },
+  "B0C5DXJ165": {
+    "asin": "B0C5DXJ165",
+    "title": "Gigabyte VGA GBT RX 7600 8GB Gaming OC Graphics Card",
+    "brand": "GIGABYTE",
+    "price": "$523.79",
+    "img": "https://m.media-amazon.com/images/I/51wB40wGnGL._SL500_.jpg",
+    "features": [
+      "Better resolution"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RX 7600 8GB graphics card"
+    ]
+  },
+  "B0FP9WZZWK": {
+    "asin": "B0FP9WZZWK",
+    "title": "XFX Swift AMD Radeon RX 9060 XT OC Triple Fan Gaming Edition with 8GB GDDR6 HDMI 2xDP, AMD RDNA 4 RX-96TS38GB7",
+    "brand": "XFX",
+    "price": "$490.99",
+    "img": "https://m.media-amazon.com/images/I/41EW2i9BrFL._SL500_.jpg",
+    "features": [
+      "Chipset: AMD RX 9060 XT",
+      "Memory: 8 GB GDDR6",
+      "XFX SWFT Triple Fan Cooling Solution",
+      "Boost Clock Up to 3320 MHz"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RX 9060 XT 8GB"
+    ]
+  },
+  "B0BJSYQ822": {
+    "asin": "B0BJSYQ822",
+    "title": "ASRock Intel Arc A750 Challenger D 8GB OC 2200 MHz 256-bit GDDR6 DisplayPort 16 Gbps HDMI 7680 x 4320 Graphics Card Overclocked",
+    "brand": "ASRock",
+    "price": "$206.43",
+    "img": "https://m.media-amazon.com/images/I/41Wo32GmllL._SL500_.jpg",
+    "features": [
+      "Dual Fan Design",
+      "Stylish Metal Backplate",
+      "Striped Axial Fan",
+      "Ultra-fit Heatpipe",
+      "0dB Silent Cooling"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Arc B570"
+    ]
+  },
+  "B0FVGKQPWR": {
+    "asin": "B0FVGKQPWR",
+    "title": "ASRock Challenger Value Bundle: Intel Arc B570 10GB OC GPU & 650W 80+ Gold ATX 3.1 PSU - Efficient 1080p/1440p Gaming Combo",
+    "brand": "ASRock",
+    "price": "$307.18",
+    "img": "https://m.media-amazon.com/images/I/31SaSzwKVBL._SL500_.jpg",
+    "features": [
+      "Next-Gen Intel Xe2 Performance: Experience excellent 1080p and smooth 1440p gaming with the Intel Arc B570, featuring a powerful 2600 MHz clock speed, 10GB of GDDR6 memory, and the advanced Intel Xe2-HPG architecture.",
+      "Efficient Gold-Rated Power: The 650W 80+ Gold certified PSU delivers clean, stable, and highly efficient power, reducing energy waste and operating costs for a perfectly balanced mid-range system.",
+      "Future-Proof ATX 3.1 Ready: Built to the latest ATX 3.1 standard, this PSU ensures superior compatibility and can handle the high power excursions of modern components, providing a solid foundation for your build.",
+      "Advanced AI Upscaling: Leverage Intel Xe Super Sampling 2 (XeSS 2) with dedicated AI hardware (XMX) to boost frame rates dramatically while maintaining stunning image quality in supported games.",
+      "Cool & Quiet Operation: The GPU's Dual Fan Design with Striped Axial Fans and 0dB Silent Cooling works in harmony with the PSU's 120mm Golf-Blade fan and iCOOL MODE for a remarkably quiet gaming experience."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Arc B570"
+    ]
+  },
+  "B0FQ5RG6QC": {
+    "asin": "B0FQ5RG6QC",
+    "title": "Kotoshi AR-B580D6-E12GB/DF Intel Arc B580 Graphics Board",
+    "brand": "玄人志向",
+    "price": "$600.44",
+    "img": "https://m.media-amazon.com/images/I/41jZWncjM2L._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Arc B580"
+    ]
+  },
+  "B08WHJFYM8": {
+    "asin": "B08WHJFYM8",
+    "title": "MSI GeForce RTX 3060 Ventus 2X 12G OC, Gaming Graphics Card - NVIDIA RTX 3060, 12GB GDDR6 Memory, 192-bit, 15 Gbps",
+    "brand": "msi",
+    "price": "$379.99",
+    "img": "https://m.media-amazon.com/images/I/51ClY8eDcpL._SL500_.jpg",
+    "features": [
+      "Strong performance thanks to NVIDIA Ampere with NVIDIA GeForce RTX 3060, 12GB GDDR6, ray tracing and DLSS support",
+      "Display outputs: DisplayPort v1.4a x 3 / HDMI 2.1 x 1",
+      "DUAL FAN COOLING Two fans, combined with a huge heatsink, make the VENTUS series quiet and powerful",
+      "Award winning MSI TORX Fan 3.0 design for high static pressure and effective cooling",
+      "MSI Dragon Center: With just a few clicks, performance can be monitored and optimized in real time"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 3060 12GB graphics card"
+    ]
+  },
+  "B097J5CZTJ": {
+    "asin": "B097J5CZTJ",
+    "title": "MSI Gaming GeForce RTX 3060 12GB 15 Gbps GDRR6 192-Bit HDMI/DP PCIe 4 Torx Twin Fan Ampere OC Graphics Card (RTX 3060 Ventus 2X 12G OC) (Renewed)",
+    "brand": "msi",
+    "price": "$409.97",
+    "img": "https://m.media-amazon.com/images/I/51ClY8eDcpL._SL500_.jpg",
+    "features": [
+      "Boost Clock / Memory Speed: 1807MHz / 15Gbps, 12GB GDDR6, DisplayPort x 3 HDMI x 1 (Supports 4K@120Hz as specified in HDMI 2.1",
+      "TORX 3.0 FAN - Award-winning MSI TORX Fan 3.0 design creates high static pressure and pushes the limits of thermal performance",
+      "Zero Frozr: Calm before the storm, keeping fans still and maintaining silence until cooling is needed"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 3060 12GB graphics card"
+    ]
+  },
+  "B09LFLTXW9": {
+    "asin": "B09LFLTXW9",
+    "title": "Sapphire Technology Pulse AMD Radeon RX 6600 XT Gaming Graphics Card with 8GB GDDR6, AMD RDNA 2 (11309-03-20G) (Renewed)",
+    "brand": "Sapphire",
+    "price": "$319.99",
+    "img": "https://m.media-amazon.com/images/I/51469bA2wjL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RX 6600 XT 8GB"
+    ]
+  },
+  "B09JHTDG14": {
+    "asin": "B09JHTDG14",
+    "title": "ASUS Dual AMD Radeon RX 6600 XT OC Edition 8GB GDDR6 Gaming Graphics Card (AMD RDNA 2, PCIe 4.0, 8GB GDDR6 Memory, HDMI 2.1, DisplayPort 1.4a, Axial-tech Fan Design, 0dB Technology) (Renewed)",
+    "brand": "ASUS",
+    "price": "$309.99",
+    "img": "https://m.media-amazon.com/images/I/41byemPTc0L._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RX 6600 XT 8GB"
+    ]
+  },
+  "B09FTLB83L": {
+    "asin": "B09FTLB83L",
+    "title": "MSI Gaming Radeon RX 6600 XT MECH 2X 8G OC 128-bit 8GB GDDR6 DP/HDMI Dual Torx Fans FreeSync DirectX 12 VR Ready OC Graphics Card, AMD GPU Video Card for Gaming PC (Renewed)",
+    "brand": "msi",
+    "price": "$309.99",
+    "img": "https://m.media-amazon.com/images/I/515nmB3KRWL._SL500_.jpg",
+    "features": [
+      "Item Package Dimensions: 8.2L x 26.8W x 35.41H cm",
+      "Overclocking and VR Ready capabilities: The graphics card is designed with overclocking capabilities, allowing you to take your performance to even higher levels. By increasing GPU clock speeds and memory, you can achieve higher frame rates and smoother gaming experiences. Plus, it's VR ready, ensuring compatibility with VR apps for an immersive gaming experience",
+      "FreeSync Technology for Tearless Gaming - With AMD's FreeSync technology, the RX 6600 XT MECH 2X 8G OC synchronizes the screen refresh rate with the GPU's frame rate, reducing screen tearing and delivering a seamless gaming experience. You can enjoy smooth visuals and greater responsiveness in your favorite games"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RX 6600 XT 8GB"
+    ]
+  },
+  "B09H5NNKZL": {
+    "asin": "B09H5NNKZL",
+    "title": "MSI Gaming AMD Radeon RX 6600 XT 8GB GDDR6 128-Bit HDMI/DP Torx Fan RGB Graphics Card (RX 6600 XT Gaming X 8G) (Renewed)",
+    "brand": "msi",
+    "price": "$309.97",
+    "img": "https://m.media-amazon.com/images/I/516irbvVu-L._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RX 6600 XT 8GB"
+    ]
+  },
+  "B0FRPFG6NW": {
+    "asin": "B0FRPFG6NW",
+    "title": "PNY NVIDIA GeForce RTX™ 5050 Dual-Fan Graphics Card",
+    "brand": "PNY",
+    "price": "$380.04",
+    "img": "https://m.media-amazon.com/images/I/41KPuoFxIfL._SL500_.jpg",
+    "features": [
+      "Dual-Fan Cooling in a Compact Design - Two fans work together to distribute and dissipate heat efficiently across a compact design, delivering the thermal headroom to sustain boost clocks without demanding a full-length card slot.",
+      "Small Form Factor Design - A compact design opens up possibilities for a wide array of PC system sizes and configurations, from small-form-factor and slim chassis to standard mid-towers and media centers.",
+      "VelocityX Software - Gain full control over your PNY graphics card to maximize its performance. Fine-tune core and memory clocks, dial in custom fan curves, and monitor real-time temperatures and speeds, all from one intuitive interface. Save up to five profiles for instant recall.",
+      "NVIDIA Blackwell Architecture - The Ultimate Platform for Gamers and Creators. Do it all with 5th-Gen Tensor Cores for max AI performance, new streaming multiprocessors that are optimized for neural shaders, and 4th-Gen Ray Tracing Cores built for Mega Geometry.",
+      "NVIDIA DLSS 4.5 - Supreme Speed. Superior Visuals. Powered by AI. - AI-Enhanced graphics and performance with Dynamic Multi-Frame Generation. DLSS is a revolutionary suite of neural rendering technologies that uses AI to boost FPS, reduce latency, and improve image quality."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 5050 8GB"
+    ]
+  },
+  "B0FFXJZMYZ": {
+    "asin": "B0FFXJZMYZ",
+    "title": "ASUS Dual GeForce RTX 5050 8GB GDDR6 Gaming Gaming Graphics Card",
+    "brand": "ASUS",
+    "price": "$409.99",
+    "img": "https://m.media-amazon.com/images/I/41P3odIrDIL._SL500_.jpg",
+    "features": [
+      "AI Performance: 433 AI TOPS. OC Mode: 2602 MHz / Default mode: 2572 MHz",
+      "Powered by the NVIDIA Blackwell architecture and DLSS 4. Dual-ball fan bearings last up to twice as long as standard sleeve bearings",
+      "SFF-Ready enthusiast GeForce card",
+      "Axial-tech fans feature a smaller fan hub that facilitates longer blades and a barrier ring that increases downward air pressure",
+      "A 2-slot design maximizes compatibility and cooling efficiency for superior performance in small chassis",
+      "0dB technology lets you enjoy light gaming in relative silence",
+      "Dual BIOS lets you toggle between Quiet and Performance BIOS profiles",
+      "Dual ball fan bearings last up to twice as long as sleeve bearing designs",
+      "Auto-Extreme manufacturing process for precision and reliability",
+      "GPU Tweak III software provides intuitive performance tweaking, advanced thermal control, and system monitoring"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 5050 8GB"
+    ]
   }
 }

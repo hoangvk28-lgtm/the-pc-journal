@@ -44,6 +44,12 @@ import { psuGenericSchema, psuGenericFacts } from "@/data/categories/psu-generic
 import { paste20Facts } from "@/data/categories/paste20";
 import { air20Facts, cases20Facts, speakers20Facts } from "@/data/categories/misc20";
 import { expand28SsdFacts } from "@/data/categories/expand28-ssd";
+import { fill34SsdFacts } from "@/data/categories/fill34-ssd";
+import { fill34StorageFacts } from "@/data/categories/fill34-storage";
+import { fill34SpeakerFacts } from "@/data/categories/fill34-speaker";
+import { fill34MonitorFacts } from "@/data/categories/fill34-monitor";
+import { fill34WorkMouseFacts } from "@/data/categories/fill34-mouse";
+import { fill34GpuFacts } from "@/data/categories/fill34-gpu";
 import { expand28GamingMouseFacts, expand28WorkMouseFacts } from "@/data/categories/expand28-mouse";
 import { expand28WebcamFacts } from "@/data/categories/expand28-webcam";
 import { expand28PadFacts } from "@/data/categories/expand28-pad";
@@ -72,7 +78,7 @@ const fan140Schema: typeof fanSchema = {
 
 export const GROUPS = {
   gmouse: { schema: mouseSchema, facts: { ...razerWireless16aFacts, ...expand28GamingMouseFacts }, category: "peripherals", noun: "gaming mice", related: ["best-gaming-mouse", "best-wireless-gaming-mice", "best-fps-gaming-mouse"] },
-  wmouse: { schema: workMouseSchema, facts: { ...verticalMice15aFacts, ...ergoMice16aFacts, ...expand28WorkMouseFacts }, category: "peripherals", noun: "mice", related: ["best-mouse-for-work", "best-bluetooth-wireless-mouse", "best-vertical-ergonomic-mouse"] },
+  wmouse: { schema: workMouseSchema, facts: { ...verticalMice15aFacts, ...ergoMice16aFacts, ...expand28WorkMouseFacts, ...fill34WorkMouseFacts }, category: "peripherals", noun: "mice", related: ["best-mouse-for-work", "best-bluetooth-wireless-mouse", "best-vertical-ergonomic-mouse"] },
   gkb: { schema: keyboardSchema, facts: { ...quietKeyboards15aFacts, ...expand28KeyboardFacts }, category: "peripherals", noun: "keyboards", related: ["best-gaming-keyboard", "best-quiet-gaming-keyboard", "best-tkl-keyboards"] },
   wkb: { schema: workKeyboardSchema, facts: only(btKeyboards16aFacts, (f) => !(f.asin in keyboards13cFacts)), category: "peripherals", noun: "keyboards", related: ["best-keyboards-for-work", "best-compact-wireless-keyboard", "best-wireless-keyboard-with-touchpad"] },
   combo: { schema: comboSchema, facts: combo13eFacts, category: "peripherals", noun: "keyboard and mouse combos", related: ["best-gaming-keyboard-mouse-combos", "best-silent-wireless-mouse-keyboard-combos", "best-dell-wireless-keyboard-and-mouse"] },
@@ -82,16 +88,16 @@ export const GROUPS = {
   arm: { schema: armSchema, facts: arms18Facts, category: "peripherals", noun: "monitor arms", related: ["best-monitor-arm", "best-dual-monitor-arms", "best-monitor-arms-for-desk"] },
   riser: { schema: riserSchema, facts: riser13dFacts, category: "peripherals", noun: "monitor stands", related: ["best-monitor-stand-riser", "best-computer-stand-for-desk", "best-monitor-arm"] },
   floormat: { schema: floorMatSchema, facts: floorMat13dFacts, category: "peripherals", noun: "chair mats", related: ["best-floor-mat-for-office-chair", "best-office-chair-for-lower-back-pain", "best-gaming-chair"] },
-  monitor: { schema: monitorSchema, facts: { ...monitors15eFacts, ...expand28MonitorFacts }, category: "monitors", noun: "monitors", related: ["best-gaming-monitor", "best-1440p-gaming-monitor", "best-oled-gaming-monitors"] },
-  storage: { schema: storage13eSchema, facts: { ...storage15dFacts, ...expand28StorageFacts }, category: "peripherals", noun: "external drives", related: ["best-external-ssd", "best-portable-ssd-drive", "best-external-storage-for-laptop"] },
-  speaker: { schema: speaker13eSchema, facts: { ...speakers15bFacts, ...speakers20Facts, ...expand28SpeakerFacts }, category: "peripherals", noun: "speakers", related: ["best-pc-speakers", "best-speakers-for-gaming-pc", "best-gaming-speaker-bar"] },
+  monitor: { schema: monitorSchema, facts: { ...monitors15eFacts, ...expand28MonitorFacts, ...fill34MonitorFacts }, category: "monitors", noun: "monitors", related: ["best-gaming-monitor", "best-1440p-gaming-monitor", "best-oled-gaming-monitors"] },
+  storage: { schema: storage13eSchema, facts: { ...storage15dFacts, ...expand28StorageFacts, ...fill34StorageFacts }, category: "peripherals", noun: "external drives", related: ["best-external-ssd", "best-portable-ssd-drive", "best-external-storage-for-laptop"] },
+  speaker: { schema: speaker13eSchema, facts: { ...speakers15bFacts, ...speakers20Facts, ...expand28SpeakerFacts, ...fill34SpeakerFacts }, category: "peripherals", noun: "speakers", related: ["best-pc-speakers", "best-speakers-for-gaming-pc", "best-gaming-speaker-bar"] },
   webcam: { schema: webcam13eSchema, facts: { ...webcams18Facts, ...expand28WebcamFacts }, category: "peripherals", noun: "webcams", related: ["best-webcam-for-streaming", "best-4k-webcams", "best-webcams-streaming"] },
   stream: { schema: stream13eSchema, facts: stream18Facts, category: "peripherals", noun: "streaming devices", related: ["best-streaming-gear-for-pc", "best-webcam-for-streaming", "best-streaming-gear-for-gaming"] },
-  gpu: { schema: gpuRangeSchema, facts: { ...gpuFacts, ...gpuExtFacts, ...expand28GpuFacts }, category: "components", noun: "graphics cards", related: ["best-graphics-cards", "best-graphics-cards-for-1440p", "best-budget-graphics-cards"] },
+  gpu: { schema: gpuRangeSchema, facts: { ...gpuFacts, ...gpuExtFacts, ...expand28GpuFacts, ...fill34GpuFacts }, category: "components", noun: "graphics cards", related: ["best-graphics-cards", "best-graphics-cards-for-1440p", "best-budget-graphics-cards"] },
   cpu: { schema: cpuSchema, facts: { ...cpuFacts, ...expand28CpuFacts }, category: "components", noun: "processors", related: ["best-cpus-for-gaming", "best-amd-cpus-for-gaming", "best-budget-cpus"] },
   mb: { schema: mbxSchema, facts: mbxFacts, category: "components", noun: "motherboards", related: ["best-motherboards-for-ryzen-7-9800x3d", "best-am5-motherboards", "best-b850-motherboards"] },
   ram: { schema: ramxSchema, facts: ramxFacts, category: "components", noun: "memory kits", related: ["best-ram-for-gaming", "best-ddr5-ram", "best-ddr4-ram"] },
-  ssd: { schema: ssdxSchema, facts: { ...ssd18Facts, ...expand28SsdFacts }, category: "components", noun: "SSDs", related: ["best-ssds-for-gaming", "best-ssds", "best-2tb-gen4-ssds"] },
+  ssd: { schema: ssdxSchema, facts: { ...ssd18Facts, ...expand28SsdFacts, ...fill34SsdFacts }, category: "components", noun: "SSDs", related: ["best-ssds-for-gaming", "best-ssds", "best-2tb-gen4-ssds"] },
   prebuilt: { schema: prebuiltSchema, facts: prebuiltFacts, category: "pc-builds", noun: "gaming PCs", related: ["best-prebuilt-gaming-pcs", "best-prebuilt-gaming-pcs-under-1000", "best-mini-pcs-for-gaming"] },
   fan: { schema: fanSchema, facts: { ...fans18Facts, ...fans31Facts }, category: "components", noun: "case fans", related: ["best-case-fans", "best-argb-case-fans", "best-pc-cooling-fan"] },
   fan140: { schema: fan140Schema, facts: { ...fans18Facts, ...fans31Facts }, category: "components", noun: "140mm case fans", related: ["best-140mm-pc-fans", "best-case-fans", "best-quiet-pc-case-fans"] },

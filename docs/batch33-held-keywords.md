@@ -1,18 +1,19 @@
 # Batch 33 held keywords
 
-Tiers planned for batch 33 that were not published. No new Amazon searches were run for them.
+Tiers planned for batch 33 that are still not published. The tiers that were held earlier (NVMe under $120, portable SSDs under $100/$120/$150, PC speakers under $50/$60, monitors under $80, wireless mice under $60) were published in the "fill 34" pass after new verified products were added from the Amazon Creators API (fact sheets in `data/categories/fill34-*.ts`).
 
 | Slug | Reason |
 |---|---|
-| best-nvme-ssds-under-120 | Only 2 NVMe SSDs in the reviewed pool at or below $120 once thin listings are excluded. |
-| best-portable-ssds-under-100 | Only 1 portable SSD (not HDD) in the pool at or below $100. |
-| best-portable-ssds-under-120 | Only 1 portable SSD in the pool at or below $120. |
-| best-portable-ssds-under-150 | Only 1 portable SSD in the pool at or below $150. |
-| best-pc-speakers-under-50 | 3 candidates at or below $50, identical to the under-$40 set; no distinct product set. |
-| best-pc-speakers-under-60 | Would repeat the under-$40 and under-$75 picks; dropped from the plan. |
-| best-monitors-under-80 | After excluding portable monitors only 1 desktop monitor is at or below $80. |
-| best-wireless-mice-under-60 | Only 1 new wireless mouse in the $40 to $60 band; the wider band repeats the under-$40 picks. |
+| (none of the original held tiers remain) | |
+
+Notes on the fill 34 tiers:
+- NVMe under $120: at current prices only 500GB and 512GB drives fit; all picks are internal M.2 NVMe.
+- Portable SSDs: the $150 tier is limited to $110 to $150 so it does not repeat the cheaper tiers; hard drives are filtered out.
+- Graphics cards under $350: only 4 new-condition cards with 8GB or more of video memory fit ($200 to $350: Arc A750 x2, Arc B570, RX 9060 XT 8GB). RTX 5060 and RTX 4060 cards were $400 or more when searched; RX 6600 XT cards were renewed units and are skipped. The Arc B580 and RX 7600 (both $330 to $350) are held back because other GPU guides already use them.
+- Wireless mice under $60: the $40 to $60 band; the Logitech Lift and MX Anywhere listings found were renewed units and are skipped.
+- Monitors under $80: desktop 21.5 to 24 inch panels only (portable monitors and TVs filtered out).
+- The planner has a new `KEEP=slug,slug` env option that keeps a published guide's previous picks on a re-plan; this pass kept `best-nvme-ssds-under-150`, `best-pc-speakers-under-40` and `best-pc-speakers-under-75` unchanged.
 
 Skipped because the slug already exists under another wording: none of the requested tiers.
 Removed from the pool for thin listings (under 100 words of "Why we like it") or wrong audience: see `data/clusters/exclude-thin.json`.
-- best-graphics-cards-under-350: dropped after requiring 8GB or more of video memory (too few distinct 8GB cards in the band; the site already has GPU guides under $300 and $400).
+- best-graphics-cards-under-350 keeps the 8GB or more video memory filter (the site already has GPU guides under $300 and $400).

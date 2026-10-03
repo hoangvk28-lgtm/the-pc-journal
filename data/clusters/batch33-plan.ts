@@ -28,15 +28,15 @@ const any = () => true;
 
 export const PLAN: PlanItem[] = [
   ...tiers("nvme-ssds", "NVMe SSDs", "NVMe SSDs", "ssd", any, [
-    [120, 0, "price", "Under $120 an NVMe SSD is usually a 500GB or 1TB drive, enough for the operating system and a few games.", "Check how many free M.2 slots your motherboard has, and whether the slot is PCIe 3.0 or 4.0, before ordering."],
+    [120, 0, "price", "At current prices an NVMe SSD under $120 is a 500GB or 512GB drive, enough for the operating system and a few games.", "Check how many free M.2 slots your motherboard has, and whether the slot is PCIe 3.0 or 4.0, before ordering."],
     [150, 0, "-read", "Up to $150 an NVMe SSD is mostly a 500GB or 512GB drive, so rated read speed is the main difference between picks.", "A faster rated drive only helps if the M.2 slot runs at the same PCIe generation."],
     [250, 150, "-capacity", "From $150 to $250 an NVMe SSD is typically a 1TB drive, so read speed, heatsink and PCIe generation are what to compare.", "Decide whether you need space or sequential speed; for game libraries, capacity usually helps more."],
     [400, 250, "price", "Between $250 and $400 you reach 2TB drives and the first PCIe 5.0 models alongside faster PCIe 4.0 drives.", "PCIe 5.0 drives run hot, so check whether your board's M.2 heatsink or the drive's own heatsink fits."],
   ], "Every drive cost $LO to $N when we checked and is an internal NVMe SSD with a stated capacity and read speed."),
   ...tiers("portable-ssds", "portable SSDs", "Portable SSDs", "storage", ssdOnly, [
-    [100, 0, "price", "Under $100 a portable SSD is usually a 500GB or 1TB drive over a basic USB connection.", "Plug a portable SSD into a port that matches its speed; a slow port limits any drive."],
-    [120, 85, "-read", "Between $85 and $120 you find 1TB drives with a faster stated read speed.", "Look at the cable in the box, since a USB-C to USB-A cable can limit a faster drive."],
-    [150, 0, "-capacity", "Up to $150 portable SSDs add more capacity or rugged builds.", "A rugged rating covers drops and dust, but check the stated height and water rating, not just the word."],
+    [100, 0, "price", "Under $100 a portable SSD is a 500GB or 512GB drive, many of them over a USB 3.2 Gen 2 connection.", "Plug a portable SSD into a port that matches its speed; a slow port limits any drive."],
+    [120, 85, "-read", "Between $85 and $120 portable SSDs mix SanDisk, nusyn, SSK and GARMESE drives, from 500GB up to 1TB.", "Look at the cable in the box, since a USB-C to USB-A cable can limit a faster drive."],
+    [150, 110, "-capacity", "From $110 to $150 portable SSDs are mostly 1TB drives, with a few 500GB drives rated up to 2,000MB/s.", "A rugged rating covers drops and dust, but check the stated height and water rating, not just the word."],
     [250, 150, "price", "From $150 to $250 a portable SSD is usually a 1TB drive with a USB-C connection, so port speed and build matter.", "Match the drive's port to your laptop or console; a faster drive wastes its speed on a slower port."],
   ], "Every drive cost $LO to $N when we checked and is a portable SSD, not a hard drive."),
   ...tiers("ram", "RAM", "RAM", "ram", any, [
@@ -61,7 +61,7 @@ export const PLAN: PlanItem[] = [
     [350, 250, "-boost", "From $250 to $350 you find higher-core-count processors from AMD and Intel.", "Check that your motherboard's BIOS supports the processor before you buy."],
   ], "Every processor cost $LO to $N when we checked and lists its core count and socket."),
   ...tiers("graphics-cards", "graphics cards", "Graphics Cards", "gpu", (f: Fact) => Number(f.specs.vram ?? 0) >= 8, [
-    [350, 220, "price", "From $220 to $350 a graphics card is aimed at 1080p and entry 1440p play, with 8GB or more of video memory.", "Check the card's length and your power supply's connectors before ordering."],
+    [350, 200, "price", "From $200 to $350 a graphics card is aimed at 1080p and entry 1440p play, with 8GB or more of video memory.", "Check the card's length and your power supply's connectors before ordering."],
     [1200, 700, "-vram", "Up to $1,200 you reach high-end cards with 16GB or more of video memory for 1440p and 4K play.", "Check case clearance and power connectors; these cards are large and draw a lot of power."],
   ], "Every card cost $LO to $N when we checked and lists its chip and video memory."),
   ...tiers("gaming-mice", "gaming mice", "Gaming Mice", "gmouse", any, [
@@ -74,7 +74,7 @@ export const PLAN: PlanItem[] = [
   ...tiers("wireless-mice", "wireless mice", "Wireless Mice", "wmouse", wired, [
     [15, 0, "price", "Under $15 a wireless mouse is a basic 2.4GHz or Bluetooth model for everyday work.", "Check whether the mouse uses a USB receiver, Bluetooth or both."],
     [40, 15, "-battery", "From $15 to $40 you find ergonomic, vertical and multi-device mice.", "A vertical mouse changes your wrist position; give it a few days before judging it."],
-    [60, 40, "price", "Between $40 and $60 wireless mice add quieter clicks, multi-device pairing and rechargeable batteries.", "If you switch between a laptop and a PC, check how many devices the mouse stores."],
+    [60, 40, "price", "Between $40 and $60 wireless mice add multi-device Bluetooth pairing, quiet clicks and ergonomic shapes such as a palm cushion or a thumb trackball.", "If you switch between a laptop and a PC, check how many devices the mouse stores."],
   ], "Every mouse cost $LO to $N when we checked and connects without a cable."),
   ...tiers("gaming-keyboards", "gaming keyboards", "Gaming Keyboards", "gkb", any, [
     [25, 0, "price", "Under $25 a gaming keyboard is usually a wired board, either a compact 60% layout or a basic full-size one.", "Check whether the keyboard is mechanical or membrane; the key switch decides the typing feel."],
@@ -92,7 +92,8 @@ export const PLAN: PlanItem[] = [
   ], "Every headset cost $LO to $N when we checked and is an over-ear headset with a microphone."),
   ...tiers("pc-speakers", "PC speakers", "PC Speakers", "speaker", notSingle, [
     [40, 0, "price", "Under $40 PC speakers are small stereo pairs or compact soundbars powered over USB.", "Check how the speakers get power and audio; USB power and a 3.5mm input are the most common."],
-    [50, 0, "-woofer", "Around $50 you find larger drivers and sets with Bluetooth.", "Check whether the speaker has a headphone output if you also use a headset."],
+    [50, 25, "-woofer", "From $25 to $50 you find a 2.1 set with a subwoofer, Bluetooth soundbars and stereo pairs with RGB lighting or passive radiators.", "Check whether the speaker has a headphone output if you also use a headset."],
+    [60, 40, "-peak", "From $40 to $60 PC speakers add larger 2.1 systems with a subwoofer, Bluetooth stereo pairs and gaming soundbars.", "Check the inputs you need; some of these sets take USB power only, while others need a wall outlet for the subwoofer."],
     [75, 50, "-peak", "Between $50 and $75 PC speakers are mostly soundbars and compact stereo pairs.", "Position the speakers at ear height and equal distances for the best stereo effect."],
     [120, 70, "-price", "Up to $120 PC speakers include 2.1 sets with a subwoofer, gaming speakers and entry studio monitors.", "A 2.1 set adds bass, but needs a power outlet for the subwoofer as well."],
     [250, 120, "price", "From $120 to $250 you find studio-style and 2.1 systems with better driver sizes.", "Check the inputs; optical, USB and Bluetooth each suit different setups."],
@@ -104,7 +105,7 @@ export const PLAN: PlanItem[] = [
     [250, 120, "price", "Between $120 and $250 you find big-and-tall, heavy-duty mesh and ergonomic chairs with higher weight ratings.", "Check the warranty; a chair at this price should stand up to daily use for years."],
   ], "Every chair cost $LO to $N when we checked and is a full-size chair for adults."),
   ...tiers("monitors", "monitors", "Monitors", "monitor", notPortable, [
-    [80, 0, "price", "Under $80 a monitor is usually a 24 inch 1080p panel.", "Check the video inputs; many cheap monitors have only HDMI and VGA."],
+    [80, 0, "price", "Under $80 a desktop monitor is a 21.5 to 24 inch 1080p panel, with refresh rates from 75Hz to 180Hz.", "Check the video inputs; many cheap monitors have only HDMI and VGA, and a few lack DisplayPort."],
     [120, 80, "-hz", "Between $80 and $120 you find 1080p gaming monitors with high refresh rates.", "A high refresh rate needs the right cable and port; check DisplayPort or HDMI support."],
     [350, 150, "-size", "From $150 to $350 monitors reach 27 to 34 inch screens, 1440p resolution and ultrawide shapes.", "Check the resolution against your graphics card; 1440p asks more of it than 1080p."],
   ], "Every monitor cost $LO to $N when we checked and lists its size, resolution and refresh rate."),
