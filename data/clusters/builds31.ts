@@ -2,7 +2,7 @@
 export const BUILD_PARTS: Record<string, Record<string, string>> = {
   "best-600-home-office-pc-build": {"cpu":"B0CQ1S3L53","mb":"B0FP3MRTC1","ram":"B0887QSHQC","ssd":"B0DBR9RZLV","psu":"B0CFWQBDXQ","case":"B0G2TCY2JD"},
   "best-750-small-office-compact-pc-build": {"cpu":"B092L9GF5N","mb":"B0H2C1VYZ7","ram":"B086X2SWTT","ssd":"B0BZ5TKCWX","psu":"B0F2TQV194","case":"B0GX5HP57Y"},
-  "best-900-mini-itx-office-pc-build": {"cpu":"B0CQ4JV8D5","mb":"B0CKWVHW69","ram":"B0G7QGPPJH","ssd":"B0DBR9RZLV","psu":"B0FJC6FM1C","case":"B0CT7MDNHH"},
+  "best-900-mini-itx-office-pc-build": {"cpu":"B0CQ4GYTTX","mb":"B0CKWVHW69","ram":"B0GQC6MV6C","ssd":"B0DBR9RZLV","psu":"B0CFWQBDXQ","case":"B0F69PMFL1"},
   "best-850-budget-gaming-pc-build": {"cpu":"B09VCJ171S","mb":"B0BTTZFQTP","ram":"B086X2SWTT","ssd":"B0B9Y24ZM5","gpu":"B0FBX7FB1T","psu":"B0H6NJWPJ8","case":"B0CB26ZFKV"},
   "best-1000-mid-range-gaming-pc-build": {"cpu":"B0CQ1Y7KHV","cooler":"B0BNDTJVPL","mb":"B0FP3MRTC1","ram":"B0887QSHQC","ssd":"B0DBR3DZWG","gpu":"B0FBX7FB1T","psu":"B0GQ1QGCBT","case":"B0GLP7LRHM"},
   "best-1250-quiet-gaming-pc-build": {"cpu":"B09VCHR1VH","cooler":"B07Y88BNYZ","mb":"B0H2C1VYZ7","ram":"B086X2SWTT","ssd":"B0C9213GBX","gpu":"B0CHK2345D","psu":"B0DVJNMCR1","case":"B0DYL7LXMV"},
@@ -19,7 +19,7 @@ export const BUILD_PARTS: Record<string, Record<string, string>> = {
   "best-1250-stock-trading-pc-build": {"cpu":"B09VCHQHZ6","cooler":"B0FHPQBMMD","mb":"B0BTTZFQTP","ram":"B09HRS8JKN","ssd":"B0GJS98B1Q","gpu":"B0DNV4NWF7","psu":"B0FBX9VS3B","case":"B0GXBFF58Z"},
   "best-1000-home-theater-pc-build": {"cpu":"B0CQ4JBKW3","mb":"B0CKWVHW69","ram":"B0GJ81P1YP","ssd":"B0C9HGVJ11","psu":"B0CFWQBDXQ","case":"B0BQJ9TSP3"},
   "best-1250-compact-mini-itx-gaming-pc-build": {"cpu":"B0BMQJWBDM","cooler":"B09TGSCHYV","mb":"B0CKWVHW69","ram":"B0G7QGPPJH","ssd":"B0DBR9RZLV","gpu":"B0CJGSP9R7","psu":"B0FJC6FM1C","case":"B0CT7MDNHH"},
-  "best-1500-high-end-mini-itx-gaming-pc-build": {"cpu":"B0F9XH8DBP","cooler":"B09TGSCHYV","mb":"B0CKWVHW69","ram":"B0G7QGPPJH","ssd":"B0C9HGVJ11","gpu":"B0DNV4NWF7","psu":"B0DJ6DGHCP","case":"B0DFS88R2L"},
+  "best-1500-high-end-mini-itx-gaming-pc-build": {"cpu":"B0F9XH8DBP","cooler":"B09TGSCHYV","mb":"B0CKWVHW69","ram":"B0CS358LZ5","ssd":"B0DC8VPSHV","gpu":"B0DNV4NWF7","psu":"B0DJ6DGHCP","case":"B0DFS88R2L"},
   "best-2000-premium-mini-itx-gaming-pc-build": {"cpu":"B0F9XH8DBP","cooler":"B0BFPRYB5Y","mb":"B0FC9CZTXL","ram":"B0DSVSS2ML","ssd":"B0GJS98B1Q","gpu":"B0CHK3929K","psu":"B0FK3826VH","case":"B0DFS88R2L"},
   "best-3000-extreme-mini-itx-gaming-pc-build": {"cpu":"B0BTZB7F88","cooler":"B0F6M1MR4P","mb":"B0FC9CZTXL","ram":"B0CB78Y7DC","ssd":"B0G2G7P5FC","gpu":"B0DS6V7L5M","psu":"B0FQ6MH33Q","case":"B0DFS88R2L"},
 };

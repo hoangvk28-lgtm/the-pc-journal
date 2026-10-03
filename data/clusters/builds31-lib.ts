@@ -166,7 +166,7 @@ export function checkBuild(b: Build, seed = ""): Check[] {
     add("psu-watts", "Power supply wattage", `${b.psu.short} + ${G}`, w >= rec + PSU_HEADROOM, false, `${w}W unit, ${rec}W recommended for the card.`,
       V(seed, "pw", [
         `The ${G} is ${an(str(b.gpu, "chip"))} ${str(b.gpu, "chip")} card, and its chip maker recommends a ${rec}W system power supply. The ${b.psu.short} is ${w}W, which leaves ${w - rec}W for the processor, drives and fans.`,
-        `For a ${str(b.gpu, "chip")} card the recommended supply is ${rec}W, and the ${b.psu.short} offers ${w}W, a margin of ${w - rec}W above that figure.`,
+        `For ${an(str(b.gpu, "chip"))} ${str(b.gpu, "chip")} card the recommended supply is ${rec}W, and the ${b.psu.short} offers ${w}W, a margin of ${w - rec}W above that figure.`,
         `${rec}W is the system power the ${str(b.gpu, "chip")} maker recommends, so the ${w}W ${b.psu.short} has ${w - rec}W in hand for everything else in the case.`,
       ]));
     const hp = num(b.psu, "hpwr") ?? 0, p8 = num(b.psu, "pcie8");

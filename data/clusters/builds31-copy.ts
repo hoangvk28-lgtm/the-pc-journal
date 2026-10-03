@@ -31,8 +31,8 @@ export const BUILD_COPY: Record<string, BuildCopy> = {
   },
   "best-900-mini-itx-office-pc-build": {
     purpose: "Mini-ITX office PC",
-    lead: "A Mini-ITX office PC trades expansion for size, so its parts list is tighter than a mid-tower's: two memory slots, one graphics slot and a case that takes only an SFX power supply. Every part is on AM5 with DDR5, the Ryzen 5 8500G drives the monitor with its integrated graphics, and the 18.25-litre NR200P V2 takes the SFX unit chosen.",
-    verdict: "it spends on the small case, an SFX supply and DDR5 memory, and skips a graphics card.",
+    lead: "A Mini-ITX office PC trades expansion for size, so its parts list is tighter than a mid-tower's: two memory slots, one graphics slot and a case picked for the supply it takes. Every part is on AM5 with DDR5, the Ryzen 5 8600G drives the monitor with its integrated graphics, and the Thermaltake Tower 250 lists support for an ATX or SFX power supply, so a standard ATX unit fits.",
+    verdict: "it spends on a Mini-ITX board and DDR5 memory, keeps a standard ATX supply and skips a graphics card.",
     close: "DDR5 kits are the volatile price in this build, so check the memory listing again on the day you order, and buy a two-stick kit because the board has two memory slots.",
   },
   "best-850-budget-gaming-pc-build": {

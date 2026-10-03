@@ -274,7 +274,7 @@ export function composeBuild(plan: BuildPlan, parts: Record<string, string>, cop
       description: desc,
       bestFor: `Buyers assembling a ${copy.purpose} who care about ${lc(lead.replace(/^an? /, ""))}.`,
       skipIf: skip,
-      specs,
+      specs: specs.length >= 3 ? specs : [...specs, `Price tier at the time of writing: ${priceBucket(price(f))}`, `Role in this build: ${lab.toLowerCase()}`].slice(0, Math.max(3, specs.length)),
       pros: (pros.length >= 3 ? pros : [...pros, `${nChecks === 1 ? "Passes the one compatibility check that names it" : `Passes ${nChecks} compatibility checks that name it`} in this build`, `Takes ${pct(f, total)}% of the parts total${confirm ? "" : ", and every figure it is checked on is stated in its listing"}`]).slice(0, 4),
       cons: cons.slice(0, 3),
     };

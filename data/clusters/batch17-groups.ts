@@ -34,6 +34,7 @@ import { prebuiltSchema, prebuiltFacts } from "@/data/categories/prebuilt";
 import { caseSchema } from "@/data/categories/cases";
 import { caseExtFacts } from "@/data/categories/cases-ext";
 import { fanSchema, fanFacts } from "@/data/categories/fans";
+import { fans31Facts } from "@/data/categories/fans31";
 import { mic13eFacts } from "@/data/categories/audio13e";
 import { mic16aSchema } from "@/data/categories/misc16a";
 import { stream18Facts } from "@/data/categories/stream18";
@@ -52,6 +53,22 @@ import type { Group } from "./batch17-lib";
 
 /** Fact groups for the batch 17 pipeline: each pairs a schema with the reviewed facts older guides already use. */
 const only = (facts: Record<string, Fact>, keep: (f: Fact) => boolean) => Object.fromEntries(Object.entries(facts).filter(([, f]) => keep(f)));
+
+/** Radiator-fan variant of the case-fan schema: static pressure leads the ranking and carries the rule label. */
+const pressureField = fanSchema.fields.find((f) => f.key === "pressure")!;
+const fanRadSchema: typeof fanSchema = {
+  ...fanSchema, id: "radiator-fan", plural: "Radiator Fans",
+  fields: [
+    { ...pressureField, rule: { label: "Highest Static Pressure", bestFor: ["Dense radiators and fine dust filters.", "Radiators where air has to push through tight fins."] } },
+    ...fanSchema.fields.filter((f) => f.key !== "pressure").map((f) => (f.key === "cfm" ? { ...f, rule: undefined } : f)),
+  ],
+};
+
+/** 140mm variant of the case-fan schema: the shared compatibility text names 140mm mounts instead of 120mm. */
+const fan140Schema: typeof fanSchema = {
+  ...fanSchema, id: "case-fan-140", plural: "140mm Case Fans",
+  compat: (f, all) => fanSchema.compat(f, all).map((s) => s.replace("120mm mounts", "140mm mounts")),
+};
 
 export const GROUPS = {
   gmouse: { schema: mouseSchema, facts: { ...razerWireless16aFacts, ...expand28GamingMouseFacts }, category: "peripherals", noun: "gaming mice", related: ["best-gaming-mouse", "best-wireless-gaming-mice", "best-fps-gaming-mouse"] },
@@ -76,7 +93,9 @@ export const GROUPS = {
   ram: { schema: ramxSchema, facts: ramxFacts, category: "components", noun: "memory kits", related: ["best-ram-for-gaming", "best-ddr5-ram", "best-ddr4-ram"] },
   ssd: { schema: ssdxSchema, facts: { ...ssd18Facts, ...expand28SsdFacts }, category: "components", noun: "SSDs", related: ["best-ssds-for-gaming", "best-ssds", "best-2tb-gen4-ssds"] },
   prebuilt: { schema: prebuiltSchema, facts: prebuiltFacts, category: "pc-builds", noun: "gaming PCs", related: ["best-prebuilt-gaming-pcs", "best-prebuilt-gaming-pcs-under-1000", "best-mini-pcs-for-gaming"] },
-  fan: { schema: fanSchema, facts: fans18Facts, category: "components", noun: "case fans", related: ["best-case-fans", "best-argb-case-fans", "best-pc-cooling-fan"] },
+  fan: { schema: fanSchema, facts: { ...fans18Facts, ...fans31Facts }, category: "components", noun: "case fans", related: ["best-case-fans", "best-argb-case-fans", "best-pc-cooling-fan"] },
+  fan140: { schema: fan140Schema, facts: { ...fans18Facts, ...fans31Facts }, category: "components", noun: "140mm case fans", related: ["best-140mm-pc-fans", "best-case-fans", "best-quiet-pc-case-fans"] },
+  fanrad: { schema: fanRadSchema, facts: { ...fans18Facts, ...fans31Facts }, category: "components", noun: "radiator fans", related: ["best-high-static-pressure-fans", "best-360mm-aio-coolers", "best-case-fans"] },
   pcCase: { schema: caseSchema, facts: { ...cases18Facts, ...cases20Facts, ...expand28CaseFacts }, category: "components", noun: "PC cases", related: ["best-pc-cases", "best-pc-case-for-gaming", "best-white-pc-cases"] },
   mic: { schema: mic16aSchema, facts: mic13eFacts, category: "peripherals", noun: "microphones", related: ["best-microphone-for-gaming", "best-usb-microphones", "best-xlr-microphones"] },
   air: { schema: airSchema, facts: { ...airFacts, ...air20Facts }, category: "components", noun: "air coolers", related: ["best-air-coolers", "best-cpu-coolers", "best-low-profile-cpu-coolers"] },

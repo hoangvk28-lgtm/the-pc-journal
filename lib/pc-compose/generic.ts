@@ -290,7 +290,7 @@ function skipLine(con: string, seed: string): string {
   if ((m = con.match(/^Costs more than the (.+) at the time of writing$/i))) return pick([`Skip it if price comes first: the ${m[1]} cost less when we checked.`, `If budget leads, the ${m[1]} was cheaper at our last price check.`, `Price-first buyers should look at the ${m[1]}, which cost less when we checked.`], seed + "skipp");
   if ((m = con.match(/^(.+?) trails the (.+) \((.+)\)$/i))) return `Skip it if ${lc(m[1])} matters most to you; the ${m[2]} offers ${m[3]}.`;
   const c = con.charAt(0).toLowerCase() + con.slice(1);
-  return pick([`Skip it if this is a deal-breaker for you: ${c}.`, `Choose another pick if you can't accept this: ${c}.`, `Pass on it if ${c.replace(/.$/, "")} rules it out for your setup.`, `Look at the others if this bothers you: ${c}.`, `Worth skipping when ${c.replace(/.$/, "")} is a problem.`], seed + "skip");
+  return pick([`Skip it if this is a deal-breaker for you: ${c}.`, `Choose another pick if you can't accept this: ${c}.`, `Pass on it if ${c.replace(/\.$/, "")} rules it out for your setup.`, `Look at the others if this bothers you: ${c}.`, `Worth skipping when ${c.replace(/\.$/, "")} is a problem.`], seed + "skip");
 }
 
 /**

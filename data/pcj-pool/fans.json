@@ -12,10 +12,12 @@
       "SMOOTH-RUNNING FLUID DYNAMIC BEARING (FDB): The self-lubricating bearing minimizes noise during operation – ideal for quiet, efficient cooling and a long, reliable service life",
       "NEW FAN BLADE DESIGN FOR MORE PERFORMANCE: The redesigned rotor blades offer an optimal balance of performance and low noise – especially efficient at low speeds"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Arctic P12 PWM PST case fan 5 pack",
-      "Phanteks T30-120"
+      "Phanteks T30-120",
+      "Phanteks T30-120 fan",
+      "ARCTIC P12 Max"
     ]
   },
   "B07HC782D5": {
@@ -31,10 +33,12 @@
       "EXTENDED LIFE SPAN: A 10 °C lower motor temperature roughly doubles the life span of a fan, the new ARCTIC motor has a four times longer service life through its low coil temperature",
       "TECHNICAL DATA: 5 Pack, Fan speed: 200–1800 rpm (0 rpm <5 %), Airflow: 56.30 cfm | 95.65 m³/h, Noise Level: 0.3 Sone, Static pressure: 2.20 mmH₂O, Pin: 4-pin"
     ],
-    "fetchedAt": "2026-09-27",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Arctic P12 PWM PST case fan 5 pack",
-      "quiet PC case fan 120mm"
+      "quiet PC case fan 120mm",
+      "ARCTIC P14 PWM PST 5 pack",
+      "ARCTIC P12 Max"
     ]
   },
   "B07HC7P3HJ": {
@@ -50,10 +54,11 @@
       "LONG SERVICE LIFE: The Fluid Dynamic Bearing comes with an oil capsule that avoids lubricant leakage, thus this bearing is as quiet as a sleeve bearing but comes with a higher service life",
       "TECHNICAL DATA: 5 Pack, Fan speed: 1800 rpm, Airflow: 56.3 cfm | 95.7 m³/h, Noise Level: 0.3 Sone, Static Pressure: 2.2 mmH₂O, Pin: 3-pin"
     ],
-    "fetchedAt": "2026-09-27",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Arctic P12 PWM PST case fan 5 pack",
-      "quiet PC case fan 120mm"
+      "quiet PC case fan 120mm",
+      "DEEPCOOL FK120"
     ]
   },
   "B07GJGF56L": {
@@ -141,11 +146,12 @@
       "4-pin PWM version for automatic speed control via 4-pin PWM motherboard fan headers, 450-2000rpm speed range (near silent at idle, powerful under load)",
       "chromax.black.swap edition with swappable red, black, white, blue, yellow, grey and green anti-vibration pads for colour-customising (4 pads of each colour plus black anti-vibration gasket)"
     ],
-    "fetchedAt": "2026-09-27",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Noctua NF-A12x25 PWM",
       "Phanteks T30-120",
-      "Noctua NF-A12x25"
+      "Noctua NF-A12x25",
+      "Noctua NF-A12x25 PWM chromax"
     ]
   },
   "B07C5VG64V": {
@@ -161,11 +167,13 @@
       "4-pin PWM version for automatic speed control via 4-pin PWM fan headers, 2000rpm maximum speed (1700rpm with supplied Low-Noise Adaptor)",
       "Includes anti-vibration mounts, radiator gasket, fan screws, extension cable and y-cable for running two PWM fans on the same header"
     ],
-    "fetchedAt": "2026-09-27",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Noctua NF-A12x25 PWM",
       "Phanteks T30-120",
-      "Noctua NF-A12x25"
+      "Noctua NF-A12x25",
+      "Phanteks T30-120 fan",
+      "Noctua NF-A12x25 PWM chromax"
     ]
   },
   "B0GWJ8TN5N": {
@@ -181,10 +189,12 @@
       "All-black chromax version with black anti-vibration mounts; 12cm anti-vibration gasket for tighter seal on radiators, fan screws, Low-Noise Adaptor (LNA), extension cable and splitter cable included",
       "Trusted Noctua quality with premium-grade SSO2 bearing (MTTF > 150,000 h), safety certifications from UL and TÜV, protected against reverse polarity, overvoltage and overcurrent (short-circuits)"
     ],
-    "fetchedAt": "2026-09-27",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Noctua NF-A12x25 PWM",
-      "Noctua NF-A12x25"
+      "Noctua NF-A12x25",
+      "Phanteks M25-120 fan",
+      "Noctua NF-A12x25 PWM chromax"
     ]
   },
   "B0FC67L17G": {
@@ -200,10 +210,11 @@
       "Ideal choice for push-pull applications as well as situations where two or more fans are operating side by side (240 or 360mm water cooling radiators, case intake or exhaust fans, etc.)",
       "Trusted Noctua quality with premium-grade SSO2 bearing (MTTF > 150,000 h), safety certifications from UL and TÜV, protected against reverse polarity, over voltage and over current (short-circuits)"
     ],
-    "fetchedAt": "2026-09-27",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Noctua NF-A12x25 PWM",
-      "Noctua NF-A12x25"
+      "Noctua NF-A12x25",
+      "Noctua NF-A12x25 PWM chromax"
     ]
   },
   "B0FC636JBS": {
@@ -219,10 +230,11 @@
       "Includes anti-vibration mounts, 12cm anti-vibration gasket for tighter seal on radiators, fan screws, Low-Noise Adaptor, extension cable and splitter cable for running two PWM fans on one Header",
       "Trusted Noctua quality with premium-grade SSO2 bearing (MTTF > 150,000 h), safety certifications from UL and TÜV, protected against reverse polarity, over voltage and over current (short-circuits)"
     ],
-    "fetchedAt": "2026-09-27",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Noctua NF-A12x25 PWM",
-      "Noctua NF-A12x25"
+      "Noctua NF-A12x25",
+      "Noctua NF-A12x25 PWM chromax"
     ]
   },
   "B0GWJ5JB61": {
@@ -238,10 +250,11 @@
       "4-pin PWM version for automatic speed control via 4-pin PWM motherboard fan headers, 360-1800rpm speed range (near-silent at idle, powerful under load), fan stops at 0% PWM (semi-passive option)",
       "Trusted Noctua quality with premium-grade SSO2 bearing (MTTF > 150,000 h), safety certifications from UL and TÜV, protected against reverse polarity, overvoltage and overcurrent (short-circuits)"
     ],
-    "fetchedAt": "2026-09-27",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Noctua NF-A12x25 PWM",
-      "Noctua NF-A12x25"
+      "Noctua NF-A12x25",
+      "Noctua NF-A12x25 PWM chromax"
     ]
   },
   "B07CG2PGY6": {
@@ -257,12 +270,17 @@
       "1700rpm 4-pin PWM version with excellent balance of performance and quietness, supports automatic motherboard speed control (powerful airflow when required, virtually silent at idle)",
       "Streamlined redux edition: proven Noctua quality at an attractive price point, wide range of optional accessories (anti-vibration mounts, S-ATA adaptors, y-splitters, extension cables, etc.)"
     ],
-    "fetchedAt": "2026-09-27",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Noctua NF-A12x25 PWM",
       "Phanteks T30-120",
       "quiet PC case fan 120mm",
-      "Noctua NF-A12x25"
+      "Noctua NF-A12x25",
+      "Corsair AF120 Elite",
+      "Phanteks T30-120 fan",
+      "Phanteks M25-120 fan",
+      "DEEPCOOL FK120",
+      "Noctua NF-P12 redux-1300"
     ]
   },
   "B00KFCRATC": {
@@ -278,10 +296,11 @@
       "High-speed industrialPPC version for industrial heavy-duty applications that require extreme cooling performance and advanced ingress protection",
       "Ruggedised fibre-glass reinforced polyamide construction and IP52 certified water and dust protection"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Noctua NF-A12x25 PWM",
-      "Phanteks T30-120"
+      "Phanteks T30-120",
+      "radiator fan high static pressure 120mm"
     ]
   },
   "B092DNHCGT": {
@@ -333,9 +352,10 @@
       "The key for virtually inaudible operation when needed 6-pole fan motor with 3 phases for very low power consumption, less vibration and therefore quiet max. operation of 31.2dB(A). Equipped with this state-of-the-art technology the fan is virtually inaudible when operated in mid-speed.",
       "The advanced fluid-dynamic bearing (FDB) enables a super long fan life of up to 300,000 hours. In addition, it reduces the vibrations significantly and supports the virtually inaudible operation of Silent Wings 4 120mm PWM high-speed."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "be quiet Silent Wings 4 120mm"
+      "be quiet Silent Wings 4 120mm",
+      "be quiet! Silent Wings 4 120mm PWM"
     ]
   },
   "B0B6WPS232": {
@@ -351,9 +371,10 @@
       "6-pole fan motor and fluid-dynamic bearing for less vibration and very smooth operations",
       "Anti-vibration mounting with push pins and screwed installation option"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "be quiet Silent Wings 4 120mm"
+      "be quiet Silent Wings 4 120mm",
+      "be quiet! Silent Wings 4 120mm PWM"
     ]
   },
   "B0B746VB2F": {
@@ -369,10 +390,13 @@
       "Virtually inaudible operation at regular speed",
       "6-pole fan motor and fluid-dynamic bearing for less vibration and very smooth operations"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "be quiet Silent Wings 4 120mm",
-      "Phanteks T30-120"
+      "Phanteks T30-120",
+      "be quiet! Silent Wings 4 120mm PWM",
+      "be quiet! Silent Wings Pro 4 140mm",
+      "DEEPCOOL FK120"
     ]
   },
   "B0CYCP1PV6": {
@@ -388,9 +412,11 @@
       "6-pole fan motor and fluid-dynamic bearing for less vibration and very smooth operations. Individual mounting systems for use as a case fan or with a radiator.",
       "5-year manufacturer warranty"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "be quiet Silent Wings 4 120mm"
+      "be quiet Silent Wings 4 120mm",
+      "be quiet! Silent Wings 4 120mm PWM",
+      "be quiet! Silent Wings Pro 4 140mm"
     ]
   },
   "B09M8H87ZS": {
@@ -442,10 +468,12 @@
       "LONG BEARING LIFE: Long life rifle bearing gives an operating lifetime of 80,000 hours",
       "German Design | German Engineering | German Quality | German Performance"
     ],
-    "fetchedAt": "2026-09-27",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "be quiet Silent Wings 4 120mm",
-      "quiet PC case fan 120mm"
+      "quiet PC case fan 120mm",
+      "be quiet! Silent Wings 4 120mm PWM",
+      "be quiet! Pure Wings 3 120mm PWM"
     ]
   },
   "B0CM3Z39J3": {
@@ -461,9 +489,11 @@
       "LONG BEARING LIFE: Long life rifle bearing gives an operating lifetime of 80,000 hours",
       "German Design | German Engineering | German Quality | German Performance"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "be quiet Silent Wings 4 120mm"
+      "be quiet Silent Wings 4 120mm",
+      "be quiet! Silent Wings 4 120mm PWM",
+      "be quiet! Pure Wings 3 120mm PWM"
     ]
   },
   "B0B74CP6X2": {
@@ -479,9 +509,11 @@
       "Virtually inaudible operation at regular speed",
       "6-pole fan motor and fluid-dynamic bearing for less vibration and very smooth operations"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "be quiet Silent Wings 4 120mm"
+      "be quiet Silent Wings 4 120mm",
+      "be quiet! Silent Wings 4 120mm PWM",
+      "be quiet! Silent Wings Pro 4 140mm"
     ]
   },
   "B0FQ293XFQ": {
@@ -497,9 +529,11 @@
       "【Silent Fan Size】 Model: TL-C12C-S X3, Size: 120*120*25mm, Speed: 1550RPM±10%, Noise ≤ 25.6dBA Connector: 4pin pwm, Current: 0.20A, Air Pressure: 1.53mm H2O, Air Flow: 66.17CFM, Higher air flow for improved cooling performance.",
       "【Quality Bearings】The carefully developed quality S-FDB bearings solve the problem of pc cooling fan blade shaking in lifting mode, keeping fan noise to a minimum while providing maximum cooling performance when needed and extending the life of the fan."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Thermalright TL-C12C ARGB fan"
+      "Thermalright TL-C12C ARGB fan",
+      "Cooler Master SickleFlow 120 ARGB",
+      "Thermalright TL-C12C X3"
     ]
   },
   "B0BRPMTPBK": {
@@ -515,9 +549,10 @@
       "【Silent Fan Size】 Model: TL-C12C-S, Size: 120*120*25mm, Speed: 1500RPM±10%, Noise ≤ 25.6dBA Connector: 4pin pwm, Current: 0.20A, Air Pressure: 1.53mm H2O, Air Flow: 66.17CFM, Higher air flow for improved cooling performance.",
       "Perfect Match】The PC fan can be used not only as a case fan, but is also suitable for use with a cpu cooler to create a cooling effect together, which can take away the dry heat from the case and the high temperature generated by the CPU in operation, allowing for maximum cooling; Ideal for cases, radiators and CPU coolers."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Thermalright TL-C12C ARGB fan"
+      "Thermalright TL-C12C ARGB fan",
+      "ID-COOLING XF-120 fan"
     ]
   },
   "B0D9M4TV4Q": {
@@ -591,9 +626,10 @@
       "【Silent Fan Size】 Model: TL-C12C-S X3, Size: 120*120*25mm, Speed: 1550RPM±10%, Noise ≤ 25.6dBA Connector: 4pin pwm, Current: 0.20A, Air Pressure: 1.53mm H2O, Air Flow: 66.17CFM, Higher air flow for improved cooling performance.",
       "【Silent Fan Size】 Model: TL-C12C-S X3, Size: 120*120*25mm, Speed: 1550RPM±10%, Noise ≤ 25.6dBA Connector: 4pin pwm, Current: 0.20A, Air Pressure: 1.53mm H2O, Air Flow: 66.17CFM, Higher air flow for improved cooling performance."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Thermalright TL-C12C ARGB fan"
+      "Thermalright TL-C12C ARGB fan",
+      "Thermalright TL-C12C X3"
     ]
   },
   "B0BKKG1ZND": {
@@ -609,10 +645,12 @@
       "【Silent Fan Size】 Model: TL-C12C-S X3, Size: 120*120*25mm, Speed: 1550RPM±10%, Noise ≤ 25.6dBA Connector: 4pin pwm, Current: 0.20A, Air Pressure: 1.53mm H2O, Air Flow: 66.17CFM, Higher air flow for improved cooling performance.",
       "【Silent Fan Size】 Model: TL-C12C-S X3, Size: 120*120*25mm, Speed: 1550RPM±10%, Noise ≤ 25.6dBA Connector: 4pin pwm, Current: 0.20A, Air Pressure: 1.53mm H2O, Air Flow: 66.17CFM, Higher air flow for improved cooling performance."
     ],
-    "fetchedAt": "2026-09-27",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Thermalright TL-C12C ARGB fan",
-      "quiet PC case fan 120mm"
+      "quiet PC case fan 120mm",
+      "Thermalright TL-C12C X3",
+      "DEEPCOOL FK120"
     ]
   },
   "B0BKK2MBWG": {
@@ -684,7 +722,7 @@
       "Smoother side lighting for a better aesthetic.",
       "Only one cable is required for each fan cluster when using the provided new UNI HUB to control lighting effects via L-Connect 3."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Lian Li UNI FAN SL120 V2"
     ]
@@ -703,7 +741,7 @@
       "Easy Installation: UNIFAN interlocking system for ease of cable management. As well as, the slide-in daisy-chaining mechanism for easy configuration and holding the fans securely in place",
       "High Resolution LCD Display: Features a 1.6 inch LCD screen with 400x400 resolution that displays real-time system information, custom images, and animations for enhanced visual monitoring and personalization"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Lian Li UNI FAN SL120 V2"
     ]
@@ -712,7 +750,7 @@
     "asin": "B0B4P5S94P",
     "title": "Lian Li UNI Fan SL-Infinity 120mm SLIN120 Triple Pack Black with Controller",
     "brand": "Lian Li",
-    "price": "$79.88",
+    "price": "$69.99",
     "img": "https://m.media-amazon.com/images/I/31oX78W1HOL._SL500_.jpg",
     "features": [
       "Infinity Mirror Design: An all-around infinity mirror design creates a multi-layer effect visible from any angle emphasizing the 40 LEDs in each fan",
@@ -721,7 +759,7 @@
       "Enhanced Radiator Compatibility: The removable keylock and reversible cable module allows for improved compatibility with radiator fittings",
       "Customizable Lighting Effects: The fan blades and the fan frame inner edges can be customized with individual lighting modes or choose from the pre-set combined lighting effects options"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Lian Li UNI FAN SL120 V2"
     ]
@@ -740,7 +778,7 @@
       "The fan blades and the fan frame inner edges can be customized with individual lighting modes or choose from the pre-set combined lighting effects options. Embedded magnetic Fluid Dynamic Bearing provides stability, durability, and longevity.",
       "Features a start/ stop mode to completely stop the fan when the CPU or GPU is running below the system's set temperature"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Lian Li UNI FAN SL120 V2"
     ]
@@ -790,9 +828,10 @@
       "The updated LCD FLEX and LED FLEX Receivers offer enhanced control options, enabling users to manage fan speed via PWM or L-Connect 3 while retaining essential LCD functions through a wireless connection.",
       "ARGB Lighting Control: 5V 3-Pin ARGB Control Mode allows users to manage fan lighting via motherboard software while controlling fan speed through PWM or wireless options."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Lian Li UNI FAN SL120 V2"
+      "Lian Li UNI FAN SL120 V2",
+      "Lian Li UNI FAN TL 120"
     ]
   },
   "B0B4SJVQKY": {
@@ -826,7 +865,7 @@
       "The updated LCD FLEX and LED FLEX Receivers offer enhanced control options, enabling users to manage fan speed via PWM or L-Connect 3 while retaining essential LCD functions through a wireless connection.",
       "Support flexible control options, allowing users to choose between motherboard PWM or L-Connect 3 control while maintaining wireless functionality and simplified cable management."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Lian Li UNI FAN SL120 V2"
     ]
@@ -835,16 +874,16 @@
     "asin": "B09B2LNFV4",
     "title": "Phanteks T30 Premium High-Performance PWM Fan, LCP Frame & Blades, 3-Mode Speed Switch, Black/Grey",
     "brand": "Phanteks",
-    "price": "$29.99",
     "img": "https://m.media-amazon.com/images/I/410oIteMQbL._SL500_.jpg",
     "features": [
       "Reinforced Liquid Crystal Polymer (LCP) materials making it extremely rigid and durable.",
       "Easy and accessible switch to change fan profiles for silent, balanced or extreme performance operation: Hybrid Mode, Performance Mode, Advanced Mode",
       "Optimized acoustic performance with lower frequency range"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Phanteks T30-120"
+      "Phanteks T30-120",
+      "Phanteks T30-120 fan"
     ]
   },
   "B0FPVJYRNZ": {
@@ -878,9 +917,10 @@
       "【Intelligent Temperature Control Function】The fan has PWM temperature control function, after connecting the 4-pin power supply interface to the motherboard, there is no need to manually adjust the speed, the fan will automatically set the unfixed speed according to the temperature, if you want a fixed speed, you can adjust the fan to DC mode.",
       "【Perfect Match】The PC fan can be used not only as a case fan, but is also suitable for use with a cpu cooler to create a cooling effect together, which can take away the dry heat from the case and the high temperature generated by the CPU in operation, allowing for maximum cooling; Ideal for cases, radiators and CPU coolers."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Phanteks T30-120"
+      "Phanteks T30-120",
+      "Thermalright TL-C12C X3"
     ]
   },
   "B0D49Q4CGM": {
@@ -896,9 +936,12 @@
       "CORSAIR AirGuide Technology: Anti-vortex vanes direct airflow at your hottest components for concentrated cooling, pushing air in the direction you need when mounted to a radiator or heatsink.",
       "High Static Pressure: RS fans work well as radiator fans with a static pressure of 2.8mm-H2O to push through obstructions."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Corsair RS120 ARGB fan 3 pack"
+      "Corsair RS120 ARGB fan 3 pack",
+      "Corsair AF120 Elite",
+      "Cooler Master SickleFlow 120 ARGB",
+      "DEEPCOOL FK120"
     ]
   },
   "B0D49PNMBD": {
@@ -932,9 +975,10 @@
       "Precise PWM Performance – Set your fan speeds up to 2,100 RPM while providing up to 65.8 CFM airflow to your system. Set the fan speeds lower when you need them to run quietly, or faster when you need to shift a lot of air.",
       "High Static Pressure – RS-R ARGB fans work well cooling radiators with a static pressure of 2.81 mm H2O to push through obstructions."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Corsair RS120 ARGB fan 3 pack"
+      "Corsair RS120 ARGB fan 3 pack",
+      "Corsair AF120 Elite"
     ]
   },
   "B0D49P43QP": {
@@ -950,9 +994,13 @@
       "CORSAIR AirGuide Technology: Anti-vortex vanes direct airflow at your hottest components for concentrated cooling, pushing air in the direction you need when mounted to a radiator or heatsink.",
       "High Static Pressure: RS fans work well as radiator fans with a static pressure of 2.8mm-H2O to push through obstructions."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Corsair RS120 ARGB fan 3 pack"
+      "Corsair RS120 ARGB fan 3 pack",
+      "Corsair AF120 Elite",
+      "Cooler Master SickleFlow 120 ARGB",
+      "ID-COOLING XF-120 fan",
+      "DEEPCOOL FK120"
     ]
   },
   "B0F8QXB9DG": {
@@ -1004,9 +1052,10 @@
       "High Static Pressure: RS fans work well as radiator fans with a static pressure of 4.15mm-H2O to push through obstructions.",
       "Quiet Operation with Magnetic Dome Bearing: CORSAIR’s Magnetic Dome bearing minimises noise and reduces friction for greater longevity."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Corsair RS120 ARGB fan 3 pack"
+      "Corsair RS120 ARGB fan 3 pack",
+      "Corsair AF120 Elite"
     ]
   },
   "B0C9BT8B3V": {
@@ -1022,16 +1071,18 @@
       "【Silent Fan Size】 Model: TL-S12-S X3;Size: 120*120*25mm; Speed: 1500RPM±10%; Noise ≤ 23.2dBA; Connector: 4pin pwm; Current: 0.15A; Air Pressure: 1.31mm H2O, Air Flow: 47.6CFM; Higher air flow for improved cooling performance.",
       "【Perfect Match】The PC fan can be used not only as a case fan, but is also suitable for use with a cpu cooler to create a cooling effect together, which can take away the dry heat from the case and the high temperature generated by the CPU in operation, allowing for maximum cooling; Ideal for cases, liquide cooler and CPU air coolers."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Corsair RS120 ARGB fan 3 pack"
+      "Corsair RS120 ARGB fan 3 pack",
+      "ID-COOLING XF-120 fan",
+      "Thermalright TL-S12 fan"
     ]
   },
   "B0CCQ8PQB8": {
     "asin": "B0CCQ8PQB8",
     "title": "Thermaltake SWAFAN EX 12 ARGB PC Cooling Fan, 3-Fan pcak, 500~2000 RPM, Magnetic Connection, Reversable Blades, sync with MB RGB Software, CL-F167-PL12SW-A",
     "brand": "Thermaltake",
-    "price": "$69.99",
+    "price": "$69.94",
     "img": "https://m.media-amazon.com/images/I/41fMVKNkdqL._SL500_.jpg",
     "features": [
       "Swappable Fan Blade Design and Neodymium Magnetic Connection",
@@ -1040,9 +1091,10 @@
       "Includes: 3 120mm PWM Fans, 3 Reversable Blades, 3 Mag-cables and accessories",
       "ARGB lighinting effects controlled by Motherboard Sync software"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Corsair RS120 ARGB fan 3 pack"
+      "Corsair RS120 ARGB fan 3 pack",
+      "Thermaltake Toughfan 12 Pro"
     ]
   },
   "B0DGL2TGRM": {
@@ -1076,9 +1128,10 @@
       "Simple Installation: This computer fan's size is 120 mm and is compatible with all types of cases, making it easy to install. You can do it even if you have no installation experience",
       "Good Insulation and Heat Resistance: Case fan uses PBT environmental protection material, with good insulation and heat resistance, tough and durable quality"
     ],
-    "fetchedAt": "2026-09-27",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "quiet PC case fan 120mm"
+      "quiet PC case fan 120mm",
+      "DEEPCOOL FK120"
     ]
   },
   "B0D1RK8Q43": {
@@ -1184,9 +1237,10 @@
       "High Static Pressure: RS fans work well as radiator fans with a static pressure of 3.46mm-H2O to push through obstructions.",
       "Quiet Operation with Magnetic Dome Bearing: CORSAIR’s Magnetic Dome bearing minimises noise and reduces friction for greater longevity."
     ],
-    "fetchedAt": "2026-09-27",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "140mm PC case fan"
+      "140mm PC case fan",
+      "Corsair AF140 Elite"
     ]
   },
   "B0BSLKR3LH": {
@@ -1369,6 +1423,1856 @@
     "fetchedAt": "2026-09-27",
     "queries": [
       "Noctua NF-A14"
+    ]
+  },
+  "B0B744J87R": {
+    "asin": "B0B744J87R",
+    "title": "be quiet! Silent Wings 4 140mm PWM FDB High-Speed Gaming PC Case Fan, Black",
+    "brand": "be quiet!",
+    "price": "$24.90",
+    "img": "https://m.media-amazon.com/images/I/41NjYz4szNL._SL500_.jpg",
+    "features": [
+      "Silent Wings 4 140mm PWM high-speed is the fan of choice for all possible operations. Be it in a case, on radiators or heat sinks – Features like the silence-optimized fan blades and the funnel shaped fan frame make Silent Wings 4 140mm PWM high-speed a fan that makes no compromises between very quiet operation and highest performance.",
+      "Silent Wings 4 140mm PWM high-speed makes for extraordinary air pressure and, therefore, significant increases in the system’s performance. The decreased distance between the fan blades and the frame makes it possible. By that, the Silent Wings 4 140mm PWM high-speed allows the user to run even the most demanding applications.",
+      "Silent Wings 4 140mm PWM high-speed has 2 mounting options in the scope of delivery. The pre-installed anti-vibration mounting reduces noise-generating vibrations to a minimum. For radiators and heat sinks, the plastic mounting is the first choice. Both solutions have in common that they enable virtually inaudible operation at regular speed.",
+      "The key for virtually inaudible operation when needed 6-pole fan motor with 3 phases for very low power consumption, less vibration and therefore quiet max. operation of 29.3dB(A). Equipped with this state-of-the-art technology the fan is virtually inaudible when operated in mid-speed.",
+      "The advanced fluid-dynamic bearing (FDB) enables a super long fan life of up to 300,000 hours. In addition, it reduces the vibrations significantly and supports the virtually inaudible operation of Silent Wings 4 140mm PWM high-speed."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "be quiet! Silent Wings 4 120mm PWM",
+      "be quiet! Silent Wings Pro 4 140mm"
+    ]
+  },
+  "B0FV39D24F": {
+    "asin": "B0FV39D24F",
+    "title": "be quiet! Pure Wings 3 120mm PWM Reverse Triple Pack, 3 Included Case Fans",
+    "brand": "be quiet!",
+    "price": "$32.90",
+    "img": "https://m.media-amazon.com/images/I/41G2uxBSc3L._SL500_.jpg",
+    "features": [
+      "With optimization for maximum airflow, Pure Wings 3 120mm PWM Reverse Triple Pack is the right choice for any case configuration that demands high cooling performance. Its 7 airflow-optimized fan blades not only reduce noise-generating turbulences but also ensure Pure Wings 3 120mm PWM Reverse Triple Pack provides the performance that is needed, even in demanding configurations.",
+      "Pure Wings 3 120mm PWM Reverse Triple Pack is perfect as intake fan for spaces that are in the center of attention, for example as a side or bottom air intake of a fishtank-style PC case. With its reversed fan blades, you always keep the front of these sleek fans in your view.",
+      "Pure Wings 3 120mm PWM Reverse Triple Pack trims all the fat. Every part and single detail contribute to the functionality and uncompromising performance. This has also been considered in the design of the fan. All outlines and angles serve a purpose, making Pure Wings 3 120mm PWM Reverse Triple Pack a timeless classic and elegant addition to every gaming PC, especially in show cases like the Light Base series as a side or bottom intake.",
+      "Pure Wings 3 120mm PWM Reverse Triple Pack is built to last. With the proven rifle bearing technology, on average, this fan offers a lifespan of 80,000 hours."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "be quiet! Pure Wings 3 120mm PWM"
+    ]
+  },
+  "B0FV3BHCM1": {
+    "asin": "B0FV3BHCM1",
+    "title": "be quiet! Pure Wings 3 120mm Black PWM High-Speed, 3 Included Case Fans",
+    "brand": "be quiet!",
+    "price": "$32.90",
+    "img": "https://m.media-amazon.com/images/I/41+naT3+RyL._SL500_.jpg",
+    "features": [
+      "Pure Wings 3 120mm PWM high-speed features a closed loop motor. This technology is comparable with cruise control in cars. When working against resistance, for example a fan grill or radiator, fans spin slower as a result. The closed loop motor technology constantly monitors the current fan speed and increases it to the target rpm, if necessary. As a result, Pure Wings 3 120mm PWM high-speed always operates at the desired speed, no matter the resistance.",
+      "The fan frame outlet is newly designed to minimize air leaks. This benefits especially the radiator performance of Pure Wings 3 120mm PWM high-speed. To reach even higher performance, the fan blades are optimized as well: Their angle is adjusted to achieve even more air pressure, adding up to the extraordinary performance of Pure Wings 3 120mm PWM high-speed.",
+      "With a remarkably high air pressure of up to 2.41mm/H2O, Pure Wings 3 120mm PWM high-speed is the best choice for water-cooled and air-cooled systems alike. The 9 airflow-optimized fan blades provide enough air pressure to make this fan work great even in demanding configurations.",
+      "Pure Wings 3 120mm PWM high-speed trims all the fat. Every part and single detail contribute to the functionality and uncompromising performance. This has also been considered in the design of the fan. All outlines and angles serve a purpose, making Pure Wings 3 120mm PWM high-speed a timeless classic and elegant addition to every gaming PC.",
+      "Pure Wings 3 120mm PWM high-speed is built to last. With the proven rifle bearing technology, on average, this fan offers a lifespan of 80,000 hours."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "be quiet! Pure Wings 3 120mm PWM"
+    ]
+  },
+  "B0FV3B5K8B": {
+    "asin": "B0FV3B5K8B",
+    "title": "be quiet! Pure Wings 3 120mm Black PWM Triple Pack, 3 Included Case Fans",
+    "brand": "be quiet!",
+    "price": "$32.90",
+    "img": "https://m.media-amazon.com/images/I/41KpkpKd-FL._SL500_.jpg",
+    "features": [
+      "The fan frame outlet is newly designed to minimize air leaks. This benefits especially the radiator performance of Pure Wings 3 120mm PWM. To reach even higher performance, the fan blades are optimized as well: Their angle is adjusted to achieve even more air pressure, adding up to the extraordinary performance of Pure Wings 3 120mm PWM.",
+      "With optimization for maximum airflow, Pure Wings 3 120mm PWM is the right choice for any case configuration that demands high cooling performance. Its 7 airflow-optimized fan blades not only reduce noise-generating turbulence but also ensure Pure Wings 3 120mm PWM provides the performance that is needed, even in demanding configurations.",
+      "Pure Wings 3 120mm PWM trims all the fat. Every part and single detail contributes to the functionality and uncompromising performance. This has also been considered in the design of the fan. All outlines and angles serve a purpose, making Pure Wings 3 120mm PWM a timeless classic and elegant addition to every gaming PC.",
+      "Pure Wings 3 120mm PWM is built to last. With the proven rifle bearing technology, on average, this fan offers a lifespan of 80,000 hours."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "be quiet! Pure Wings 3 120mm PWM"
+    ]
+  },
+  "B0CRZGDJN3": {
+    "asin": "B0CRZGDJN3",
+    "title": "be quiet! Pure Wings 3 120mm PWM White Case Fan, High Top-End Speed",
+    "brand": "be quiet!",
+    "price": "$13.90",
+    "img": "https://m.media-amazon.com/images/I/41qRew8ZEXL._SL500_.jpg",
+    "features": [
+      "A redesigned outlet on the fan frame minimizes air leaks. This is particularly noticeable when using the Pure Wings 3 120mm PWM White on radiators. The fan blades are also optimized to achieve even higher performance: their angle is adjusted for even more air pressure. Pure Wings 3 120 mm PWM White is capable of exceptional performance.",
+      "Optimized for maximum airflow, Pure Wings 3 120mm PWM White is the right choice for any case configuration that requires high cooling performance. Its 7 fan blades optimized for air flow not only reduce noise causing turbulence. They also ensure that Pure Wings 3 120mm PWM White delivers the required performance in demanding configurations.",
+      "Pure Wings 3 120 mm PWM White dispenses with all unnecessary. Every single detail contributes to functionality and uncompromising performance. This is also taken into account when designing the fan. All contours and angles serve a purpose, making Pure Wings 3 120mm PWM White a timeless classic and an elegant addition to any gaming PC.",
+      "Pure Wings 3 120 mm PWM White is designed for a long service life. Featuring proven Rifle bearing technology, this fan offers an average lifespan of 80,000 hours."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "be quiet! Pure Wings 3 120mm PWM"
+    ]
+  },
+  "B0FV3CLQVS": {
+    "asin": "B0FV3CLQVS",
+    "title": "be quiet! Pure Wings 3 140mm PWM Black High-Speed PC Case Fan, Triple Pack",
+    "brand": "be quiet!",
+    "price": "$34.90",
+    "img": "https://m.media-amazon.com/images/I/41XWk1WnD4L._SL500_.jpg",
+    "features": [
+      "Pure Wings 3 140mm PWM high-speed features a closed loop motor. This technology is comparable with the cruise control in cars. When working against resistance, for example a fan grill or radiator, fans spin slower as a result. The closed loop motor technology constantly monitors the current fan speed and increases it to the target rpm, if necessary. As a result, Pure Wings 3 140mm PWM high-speed always operates at the desired speed, no matter the resistance.",
+      "The fan frame outlet is newly designed to minimize air leaks. This benefits especially the radiator performance of Pure Wings 3 140mm PWM high-speed. To reach even higher performance, the fan blades are optimized as well: Their angle is adjusted to achieve even more air pressure, adding up to the extraordinary performance of Pure Wings 3 140mm PWM high-speed.",
+      "With a remarkably high air pressure of up to 2.44mm/H2O, Pure Wings 3 140mm PWM high-speed is the best choice for water-cooled and air-cooled systems alike. The 9 airflow-optimized fan blades provide enough air pressure to make this fan work great even in demanding configurations.",
+      "Pure Wings 3 140mm PWM high-speed trims all the fat. Every part and single detail contribute to the functionality and uncompromising performance. This has also been considered in the design of the fan. All outlines and angles serve a purpose, making Pure Wings 3 140mm PWM high-speed a timeless classic and elegant addition to every gaming PC.",
+      "Pure Wings 3 140mm PWM high-speed is built to last. With the proven rifle bearing technology, on average, this fan offers a lifespan of 80,000 hours."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "be quiet! Pure Wings 3 120mm PWM",
+      "be quiet! Silent Wings Pro 4 140mm"
+    ]
+  },
+  "B0CYCQ7G32": {
+    "asin": "B0CYCQ7G32",
+    "title": "be quiet! Silent Wings Pro 4 140mm PWM High-Speed Gaming PC Case Fan, White",
+    "brand": "be quiet!",
+    "price": "$29.90",
+    "img": "https://m.media-amazon.com/images/I/41oOLRS1N2L._SL500_.jpg",
+    "features": [
+      "Optimized fan blades for the highest performance on radiators and heat sinks",
+      "Speed switch allows changing maximum PWM speed between medium-speed, high-speed and ultra-high-speed (up to 2400 rpm).",
+      "Small tip clearance and a fan frame with a funnel-shaped air outlet for extremely high air pressure. Virtually inaudible operation at regular speed.",
+      "6-pole fan motor and fluid-dynamic bearing for less vibration and very smooth operations. Individual mounting systems for use as a case fan or with a radiator.",
+      "5-year manufacturer warranty"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "be quiet! Silent Wings Pro 4 140mm"
+    ]
+  },
+  "B0C64WLQSK": {
+    "asin": "B0C64WLQSK",
+    "title": "Corsair iCUE Link QX120 RGB 120mm Magnetic Dome RGB Fans - Triple Fan Starter Kit with iCUE Link System Hub - Black",
+    "brand": "Corsair",
+    "price": "$117.99",
+    "img": "https://m.media-amazon.com/images/I/41MGz5t5aHL._SL500_.jpg",
+    "features": [
+      "Keep Cool: Powerful PWM-controlled fan speeds from 480 RPM up to 2,400 RPM, so your fans only spin as fast as you need, pushing up to 63.1 CFM of air with 3.8mm-H2O of static pressure.",
+      "Exclusive Time Warp Lighting Mode: Equipped with 34 RGB LEDs, spread across two distinct light zones on either side, and powered by iCUE LINK for exclusive lighting modes such as the strobing Time Warp.",
+      "Quiet Operation with Magnetic Dome Bearing: CORSAIR’s Magnetic Dome bearing retains all the performance of ML fan technology and further reduces friction at low fan speeds.",
+      "Zero RPM Mode: Supports Zero RPM PWM signals to completely eliminate fan noise at low loads.",
+      "iCUE LINK System Hub and Bridge Connectors Included: Chain your fans together without wires using the included bridge connectors and seamlessly connect them all to the iCUE LINK System Hub with just a single cable."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Corsair iCUE LINK QX120 RGB fan"
+    ]
+  },
+  "B0C64SZQHN": {
+    "asin": "B0C64SZQHN",
+    "title": "Corsair iCUE Link QX120 RGB 120mm Magnetic Dome RGB Single Fan - Black",
+    "brand": "Corsair",
+    "price": "$54.99",
+    "img": "https://m.media-amazon.com/images/I/41AKb5JU0-L._SL500_.jpg",
+    "features": [
+      "Keep Cool: Powerful PWM-controlled fan speeds from 480 RPM up to 2,400 RPM, so your fans only spin as fast as you need, pushing up to 63.1 CFM of air with 3.8mm-H2O of static pressure.",
+      "Exclusive Time Warp Lighting Mode: Equipped with 34 RGB LEDs, spread across two distinct light zones on either side, and powered by iCUE LINK for exclusive lighting modes such as the strobing Time Warp (requires iCUE LINK System Hub, sold separately).",
+      "Quiet Operation with Magnetic Dome Bearing: CORSAIR’s Magnetic Dome bearing retains all the performance of ML fan technology and further reduces friction at low fan speeds.",
+      "Zero RPM Mode: Supports Zero RPM PWM signals to completely eliminate fan noise at low loads.",
+      "Bridge Connectors Included: Chain your fan together with other iCUE LINK QX120 RGB fans without wires using the included bridge connectors, and seamlessly connect them all to an iCUE LINK System Hub (sold separately) with just a single cable."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Corsair iCUE LINK QX120 RGB fan"
+    ]
+  },
+  "B0C64VHQPZ": {
+    "asin": "B0C64VHQPZ",
+    "title": "Corsair iCUE Link QX120 RGB 120mm Magnetic Dome RGB Single Fan - White",
+    "brand": "Corsair",
+    "price": "$36.99",
+    "img": "https://m.media-amazon.com/images/I/41MUxvHvWPL._SL500_.jpg",
+    "features": [
+      "Keep Cool: Powerful PWM-controlled fan speeds from 480 RPM up to 2,400 RPM, so your fans only spin as fast as you need, pushing up to 63.1 CFM of air with 3.8mm-H2O of static pressure.",
+      "Exclusive Time Warp Lighting Mode: Equipped with 34 RGB LEDs, spread across two distinct light zones on either side, and powered by iCUE LINK for exclusive lighting modes such as the strobing Time Warp (requires iCUE LINK System Hub, sold separately).",
+      "Quiet Operation with Magnetic Dome Bearing: CORSAIR’s Magnetic Dome bearing retains all the performance of ML fan technology and further reduces friction at low fan speeds.",
+      "Zero RPM Mode: Supports Zero RPM PWM signals to completely eliminate fan noise at low loads.",
+      "Bridge Connectors Included: Chain your fan together with other iCUE LINK QX120 RGB fans without wires using the included bridge connectors, and seamlessly connect them all to an iCUE LINK System Hub (sold separately) with just a single cable."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Corsair iCUE LINK QX120 RGB fan"
+    ]
+  },
+  "B0C64S73ZJ": {
+    "asin": "B0C64S73ZJ",
+    "title": "Corsair iCUE Link QX120 RGB 120mm Magnetic Dome RGB Fans - Triple Fan Starter Kit with iCUE Link System Hub - White",
+    "brand": "Corsair",
+    "price": "$99.99",
+    "img": "https://m.media-amazon.com/images/I/31TG1YVJHkL._SL500_.jpg",
+    "features": [
+      "Keep Cool: Powerful PWM-controlled fan speeds from 480 RPM up to 2,400 RPM, so your fans only spin as fast as you need, pushing up to 63.1 CFM of air with 3.8mm-H2O of static pressure.",
+      "Exclusive Time Warp Lighting Mode: Equipped with 34 RGB LEDs, spread across two distinct light zones on either side, and powered by iCUE LINK for exclusive lighting modes such as the strobing Time Warp.",
+      "Quiet Operation with Magnetic Dome Bearing: CORSAIR’s Magnetic Dome bearing retains all the performance of ML fan technology and further reduces friction at low fan speeds",
+      "Zero RPM Mode: Supports Zero RPM PWM signals to completely eliminate fan noise at low loads.",
+      "iCUE LINK System Hub and Bridge Connectors Included: Chain your fans together without wires using the included bridge connectors and seamlessly connect them all to the iCUE LINK System Hub with just a single cable."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Corsair iCUE LINK QX120 RGB fan"
+    ]
+  },
+  "B0D3H5TXPK": {
+    "asin": "B0D3H5TXPK",
+    "title": "CORSAIR iCUE Link LX120 RGB 120mm PWM Fan Single Pack – Dual Light Loops – Requires iCUE Link System Hub (Sold Separately) – CORSAIR AirGuide Technology – Black",
+    "brand": "Corsair",
+    "price": "$31.99",
+    "img": "https://m.media-amazon.com/images/I/41b3GQGXUgL._SL500_.jpg",
+    "features": [
+      "Stunning RGB Lighting with Dual Light Loops: 18 LEDs per fan spread across an inner and outer loop enable brilliant, customisable lighting that can be synchronized with all your iCUE RGB devices",
+      "Effective and Efficient Cooling: Deliver superb airflow to your system with precise PWM controlled speeds up to 2,400 RPM, pushing 69.9 CFM of air. An impressive 5.22mmH2O static pressure also gives the LX RGB the force it needs for mounting to radiators",
+      "LINK Your Fans Together: The included iCUE LINK bridge connectors can connect your fans directly to each other, creating a seamless bank of fans all connected to the iCUE LINK System Hub (sold separately) with just a single cable",
+      "CORSAIR AirGuide Technology: Anti-vortex vanes direct airflow at your hottest components for concentrated cooling, pushing air more efficiently",
+      "Quiet Operation with Magnetic Dome Bearing: CORSAIR’s Magnetic Dome bearing is a refinement of the renowned magnetic levitation bearing, minimising noise and reducing friction for greater longevity"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Corsair iCUE LINK QX120 RGB fan"
+    ]
+  },
+  "B0D3ZRD27D": {
+    "asin": "B0D3ZRD27D",
+    "title": "Corsair iCUE LINK QX120 RGB 120mm Magnetic Dome RGB Fans - Triple Fan Starter Kit with iCUE LINK System Hub - Black (Renewed)",
+    "brand": "Corsair",
+    "price": "$69.95",
+    "img": "https://m.media-amazon.com/images/I/41yEsc3O3zL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Corsair iCUE LINK QX120 RGB fan"
+    ]
+  },
+  "B0DGW2MZDN": {
+    "asin": "B0DGW2MZDN",
+    "title": "CORSAIR iCUE Link LX120-R RGB 120mm PWM Reverse Fans – Triple Fan Kit – Low-Noise, Magnetic Dome Bearing, Dual Light Loops, CORSAIR QuikTurn Screws, Zero RPM Mode – Black",
+    "brand": "Corsair",
+    "price": "$84.99",
+    "img": "https://m.media-amazon.com/images/I/41CI9PKTlJL._SL500_.jpg",
+    "features": [
+      "Reversed Rotor for Flawless Looks: Flip the script on your build with reversed rotor fans that ensure the RGB ring remains fully visible, even when mounted for intake",
+      "Stunning RGB Lighting with Dual Light Loops: 18 LEDs per fan spread across an inner and outer loop enable brilliant, customizable lighting that can be synchronized with all your iCUE RGB devices",
+      "Effective and Efficient Cooling: Deliver superb airflow to your system with precise PWM controlled speeds up to 2,400 RPM, pushing 66.7 CFM of air. An impressive 4.72mm H2O static pressure also gives the LX-R RGB the force it needs for mounting to radiators",
+      "LINK Your Fans Together: The included iCUE LINK bridge connectors can connect your fans directly to each other, creating a seamless bank of fans all connected to the iCUE LINK System Hub with just a single cable",
+      "Quiet Operation with Magnetic Dome Bearing: CORSAIR’s Magnetic Dome bearing is a refinement of the renowned magnetic levitation bearing, minimizing noise and reducing friction for greater longevity"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Corsair iCUE LINK QX120 RGB fan",
+      "Corsair AF140 Elite"
+    ]
+  },
+  "B0CSSXZKJB": {
+    "asin": "B0CSSXZKJB",
+    "title": "CORSAIR iCUE Link RX120 RGB 120mm PWM Fans with iCUE Link System Hub - Magnetic Dome Bearing - Triple Pack - Black",
+    "brand": "Corsair",
+    "price": "$79.99",
+    "img": "https://m.media-amazon.com/images/I/410gaHkFYAL._SL500_.jpg",
+    "features": [
+      "PWM Controlled Speeds via iCUE LINK: Set precise fan speeds up to 2,100 RPM while providing up to 74.2 CFM airflow to your system.",
+      "High Static Pressure: With 4.38mm-H2O of static pressure, the RX Series is great for pushing air through obstructions such as high-density radiators.",
+      "Vivid RGB Lighting: Eight RGB LEDs display vivid lighting effects, with a window built into the frame to enable viewing of your lighting from the side.",
+      "LINK Your Fans Together: The included iCUE LINK bridge connectors can connect your fans directly to each other, creating a seamless bank of fans all connected to the iCUE LINK System Hub with just a single cable.",
+      "CORSAIR AirGuide Technology: Anti-vortex vanes direct airflow at your hottest components for concentrated cooling, pushing air in the direction you need when mounted to a radiator or heatsink."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Corsair iCUE LINK QX120 RGB fan"
+    ]
+  },
+  "B0HHGKGP5P": {
+    "asin": "B0HHGKGP5P",
+    "title": "Corsair iCUE AF120 RGB Elite Case Fan CO-9050154-WW 3-Pack Black (Renewed)",
+    "brand": "Corsair",
+    "price": "$37.99",
+    "img": "https://m.media-amazon.com/images/I/319LD1V2tHL._SL500_.jpg",
+    "features": [
+      "Kit includes three CORSAIR iCUE AF120 RGB Elite 120mm PWM fans spinning up to 2,100 RPM and pushing up to 65.57 CFM of airflow for strong case circulation.",
+      "Eight individually addressable RGB LEDs per fan deliver vivid lighting effects, controllable through CORSAIR iCUE software along with custom fan speed curves.",
+      "Fluid Dynamic Bearing construction keeps noise low, rated from a whisper-quiet 5 dBA up to 34.1 dBA, with Zero RPM mode eliminating fan noise entirely under light loads.",
+      "Includes an iCUE Lighting Node CORE controller so all three fans can be connected, powered, and controlled together through a single motherboard header.",
+      "AirGuide technology with anti-vortex vanes focuses airflow for more effective cooling across radiators, heatsinks, and case intake or exhaust duties alike."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Corsair AF120 Elite"
+    ]
+  },
+  "B09XR9LF5N": {
+    "asin": "B09XR9LF5N",
+    "title": "Corsair AF120 Elite, High-Performance 120mm PWM Fluid Dynamic Bearing Fan with AirGuide Technology (Low-Noise, Zero RPM Mode Support) Single Pack - White",
+    "brand": "Corsair",
+    "price": "$30.67",
+    "img": "https://m.media-amazon.com/images/I/31u8nahXwSL._SL500_.jpg",
+    "features": [
+      "CORSAIR AirGuide Technology: Utilizes anti-vortex vanes to channel concentrated airflow and improve cooling, whether used as intake, exhaust, or mounted to a liquid cooling radiator or heatsink.",
+      "Fluid Dynamic Bearing: Lubricant between the shaft and bearing greatly reduces friction, ensuring exceptional durability and minimal noise.",
+      "Push Air Without Pushing the Decibels: A low-noise 120mm fan blade spins as quietly as 31.5 dBA.",
+      "Keep Your System Cool: Powerful PWM-controlled fan speeds from 400 RPM up to 1,850 RPM, pushing up to 59.1 CFM of air with 1.93mm-H2O of static pressure.",
+      "Zero RPM Mode Support: Stops the fan entirely when sent a 0 RPM PWM signal, completely eliminating fan noise."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Corsair AF120 Elite"
+    ]
+  },
+  "B0D49L67NS": {
+    "asin": "B0D49L67NS",
+    "title": "CORSAIR RS120 120mm PWM Fan – Daisy-Chain Connection – Low-Noise – Magnetic Dome Bearing – Single Pack – Black",
+    "brand": "Corsair",
+    "price": "$14.00",
+    "img": "https://m.media-amazon.com/images/I/31OSlPbzVRL._SL500_.jpg",
+    "features": [
+      "Streamlined Fan Connections: Daisy-chain multiple fans together and control them all through just a single 4-pin PWM connector.",
+      "Precise PWM Speeds: Set your fan speeds up to 2,100 RPM while providing up to 72.8 CFM airflow to your system.",
+      "CORSAIR AirGuide Technology: Anti-vortex vanes direct airflow at your hottest components for concentrated cooling, pushing air in the direction you need when mounted to a radiator or heatsink.",
+      "High Static Pressure: RS fans work well as radiator fans with a static pressure of 4.15mm-H2O to push through obstructions.",
+      "Quiet Operation with Magnetic Dome Bearing: CORSAIR’s Magnetic Dome bearing minimises noise and reduces friction for greater longevity."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Corsair AF120 Elite",
+      "radiator fan high static pressure 120mm"
+    ]
+  },
+  "B0BQXJY588": {
+    "asin": "B0BQXJY588",
+    "title": "Corsair iCUE AF140 RGB Elite 140mm PWM Dual Fan Kit - Eight RGB LEDs Per Fan - AirGuide Technology - Fluid Dynamic Bearing - Zero RPM Fan Mode - Included iCUE Lighting Node CORE Controller - Black",
+    "brand": "Corsair",
+    "price": "$95.51",
+    "img": "https://m.media-amazon.com/images/I/31hKT6sEbkL._SL500_.jpg",
+    "features": [
+      "Keep Your System Cool: Powerful PWM-controlled fan speeds from 500 RPM up to 1,700 RPM, pushing up to 89.0 CFM of air with 2.0mm-H2O of static pressure.",
+      "Brilliant RGB LED lighting: Eight individually addressable RGB LEDs per fan provide a brilliant backdrop in your PC build.",
+      "Quiet Operation with Zero RPM and Fluid Dynamic Bearing: Lubricant between the shaft and bearing reduces friction for exceptional durability and minimal noise, plus Zero RPM fan mode support to completely eliminate fan noise.",
+      "CORSAIR AirGuide Technology: Utilizes anti-vortex vanes to channel concentrated airflow and improve cooling, whether used as intake, exhaust, or mounted to a liquid cooling radiator or heatsink.",
+      "iCUE Lighting Node CORE Controller Included: Conveniently control RGB lighting, enabling you to plug up to six RGB fans for simplified, intuitive lighting at your command, and cut down on cable clutter with simple USB 2.0 and SATA connections."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Corsair AF140 Elite"
+    ]
+  },
+  "B0DT4X6G2X": {
+    "asin": "B0DT4X6G2X",
+    "title": "Corsair iCUE AF140 RGB Elite 140mm PWM Dual Fan Kit - Eight RGB LEDs Per Fan - AirGuide Technology -Zero RPM Fan Mode-Included iCUE Lighting Node CORE Controller -Black (Renewed)",
+    "brand": "Corsair",
+    "price": "$39.99",
+    "img": "https://m.media-amazon.com/images/I/41O-cfQO4BL._SL500_.jpg",
+    "features": [
+      "Keep Your System Cool: Powerful PWM-controlled fan speeds from 500 RPM up to 1,700 RPM, pushing up to 89.0 CFM of air with 2.0mm-H2O of static pressure.",
+      "Brilliant RGB LED lighting: Eight individually addressable RGB LEDs per fan provide a brilliant backdrop in your PC build.",
+      "Quiet Operation with Zero RPM and Fluid Dynamic Bearing: Lubricant between the shaft and bearing reduces friction for exceptional durability and minimal noise, plus Zero RPM fan mode support to completely eliminate fan noise.",
+      "CORSAIR AirGuide Technology: Utilizes anti-vortex vanes to channel concentrated airflow and improve cooling, whether used as intake, exhaust, or mounted to a liquid cooling radiator or heatsink.",
+      "iCUE Lighting Node CORE Controller Included: Conveniently control RGB lighting, enabling you to plug up to six RGB fans for simplified, intuitive lighting at your command, and cut down on cable clutter with simple USB 2.0 and SATA connections."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Corsair AF140 Elite"
+    ]
+  },
+  "B0D49PHXQG": {
+    "asin": "B0D49PHXQG",
+    "title": "CORSAIR RS140 ARGB 140mm PWM Fan – Daisy-Chain Connection – Low-Noise – Magnetic Dome Bearing – Single Pack – Black",
+    "brand": "Corsair",
+    "price": "$24.99",
+    "img": "https://m.media-amazon.com/images/I/31s95OUb-iL._SL500_.jpg",
+    "features": [
+      "Streamlined Fan Connections: Daisy-chain multiple fans together and control them all through just one 4-pin PWM connector and one +5V ARGB connector.",
+      "Lighting Made Easy: Eight LEDs per fan shine bright with customisable lighting through your motherboard’s built-in ARGB control (requires compatible motherboard).",
+      "Precise PWM Speeds: Set your fan speeds up to 1,700 RPM while providing up to 95.5 CFM airflow to your system.",
+      "CORSAIR AirGuide Technology: Anti-vortex vanes direct airflow at your hottest components for concentrated cooling, pushing air in the direction you need when mounted to a radiator or heatsink.",
+      "High Static Pressure: RS fans work well as radiator fans with a static pressure of 3.46mm-H2O to push through obstructions."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Corsair AF140 Elite"
+    ]
+  },
+  "B0D49NN28D": {
+    "asin": "B0D49NN28D",
+    "title": "CORSAIR RS140 ARGB 140mm PWM Fans – Daisy-Chain Connection – Low-Noise – Magnetic Dome Bearing – Dual Pack – Black",
+    "brand": "Corsair",
+    "price": "$49.00",
+    "img": "https://m.media-amazon.com/images/I/41+dqvzSRzL._SL500_.jpg",
+    "features": [
+      "Streamlined Fan Connections: Daisy-chain multiple fans together and control them all through just one 4-pin PWM connector and one +5V ARGB connector.",
+      "Lighting Made Easy: Eight LEDs per fan shine bright with customisable lighting through your motherboard’s built-in ARGB control (requires compatible motherboard).",
+      "Precise PWM Speeds: Set your fan speeds up to 1,700 RPM while providing up to 95.5 CFM airflow to your system.",
+      "CORSAIR AirGuide Technology: Anti-vortex vanes direct airflow at your hottest components for concentrated cooling, pushing air in the direction you need when mounted to a radiator or heatsink.",
+      "High Static Pressure: RS fans work well as radiator fans with a static pressure of 3.46mm-H2O to push through obstructions."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Corsair AF140 Elite"
+    ]
+  },
+  "B0CSSNCFQK": {
+    "asin": "B0CSSNCFQK",
+    "title": "CORSAIR iCUE Link RX140 140mm PWM Fans with iCUE Link System Hub - Magnetic Dome Bearing - Dual Pack - Black",
+    "brand": "Corsair",
+    "price": "$70.76",
+    "img": "https://m.media-amazon.com/images/I/417A3wNOo1L._SL500_.jpg",
+    "features": [
+      "PWM Controlled Speeds via iCUE LINK: Set precise fan speeds up to 1,700 RPM while providing up to 95.7 CFM airflow to your system.",
+      "High Static Pressure: With 3.79mm-H2O of static pressure, the RX Series is great for pushing air through obstructions such as high-density radiators.",
+      "LINK Your Fans Together: The included iCUE LINK bridge connectors can connect your fans directly to each other, creating a seamless bank of fans all connected to the iCUE LINK System Hub with just a single cable.",
+      "Premium Liquid Crystal Polymer Construction: Incredibly strong and durable, reinforced with glass fiber, resulting in excellent rigidity, reduced blade vibration, and increased performance.",
+      "CORSAIR AirGuide Technology: Anti-vortex vanes direct airflow at your hottest components for concentrated cooling, pushing air in the direction you need when mounted to a radiator or heatsink."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Corsair AF140 Elite"
+    ]
+  },
+  "B0D49J3W2J": {
+    "asin": "B0D49J3W2J",
+    "title": "CORSAIR RS140 140mm PWM Fan – Daisy-Chain Connection – Low-Noise – Magnetic Dome Bearing – Single Pack – Black",
+    "brand": "Corsair",
+    "price": "$19.99",
+    "img": "https://m.media-amazon.com/images/I/31lMnRFecDL._SL500_.jpg",
+    "features": [
+      "Streamlined Fan Connections: Daisy-chain multiple fans together and control them all through just a single 4-pin PWM connector.",
+      "Precise PWM Speeds: Set your fan speeds up to 1,700 RPM while providing up to 95.5 CFM airflow to your system.",
+      "CORSAIR AirGuide Technology: Anti-vortex vanes direct airflow at your hottest components for concentrated cooling, pushing air in the direction you need when mounted to a radiator or heatsink.",
+      "High Static Pressure: RS fans work well as radiator fans with a static pressure of 3.46mm-H2O to push through obstructions.",
+      "Quiet Operation with Magnetic Dome Bearing: CORSAIR’s Magnetic Dome bearing minimises noise and reduces friction for greater longevity."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Corsair AF140 Elite"
+    ]
+  },
+  "B0BMWFLJ8J": {
+    "asin": "B0BMWFLJ8J",
+    "title": "Lian Li SL120V2-3B Uni Fan Sl V2 Sl120 - Case Fan",
+    "brand": "Lian Li",
+    "price": "$77.99",
+    "img": "https://m.media-amazon.com/images/I/315tw+5r1gL._SL500_.jpg",
+    "features": [
+      "Improved daisy chain design to connect 2 clusters of fans.",
+      "SL120 V2 fan frame thickness is 28mm to provide 10% improved airflow compared to V1.",
+      "Removable interlocking keys to provide better radiator clearance.",
+      "Start/stop fan RPM support for a quieter environment.",
+      "Smoother side lighting for a better aesthetic.",
+      "Only one cable is required for each fan cluster when using the provided new UNI HUB to control lighting effects via L-Connect 3."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Lian Li UNI FAN SL120 V2"
+    ]
+  },
+  "B0GVR2CR5S": {
+    "asin": "B0GVR2CR5S",
+    "title": "Lian Li UNI Fan SL-INF Flex 120mm Reverse Blade ARGB Fan, 3 Pack, Controller Included, Black (12RSLIN1F3B)",
+    "brand": "Lian Li",
+    "price": "$104.99",
+    "img": "https://m.media-amazon.com/images/I/31b5FjhZ+NL._SL500_.jpg",
+    "features": [
+      "Controller Included. Please double-check the airflow direction and model type before purchase to avoid ordering the incorrect version.",
+      "ARGB Lighting Control: 5V 3-Pin ARGB Control Mode allows users to manage fan lighting via motherboard software while controlling fan speed through PWM or wireless options.",
+      "Unique Multi-Zone Lighting: Features a dual-style edge design with multi-zone lighting effects, delivering enhanced visual depth and complementing a wide range of PC aesthetics.",
+      "The updated LCD FLEX and LED FLEX Receivers offer enhanced control options, enabling users to manage fan speed via PWM or L-Connect 3 while retaining essential LCD functions through a wireless connection.",
+      "Support flexible control options, allowing users to choose between motherboard PWM or L-Connect 3 control while maintaining wireless functionality and simplified cable management."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Lian Li UNI FAN SL120 V2"
+    ]
+  },
+  "B0GVQR1W6L": {
+    "asin": "B0GVQR1W6L",
+    "title": "Lian Li UNI Fan TL Flex 120 Reverse Blade ARGB PWM Fan, 3 Pack, White",
+    "brand": "Lian Li",
+    "price": "$99.99",
+    "img": "https://m.media-amazon.com/images/I/31d+UGuR0+L._SL500_.jpg",
+    "features": [
+      "Controller Included. Please double-check the airflow direction and model type before purchase to avoid ordering the incorrect version.",
+      "Quiet Operation: Features FDB bearings and copper shielding for stable performance at speeds up to 2300 RPM.",
+      "Equipped with LCP fan blades and a tight 0.6mm blade-to-frame gap, this design improves airflow to 83.4 CFM and delivers a static pressure of 2.66mmH2O.",
+      "The updated LCD FLEX and LED FLEX Receivers offer enhanced control options, enabling users to manage fan speed via PWM or L-Connect 3 while retaining essential LCD functions through a wireless connection.",
+      "ARGB Lighting Control: 5V 3-Pin ARGB Control Mode allows users to manage fan lighting via motherboard software while controlling fan speed through PWM or wireless options."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Lian Li UNI FAN TL 120"
+    ]
+  },
+  "B0GVRRCNN2": {
+    "asin": "B0GVRRCNN2",
+    "title": "Lian Li UNI Fan TL Flex 120 ARGB PWM Fan, 3 Pack, Black",
+    "brand": "Lian Li",
+    "price": "$99.99",
+    "img": "https://m.media-amazon.com/images/I/31Ju3fsurvL._SL500_.jpg",
+    "features": [
+      "Important: This is a NORMAL BLADE fan (NOT a Reverse Blade fan), Controller Included. Please double-check the airflow direction and model type before purchase to avoid ordering the incorrect version.",
+      "Quiet Operation: Features FDB bearings and copper shielding for stable performance at speeds up to 2600 RPM.",
+      "Equipped with LCP fan blades and a tight 0.6mm blade-to-frame gap, this design improves airflow to 90.1 CFM and delivers a static pressure of 3.97mmH2O.",
+      "The updated LCD FLEX and LED FLEX Receivers offer enhanced control options, enabling users to manage fan speed via PWM or L-Connect 3 while retaining essential LCD functions through a wireless connection.",
+      "ARGB Lighting Control: 5V 3-Pin ARGB Control Mode allows users to manage fan lighting via motherboard software while controlling fan speed through PWM or wireless options."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Lian Li UNI FAN TL 120"
+    ]
+  },
+  "B0GVR977C5": {
+    "asin": "B0GVR977C5",
+    "title": "Lian Li UNI Fan TL Flex 120 ARGB Case Fan, (NOT Reverse) Black",
+    "brand": "Lian Li",
+    "price": "$30.99",
+    "img": "https://m.media-amazon.com/images/I/31+1dH8bmnL._SL500_.jpg",
+    "features": [
+      "Important: This is a NORMAL BLADE fan (NOT a Reverse Blade fan), Controller NOT Included. Please double-check the airflow direction and model type before purchase to avoid ordering the incorrect version.",
+      "Quiet Operation: Features FDB bearings and copper shielding for stable performance at speeds up to 2600 RPM.",
+      "Equipped with LCP fan blades and a tight 0.6mm blade-to-frame gap, this design improves airflow to 90.1 CFM and delivers a static pressure of 3.97mmH2O.",
+      "Support flexible control options, allowing users to choose between motherboard PWM or L-Connect 3 control while maintaining wireless functionality and simplified cable management.",
+      "ARGB Lighting Control: 5V 3-Pin ARGB Control Mode allows users to manage fan lighting via motherboard software while controlling fan speed through PWM or wireless options."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Lian Li UNI FAN TL 120"
+    ]
+  },
+  "B0DMW2NL2C": {
+    "asin": "B0DMW2NL2C",
+    "title": "Lian Li UNI Fan TL Wireless-120-Reverse Blade-No Controller-Black-12RTL1W1B",
+    "brand": "Lian Li",
+    "price": "$27.42",
+    "img": "https://m.media-amazon.com/images/I/414wX6noUqL._SL500_.jpg",
+    "features": [
+      "Controller Required for Operation: The Controller is required to operate the TL wireless fan; the single pack (12TL1W1B,12TL1W1W,12RTL1W1B,12RTL1W1W,12TL1W3B,12TL1W3W,12TLLCD1W1B,12TLLCD1W1W,12RTLLCD1W1B,12RTLLCD1W1W & Strimer PW24-1W, PW16-81W, PW8-1W, and PW16-121W does NOT include a controller and must be purchased separately. If you have a controller from the UNI FAN TL/SL Wireless Triple Pack, and PW24-1W-T, you can use that. 3-Pack & PW24-1W-T including a controller.The 3-Pack package also includes a PWM 1 to 3 cable",
+      "Wireless Control Technology: Experience the freedom of true wireless control with UNI FAN TL LED WIRELESS and TL LCD WIRELESS. Featuring advanced 2.4 GHz wireless technology, these fans eliminate cable clutter while seamlessly managing fan speed, RGB lighting, and even an LCD display",
+      "Customizable RGB and Dual Zone Lighting Visuals: Bring your setup to life with customizable RGB lighting and LCD visuals. UNI FAN TL LCD WIRELESS supports MP4, GIF, JPG, and PNG formats, delivering vibrant colors and personalized displays for your PC aesthetic",
+      "Simplified Installation and Cable Management: Say goodbye to traditional 5V ARGB and PWM headers. With L-Wireless Sync technology, installation is faster and cleaner, allowing effortless cable management and more focus on your custom PC build",
+      "L-Connect 3 Control Software: Gain complete control of your fans with L-Connect 3 software. Easily customize fan settings, RGB presets, and LCD content to achieve a tailored look and optimal performance for every scenario",
+      "Reverse Blade Design: Features a reverse blade configuration that provides unique airflow characteristics and distinctive visual aesthetics to complement your PC build with enhanced cooling performance"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Lian Li UNI FAN TL 120"
+    ]
+  },
+  "B0GVQRJFZS": {
+    "asin": "B0GVQRJFZS",
+    "title": "Lian Li UNI Fan TL LCD Flex 120 Reverse ARGB PWM Fan, 3 Pack, Black",
+    "brand": "Lian Li",
+    "price": "$134.99",
+    "img": "https://m.media-amazon.com/images/I/317ZaLrvHYL._SL500_.jpg",
+    "features": [
+      "Controller NOT Included. Please double-check the airflow direction and model type before purchase to avoid ordering the incorrect version.",
+      "1.8-Inch High-Resolution Display: Features a 400 x 400 resolution and 60Hz refresh rate, supporting MP4, GIF, JPG, and PNG files for clear monitoring and personalized visuals.",
+      "ARGB Lighting Control: 5V 3-Pin ARGB Control Mode allows users to manage fan lighting via motherboard software while controlling fan speed through PWM or wireless options.",
+      "USB Control Mode (LCD Flex Receiver Only): When the USB 9-pin cable is connected, it unlocks full LCD functionality through L-Connect 3, enabling support for video and photo uploads as well as complete display customization for maximum personalization.",
+      "Support flexible control options, allowing users to choose between motherboard PWM or L-Connect 3 control while maintaining wireless functionality and simplified cable management."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Lian Li UNI FAN TL 120"
+    ]
+  },
+  "B0DMVXDXKJ": {
+    "asin": "B0DMVXDXKJ",
+    "title": "Lian Li UNI Fan TL LCD Wireless 120-Triple Pack-2.4 GHz Signal ARGB Fan-Infinity Mirror-Daisy-Chain Design-Customizable Lighting Effects-Controller Included & Required - White (12TLLCD1W3W)",
+    "brand": "Lian Li",
+    "price": "$132.99",
+    "img": "https://m.media-amazon.com/images/I/313Idi6MhGL._SL500_.jpg",
+    "features": [
+      "Controller Requirement and Compatibility: The Controller is required to operate the TL wireless fan; the single pack (12TL1W1B,12TL1W1W,12RTL1W1B,12RTL1W1W,12TL1W3B,12TL1W3W,12TLLCD1W1B,12TLLCD1W1W,12RTLLCD1W1B,12RTLLCD1W1W & Strimer PW24-1W, PW16-81W, PW8-1W, and PW16-121W does NOT include a controller and must be purchased separately. If you have a controller from the UNI FAN TL/SL Wireless Triple Pack, and PW24-1W-T, you can use that. 3-Pack & PW24-1W-T including a controller.The 3-Pack package also includes a PWM 1 to 3 cable",
+      "Wireless Control Technology: Experience the freedom of true wireless control with UNI FAN TL LED WIRELESS and TL LCD WIRELESS. Featuring advanced 2.4 GHz wireless technology, these fans eliminate cable clutter while seamlessly managing fan speed, RGB lighting, and even an LCD display",
+      "Customizable RGB and Dual Zone Lighting Visuals: Bring your setup to life with customizable RGB lighting and LCD visuals. UNI FAN TL LCD WIRELESS supports MP4, GIF, JPG, and PNG formats, delivering vibrant colors and personalized displays for your PC aesthetic",
+      "Simplified Installation and Cable Management: Say goodbye to traditional 5V ARGB and PWM headers. With L-Wireless Sync technology, installation is faster and cleaner, allowing effortless cable management and more focus on your custom PC build",
+      "L-Connect 3 Control Software: Gain complete control of your fans with L-Connect 3 software. Easily customize fan settings, RGB presets, and LCD content to achieve a tailored look and optimal performance for every scenario",
+      "LCP Fan Blade Construction: Features high-quality LCP (Liquid Crystal Polymer) fan blades that provide durability and efficient airflow performance while maintaining low noise levels during operation",
+      "Daisy-Chain Design: Convenient daisy-chained style allows multiple fans to be connected together in series, simplifying cable management and reducing the number of connections needed for multi-fan configurations"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Lian Li UNI FAN TL 120"
+    ]
+  },
+  "B09B2LTXCN": {
+    "asin": "B09B2LTXCN",
+    "title": "Phanteks T30 Premium High-Performance PWM Fan, LCP Frame & Blades, 3-Mode Speed Switch, Black/Grey (3, 120mm)",
+    "brand": "Phanteks",
+    "price": "$99.99",
+    "img": "https://m.media-amazon.com/images/I/41GFb9BE7vL._SL500_.jpg",
+    "features": [
+      "Easy and accessible switch to change fan profiles for silent, balanced or extreme performance operation: Hybrid Mode (1200RPM), Performance Mode (2000RPM), Advanced Mode (3000RPM).",
+      "Smooth and powerful 3-Phase motor (6 poles) operates with a lower frequency response for excellent sound quality.",
+      "Increased thickness of 30mm results in 25% thicker fan blades for much higher airflow performance.",
+      "Designed for PC cooling with aerodynamic optimalisations for better performance in dust filter equipped chassis and radiators."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Phanteks T30-120 fan"
+    ]
+  },
+  "B0DJDBV48H": {
+    "asin": "B0DJDBV48H",
+    "title": "ARCTIC P12 Pro PST - Powerful Premium Fan, 120 mm PWM Fan, 600-3000 RPM",
+    "brand": "ARCTIC",
+    "price": "$6.49",
+    "img": "https://m.media-amazon.com/images/I/41bVJwOAskL._SL500_.jpg",
+    "features": [
+      "HIGH STATIC PRESSURE: Efficient even with resistance – the generated airflow easily penetrates dense radiators, narrow perforated panels and mesh structures and ensures reliable cooling",
+      "PWM CONTROL WITH WIDE SPEED RANGE: The speed can be progressively adjusted up to 3000 rpm via the 4-pin PWM connection – the fan stops completely at less than 5% PWM",
+      "PRECISE MANUFACTURING FOR MAXIMUM SMOOTH RUNNING: Minimal gaps, automatic balancing and high-precision measurement noticeably reduce vibrations – for quiet, efficient and long-lasting performance",
+      "SMOOTH-RUNNING FLUID DYNAMIC BEARING (FDB): The self-lubricating bearing minimizes noise during operation – ideal for quiet, efficient cooling and a long, reliable service life",
+      "NEW FAN BLADE DESIGN FOR MORE PERFORMANCE: The redesigned rotor blades offer an optimal balance of performance and low noise – especially efficient at low speeds"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Phanteks T30-120 fan",
+      "ARCTIC P12 Max",
+      "radiator fan high static pressure 120mm"
+    ]
+  },
+  "B0FPVW4Z7F": {
+    "asin": "B0FPVW4Z7F",
+    "title": "Phanteks T30 Premium High-Performance PWM Fan, LCP Frame & Blades, 3-Mode Speed Switch, Black/Grey (1, 140mm)",
+    "brand": "Phanteks",
+    "price": "$34.32",
+    "img": "https://m.media-amazon.com/images/I/51+3o0WFAzL._SL500_.jpg",
+    "features": [
+      "Uncompromising quality using glass fiber reinforced LCP (Liquid Crystal Polymer) for the fan blades and fan frame. Fan Dimension: 120x120x30mm",
+      "Easy and accessible switch to change fan profiles for silent, balanced or extreme performance operation: Hybrid Mode (1200RPM), Performance Mode (2000RPM), Advanced Mode (3000RPM).",
+      "Smooth and powerful 3-Phase motor (6 poles) operates with a lower frequency response for excellent sound quality.",
+      "Increased thickness of 30mm results in 25% thicker fan blades for much higher airflow performance.",
+      "Designed for PC cooling with aerodynamic optimalisations for better performance in dust filter equipped chassis and radiators."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Phanteks T30-120 fan"
+    ]
+  },
+  "B0DJDC74BP": {
+    "asin": "B0DJDC74BP",
+    "title": "ARCTIC P12 Pro - Powerful Premium Fan, 120 mm PWM Fan, 600-3000 RPM",
+    "brand": "ARCTIC",
+    "price": "$6.39",
+    "img": "https://m.media-amazon.com/images/I/41bVJwOAskL._SL500_.jpg",
+    "features": [
+      "HIGH STATIC PRESSURE: Efficient even with resistance – the generated airflow easily penetrates dense radiators, narrow perforated panels and mesh structures and ensures reliable cooling",
+      "PWM CONTROL WITH WIDE SPEED RANGE: The speed can be progressively adjusted up to 3000 rpm via the 4-pin PWM connection – the fan stops completely at less than 5% PWM",
+      "PRECISE MANUFACTURING FOR MAXIMUM SMOOTH RUNNING: Minimal gaps, automatic balancing and high-precision measurement noticeably reduce vibrations – for quiet, efficient and long-lasting performance",
+      "SMOOTH-RUNNING FLUID DYNAMIC BEARING (FDB): The self-lubricating bearing minimizes noise during operation – ideal for quiet, efficient cooling and a long, reliable service life",
+      "NEW FAN BLADE DESIGN FOR MORE PERFORMANCE: The redesigned rotor blades offer an optimal balance of performance and low noise – especially efficient at low speeds"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Phanteks T30-120 fan",
+      "ARCTIC P12 Max",
+      "radiator fan high static pressure 120mm"
+    ]
+  },
+  "B0BMTHQ4H4": {
+    "asin": "B0BMTHQ4H4",
+    "title": "Phanteks M25-120 Fan, High-Airflow Radiator Performance, PWM Control up to 2000RPM, Daisy-Chain Cable, Black (Single)",
+    "brand": "Phanteks",
+    "price": "$16.99",
+    "img": "https://m.media-amazon.com/images/I/41ZKIOgjBqL._SL500_.jpg",
+    "features": [
+      "Optimized to perform the best with fine mesh/dust filters, heatsinks and radiators with reduced RPM levels",
+      "Precise RPM control through PWM with a wide RPM range from 500RPM to 2000RPM",
+      "Clean cable management with Daisy-Chain cables to connect multiple fans together with a single PWM extension cable",
+      "Excellent low noise performance thanks to a high airflow/RPM ratio to minimize bearing and motor noises",
+      "High cooling capacity at 2000 RPM to cool even the most powerful hardware components"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Phanteks M25-120 fan"
+    ]
+  },
+  "B0DPW7QZYB": {
+    "asin": "B0DPW7QZYB",
+    "title": "Phanteks M25-120 Gen2 Reversed Blade, 120mm ARGB High Performance Cooling Fans, Daisy-Chain Unified Fan Frame, Infinity Mirror hub, Single Cable Connection, Black",
+    "brand": "Phanteks",
+    "price": "$13.99",
+    "img": "https://m.media-amazon.com/images/I/31H3aQ6kPwL._SL500_.jpg",
+    "features": [
+      "Daisy-Chain Unified Fan Design: Easily connect multiple fans with a streamlined setup, minimizing clutter.",
+      "Single Cable Solution: The Linq6 connector consolidates both fan and lighting controls into one cable for a cleaner, more efficient build.",
+      "Sleek Aesthetic: Included screw covers provide a polished, professional look.",
+      "Versatile Airflow Options: Choose between regular and reverse airflow models for optimal system configuration.",
+      "High Cooling Performance: Designed to excel on radiators and heat sinks for efficient thermal management."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Phanteks M25-120 fan"
+    ]
+  },
+  "B0DPW8GX9R": {
+    "asin": "B0DPW8GX9R",
+    "title": "Phanteks M25-120 Gen2 Reversed Blade Triple Pack, 3X 120mm ARGB High Performance Cooling Fans, Daisy-Chain Unified Fan Frame, Infinity Mirror hub, Single Cable Connection, Black",
+    "brand": "Phanteks",
+    "price": "$46.04",
+    "img": "https://m.media-amazon.com/images/I/31RtisW85bL._SL500_.jpg",
+    "features": [
+      "Daisy-Chain Unified Fan Design: Easily connect multiple fans with a streamlined setup, minimizing clutter.",
+      "Single Cable Solution: The Linq6 connector consolidates both fan and lighting controls into one cable for a cleaner, more efficient build.",
+      "Sleek Aesthetic: Included screw covers provide a polished, professional look.",
+      "Versatile Airflow Options: Choose between regular and reverse airflow models for optimal system configuration.",
+      "High Cooling Performance: Designed to excel on radiators and heat sinks for efficient thermal management."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Phanteks M25-120 fan"
+    ]
+  },
+  "B0DPQLMQYW": {
+    "asin": "B0DPQLMQYW",
+    "title": "Phanteks M25-120 Gen2 Triple Pack, 3X 120mm ARGB High Performance Cooling Fans, Daisy-Chain Unified Fan Frame, Infinity Mirror hub, Single Cable Connection, Black",
+    "brand": "Phanteks",
+    "price": "$43.98",
+    "img": "https://m.media-amazon.com/images/I/31nSo3HJeeL._SL500_.jpg",
+    "features": [
+      "Daisy-Chain Unified Fan Design: Easily connect multiple fans with a streamlined setup, minimizing clutter.",
+      "Single Cable Solution: The Linq6 connector consolidates both fan and lighting controls into one cable for a cleaner, more efficient build.",
+      "Sleek Aesthetic: Included screw covers provide a polished, professional look.",
+      "Versatile Airflow Options: Choose between regular and reverse airflow models for optimal system configuration.",
+      "High Cooling Performance: Designed to excel on radiators and heat sinks for efficient thermal management."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Phanteks M25-120 fan"
+    ]
+  },
+  "B0DPJRCJ7R": {
+    "asin": "B0DPJRCJ7R",
+    "title": "Phanteks M25-120 Gen2, 120mm ARGB High Performance Cooling Fans, Daisy-Chain Unified Fan Frame, Infinity Mirror hub, Single Cable Connection, White",
+    "brand": "Phanteks",
+    "price": "$17.59",
+    "img": "https://m.media-amazon.com/images/I/31q2xH71ILL._SL500_.jpg",
+    "features": [
+      "Daisy-Chain Unified Fan Design: Easily connect multiple fans with a streamlined setup, minimizing clutter.",
+      "Single Cable Solution: The Linq6 connector consolidates both fan and lighting controls into one cable for a cleaner, more efficient build.",
+      "Sleek Aesthetic: Included screw covers provide a polished, professional look.",
+      "Versatile Airflow Options: Choose between regular and reverse airflow models for optimal system configuration.",
+      "High Cooling Performance: Designed to excel on radiators and heat sinks for efficient thermal management."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Phanteks M25-120 fan"
+    ]
+  },
+  "B0DPW3WYY3": {
+    "asin": "B0DPW3WYY3",
+    "title": "Phanteks M25-120 Gen2 Triple Pack, 3X 120mm ARGB High Performance Cooling Fans, Daisy-Chain Unified Fan Frame, Infinity Mirror hub, Single Cable Connection, White",
+    "brand": "Phanteks",
+    "price": "$34.98",
+    "img": "https://m.media-amazon.com/images/I/31AxaZp+3TL._SL500_.jpg",
+    "features": [
+      "Daisy-Chain Unified Fan Design: Easily connect multiple fans with a streamlined setup, minimizing clutter.",
+      "Single Cable Solution: The Linq6 connector consolidates both fan and lighting controls into one cable for a cleaner, more efficient build.",
+      "Sleek Aesthetic: Included screw covers provide a polished, professional look.",
+      "Versatile Airflow Options: Choose between regular and reverse airflow models for optimal system configuration.",
+      "High Cooling Performance: Designed to excel on radiators and heat sinks for efficient thermal management."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Phanteks M25-120 fan"
+    ]
+  },
+  "B0DQBMZZ2T": {
+    "asin": "B0DQBMZZ2T",
+    "title": "Cooler Master MF120 Lite 120mm PC Case Fan|Liquid Cooler|Air Cooler 3-Pack, 120mm aRGB Lighting, aRGB Splitter, Dynamic PWM 1,750 RPM, Air Balance Blades, Hybrid | PBT Frame",
+    "brand": "Cooler Master",
+    "price": "$25.49",
+    "img": "https://m.media-amazon.com/images/I/41sFbBSU8+L._SL500_.jpg",
+    "features": [
+      "Lite 120 Fan: Redesigned hybrid frame optimal airflow and stability with optimized PWM blades, while simplifying the installation.",
+      "Blade Design: Revised curved blade design improves airflow and boosts cooling efficiency.",
+      "Dynamic PWM Fan: A PWM 4-pin header allows adjustable fan speeds from 650 to 1,750 RPM, to balance noise and airflow.",
+      "Frosted Blade Design: The frosted blade enhances the dispersion of aRGB lighting, creating a vibrant and customizable luminous effect.",
+      "ARGB Header Extender: The header enables daisy-chain connections directly to your motherboard or a splitter."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Cooler Master SickleFlow 120 ARGB"
+    ]
+  },
+  "B0BWKZGYXJ": {
+    "asin": "B0BWKZGYXJ",
+    "title": "Cooler Master MF120 Halo² ARGB 120mm PWM Case Fan, Dual Loop Addressable RGB Lighting, 2050 RPM Dynamic PWM Cooling, Air Balance Blades, Hybrid Frame High Airflow PC Cooling Fan for Gaming Cases",
+    "brand": "Cooler Master",
+    "price": "$14.99",
+    "img": "https://m.media-amazon.com/images/I/41gUN7IkFML._SL500_.jpg",
+    "features": [
+      "Dual-Loop ARGB Rings: Enjoy 50% brighter illumination with more vibrant LED rings",
+      "Halo 120 Fan: Redesigned hybrid frame optimal airflow and stability with optimized PWM blades, while simplifying the installation",
+      "Enlarged Fan Blades: Air Balance fan blades are 10% larger, boosting airflow and cooling performance",
+      "Dynamic PWM Fan: A PWM 4-pin header allows adjustable fan speeds from 0 to 2,050 RPM, to balance noise and airflow",
+      "Frosted Blade Design: The frosted blade enhances the dispersion of aRGB lighting, creating a vibrant and customizable luminous effect",
+      "Versatile Compatibility: Compatible with case cooling, liquid coolers, and air coolers for flexible installation options across various PC builds"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Cooler Master SickleFlow 120 ARGB"
+    ]
+  },
+  "B0DLNGMBHD": {
+    "asin": "B0DLNGMBHD",
+    "title": "Cooler Master SickleFlow ARGB Case Fan 3-Pack, 120mm, White, Desktop Compatible",
+    "brand": "Cooler Master",
+    "price": "$54.44",
+    "img": "https://m.media-amazon.com/images/I/41qDB9sdwpL._SL500_.jpg",
+    "features": [
+      "Fan Size: 120 x 120 x 25 mm Pack of 3",
+      "ARGB LED, loop dynamic bearing",
+      "Improved noise and performance fan blades, loop dynamic bearings and controller included",
+      "Fan Speed: 690~2500 ± 10% RPM, Fan Air Flow: 70.7 CFM, Fan Air Pressure: 3.61 mmH2O, Fan Noise Level: 32.8 dB(A) Fan Life (MTTF):>200,000 hours, Fan Connector: 4-Pin",
+      "Warranty: 2 years"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Cooler Master SickleFlow 120 ARGB"
+    ]
+  },
+  "B0DWJS1HZZ": {
+    "asin": "B0DWJS1HZZ",
+    "title": "Cooler Master SickleFlow Edge 360 Single-Frame aRGB PC Case|Liquid Cooler Fan, 360mm, Single Modular Cable, PWM 2,050 RPM, Air Balance Blades, Loop Dynamic Bearing, Radiant aRGB Lighting",
+    "brand": "Cooler Master",
+    "price": "$34.98",
+    "img": "https://m.media-amazon.com/images/I/31LRlWkNRTL._SL500_.jpg",
+    "features": [
+      "Single-Frame: A single-frame unit optimizes internal airflow, efficiently dissipating heat and enhancing overall cooling performance.",
+      "Integrated Design: This lightweight, durable fan module with triangular vents enhances airflow and longevity without adding bulk.",
+      "Seamless Link: Utilizes a single modular cable for both lighting and power, streamlining cable management and enhancing aesthetics.",
+      "Dynamic PWM Fan: A PWM 4-pin header allows adjustable fan speeds from 0 to 2,050 RPM, to balance noise and airflow.",
+      "Frosted Blade Design: The frosted blade enhances the dispersion of aRGB lighting, creating a vibrant and customizable luminous effect."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Cooler Master SickleFlow 120 ARGB"
+    ]
+  },
+  "B0C8M192HS": {
+    "asin": "B0C8M192HS",
+    "title": "Thermaltake TOUGHFAN 12 Pro High Static Pressure PC Cooling Fan, PWM Controlled 500~2000 RPM, Air Flow 70.8 CFM, Gen.2 Hydraulic Bearing 120mm Case/Radiator Fan (2 Pack) CL-F159-PL12BL-A",
+    "brand": "Thermaltake",
+    "price": "$44.99",
+    "img": "https://m.media-amazon.com/images/I/41hxmfMjgVL._SL500_.jpg",
+    "features": [
+      "TOUGHFAN 12 Pro can provide an outstanding performance of 70.8 CFM airflow, and 3.19-H2O static pressure under 22.6 dB-A noise level",
+      "The special tight tip clearance of 0.6mm reduces airflow leakage and improves efficiency when working with heatsinks and radiators.",
+      "Optimized Metal-Reinforced Motor Hub",
+      "The 2nd Generation Hydraulic Bearing",
+      "5 Year Warranty"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Thermaltake Toughfan 12 Pro"
+    ]
+  },
+  "B0C8LN919S": {
+    "asin": "B0C8LN919S",
+    "title": "Thermaltake TOUGHFAN 12 Pro High Static Pressure PC Cooling Fan, PWM Controlled 500~2000 RPM, Air Flow 70.8 CFM, Gen.2 Hydraulic Bearing 120mm Case/Radiator Fan (1 Pack) CL-F139-PL12BL-A Black",
+    "brand": "Thermaltake",
+    "price": "$24.99",
+    "img": "https://m.media-amazon.com/images/I/41JLdGcxqJL._SL500_.jpg",
+    "features": [
+      "TOUGHFAN 12 Pro can provide an outstanding performance of 70.8 CFM airflow, and 3.19-H2O static pressure under 22.6 dB-A noise level",
+      "The special tight tip clearance of 0.6mm reduces airflow leakage and improves efficiency when working with heatsinks and radiators.",
+      "Optimized Metal-Reinforced Motor Hub",
+      "The 2nd Generation Hydraulic Bearing",
+      "5 Year Warranty"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Thermaltake Toughfan 12 Pro"
+    ]
+  },
+  "B0CWZG6YDG": {
+    "asin": "B0CWZG6YDG",
+    "title": "Thermaltake TOUGHFAN EX12 Pro PC Cooling Fan, Magnetic Connection, Swappable Fan Blade, PWM Controlled 500~2000 RPM, Air Flow 70.8 CFM, 120mm Case/Radiator Fan (3 Pack) CL-F171-PL12BL-A",
+    "brand": "Thermaltake",
+    "price": "$79.99",
+    "img": "https://m.media-amazon.com/images/I/418U3haetSL._SL500_.jpg",
+    "features": [
+      "MagForce 2.0, a new Magnetic Connection Design for optimized fan daisy-chaining",
+      "Swappable Fan Blade Design (includes 3 additional reverse fan blades)",
+      "PWM Controlled Fan with a maximum speed of 2000 RPM",
+      "Specially Engineered Fan Blade for unparalleled performance",
+      "Features LCP material fan blade to lower vibration"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Thermaltake Toughfan 12 Pro"
+    ]
+  },
+  "B0DJDNM6X8": {
+    "asin": "B0DJDNM6X8",
+    "title": "Thermaltake TOUGHFAN EX12 Pro Snow PC Cooling Fan, Magnetic Connection, Swappable Fan Blade, PWM Controlled 500~2000 RPM, Air Flow 70.8 CFM, 120mm (3 Pack) CL-F171-PL12WT-A",
+    "brand": "Thermaltake",
+    "price": "$79.99",
+    "img": "https://m.media-amazon.com/images/I/418CHCu5B4L._SL500_.jpg",
+    "features": [
+      "MagForce 2.0, a new Magnetic Connection Design for optimized fan daisy-chaining",
+      "Swappable Fan Blade Design (includes 3 additional reverse fan blades)",
+      "PWM Controlled Fan with a maximum speed of 2000 RPM",
+      "Specially Engineered Fan Blade for unparalleled performance",
+      "Features LCP material fan blade to lower vibration"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Thermaltake Toughfan 12 Pro"
+    ]
+  },
+  "B0DJDMF88P": {
+    "asin": "B0DJDMF88P",
+    "title": "Thermaltake TOUGHFAN EX14 Pro Snow PC Cooling Fan, Magnetic Connection, Swappable Fan Blade, PWM Controlled 500~2000 RPM, Air Flow 119.6 CFM, 140mm Case/Radiator Fan (3 Pack) CL-F172-PL14WT-A",
+    "brand": "Thermaltake",
+    "price": "$86.39",
+    "img": "https://m.media-amazon.com/images/I/418CHCu5B4L._SL500_.jpg",
+    "features": [
+      "MagForce 2.0, a new Magnetic Connection Design for optimized fan daisy-chaining",
+      "Swappable Fan Blade Design (includes 3 additional reverse fan blades)",
+      "PWM Controlled Fan with a maximum speed of 2000 RPM",
+      "Specially Engineered Fan Blade for unparalleled performance",
+      "Features LCP material fan blade to lower vibration"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Thermaltake Toughfan 12 Pro"
+    ]
+  },
+  "B0BKL1QYP3": {
+    "asin": "B0BKL1QYP3",
+    "title": "Thermalright TL-C12C X3 CPU Fan 120mm Case Cooler Fan, 4pin PWM Silent Computer Fan with S-FDB Bearing Included, up to 1550RPM Cooling （3 Quantities）",
+    "brand": "Thermalright",
+    "price": "$11.99",
+    "img": "https://m.media-amazon.com/images/I/41KqlL2aSvL._SL500_.jpg",
+    "features": [
+      "【High Performance Cooling Fan】 Automatic speed control of the motherboard through the 4PIN PWM fan cable interface, which can determine the speed according to the temperature of the motherboard, with a maximum speed of 1550RPM. Configured with up to 55cm of cable for PWM series control of fans, ideal for cases and CPU coolers.",
+      "【Quality Bearings】The carefully developed quality S-FDB bearings solve the problem of pc cooling fan blade shaking in lifting mode, keeping fan noise to a minimum while providing maximum cooling performance when needed and extending the life of the fan.",
+      "【Vibration reduction and low noise】 The case fan is equipped with four soft material silicone corner pads on all four sides, which can reduce the vibration and friction caused by the rotation of the fan, perfectly reducing noise and allowing low noise operation, so that cooling can be carried out in low noise.",
+      "【Silent Fan Size】 Model: TL-C12C X3, Size: 120*120*25mm, Speed: 1550RPM, Noise 25.6dBA Connector: 4pin pwm, Current: 0.20A, Air Pressure: 1.53mm H2O, Air Flow: 66.17CFM, Higher air flow for improved cooling performance.",
+      "【Perfect Match】The PC fan can be used not only as a case fan, but is also suitable for use with a cpu cooler to create a cooling effect together, which can take away the dry heat from the case and the high temperature generated by the CPU in operation, allowing for maximum cooling; Ideal for cases, radiators and CPU coolers."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Thermalright TL-C12C X3"
+    ]
+  },
+  "B0BKPG3T1M": {
+    "asin": "B0BKPG3T1M",
+    "title": "Thermalright TL-C12C X3 CPU Fan, 120mm 4pin PWM Silent Computer Case Cooler Fan,with S-FDB Bearing Included, up to 1550RPM PC Cooling（3 Quantities）",
+    "brand": "Thermalright",
+    "price": "$11.90",
+    "img": "https://m.media-amazon.com/images/I/41G5PhOJGzL._SL500_.jpg",
+    "features": [
+      "【High Performance Cooling Fan】 Automatic speed control of the motherboard through the 4PIN PWM fan cable interface, which can determine the speed according to the temperature of the motherboard, with a maximum speed of 1550RPM. Configured with up to 55cm of cable for PWM series control of fans, ideal for cases and CPU coolers.",
+      "【Quality Bearings】The carefully developed quality S-FDB bearings solve the problem of pc cooling fan blade shaking in lifting mode, keeping fan noise to a minimum while providing maximum cooling performance when needed and extending the life of the fan.",
+      "【Vibration Reduction and Low Noise】 The case fan is equipped with four soft material silicone corner pads on all four sides, which can reduce the vibration and friction caused by the rotation of the fan, perfectly reducing noise and allowing low noise operation, so that cooling can be carried out in low noise.",
+      "【Silent Fan Size】 Model: TL-C12C X3, Size: 120*120*25mm, Speed: 1550RPM±10%, Noise ≤ 25.6dBA Connector: 4pin pwm, Current: 0.20A, Air Pressure: 1.53mm H2O, Air Flow: 66.17CFM, Higher air flow for improved cooling performance.",
+      "【Perfect Match】The PC fan can be used not only as a case fan, but is also suitable for use with a cpu cooler to create a cooling effect together, which can take away the dry heat from the case and the high temperature generated by the CPU in operation, allowing for maximum cooling; Ideal for cases, radiators and CPU coolers."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Thermalright TL-C12C X3"
+    ]
+  },
+  "B0CXZ58VMP": {
+    "asin": "B0CXZ58VMP",
+    "title": "Thermalright TL-C12C X3 CPU Fan 120mm Case Cooler Fan, 4pin PWM Silent Computer Fan with S-FDB Bearing Included, up to 1550RPM Cooling",
+    "brand": "Thermalright",
+    "price": "$18.93",
+    "img": "https://m.media-amazon.com/images/I/41tFWzypFlL._SL500_.jpg",
+    "features": [
+      "【High Performance Cooling Fan】 Automatic speed control of the motherboard through the 4PIN PWM fan cable interface, which can determine the speed according to the temperature of the motherboard, with a maximum speed of 1550RPM. Configured with up to 55cm of cable for PWM series control of fans, ideal for cases and CPU coolers.",
+      "【Quality Bearings】The carefully developed quality S-FDB bearings solve the problem of pc cooling fan blade shaking in lifting mode, keeping fan noise to a minimum while providing maximum cooling performance when needed and extending the life of the fan.",
+      "【Vibration reduction and low noise】 The case fan is equipped with four soft material silicone corner pads on all four sides, which can reduce the vibration and friction caused by the rotation of the fan, perfectly reducing noise and allowing low noise operation, so that cooling can be carried out in low noise.",
+      "【Silent Fan Size】 Model: TL-C12C X3, Size: 120*120*25mm, Speed: 1550RPM, Noise 25.6dBA Connector: 4pin pwm, Current: 0.20A, Air Pressure: 1.53mm H2O, Air Flow: 66.17CFM, Higher air flow for improved cooling performance.",
+      "【Perfect Match】The PC fan can be used not only as a case fan, but is also suitable for use with a cpu cooler to create a cooling effect together, which can take away the dry heat from the case and the high temperature generated by the CPU in operation, allowing for maximum cooling; Ideal for cases, radiators and CPU coolers."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Thermalright TL-C12C X3"
+    ]
+  },
+  "B0G39DCF81": {
+    "asin": "B0G39DCF81",
+    "title": "Thermalright TL-M12Q-S X3 120mm ARGB Case Fans, 2000RPM, 68.9CFM, 3-Pack",
+    "brand": "Thermalright",
+    "price": "$26.90",
+    "img": "https://m.media-amazon.com/images/I/41ReLnX0-WL._SL500_.jpg",
+    "features": [
+      "3-pack 120mm PWM ARGB case fans with lighted fan blades and infinity mirror lighting for a fuller RGB look inside desktop PC builds",
+      "Daisy chain PWM and ARGB connections keep multi-fan wiring cleaner than running separate cables from each fan",
+      "Runs up to 2000RPM with 68.9CFM airflow and 2.21mmH2O air pressure for case intake, exhaust, or radiator use",
+      "ARGB fan blades and dual-side infinity mirror lighting add a stronger visual look in glass-panel cases and visible fan positions",
+      "4-pin PWM speed control and 3-pin 5V ARGB connection work with compatible motherboard headers and lighting software"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Thermalright TL-C12C X3"
+    ]
+  },
+  "B08PYPQ8SB": {
+    "asin": "B08PYPQ8SB",
+    "title": "ID-COOLING XF-12025-ARGB-TRIO 120mm Case Fan, 3 Pack, Low Noise, ARGB",
+    "brand": "ID-COOLING",
+    "price": "$18.99",
+    "img": "https://m.media-amazon.com/images/I/41azVLJoctL._SL500_.jpg",
+    "features": [
+      "【PWM fan】The PWM fan control allows for dynamic speed adjustment between 700 rpm to 1, 500 rpm, minimizing noise or maximizing airflow. Max. Air Flow: 62CFM",
+      "【Addressable RGB Lighting】The Addressable RGB lighting is adjustable to match your PC build.",
+      "【RGB Sync】The addressable RGB lighting can sync with the motherboard via the 5V 3PIN connector.",
+      "【Compatibility】The standard 120X120X25mm cooling fan is designed to match the CPU cooler, CPU water cooler, pc case, etc.",
+      "【Superior Build Quality】High quality fan blades and frame built-in extremely even light diffuser. The 120mm fan Blade engineered for Low-Noise operation without sacrificing performance"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "ID-COOLING XF-120 fan"
+    ]
+  },
+  "B08GK85BFL": {
+    "asin": "B08GK85BFL",
+    "title": "ID-COOLING NO-12015-XT-ARGB 120mm Slim PWM ARGB Case Fan, 15mm Thick",
+    "brand": "ID-COOLING",
+    "price": "$10.99",
+    "img": "https://m.media-amazon.com/images/I/41KjdwS2JbL._SL500_.jpg",
+    "features": [
+      "【PWM fan】The PWM fan control allows for dynamic speed adjustment between 500 rpm to 2, 000 rpm, minimizing noise or maximizing airflow. Max. Air Flow: 54.6CFM; Noise: 13.8~31.2dB(A)",
+      "【RGB Sync】The Addressable RGB lighting can sync with the motherboard with a 5V 3PIN connector.",
+      "【Compatibility】The standard 120X120X15mm cooling fan is designed to match the CPU cooler, CPU water cooler, pc case, etc..",
+      "【15mm thickness】The RGB case fan is ideal for low-profile CPU coolers, HTPCs, ITX builds, space-restricted applications with 15mm thickness to save more space.",
+      "【Superior Build Quality】High quality fan blades and frame built-in extremely even light diffuser. The 120mm fan Blade engineered for Low-Noise operation without sacrificing performance."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "ID-COOLING XF-120 fan"
+    ]
+  },
+  "B0D1C4VGFC": {
+    "asin": "B0D1C4VGFC",
+    "title": "ID-COOLING AS-120-K Trio 120mm PWM Case Fans 3-Pack, Low Noise",
+    "brand": "ID-COOLING",
+    "price": "$19.99",
+    "img": "https://m.media-amazon.com/images/I/41vL8U8yDgL._SL500_.jpg",
+    "features": [
+      "【Powerful Fan】Controlled fan speeds from 300 RPM up to 2,000 RPM, pushing up to 58 CFM of air with 1.94mm-H2O of static pressure.",
+      "【Extreme Cooling】The 120mm case fan delivers improved air pressure and airflow for extreme cooling. | Max. Air Pressure: 1.94mmH2O | Max. Air Flow: 58CFM",
+      "【Super Silent】A hydraulic bearing delivers long-lasting durability and minimal noise, as the 120mm fan blade spins as quietly as 27.2 dBA Max.",
+      "【Compatibility】The fan can be used for concentrated cooling, like CPU air coolers, radiators, PC cases, etc. as both an intake and exhaust fan.",
+      "【Simple Cable Management】The computer fan connects each device to the next with its daisy chain connector, this can reduce clutter and make cable management simpler.",
+      "【Aesthetic Appeal】A black PC fan can blend seamlessly into the design of many computer cases, especially those with black or dark-colored interiors."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "ID-COOLING XF-120 fan"
+    ]
+  },
+  "B0BSP53PDX": {
+    "asin": "B0BSP53PDX",
+    "title": "Thermaltake CT120 ARGB Sync PC Cooling Fan (2-Fan Pack), 5V Motherboard Sync, 16.8 Million Colors 9 Addressable LEDs, 120 mm Hydraulic Bearing Case/Radiator Fan, CL-F149-PL12SW-A",
+    "brand": "Thermaltake",
+    "price": "$34.99",
+    "img": "https://m.media-amazon.com/images/I/51F2HgN7cVL._SL500_.jpg",
+    "features": [
+      "Redefined 7-blade Fan design for optimized CFM and mm-H20 Air pressure",
+      "Daisy-Chain design with less cables and fewer ports required",
+      "PWM control with fan speeds up to 2000 RPM",
+      "9 addressable LEDs controlled by 5V motherboard sync software",
+      "Anti-vibration mounting system with solid structure frame"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "ID-COOLING XF-120 fan"
+    ]
+  },
+  "B0FJFNW8QV": {
+    "asin": "B0FJFNW8QV",
+    "title": "GSCOLER FC120 3-in-1 Integrated ARGB Case Fans, 120mm PWM PC Cooling Fan with Infinity Mirror, Daisy Chain, Remote Control, High Airflow HDB Bearing - Reverse Blade Version",
+    "brand": "GSCOLER",
+    "price": "$35.99",
+    "img": "https://m.media-amazon.com/images/I/4196UrvBpyL._SL500_.jpg",
+    "features": [
+      "【Infinity Mirror & ARGB Daisy-Chain】Dual-sided infinity mirror brings soft, layered light effects. With multiple dynamic modes including music sync function and ARGB daisy-chain design, one single cable can sync multiple fans for ultra clean and tidy PC interior wiring. It is fully compatible with mainstream motherboard RGB synchronization software like AURA Sync, RGB Fusion and Polychrome Sync to create immersive gaming lighting atmosphere.",
+      "【Dual Control & Music Sync Lighting】Supports dual adjustment modes of wireless remote control and motherboard software synchronization. The portable remote allows you to freely switch fan speed and lighting modes without software operation. Built-in music sync mode enables the lighting effect to change rhythmically with surrounding sound, upgrading immersive gaming and entertainment experience.",
+      "【High Airflow & Durable Construction】Delivers up to 52.62 CFM high airflow to efficiently take away internal heat of the computer and prevent hardware overheating. Equipped with shock-absorbing silicone pads to reduce operating vibration and wear. The whole machine is made of high-strength ABS material with 60000-hour long service life, and complete accessories are provided to realize quick and trouble-free installation.",
+      "【HDB Bearing & Ultra-Quiet Operation】Adopts upgraded high-quality HDB hydrodynamic bearing structure, which effectively reduces internal friction and vibration noise. The fan operates stably with a maximum noise of only 32dB at full speed, realizing quiet heat dissipation. It supports 800-1800RPM 4-Pin PWM intelligent speed regulation, automatically adjusting speed according to equipment temperature to balance cooling performance and mute effect.",
+      "【Reverse Blade & Universal Compatibility】Exclusive optimized reverse blade design greatly improves exhaust airflow efficiency, perfectly matching daily heat dissipation and air duct layout needs of PC cases. The standard 120mm size fits most ATX, ITX and Micro ATX chassis, CPU air coolers and liquid cooling radiators, realizing versatile installation and use without additional modification."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "DEEPCOOL FC120 3 in 1"
+    ]
+  },
+  "B0DFM4XXLC": {
+    "asin": "B0DFM4XXLC",
+    "title": "DARKROCK White F120 3in1 120mm Infinite Mirror Design Case Fans",
+    "brand": "DARKROCK",
+    "price": "$14.99",
+    "img": "https://m.media-amazon.com/images/I/41WMbm9ebTL._SL500_.jpg",
+    "features": [
+      "Infinity Design: Infinity Mirror Design case fans provide Infinity visualization of the center and sides of the fan, allowing you to experience stunning multi-layered effects",
+      "Adjustable Lighting Effect: ARGB lighting on fan blades and frame, creating stunning lighting effect for the PC chassis",
+      "Optimized Cooling Performance: Nine fan blades plus PWM control allow fans to adjust fan speed from 800 - 1600 RPM ± 10% to provide optimal cooling performance",
+      "Low-noise Operation: Hydraulic bearing and eight rubber pads provide fans low-noise, stable and durable operation",
+      "Suitable Size: 120mm size makes it suitable for most PC chassis, air coolers, and water cooling systems to meet different cooling needs"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "DEEPCOOL FK120"
+    ]
+  },
+  "B08W52T66Y": {
+    "asin": "B08W52T66Y",
+    "title": "SCYTHE Kaze Flex 120mm Quiet Fan, PWM 300-1500RPM, Black",
+    "brand": "SCYTHE",
+    "price": "$8.57",
+    "img": "https://m.media-amazon.com/images/I/41kkPxcI7nL._SL500_.jpg",
+    "features": [
+      "Use a self-contained liquid bearing (Sealed Precision FDB). The bearing and the spindle are made of high quality compressed metal and are lubricated by a special oil film resistant to temperatures of up to 250C° / 480F°. This drastically reduces friction, ensuring smooth operation and reduced wear, which results in an average life-span of 120 000 hours.",
+      "Included vibration- and shock absorbing rubber pads which cover the tunnelless mounting holes. These decouplers effectively eliminate possible vibrations and allow low-noise operation.",
+      "High airflow with low noise contribution as quiet case fan",
+      "Dimension: 120x120x25mm, MTTF: 120,000hours"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Scythe Kaze Flex 120 PWM"
+    ]
+  },
+  "B0BRS386MV": {
+    "asin": "B0BRS386MV",
+    "title": "Scythe Kaze Flex II 120 PWN, 120mm x 25mm Air Flow Optimized Quiet Operating Computer Case Fan, Fluid Dynamic Bearing, 4-Pin Connector, Single Pack (Standard Edition - 1500 RPM)",
+    "brand": "SCYTHE",
+    "price": "$6.90",
+    "img": "https://m.media-amazon.com/images/I/41xAgC2xX9L._SL500_.jpg",
+    "features": [
+      "The Kaze Flex II 120mm PWN case fan conveys a neat elegant design with a low-noise focused concept at low decibel level, providing long-term durability with SCYTHE top-tier craftsmanship.",
+      "The Kaze Flex II 120mm PWN Case Fan, Regular Sp, is carefully structured with 11 highly optimized fan blades which are designed to generate the maximal CFM volume and ample airflow.",
+      "The housing of the renowned Kaze Flex is now upgraded with an improved fan frame that focuses on delivering higher airflow and lower noise operation, the Kaze Flex II fan frame is 1mm slimmer than its predecessor which provides even more space for Mini-ITX PC Enthusiasts.",
+      "With proprietary Fluid Dynamic Bearing, Kaze Flex II 120mm fan operates quiet cooling as well as long lifespan up to 120,000 hours. The bearing and pressure shaft of fan impeller are made of high-quality compressed metal, it is to guarantee the minimum tolerance and excellent stability."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Scythe Kaze Flex 120 PWM"
+    ]
+  },
+  "B0BRRQCF46": {
+    "asin": "B0BRRQCF46",
+    "title": "Scythe Kaze Flex II 120 Slim PWN Premium Slim PC Fan,120mm x 15mm, Fluid Dynamic Bearing, 4-Pin Connector (Kaze Flex II Slim, 1800RPM)",
+    "brand": "SCYTHE",
+    "price": "$11.21",
+    "img": "https://m.media-amazon.com/images/I/41FGwmmarxL._SL500_.jpg",
+    "features": [
+      "SCYTHE newly designed Kaze Flex II 120x120x15 mm High performance PWM fan, Sleek slim design, low-noise focused design, long term durability with top-tier craftsmanship",
+      "SCYTHE Kaze Flex II 120mm PWM case fan is carefully structured with 11 highly optimised fan blades which are designed to generate the maximal CFM volume airflow",
+      "The housing of the renowned Kaze Flex is now upgraded with an improved fan frame that focuses on delivering higher airflow and lower noise operation, the Kaze Flex II fan frame is 1mm slimmer than its predecessor which provide even more space for Mini-ITX PC Enthusiasts.",
+      "With proprietary Fluid Dynamic Bearing, Kaze Flex II 120 fan provides quiet cooling as well as long lifespan up to 120,000 hours. The bearing and pressure shaft are made of high-quality compressed metal, it is to guarantee minimum tolerance and excellent stability."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Scythe Kaze Flex 120 PWM"
+    ]
+  },
+  "B0BRS48BVN": {
+    "asin": "B0BRS48BVN",
+    "title": "Scythe Kaze Flex II 120 PWN, 120mm x 25mm Air Flow Optimized Quiet Operating Computer Case Fan, Fluid Dynamic Bearing, 4-Pin Connector, Single Pack (Peformance Edition - 2000 RPM)",
+    "brand": "SCYTHE",
+    "price": "$7.03",
+    "img": "https://m.media-amazon.com/images/I/41xAgC2xX9L._SL500_.jpg",
+    "features": [
+      "The Kaze Flex II 120mm PWN case fan conveys a neat elegant design with a low-noise focused concept at low decibel level, providing long-term durability with SCYTHE top-tier craftsmanship.",
+      "The Kaze Flex II 120mm PWN Case Fan, Regular Sp, is carefully structured with 11 highly optimized fan blades which are designed to generate the maximal CFM volume and ample airflow.",
+      "The housing of the renowned Kaze Flex is now upgraded with an improved fan frame that focuses on delivering higher airflow and lower noise operation, the Kaze Flex II fan frame is 1mm slimmer than its predecessor which provides even more space for Mini-ITX PC Enthusiasts.",
+      "With proprietary Fluid Dynamic Bearing, Kaze Flex II 120mm fan operates quiet cooling as well as long lifespan up to 120,000 hours. The bearing and pressure shaft of fan impeller are made of high-quality compressed metal, it is to guarantee the minimum tolerance and excellent stability."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Scythe Kaze Flex 120 PWM"
+    ]
+  },
+  "B0BRRM9G2J": {
+    "asin": "B0BRRM9G2J",
+    "title": "Scythe Kaze Flex II 120 Slim PWN Premium Slim PC Fan,120mm x 15mm, Fluid Dynamic Bearing, 4-Pin Connector (Kaze Flex II Slim, 1500RPM)",
+    "brand": "SCYTHE",
+    "price": "$11.21",
+    "img": "https://m.media-amazon.com/images/I/41FGwmmarxL._SL500_.jpg",
+    "features": [
+      "SCYTHE newly designed Kaze Flex II 120x120x15 mm High performance PWM fan, Sleek slim design, low-noise focused design, long term durability with top-tier craftsmanship",
+      "SCYTHE Kaze Flex II 120mm PWM case fan is carefully structured with 11 highly optimised fan blades which are designed to generate the maximal CFM volume airflow",
+      "The housing of the renowned Kaze Flex is now upgraded with an improved fan frame that focuses on delivering higher airflow and lower noise operation, the Kaze Flex II fan frame is 1mm slimmer than its predecessor which provide even more space for Mini-ITX PC Enthusiasts.",
+      "With proprietary Fluid Dynamic Bearing, Kaze Flex II 120 fan provides quiet cooling as well as long lifespan up to 120,000 hours. The bearing and pressure shaft are made of high-quality compressed metal, it is to guarantee minimum tolerance and excellent stability."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Scythe Kaze Flex 120 PWM"
+    ]
+  },
+  "B0BRRX797Z": {
+    "asin": "B0BRRX797Z",
+    "title": "Scythe Kaze Flex II 120 PWN - 1200 RPM, 120mm x 25mm Air Flow Optimized Quiet Operating Computer Case Fan, Fluid Dynamic Bearing, 4-Pin Connector, Single Pack, Black",
+    "brand": "SCYTHE",
+    "price": "$9.87",
+    "img": "https://m.media-amazon.com/images/I/41xAgC2xX9L._SL500_.jpg",
+    "features": [
+      "The Kaze Flex II 120mm PWN case fan conveys a neat elegant design with a low-noise focused concept at low decibel level, providing long-term durability with SCYTHE top-tier craftsmanship.",
+      "The Kaze Flex II 120mm PWN Case Fan, Regular Sp, is carefully structured with 11 highly optimized fan blades which are designed to generate the maximal CFM volume and ample airflow.",
+      "The housing of the renowned Kaze Flex is now upgraded with an improved fan frame that focuses on delivering higher airflow and lower noise operation, the Kaze Flex II fan frame is 1mm slimmer than its predecessor which provides even more space for Mini-ITX PC Enthusiasts.",
+      "With proprietary Fluid Dynamic Bearing, Kaze Flex II 120mm fan operates quiet cooling as well as long lifespan up to 120,000 hours. The bearing and pressure shaft of fan impeller are made of high-quality compressed metal, it is to guarantee the minimum tolerance and excellent stability.",
+      "Fan speed : 300±200~1200±10%, Airflow : 16.90~52.94CFM, Static Pressure : 0.075~0.97 mm H₂O, Noise : 4.0~23.8 dBA, Dimension : 120 x 120 x 26 mm Current : 12V, Weight : 215 g ± 10%,"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Scythe Kaze Flex 120 PWM"
+    ]
+  },
+  "B07YD39YWH": {
+    "asin": "B07YD39YWH",
+    "title": "Scythe Kaze Flex II 120 Slim PWN Premium Slim PC Fan,120mm x 15mm, Fluid Dynamic Bearing, 4-Pin Connector (Kaze Flex Slim RGB, 1800RPM)",
+    "brand": "SCYTHE",
+    "price": "$9.47",
+    "img": "https://m.media-amazon.com/images/I/410Fd1hNO5L._SL500_.jpg",
+    "features": [
+      "SCYTHE newly designed Kaze Flex II 120x120x15 mm High performance PWM fan, Sleek slim design, low-noise focused design, long term durability with top-tier craftsmanship",
+      "SCYTHE Kaze Flex II 120mm PWM case fan is carefully structured with 11 highly optimised fan blades which are designed to generate the maximal CFM volume airflow",
+      "The housing of the renowned Kaze Flex is now upgraded with an improved fan frame that focuses on delivering higher airflow and lower noise operation, the Kaze Flex II fan frame is 1mm slimmer than its predecessor which provide even more space for Mini-ITX PC Enthusiasts.",
+      "With proprietary Fluid Dynamic Bearing, Kaze Flex II 120 fan provides quiet cooling as well as long lifespan up to 120,000 hours. The bearing and pressure shaft are made of high-quality compressed metal, it is to guarantee minimum tolerance and excellent stability."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Scythe Kaze Flex 120 PWM"
+    ]
+  },
+  "B0CHDKK6XF": {
+    "asin": "B0CHDKK6XF",
+    "title": "Scythe 120mm Kaze Flex II Slim 1800RPM Fan - Computer Fan - 120mm x 15mm - Enclosure Compatible - 48 CFM - 2.58 to 27.80 dBA",
+    "brand": "SCYTHE",
+    "price": "$10.53",
+    "img": "https://m.media-amazon.com/images/I/416KQscBEuL._SL500_.jpg",
+    "features": [
+      "Minimalist aesthetic version in White color to match any cabinet and hardware combination.",
+      "Perfect balance between performance and noise level with PWM functionality for rotation control",
+      "Precision dynamic fluid sealed bearing provides quiet operation in line with high durability made with high quality materials.",
+      "Anti-vibration system with rubber pads around screw installation points."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Scythe Kaze Flex 120 PWM"
+    ]
+  },
+  "B0FVXTYLX7": {
+    "asin": "B0FVXTYLX7",
+    "title": "ARCTIC P12 Pro PST LN, Electronic Component Fan, Compatible for Desktops, 4.72\" Length ( Pack of 5), Black Color",
+    "brand": "ARCTIC",
+    "price": "$17.29",
+    "img": "https://m.media-amazon.com/images/I/41wVHPVfNeL._SL500_.jpg",
+    "features": [
+      "An automated measuring and balancing process ensures exceptional precision and smooth performance by applying the balancing compound with pinpoint accuracy.",
+      "Reduces motor noise, compensates for load fluctuations, and protects against inrush currents and reverse polarity.",
+      "The fan delivers more performance at low speeds with higher airflow and static pressure at just 25 dB(A) – ideal for quiet, powerful cooling.",
+      "Enables higher static pressure and maximum airflow efficiency.",
+      "ARCTIC P12 Pro PST LN (5 Pack)."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "ARCTIC P12 Max"
+    ]
+  },
+  "B0DJDCBCC2": {
+    "asin": "B0DJDCBCC2",
+    "title": "ARCTIC P12 Pro PST CO - Powerful Premium Fan for Continuous Operation",
+    "brand": "ARCTIC",
+    "price": "$8.19",
+    "img": "https://m.media-amazon.com/images/I/41bVJwOAskL._SL500_.jpg",
+    "features": [
+      "HIGH STATIC PRESSURE: Efficient even with resistance – the generated airflow easily penetrates dense radiators, narrow perforated panels and mesh structures and ensures reliable cooling",
+      "PWM CONTROL WITH WIDE SPEED RANGE: The speed can be progressively adjusted up to 3000 rpm via the 4-pin PWM connection – the fan stops completely at less than 5% PWM",
+      "PRECISE MANUFACTURING FOR MAXIMUM SMOOTH RUNNING: Minimal gaps, automatic balancing and high-precision measurement noticeably reduce vibrations – for quiet, efficient and long-lasting performance",
+      "ROBUST DOUBLE BALL BEARING (DBB): The durable bearing with an extended shaft ensures high load capacity in continuous operation – ideal for demanding environments and high speeds",
+      "NEW FAN BLADE DESIGN FOR MORE PERFORMANCE: The redesigned rotor blades offer an optimal balance of performance and low noise – especially efficient at low speeds"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "ARCTIC P12 Max"
+    ]
+  },
+  "B07ZP46RNR": {
+    "asin": "B07ZP46RNR",
+    "title": "Noctua NF-A20 PWM chromax.Black.swap, High-Performance Quiet Fan 200mm",
+    "brand": "Noctua",
+    "price": "$39.95",
+    "img": "https://m.media-amazon.com/images/I/417fThkW+wL._SL500_.jpg",
+    "features": [
+      "Premium quiet fan, 200x200x30 mm, 12V, 4-pin PWM, max. 800 RPM, max. 18.1 dB(A), >150,000 h MTTF",
+      "Award-winning 200x30mm A-series fan with Flow Acceleration Channels and Advanced Acoustic Optimisation frame for superior quiet cooling performance",
+      "Large 20cm diameter for high airflow at extremely low noise levels; 154x154, 170x170 & 110x180mm mounting holes for broad compatibility with various PC cases",
+      "4-pin PWM version for automatic speed control via 4-pin PWM motherboard fan headers, 350-800rpm speed range",
+      "chromax.black.swap edition with all-black design and swappable red, black, white, blue, yellow and green anti-vibration pads for colour-customising (4 pads of each colour)"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Noctua NF-A12x25 PWM chromax"
+    ]
+  },
+  "B07C5L4QGN": {
+    "asin": "B07C5L4QGN",
+    "title": "Noctua NF-P12 redux-1300, Quiet Fan 120mm",
+    "brand": "Noctua",
+    "price": "$16.45",
+    "img": "https://m.media-amazon.com/images/I/41WW6lGd9sL._SL500_.jpg",
+    "features": [
+      "Quiet Fan, 120x120x25 mm, 12V, 3-pin Molex, 1300 RPM, 19.8 dB(A), >150,000 h MTTF",
+      "Renowned NF-P12 high-end 120x25mm 12V fan, more than 100 awards and recommendations from international computer hardware websites and magazines, hundreds of thousands of satisfied users",
+      "Pressure-optimised blade design with outstanding quietness of operation: high static pressure and strong CFM for air-based CPU coolers, water cooling radiators or low-noise chassis ventilation",
+      "1300rpm 3-pin version with excellent balance of performance and quietness, speed can be controlled with optional NA-SRC10 Low-Noise Adaptors or by reducing voltage",
+      "Streamlined redux edition: proven Noctua quality at an attractive price point, wide range of optional accessories (anti-vibration mounts, S-ATA adaptors, y-splitters, extension cables, etc.)"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Noctua NF-P12 redux-1300"
+    ]
+  },
+  "B07CG2PGVG": {
+    "asin": "B07CG2PGVG",
+    "title": "Noctua NF-P12 redux-1300 PWM, Quiet Fan 120mm",
+    "brand": "Noctua",
+    "price": "$16.45",
+    "img": "https://m.media-amazon.com/images/I/41WW6lGd9sL._SL500_.jpg",
+    "features": [
+      "Quiet fan, 120x120x25 mm, 12V, 4-pin PWM, max. 1300 RPM, max. 19.8 dB(A), >150,000 h MTTF",
+      "Renowned NF-P12 high-end 120x25mm 12V fan, more than 100 awards and recommendations from international computer hardware websites and magazines, hundreds of thousands of satisfied users",
+      "Pressure-optimised blade design with outstanding quietness of operation: high static pressure and strong CFM for air-based CPU coolers, water cooling radiators or low-noise chassis ventilation",
+      "1300rpm 4-pin PWM version with excellent balance of performance and quietness, supports automatic motherboard speed control (powerful airflow when required, virtually silent at idle)",
+      "Streamlined redux edition: proven Noctua quality at an attractive price point, wide range of optional accessories (anti-vibration mounts, S-ATA adaptors, y-splitters, extension cables, etc.)"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Noctua NF-P12 redux-1300"
+    ]
+  },
+  "B0H7YZNQ6R": {
+    "asin": "B0H7YZNQ6R",
+    "title": "Noctua NF-P12 redux-1700 PWM, High Performance Cooling Fan, 4-Pin, 1700 RPM (120mm, Grey) (Pack of 3)",
+    "brand": "Noctua",
+    "price": "$49.35",
+    "img": "https://m.media-amazon.com/images/I/415GwkBZo1L._SL500_.jpg",
+    "features": [
+      "The information below is per-pack only",
+      "High performance cooling fan, 120x120x25 mm, 12V, 4-pin PWM, max. 1700 RPM, max. 25.1 dB(A), >150,000 h MTTF",
+      "Renowned NF-P12 high-end 120x25mm 12V fan, more than 100 awards and recommendations from international computer hardware websites and magazines, hundreds of thousands of satisfied users",
+      "Pressure-optimised blade design with outstanding quietness of operation: high static pressure and strong CFM for air-based CPU coolers, water cooling radiators or low-noise chassis ventilation",
+      "1700rpm 4-pin PWM version with excellent balance of performance and quietness, supports automatic motherboard speed control (powerful airflow when required, virtually silent at idle)",
+      "Streamlined redux edition: proven Noctua quality at an attractive price point, wide range of optional accessories (anti-vibration mounts, S-ATA adaptors, y-splitters, extension cables, etc.)"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Noctua NF-P12 redux-1300"
+    ]
+  },
+  "B07C5KZX85": {
+    "asin": "B07C5KZX85",
+    "title": "Noctua NF-P12 redux-900, Quiet Fan 120mm",
+    "brand": "Noctua",
+    "price": "$16.45",
+    "img": "https://m.media-amazon.com/images/I/41WW6lGd9sL._SL500_.jpg",
+    "features": [
+      "Ultra low noise fan, 120x120x25 mm, 12V, 3-pin Molex, 900 RPM, 12.6 dB(A), >150,000 h MTTF",
+      "Renowned NF-P12 high-end 120x25mm 12V fan, more than 100 awards and recommendations from international computer hardware websites and magazines, hundreds of thousands of satisfied users",
+      "Pressure-optimised blade design with outstanding quietness of operation: high static pressure and strong CFM for air-based CPU coolers, water cooling radiators or low-noise chassis ventilation",
+      "Low-speed ultra-quiet 900rpm 3-pin version for demanding silent enthusiasts, virtually inaudible with optional NA-SRC10 Low-Noise Adaptors or at reduced voltage",
+      "Streamlined redux edition: proven Noctua quality at an attractive price point, wide range of optional accessories (anti-vibration mounts, S-ATA adaptors, y-splitters, extension cables, etc.)"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Noctua NF-P12 redux-1300"
+    ]
+  },
+  "B00KF7PPY4": {
+    "asin": "B00KF7PPY4",
+    "title": "Noctua NF-S12B redux-1200, PWM Quiet Fan 120mm",
+    "brand": "Noctua",
+    "price": "$16.95",
+    "img": "https://m.media-amazon.com/images/I/413CAmSwUtL._SL500_.jpg",
+    "features": [
+      "High performance cooling fan, 120x120x25 mm, 12 V, 4-pin PWM, max. 1200 RPM, max. 18.1 dB(A), >150,000 h MTTF",
+      "Renowned NF-S12B high-end 120x25mm 12V fan, more than 100 awards and recommendations from international computer hardware websites and magazines, hundreds of thousands of satisfied users",
+      "Airflow-optimised blade design with high CFM and outstanding quietness of operation, ideal for low-noise case cooling, chassis ventilation and other applications with low airflow resistance",
+      "1200rpm 4-pin PWM version with excellent balance of performance and quietness, supports automatic motherboard speed control (powerful airflow when required, virtually silent at idle)",
+      "Streamlined redux edition: proven Noctua quality at an attractive price point, wide range of optional accessories (anti-vibration mounts, S-ATA adaptors, y-splitters, extension cables, etc.)"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Noctua NF-P12 redux-1300"
+    ]
+  },
+  "B00L8IYCJI": {
+    "asin": "B00L8IYCJI",
+    "title": "Noctua NF-S12B redux-700, Quiet Fan 120mm",
+    "brand": "Noctua",
+    "price": "$16.95",
+    "img": "https://m.media-amazon.com/images/I/413CAmSwUtL._SL500_.jpg",
+    "features": [
+      "Ultra low noise fan, 120x120x25mm, 12V, 3-pin Molex, 700 RPM, 6.8 dB(A), >150,000 h MTTF",
+      "Renowned NF-S12B high-end 120x25mm 12V fan, more than 100 awards and recommendations from international computer hardware websites and magazines, hundreds of thousands of satisfied users",
+      "Airflow-optimised blade design with high CFM and outstanding quietness of operation, ideal for low-noise case cooling, chassis ventilation and other applications with low airflow resistance",
+      "Low-speed ultra-quiet 700rpm 3-pin version for demanding silent enthusiasts, virtually inaudible with optional NA-SRC10 Low-Noise Adaptors or at reduced voltage",
+      "Streamlined redux edition: proven Noctua quality at an attractive price point, wide range of optional accessories (anti-vibration mounts, S-ATA adaptors, y-splitters, extension cables, etc.)"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Noctua NF-P12 redux-1300"
+    ]
+  },
+  "B08KW7MJSW": {
+    "asin": "B08KW7MJSW",
+    "title": "Fractal Design Aspect 12 RGB 120 mm 1200 RPM Black Frame Computer Fan",
+    "brand": "Fractal Design",
+    "price": "$17.99",
+    "img": "https://m.media-amazon.com/images/I/31w1ncOpBsS._SL500_.jpg",
+    "features": [
+      "Less turbulence thanks to aerodynamic stator struts",
+      "Trip Wire technology introduces a micro-turbulent layer for enhanced blade efficiency",
+      "Supports chaining to simplify cable management",
+      "Rifle bearings – more efficient than standard sleeve",
+      "Combines aesthetic design and reliable performance"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Fractal Design Aspect 12"
+    ]
+  },
+  "B08KW6ZSP2": {
+    "asin": "B08KW6ZSP2",
+    "title": "Fractal Design Aspect 12 PWM Black 120 mm Wide 500-2000 RPM Range Computer Fan",
+    "brand": "Fractal Design",
+    "price": "$27.09",
+    "img": "https://m.media-amazon.com/images/I/31TZn12+tDL._SL500_.jpg",
+    "features": [
+      "Less turbulence thanks to aerodynamic stator struts",
+      "Trip Wire technology introduces a micro-turbulent layer for enhanced blade efficiency",
+      "Supports chaining to simplify cable management",
+      "Rifle bearings – more efficient than standard sleeve",
+      "Combines aesthetic design and reliable performance"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Fractal Design Aspect 12"
+    ]
+  },
+  "B08KW82H7Y": {
+    "asin": "B08KW82H7Y",
+    "title": "Fractal Design Aspect 12 RGB 120 mm PWM Wide 500-2000 RPM Range Black Frame Computer Fan",
+    "brand": "Fractal Design",
+    "price": "$31.80",
+    "img": "https://m.media-amazon.com/images/I/31x+W90ITYL._SL500_.jpg",
+    "features": [
+      "Less turbulence thanks to aerodynamic stator struts",
+      "6 individually addressable hub-mounted RGB LEDs",
+      "Compatible with ASUS AURA, Gigabyte Fusion, MSI Mystic Light, ASRock Polychrome and Razer Chroma",
+      "Trip Wire technology introduces a micro-turbulent layer for enhanced blade efficiency",
+      "Supports chaining for both power and RGB wires to simplify cable management",
+      "Rifle bearings – more efficient than standard sleeve"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Fractal Design Aspect 12"
+    ]
+  },
+  "B08LGYP7M2": {
+    "asin": "B08LGYP7M2",
+    "title": "Fractal Design Aspect 12 RGB 120 mm PWM Wide 500-2000 RPM Range Black Frame 3-Pack Computer Fan",
+    "brand": "Fractal Design",
+    "price": "$61.48",
+    "img": "https://m.media-amazon.com/images/I/31x+W90ITYL._SL500_.jpg",
+    "features": [
+      "Less turbulence thanks to aerodynamic stator struts",
+      "6 individually addressable hub-mounted RGB LEDs",
+      "Compatible with ASUS AURA, Gigabyte Fusion, MSI Mystic Light, ASRock Polychrome and Razer Chroma",
+      "Trip Wire technology introduces a micro-turbulent layer for enhanced blade efficiency",
+      "Supports chaining for both power and RGB wires to simplify cable management",
+      "Rifle bearings – more efficient than standard sleeve"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Fractal Design Aspect 12"
+    ]
+  },
+  "B08KW4GZX5": {
+    "asin": "B08KW4GZX5",
+    "title": "Fractal Design Aspect 12 Black 120 mm 1200 RPM Computer Fan",
+    "brand": "Fractal Design",
+    "price": "$19.99",
+    "img": "https://m.media-amazon.com/images/I/313eBDUqDlS._SL500_.jpg",
+    "features": [
+      "Less turbulence thanks to aerodynamic stator struts",
+      "Trip Wire technology introduces a micro-turbulent layer for enhanced blade efficiency",
+      "Supports chaining to simplify cable management",
+      "Rifle bearings – more efficient than standard sleeve",
+      "Combines aesthetic design and reliable performance"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Fractal Design Aspect 12"
+    ]
+  },
+  "B097P99MCJ": {
+    "asin": "B097P99MCJ",
+    "title": "Fractal Design Aspect 12 RGB Black 4pin PWM PC Case Fan Fits 12cm Daisy Chain FD-F-AS1-1205 FN1491",
+    "brand": "Fractal Design",
+    "price": "$36.69",
+    "img": "https://m.media-amazon.com/images/I/41yr7NG5CDS._SL500_.jpg",
+    "features": [
+      "FN1491 Japanese Authorized Agent",
+      "Cable supports daisy chain connection",
+      "Wiring is easier and looks better than ever",
+      "ARGB ready illuminating case fan with 6 LEDs embedded in hub",
+      "The blade has a translucent milky white color and is designed to create an elegant pale color"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Fractal Design Aspect 12"
+    ]
+  },
+  "B09RFH2B13": {
+    "asin": "B09RFH2B13",
+    "title": "Fractal Design Aspect 12 RGB 120mm PWM 3pk",
+    "brand": "Fractal Design",
+    "price": "$59.99",
+    "img": "https://m.media-amazon.com/images/I/416SIV9Mh6L._SL500_.jpg",
+    "features": [
+      "Less turbulence thanks to aerodynamic stator struts",
+      "Supports ASUS AURA, Gigabytes Fusion MSI Mystic Light & others",
+      "Trip Wire provides a micro-turbulent layer for enhanced blade efficiency",
+      "Supports chaining to simplify cable management",
+      "Rifle bearings more efficient than standard sleeve"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Fractal Design Aspect 12"
+    ]
+  },
+  "B097P8KHRC": {
+    "asin": "B097P8KHRC",
+    "title": "Fractal Design FD-F-AS1-1203 FN1489 Aspect 12 Black 4pin PWM PC Case Fan Compatible with 12cm Daisy Chain",
+    "brand": "Fractal Design",
+    "price": "$31.57",
+    "img": "https://m.media-amazon.com/images/I/41fFJIke6YS._SL500_.jpg",
+    "features": [
+      "FN1489 Japanese Authorized Agent",
+      "Cable supports daisy chain connection",
+      "Wiring is easier and looks better than ever"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Fractal Design Aspect 12"
+    ]
+  },
+  "B0FWXJHBN9": {
+    "asin": "B0FWXJHBN9",
+    "title": "MONTECH AX120 PRO ARGB PWM 120mm Fan 1-Pack, High-End Fan, 360° ARGB Lighting, Rifle Bearing, Quiet Low-Noise, 600–1600RPM, Black",
+    "brand": "Montech",
+    "price": "$14.99",
+    "img": "https://m.media-amazon.com/images/I/41m+LsPZrxL._SL500_.jpg",
+    "features": [
+      "Performance That Shines 360°: New AX120 PRO fans boost airflow by 10 % and glow with stunning 360° ARGB lighting that brings your PC to life.",
+      "Stronger Airflow Design: Nine special fan blades push up to 72.3 CFM of air to keep your components cool even during long gaming or heavy work.",
+      "Smart PWM Control: Fan speed adjusts automatically from 600 to 1600 RPM for the right balance of quiet operation and cooling power.",
+      "Quiet and Durable: Built with a long-lasting rifle bearing and rubber pads that cut vibration and noise to only 25.4 dBA.",
+      "Flexible Setup: Available in single or 3-in-1 pack with ARGB hub—easy to install and perfect for any case layout."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Montech AX120 PWM"
+    ]
+  },
+  "B0D9RLC2ZF": {
+    "asin": "B0D9RLC2ZF",
+    "title": "MONTECH AX 120MM - PWM Fan - Silent Performance - High Speed 1600PWM - High-End Durability with HDB Bearing - Stunning Outer Ring ARGB Lighting Design – 3 in 1 Pack with 6X6 Fan Hub (AX120-3in1-B)",
+    "brand": "Montech",
+    "price": "$39.90",
+    "img": "https://m.media-amazon.com/images/I/41-nck-zrOL._SL500_.jpg",
+    "features": [
+      "All-in-One Cooling Kit: 3 Piece AX120 Fans with a 6X6 Fan Hub",
+      "Whisper-Quiet Cooling: Optimized Frames and Blades for Ultra-Low Noise Under 27.9 dB(A)",
+      "Smart Temperature Control: Fan Speed Adjustments with PWM",
+      "Stylish Illumination: Hexagonal RGB Ring with 20 LEDs for Stunning Aesthetics",
+      "Reliable Durability: HDB Bearing with 40,000-Hour Lifespan"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Montech AX120 PWM"
+    ]
+  },
+  "B0D9RJHM88": {
+    "asin": "B0D9RJHM88",
+    "title": "MONTECH AX 120MM - PWM Fan - Silent Performance - High Speed 1600PWM - High-End Durability with HDB Bearing - Stunning Outer Ring ARGB Lighting Design – 3 in 1 Pack with 6X6 Fan Hub (AX120-3in1-W)",
+    "brand": "Montech",
+    "price": "$39.86",
+    "img": "https://m.media-amazon.com/images/I/41nhi5TJahL._SL500_.jpg",
+    "features": [
+      "All-in-One Cooling Kit: 3 Piece AX120 Fans with a 6X6 Fan Hub",
+      "Whisper-Quiet Cooling: Optimized Frames and Blades for Ultra-Low Noise Under 27.9 dB(A)",
+      "Smart Temperature Control: Fan Speed Adjustments with PWM",
+      "Stylish Illumination: Hexagonal RGB Ring with 20 LEDs for Stunning Aesthetics",
+      "Reliable Durability: HDB Bearing with 40,000-Hour Lifespan"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Montech AX120 PWM"
+    ]
+  },
+  "B0CR1BFC3F": {
+    "asin": "B0CR1BFC3F",
+    "title": "Montech AX 120 ARGB Fan – 1600PWM, High-End Durability, Silent Performance, and Stunning ARGB Design (120mm, Black)",
+    "brand": "Montech",
+    "img": "https://m.media-amazon.com/images/I/41softdjXTL._SL500_.jpg",
+    "features": [
+      "Elevate your build's aesthetics with the modern hexagonal RGB ring and 20 LEDs, bringing a new level of design aesthetics to your PC.",
+      "Enjoy smart fan speed adjustments based on your system temperature, thanks to advanced PWM controls that allow you to adjust fan speed from 600RPM to 1600RPM.",
+      "Enjoy a near-silent operation with optimized frames and blades, with noise levels under 27.9 dB(A).",
+      "Invest in high-end durability with our HDB bearing, boasting a lifespan of 40,000 hours.",
+      "Say goodbye to noise caused by resonance phenomena, thanks to the integrated eight-rounded anti-vibration pads that reduce vibration and noise."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Montech AX120 PWM"
+    ]
+  },
+  "B0CR1C5X49": {
+    "asin": "B0CR1C5X49",
+    "title": "Montech AX 120 ARGB Fan – 1600PWM, High-End Durability, Silent Performance, and Stunning ARGB Design (120mm, White)",
+    "brand": "Montech",
+    "img": "https://m.media-amazon.com/images/I/41GvXRbe7aL._SL500_.jpg",
+    "features": [
+      "Elevate your build's aesthetics with the modern hexagonal RGB ring and 20 LEDs, bringing a new level of design aesthetics to your PC.",
+      "Enjoy smart fan speed adjustments based on your system temperature, thanks to advanced PWM controls that allow you to adjust fan speed from 600RPM to 1600RPM.",
+      "Enjoy a near-silent operation with optimized frames and blades, with noise levels under 27.9 dB(A).",
+      "Invest in high-end durability with our HDB bearing, boasting a lifespan of 40,000 hours.",
+      "Say goodbye to noise caused by resonance phenomena, thanks to the integrated eight-rounded anti-vibration pads that reduce vibration and noise."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Montech AX120 PWM"
+    ]
+  },
+  "B0FM2M9983": {
+    "asin": "B0FM2M9983",
+    "title": "MONTECH GF120 V2 ARGB 120mm Case Fan – Sleek & Minimalist Design,High Airflow, Hydraulic Bearing, Quiet Performance, Vibrant ARGB Lighting,Black",
+    "brand": "Montech",
+    "price": "$9.90",
+    "img": "https://m.media-amazon.com/images/I/419EU4a6E6L._SL500_.jpg",
+    "features": [
+      "Redesigned for Modern Thermal Demands— up to 73.1 CFM of concentrated airflow",
+      "Whisper-Class Acoustic - with a maximum noise level of only 25.3 dBA, the GF120 V2 operates quieter than a whisper",
+      "Immersive ARGB Experience - eight ultra-bright LEDs with precision diffusion create a seamless unified glow",
+      "Precision Hydraulic Core - built to run smoother, lasts longer, and delivers the mechanical confidence you need",
+      "Designed for the Modern Build - seamless one-piece fan frame for a minimalist future-forward aesthetic"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Montech AX120 PWM"
+    ]
+  },
+  "B0FM2GNGDZ": {
+    "asin": "B0FM2GNGDZ",
+    "title": "MONTECH GF120R V2 ARGB 120mm Case Fan – Sleek & Minimalist Design, High Airflow, Hydraulic Bearing, Quiet Performance, Vibrant ARGB Lighting,Reverse Blade, 3 in 1 Pack with 6X6 Fan Hub, Black",
+    "brand": "Montech",
+    "price": "$33.25",
+    "img": "https://m.media-amazon.com/images/I/419RPoJmq-L._SL500_.jpg",
+    "features": [
+      "Redesigned for Modern Thermal Demands— up to 73.1 CFM of concentrated airflow",
+      "Whisper-Class Acoustic - with a maximum noise level of only 25.3 dBA, the GF120R V2 operates quieter than a whisper",
+      "Immersive ARGB Experience - eight ultra-bright LEDs with precision diffusion create a seamless unified glow",
+      "Precision Hydraulic Core - built to run smoother, lasts longer, and delivers the mechanical confidence you need",
+      "Designed for the Modern Build - seamless one-piece fan frame for a minimalist future-forward aesthetic"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Montech AX120 PWM"
+    ]
+  },
+  "B0C743H79N": {
+    "asin": "B0C743H79N",
+    "title": "Thermalright TL-S12 CPU Fan 120mm Case Cooler Fan Comes with ARGB Lighting Effect,PC PWM Silent Computer Fan with 1500RPM Speed, CPU Cooling Fan Black(Black,3-Pack)",
+    "brand": "Thermalright",
+    "price": "$16.79",
+    "img": "https://m.media-amazon.com/images/I/51btNTYdIhL._SL500_.jpg",
+    "features": [
+      "[Brand Overview] Thermalright is a Taiwan brand with more than 20 years of development. It has a certain popularity in the domestic and foreign markets and has a pivotal influence in the player market. We have been focusing on the research and development of computer accessories. R & D product lines include: CPU air-cooled radiator, case fan, thermal silicone pad, thermal silicone grease, CPU fan controller, anti falling off mounting bracket, support mounting bracket and other commodities",
+      "【High Performance Cooling Fan】 Automatic speed control of the motherboard through the 4PIN PWM fan cable interface, which can determine the speed according to the temperature of the motherboard, with a maximum speed of 1500RPM. Configured with up to 55cm of cable for PWM series control of fans, ideal for cases , liquid cooler and CPU coolers.",
+      "【Quality Bearings】The carefully developed quality S-FDB bearings solve the problem of pc cooling fan blade shaking in lifting mode, keeping fan noise to a minimum while providing maximum cooling performance when needed and extending the life of the PC fan.",
+      "【Silent Fan Size】 Model: TL-S12 X3, Size: 120*120*25mm, Speed: 1500RPM±10%, Noise ≤ 23.2dBA Connector: 4pin pwm, Current: 0.15A, Air Pressure: 1.31mm H2O, Air Flow: 47.6CFM, Higher air flow for improved cooling performance.",
+      "【Perfect Match】The PC fan can be used not only as a case fan, but is also suitable for use with a cpu cooler to create a cooling effect together, which can take away the dry heat from the case and the high temperature generated by the CPU in operation, allowing for maximum cooling; Ideal for cases, heatsink cooler and CPU air coolers."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Thermalright TL-S12 fan"
+    ]
+  },
+  "B0C4J7NQSV": {
+    "asin": "B0C4J7NQSV",
+    "title": "Thermalright TL-S12 CPU Fan 120mm case Cooler Fan, ARGB 5V 3-pin and 4-pin PWM Silent Computer Fan, fine Aperture Light Effect for case CPU Liquid Cooler and CPU air Cooler, Quiet CPU Computer Fan",
+    "brand": "Thermalright",
+    "price": "$7.09",
+    "img": "https://m.media-amazon.com/images/I/51UYe1MSZEL._SL500_.jpg",
+    "features": [
+      "[Brand Overview] Thermalright is a Taiwan brand with more than 20 years of development. It has a certain popularity in the domestic and foreign markets and has a pivotal influence in the player market. We have been focusing on the research and development of computer accessories. R & D product lines include: CPU air-cooled radiator, case fan, thermal silicone pad, thermal silicone grease, CPU fan controller, anti falling off mounting bracket, support mounting bracket and other commodities",
+      "【High Performance Cooling Fan】 Automatic speed control of the motherboard through the 4PIN PWM fan cable interface, which can determine the speed according to the temperature of the motherboard, with a maximum speed of 1500RPM. Configured with up to 55cm of cable for PWM series control of fans, ideal for cases , liquid cooler and CPU coolers.",
+      "【Silent Fan Size】 Model: TL-S12, Size: 120*120*25mm, Speed: 1500RPM±10%, Noise ≤ 23.2dBA Connector: 4pin pwm, Current: 0.15A, Air Pressure: 1.31mm H2O, Air Flow: 47.6CFM, Higher air flow for improved cooling performance.",
+      "【Detail advantages】The cooler fan is made of insulation grade PBT+PC, and soft silicone feet are added to the four corners, which can play a good damping effect and thus reduce the noise of the fan.",
+      "【Perfect Match】The PC fan can be used not only as a case fan, but is also suitable for use with a cpu cooler to create a cooling effect together, which can take away the dry heat from the case and the high temperature generated by the CPU in operation, allowing for maximum cooling; Ideal for cases, heatsink cooler and CPU air coolers."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Thermalright TL-S12 fan"
+    ]
+  },
+  "B0C4HRG36W": {
+    "asin": "B0C4HRG36W",
+    "title": "Thermalright TL-S12 120mm Silent CPU Fan, Computer Case Cooler, ARGB Thin Aperture,4pin PWM Connector, with S-FDB Bearing, up to 1500RPM PC Cooling Fan, Black",
+    "brand": "Thermalright",
+    "price": "$6.49",
+    "img": "https://m.media-amazon.com/images/I/41NT0BmmlPL._SL500_.jpg",
+    "features": [
+      "[Brand Overview] Thermalright is a Taiwan brand with more than 20 years of development. It has a certain popularity in the domestic and foreign markets and has a pivotal influence in the player market. We have been focusing on the research and development of computer accessories. R & D product lines include: CPU air-cooled radiator, case fan, thermal silicone pad, thermal silicone grease, CPU fan controller, anti falling off mounting bracket, support mounting bracket and other commodities",
+      "【High Performance Cooling Fan】 Automatic speed control of the motherboard through the 4PIN PWM fan cable interface, which can determine the speed according to the temperature of the motherboard, with a maximum speed of 1500RPM. Configured with up to 55cm of cable for PWM series control of fans, ideal for cases , liquid cooler and CPU coolers.",
+      "【Silent Fan Size】 Model: TL-S12, Size: 120*120*25mm, Speed: 1500RPM±10%, Noise ≤ 23.2dBA Connector: 4pin pwm, Current: 0.15A, Air Pressure: 1.31mm H2O, Air Flow: 47.6CFM, Higher air flow for improved cooling performance.",
+      "【High Performance Cooling Fan】 Automatic speed control of the motherboard through the 4PIN PWM fan cable interface, which can determine the speed according to the temperature of the motherboard, with a maximum speed of 1500RPM. Configured with up to 55cm of cable for PWM series control of fans, ideal for cases , liquid cooler and CPU coolers.",
+      "【Detail advantages】The cooler fan is made of insulation grade PBT+PC, and soft silicone feet are added to the four corners, which can play a good damping effect and thus reduce the noise of the fan."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Thermalright TL-S12 fan"
+    ]
+  },
+  "B0C9CWG5X8": {
+    "asin": "B0C9CWG5X8",
+    "title": "Thermalright TL-S12-S CPU Fan, 120mm Case Cooler Fan ARGB, 4pin PWM Connector Silent Computer Cooling with S-FDB Bearing Included,up to 1500RPM PC Cooling (Pack of 3)",
+    "brand": "Thermalright",
+    "price": "$14.59",
+    "img": "https://m.media-amazon.com/images/I/51f3X61IzUL._SL500_.jpg",
+    "features": [
+      "【High Performance Cooling Fan】 Automatic speed control of the motherboard through the 4PIN PWM fan cable interface, which can determine the speed according to the temperature of the motherboard. The cpu fan is equipped with a 4-pin power connector and a cable with a serial ARGB lighting connector, which plugs directly into the motherboard.",
+      "【Quality Bearings】The carefully developed quality S-FDB bearings solve the problem of pc cooling fan blade shaking in lifting mode, keeping fan noise to a minimum while providing maximum cooling performance when needed and extending the life of the PC fan.",
+      "[Excellent LED light] The pwm fan has an ARGB light effect, with 7 fan blades that effectively reflect light for a softer ARGB lighting effect that matches the radiator and case better. Colours can be managed and synchronised via a port on the motherboard.",
+      "【Silent Fan Size】 Model: TL-S12-S X3;Size: 120*120*25mm; Speed: 1500RPM±10%; Noise ≤ 23.2dBA; Connector: 4pin pwm; Current: 0.15A; Air Pressure: 1.31mm H2O, Air Flow: 47.6CFM; Higher air flow for improved cooling performance.",
+      "【Detail advantages】The cooler fan is made of insulation grade PBT+PC, and soft silicone feet are added to the four corners, which can play a good damping effect and thus reduce the noise of the CPU fan."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Thermalright TL-S12 fan"
+    ]
+  },
+  "B0C4J9BN7X": {
+    "asin": "B0C4J9BN7X",
+    "title": "Thermalright TL-S12 CPU Fan Case Cooler PWM Fan, fine Aperture Light Effect,4pin PWM Connector Computer Fan with ARGB Aperture, 1500RPM Speed PC Cooling Fan(120mm, Black)",
+    "brand": "Thermalright",
+    "price": "$6.29",
+    "img": "https://m.media-amazon.com/images/I/51UYe1MSZEL._SL500_.jpg",
+    "features": [
+      "[Brand Overview] Thermalright is a Taiwan brand with more than 20 years of development. It has a certain popularity in the domestic and foreign markets and has a pivotal influence in the player market. We have been focusing on the research and development of computer accessories. R & D product lines include: CPU air-cooled radiator, case fan, thermal silicone pad, thermal silicone grease, CPU fan controller, anti falling off mounting bracket, support mounting bracket and other commodities",
+      "【High Performance Cooling Fan】 Automatic speed control of the motherboard through the 4PIN PWM fan cable interface, which can determine the speed according to the temperature of the motherboard, with a maximum speed of 1500RPM. Configured with up to 55cm of cable for PWM series control of fans, ideal for cases , liquid cooler and CPU coolers.",
+      "【Quality Bearings】The carefully developed quality S-FDB bearings solve the problem of pc cooling fan blade shaking in lifting mode, keeping fan noise to a minimum while providing maximum cooling performance when needed and extending the life of the PC fan.",
+      "【Perfect Match】The PC fan can be used not only as a case fan, but is also suitable for use with a cpu cooler to create a cooling effect together, which can take away the dry heat from the case and the high temperature generated by the CPU in operation, allowing for maximum cooling; Ideal for cases, heatsink cooler and CPU air coolers.",
+      "[ARGB aperture decoration] The front and back ARGB apertures decorate the fan, and support the series design of light effect synchronization, making the computer fan look higher.."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Thermalright TL-S12 fan"
+    ]
+  },
+  "B0DC22Q4T6": {
+    "asin": "B0DC22Q4T6",
+    "title": "Thermalright TL-S12-S X 3 CPU Fan 120mm ARGB Case Cooler Fan Comes with ARGB Lighting Effect,PC PWM Silent Computer Fan with 1500RPM Speed, CPU Cooling Fan, 3 Pack (TL-S12-S X 3)",
+    "brand": "Thermalright",
+    "price": "$20.28",
+    "img": "https://m.media-amazon.com/images/I/41sgYpvLVlL._SL500_.jpg",
+    "features": [
+      "[Brand Overview] Thermalright is a Taiwan brand with more than 20 years of development. It has a certain popularity in the domestic and foreign markets and has a pivotal influence in the player market. We have been focusing on the research and development of computer accessories. R & D product lines include: CPU air-cooled radiator, case fan, CPU fan controller, anti falling off mounting bracket, support mounting bracket and other commodities",
+      "【Quality Bearings】The carefully developed quality S-FDB bearings solve the problem of pc cooling fan blade shaking in lifting mode, keeping fan noise to a minimum while providing maximum cooling performance when needed and extending the life of the PC fan.",
+      "[ARGB aperture decoration] The argb fan is made with the UPT production process, the aperture is only 0.6mm wide for a subtle light effect, and the front and rear ARGB apertures decorate the fan to give it a little more face value.",
+      "【Silent Fan Size】 Model: TL-S12-S X3;Size: 120*120*25mm; Speed: 1500RPM±10%; Noise ≤ 23.2dBA; Connector: 4pin pwm; Current: 0.15A; Air Pressure: 1.31mm H2O, Air Flow: 47.6CFM; Higher air flow for improved cooling performance.",
+      "【Perfect Match】The PC fan can be used not only as a case fan, but is also suitable for use with a cpu cooler to create a cooling effect together, which can take away the dry heat from the case and the high temperature generated by the CPU in operation, allowing for maximum cooling; Ideal for cases, liquide cooler and CPU air coolers."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Thermalright TL-S12 fan"
+    ]
+  },
+  "B0C9C4WNM8": {
+    "asin": "B0C9C4WNM8",
+    "title": "Thermalright TL-S12-S X3 CPU Fan Case Cooler PWM Fan, fine Aperture Light Effect,4pin PWM Connector Computer Fan with ARGB Light Effects, 1500RPM Speed PC Cooling Fan(120mm,Black)",
+    "brand": "Thermalright",
+    "price": "$15.99",
+    "img": "https://m.media-amazon.com/images/I/41MsEH5E4bL._SL500_.jpg",
+    "features": [
+      "[Brand Overview] Thermalright is a Taiwan brand with more than 20 years of development. It has a certain popularity in the domestic and foreign markets and has a pivotal influence in the player market. We have been focusing on the research and development of computer accessories. R & D product lines include: CPU air-cooled radiator, case fan, CPU fan controller, anti falling off mounting bracket, support mounting bracket and other commodities",
+      "【High Performance Cooling Fan】 Automatic speed control of the motherboard through the 4PIN PWM fan cable interface, which can determine the speed according to the temperature of the motherboard. The cpu fan is equipped with a 4-pin power connector and a cable with a serial ARGB lighting connector, which plugs directly into the motherboard.",
+      "[Excellent LED light] The pwm fan has an ARGB light effect, with 7 fan blades that effectively reflect light for a softer ARGB lighting effect that matches the radiator and case better. Colours can be managed and synchronised via a port on the motherboard.",
+      "[ARGB aperture decoration] The argb fan is made with the UPT production process, the aperture is only 0.6mm wide for a subtle light effect, and the front and rear ARGB apertures decorate the fan to give it a little more face value.",
+      "【Perfect Match】The PC fan can be used not only as a case fan, but is also suitable for use with a cpu cooler to create a cooling effect together, which can take away the dry heat from the case and the high temperature generated by the CPU in operation, allowing for maximum cooling; Ideal for cases, liquide cooler and CPU air coolers."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Thermalright TL-S12 fan"
+    ]
+  },
+  "B0D1RK8CWT": {
+    "asin": "B0D1RK8CWT",
+    "title": "NZXT F120P - 120mm Static Pressure PC Case Fan - Black",
+    "brand": "NZXT",
+    "price": "$14.99",
+    "img": "https://m.media-amazon.com/images/I/41Ki3upGtKL._SL500_.jpg",
+    "features": [
+      "HIGH STATIC PRESSURE — Seven thick blades are optimized for high static pressure so air can be pushed through tight spaces, ideal for mounting on radiators and heatsinks.",
+      "EFFICIENT DESIGN — Minimal gap between blade edges and frame maximizes the spinning area for higher airflow and reduced turbulence.",
+      "POWERFUL COOLING — Chamfered frame design directs air in a highly-concentrated flow pattern, traveling far into the case to cool vital components.",
+      "LOW NOISE, LONG LASTING — Fluid dynamic bearings provide unwavering stability, low-noise operation, and a 60,000-hour lifespan.",
+      "WORKS SMARTER — PWM control dynamically adjusts fan speed for higher output or lower noise based on system temperatures for efficient cooling."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "radiator fan high static pressure 120mm"
+    ]
+  },
+  "B0D1RGMQBP": {
+    "asin": "B0D1RGMQBP",
+    "title": "NZXT F120P - 120mm Static Pressure PC Case Fan - White",
+    "brand": "NZXT",
+    "price": "$14.99",
+    "img": "https://m.media-amazon.com/images/I/31eq53zRl-L._SL500_.jpg",
+    "features": [
+      "HIGH STATIC PRESSURE — Seven thick blades are optimized for high static pressure so air can be pushed through tight spaces, ideal for mounting on radiators and heatsinks.",
+      "EFFICIENT DESIGN — Minimal gap between blade edges and frame maximizes the spinning area for higher airflow and reduced turbulence.",
+      "POWERFUL COOLING — Chamfered frame design directs air in a highly-concentrated flow pattern, traveling far into the case to cool vital components.",
+      "LOW NOISE, LONG LASTING — Fluid dynamic bearings provide unwavering stability, low-noise operation, and a 60,000-hour lifespan.",
+      "WORKS SMARTER — PWM control dynamically adjusts fan speed for higher output or lower noise based on system temperatures for efficient cooling."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "radiator fan high static pressure 120mm"
+    ]
+  },
+  "B0H2XBQ3RR": {
+    "asin": "B0H2XBQ3RR",
+    "title": "ID-COOLING AM-120-K 120mm PWM PC Case Fan, 0-2500 RPM, Black",
+    "brand": "ID-COOLING",
+    "price": "$8.99",
+    "img": "https://m.media-amazon.com/images/I/41mlsUseHmL._SL500_.jpg",
+    "features": [
+      "【HIGH AIRFLOW 120MM PC FAN】Built for powerful PC cooling, the AM-120-K reaches up to 2500 RPM and delivers up to 79.7 CFM airflow, making it an effective 120mm case fan for improving system airflow.",
+      "【HIGH STATIC PRESSURE COOLING PERFORMANCE】With up to 3.65 mmH₂O static pressure, this high static pressure fan is designed to push air effectively through restrictive areas, making it suitable for PC cases, CPU coolers, and compatible radiators.",
+      "【4-PIN PWM FAN FOR AUTOMATIC SPEED CONTROL】The 4-pin PWM fan connector enables automatic speed adjustment through your motherboard, allowing the fan to balance cooling performance and noise based on system temperature and workload.",
+      "【OPTIMIZED FOR PC CASES AND COOLING SYSTEMS】The 120mm PC fan features a standard 120×120×25mm design for broad compatibility with PC cases and compatible CPU cooler and radiator cooling setups.",
+      "【RELIABLE HYDRAULIC BEARING DESIGN】The hydraulic bearing helps provide smooth, reliable operation for long-term use. The black, non-RGB design is ideal for gaming PCs, workstations, and clean performance-focused builds."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "radiator fan high static pressure 120mm"
     ]
   }
 }
