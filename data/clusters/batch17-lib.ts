@@ -130,6 +130,8 @@ const BADGE_SKIP = /focus|privacy|resolution|wi-?fi|type|form factor|motherboard
 function supBadge(sup: string, noun: string) {
   let n = title(noun).replace(new RegExp(`^${sup} `, "i"), "");
   if (/^most$/i.test(sup) && / Count$/.test(n)) n = n.replace(/ Count$/, "s");
+  // "Thickest Thickness", "Widest Width": the superlative already names the spec.
+  if (/^(thickest|widest|longest|tallest|deepest)$/i.test(sup) && /^(thickness|width|length|height|depth)$/i.test(n)) n = "Pick";
   return `${cap(sup)} ${n}`;
 }
 

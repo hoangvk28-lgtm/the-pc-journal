@@ -205,9 +205,9 @@ function whyExtras(f: Fact, facts: Fact[], schema: CategorySchema, lab: { badge:
   const brand = new Set(f.name.split(/\s+/).map((w) => w.toLowerCase()));
   const phrase = (x: string) => { const t = x.replace(/\.$/, ""); return brand.has(t.split(/\s+/)[0].toLowerCase()) ? t : lc(t); };
   strengths.forEach((x, i) => out.push(pick([
-    `It also brings ${phrase(x)}.`,
-    `Worth noting too: ${phrase(x)}.`,
-    `Another plus is ${phrase(x)}.`,
+    `Worth noting: ${phrase(x)}.`,
+    `You also get this: ${phrase(x)}.`,
+    `Another plus: ${phrase(x)}.`,
   ], seed + "xs" + i)));
   // Nearest rival on each ranked spec, so the reader can see how close the alternatives are.
   for (const fd of schema.fields.filter((x) => x.better)) {
@@ -286,7 +286,7 @@ function whyParagraphs(p: { take: string; ranking: string[]; descriptive: string
 /** Turns a con into reader advice ("Skip it if price comes first: ..."), never a raw "not stated" line. */
 function skipLine(con: string, seed: string): string {
   let m: RegExpMatchArray | null;
-  if ((m = con.match(/^No published (.+)$/i))) return pick([`Skip it if you need to know its ${m[1]} before buying; the maker doesn't publish one.`, `The maker gives no ${m[1]}, so look elsewhere if that figure decides it for you.`, `Pass if a published ${m[1]} matters; this one has none.`, `Its ${m[1]} is not published, which rules it out if you need that number.`], seed + "skipn");
+  if ((m = con.match(/^No published (.+)$/i))) return pick([`Skip it if you need to know its ${m[1]} before buying; the maker doesn't publish one.`, `The maker gives no ${m[1]}, so skip it if that figure decides your choice.`, `Pass if a published ${m[1]} matters; this one has none.`, `Its ${m[1]} is not published, which rules it out if you need that number.`], seed + "skipn");
   if ((m = con.match(/^Costs more than the (.+) at the time of writing$/i))) return pick([`Skip it if price comes first: the ${m[1]} cost less when we checked.`, `If budget leads, the ${m[1]} was cheaper at our last price check.`, `Price-first buyers should look at the ${m[1]}, which cost less when we checked.`], seed + "skipp");
   if ((m = con.match(/^(.+?) trails the (.+) \((.+)\)$/i))) return `Skip it if ${lc(m[1])} matters most to you; the ${m[2]} offers ${m[3]}.`;
   const c = con.charAt(0).toLowerCase() + con.slice(1);
@@ -820,7 +820,7 @@ export function composeGuide(cfg: GenericArticleConfig, schema: CategorySchema, 
   if (groups.size > 1)
     howToChoose.push({ subheading: "By price at the time of writing", intro: sec.priceIntro, table: { headers: ["Price tier", schema.plural], rows: [...groups.entries()].map(([k, v]) => [k, v.join(", ")]) } });
 
-  return {
+  return dedupeDoubled({
     slug: cfg.slug, type: "best-guide", status: "published", category: cfg.category,
     seoTitle: cfg.seoTitle, title: cfg.title, breadcrumbLabel: cfg.breadcrumbLabel, mainKeyword: cfg.mainKeyword,
     dek: cfg.dek, metaDescription: cfg.metaDescription, teaser: cfg.teaser, updatedAt: cfg.updatedAt,
@@ -833,5 +833,16 @@ export function composeGuide(cfg: GenericArticleConfig, schema: CategorySchema, 
     faq: [...(gm?.faq ? [gm.faq] : []), ...faq].slice(0, 6).map((q) => ({ q: q.q, a: q.a })),
     bottomLine: cfg.bottomLine,
     related: cfg.related,
-  };
+  });
+}
+
+/**
+ * Removes accidental doubled words that templates produce when a field value repeats its noun
+ * ("mouse mouse", "mute mute", "Premium Pick pick"). Applied to every text field of a composed guide.
+ */
+export function dedupeDoubled<T>(v: T): T {
+  if (typeof v === "string") return v.replace(/\b([A-Za-z]{3,})(\s+)\1\b/gi, (m, w: string) => (/^(that|had|very|bye)$/i.test(w) ? m : w)).replace(/\b(auto|manual|fixed)(focus|-focus) focus\b/gi, "$1$2") as T;
+  if (Array.isArray(v)) return v.map(dedupeDoubled) as T;
+  if (v && typeof v === "object") return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, k === "asin" || k === "id" || k === "slug" || /url$/i.test(k) ? x : dedupeDoubled(x)])) as T;
+  return v;
 }
