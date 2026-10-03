@@ -8,7 +8,6 @@ import type { PlanItem } from "./batch17-plan";
 const s = (f: Fact, k: string) => String(f.specs[k] ?? "");
 const n = (f: Fact, k: string) => (typeof f.specs[k] === "number" ? (f.specs[k] as number) : 0);
 const t = (f: Fact) => `${f.name} ${f.short} ${f.notes.join(" ")} ${Object.values(f.specs).join(" ")}`;
-const p = (f: Fact) => Number(String(f.price ?? "").replace(/[^0-9.]/g, "")) || Infinity;
 const size = (f: Fact) => (/140\s?mm|\b140\b/i.test(f.name) ? 140 : /120\s?mm|\b120\b|P12|F120|NF-A12|NF-P12|NF-S12|NF-F12/i.test(f.name) ? 120 : 0);
 
 export const PLAN: PlanItem[] = [
