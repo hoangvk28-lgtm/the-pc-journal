@@ -3,7 +3,7 @@
     "asin": "B0DKFMSMYK",
     "title": "AMD RYZEN 7 9800X3D 8-Core, 16-Thread Desktop Processor",
     "brand": "AMD",
-    "price": "$449.00",
+    "price": "$444.00",
     "img": "https://m.media-amazon.com/images/I/41RRIy3PyvL._SL500_.jpg",
     "features": [
       "The world’s fastest gaming processor, built on AMD ‘Zen5’ technology and Next Gen 3D V-Cache.",
@@ -12,7 +12,7 @@
       "Drop-in ready for proven Socket AM5 infrastructure",
       "Cooler not included"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 9800X3D",
       "AMD Ryzen 7 7800X3D",
@@ -27,14 +27,19 @@
       "AMD Ryzen 9 7900X3D",
       "AMD Ryzen 9 7900",
       "AMD Ryzen 7 5800X3D",
-      "AMD Ryzen 7 9700X3D"
+      "AMD Ryzen 7 9700X3D",
+      "AMD Ryzen 9 9950X",
+      "AMD Ryzen 5 9600",
+      "AMD Ryzen 9 7950X3D",
+      "AMD Ryzen 9 7900X",
+      "AMD Ryzen 9 5950X"
     ]
   },
   "B0BTZB7F88": {
     "asin": "B0BTZB7F88",
     "title": "AMD Ryzen 7 7800X3D 8-Core, 16-Thread Desktop Processor",
     "brand": "AMD",
-    "price": "$348.99",
+    "price": "$349.99",
     "img": "https://m.media-amazon.com/images/I/21KtytBd+kL._SL500_.jpg",
     "features": [
       "Processor provides dependable and fast execution of tasks with maximum efficiency.Graphics Frequency : 2200 MHZ.Number of CPU Cores : 8. Maximum Operating Temperature (Tjmax) : 89°C.",
@@ -45,7 +50,7 @@
       "Processor with 4.20 GHz clock speed for reliable and fast execution of instructions to ensure maximum convenience and feasibility",
       "Comes with AMD Radeon Graphics controller for amazing graphics output"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 9800X3D",
       "AMD Ryzen 7 7800X3D",
@@ -60,7 +65,13 @@
       "AMD Ryzen 7 8700G",
       "AMD Ryzen 9 7900X3D",
       "AMD Ryzen 7 5800X3D",
-      "AMD Ryzen 7 9700X3D"
+      "AMD Ryzen 7 9700X3D",
+      "AMD Ryzen 9 9950X",
+      "AMD Ryzen 9 9900X",
+      "AMD Ryzen 9 7950X3D",
+      "AMD Ryzen 9 7900X",
+      "AMD Ryzen 5 7500F",
+      "AMD Ryzen 9 5950X"
     ]
   },
   "B0F473X94G": {
@@ -76,7 +87,7 @@
       "Supports DDR5 Memory, Dual Channel DDR5 8400+ MT/s (OC);/ Ultra Performance: 14+2+1 Duet Rail Power System, dual 8-pin CPU power connectors, Core Boost, Memory Boost, 8-layer PCB made by 2oz thickened copper and server-grade level material;/ Frozr Guard: Extended Heatsink, MOSFET thermal pads rated for 7W/mK, additional choke thermal pads and EZ M.2 Shield Frozr II are built for high performance system and non-stop experience",
       "EZ DIY: EZ M.2 Shield Frozr II, EZ M.2 Clip II, EZ PCIe Release and EZ Antenna;/ Lightning Fast Game experience: PCIe 5.0 slot, Lightning Gen 5 x4 M.2;/ Ultra Connect: USB4 and 5G LAN with Wi-Fi 7 Solution - the latest solution for professional and multimedia use, delivering secure, stable, and high-speed networking and data transmission;/ Audio Boost 5: Reward your ears with studio-grade sound quality for the most immersive gaming experience"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 9800X3D"
     ]
@@ -90,12 +101,14 @@
     "features": [
       "AMD Ryzen 7 9850X3D Desktop Processor"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 9800X3D",
       "AMD Ryzen 7 7800X3D",
       "AMD Ryzen 9 9950X3D",
-      "AMD Ryzen 7 9700X3D"
+      "AMD Ryzen 7 9700X3D",
+      "AMD Ryzen 9 9950X",
+      "AMD Ryzen 9 7950X3D"
     ]
   },
   "B0FKZTM1SP": {
@@ -111,7 +124,7 @@
       "Supports DDR5 Memory, Dual Channel DDR5 8200+ MT/s (OC);/ Ultra Performance: 12+2+1 Duet Rail Power System, dual 8-pin CPU power connectors, Core Boost, Memory Boost, 6-layer PCB made by 2oz thickened copper and server-grade level material;/ Frozr Guard: Extended Heatsink, MOSFET thermal pads rated for 7W/mK, additional choke thermal pads and EZ M.2 Shield Frozr II are built for high performance system and non-stop experience",
       "High-speed Connectivity: 5G LAN with Full-speed Wi-Fi 7 Solution;/ Lightning Fast Game experience: PCIe 5.0 slot, Lightning Gen 5 x4 M.2, Front USB Type-C;/ EZ DIY: EZ M.2 Shield Frozr II, EZ M.2 Clip II, EZ PCIe Clip II and EZ Antenna;/ Audio Boost: Reward your ears with studio-grade sound quality for the most immersive gaming experience"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 9800X3D"
     ]
@@ -128,7 +141,7 @@
       "Form Factor: Desktops , Boxed Processor",
       "Architecture: Zen 5; Former Codename: Granite Ridge AM5"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 9800X3D",
       "AMD Ryzen 5 9600X",
@@ -138,14 +151,20 @@
       "AMD Ryzen 9 7900X3D",
       "AMD Ryzen 9 7900",
       "Intel Core i9-14900K",
-      "AMD Ryzen 7 9700X3D"
+      "AMD Ryzen 7 9700X3D",
+      "AMD Ryzen 9 9950X",
+      "AMD Ryzen 5 9600",
+      "AMD Ryzen 9 7950X3D",
+      "AMD Ryzen 9 7900X",
+      "AMD Ryzen 9 5900X",
+      "AMD Ryzen 9 5950X"
     ]
   },
   "B0H7JF78VY": {
     "asin": "B0H7JF78VY",
     "title": "MICRO CENTER AMD 9800X3D Processor with Gigabyte B850 Gaming Motherboard",
     "brand": "Micro Center",
-    "price": "$629.99",
+    "price": "$599.99",
     "img": "https://m.media-amazon.com/images/I/41U5ixRXg1L._SL500_.jpg",
     "features": [
       "AMD Ryzen 7 9800X3D Desktop Processor, 8 Cores, 16 Threads, 5.2 GHz Max Boost, Unlocked Memory Overclocking, L2+L3 Cache 104 MB, 120W TDP, DDR5 Supported, PCIe 5.0 Support. For the state-of-the-art Socket AM5 platform",
@@ -154,7 +173,7 @@
       "AMD Socket AM5: Supports AMD Ryzen 9000, 8000, and 7000 Series Processors; X3D Turbo Mode: Unleash new era gaming performance; DDR5 OC up to 8200MT/s; Digital 6+2+2 phases VRM solution; WIFI EZ-Plug: Quick and easy design for Wi-Fi antenna installation; PCIe EZ-Latch Plus: PCIe slots with Quick Release Design",
       "Friendly UI: Multi-Theme, AIO Fan Control, and Q-Flash Auto Scan in BIOS and SW; Ultra-Fast Storage: 3 M.2 slots, including PCIe 5.0x4 slot; Efficient Thermal: VRM Thermal Armor Advanced; Fast Networking : GbE LAN & Wi-Fi 6 802.11ax; Extended Connectivity: HDMI, Displayport"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 9800X3D"
     ]
@@ -181,7 +200,7 @@
     "asin": "B0H41D4KFT",
     "title": "AMD Ryzen 7 5800X3D 8-core, 16-Thread Desktop Processor with AMD 3D V-Cache Technology",
     "brand": "AMD",
-    "price": "$349.00",
+    "price": "$339.95",
     "img": "https://m.media-amazon.com/images/I/41jmTVeiKgL._SL500_.jpg",
     "features": [
       "The world's fastest gaming desktop processor and first gaming processor with 3D stacking technology",
@@ -190,7 +209,7 @@
       "For the advanced Socket AM4 platform, can support PCIe 4.0 on X570 and B550 motherboards",
       "Cooler not included, high-performance cooler recommended"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 9800X3D",
       "AMD Ryzen 7 7800X3D",
@@ -203,7 +222,10 @@
       "AMD Ryzen 9 7900X3D",
       "AMD Ryzen 9 7900",
       "AMD Ryzen 7 5800X3D",
-      "AMD Ryzen 7 9700X3D"
+      "AMD Ryzen 7 9700X3D",
+      "AMD Ryzen 9 5900X",
+      "AMD Ryzen 9 5950X",
+      "AMD Ryzen 5 5500"
     ]
   },
   "B0D6NMDNNX": {
@@ -219,7 +241,7 @@
       "For the state-of-the-art Socket AM5 platform, can support PCIe 5.0 on select motherboards",
       "Cooler not included"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 9800X3D",
       "AMD Ryzen 7 7800X3D",
@@ -232,7 +254,9 @@
       "AMD Ryzen 7 7700",
       "AMD Ryzen 7 8700G",
       "AMD Ryzen 9 7900",
-      "AMD Ryzen 7 9700X3D"
+      "AMD Ryzen 7 9700X3D",
+      "AMD Ryzen 5 9600",
+      "AMD Ryzen 9 7900X"
     ]
   },
   "B0BBHHT8LY": {
@@ -249,7 +273,7 @@
       "Cooler not included",
       "Base Clock - 4.5GHz"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 7800X3D",
       "AMD Ryzen 7 9700X",
@@ -287,7 +311,7 @@
       "For the state-of-the-art Socket AM5 platform, can support PCIe 5.0 on select motherboards",
       "Cooler not included"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 7800X3D",
       "AMD Ryzen 5 9600X",
@@ -302,14 +326,22 @@
       "AMD Ryzen 7 7700",
       "AMD Ryzen 7 8700G",
       "AMD Ryzen 7 5800X3D",
-      "AMD Ryzen 7 9700X3D"
+      "AMD Ryzen 7 9700X3D",
+      "AMD Ryzen 9 9950X",
+      "AMD Ryzen 5 9600",
+      "AMD Ryzen 9 7900X",
+      "AMD Ryzen 5 7500F",
+      "AMD Ryzen 7 5700X",
+      "AMD Ryzen 9 5900X",
+      "AMD Ryzen 5 5500",
+      "AMD Ryzen 5 5600GT"
     ]
   },
   "B0D6NNDQ92": {
     "asin": "B0D6NNDQ92",
     "title": "AMD Ryzen™ 7 5800XT 8-Core, 16-Thread Unlocked Desktop Processor",
     "brand": "AMD",
-    "price": "$239.00",
+    "price": "$249.00",
     "img": "https://m.media-amazon.com/images/I/31Z0VsaTt2L._SL500_.jpg",
     "features": [
       "Powerful Gaming Performance",
@@ -318,7 +350,7 @@
       "For the AMD Socket AM4 platform, with PCIe 4.0 support",
       "AMD Wraith Prism Cooler with RGB LED included"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 7800X3D",
       "AMD Ryzen 5 5600X",
@@ -326,14 +358,15 @@
       "AMD Ryzen 5 5600",
       "AMD Ryzen 7 5700X",
       "AMD Ryzen 7 8700G",
-      "AMD Ryzen 7 5800X3D"
+      "AMD Ryzen 7 5800X3D",
+      "AMD Ryzen 9 5900X"
     ]
   },
   "B0D6NN87T8": {
     "asin": "B0D6NN87T8",
     "title": "AMD Ryzen™ 9 9900X 12-Core, 24-Thread Unlocked Desktop Processor",
     "brand": "AMD",
-    "price": "$332.94",
+    "price": "$332.99",
     "img": "https://m.media-amazon.com/images/I/41k-qInPV7L._SL500_.jpg",
     "features": [
       "The world's best gaming desktop processor that can deliver ultra-fast 100+ FPS performance in the world's most popular games",
@@ -342,7 +375,7 @@
       "For the state-of-the-art Socket AM5 platform, can support PCIe 5.0 on select motherboards",
       "Cooler not included"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 7800X3D",
       "AMD Ryzen 5 9600X",
@@ -352,14 +385,22 @@
       "AMD Ryzen 5 8600G",
       "AMD Ryzen 9 7900X3D",
       "AMD Ryzen 9 7900",
-      "AMD Ryzen 7 9700X3D"
+      "AMD Ryzen 7 9700X3D",
+      "AMD Ryzen 9 9950X",
+      "AMD Ryzen 5 9600",
+      "AMD Ryzen 9 7950X3D",
+      "AMD Ryzen 9 7900X",
+      "AMD Ryzen 9 5900X",
+      "AMD Ryzen 9 5950X",
+      "AMD Ryzen 7 8700G",
+      "Intel Core Ultra 9 285K"
     ]
   },
   "B0FRFS4WYQ": {
     "asin": "B0FRFS4WYQ",
     "title": "Micro Center AMD 9600X Processor with GIGABYTE B850 Gaming WiFi Motherboard",
     "brand": "Micro Center",
-    "price": "$359.99",
+    "price": "$369.99",
     "img": "https://m.media-amazon.com/images/I/41Vzm3+hQaL._SL500_.jpg",
     "features": [
       "AMD Ryzen 5 9600X Desktop Processor, 6-Core, 12-Thread, 5.4 GHz Max Boost, Unlocked for overclocking, L2+L3 38 MB cache, DDR5, Default TDP 65W. Pure gaming performance with smooth 100+ FPS in the world's most popular games",
@@ -368,7 +409,7 @@
       "X3D Turbo Mode : Unleash new era gaming performance;/ DDR5 OC up to 8200MT/s;/ Digital 6+2+2 phases VRM solution;/ WIFI EZ-Plug : Quick and easy design for Wi-Fi antenna installation;/ PCIe EZ-Latch Plus : PCIe slots with Quick Release Design",
       "Friendly UI : Multi-Theme, AIO Fan Control, and Q-Flash Auto Scan in BIOS and SW;/ Ultra-Fast Storage : 3*M.2 slots, including PCIe 5.0x4 slot;/ Efficient Thermal : VRM Thermal Armor Advanced;/ Fast Networking : GbE LAN & Wi-Fi 6 802.11ax;/ Extended Connectivity : HDMI, Displayport"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 5 9600X"
     ]
@@ -377,7 +418,7 @@
     "asin": "B0BBJDS62N",
     "title": "AMD Ryzen 5 7600X 6-Core, 12-Thread Unlocked Desktop Processor",
     "brand": "AMD",
-    "price": "$169.94",
+    "price": "$172.99",
     "img": "https://m.media-amazon.com/images/I/31kIrojfpUL._SL500_.jpg",
     "features": [
       "The Socket AM5 socket allows processor to be placed on the PCB without soldering",
@@ -388,14 +429,19 @@
       "Processor with 5.3 GHz clock speed for quick and dependable processing of data to ensure maximum productivity",
       "Comes with AMD Radeon Graphics controller for amazing graphics output"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 5 9600X",
       "AMD Ryzen 5 7600X",
       "AMD Ryzen 5 7600",
       "AMD Ryzen 5 5600X",
       "AMD Ryzen 5 5600",
-      "AMD Ryzen 5 8600G"
+      "AMD Ryzen 5 8600G",
+      "AMD Ryzen 5 9600",
+      "AMD Ryzen 7 7700",
+      "AMD Ryzen 5 7500F",
+      "AMD Ryzen 5 5500",
+      "AMD Ryzen 5 5600GT"
     ]
   },
   "B0F999N57D": {
@@ -420,7 +466,7 @@
     "asin": "B0BV3DZZ6K",
     "title": "AMD Ryzen 5 7600X + GIGABYTE B650 AORUS ELITE AX Motherboard",
     "brand": "AMD",
-    "price": "$348.99",
+    "price": "$358.99",
     "img": "https://m.media-amazon.com/images/I/31MShgAgOpL._SL500_.jpg",
     "features": [
       "Pure gaming performance with smooth 100+ FPS in the world's most popular games",
@@ -430,16 +476,17 @@
       "DDR5 Compatible: 4*DIMMs with AMD EXPO & Intel XMP Memory Module Support",
       "Commanding Power Design: Twin 14+2+1 Phases with 70A Power Stage Digital VRM Solution, 8-Layer 2X Copper PCB"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "AMD Ryzen 5 7600X"
+      "AMD Ryzen 5 7600X",
+      "AMD Ryzen 5 7600"
     ]
   },
   "B0BMQJWBDM": {
     "asin": "B0BMQJWBDM",
     "title": "AMD Ryzen 5 7600 6-Core, 12-Thread Unlocked Desktop Processor",
     "brand": "AMD",
-    "price": "$220.00",
+    "price": "$215.85",
     "img": "https://m.media-amazon.com/images/I/41LSnKT1MXL._SL500_.jpg",
     "features": [
       "POWERFUL GAMING STARTS HERE",
@@ -448,17 +495,19 @@
       "For the state-of-the-art Socket AM5 platform, can support PCIe 5.0 on select 600 Series motherboards",
       "AMD Wraith Stealth cooler included"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 5 7600X",
-      "AMD Ryzen 5 7600"
+      "AMD Ryzen 5 7600",
+      "AMD Ryzen 5 9600",
+      "AMD Ryzen 5 7500F"
     ]
   },
   "B0F9XH8DBP": {
     "asin": "B0F9XH8DBP",
     "title": "AMD RYZEN 5 7600X3D Raphael AM5 4.1GHZ 6-CORE Boxed Processor - HEATSINK NOT Included",
     "brand": "AMD",
-    "price": "$239.00",
+    "price": "$239.99",
     "img": "https://m.media-amazon.com/images/I/41TMTj6EIUL._SL500_.jpg",
     "features": [
       "Raphael AM5 6-Core Desktop Processor",
@@ -467,7 +516,7 @@
       "128GB DDR5-5200 Memory Supported",
       "Heatsink Not Included"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 5 7600X",
       "AMD Ryzen 5 7600"
@@ -477,7 +526,7 @@
     "asin": "B09VCHR1VH",
     "title": "AMD Ryzen 5 5600 6-Core, 12-Thread Unlocked Desktop Processor with Wraith Stealth Cooler",
     "brand": "AMD",
-    "price": "$151.99",
+    "price": "$157.00",
     "img": "https://m.media-amazon.com/images/I/31EzTuimorL._SL500_.jpg",
     "features": [
       "The fastest cores in the world for PC gamers",
@@ -485,20 +534,25 @@
       "For the best possible VR experiences, AMD offers select Ryzen VR-Ready Premium processors",
       "Unlocked for Overclocking: Yes"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 5 7600X",
       "AMD Ryzen 5 7600",
       "AMD Ryzen 5 5600X",
       "AMD Ryzen 5 5600",
-      "AMD Ryzen 5 8600G"
+      "AMD Ryzen 5 8600G",
+      "AMD Ryzen 5 9600X",
+      "AMD Ryzen 5 9600",
+      "AMD Ryzen 5 7500F",
+      "AMD Ryzen 5 5500",
+      "AMD Ryzen 5 5600GT"
     ]
   },
   "B08166SLDF": {
     "asin": "B08166SLDF",
     "title": "AMD Ryzen 5 5600X 6-core, 12-thread unlocked desktop processor with Wraith Stealth cooler",
     "brand": "AMD",
-    "price": "$176.71",
+    "price": "$178.23",
     "img": "https://m.media-amazon.com/images/I/31+mOYoQM6L._SL500_.jpg",
     "features": [
       "AMD's fastest 6 core processor for mainstream desktop, with 12 processing threads. System Memory Type: DDR4",
@@ -507,14 +561,17 @@
       "4.6 GHz Max Boost, unlocked for overclocking, 35 MB of cache, DDR-3200 support",
       "For the advanced Socket AM4 platform, can support PCIe 4.0 on X570 and B550 motherboards"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 5 7600X",
       "AMD Ryzen 5 7600",
       "AMD Ryzen 5 5600X",
       "AMD Ryzen 5 5600",
       "AMD Ryzen 7 5700X",
-      "AMD Ryzen 5 8600G"
+      "AMD Ryzen 5 8600G",
+      "AMD Ryzen 5 7500F",
+      "AMD Ryzen 5 5500",
+      "AMD Ryzen 5 5600GT"
     ]
   },
   "B0GTRTJSNZ": {
@@ -535,7 +592,7 @@
     "asin": "B0D6NNRBGP",
     "title": "AMD Ryzen™ 9 9950X 16-Core, 32-Thread Unlocked Desktop Processor",
     "brand": "AMD",
-    "price": "$499.99",
+    "price": "$549.00",
     "img": "https://m.media-amazon.com/images/I/41k-qInPV7L._SL500_.jpg",
     "features": [
       "The best for creators meets the best for gamers, can deliver ultra-fast 100+ FPS performance in the world's most popular games",
@@ -544,12 +601,16 @@
       "For the state-of-the-art Socket AM5 platform, can support PCIe 5.0 on select motherboards",
       "Cooler not included, liquid cooler recommended"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 9 9950X3D",
       "AMD Ryzen 9 9900X",
       "AMD Ryzen 9 7900X3D",
-      "AMD Ryzen 9 7900"
+      "AMD Ryzen 9 7900",
+      "AMD Ryzen 9 9950X",
+      "AMD Ryzen 9 7950X3D",
+      "AMD Ryzen 9 7900X",
+      "AMD Ryzen 9 5950X"
     ]
   },
   "B0GX6BXDZM": {
@@ -577,17 +638,19 @@
     "asin": "B0DWGWN8GY",
     "title": "AMD Ryzen 9 9900X3D 12-Core Processor",
     "brand": "AMD",
-    "price": "$507.44",
+    "price": "$504.40",
     "img": "https://m.media-amazon.com/images/I/311b3QQOJjL._SL500_.jpg",
     "features": [
       "AMD Ryzen 9 9900X3D Gaming and Content Creation Processor"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 9 9950X3D",
       "AMD Ryzen 9 9900X",
       "AMD Ryzen 9 7900X3D",
-      "AMD Ryzen 7 9700X3D"
+      "AMD Ryzen 7 9700X3D",
+      "AMD Ryzen 9 9950X",
+      "AMD Ryzen 7 9700X"
     ]
   },
   "B0D6NMCZG1": {
@@ -603,14 +666,19 @@
       "For the AMD Socket AM4 platform, with PCIe 4.0 support",
       "Cooler not included"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 9 9950X3D",
       "AMD Ryzen 9 9900X",
       "AMD Ryzen 7 5700X3D",
       "AMD Ryzen 9 7900X3D",
       "AMD Ryzen 9 7900",
-      "AMD Ryzen 7 5800X3D"
+      "AMD Ryzen 7 5800X3D",
+      "AMD Ryzen 9 9950X",
+      "AMD Ryzen 9 7900X",
+      "AMD Ryzen 9 5900X",
+      "AMD Ryzen 9 5950X",
+      "AMD Ryzen 5 5500"
     ]
   },
   "B0F1FSQ119": {
@@ -626,7 +694,7 @@
       "Supports DDR5 Memory, Dual Channel DDR5 8400+ MT/s (OC);/ Ultra Performance: 14+2+1 Duet Rail Power System, dual 8-pin CPU power connectors, Core Boost, Memory Boost, 8-layer PCB made by 2oz thickened copper and server-grade level material;/ Frozr Guard: Extended Heatsink, MOSFET thermal pads rated for 7W/mK, additional choke thermal pads and EZ M.2 Shield Frozr II are built for high performance system and non-stop experience",
       "EZ DIY: EZ M.2 Shield Frozr II, EZ M.2 Clip II, EZ PCIe Release and EZ Antenna;/ Lightning Fast Game experience: PCIe 5.0 slot, Lightning Gen 5 x4 M.2;/ Ultra Connect: USB4 and 5G LAN with Wi-Fi 7 Solution - the latest solution for professional and multimedia use, delivering secure, stable, and high-speed networking and data transmission;/ Audio Boost 5: Reward your ears with studio-grade sound quality for the most immersive gaming experience"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 9 9900X"
     ]
@@ -646,7 +714,7 @@
       "Processor with 4.70 GHz clock speed for faster, efficient execution of cycles per second to ensure maximum usability",
       "Comes with AMD Radeon Graphics controller for stunning picture quality"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 9 9900X",
       "AMD Ryzen 5 7600",
@@ -654,7 +722,13 @@
       "AMD Ryzen 7 8700G",
       "AMD Ryzen 9 7900X3D",
       "AMD Ryzen 9 7900",
-      "AMD Ryzen 7 9700X3D"
+      "AMD Ryzen 7 9700X3D",
+      "AMD Ryzen 9 9950X",
+      "AMD Ryzen 9 7950X3D",
+      "AMD Ryzen 7 7800X3D",
+      "AMD Ryzen 9 7900X",
+      "AMD Ryzen 9 5900X",
+      "AMD Ryzen 9 5950X"
     ]
   },
   "B09VCJ171S": {
@@ -669,11 +743,14 @@
       "4.2 GHz Max Boost, unlocked for overclocking, 19 MB cache, DDR4-3200 support",
       "For the advanced Socket AM4 platform"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 5 7600",
       "AMD Ryzen 5 5600X",
-      "AMD Ryzen 5 5600"
+      "AMD Ryzen 5 5600",
+      "AMD Ryzen 5 7500F",
+      "AMD Ryzen 5 5500",
+      "AMD Ryzen 5 5600GT"
     ]
   },
   "B0CKFMBB7C": {
@@ -690,16 +767,17 @@
       "128GB DDR4-3200 Memory Supported",
       "Heatsink Not Included"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "AMD Ryzen 5 5600X"
+      "AMD Ryzen 5 5600X",
+      "AMD Ryzen 5 5600"
     ]
   },
   "B091J3NYVF": {
     "asin": "B091J3NYVF",
     "title": "AMD Ryzen™ 7 5700G 8-Core, 16-Thread Desktop Processor with Radeon™ Graphics",
     "brand": "AMD",
-    "price": "$197.50",
+    "price": "$189.99",
     "img": "https://m.media-amazon.com/images/I/41lni-oQKpL._SL500_.jpg",
     "features": [
       "Play some of the most popular games at 1080p with the fastest processor graphics in the world, no graphics card required",
@@ -707,7 +785,7 @@
       "4.6 GHz Max Boost, unlocked for overclocking, 20 MB cache, DDR4-3200 support",
       "For the advanced Socket AM4 platform. Maximum Operating Temperature (Tjmax)-95°C"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 5 5600X",
       "AMD Ryzen 7 5700X3D",
@@ -716,14 +794,15 @@
       "AMD Ryzen 5 8600G",
       "AMD Ryzen 7 7700",
       "AMD Ryzen 7 8700G",
-      "AMD Ryzen 7 5800X3D"
+      "AMD Ryzen 7 5800X3D",
+      "AMD Ryzen 5 5600GT"
     ]
   },
   "B0BZH5ZLM9": {
     "asin": "B0BZH5ZLM9",
     "title": "AMD Ryzen 5 5500 with Wraith Stealth Cooler 3.6 GHz 6 Core / 12 Thread 19MB 65W 100-100000457BOX",
     "brand": "AMD",
-    "price": "$89.99",
+    "price": "$99.00",
     "img": "https://m.media-amazon.com/images/I/51aYMZBjsuL._SL500_.jpg",
     "features": [
       "AMD \"Zen 3\" Core Architecture: World's Fastest Core for PC Gamers",
@@ -731,17 +810,19 @@
       "The AMD Ryzen 5 5500 processor features a complete technology suite designed to enhance the processing power of your PC, including Precision Boost 2, Precision Boost Overdrive, and Resizable BAR",
       "Physical damage such as pin bending or pin breakage after use is not guaranteed. Please be aware that if purchased from an overseas seller, we cannot guarantee the 3 year warranty and may result in import tax"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 5 5600X",
-      "AMD Ryzen 5 5600"
+      "AMD Ryzen 5 5600",
+      "AMD Ryzen 5 5500",
+      "AMD Ryzen 5 5600GT"
     ]
   },
   "B09VCHQHZ6": {
     "asin": "B09VCHQHZ6",
     "title": "AMD Ryzen 7 5700X 8-Core, 16-Thread Unlocked Desktop Processor",
     "brand": "AMD",
-    "price": "$199.99",
+    "price": "$209.00",
     "img": "https://m.media-amazon.com/images/I/3116WnNTPKL._SL500_.jpg",
     "features": [
       "Can deliver ultra-fast 100+ FPS performance in the world's most popular games, discrete graphics card required",
@@ -750,7 +831,7 @@
       "For the advanced Socket AM4 platform, can support PCIe 4.0 on X570 and B550 motherboards",
       "Cooler not included"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 5700X3D",
       "AMD Ryzen 7 5700X"
@@ -760,7 +841,7 @@
     "asin": "B0FQPCRG7P",
     "title": "AMD Ryzen 7 5700 8 Cores / 16 Thread 65W TDP Socket AM4 L2+L3 Cache 20MB Up to 4.6GHz Boost Clock Wraith Stealth Cooler",
     "brand": "AMD",
-    "price": "$153.45",
+    "price": "$172.99",
     "img": "https://m.media-amazon.com/images/I/41M1nWNDxaL._SL500_.jpg",
     "features": [
       "ADVANCED FEATURES - With a TDP of 65W and 20MB L3 cache, the Ryzen 7 5700 is created to do big.",
@@ -768,7 +849,7 @@
       "8 cores and 16 threads - The Ryzen 5 5700 offers excellent clock speeds (base 3.7 GHz / boost 4.6 GHz). Overclocking is of course possible as all cores are unlocked.",
       "AMD Wraith Spire Cooler Included"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 5700X3D",
       "AMD Ryzen 7 5700X"
@@ -778,7 +859,7 @@
     "asin": "B0815XFSGK",
     "title": "AMD Ryzen 7 5800X 8-core, 16-thread unlocked desktop processor",
     "brand": "AMD",
-    "price": "$258.72",
+    "price": "$263.99",
     "img": "https://m.media-amazon.com/images/I/41t0HDY4O+L._SL500_.jpg",
     "features": [
       "AMD's fastest 8 core processor for mainstream desktop, with 16 procesing threads. OS Support-Windows 10 64-Bit Edition",
@@ -787,7 +868,7 @@
       "4.7 GHz Max Boost, unlocked for overclocking, 36 MB of cache, DDR-3200 support",
       "For the advanced Socket AM4 platform, can support PCIe 4.0 on X570 and B550 motherboards"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 5700X3D",
       "AMD Ryzen 7 5700X",
@@ -798,7 +879,7 @@
     "asin": "B0DFK2MH2D",
     "title": "Intel Core Ultra 7 Desktop Processor 265K - 20 cores (8 P-cores + 12 E-cores) up to 5.5 GHz",
     "brand": "Intel",
-    "price": "$349.99",
+    "price": "$329.99",
     "img": "https://m.media-amazon.com/images/I/41T+yFsdxdL._SL500_.jpg",
     "features": [
       "Get ultra-efficient with Intel Core Ultra desktop processors that improve both performance and efficiency so your PC can run cooler, quieter, and quicker.",
@@ -808,17 +889,18 @@
       "Compatibility Compatible with Intel 800 series chipset-based motherboards",
       "PCIe Express Version Turbo Boost Max Technology 3.0, and PCIe 5.0 and 4.0 support. Intel Optane Memory support. No thermal solution included"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core Ultra 7 265K",
-      "Intel Core Ultra 7 265KF"
+      "Intel Core Ultra 7 265KF",
+      "Intel Core Ultra 5 245KF"
     ]
   },
   "B0HGMML713": {
     "asin": "B0HGMML713",
     "title": "Intel 20-Core Ultra 7 265K LGA1851 Desktop Tray Processor (up to 5.5GHz)",
     "brand": "Empowered PC",
-    "price": "$309.99",
+    "price": "$299.99",
     "img": "https://m.media-amazon.com/images/I/51V20yIFFjL._SL500_.jpg",
     "features": [
       "[ Unleash Ultimate Gaming Performance ] Level up your gaming setup with the Intel Core Ultra 7 265K (commonly referred to in the Ultra 200 series). Dominate high-framerate lobbies using its blistering 5.5 GHz Max Turbo Frequency. Built on the advanced FCLGA1851 socket, it features 30 MB of Intel Smart Cache to dramatically cut down latency and keep your stutter-free gameplay running smoothly during intense competitive matches.",
@@ -827,7 +909,7 @@
       "[ Efficient Thermal and System Power ] Experience high-end computing without losing your cool. Operating efficiently at a 125W Processor Base Power that can scale up to a 250W Maximum Turbo Power under heavy loads, it harnesses TSMC N3B lithography to balance extreme multi-threaded capability with smart energy management and reliable thermal output.",
       "[Reliability Guaranteed] Shop with total peace of mind knowing that every new computer component we sell is backed by our Empowered PC 1-year warranty. Whether you are investing in high-speed DDR5 RAM or a powerhouse GPU, we protect your build against defects and performance failures. We stand firmly behind the quality of our hardware, ensuring that your setup remains fast, stable, and secure for years to come."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core Ultra 7 265K"
     ]
@@ -836,7 +918,7 @@
     "asin": "B0DT7FY7P3",
     "title": "Intel® Core™ Ultra 7 Desktop Processor 265 20 cores (8 P-cores + 12 E-cores) up to 5.3 GHz",
     "brand": "Intel",
-    "price": "$371.55",
+    "price": "$373.02",
     "img": "https://m.media-amazon.com/images/I/41vzHmtmouL._SL500_.jpg",
     "features": [
       "20 cores (8 P-cores + 12 E-cores) and 20 threads. Integrated Intel Graphics included",
@@ -845,7 +927,7 @@
       "Compatible with Intel 800 series chipset-based motherboards",
       "Turbo Boost Max Technology 3.0, and PCIe 5.0 & 4.0 support. Intel Optane Memory support. No thermal solution included"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core Ultra 7 265K",
       "Intel Core Ultra 5 245K",
@@ -870,7 +952,7 @@
     "asin": "B0DFKC99VL",
     "title": "Intel® Core™ Ultra 9 Processor 285K 24 cores (8 P-cores + 16 E-cores) up to 5.7 GHz",
     "brand": "Intel",
-    "price": "$522.99",
+    "price": "$519.99",
     "img": "https://m.media-amazon.com/images/I/419Ou+b1uTL._SL500_.jpg",
     "features": [
       "Get ultra-efficient with Intel Core Ultra desktop processors that improve both performance and efficiency so your PC can run cooler, quieter, and quicker.",
@@ -880,7 +962,7 @@
       "Compatibility Compatible with Intel 800 series chipset-based motherboards",
       "PCIe Express Version Turbo Boost Max Technology 3.0, and PCIe 5.0 and 4.0 support. Intel Optane Memory support. No thermal solution included"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core Ultra 7 265K",
       "Intel Core Ultra 5 245K",
@@ -888,7 +970,8 @@
       "Intel Core Ultra 9 285K",
       "Intel Core Ultra 7 265KF",
       "Intel Core i9-14900K",
-      "Intel Core i9-9900K"
+      "Intel Core i9-9900K",
+      "Intel Core i9-13900K"
     ]
   },
   "B0FDWC73L9": {
@@ -915,7 +998,7 @@
     "asin": "B0F5DJJWN4",
     "title": "Micro Center Combo Intel Core Ultra 7 265KF+ msi Z890 Gaming Plus WiFi mobo",
     "brand": "Micro Center",
-    "price": "$489.99",
+    "price": "$509.99",
     "img": "https://m.media-amazon.com/images/I/51a5-+HBngL._SL500_.jpg",
     "features": [
       "Get ultra-efficient with Intel Ultra desktop processors that improve both performance and efficiency so your PC can run cooler, quieter, and quicker",
@@ -925,7 +1008,7 @@
       "Ultra Performance: 14+1+1+1 Duet Rail Power System 55A DrMOS, dual 8-pin CPU power connectors, Core Boost, Memory Boost, 6-layer PCB made by 2oz thickened copper and server-grade level material",
       "EZ DIY: EZ M.2 Shield Frozr II, EZ M.2 Clip II, EZ PCIe Clip II and EZ Antenna"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core Ultra 7 265K",
       "Intel Core Ultra 7 265KF"
@@ -935,14 +1018,14 @@
     "asin": "B0DTRYQ6B1",
     "title": "Intel® Core™ Ultra 7 Desktop Processor 265 20 Cores (8 P-cores +12 E-cores) up to 5.3 GHz",
     "brand": "Intel",
-    "price": "$413.77",
+    "price": "$413.05",
     "img": "https://m.media-amazon.com/images/I/41tzaHCVqsL._SL500_.jpg",
     "features": [
       "Intel Core Ultra 7 Desktop Processor 265",
       "Intel Core Ultra 7 Series 2 desktop processors with support for PCIe 5.0 and 4.0 and DDR5 are optimized for gaming and productivity applications for high performance.",
       "Compatible with Intel chipset 800 series motherboards. Processor base power consumption: 65W. Intel Laminar RM2 included."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core Ultra 7 265K",
       "Intel Core Ultra 7 265KF"
@@ -962,20 +1045,21 @@
       "Compatibility Compatible with Intel 800 series chipset-based motherboards",
       "PCIe Express Version Turbo Boost Max Technology 3.0, and PCIe 5.0 & 4.0 support. Intel Optane Memory support. No thermal solution included. Discrete graphics required"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core Ultra 7 265K",
       "Intel Core Ultra 5 245K",
       "Intel Core i5-14400F",
       "Intel Core i5-14600KF",
-      "Intel Core Ultra 7 265KF"
+      "Intel Core Ultra 7 265KF",
+      "Intel Core Ultra 5 245KF"
     ]
   },
   "B0DT7DLJ5Z": {
     "asin": "B0DT7DLJ5Z",
     "title": "Intel® Core™ Ultra 5 Desktop Processor 235 14 cores (6 P-cores + 8 E-cores) up to 5.0 GHz",
     "brand": "Intel",
-    "price": "$288.75",
+    "price": "$283.74",
     "img": "https://m.media-amazon.com/images/I/31+1E2x+xdL._SL500_.jpg",
     "features": [
       "14 cores (6 P-cores + 8 E-cores) and 14 threads. Integrated Intel Graphics included.",
@@ -984,18 +1068,19 @@
       "Compatible with Intel 800 series chipset-based motherboards",
       "PCIe 5.0 & 4.0 support. Intel Optane Memory support. No thermal solution included"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core Ultra 7 265K",
       "Intel Core Ultra 5 245K",
-      "Intel Core Ultra 9 285K"
+      "Intel Core Ultra 9 285K",
+      "Intel Core Ultra 5 245KF"
     ]
   },
   "B0DT7DXXJT": {
     "asin": "B0DT7DXXJT",
     "title": "Intel® Core™ Ultra 5 Desktop Processor 225 10 cores (6 P-cores + 4 E-cores) up to 4.9 GHz",
     "brand": "Intel",
-    "price": "$178.55",
+    "price": "$188.13",
     "img": "https://m.media-amazon.com/images/I/41CXsPEvPUL._SL500_.jpg",
     "features": [
       "10 cores (6 P-cores + 4 E-cores) and 14 threads. Integrated Intel Graphics included",
@@ -1004,17 +1089,18 @@
       "Compatible with Intel 800 series chipset-based motherboards",
       "PCIe 5.0 & 4.0 support. Intel Optane Memory support. No thermal solution included."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core Ultra 5 245K",
-      "Intel Core i5-12400F"
+      "Intel Core i5-12400F",
+      "Intel Core Ultra 5 245KF"
     ]
   },
   "B0GMKXVVJQ": {
     "asin": "B0GMKXVVJQ",
     "title": "Intel® Core™ Ultra 5 Processor 250K Plus 18 cores (6 P-cores + 12 E-cores) up to 5.3 GHz",
     "brand": "Intel",
-    "price": "$219.00",
+    "price": "$215.86",
     "img": "https://m.media-amazon.com/images/I/31KYosiM0hL._SL500_.jpg",
     "features": [
       "Next‑Gen Platform Support: Compatible with Intel 800 Series Chipset‑based motherboards with LGA1851 Socket enabling PCIe 5.0/4.0 and high‑speed DDR5 memory (up to 7200 MT/s).",
@@ -1022,16 +1108,18 @@
       "Built for Enthusiasts: Unlocked for performance tuning when paired with Intel Z‑series chipsets, making it ideal for overclockers and power users.",
       "Robust Power & Thermal Design: Engineered with 125W base power and 250W max turbo power to sustain high‑intensity"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Intel Core Ultra 5 245K"
+      "Intel Core Ultra 5 245K",
+      "Intel Core Ultra 7 265KF",
+      "Intel Core Ultra 5 245KF"
     ]
   },
   "B0G52KJ5SR": {
     "asin": "B0G52KJ5SR",
     "title": "Micro Center Bundle Intel Core Ultra5 245K CPU and mATX Motherboard Combo",
     "brand": "Micro Center",
-    "price": "$359.99",
+    "price": "$369.99",
     "img": "https://m.media-amazon.com/images/I/51X3WqptX4L._SL500_.jpg",
     "features": [
       "Get ultra-efficient with Intel Ultra desktop processors that improve both performance and efficiency so your PC can run cooler, quieter, and quicker",
@@ -1043,7 +1131,7 @@
       "Thermals: MOSFET Heatsink",
       "Connectivity: PCIe 5.0, 2x M.2 Slots, USB-C"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core Ultra 5 245K"
     ]
@@ -1062,7 +1150,7 @@
       "LGA 1851 READY - The MAG CORELIQUID Series liquid cooler provides out of box support for LGA 1851",
       "EVAPORATION-PROOF TUBING - 390mm water cooling tubes comprised of triple-layered netted plastic concealed beneath reinforced mesh sheathing to ensure that water stays inside the closed-loop system at all times"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core Ultra 5 245K"
     ]
@@ -1078,7 +1166,7 @@
       "Intel Core Ultra 5 Series 2 desktop processors with support for PCIe 5.0 and 4.0 and DDR5 are optimized for gaming and productivity applications for high performance.",
       "Compatible with Intel chipset 800 series motherboards. Processor base power consumption: 65W. Intel Laminar RM2 included."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core Ultra 5 245K"
     ]
@@ -1096,14 +1184,18 @@
       "Compatible with Intel 800 series chipset-based motherboards",
       "PCIe 5.0 & 4.0 support. Intel Optane Memory support. No thermal solution included. Discrete graphics required"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core Ultra 5 245K",
       "Intel Core i5-14400F",
       "Intel Core i5-12400F",
       "Intel Core i5-14600KF",
       "Intel Core Ultra 7 265KF",
-      "Intel Core i5-9600K"
+      "Intel Core i5-9600K",
+      "Intel Core Ultra 5 245KF",
+      "Intel Core i5-14600K",
+      "Intel Core i5-13400F",
+      "Intel Core i5-12600K"
     ]
   },
   "B0CGJ9STNF": {
@@ -1119,19 +1211,24 @@
       "Compatible with Intel 600-series (with potential BIOS update) or 700-series chipset-based motherboards",
       "DDR4 and DDR5 platform support cuts your load times and gives you the space to run the most demanding games"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core i5-14600K",
       "Intel Core i5-14600KF",
       "Intel Core i5-9600K",
-      "Intel Core i5-9400F"
+      "Intel Core i5-9400F",
+      "Intel Core i5-14400F",
+      "Intel Core i7-13700K",
+      "Intel Core i5-13600K",
+      "Intel Core i5-13400F",
+      "Intel Core i5-12600K"
     ]
   },
   "B0CGJ4MLC8": {
     "asin": "B0CGJ4MLC8",
     "title": "Intel® Core™ i5-14600KF New Gaming Desktop Processor 14 cores (6 P-cores + 8 E-cores) - Unlocked",
     "brand": "Intel",
-    "price": "$238.61",
+    "price": "$239.99",
     "img": "https://m.media-amazon.com/images/I/41cxsYbgqrL._SL500_.jpg",
     "features": [
       "Be everything you want to be, in-game and out with optimized performance and new features. Play harder and work smarter with Intel Core 14th Gen processors",
@@ -1140,14 +1237,16 @@
       "Compatible with Intel 600-series (with potential BIOS update) or 700-series chipset-based motherboards",
       "DDR4 and DDR5 platform support cuts your load times and gives you the space to run the most demanding games"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core i5-14600K",
       "Intel Core i7-14700K",
       "Intel Core i5-14400F",
       "Intel Core i5-12400F",
       "Intel Core i5-14600KF",
-      "Intel Core i7-14700KF"
+      "Intel Core i7-14700KF",
+      "Intel Core i5-13600K",
+      "Intel Core i5-13400F"
     ]
   },
   "B0CHBGVFHP": {
@@ -1161,18 +1260,21 @@
       "Optimized for gamers and office applications, they deliver high performance.",
       "Compatible with Intel 700 series and Intel 600 series chipset based motherboards. Core CPU power of 125 W."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core i5-14600K",
       "Intel Core i5-14400F",
-      "Intel Core i5-14600KF"
-    ]
+      "Intel Core i5-14600KF",
+      "Intel Core i7-14700K",
+      "Intel Core i5-13600K"
+    ],
+    "price": "$249.99"
   },
   "B0CQ1M1YXM": {
     "asin": "B0CQ1M1YXM",
     "title": "Intel® Core™ i5-14400 Desktop Processor 10 cores (6 P-cores + 4 E-cores) 4.7 GHz",
     "brand": "Intel",
-    "price": "$208.00",
+    "price": "$209.00",
     "img": "https://m.media-amazon.com/images/I/31kpWDRcDRL._SL500_.jpg",
     "features": [
       "10 cores (6 P-cores plus 4 E-cores) and 16 threads. Integrated Intel UHD Graphics 730 included.",
@@ -1182,11 +1284,14 @@
       "PCIe 5.0 and 4.0 support. Intel Optane Memory support. RM1 thermal solution included.",
       "Includes Intel Laminar RM1 Cooler"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core i5-14600K",
       "Intel Core i5-14400F",
-      "Intel Core i5-12400F"
+      "Intel Core i5-12400F",
+      "Intel Core i5-13600K",
+      "Intel Core i5-13400F",
+      "Intel Core i5-12600K"
     ]
   },
   "B0CR5P7WGN": {
@@ -1224,7 +1329,7 @@
       "Compatible with Intel 600-series (with potential BIOS update) or 700-series chipset-based motherboards",
       "DDR4 and DDR5 platform support cuts your load times and gives you the space to run the most demanding games"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core i5-14600K",
       "Intel Core i7-14700K",
@@ -1232,14 +1337,17 @@
       "Intel Core i5-14600KF",
       "Intel Core i7-14700KF",
       "Intel Core i7-9700K",
-      "Intel Core i7-8700K"
+      "Intel Core i7-8700K",
+      "Intel Core i7-13700K",
+      "Intel Core i5-13600K",
+      "Intel Core i7-12700K"
     ]
   },
   "B0CQ1Y7KHV": {
     "asin": "B0CQ1Y7KHV",
     "title": "Intel Core i5-14400F Desktop Processor 10 cores (6 P-cores + 4 E-cores) up to 4.7 GHz",
     "brand": "Intel",
-    "price": "$178.99",
+    "price": "$161.10",
     "img": "https://m.media-amazon.com/images/I/41RGrbYHWqL._SL500_.jpg",
     "features": [
       "10 cores (6 P-cores plus 4 E-cores) and 16 threads",
@@ -1248,7 +1356,7 @@
       "Compatible with Intel 600-series (with potential BIOS update) and 700-series chipset-based motherboards",
       "PCIe 5.0 and 4.0 support. DDR4 and DDR5 Memory support. RM1 thermal solution included. Discrete graphics required."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core i5-14600K",
       "Intel Core i7-14700K",
@@ -1256,7 +1364,12 @@
       "Intel Core i5-12400F",
       "Intel Core i5-14600KF",
       "Intel Core i5-9600K",
-      "Intel Core i5-9400F"
+      "Intel Core i5-9400F",
+      "Intel Core i5-13600K",
+      "Intel Core i5-13400F",
+      "Intel Core i3-14100F",
+      "Intel Core i3-12100F",
+      "Intel Core i5-12600K"
     ]
   },
   "B0BCDR9M33": {
@@ -1274,17 +1387,19 @@
       "Performance hybrid architecture integrates two core microarchitectures, prioritizing and distributing workloads to optimize performance",
       "Turbo Boost Max Technology 3.0, and PCIe 5.0 and 4.0 support. Intel Optane Memory support. No thermal solution included"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core i5-14600K",
-      "Intel Core i5-9600K"
+      "Intel Core i5-9600K",
+      "Intel Core i5-13600K",
+      "Intel Core i5-12600K"
     ]
   },
   "B0CGJ41C9W": {
     "asin": "B0CGJ41C9W",
     "title": "Intel® Core™ i7-14700K New Gaming Desktop Processor 20 cores (8 P-cores + 12 E-cores) with Integrated Graphics - Unlocked",
     "brand": "Intel",
-    "price": "$379.99",
+    "price": "$374.00",
     "img": "https://m.media-amazon.com/images/I/31SP9MauTJL._SL500_.jpg",
     "features": [
       "Game Without Compromise. Play harder and work smarter with Intel Core 14th Gen processors",
@@ -1293,7 +1408,7 @@
       "Compatible with Intel 600-series (with potential BIOS update) or 700-series chipset-based motherboards",
       "DDR4 and DDR5 platform support cuts your load times and gives you the space to run the most demanding games"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core i5-14600K",
       "Intel Core i7-14700K",
@@ -1302,7 +1417,12 @@
       "Intel Core i7-14700KF",
       "Intel Core i9-14900K",
       "Intel Core i7-9700K",
-      "Intel Core i7-8700K"
+      "Intel Core i7-8700K",
+      "Intel Core Ultra 7 265K",
+      "Intel Core i9-13900K",
+      "Intel Core i7-13700K",
+      "Intel Core i5-13600K",
+      "Intel Core i7-12700K"
     ]
   },
   "B0CQ3142LB": {
@@ -1314,20 +1434,22 @@
     "features": [
       "Intel Core i5-14400F LGA 1700 Processor BX8071514400F"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core i5-14600K",
       "Intel Core i5-14400F",
       "Intel Core i5-12400F",
       "Intel Core i5-14600KF",
-      "Intel Core i5-9600K"
+      "Intel Core i5-9600K",
+      "Intel Core i5-13400F",
+      "Intel Core i5-12600K"
     ]
   },
   "B0CQ1QJZM2": {
     "asin": "B0CQ1QJZM2",
     "title": "Intel Core i7-14700 Desktop Processor 20 cores (8 P-cores + 12 E-cores) up to 5.4 GHz",
     "brand": "Intel",
-    "price": "$378.95",
+    "price": "$376.89",
     "img": "https://m.media-amazon.com/images/I/31wU3YIRf4L._SL500_.jpg",
     "features": [
       "20 cores (8 P-cores + 12 E-cores) and 28 threads. Integrated Intel UHD Graphics 770 included.",
@@ -1337,12 +1459,14 @@
       "Turbo Boost Max Technology 3.0 Frequency, and PCIe 5.0 & 4.0 support. DDR4 and DDR5 Memory support. RM1 thermal solution included.",
       "Includes Intel Laminar RM1 Cooler"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core i7-14700K",
       "Intel Core i7-14700KF",
       "Intel Core i7-9700K",
-      "Intel Core i7-8700K"
+      "Intel Core i7-8700K",
+      "Intel Core i7-13700K",
+      "Intel Core i7-12700K"
     ]
   },
   "B09FXKHN7M": {
@@ -1357,21 +1481,23 @@
       "11 MB L2 and 25 MB L3 cache offers supreme performance for computation intensive apps",
       "Intel 7 Architecture enables improved performance per watt and micro architecture makes it power-efficient"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core i7-14700K",
       "Intel Core i5-14600KF",
       "Intel Core Ultra 7 265KF",
       "Intel Core i7-14700KF",
       "Intel Core i7-9700K",
-      "Intel Core i7-8700K"
+      "Intel Core i7-8700K",
+      "Intel Core i7-13700K",
+      "Intel Core i7-12700K"
     ]
   },
   "B0CGJDKLB8": {
     "asin": "B0CGJDKLB8",
     "title": "Intel® Core™ i9-14900K Desktop Processor",
     "brand": "Intel",
-    "price": "$469.99",
+    "price": "$459.00",
     "img": "https://m.media-amazon.com/images/I/41s0IPcEjuL._SL500_.jpg",
     "features": [
       "Game without compromise. Play harder and work smarter with Intel Core 14th Gen processors",
@@ -1380,13 +1506,14 @@
       "Compatible with Intel 600-series (with potential BIOS update) or 700-series chipset-based motherboards",
       "DDR4 and DDR5 platform support cuts your load times and gives you the space to run the most demanding games"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core i7-14700K",
       "Intel Core i5-14400F",
       "Intel Core i7-14700KF",
       "Intel Core i9-14900K",
-      "Intel Core i9-9900K"
+      "Intel Core i9-9900K",
+      "Intel Core i9-13900K"
     ]
   },
   "B08X6NXNX7": {
@@ -1437,7 +1564,7 @@
       "[ Power Next-Gen Intelligence ] Step into the future of computing with the AI-ready Ryzen 7 9700X. This chip provides the underlying speed needed for local AI model training, data analysis, and software development. Native DDR5-5600 memory support and high PCIe 5.0 bandwidth ensure massive datasets move without bottlenecks. Clocking up to 5.5GHz, it delivers the raw processing power tech enthusiasts crave. Optimize your workstation for the next generation of intelligent software.",
       "[Reliability Guaranteed] Buy with complete peace of mind knowing that every new computer component we sell is backed by our 1-year Empowered PC warranty. Whether you're investing in high-speed DDR5 RAM or a powerful GPU, we protect your build from defects and performance failures. We firmly guarantee the quality of our components, ensuring that your setup remains fast, stable and safe for years to come. NOTE: Tray/OEM/Bulk Packaging. Retail packaging is not included. CPU Cooler is NOT included."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 9700X"
     ]
@@ -1458,7 +1585,7 @@
       "Abundant Connectivity: Thunderbolt 4 USB Type-C port, front panel USB 20Gbps Type-C port, Thunderbolt (USB4) header supportHigh-Performance Networking: On-board Wi-Fi 7 (802.11be) with ASUS WiFi Q-Antenna and Intel 2.5 Gb Ethernet",
       "Latest M.2 Support: One onboard PCIe 5.0 M.2 slot with cooling solution and three PCIe 4.0 M.2 slots"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core Ultra 9 285K"
     ]
@@ -1476,7 +1603,7 @@
       "Supports Dual Channel DDR5 Memory, up to 256GB",
       "Extended Heatsink Design: extended PWM heatsink and enhanced circuit design ensures even high-end processors run in full speed"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core Ultra 9 285K"
     ]
@@ -1492,17 +1619,18 @@
       "Provides the instructions and processing power the computer needs to do its work",
       "The more powerful and updated your processor, the faster your computer can complete its tasks"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core Ultra 9 285K",
-      "Intel Core i9-9900K"
+      "Intel Core i9-9900K",
+      "Intel Core i9-13900K"
     ]
   },
   "B09FXDLX95": {
     "asin": "B09FXDLX95",
     "title": "Intel Core i9-12900K Gaming Desktop Processor with Integrated Graphics and 16 (8P+8E) Cores up to 5.2 GHz Unlocked LGA1700 600 Series Chipset 125W",
     "brand": "Intel",
-    "price": "$405.99",
+    "price": "$390.33",
     "img": "https://m.media-amazon.com/images/I/31el53mglvL._SL500_.jpg",
     "features": [
       "Built for the Next Generation of Gaming. Game and multitask without compromise powered by Intel’s performance hybrid architecture on an unlocked processor.",
@@ -1513,10 +1641,12 @@
       "10 nm enables improved performance per watt and micro architecture makes it power-efficient",
       "Intel 7 Architecture enables improved performance per watt and micro architecture makes it power-efficient"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core Ultra 9 285K",
-      "Intel Core i7-14700KF"
+      "Intel Core i7-14700KF",
+      "Intel Core i5-12400F",
+      "Intel Core i7-12700K"
     ]
   },
   "B092L9GF5N": {
@@ -1530,9 +1660,10 @@
       "4.6 GHz Max Boost, unlocked for overclocking, 20 MB cache, DDR4-3200 support",
       "For the advanced Socket AM4 platform"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "AMD Ryzen 5 5600"
+      "AMD Ryzen 5 5600",
+      "AMD Ryzen 5 5600GT"
     ]
   },
   "B0DWJJ417R": {
@@ -1565,7 +1696,7 @@
       "AM4 Platform Compatibility: Seamlessly integrate with a wide range of AMD 500, 400, and select 300 series motherboards. PCIe 4.0 Support: Benefit from high-speed data transfer rates for compatible graphics cards and NVMe SSDs. 65W TDP: Efficient power consumption, making it a great choice for balanced builds.",
       "Ideal for Gaming & Content Creation: Delivers excellent performance for competitive gaming, streaming, video editing, and 3D modeling. Your purchase is backed by Empowered PC's 1 YR Limited Hardware Warranty. Tray/EOM/Bulk Packaging. Retail Packaging is not included."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 5700X"
     ]
@@ -1574,12 +1705,12 @@
     "asin": "B09ZRLJHMJ",
     "title": "AMD Ryzen 7 5700X Octa-core [8 Core] 3.40 GHz Processor",
     "brand": "AMD",
-    "price": "$185.99",
+    "price": "$179.99",
     "img": "https://m.media-amazon.com/images/I/21GyRG22EqL._SL500_.jpg",
     "features": [
       "100-000000926"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 5700X"
     ]
@@ -1588,7 +1719,7 @@
     "asin": "B0CQ4HPJYV",
     "title": "AMD Ryzen 7 5700 8-Core, 16-Thread Desktop Processor",
     "brand": "AMD",
-    "price": "$169.33",
+    "price": "$160.00",
     "img": "https://m.media-amazon.com/images/I/41mG-9GZkCL._SL500_.jpg",
     "features": [
       "EXCEPTIONAL PERFORMANCE",
@@ -1597,7 +1728,7 @@
       "For the proven AMD Socket AM4 platform, with proven upgradability",
       "Premium AMD Wraith Spire Cooler Included"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 5700X"
     ]
@@ -1606,17 +1737,19 @@
     "asin": "B0DTRMDXJ5",
     "title": "Intel® Core™ Ultra 5 Desktop Processor 225F 10 Cores (6 P-cores + 4 E-cores) up to 4.9 GHz",
     "brand": "Intel",
-    "price": "$173.49",
+    "price": "$159.99",
     "img": "https://m.media-amazon.com/images/I/41k4Y0ZH40L._SL500_.jpg",
     "features": [
       "Intel Core Ultra 5 desktop processor 225F, without processor graphics.",
       "Intel Core Ultra 5 Series 2 desktop processors with support for PCIe 5.0 and 4.0 and DDR5 are optimized for gaming and productivity applications for high performance.",
       "Separate graphics card required. Compatible with Intel chipset 800 series motherboards. Processor base power consumption: 65W. Intel Laminar RM2 included."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core i5-14400F",
-      "Intel Core i5-12400F"
+      "Intel Core i5-12400F",
+      "Intel Core Ultra 5 245KF",
+      "Intel Core i5-13400F"
     ]
   },
   "B09NMPD8V2": {
@@ -1660,12 +1793,12 @@
     "asin": "B09WW1KKH8",
     "title": "Intel CPU/Core i5-12400F 4.40GHZ LGA1700 Tray",
     "brand": "Intel",
-    "price": "$166.62",
+    "price": "$164.16",
     "img": "https://m.media-amazon.com/images/I/31uFvLWK-rL._SL500_.jpg",
     "features": [
       "CM8071504555318"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core i5-12400F"
     ]
@@ -1674,7 +1807,7 @@
     "asin": "B0CQ4GYTTX",
     "title": "AMD Ryzen 5 8600G",
     "brand": "AMD",
-    "price": "$185.98",
+    "price": "$186.37",
     "img": "https://m.media-amazon.com/images/I/41lDyLs+DRL._SL500_.jpg",
     "features": [
       "GAME WITH THE FASTEST PC PROCESSOR GRAPHICS IN ITS CLASS",
@@ -1683,10 +1816,13 @@
       "For the state-of-the-art Socket AM5 platform, upgradable for years to come",
       "AMD Wraith Stealth Cooler Included"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 5 8600G",
-      "AMD Ryzen 7 8700G"
+      "AMD Ryzen 7 8700G",
+      "AMD Ryzen 5 9600",
+      "AMD Ryzen 5 7600",
+      "AMD Ryzen 5 5600GT"
     ]
   },
   "B0CQ4JV8D5": {
@@ -1702,7 +1838,7 @@
       "For the state-of-the-art Socket AM5 platform, upgradable for years to come",
       "AMD Wraith Stealth Cooler Included"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 5 8600G"
     ]
@@ -1719,7 +1855,7 @@
       "Wraith Prism RGB LED Cooler Included",
       "The exceptional gaming processor"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 7700"
     ]
@@ -1737,7 +1873,7 @@
       "Socket AM5 platform support: Compatible with AM5 socket motherboards for modern desktop PC builds and upgrades",
       "Desktop gaming and productivity capabilities: Delivers high performance for both gaming sessions and productivity workloads with 120W TDP"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 7700"
     ]
@@ -1746,13 +1882,13 @@
     "asin": "B0C3T39N6P",
     "title": "AMD Ryzen 7 7700 Processor 3.8 GHz 32 MB L3",
     "brand": "AMD",
-    "price": "$224.11",
+    "price": "$224.00",
     "img": "https://m.media-amazon.com/images/I/31cVnqQyVgL._SL500_.jpg",
     "features": [
       "Brand: AMD",
       "Platform: Windows 10"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 7700"
     ]
@@ -1788,7 +1924,7 @@
       "Overclocking Speed: 5.10 GHz",
       "L2 Cache: 8 MB"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 8700G"
     ]
@@ -1815,7 +1951,7 @@
     "asin": "B0BMQK718H",
     "title": "AMD Ryzen 9 7900 12-Core, 24-Thread Unlocked Desktop Processor",
     "brand": "AMD",
-    "price": "$298.57",
+    "price": "$349.95",
     "img": "https://m.media-amazon.com/images/I/31slClSHRTL._SL500_.jpg",
     "features": [
       "SERIOUS PERFORMANCE FOR GAMERS AND CREATORS",
@@ -1824,9 +1960,10 @@
       "For the state-of-the-art Socket AM5 platform, can support PCIe 5.0 on select 600 Series motherboards",
       "AMD Wraith Prism RGB Cooler Included"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "AMD Ryzen 9 7900"
+      "AMD Ryzen 9 7900",
+      "AMD Ryzen 9 7900X"
     ]
   },
   "B0BRPD5ZRG": {
@@ -1861,7 +1998,7 @@
       "LIGHTNING FAST STORAGE: Supports PCIe 5.0 slot and Lightning Gen 5 x4 M.2 for ultra-fast data transfer and game loading speeds.",
       "EFFICIENT & COOL OPERATION: 125W Processor Base Power with improved efficiency lets your PC run cooler and quieter; discrete graphics required."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core Ultra 7 265KF"
     ]
@@ -1870,7 +2007,7 @@
     "asin": "B0F9FRX73M",
     "title": "Micro Center Bundle Intel Core Ultra 7 265KF and msi Pro Z890-P WiFi Combo",
     "brand": "Micro Center",
-    "price": "$489.99",
+    "price": "$499.99",
     "img": "https://m.media-amazon.com/images/I/41YjPsy7eiL._SL500_.jpg",
     "features": [
       "Get ultra-efficient with Intel Ultra desktop processors that improve both performance and efficiency so your PC can run cooler, quieter, and quicker",
@@ -1881,9 +2018,10 @@
       "Pre-installed I/O Shielding: EMI protection and more convenient for installation",
       "Supports Dual Channel DDR5 Memory, up to 256GB"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Intel Core Ultra 7 265KF"
+      "Intel Core Ultra 7 265KF",
+      "Intel Core Ultra 7 265K"
     ]
   },
   "B0CVZGD5M6": {
@@ -1902,7 +2040,7 @@
     "asin": "B09FWYK5M9",
     "title": "Intel Core i9-12900KF Gaming Desktop Processor 16 (8P+8E) Cores up to 5.2 GHz Unlocked LGA1700 600 Series Chipset 125W",
     "brand": "Intel",
-    "price": "$319.42",
+    "price": "$329.99",
     "img": "https://m.media-amazon.com/images/I/41FfgUII7KL._SL500_.jpg",
     "features": [
       "Built for the Next Generation of Gaming. Game and multitask without compromise powered by Intel’s performance hybrid architecture on an unlocked processor.",
@@ -1913,18 +2051,23 @@
       "10 nm enables improved performance per watt and micro architecture makes it power-efficient",
       "Intel 7 Architecture enables improved performance per watt and micro architecture makes it power-efficient"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core i7-14700KF",
       "Intel Core i9-14900K",
-      "Intel Core i9-9900K"
+      "Intel Core i9-9900K",
+      "Intel Core Ultra 9 285K",
+      "Intel Core i7-14700K",
+      "Intel Core i9-13900K",
+      "Intel Core i5-12400F",
+      "Intel Core i7-12700K"
     ]
   },
   "B0CGJDBCTK": {
     "asin": "B0CGJDBCTK",
     "title": "Intel® Core™ i9-14900KF New Gaming Desktop Processor 24 cores (8 P-cores + 16 E-cores) - Unlocked",
     "brand": "Intel",
-    "price": "$430.74",
+    "price": "$444.46",
     "img": "https://m.media-amazon.com/images/I/315Rk6UFG7L._SL500_.jpg",
     "features": [
       "Game without compromise. Play harder and work smarter with Intel Core 14th Gen processors",
@@ -1933,7 +2076,7 @@
       "Compatible with Intel 600-series (with potential BIOS update) or 700-series chipset-based motherboards",
       "DDR4 and DDR5 platform support cuts your load times and gives you the space to run the most demanding games"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core i9-14900K"
     ]
@@ -1942,7 +2085,7 @@
     "asin": "B0CHBJXG7G",
     "title": "Intel® Core™ i9-14900KF Desktop Processor 24 cores (8 P-cores + 16 E-cores) up to 6.0 GHz",
     "brand": "Intel",
-    "price": "$439.99",
+    "price": "$444.99",
     "img": "https://m.media-amazon.com/images/I/31w1nFaLxkL._SL500_.jpg",
     "features": [
       "Intel Core i9 Desktop Processor (14th generation) 14900KF, without processor graphics",
@@ -1951,7 +2094,7 @@
       "Compatible with motherboards based on Intel chipsets of the 700 and 600 series.",
       "Processor base power consumption: 125 W."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core i9-14900K"
     ]
@@ -1974,7 +2117,7 @@
       "The Realtek S1200A codec offers pristine audio quality to draw you deeper into the game action or to enhance your favorite music tracks or videos.Communicate clearly with ASUS AI Noise Canceling Mic technology",
       "WiFi 6 AX201 (802.11 ax), Intel I225-V 2.5Gb LAN, TUF LANGuard and TurboLAN technology"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Core i9-14900K"
     ]
@@ -2001,7 +2144,7 @@
     "asin": "B0CQ24VW72",
     "title": "Intel Core i9-14900 Desktop Processor 24 cores (8 P-cores + 16 E-cores) up to 5.8 GHz",
     "brand": "Intel",
-    "price": "$591.99",
+    "price": "$591.00",
     "img": "https://m.media-amazon.com/images/I/31TFiSfWUHL._SL500_.jpg",
     "features": [
       "24 cores (8 P-cores + 16 E-cores) and 32 threads. Integrated Intel UHD Graphics 770 included.",
@@ -2011,9 +2154,10 @@
       "Turbo Boost Max Technology 3.0 Frequency, and PCIe 5.0 & 4.0 support. DDR4 and DDR5 Memory support. RH1 thermal solution included.",
       "Includes lntel Laminar RH1 Cooler"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Intel Core i9-14900K"
+      "Intel Core i9-14900K",
+      "Intel Core i9-13900K"
     ]
   },
   "B09VCJ2SHD": {
@@ -2029,7 +2173,7 @@
       "For the advanced Socket AM4 platform, can support PCIe 4.0 on X570 and B550 motherboards",
       "Cooler not included, high-performance cooler recommended"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "AMD Ryzen 7 5800X3D"
     ]
@@ -2442,6 +2586,1121 @@
     "fetchedAt": "2026-09-26",
     "queries": [
       "Intel Core i5-9400F"
+    ]
+  },
+  "B0FWCD4BHP": {
+    "asin": "B0FWCD4BHP",
+    "title": "Micro Center AMD Ryzen 7 9800X3D Processor with MSI PRO X870E-P Motherboard",
+    "brand": "Micro Center",
+    "price": "$699.99",
+    "img": "https://m.media-amazon.com/images/I/41uHBtePQML._SL500_.jpg",
+    "features": [
+      "AMD Ryzen 7 9800X3D Desktop Processor, 8-Core, 16-Thread, 5.2 GHz Max Boost, Unlocked for overclocking, L2+L3 104 MB cache, DDR5, Default TDP 120W. The world's fastest gaming processor, built on AMD Zen5 technology and Next Gen 3D V-Cache",
+      "For the state-of-the-art Socket AM5 platform, can support PCIe 5.0 on select motherboards. OS Support: Windows 11/ 10-64-Bit Edition. Cooler & Thermal Solution (PIB) not included. AMD Radeon Graphics Integrated",
+      "MSI PRO X870E-P WiFi Motherboard, ATX Form Factor, Socket AM5, Supports Dual-Channel Memory DDR5 up to 256GB, PCIe 5.0x 16 Support, 2x PCIe 5.0x4 M.2 Slot, 2x PCIe 4.0x4 M.2 Slot, 4x SATA 6GB/s, USB 40Gbps/20Gbps Type C, Wi-Fi 7, Bluetooth 5.4, Support for Windows 11 64-bit",
+      "The PRO X870E-P WIFI employs a 14 Duet Rail Power System (60A, SPS) VRM for the AMD X870 chipset (AM5, Ryzen 9000 / 8000 / 7000) with Core Boost architecture;/ FROZR GUARD - Excellent cooling features such as 7W/mK MOSFET thermal pads, extra choke thermal pads and an Extended Heatsink; Includes chipset heatsink, EZ M.2 Shield Frozr II, a Combo-fan (for pump & system) header (3A)",
+      "DDR5 MEMORY, PCIe 5.0 x16 SLOTS - 4 x DDR5 DIMM SMT slots enable extreme memory overclocking speeds (1DPC 1R, 8200+ MT/s OC); 1 x PCIe 5.0 x16 SMT slot (128GB/s) with Steel Armor supports cutting-edge graphics cards; / TRIPLE M.2 CONNECTORS - Storage options include 1 x M.2 Gen5 x4 128Gbps slot with EZ M.2 Shield Frozr II to prevent thermal throttling and 2 x M.2 Gen4 x4 64Gbps slots"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "AMD Ryzen 7 9800X3D"
+    ]
+  },
+  "B0FVG6Z9VW": {
+    "asin": "B0FVG6Z9VW",
+    "title": "AMD Ryzen™ 7 9700X 8-Core, 16-Thread Unlocked Desktop Processor (Renewed)",
+    "brand": "AMD",
+    "price": "$259.95",
+    "img": "https://m.media-amazon.com/images/I/41tUy4Z4RpL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "AMD Ryzen 7 9700X"
+    ]
+  },
+  "B0F99BG4ZN": {
+    "asin": "B0F99BG4ZN",
+    "title": "Micro Center AMD Ryzen 7 9700X Processor with MSI PRO B850-P WF Motherboard",
+    "brand": "Micro Center",
+    "price": "$449.99",
+    "img": "https://m.media-amazon.com/images/I/41La6w+TypL._SL500_.jpg",
+    "features": [
+      "AMD Ryzen 7 9700X CPU Processor, 8-Core, 16-Thread, 5.5 GHz Max Boost, Unlocked for overclocking, L2+L3 38 MB cache, DDR5, Default TDP 65W. This dominant gaming processor can deliver fast 100+ FPS performance in the world's most popular games",
+      "For the state-of-the-art Socket AM5 platform, can support PCIe 5.0 on select 600 Series motherboards. OS Support: Windows 11/ 10-64-Bit Edition. Thermal Solution (PIB) Not Included. AMD Radeon Graphics Integrated",
+      "MSI PRO B850-P WiFi Motherboard, ATX Form Factor, Socket AM5, Support Dual Channel DDR5 up to 256GB, Supports PCIe 5.0 x16, 3x M.2 NVMe Slot with 1x PCIe 5.0 x4 & 2x PCIe 4.0 x4, 4x SATA 6GB/s, 2x USB 10Gbps Type, Wi-Fi 7, Bluetooth 5.4, Support for Windows 11 64-bit, Supports AMD Ryzen 9000/ 8000/ 7000 Series Desktop Processors",
+      "Supports DDR5 Memory, Dual Channel DDR5 8200+ MT/s (OC);/ Ultra Performance: 12+2+1 Duet Rail Power System, dual 8-pin CPU power connectors, Core Boost, Memory Boost, 6-layer PCB made by 2oz thickened copper and server-grade level material;/ Frozr Guard: Extended Heatsink, MOSFET thermal pads rated for 7W/mK, additional choke thermal pads and EZ M.2 Shield Frozr II are built for high performance system and non-stop experience",
+      "EZ DIY: EZ M.2 Shield Frozr II, EZ M.2 Clip II, EZ PCIe Clip II and EZ Antenna;/ Lightning Fast Game experience: PCIe 5.0 slot and Lightning Gen 5 x4 M.2;/ 5G LAN with Wi-Fi 7 Solution: the latest solution for professional and multimedia use, delivering secure, stable, and high-speed networking and data transmission;/ Audio Boost: Reward your ears with studio grade sound quality for the most immersive gaming experience"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "AMD Ryzen 7 9700X"
+    ]
+  },
+  "B0DS65J9YW": {
+    "asin": "B0DS65J9YW",
+    "title": "AMD Ryzen 5 9600 3.8/5.2GHz",
+    "brand": "AMD",
+    "price": "$286.01",
+    "img": "https://m.media-amazon.com/images/I/41ofWSOZcZL._SL500_.jpg",
+    "features": [
+      "AMD Ryzen 5 9600 Box"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "AMD Ryzen 5 9600"
+    ]
+  },
+  "B0BTRH9MNS": {
+    "asin": "B0BTRH9MNS",
+    "title": "AMD Ryzen™ 9 7950X3D 16-Core, 32-Thread Desktop Processor",
+    "brand": "AMD",
+    "price": "$569.99",
+    "img": "https://m.media-amazon.com/images/I/31W-xvZp5hL._SL500_.jpg",
+    "features": [
+      "THE ULTIMATE GAMING PROCESSOR FOR SERIOUS CREATORS",
+      "16 Cores and 32 processing threads, combined with a massive 144MB of cache",
+      "5.7 GHz Max Boost, Unlocked Memory Overclocking, DDR5 support",
+      "For the state-of-the-art Socket AM5 platform, can support PCIe 5.0 on select 600 Series motherboards",
+      "Cooler not included, liquid cooler recommended"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "AMD Ryzen 9 7950X3D"
+    ]
+  },
+  "B0C22C62JB": {
+    "asin": "B0C22C62JB",
+    "title": "AMD Ryzen™ 9 7950X3D 16-Core, 32-Thread Desktop Processor (Renewed)",
+    "brand": "AMD",
+    "price": "$459.97",
+    "img": "https://m.media-amazon.com/images/I/31W-xvZp5hL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "AMD Ryzen 9 7950X3D"
+    ]
+  },
+  "B0BBHD5D8Y": {
+    "asin": "B0BBHD5D8Y",
+    "title": "AMD Ryzen 9 7950X 16-Core, 32-Thread Unlocked Desktop Processor",
+    "brand": "AMD",
+    "price": "$533.00",
+    "img": "https://m.media-amazon.com/images/I/31mxDxwnM1L._SL500_.jpg",
+    "features": [
+      "Processor consumes less power to offer maximum productivity with added usability",
+      "Ryzen 9 product line processor for better usability and increased efficiency",
+      "5 nm process technology provides optimal processing results with added usability",
+      "Hexadeca-core (16 Core) processor core efficiently handles data to ensure quicker transfer of information with maximum usability",
+      "16 MB L2 plus 64 MB L3 cache memory provides excellent hit rate in short access time enabling improved system performance",
+      "Processor with 4.50 GHz clock speed for quick and dependable processing of data to ensure maximum productivity",
+      "Comes with AMD Radeon Graphics controller for stunning picture quality"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "AMD Ryzen 9 7950X3D"
+    ]
+  },
+  "B0D6C2SM43": {
+    "asin": "B0D6C2SM43",
+    "title": "AMD Ryzen 7 - 7800X3D",
+    "brand": "AMD",
+    "price": "$299.95",
+    "img": "https://m.media-amazon.com/images/I/21KtytBd+kL._SL500_.jpg",
+    "features": [
+      "Processor Cores & Threads: 8 cores, 16 threads",
+      "Clock Speeds: Base 4.2 GHz, Boost 5.0 GHz",
+      "Cache Size: 96MB L3",
+      "Architectural Design: Zen 4",
+      "Process Technology: 5nm",
+      "Thermal Design Power: 120W",
+      "Socket Type: AM5",
+      "Memory Compatibility: DDR5",
+      "Graphics: Integrated",
+      "Key Technologies: AMD EXPO, AMD Ryzen Technologies"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "AMD Ryzen 7 7800X3D"
+    ]
+  },
+  "B0FRFTFQ6F": {
+    "asin": "B0FRFTFQ6F",
+    "title": "Micro Center AMD 7700X Processor with GIGABYTE B850 Gaming WiFi Motherboard",
+    "brand": "INLAND",
+    "price": "$389.99",
+    "img": "https://m.media-amazon.com/images/I/41sOnKlhyIL._SL500_.jpg",
+    "features": [
+      "AMD Ryzen 7 7700X Desktop Processor, 8-Core, 16-Thread, 5.4 GHz Max Boost, unlocked for overclocking, 40 MB cache, DDR5-5200 support, default TDP 105W. This dominant gaming processor can deliver fast 100+ FPS performance in the world's most popular games",
+      "For the state-of-the-art Socket AM5 platform, can support PCIe 5.0 on select 600 Series motherboards. OS Support: Windows 11/ 10-64-Bit Edition. Cooler & Thermal Solution (PIB) not included",
+      "GIGABYTE B850 Gaming Motherboard, AMD Socket AM5, ATX Form Factor, Dual channel memory DDR5 up to 256GB, 1x PCIe 5.0 x4 M.2 Slot, 2x PCIe 4.0 x4 M.2 Slot, 4 x SATA 6Gb/s, PCIe 5.0, Wi-Fi 6, BLUETOOTH 5.3, USB 3.2 Gen 1 Type C, Support for Windows 11/10 64-bit, Supports AMD Ryzen 9000 / 8000 / 7000 Series Processors",
+      "X3D Turbo Mode : Unleash new era gaming performance;/ DDR5 OC up to 8200MT/s;/ Digital 6+2+2 phases VRM solution;/ WIFI EZ-Plug : Quick and easy design for Wi-Fi antenna installation;/ PCIe EZ-Latch Plus : PCIe slots with Quick Release Design",
+      "Friendly UI : Multi-Theme, AIO Fan Control, and Q-Flash Auto Scan in BIOS and SW;/ Ultra-Fast Storage : 3*M.2 slots, including PCIe 5.0x4 slot;/ Efficient Thermal : VRM Thermal Armor Advanced;/ Fast Networking : GbE LAN & Wi-Fi 6 802.11ax;/ Extended Connectivity : HDMI, Displayport"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "AMD Ryzen 7 7700"
+    ]
+  },
+  "B0FN3SVDFW": {
+    "asin": "B0FN3SVDFW",
+    "title": "MICRO CENTER AMD 7600X3D Processor with ASUS B650E MAX GamingWF Motherboard",
+    "brand": "Micro Center",
+    "price": "$399.99",
+    "img": "https://m.media-amazon.com/images/I/41lTYRU-AvL._SL500_.jpg",
+    "features": [
+      "AMD Ryzen 5 7600X3D Desktop Processor, 6-Core, 12-Thread, 4.7 GHz Max Boost, unlocked for overclocking, 102MB cache, DDR5 support, default TDP 65W. This dominant gaming processor can deliver fast 100+ FPS performance in the world's most popular games",
+      "Support AM5 CPU Socket, can support PCIe 5.0 on select 600/800 Series motherboards. OS Support: Windows 11/ 10-64-Bit Edition. AMD Radeon Graphics Integrated, Cooler & Thermal Solution (PIB) not included",
+      "ASUS B650E MAX GAMING WIFI Motherboard, ATX Form Factor, AMD Socket AM5, Support Dual Channel Memory DDR5 up to 256GB, PCIe 5.0 Support, 1x PCIe 5.0 x4 M.2 Slot, 2x PCIe 4.0 M.2 Slot, 4 x SATA 6Gb/s ports, Wi-Fi 6E, Bluetooth v5.3, USB 10Gbps Type C, Windows 11/10 64-bit Support",
+      "AMD AM5 Socket: Ready for AMD Socket AM5 for AMD Ryzen 9000 & 8000 & 7000 Series Desktop Processors;/ Enhanced Power Solution: 8+2+1 phase power design, 6-layer PCB, alloy chokes and durable capacitors for stable power delivery",
+      "Comprehensive Cooling: VRM and M.2 heatsinks, PCH heatsink, hybrid fan headers and Fan Xpert 2+;/ DIY Friendly Design: Pre-mounted I/O shield, BIOS FlashBack, Q-Antenna, Q-LED Core; Unmatched Personalization: Three Addressable RGB Gen 2 headers, all configurable with ASUS-exclusive Aura Sync RGB lighting;/ CEC Tier II ready"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "AMD Ryzen 5 7600X",
+      "AMD Ryzen 5 7600"
+    ]
+  },
+  "B0D1CK42PV": {
+    "asin": "B0D1CK42PV",
+    "title": "AMD Ryzen 5 7500F - 3.7GHz - 6 Cores - 12 Threads - 32MB Cache Memory - Socket AM5 - OEM",
+    "brand": "AMD",
+    "price": "$154.36",
+    "img": "https://m.media-amazon.com/images/I/41W4Yvv2g3L._SL500_.jpg",
+    "features": [
+      "AMD Ryzen 5 7500F - 3.7GHz - 6 Cores - 12 Threads - 32MB Cache Memory - Socket AM5 - OEM",
+      "Cooler/Fan not included. !",
+      "Tray Version (No Retail Packaging)"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "AMD Ryzen 5 7500F"
+    ]
+  },
+  "B0D2RWZ2LK": {
+    "asin": "B0D2RWZ2LK",
+    "title": "AMD Ryzen™ 5 7500F",
+    "brand": "AMD",
+    "price": "$189.99",
+    "img": "https://m.media-amazon.com/images/I/21N3kF8lrFL._SL500_.jpg",
+    "features": [
+      "THE STARTING POINT FOR A SERIOUS GAMING PC",
+      "6 Cores and 12 processing threads, with advanced AMD \"Zen 4\" architecture",
+      "5.0 GHz Max Boost, unlocked for overclocking, DDR5 support",
+      "For the state-of-the-art Socket AM5 platform, upgradable for years to come"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "AMD Ryzen 5 7500F"
+    ]
+  },
+  "B0D2JD6P86": {
+    "asin": "B0D2JD6P86",
+    "title": "AMD Ryzen™ 5 8400F",
+    "brand": "AMD",
+    "price": "$174.25",
+    "img": "https://m.media-amazon.com/images/I/41sS9LRtRdL._SL500_.jpg",
+    "features": [
+      "THE STARTING POINT FOR PC GAMING PROCESSORS",
+      "6 Cores and 12 processing threads, with advanced AMD \"Zen 4\" architecture",
+      "4.7 GHz Max Boost, unlocked for overclocking, DDR5 support",
+      "For the state-of-the-art Socket AM5 platform, upgradable for years to come"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "AMD Ryzen 5 7500F"
+    ]
+  },
+  "B0CSRVZ6VJ": {
+    "asin": "B0CSRVZ6VJ",
+    "title": "Micro Center AMD Ryzen 7 5800X3D 8-Core 16-Thread Desktop Processor with AMD 3D V-Cache Technology Bundle with ASUS TUF Gaming B550-PLUS WiFi AM4 PCIe 4.0 DDR4 ATX Motherboard",
+    "brand": "INLAND",
+    "price": "$499.99",
+    "img": "https://m.media-amazon.com/images/I/41joEWtCFkL._SL500_.jpg",
+    "features": [
+      "AMD Ryzen 9 5800X3D CPU Processor, AM4 Socket, 8 Cores and 16 processing threads processor with AMD 3D V-Cache technology, 4.5 GHz Max Boost, 100 MB cache(L2+L3), TDP 105W, DDR4-3200 support. The world's fastest gaming desktop processor and first gaming processor with 3D stacking technology",
+      "For the advanced Socket AM4 platform, can support PCIe 4.0 on X570 and B550 motherboards. Max Temperature- 90°C, Cooler & Thermal Solution not included, Cooler not included, high-performance cooler recommended. OS Support: Windows 11 - 64-Bit Edition/ Windows 10 - 64-Bit Edition/ RHEL x86 64-Bit/ Ubuntu x86 64-Bit",
+      "ASUS TUF GAMING B550-PLUS WIFI Motherboard, ATX Form Factor, AMD AM4 socket, Support Dual Channel DDR4 up to 128GB, 2 M.2 Slot with 1* PCIE 3.0 x4 & 1*PCIE 4.0 x4 , 6 x SATA 6Gb/s, USB 3.2 Gen 2 Type-A and Type-C, Thunderbolt 3 header support. Ready for Ryzen 5000 Series/ 4000 G-Series/ 3000 Series Desktop Processors",
+      "Enhanced power solution: 8+2 DrMOS power stages, ProCool sockets, military-grade TUF components, and Digi+ VRM for maximum durability./ Comprehensive cooling: VRM heatsink, PCH fanless heatsink, Dual M.2 heatsink, hybrid fan headers and Fan Xpert 4 utility",
+      "Made for online gaming: Intel Wi-Fi 6, 2.5 Gb Ethernet, TUF LANGuard, and Turbo LAN technology./ Realtek S1200A codec: Pristine audio quality with unprecedented 108 dB signal-to-noise ratio for stereo line out and 103 dB SNR for line in./ AI noise-canceling microphone: provides crystal-clear in-game voice communication"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "AMD Ryzen 7 5800X3D"
+    ]
+  },
+  "B08164VTWH": {
+    "asin": "B08164VTWH",
+    "title": "AMD Ryzen 9 5900X 12-core, 24-Thread Unlocked Desktop Processor",
+    "brand": "AMD",
+    "price": "$536.86",
+    "img": "https://m.media-amazon.com/images/I/21aW9ast+-L._SL500_.jpg",
+    "features": [
+      "The world's best gaming desktop processor, with 12 cores and 24 processing threads",
+      "Can deliver elite 100+ FPS performance in the world's most popular games",
+      "Cooler not included, high-performance cooler recommended. Max Temperature- 90°C",
+      "4.8 GHz Max Boost, unlocked for overclocking, 70 MB of cache, DDR-3200 support",
+      "For the advanced Socket AM4 platform, can support PCIe 4.0 on X570 and B550 motherboards"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "AMD Ryzen 9 5900X"
+    ]
+  },
+  "B094GRFGR7": {
+    "asin": "B094GRFGR7",
+    "title": "AMD Ryzen 9 5900X 12-core, 24-Thread Unlocked Desktop Processor (Renewed)",
+    "brand": "AMD",
+    "price": "$289.97",
+    "img": "https://m.media-amazon.com/images/I/41rLUI4FOAL._SL500_.jpg",
+    "features": [
+      "The World'S Best Gaming Desktop Processor, With 12 Cores And 24 Processing Threads",
+      "Can Deliver Elite 100+ Fps Performance In The World'S Most Popular Games",
+      "4.8 Ghz Max Boost, Unlocked For Overclocking, 70 Mb Of Cache, Ddr-3200 Support",
+      "Cooler Not Included, High-Performance Cooler Recommended. Max Temperature- 90°C"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "AMD Ryzen 9 5900X"
+    ]
+  },
+  "B0815Y8J9N": {
+    "asin": "B0815Y8J9N",
+    "title": "AMD Ryzen 9 5950X 16-core, 32-thread unlocked desktop processor",
+    "brand": "AMD",
+    "price": "$398.85",
+    "img": "https://m.media-amazon.com/images/I/41-xsg4YDPL._SL500_.jpg",
+    "features": [
+      "The best processor for gamers meets the best processor for creators, with 16 cores and 32 processing threads",
+      "Can deliver elite 100 plus FPS performance in the world's most popular games",
+      "Cooler not included, liquid cooler recommended",
+      "4.9 GHz Max Boost, unlocked for overclocking, 72 MB of cache, DDR-3200 support",
+      "For the advanced Socket AM4 platform, can support PCIe 4.0 on X570 and B550 motherboards"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "AMD Ryzen 9 5900X",
+      "AMD Ryzen 9 5950X"
+    ]
+  },
+  "B09BPRX2CG": {
+    "asin": "B09BPRX2CG",
+    "title": "AMD Ryzen 9 5950X 100-100000059WOF Processor 16-Core 3.4GHz Socket AM4 CPU w/o Fan Retail (Renewed)",
+    "brand": "AMD",
+    "price": "$354.97",
+    "img": "https://m.media-amazon.com/images/I/41plfXHhK3L._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "AMD Ryzen 9 5950X"
+    ]
+  },
+  "B0HGMTDZM7": {
+    "asin": "B0HGMTDZM7",
+    "title": "AMD Ryzen 5 5500F Desktop Processor",
+    "brand": "AMD",
+    "price": "$120.10",
+    "img": "https://m.media-amazon.com/images/I/31-7SThN8uL._SL500_.jpg",
+    "features": [
+      "High Performance Gaming: Can deliver fast 100 plus FPS performance in the world's most popular games, discrete graphics card required",
+      "Core Configuration: 6 Cores and 12 processing threads, bundled with the AMD Wraith Stealth cooler",
+      "Clock Speed and Memory: 4.2 GHz Max Boost, unlocked for overclocking, 19 MB cache, DDR4-3200 support",
+      "Socket Compatibility: For the advanced Socket AM4 platform",
+      "Zen 3 Architecture: Built on AMD's advanced Zen 3 architecture with 65W TDP for efficient power consumption and thermal management",
+      "Motherboard Support: Compatible with a wide range of AMD 300, 400, and 500 Series motherboards when supported by manufacturer BIOS"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "AMD Ryzen 5 5500"
+    ]
+  },
+  "B0GSFHNTTC": {
+    "asin": "B0GSFHNTTC",
+    "title": "Micro Center AMD 5500 Processor with GIGABYTE B550M DS3H AC R2 Motherboard",
+    "brand": "INLAND",
+    "price": "$199.99",
+    "img": "https://m.media-amazon.com/images/I/41Q-Q13n+nL._SL500_.jpg",
+    "features": [
+      "AMD Ryzen 5 5500 Desktop Processor, 6 Cores, 12 Threads, 4.2 GHz Max Boost, Unlocked Memory Overclocking. L2+L3 Cache 19 MB, 65W TDP, DDR4 Supported, PCIe 3.0 Support. For the Advanced Socket AM4 Platform",
+      "Can Deliver Fast 100 Plus FPS Performance in the World's Most Popular Games; AMD Wraith Stealth Cooler Included; Discrete Graphics Card Required; No ECC Support; Supports Windows 10 and Windows 11 64-Bit Editions",
+      "GABYTE B550M DS3H AC R2 Motherboard, Micro ATX Form Factor, Dual channel memory DDR4 up to 128GB, PCIe 4.0 Support, 2x M.2 connector, 4x SATA 6Gb/s connectors, USB 3.2 Gen 1 Type C Support, Realtek Wi-Fi RTL8821CE, BLUETOOTH 5.0 Support for Windows 11/10 64-bit",
+      "AMD Socket AM4: Ready to support AMD Ryzen 5000/4000/3000 Series Processors",
+      "Enhanced Power Solution: Digital 5+3 VRM Design and premium chokes and capacitors for steady power delivery",
+      "Advanced Thermal Armor: Advanced VRM heatsinks for better heat dissipation",
+      "Boost Your Memory: Compatible with DDR4 and supports 4 DIMMS with Extreme Memory Profile support",
+      "Comprehensive Connectivity: 1x PCIe 4.0 x16 slot with reinforced PCIe UD Armor, 1x PCIe 4.0 M.2 slot, 1x PCIe 3.0 M.2 slot, 4x USB 3.2 Gen 1 Type-A ports for hassle-free setup"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "AMD Ryzen 5 5500"
+    ]
+  },
+  "B0CQ4DTJYX": {
+    "asin": "B0CQ4DTJYX",
+    "title": "AMD Ryzen 5 5600GT 6-Core, 12-Thread Desktop Processor",
+    "brand": "AMD",
+    "price": "$179.00",
+    "img": "https://m.media-amazon.com/images/I/41VQkrs9XeL._SL500_.jpg",
+    "features": [
+      "THE POWERFUL ALL-IN-ONE GAMING PROCESSOR",
+      "6 Cores and 12 processing threads, with advanced AMD Radeon graphics built-in",
+      "4.6 GHz Max Boost, unlocked for overclocking, DDR4 support",
+      "For the proven AMD Socket AM4 platform, with proven upgradability",
+      "AMD Wraith Stealth Cooler Included"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "AMD Ryzen 5 5600GT"
+    ]
+  },
+  "B0CQ4JBKW3": {
+    "asin": "B0CQ4JBKW3",
+    "title": "AMD Ryzen 7 8700G 8-Core, 16-Thread Desktop Processor",
+    "brand": "AMD",
+    "price": "$260.88",
+    "img": "https://m.media-amazon.com/images/I/41kKLdR+HCL._SL500_.jpg",
+    "features": [
+      "GAME WITH THE FASTEST PC PROCESSOR GRAPHICS IN THE WORLD",
+      "8 Cores and 16 processing threads, with advanced AMD \"Zen 4\" architecture",
+      "5.1 GHz Max Boost, unlocked for overclocking, DDR5 support",
+      "For the state-of-the-art Socket AM5 platform, upgradable for years to come",
+      "Premium AMD Wraith Spire Cooler Included"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "AMD Ryzen 7 8700G"
+    ]
+  },
+  "B0FSKRYSXZ": {
+    "asin": "B0FSKRYSXZ",
+    "title": "Intel Core Ultra 9 285K Tetracosa-core [24 Core] 3.70 GHz Processor - OEM Pack - Box (Renewed)",
+    "brand": "Intel",
+    "price": "$479.95",
+    "img": "https://m.media-amazon.com/images/I/419Ou+b1uTL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core Ultra 9 285K"
+    ]
+  },
+  "B0GMLJCBBM": {
+    "asin": "B0GMLJCBBM",
+    "title": "Intel® Core™ Ultra 7 Processor 270K Plus 24 cores (8 P-cores + 16 E-cores) up to 5.5 GHz",
+    "brand": "Intel",
+    "price": "$315.00",
+    "img": "https://m.media-amazon.com/images/I/41LNrwOlfTL._SL500_.jpg",
+    "features": [
+      "Next‑Gen Platform Support: Compatible with Intel 800 Series Chipset‑based motherboards with LGA1851 Socket enabling PCIe 5.0/4.0 and high‑speed DDR5 memory (up to 7200 MT/s).",
+      "High‑Performance Core Configuration: Features up to 24 cores (8 P‑cores + 16 E‑cores) for demanding gaming and creator",
+      "Ultra‑Fast Boost Clocks: Reaches up to 5.5 GHz max turbo frequency for top‑tier responsiveness and performance",
+      "Built for Enthusiasts: Unlocked for performance tuning when paired with Intel Z‑series chipsets, making it ideal for overclockers and power users.",
+      "Robust Power & Thermal Design: Engineered with 125W base power and 250W max turbo power to sustain high‑intensity"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core Ultra 9 285K",
+      "Intel Core Ultra 7 265K",
+      "Intel Core Ultra 5 245K",
+      "Intel Core Ultra 7 265KF"
+    ]
+  },
+  "B0F9FR8M83": {
+    "asin": "B0F9FR8M83",
+    "title": "Micro Center Bundle Intel Core Ultra7 265KF CPU and ASUS Motherboard Combo",
+    "brand": "Micro Center",
+    "price": "$499.99",
+    "img": "https://m.media-amazon.com/images/I/41e1HwkRQML._SL500_.jpg",
+    "features": [
+      "Get ultra-efficient with Intel Ultra desktop processors that improve both performance and efficiency so your PC can run cooler, quieter, and quicker",
+      "Core & Threads 20 cores (8 P-cores + 12 E-cores) and 20 threads, performance unlocked Up to 5.5 GHz. 36MB Cache, LGA 1851 Socket and 125W Processor Base Power, Discrete graphics required",
+      "The Z890 AYW GAMING WIFI W mainboard provides users and PC DIY builders with a range of performance optimizations via intuitive software and firmware features",
+      "Robust Power Solution: 12+1+2+1 80A DrMOS power stages with ProCool power connectors, 6-layer PCB, alloy chokes and durable capacitors for stable power delivery",
+      "Latest M.2 Support: One onboard PCIe 5.0 M.2 slot and three PCIe 4.0 M.2 slots, all with cooling solutions",
+      "Next-gen connectivity: DDR5 memory, Wi-Fi 6, PCIe 5.0, rear USB 20Gbps Type-C, front panel USB 20Gbps Type-C with up to 30W PD/PPS Fast-charge and USB Wattage Watcher, Thunderbolt (USB4) header support",
+      "DIY Friendly Design: PCIe Slot Q-Release, M.2 Q-Latch, Q-Dashboard, Q-LED, BIOS FlashBack button, BIOS FlashBack LED and pre-mounted I/O shield",
+      "Optimized Thermal Design: Large VRM heatsinks, M.2 and PCH heatsinks, hybrid fan headers and Fan Xpert 4 with AI Cooling II"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core Ultra 7 265KF"
+    ]
+  },
+  "B0DFK2P311": {
+    "asin": "B0DFK2P311",
+    "title": "Intel® Core™ Ultra 5 Desktop Processor 245K 14 cores (6 P-cores + 8 E-cores) up to 5.2 GHz",
+    "brand": "Intel",
+    "img": "https://m.media-amazon.com/images/I/41KkV8gKahL._SL500_.jpg",
+    "features": [
+      "Get ultra-efficient with Intel Core Ultra desktop processors that improve both performance and efficiency so your PC can run cooler, quieter, and quicker.",
+      "Core & Threads 14 cores (6 P-cores + 8 E-cores) and 14 threads",
+      "Performance Hybrid Architecture Integrates two core microarchitectures, prioritizing and distributing workloads to optimize performance",
+      "Performance Unlocked Up to 5.2 GHz unlocked. 26M Cache",
+      "Compatibility Compatible with Intel 800 series chipset-based motherboards",
+      "PCIe Express Version Turbo Boost Max Technology 3.0, and PCIe 5.0 & 4.0 support. Intel Optane Memory support. No thermal solution included"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core Ultra 5 245KF"
+    ]
+  },
+  "B0GV7HW854": {
+    "asin": "B0GV7HW854",
+    "title": "Procesador Intel Core Ultra 5-250KF Plus 4.2 GHz Socket 1851",
+    "brand": "Intel",
+    "price": "$238.42",
+    "img": "https://m.media-amazon.com/images/I/41MJQb+tZHL._SL500_.jpg",
+    "features": [
+      "Original brand",
+      "Three year warranty against manufacturing defects."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core Ultra 5 245KF"
+    ]
+  },
+  "B0GMLFFHS1": {
+    "asin": "B0GMLFFHS1",
+    "title": "Intel® Core™ Ultra 5 Processor 250KF Plus 18 cores (6 P-cores + 12 E-cores) up to 5.3 GHz",
+    "brand": "Intel",
+    "price": "$199.99",
+    "img": "https://m.media-amazon.com/images/I/41mt8HweE0L._SL500_.jpg",
+    "features": [
+      "Next‑Gen Platform Support: Compatible with Intel 800 Series Chipset‑based motherboards with LGA1851 Socket enabling PCIe 5.0/4.0 and high‑speed DDR5 memory (up to 7200 MT/s).",
+      "High‑Performance Core Configuration: Features up to 24 cores (8 P‑cores + 16 E‑cores) for demanding gaming and creator",
+      "Ultra‑Fast Boost Clocks: Reaches up to 5.5 GHz max turbo frequency for top‑tier responsiveness and performance",
+      "Built for Enthusiasts: Unlocked for performance tuning when paired with Intel Z‑series chipsets, making it ideal for overclockers and power users.",
+      "Robust Power & Thermal Design: Engineered with 125W base power and 250W max turbo power to sustain high‑intensity"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core Ultra 5 245KF"
+    ]
+  },
+  "B0FXM5SC51": {
+    "asin": "B0FXM5SC51",
+    "title": "Micro Center CPU Motherboard Combo lga1700 Processor with DDR5 ATX Mobo",
+    "brand": "Micro Center",
+    "price": "$669.99",
+    "img": "https://m.media-amazon.com/images/I/51zISKG-kaL._SL500_.jpg",
+    "features": [
+      "Play harder and work smarter with the flagship Core i9-14900K processor, comes with 24 cores (8 P-cores + 16 E-cores) and 32 threads. Integrated Intel UHD Graphics 770 included",
+      "Leading max clock speed of up to 6.0 GHz gives you smoother game play, higher frame rates, and rapid responsiveness. DDR4 and DDR5 platform support cuts your load times and gives you the space to run the most demanding games",
+      "Z790 MAX GAMING WIFI7 is equipped with 14+1 DrMOS, 6-layer PCB, ProCool connectors, alloy chokes and durable capacitors for stable power delivery",
+      "Large VRM heatsinks, PCH heatsink, hybrid fan headers and Fan Xpert 4 with AI Cooling II",
+      "DDR5 memory, Wi-Fi 7, PCIe 5.0, rear USB 20Gbps Type-C, front USB 5Gbps Type-C, Thunderbolt (USB4) header support, 3 PCIe 4.0 M.2"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i9-14900K"
+    ]
+  },
+  "B0CQ1P2TRN": {
+    "asin": "B0CQ1P2TRN",
+    "title": "Intel Core i7-14700F Desktop Processor 20 cores (8 P-cores + 12 E-cores) up to 5.4 GHz",
+    "brand": "Intel",
+    "price": "$329.99",
+    "img": "https://m.media-amazon.com/images/I/316m9dA34XL._SL500_.jpg",
+    "features": [
+      "20 cores (8 P-cores + 12 E-cores) and 28 threads",
+      "Performance hybrid architecture integrates two core microarchitectures, prioritizing and distributing workloads to optimize performance",
+      "Up to 5.4 GHz unlocked. 33MB Cache",
+      "Compatible with Intel 600-series (with potential BIOS update) and 700-series chipset-based motherboards",
+      "PCIe 5.0 & 4.0 support. DDR4 and DDR5 Memory support. RM1 thermal solution included. Discrete graphics required."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i7-14700K"
+    ]
+  },
+  "B0CHBH63YX": {
+    "asin": "B0CHBH63YX",
+    "title": "Intel® Core™ i5-14600KF Desktop Processor 14 Cores (6 P-Cores + 8 E-Cores) up to 5.3 GHz",
+    "brand": "Intel",
+    "price": "$239.99",
+    "img": "https://m.media-amazon.com/images/I/31eRoQHfNPL._SL500_.jpg",
+    "features": [
+      "Intel Core i5 Desktop Processor (14th Gen) 14600KF, without GPU.",
+      "Unlocked Intel Core i5 Desktop (14th Gen) processors support PCIe 5.0 and 4.0 technologies, as well as DDR5 and DDR4 memory.",
+      "Optimized for gamers and office applications, they deliver high performance.",
+      "Dedicated graphics card required. Compatible with Intel 700 series and Intel 600 series chipset based motherboards. Core CPU power of 125 W."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i5-14600K"
+    ]
+  },
+  "B0CQ27H8VY": {
+    "asin": "B0CQ27H8VY",
+    "title": "Intel Core i5-14500 Desktop Processor 14 cores (6 P-cores + 8 E-cores) up to 5.0 GHz",
+    "brand": "Intel",
+    "price": "$215.97",
+    "img": "https://m.media-amazon.com/images/I/31kpWDRcDRL._SL500_.jpg",
+    "features": [
+      "14 cores (6 P-cores + 8 E-cores) and 20 threads",
+      "Performance hybrid architecture integrates two core microarchitectures, prioritizing and distributing workloads to optimize performance",
+      "Up to 5.0 GHz unlocked. 20MB Cache",
+      "Compatible with Intel 600-series (with potential BIOS update) and 700-series chipset-based motherboards",
+      "PCIe 5.0 & 4.0 support. DDR4 and DDR5 Memory support. RM1 thermal solution included.",
+      "Includes Intel Laminar RM1 Cooler"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i5-14400F"
+    ]
+  },
+  "B0BCF54SR1": {
+    "asin": "B0BCF54SR1",
+    "title": "Intel Core i9-13900K Desktop Processor 24 cores (8 P-cores + 16 E-cores) 36M Cache, up to 5.8 GHz",
+    "brand": "Intel",
+    "price": "$627.99",
+    "img": "https://m.media-amazon.com/images/I/41mf+FfowUL._SL500_.jpg",
+    "features": [
+      "Stream, create, and compete at the highest levels with industry leading features and the latest hybrid architecture",
+      "24 cores (8 P-cores + 16 E-cores) and 32 threads",
+      "Up to 5.8 GHz unlocked. 36MB Cache",
+      "Integrated Intel UHD Graphics 770 included",
+      "Compatible with Intel 600 series (might need BIOS update) and 700 series chipset-based motherboards"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i9-13900K"
+    ]
+  },
+  "B0BG67ZG5R": {
+    "asin": "B0BG67ZG5R",
+    "title": "Intel Core i9 13900K CPU 4.3GHz (5.8GHz Turbo) 13th Gen LGA1700 24-Cores 32-Threads 36MB 125W UHD Graphic 770 Unlocked Retail Raptor Lake no Fan",
+    "brand": "Intel",
+    "price": "$639.88",
+    "img": "https://m.media-amazon.com/images/I/31IWcjKVmtL._SL500_.jpg",
+    "features": [
+      "Intel UHD graphics 770",
+      "DP 1.4a, HDMI 2.1 and eDP 1.4b",
+      "36 MB Intel Smart Cache"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i9-13900K"
+    ]
+  },
+  "B0BPXCRWB2": {
+    "asin": "B0BPXCRWB2",
+    "title": "Intel Core i9-13900KS Desktop Processor 24 cores (8 P-cores + 16 E-cores) 36MB Cache, up to 6.0 GHz",
+    "brand": "Intel",
+    "price": "$649.99",
+    "img": "https://m.media-amazon.com/images/I/31PuX47w1CL._SL500_.jpg",
+    "features": [
+      "24 cores (8 P-cores + 16 E-cores) and 32 threads. Integrated Intel UHD Graphics 770 included",
+      "Performance hybrid architecture integrates two core microarchitectures, prioritizing and distributing workloads to optimize performance",
+      "Up to 6.0 GHz unlocked. 36M Cache",
+      "Compatible with Intel 600 series and 700 series chipset-based motherboards",
+      "Turbo Boost Max Technology 3.0, and PCIe 5.0 & 4.0 support. Intel Optane Memory support. No thermal solution included"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i9-13900K"
+    ]
+  },
+  "B0BS6W9JH8": {
+    "asin": "B0BS6W9JH8",
+    "title": "Procesorius Intel CPU Core I9-13900KS S1700 Box/6.0G BX8071513900KS S RMBX in",
+    "brand": "Intel",
+    "price": "$699.99",
+    "img": "https://m.media-amazon.com/images/I/31yCqziY1WL._SL500_.jpg",
+    "features": [
+      "Procesorius Intel CPU Core I9-13900KS S1700 BOX/6.0G BX8071513900KS S RMBX IN"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i9-13900K"
+    ]
+  },
+  "B0BCF57FL5": {
+    "asin": "B0BCF57FL5",
+    "title": "Intel Core i7-13700K Gaming Desktop Processor 16 cores (8 P-cores + 8 E-cores) with Integrated Graphics - Unlocked",
+    "brand": "Intel",
+    "price": "$449.99",
+    "img": "https://m.media-amazon.com/images/I/41BmX5xpFrL._SL500_.jpg",
+    "features": [
+      "13th Gen Intel Core processors offer revolutionary design for beyond real-world performance. From extreme multitasking, immersive streaming, and faster creating, do what you do",
+      "16 cores (8 P-cores plus 8 E-cores) and 24 threads",
+      "Up to 5.4 GHz unlocked. 30M Cache",
+      "Integrated Intel UHD Graphics 770 included",
+      "Compatible with Intel 600 series (might need BIOS update) and 700 series chipset-based motherboards",
+      "Performance hybrid architecture integrates two core microarchitectures, prioritizing and distributing workloads to optimize performance",
+      "Turbo Boost Max Technology 3.0, and PCIe 5.0 and 4.0 support. Intel Optane Memory support. No thermal solution included"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i7-13700K"
+    ]
+  },
+  "B0DMGSSXY3": {
+    "asin": "B0DMGSSXY3",
+    "title": "Intel Core i7-13700K Gaming Desktop Processor 16 cores (8 P-cores + 8 E-cores) with Integrated Graphics - Unlocked (Renewed)",
+    "brand": "Intel",
+    "price": "$324.97",
+    "img": "https://m.media-amazon.com/images/I/41BmX5xpFrL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i7-13700K"
+    ]
+  },
+  "B0G638DJWM": {
+    "asin": "B0G638DJWM",
+    "title": "Intel Core i7-13700KF Gaming Desktop Processor 16 cores (8 P-cores + 8 E-cores) - Unlocked (Renewed)",
+    "brand": "Intel",
+    "price": "$284.97",
+    "img": "https://m.media-amazon.com/images/I/41SDFJ6vtbL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i7-13700K"
+    ]
+  },
+  "B0BG6843GX": {
+    "asin": "B0BG6843GX",
+    "title": "Intel Core i7-13700KF 3.4 GHz (5.4 Turbo) 16 Core LGA 1700 Desktop Processor - Raptor Lake",
+    "brand": "Intel",
+    "price": "$480.67",
+    "img": "https://m.media-amazon.com/images/I/31G+E5kUBSL._SL500_.jpg",
+    "features": [
+      "W128279348"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i7-13700K"
+    ]
+  },
+  "B0BCDL7F5W": {
+    "asin": "B0BCDL7F5W",
+    "title": "Intel Core i7-13700KF Gaming Desktop Processor 16 cores (8 P-cores + 8 E-cores) - Unlocked",
+    "brand": "Intel",
+    "price": "$375.00",
+    "img": "https://m.media-amazon.com/images/I/41SDFJ6vtbL._SL500_.jpg",
+    "features": [
+      "13th Gen Intel Core processors offer revolutionary design for beyond real-world performance. From extreme multitasking, immersive streaming, and faster creating, do what you do.Max Memory Bandwidth : 89.6 GB/s. Instruction Set : 64-bit.",
+      "16 cores (8 P-cores + 8 E-cores) and 24 threads",
+      "Up to 5.4 GHz unlocked. 30M Cache",
+      "Discrete graphics required",
+      "Compatible with Intel 600 series (might need BIOS update) and 700 series chipset-based motherboards",
+      "Performance hybrid architecture integrates two core microarchitectures, prioritizing and distributing workloads to optimize performance",
+      "Turbo Boost Max Technology 3.0, and PCIe 5.0 & 4.0 support. Intel Optane Memory support. No thermal solution included"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i7-13700K"
+    ]
+  },
+  "B0CXJGKNLB": {
+    "asin": "B0CXJGKNLB",
+    "title": "Intel Core i5-13600K Desktop Processor 14 (6 P-cores + 8 E-cores) with Integrated Graphics - Unlocked (Renewed)",
+    "brand": "Intel",
+    "price": "$274.97",
+    "img": "https://m.media-amazon.com/images/I/41cPe7cMMPL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i5-13600K"
+    ]
+  },
+  "B0BG63WLG3": {
+    "asin": "B0BG63WLG3",
+    "title": "Intel Core i5-13600K 3.5GHz (5.1 Turbo) 14 Core LGA1700 Desktop Processor Boxed - Raptor Lake",
+    "brand": "Intel",
+    "price": "$268.49",
+    "img": "https://m.media-amazon.com/images/I/31Sg6Zjl-sL._SL500_.jpg",
+    "features": [
+      "Specifications - Socket: LGA 1700 - P-core base frequency: 3.5 GHz - Base E-core frequency: 2.6 GHz - Smart Cache Intel (L3) Size: 24MB - Total L2 Cache: 20MB - Processing Cores (P-Colors + E-cores): 14 (6P+8E) - Processor Threads: 20 - Maximum Memory Speed a: DDR5 5 600 MT/s | DDR4 3200 MT/s - P-core Max Turbo Frequency: Up to 5.1 Ghz - Max Turbo E-core Frequency: Up to 3.9 Ghz",
+      "- PCIe CPU Lines: 20 - Unlocked: Yes - Chipset Compatibility: Intel 700 Series Chipset | Intel 600 Series Chipset - Processor Graphics: Intel UHD Graphics 770 - Memory Channels: 2 - Maximum Memory Capacity: 128GB - Processor Base Power: 125W - Maximum Turbo Power: 181W - Reliable ability, Availability, & Services: ECC - Intel SIPP3: Yes - Intel vPro Technology4: Yes",
+      "Features - Brand: Intel - Model: BX8071513600K",
+      "Package Contents - Intel 13th Generation Processor"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i5-13600K"
+    ]
+  },
+  "B0BN61LYFB": {
+    "asin": "B0BN61LYFB",
+    "title": "Intel Core i5-13400F 2.5GHz (4.6 Turbo) 10 Core LGA 1700 Desktop Processor (Raptor Lake)",
+    "brand": "Intel",
+    "price": "$234.59",
+    "img": "https://m.media-amazon.com/images/I/31nzZv6yvVL._SL500_.jpg",
+    "features": [
+      "2.5GHz Operating Frequency, LGA 1700 Socket",
+      "Raptor Lake Series",
+      "Boxed Desktop CPU Intel",
+      "Core i5-13400F with 20MB Cache",
+      "10 Cores / 16 Threads"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i5-13400F"
+    ]
+  },
+  "B0BQ6BRL4T": {
+    "asin": "B0BQ6BRL4T",
+    "title": "Boxed INTEL I5-13400F 20M Cache, UP to 4.60GHZ",
+    "brand": "Intel",
+    "price": "$234.29",
+    "img": "https://m.media-amazon.com/images/I/41NgKlCJOzL._SL500_.jpg",
+    "features": [
+      "10 cores (6 P-cores plus 4 E-cores) and 16 threads",
+      "Performance hybrid architecture integrates two core microarchitectures, prioritizing and distributing workloads to optimize performance",
+      "Up to 4.6 GHz. 20M Cache",
+      "Compatible with Intel 600 series and 700 series chipset-based motherboards",
+      "Turbo Boost Max Technology 3.0, and PCIe 5.0 and 4.0 support. Intel Optane Memory support. Intel Laminar RH1 Cooler included. Discrete graphics required"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i5-13400F"
+    ]
+  },
+  "B0FPGM87Y9": {
+    "asin": "B0FPGM87Y9",
+    "title": "Intel Core I5-13400F Processor 20 Mb Smart Cache, W128281307 (Mb Smart Cache)",
+    "brand": "Intel",
+    "price": "$217.94",
+    "img": "https://m.media-amazon.com/images/I/31e7NuZptsL._SL500_.jpg",
+    "features": [
+      "W128281307"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i5-13400F"
+    ]
+  },
+  "B0CQ1MN1Y2": {
+    "asin": "B0CQ1MN1Y2",
+    "title": "Intel® Core™ i3-14100F Desktop Processor 4 cores (4 P-cores + 0 E-cores) 4.7 GHz",
+    "brand": "Intel",
+    "price": "$104.99",
+    "img": "https://m.media-amazon.com/images/I/41rUaS0mu5L._SL500_.jpg",
+    "features": [
+      "4 cores (4 P-cores + 0 E-cores) and 8 threads",
+      "Performance two core microarchitecture, prioritizing and distributing workloads to optimize performance",
+      "Up to 4.7 GHz unlocked. 12MB Cache",
+      "Compatible with Intel 600-series (with potential BIOS update) and 700-series chipset-based motherboards",
+      "PCIe 5.0 & 4.0 support. DDR4 and DDR5 Memory support. RM1 thermal solution included. Discrete graphics required."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i3-14100F",
+      "Intel Core i3-12100F"
+    ]
+  },
+  "B0CQ2ZVCWV": {
+    "asin": "B0CQ2ZVCWV",
+    "title": "Intel CORE I3-14100F Processor (TURBE UP to 4.7GHZ) 12MB LGA1700 14TH Generation BX8071514100F",
+    "brand": "Intel",
+    "price": "$104.99",
+    "img": "https://m.media-amazon.com/images/I/31LS4l-+V8L._SL500_.jpg",
+    "features": [
+      "Intel Core i3 14100F: With 4 cores and 8 threads, this processor offers a base frequency of 3.5 GHz. Great for basic tasks and web browsing."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i3-14100F",
+      "Intel Core i3-12100F"
+    ]
+  },
+  "B0CQ1S3L53": {
+    "asin": "B0CQ1S3L53",
+    "title": "Intel Core i3-14100 Desktop Processor 4 cores (4 P-cores + 0 E-cores) up to 4.7 GHz",
+    "brand": "Intel",
+    "price": "$143.30",
+    "img": "https://m.media-amazon.com/images/I/314EOdy6jQL._SL500_.jpg",
+    "features": [
+      "4 cores (4 P-cores + 0 E-cores) and 8 threads. Integrated Intel UHD Graphics 730 included.",
+      "Performance two core microarchitecture, prioritizing and distributing workloads to optimize performance",
+      "Up to 4.7 GHz unlocked. 12MB Cache",
+      "Compatible with Intel 600-series (with potential BIOS update) and 700-series chipset-based motherboards",
+      "PCIe 5.0 & 4.0 support. DDR4 and DDR5 Memory support. RM1 thermal solution included.",
+      "Includes Intel Laminar RM1 Cooler"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i3-14100F"
+    ]
+  },
+  "B0CQ2ZLXB4": {
+    "asin": "B0CQ2ZLXB4",
+    "title": "Intel CORE I3-14100 Processor (TURBE UP to 4.7GHZ) 12MB LGA1700 14TH Generation BX8071514100",
+    "brand": "Intel",
+    "img": "https://m.media-amazon.com/images/I/31dRQr+e-uL._SL500_.jpg",
+    "features": [
+      "INTEL CORE I3-14100 PROCESSOR (TURBE UP TO 4.7GHZ) 12MB LGA1700 14TH GENERATION BX8071514100"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i3-14100F"
+    ]
+  },
+  "B09NPJX7PV": {
+    "asin": "B09NPJX7PV",
+    "title": "Intel® Core™ 12th Gen i3-12100F desktop processor, featuring PCIe Gen 5.0 & 4.0 support, DDR5 and DDR4 support. Discrete graphics required.",
+    "brand": "Intel",
+    "price": "$135.99",
+    "img": "https://m.media-amazon.com/images/I/31+hMjywq-L._SL500_.jpg",
+    "features": [
+      "Intel Core i3-12100F Desktop Processor 4 (4P-0E) Cores Up to 4.3 GHz Turbo Frequency LGA1700 600 Series Chipset 58W Processor Base Power"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i3-14100F",
+      "Intel Core i3-12100F"
+    ]
+  },
+  "B09NPHJLPT": {
+    "asin": "B09NPHJLPT",
+    "title": "Intel Core i3 (12th Gen) i3-12100 Quad-core (4 Core) 3.30 GHz Processor - Retail Pack",
+    "brand": "Intel",
+    "img": "https://m.media-amazon.com/images/I/317CQnasyUL._SL500_.jpg",
+    "features": [
+      "Intel® Core® i3 3.30 GHz processor uses less power and the hyper-threading architecture delivers high performance for demanding applications at an affordable price",
+      "12 MB of L3 cache rapidly retrieves the most used data available to improve system performance",
+      "Built-in Intel UHD Graphics 730 controller for improved graphics and visual quality. Supports up to 4 monitors."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i3-14100F"
+    ]
+  },
+  "B0759FTRZL": {
+    "asin": "B0759FTRZL",
+    "title": "Intel BX80684I38100 8th Gen Core i3-8100 Processor (BX80684I38100)",
+    "brand": "Intel",
+    "price": "$94.05",
+    "img": "https://m.media-amazon.com/images/I/41wcBEPMK1L._SL500_.jpg",
+    "features": [
+      "Intel UHD Graphics 630",
+      "Compatible only with Motherboards based on Intel 300 Series Chipsets",
+      "Cores: 4, Threads: 4",
+      "3.60 GHz Base Frequency / 6 MB Cache",
+      "Intel Optane Memory Supported",
+      "System Ram Type: ddr4_sdram"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i3-14100F",
+      "Intel Core i3-12100F"
+    ]
+  },
+  "B08LKJPR5X": {
+    "asin": "B08LKJPR5X",
+    "title": "Intel CPU BX8070110100F Core i3-10100F / 3.6GHz / 6MB LGA1200 4C / 8T",
+    "brand": "Intel",
+    "price": "$67.99",
+    "img": "https://m.media-amazon.com/images/I/41LhyUttRdL._SL500_.jpg",
+    "features": [
+      "Country Of Origin :China",
+      "Package Dimensions :7.3Cm L X10.7Cm W X11.8Cm H",
+      "Package Weight :9.9Ounces",
+      "Product Type : Computer Processor"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i3-14100F",
+      "Intel Core i3-12100F"
+    ]
+  },
+  "B0CS9NRY2K": {
+    "asin": "B0CS9NRY2K",
+    "title": "Intel CPU Core i3-14100T Low Voltage Bulk 14th Gen Raptor Lake-S Refresh LGA1700 1 Year Warranty + SilverStone SST-TF01 Grease",
+    "brand": "Intel",
+    "price": "$160.78",
+    "img": "https://m.media-amazon.com/images/I/41hhBO1OhcL._SL500_.jpg",
+    "features": [
+      "LGA1700/4 Core 8 Threads/P Core Max Boost 4.4GHz/Smart Cache/12MB Intel UHD Graphics 730/PCIe(5.0) 16 Lane Storage/PCIe(4.0) 4-Lane Processor Base Power 35W",
+      "Equipped with a performance core P-Core 4 core, capable of handling up to 8 threads",
+      "PCIe Gen 5.0 Ready Supports DDR5-4800 (continues to work with DDR4)",
+      "Windows 11 compatible. Optimized for Windows 11",
+      "Bulk Product *This product is for sale only. CPU cooler not included. It is required separately"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i3-14100F"
+    ]
+  },
+  "B09GYHXDHH": {
+    "asin": "B09GYHXDHH",
+    "title": "Core i5-12600K Processor 3.7Ghz / 4.9Ghz Intel Core i5 Processor 12600K Box, DDR5 BX8071512600K Intel",
+    "brand": "Intel",
+    "price": "$265.00",
+    "img": "https://m.media-amazon.com/images/I/31a27fdtOPL._SL500_.jpg",
+    "features": [
+      "Intel Core i5-12600K Processor BX8071512600K",
+      "Products are designed with the user in mind wanting to fulfill the wishes",
+      "A true performance product",
+      "Discover products that are useful for you"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i5-12400F",
+      "Intel Core i5-12600K"
+    ]
+  },
+  "B09MDGKQLY": {
+    "asin": "B09MDGKQLY",
+    "title": "Intel® Core™ i3-12100F 12th Generation Desktop Processor (Base Clock: 3.3GHz, 4 Cores, LGA1700, RAM DDR4 and DDR5 up to 128GB)",
+    "brand": "Intel",
+    "price": "$132.58",
+    "img": "https://m.media-amazon.com/images/I/31ad926f9bL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i3-12100F"
+    ]
+  },
+  "B09QG131DT": {
+    "asin": "B09QG131DT",
+    "title": "Intel Core i3-12100F 3.3GHz 4 Core LGA1700 Desktop Processor OEM/Tray",
+    "brand": "Intel",
+    "price": "$129.53",
+    "img": "https://m.media-amazon.com/images/I/41ak65D0sPL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i3-12100F"
+    ]
+  },
+  "B0F2GJF5D3": {
+    "asin": "B0F2GJF5D3",
+    "title": "Intel Core i3-12100 4 Core Desktop Processor (Up to 4.3GHz) LGA 1700 - UHD Graphics 730-12MB Cache (OEM Tray Version, Cooler Not Included) - Reliable Performance for Entertainment, Home and Office",
+    "brand": "ASUS",
+    "price": "$179.99",
+    "img": "https://m.media-amazon.com/images/I/41cRhTliCEL._SL500_.jpg",
+    "features": [
+      "The Intel i3-12100 is optimized for productivity and entertainment. It offers a balance of performance and affordability, making it suitable for various applications at home, school or the office.",
+      "Total Cores: 4 | # of Performance Cores: 4 | Total Threads: 8 | Processor Base Power: 60W | Performance Core Max Frequency: 4.30 GHz | Cache: 12 MB Intel Smart Cache",
+      "Processor Graphics: Intel UHD Graphics 730 | Max Resolution (HDMI): 4096 x 2160 @ 60Hz | Max Resolution (DP): 7680 x 4320 @ 60Hz",
+      "Max Memory Size: 128 GB | Memory Types: Up to DDR4 3200 MT/s, Up to DDR5 4800 MT/s",
+      "OEM Packaging - Retail Packaging NOT included | CPU Cooler is NOT included | WARRANTY: Your purchase is backed by WOWPC's 1 Year Hardware Warranty."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i3-12100F"
+    ]
+  },
+  "B0DDGYH1N2": {
+    "asin": "B0DDGYH1N2",
+    "title": "EWKYLSEM CPU c I3-12100F New I3 12100F 3.3 GHz 4-Core 8-Thread CPU Processor 7NM L3=12M 60W LGA 1700",
+    "brand": "EWKYLSEM",
+    "price": "$254.04",
+    "img": "https://m.media-amazon.com/images/I/41aG6eaatnL._SL500_.jpg",
+    "features": [
+      "1.Powerful functions make the picture clearer and clearer2 . Good performance processing ability, fast processing speed3.Quality assurance makes you more assured4 . You can let you and your family watch videos more harmoniously5. 2 years warranty",
+      "Model: c i3-12100F",
+      "Socket Type: LGA 1700",
+      "PCIe VERSION: PCIe 4.0"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i3-12100F"
+    ]
+  },
+  "B09FXNVDBJ": {
+    "asin": "B09FXNVDBJ",
+    "title": "Intel Core i7-12700K Gaming Desktop Processor with Integrated Graphics and 12 (8P+4E) Cores up to 5.0 GHz Unlocked LGA1700 600 Series Chipset 125W",
+    "brand": "Intel",
+    "price": "$319.99",
+    "img": "https://m.media-amazon.com/images/I/31Ux-60SYIL._SL500_.jpg",
+    "features": [
+      "Intel Core i7 3.60 GHz processor offers more cache space and the hyper-threading architecture delivers high performance for demanding applications with better onboard graphics and faster turbo boost",
+      "The processor features Socket LGA-1700 socket for installation on the PCB",
+      "25 MB of L3 cache to boost the instruction processing and system performance",
+      "Intel 7 Architecture enables improved performance per watt and micro architecture makes it power-efficient",
+      "To boost graphics and visual quality, the chipset has a built in Intel UHD Graphics controller"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i7-12700K"
+    ]
+  },
+  "B09NBL478G": {
+    "asin": "B09NBL478G",
+    "title": "Intel Core i7-12700K Desktop Processor 12 (8P+4E) Cores up to 5.0 GHz Unlocked LGA1700 600 Series Chipset 125W (Renewed)",
+    "brand": "Intel",
+    "price": "$289.97",
+    "img": "https://m.media-amazon.com/images/I/41O0JzP4uWL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i7-12700K"
+    ]
+  },
+  "B09ZPV5CFM": {
+    "asin": "B09ZPV5CFM",
+    "title": "Intel Core i9-12900K 12th Gen Alder Lake 16-Core 3.2 GHz LGA 1700 Processor-BX8071512900K",
+    "brand": "Intel",
+    "price": "$329.99",
+    "img": "https://m.media-amazon.com/images/I/41Wr32goILL._SL500_.jpg",
+    "features": [
+      "Intel Core i9-12900K",
+      "12th Gen Alder Lake",
+      "16-Core 3.2 GHz LGA 1700"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i7-12700K"
+    ]
+  },
+  "B09MDJDSGH": {
+    "asin": "B09MDJDSGH",
+    "title": "Intel® Core™ i7-12700 Desktop Processor 25MB Cache up to 4.90GHz",
+    "brand": "Intel",
+    "price": "$416.85",
+    "img": "https://m.media-amazon.com/images/I/31bCScUYozL._SL500_.jpg",
+    "features": [
+      "Intel Core i7-12700 desktop processor of the 12th generation.",
+      "The Intel Core i7 desktop processors of the 12th Generation with Intel Turbo Boost Max Technology 3.0, support for PCIe 5.0 and 4.0, as well as DDR5 and DDR4 are optimized for gamers and productivity and ensure high performance.",
+      "Intel Laminar RM1 included.",
+      "Compatible with Intel 600 series chipset motherboards. Processor base power consumption: 65W."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i7-12700K"
+    ]
+  },
+  "B0B8H5XV8L": {
+    "asin": "B0B8H5XV8L",
+    "title": "Intel Core i5-12600K Desktop Processor 10 (6P+4E) Cores up to 4.9 GHz Unlocked LGA1700 600 Series Chipset 125W (Renewed)",
+    "brand": "Intel",
+    "price": "$229.97",
+    "img": "https://m.media-amazon.com/images/I/41jXus+GJ9L._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i5-12600K"
+    ]
+  },
+  "B09MSLG944": {
+    "asin": "B09MSLG944",
+    "title": "Intel Core i5 i5-12600 3.30 GHz Processor - Retail Pack",
+    "brand": "Intel",
+    "price": "$275.00",
+    "img": "https://m.media-amazon.com/images/I/41-I-aemUjL._SL500_.jpg",
+    "features": [
+      "Intel® Core® i5 3.30 GHz processor offers hyper-threading architecture that delivers high performance for demanding applications with improved onboard graphics and turbo boost",
+      "The processor features Socket LGA-1700 socket for installation on the PCB"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i5-12600K"
+    ]
+  },
+  "B09LMQLQJ3": {
+    "asin": "B09LMQLQJ3",
+    "title": "Intel Core i5 [12th Gen] i5-12600K Deca-core [10 Core] 3.70 GHz Processor - OEM Pack",
+    "brand": "Intel",
+    "price": "$389.95",
+    "img": "https://m.media-amazon.com/images/I/41N22mnK6xL._SL500_.jpg",
+    "features": [
+      "CM8071504555227"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Intel Core i5-12600K"
     ]
   }
 }

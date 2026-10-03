@@ -1,7 +1,7 @@
 {
   "B0DS6V7L5M": {
     "asin": "B0DS6V7L5M",
-    "title": "ASUS Prime GeForce RTX 5070 Ti 16GB GDDR7 OC Edition Gaming Graphics Card",
+    "title": "ASUS SFF-Ready Prime NVIDIA GeForce RTX 5070 Ti 16GB GDDR7 OC Edition 16GB GDDR7 Graphics Card (PCIe 5.0, HDMI/DP 2.1, 2.5-Slot, Axial-tech Fans, Dual BIOS), 3 Year Warranty",
     "brand": "ASUS",
     "price": "$1,229.99",
     "img": "https://m.media-amazon.com/images/I/41fAgErGKeL._SL500_.jpg",
@@ -17,7 +17,7 @@
       "Auto-Extreme manufacturing process for precision and reliability",
       "GPU Tweak III software provides intuitive performance tweaking, advanced thermal control, and system monitoring"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5070 Ti graphics card",
       "ASUS RTX 5070 Ti",
@@ -46,7 +46,7 @@
       "Dual BIOS switch lets you toggle between Quiet and Performance BIOS profiles Auto-Extreme manufacturing process for precision and reliability",
       "GPU Tweak III software provides intuitive performance tweaking, advanced thermal control, and system monitoring"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5070 Ti graphics card",
       "ASUS RTX 5070 Ti",
@@ -60,7 +60,9 @@
       "SFF ready RTX 5070",
       "small form factor graphics card SFF ready",
       "RTX 4070 Super graphics card",
-      "RTX 4070 graphics card 12GB"
+      "RTX 4070 graphics card 12GB",
+      "RTX 4070 graphics card",
+      "RTX 5060 Ti 16GB"
     ]
   },
   "B0FST71VP9": {
@@ -158,12 +160,13 @@
       "Auto-Extreme precision automated manufacturing helps ensure higher reliability",
       "GPU Tweak III software provides intuitive performance tweaking, advanced thermal controls, and system monitoring"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5070 Ti graphics card",
       "RTX 5070 graphics card",
       "RTX 4070 Super graphics card",
-      "RTX 4070 graphics card 12GB"
+      "RTX 4070 graphics card 12GB",
+      "RTX 4070 Super ASUS"
     ]
   },
   "B0GXFGKWQX": {
@@ -245,7 +248,7 @@
     "asin": "B0DQSMMCSH",
     "title": "ASUS TUF Gaming GeForce RTX™ 5080 16GB GDDR7 OC Edition Graphics Card",
     "brand": "ASUS",
-    "price": "$1,775.05",
+    "price": "$1,817.76",
     "img": "https://m.media-amazon.com/images/I/41PmU-fj5xL._SL500_.jpg",
     "features": [
       "Powered by the NVIDIA Blackwell architecture and DLSS 4. System Requirements: Minimum 850W PSU with 16-pin 12V-2x6 (12VHPWR) connector required. Verify before purchasing.",
@@ -257,7 +260,7 @@
       "GPU Tweak III software provides intuitive performance tweaking, advanced thermal controls, and system monitoring",
       "OC mode: 2730 MHz/ Default mode: 2700 MHz (Boost Clock)"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "ASUS RTX 5070 Ti",
       "RTX 5090 graphics card",
@@ -306,7 +309,7 @@
       "Protective PCB Coating envelops the circuit board to help protect against short-circuits caused by moisture, dust, or debris",
       "Aura Sync features Aura-compatible ARGB lighting on the shroud and perimeter allows endless personalization GPU Tweak III software provides intuitive performance tweaking, advanced thermal control, and system monitoring"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "ASUS RTX 5070 Ti",
       "RTX 5070 graphics card"
@@ -354,7 +357,7 @@
     "asin": "B0FFKWFMYM",
     "title": "ASUS Prime GeForce RTX 5070 12GB GDDR7 White OC Edition Gaming Graphics Card",
     "brand": "ASUS",
-    "price": "$893.99",
+    "price": "$894.99",
     "img": "https://m.media-amazon.com/images/I/415oPRKR+BL._SL500_.jpg",
     "features": [
       "AI Performance: 1005 AI TOPS OC mode boosts clock 2587 MHz (OC mode) / 2557 MHz (Default mode)",
@@ -368,11 +371,12 @@
       "Dual BIOS switch lets you toggle between Quiet and Performance BIOS profiles",
       "Auto-Extreme manufacturing process for precision and reliability GPU Tweak III software provides intuitive performance tweaking, advanced thermal control, and system monitoring"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "ASUS RTX 5070 Ti",
       "Gigabyte RTX 5070 Ti",
-      "RTX 5070 graphics card"
+      "RTX 5070 graphics card",
+      "RTX 4070 Super graphics card"
     ]
   },
   "B0F4RZDFD5": {
@@ -393,14 +397,17 @@
       "Auto-Extreme manufacturing process for precision and reliability",
       "GPU Tweak III software provides intuitive performance tweaking, advanced thermal control, and system monitoring"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "ASUS RTX 5070 Ti",
       "RTX 5060 Ti 16GB graphics card",
       "RTX 5060 graphics card",
       "low profile graphics card RTX 5060",
       "RTX 5060 Ti low profile",
-      "RTX 4070 Ti Super graphics card"
+      "RTX 4070 Ti Super graphics card",
+      "RTX 4070 graphics card",
+      "RTX 4060 Ti 16GB",
+      "RTX 5060 Ti 16GB"
     ]
   },
   "B0DV9GMDLR": {
@@ -462,7 +469,7 @@
     "asin": "B0DS2R6948",
     "title": "GIGABYTE GeForce RTX 5080 Gaming OC 16G Graphics Card, WINDFORCE Cooling System, 16GB 256-bit GDDR7, GV-N5080GAMING OC-16GD Video Card",
     "brand": "GIGABYTE",
-    "price": "$1,658.51",
+    "price": "$1,653.99",
     "img": "https://m.media-amazon.com/images/I/416yjutbhcL._SL500_.jpg",
     "features": [
       "Powered by the NVIDIA Blackwell architecture and DLSS 4",
@@ -471,7 +478,7 @@
       "PCIe 5.0",
       "WINDFORCE cooling system"
     ],
-    "fetchedAt": "2026-09-28",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "MSI RTX 5070 Ti",
       "Gigabyte RTX 5070 Ti",
@@ -515,17 +522,18 @@
       "Output: DisplayPort x 3 (v2.1a) / HDMI 2.1b x 1",
       "Digital maximum resolution: 7680 x 4320"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "MSI RTX 5070 Ti",
-      "RTX 5080 graphics card"
+      "RTX 5080 graphics card",
+      "RTX 4080 Super graphics card"
     ]
   },
   "B0DTQMLX4F": {
     "asin": "B0DTQMLX4F",
     "title": "GIGABYTE GeForce RTX 5070 WINDFORCE OC SFF 12G Graphics Card, 12GB 192-bit GDDR7, PCIe 5.0, WINDFORCE Cooling System, GV-N5070WF3OC-12GD Video Card",
     "brand": "GIGABYTE",
-    "price": "$996.51",
+    "price": "$1,000.53",
     "img": "https://m.media-amazon.com/images/I/41skZEnqbxL._SL500_.jpg",
     "features": [
       "Powered by the NVIDIA Blackwell architecture and DLSS 4",
@@ -534,11 +542,12 @@
       "PCIe 5.0",
       "NVIDIA SFF ready"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Gigabyte RTX 5070 Ti",
       "RTX 5070 graphics card",
-      "SFF ready RTX 5070"
+      "SFF ready RTX 5070",
+      "RTX 4070 Super Gigabyte"
     ]
   },
   "B0GXF847X5": {
@@ -694,7 +703,7 @@
     "asin": "B0DYPGBX6J",
     "title": "PNY NVIDIA GeForce RTX™ 5070 Epic-X RGB™ OC Triple-Fan Graphics Card",
     "brand": "PNY",
-    "price": "$869.00",
+    "price": "$858.99",
     "img": "https://m.media-amazon.com/images/I/41sZ5PR+YnL._SL500_.jpg",
     "features": [
       "Axial-Fan Tech Built to Endure - Triple 90mm axial fans feature refined blades for up to 15% more airflow, counter-rotation to cut turbulence, and durable dual-ball bearings. Stealth Mode stops fans at low temps for silent operation, boosting card longevity and performance.",
@@ -703,7 +712,7 @@
       "Epic-X ARGB Lighting 2.0 - Craft your command center with Epic-X ARGB lighting. Fully customizable LEDs illuminate your graphics card, turning your setup into a radiant centerpiece and making your gaming space a true reflection of your style.",
       "VelocityX Software - Gain full control over your PNY graphics card to maximize its performance and Epic-X ARGB lighting. Fine-tune core and memory clocks, dial in custom fan curves, and monitor real-time temperatures and speeds, all from one intuitive interface. Save up to five profiles for instant recall."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "PNY RTX 5070 Ti",
       "RTX 5070 graphics card",
@@ -753,7 +762,7 @@
     "asin": "B0GK7GWKT2",
     "title": "ASUS ROG Astral GeForce RTX 5090 OC Edition Quad Fan Graphics Card, 32GB GDDR7, 3352 AI Tops, 512-bit, DLSS 4, AI Content Creation, Local LLM Inference, DP 2.1b x3, HDMI 2.1b x2, with GPU Holder",
     "brand": "ASUS",
-    "price": "$7,629.00",
+    "price": "$7,594.99",
     "img": "https://m.media-amazon.com/images/I/51zwOrJ0p6L._SL500_.jpg",
     "features": [
       "[3352 AI TOPS, 5th Gen Tensor Cores, AI Content Creation] Built for AI-assisted photo and video workflows including upscaling, denoise, background removal, masking, and generative AI creation for faster creator productivity.",
@@ -762,7 +771,7 @@
       "[Quad-Fan Force, Vapor Chamber, Phase-Change Thermal Pad] Designed for sustained performance under heavy loads with quad-fan cooling, a patented vapor chamber, and a phase-change GPU thermal pad to help lower temps and reduce hotspots.",
       "[DP 2.1b x3, HDMI 2.1b x2, Bundle GPU Holder] Multi-display ready with up to 4 displays and up to 7680 x 4320 max digital resolution, plus an included GPU Holder to help reduce GPU sag and improve long-term build stability."
     ],
-    "fetchedAt": "2026-09-28",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5090 graphics card",
       "ASUS ROG Astral RTX 5090",
@@ -775,7 +784,7 @@
     "asin": "B0H1X77HTF",
     "title": "Gigabyte AORUS GeForce RTX 5090 Infinity 32G Graphics Card - 32GB GDDR7, 512bit, PCI-E 5.0, 2730MHz Core Clock, 3 x DP 2.1b, 1 x HDMI 2.1b, DLSS 4, GV-N5090AORUS IF-32GD",
     "brand": "GIGABYTE",
-    "price": "$7,199.99",
+    "price": "$7,177.68",
     "img": "https://m.media-amazon.com/images/I/41A-8DtvUAL._SL500_.jpg",
     "features": [
       "Powered by GeForce RTX 5090",
@@ -786,7 +795,7 @@
       "Dual BIOS (Performance / Silent)",
       "4 years warranty (Online registration required)"
     ],
-    "fetchedAt": "2026-09-28",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5090 graphics card",
       "ASUS ROG Astral RTX 5090",
@@ -812,7 +821,7 @@
       "Full metal diecast shroud, frame backplate, and rear I/O bracket brace the PCB for rigidity",
       "Powerful 80-amp MOSFETs help ensure enhanced performance, stability, and higher overclocking potential Protective PCB coating guards against moisture, dust, and extreme temperatures"
     ],
-    "fetchedAt": "2026-09-28",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5090 graphics card",
       "RTX 5080 graphics card",
@@ -868,7 +877,7 @@
       "[DLSS 4, Ray Tracing, High-End Gaming] Smooth modern gaming with AI-enhanced performance in supported titles, plus advanced ray-traced visuals for more immersive experiences and high-fidelity gameplay.",
       "[DP 2.1b x3, HDMI 2.1b x2, Bundle GPU Holder] Multi-display ready with up to 4 displays and up to 7680 x 4320 max digital resolution, plus an included GPU Holder to help reduce GPU sag and improve long-term build stability."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5090 graphics card"
     ]
@@ -877,7 +886,7 @@
     "asin": "B0GZR4P62R",
     "title": "ASUS Prime GeForce RTX 5080 EVO 16GB GDDR7 OC Edition Gaming Graphics Card",
     "brand": "ASUS",
-    "price": "$1,680.99",
+    "price": "$1,665.05",
     "img": "https://m.media-amazon.com/images/I/41mYpyyBDTL._SL500_.jpg",
     "features": [
       "AI Performance: 1801 AI TOPS. OC mode boosts clock 2685 MHz (OC mode)/ 2655 MHz (Default mode)",
@@ -891,10 +900,12 @@
       "0dB technology lets you enjoy light gaming in relative silence Dual BIOS switch lets you toggle between Quiet and Performance BIOS profiles",
       "Auto-Extreme manufacturing process for precision and reliability GPU Tweak III software provides intuitive performance tweaking, advanced thermal control, and system monitoring"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5090 graphics card",
-      "RTX 5080 graphics card"
+      "RTX 5080 graphics card",
+      "RTX 4080 Super graphics card",
+      "RTX 4090 graphics card"
     ]
   },
   "B0FSB9GY9Q": {
@@ -915,7 +926,7 @@
       "Minimalist design with classy brown wood-patterned laminate trim and aura-lit ProArt logo",
       "Auto-Extreme manufacturing process delivers precision and reliability GPU Tweak III software offers intuitive performance tweaking, advanced thermal controls ,and system monitoring"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5080 graphics card"
     ]
@@ -924,7 +935,7 @@
     "asin": "B0DSWQNGYF",
     "title": "msi Gaming RTX 5080 16G Ventus 3X OC White Graphics Card (16GB GDDR7, 256-bit, Extreme Clock TBD MHz, DisplayPort x 3 2.1a, HDMI 2.1b, NVIDIA Blackwell Architecture)",
     "brand": "msi",
-    "price": "$1,649.99",
+    "price": "$1,679.99",
     "img": "https://m.media-amazon.com/images/I/41v9sQUJ2IL._SL500_.jpg",
     "features": [
       "Chipset: NVIDIA GeForce RTX 5080",
@@ -933,7 +944,7 @@
       "Output: DisplayPort x 3 (v2.1a) / HDMI 2.1b x 1",
       "Digital maximum resolution: 7680 x 4320"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5080 graphics card"
     ]
@@ -956,7 +967,7 @@
       "Protective PCB coating guards against moisture, dust, and extreme temperatures",
       "Auto-Extreme manufacturing process for precision and reliability GPU Tweak III software provides intuitive performance tweaking, advanced thermal controls, and system monitoring"
     ],
-    "fetchedAt": "2026-09-28",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5080 graphics card",
       "ASUS ROG Astral RTX 5090"
@@ -975,7 +986,7 @@
       "Output: DisplayPort x 3 (v2.1a) / HDMI 2.1b x 1",
       "Digital maximum resolution: 7680 x 4320"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5080 graphics card"
     ]
@@ -1003,7 +1014,7 @@
     "asin": "B0DS2QG2KW",
     "title": "GIGABYTE Radeon RX 9070 XT Gaming OC 16G Graphics Card, PCIe 5.0, 16GB GDDR6, GV-R9070XTGAMING OC-16GD Video Card",
     "brand": "GIGABYTE",
-    "price": "$799.50",
+    "price": "$799.28",
     "img": "https://m.media-amazon.com/images/I/41pES-GPYSL._SL500_.jpg",
     "features": [
       "Powered by Radeon RX 9070 XT",
@@ -1012,7 +1023,7 @@
       "Server-grade Thermal Conductive Gel",
       "RGB Lighting"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5070 graphics card",
       "Radeon RX 9070 XT",
@@ -1022,7 +1033,12 @@
       "Radeon RX 7900 XT graphics card",
       "Radeon RX 7800 XT graphics card",
       "Radeon RX 7700 XT graphics card",
-      "Radeon RX 7600 XT 16GB graphics card"
+      "Radeon RX 7600 XT 16GB graphics card",
+      "RX 9070 XT graphics card",
+      "RX 9070 graphics card",
+      "RX 7900 XTX",
+      "RX 7900 XT",
+      "RX 7800 XT"
     ]
   },
   "B0DYG7KB27": {
@@ -1047,7 +1063,7 @@
     "asin": "B0F7WB6LSH",
     "title": "ASUS Dual GeForce RTX 5060 Ti 16GB GDDR7 OC Edition Gaming Graphics Card",
     "brand": "ASUS",
-    "price": "$796.89",
+    "price": "$794.99",
     "img": "https://m.media-amazon.com/images/I/41i3L5tbxpL._SL500_.jpg",
     "features": [
       "AI Performance: 767 AI TOPS",
@@ -1059,13 +1075,16 @@
       "Dual BIOS lets you toggle between Quiet and Performance BIOS profiles",
       "Dual ball fan bearings last up to twice as long as sleeve bearing designs"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5060 Ti 16GB graphics card",
       "RTX 5060 graphics card",
       "RTX 5060 Ti low profile",
       "RTX 4070 Ti graphics card 12GB",
-      "RTX 4070 Super graphics card"
+      "RTX 4070 Super graphics card",
+      "RTX 4070 graphics card",
+      "RTX 4060 Ti 16GB",
+      "RTX 5060 Ti 16GB"
     ]
   },
   "B0F8B59WP7": {
@@ -1081,14 +1100,22 @@
       "Blazing‑Fast Engine Clock: Delivers a boost clock of up to 3290 MHz and a game clock of 2700 MHz out of the box, providing the raw power for smooth, high‑framerate gameplay.",
       "16GB GDDR6 Memory on 128‑Bit Bus: Equipped with 16GB of high‑speed GDDR6 memory running at 20 Gbps, offering ample capacity and bandwidth for modern game textures and creative applications."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5060 Ti 16GB graphics card",
       "Radeon RX 9060 XT 16GB",
       "Radeon RX 9060 XT 8GB",
       "Radeon RX 7600",
       "Radeon RX 7900 XTX graphics card",
-      "Radeon RX 7600 XT 16GB graphics card"
+      "Radeon RX 7600 XT 16GB graphics card",
+      "RTX 4060 Ti 16GB",
+      "RTX 5060 Ti 16GB",
+      "RX 9060 XT 16GB",
+      "RX 7900 XT",
+      "RX 7800 XT",
+      "RX 7600 graphics card",
+      "RX 7600 XT",
+      "RX 6600 graphics card"
     ]
   },
   "B0F4RVCY79": {
@@ -1109,10 +1136,12 @@
       "Dual BIOS switch lets you toggle between Quiet and Performance BIOS profiles Protective Backplate is reinforced by a metal backplate for rigidity and protection",
       "Auto-Extreme manufacturing process for precision and reliability GPU Tweak III software provides intuitive performance tweaking, advanced thermal control, and system monitoring"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5060 Ti 16GB graphics card",
-      "RTX 4070 Ti Super graphics card"
+      "RTX 4070 Ti Super graphics card",
+      "RTX 4060 Ti 16GB",
+      "RTX 5060 Ti 16GB"
     ]
   },
   "B0FC2XXSG5": {
@@ -1127,12 +1156,13 @@
       "XFX SWFT Dual Fan Cooling Solution",
       "Boost Clock Up to 3320 MHz"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5060 Ti 16GB graphics card",
       "Radeon RX 9060 XT 16GB",
       "Radeon RX 9060 XT 8GB",
-      "Radeon RX 7600 XT 16GB graphics card"
+      "Radeon RX 7600 XT 16GB graphics card",
+      "RX 9060 XT 16GB"
     ]
   },
   "B0G1FVLWSG": {
@@ -1150,16 +1180,18 @@
       "Dual BIOS lets you toggle between Quiet and Performance BIOS profiles",
       "Dual ball fan bearings last up to twice as long as sleeve bearing designs"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "RTX 5060 Ti 16GB graphics card"
+      "RTX 5060 Ti 16GB graphics card",
+      "RTX 4060 Ti 16GB",
+      "RTX 5060 Ti 16GB"
     ]
   },
   "B0FKSMSGMD": {
     "asin": "B0FKSMSGMD",
     "title": "ZOTAC Gaming GeForce RTX 5060 Ti 16GB Twin Edge OC White Edition DLSS 4 16GB GDDR7 128-bit 28 Gbps PCIE 5.0 Gaming Graphics Card, IceStorm 2.0 Cooling, SFF-Ready, ZT-B50620Q-10M",
     "brand": "ZOTAC",
-    "price": "$959.99",
+    "price": "$979.99",
     "img": "https://m.media-amazon.com/images/I/41CgvRW37kL._SL500_.jpg",
     "features": [
       "Powered by the NVIDIA Blackwell architecture and DLSS 4",
@@ -1168,10 +1200,11 @@
       "Metal Backplate, 8-pin PCIe power connector",
       "3 x DisplayPort 2.1b, 1 x HDMI 2.1b, 8K Ready, 4 Display Ready, HDCP 2.3, VR Ready"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5060 Ti 16GB graphics card",
-      "ZOTAC Gaming GeForce RTX graphics card"
+      "ZOTAC Gaming GeForce RTX graphics card",
+      "RTX 5060 Ti 16GB"
     ]
   },
   "B0F4RRQ2WY": {
@@ -1191,12 +1224,13 @@
       "Auto-Extreme precision automated manufacturing helps ensure higher reliability",
       "GPU Tweak III software provides intuitive performance tweaking, advanced thermal controls, and system monitoring"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5060 Ti 16GB graphics card",
       "RTX 5060 graphics card",
       "low profile graphics card RTX 5060",
-      "RTX 5060 Ti low profile"
+      "RTX 5060 Ti low profile",
+      "RTX 5060 Ti 16GB"
     ]
   },
   "B0F77H7NBK": {
@@ -1217,7 +1251,7 @@
       "Auto-Extreme manufacturing process for precision and reliability",
       "GPU Tweak III software provides intuitive performance tweaking, advanced thermal control, and system monitoring"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5060 graphics card",
       "RTX 5050 graphics card",
@@ -1242,7 +1276,7 @@
       "Dual BIOS lets you toggle between Quiet and Performance BIOS profiles",
       "Dual ball fan bearings last up to twice as long as sleeve bearing designs"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5060 graphics card",
       "low profile graphics card RTX 5060"
@@ -1261,7 +1295,7 @@
       "SFF-Ready Enthusiast GeForce Card",
       "Axial-tech fan design features a smaller fan hub that facilitates longer blades and a barrier ring that increases downward air pressure"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5060 graphics card",
       "RTX 5050 graphics card",
@@ -1327,7 +1361,7 @@
       "Dual BIOS switch lets you toggle between Quiet and Performance BIOS profiles",
       "Auto-Extreme manufacturing process for precision and reliability GPU Tweak III software provides intuitive performance tweaking, advanced thermal control, and system monitoring"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5060 graphics card",
       "small form factor graphics card SFF ready"
@@ -1350,7 +1384,7 @@
       "Auto-Extreme precision automated manufacturing helps ensure higher reliability",
       "GPU Tweak III software provides intuitive performance tweaking, advanced thermal controls, and system monitoring"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5060 graphics card"
     ]
@@ -1359,7 +1393,7 @@
     "asin": "B0DRRMZDH6",
     "title": "ASUS Prime Radeon RX 9070 XT 16GB GDDR6 OC Edition Gaming Graphics Card",
     "brand": "ASUS",
-    "price": "$829.99",
+    "price": "$829.00",
     "img": "https://m.media-amazon.com/images/I/41abetu8n-L._SL500_.jpg",
     "features": [
       "Axial-tech fans now feature a smaller fan hub that facilitates longer blades and a barrier ring that increases downward air pressure",
@@ -1372,14 +1406,19 @@
       "GPU Tweak III software provides intuitive performance tweaking, advanced thermal control, and system monitoring",
       "OC mode(GPU Tweak III): up to 3030 MHz (Boost Clock)/up to 2480 MHz (Game Clock) Default mode: up to 3010 MHz (Boost Clock)/up to 2460 MHz (Game Clock)"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Radeon RX 9070 XT",
       "Radeon RX 9070",
       "Sapphire Pulse Radeon RX 9070 XT",
       "Radeon RX 7900 XTX graphics card",
       "Radeon RX 7700 XT graphics card",
-      "Radeon RX 7600 XT graphics card"
+      "Radeon RX 7600 XT graphics card",
+      "RX 9070 XT graphics card",
+      "RX 9070 graphics card",
+      "RX 7900 XTX",
+      "RX 7900 XT",
+      "RX 7600 graphics card"
     ]
   },
   "B0DTTKCTRD": {
@@ -1405,7 +1444,7 @@
     "asin": "B0DW4FRCQR",
     "title": "XFX Swift AMD Radeon RX 9070XT Triple Fan Gaming Edition with 16GB GDDR6 HDMI 3xDP, AMD RDNA 4 RX-97TSWF3BA",
     "brand": "XFX",
-    "price": "$790.00",
+    "price": "$790.22",
     "img": "https://m.media-amazon.com/images/I/31inRLYnMSL._SL500_.jpg",
     "features": [
       "Chipset: AMD RX 9070 XT",
@@ -1413,19 +1452,23 @@
       "XFX SWFT Triple Fan Cooling Solution",
       "Boost Clock Up to 2970 MHz"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Radeon RX 9070 XT",
       "Radeon RX 9070",
       "Sapphire Pulse Radeon RX 9070 XT",
-      "Radeon RX 7900 XTX graphics card"
+      "Radeon RX 7900 XTX graphics card",
+      "RX 9070 XT graphics card",
+      "RX 9070 graphics card",
+      "RX 7900 XTX",
+      "RX 7900 XT"
     ]
   },
   "B0FSSYTD49": {
     "asin": "B0FSSYTD49",
     "title": "ASRock Radeon RX 9070 XT Challenger 16GB OC Graphics Card - AMD RDNA 4 Architecture, 2970 MHz Boost Clock, GDDR6, PCIe 5.0, DisplayPort 2.1a, HDMI 2.1b, Triple Fan Cooling 800W",
     "brand": "ASRock",
-    "price": "$799.99",
+    "price": "$879.99",
     "img": "https://m.media-amazon.com/images/I/411h61PttLL._SL500_.jpg",
     "features": [
       "Next-Gen RDNA 4 Architecture: Features AMD's latest RDNA 4 architecture with 64 compute units, 3rd Gen Ray Tracing and 2nd Gen AI accelerators for exceptional gaming performance and realism",
@@ -1434,11 +1477,13 @@
       "PCIe 5.0 Ready: Supports the latest PCI Express 5.0 standard for maximum bandwidth with next-generation motherboards",
       "Modern Display Connectivity: Three DisplayPort 2.1a and one HDMI 2.1b outputs support high-refresh-rate 4K displays and beyond"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Radeon RX 9070 XT",
       "Radeon RX 9070",
-      "Sapphire Pulse Radeon RX 9070 XT"
+      "Sapphire Pulse Radeon RX 9070 XT",
+      "RX 9070 XT graphics card",
+      "RX 9070 graphics card"
     ]
   },
   "B0G2GLV534": {
@@ -1462,7 +1507,7 @@
     "asin": "B0DTT7CPWV",
     "title": "ASRock Radeon RX 9070 XT Steel Legend 16GB Graphics Card, AMD RDNA 4 Architecture, 2970 MHz, GDDR6, PCIe 5.0, Triple Fans, Polychrome SYNC, Reinforced Metal Frame, DisplayPort 2.1a, HDMI 2.1b",
     "brand": "ASRock",
-    "price": "$819.99",
+    "price": "$899.99",
     "img": "https://m.media-amazon.com/images/I/419CC+U9x2L._SL500_.jpg",
     "features": [
       "System Compatibility Note: 2.9-slot design with dimensions 298 x 131 x 58 mm; requires two 8-pin PCIe power connectors and a recommended 800W power supply. Please verify available space and PSU compatibility before purchase.",
@@ -1471,17 +1516,18 @@
       "Generous 16GB GDDR6 VRAM: 16GB of high-speed GDDR6 memory on a 256-bit memory bus running at 20 Gbps, providing exceptional bandwidth for 4K textures, ray tracing, and professional content creation.",
       "Factory Overclocked: Boost clock up to 2970 MHz and Game Clock at 2400 MHz, delivering peak performance out of the box for the most demanding games and applications."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Radeon RX 9070 XT",
-      "Sapphire Pulse Radeon RX 9070 XT"
+      "Sapphire Pulse Radeon RX 9070 XT",
+      "RX 9070 XT graphics card"
     ]
   },
   "B0DW4FGLCC": {
     "asin": "B0DW4FGLCC",
     "title": "XFX Mercury AMD Radeon RX 9070XT OC Magnetic Air Edition with RGB 16GB GDDR6 HDMI 3xDP, RDNA 4 RX-97TMARGBA, Graphics Card, Desktop PC",
     "brand": "XFX",
-    "price": "$890.70",
+    "price": "$999.99",
     "img": "https://m.media-amazon.com/images/I/41VCzSlFdCL._SL500_.jpg",
     "features": [
       "Chipset: AMD RX 9070 XT",
@@ -1489,9 +1535,10 @@
       "Memory: 16 GB GDDR6",
       "Boost Clock Up to 3100 MHz"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Radeon RX 9070 XT"
+      "Radeon RX 9070 XT",
+      "RX 9070 XT graphics card"
     ]
   },
   "B0GZPV8T9Q": {
@@ -1511,9 +1558,10 @@
       "Auto-Extreme manufacturing process for precision and reliability",
       "GPU Tweak III software provides intuitive performance tweaking, advanced thermal control and system monitoring"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Radeon RX 9070"
+      "Radeon RX 9070",
+      "RX 9070 graphics card"
     ]
   },
   "B0DXLBTL4B": {
@@ -1546,9 +1594,10 @@
       "Phase-change GPU thermal pad helps ensure optimal heat transfer, lowering GPU temperatures for enhanced performance and reliability",
       "2.5-slot design allows for greater build compatibility while maintaining cooling performance"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Radeon RX 9070"
+      "Radeon RX 9070",
+      "RX 9070 graphics card"
     ]
   },
   "B0DS2QZC9P": {
@@ -1573,7 +1622,7 @@
     "asin": "B0FLHBFFX4",
     "title": "ASUS Dual Radeon RX 9060 XT 16GB GDDR6 Gaming Graphics Card",
     "brand": "ASUS",
-    "price": "$529.99",
+    "price": "$529.00",
     "img": "https://m.media-amazon.com/images/I/41LR+5kEPoL._SL500_.jpg",
     "features": [
       "Axial-tech fans now feature a smaller fan hub that facilitates longer blades and a barrier ring that increases downward air pressure",
@@ -1583,7 +1632,7 @@
       "Dual ball fan bearings last up to twice as long as sleeve bearing designs",
       "OC mode (GPU Tweak III): up to 3250 MHz (Boost Clock)/up to 2640 MHz (Game Clock)/ Default mode: up to 3230 MHz (Boost Clock)/up to 2620 MHz (Game Clock)"
     ],
-    "fetchedAt": "2026-09-28",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Radeon RX 9070",
       "Radeon RX 9060 XT 16GB",
@@ -1591,7 +1640,13 @@
       "Radeon RX 7600",
       "Radeon RX 7600 XT graphics card",
       "Radeon RX 7600 XT 16GB graphics card",
-      "Intel Arc B580 graphics card"
+      "Intel Arc B580 graphics card",
+      "RTX 4060 Ti 16GB",
+      "RTX 5060 Ti 16GB",
+      "RX 9060 XT 16GB",
+      "RX 7800 XT",
+      "RX 7600 graphics card",
+      "RX 7600 XT"
     ]
   },
   "B0F91KM1CK": {
@@ -1626,10 +1681,11 @@
       "Dual BIOS switch lets you toggle between Quiet and Performance BIOS profiles",
       "Dual ball fan bearings last up to twice as long as sleeve bearing designs"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Radeon RX 9060 XT 16GB",
-      "Radeon RX 7600 XT 16GB graphics card"
+      "Radeon RX 7600 XT 16GB graphics card",
+      "RX 9060 XT 16GB"
     ]
   },
   "B0F9LN5VZ6": {
@@ -1652,7 +1708,7 @@
     "asin": "B0FC5ZQKJ8",
     "title": "XFX Swift AMD Radeon RX 9060 XT OC Triple Fan Gaming Edition with 16GB GDDR6 HDMI 2xDP, RDNA 4 RX-96TS316B7, Graphics Card, Compatible with Desktop PCs",
     "brand": "XFX",
-    "price": "$569.99",
+    "price": "$619.99",
     "img": "https://m.media-amazon.com/images/I/31s8HFBBAfL._SL500_.jpg",
     "features": [
       "Chipset: AMD RX 9060 XT",
@@ -1660,9 +1716,11 @@
       "XFX SWFT Triple Fan Cooling Solution",
       "Boost Clock Up to 3320 MHz"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Radeon RX 9060 XT 16GB"
+      "Radeon RX 9060 XT 16GB",
+      "RX 9060 XT 16GB",
+      "RX 7900 XT"
     ]
   },
   "B0F8PBS1BX": {
@@ -1697,16 +1755,17 @@
       "Auto-Extreme precision automated manufacturing helps ensure higher reliability",
       "GPU Tweak III software provides intuitive performance tweaking, advanced thermal controls, and system monitoring"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Radeon RX 9060 XT 16GB"
+      "Radeon RX 9060 XT 16GB",
+      "RX 9060 XT 16GB"
     ]
   },
   "B0F8128Y33": {
     "asin": "B0F8128Y33",
     "title": "XFX Swift AMD Radeon RX 9060 XT OC Triple Fan Gaming Edition with 16GB GDDR6 HDMI 2xDP, RDNA 4 RX-96TS316BA, Graphics Card, Compatible with Desktop PCs",
     "brand": "XFX",
-    "price": "$569.99",
+    "price": "$659.99",
     "img": "https://m.media-amazon.com/images/I/41EW2i9BrFL._SL500_.jpg",
     "features": [
       "Chipset: AMD RX 9060 XT",
@@ -1714,9 +1773,10 @@
       "XFX SWFT Triple Fan Cooling Solution",
       "Boost Clock Up to 3320 MHz"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Radeon RX 9060 XT 16GB"
+      "Radeon RX 9060 XT 16GB",
+      "RX 9060 XT 16GB"
     ]
   },
   "B0F91K2KBX": {
@@ -1732,11 +1792,12 @@
       "Server-grade Thermal Conductive Gel",
       "RGB Lighting"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Radeon RX 9060 XT 8GB",
       "Radeon RX 7600",
-      "Radeon RX 7600 XT graphics card"
+      "Radeon RX 7600 XT graphics card",
+      "RX 7600 XT"
     ]
   },
   "B0FBX7FB1T": {
@@ -1883,12 +1944,13 @@
       "Blue Breathing Light",
       "Graphic card sag bracket"
     ],
-    "fetchedAt": "2026-09-28",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Arc B580",
       "Intel Arc B580 graphics card",
       "Sparkle Intel Arc B580",
-      "ASRock Intel Arc B580"
+      "ASRock Intel Arc B580",
+      "Arc B580 graphics card"
     ]
   },
   "B0DQYM2MHX": {
@@ -1909,12 +1971,13 @@
       "Future-Ready Features: DirectX 12 Ultimate support and advanced media engine with AV1 encoding capabilities",
       "Dedicated Support: Contact us directly through Amazon for any product questions or assistance"
     ],
-    "fetchedAt": "2026-09-28",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Arc B580",
       "Intel Arc B580 graphics card",
       "Sparkle Intel Arc B580",
-      "ASRock Intel Arc B580"
+      "ASRock Intel Arc B580",
+      "Arc B580 graphics card"
     ]
   },
   "B0CJGSP9R7": {
@@ -1979,13 +2042,14 @@
       "AV1 Hardware Encode & XeSS Support: Industry‑first AV1 encode accelerates creation workflows. Intel XeSS upscaling boosts gaming performance.",
       "Multi‑Display Connectivity: 3x DisplayPort 2.0 with DSC and 1x HDMI 2.0b, supporting up to 4 displays with resolutions up to 8K."
     ],
-    "fetchedAt": "2026-09-28",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Arc B580",
       "low profile graphics card",
       "Intel Arc B580 graphics card",
       "Sparkle Intel Arc B580",
-      "ASRock Intel Arc B580"
+      "ASRock Intel Arc B580",
+      "Arc B580 graphics card"
     ]
   },
   "B0GJ3CFPG1": {
@@ -2024,11 +2088,12 @@
       "4x DisplayPort 2.1 Outputs: Connect up to four high-resolution 8K displays simultaneously for expansive multi-monitor workflows.",
       "Scalable Multi-GPU Support: Optimized for Linux multi-GPU LLM deployments, allowing you to scale AI performance across multiple cards."
     ],
-    "fetchedAt": "2026-09-28",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Arc B580",
       "Intel Arc B580 graphics card",
-      "ASRock Intel Arc B580"
+      "ASRock Intel Arc B580",
+      "Arc B580 graphics card"
     ]
   },
   "B0GKHW41PB": {
@@ -2044,10 +2109,11 @@
       "Efficient Gold-Rated Power: The PRO-650G PSU is 80 PLUS Gold certified and ATX3.1 ready, delivering stable, clean, and highly efficient power to maximize system performance.",
       "Effective & Quiet Cooling: The GPU's dual Striped Axial Fan design and 0dB Silent Cooling ensure effective heat dissipation and total silence during light usage or idle states."
     ],
-    "fetchedAt": "2026-09-28",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Arc B580",
-      "ASRock Intel Arc B580"
+      "ASRock Intel Arc B580",
+      "Arc B580 graphics card"
     ]
   },
   "B0HJBFMK27": {
@@ -2086,7 +2152,7 @@
       "Auto-Extreme manufacturing process for precision and reliability",
       "GPU Tweak III software provides intuitive performance tweaking, advanced thermal control, and system monitoring"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5050 graphics card",
       "RTX 4060 graphics card"
@@ -2096,7 +2162,7 @@
     "asin": "B0FG97XMNG",
     "title": "ZOTAC Gaming GeForce RTX 5050 Twin Edge OC DLSS 4 8GB GDDR6 128-bit 20 Gbps PCIE 5.0 Gaming Graphics Card, SFF-Ready Compact Card, ZT-B50500H-10M",
     "brand": "ZOTAC",
-    "price": "$329.00",
+    "price": "$404.99",
     "img": "https://m.media-amazon.com/images/I/41t1oY-vjGL._SL500_.jpg",
     "features": [
       "Powered by the NVIDIA Blackwell architecture and DLSS 4",
@@ -2105,7 +2171,7 @@
       "Metal Backplate, 8-pin PCIe power connector",
       "3 x DisplayPort 2.1b, 1 x HDMI 2.1b, 8K Ready, 4 Display Ready, HDCP 2.3, VR Ready"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5050 graphics card"
     ]
@@ -2144,19 +2210,22 @@
       "A stainless steel bracket is harder and more resistant to corrosion.",
       "IP5X Dust Resistance offers protection from the particle ingress for better durability."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5050 graphics card",
       "low profile RTX 3050 6GB",
       "RTX 4060 graphics card",
-      "ZOTAC Gaming GeForce RTX graphics card"
+      "ZOTAC Gaming GeForce RTX graphics card",
+      "RX 7600 graphics card",
+      "RTX 3060 graphics card",
+      "GTX 1650 graphics card"
     ]
   },
   "B0DQK4XSC7": {
     "asin": "B0DQK4XSC7",
     "title": "GIGABYTE GeForce RTX 3050 WINDFORCE OC V2 6G Graphics Card, 2X WINDFORCE Fans, 6GB GDDR6 96-bit GDDR6, GV-N3050WF2OCV2-6GD Graphics Card",
     "brand": "GIGABYTE",
-    "price": "$244.99",
+    "price": "$249.99",
     "img": "https://m.media-amazon.com/images/I/412JYLwx3eL._SL500_.jpg",
     "features": [
       "NVIDIA Ampere Streaming Multiprocessors",
@@ -2165,10 +2234,11 @@
       "Powered by GeForce RTX 3050",
       "Integrated with 6GB GDDR6 96-bit memory interface"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5050 graphics card",
-      "low profile RTX 3050 6GB"
+      "low profile RTX 3050 6GB",
+      "RTX 3060 graphics card"
     ]
   },
   "B0F9P1BBLD": {
@@ -2184,7 +2254,7 @@
       "PCI-E X8 4.0 with HDMI 2.1, DP1.4a,full digital I/O interfaces, support 8K resolution output, multi monitors to enjoy wider audio and video entertainment.",
       "Slim Low profile desgin (6.65*2.71inch/16.9*6.9cm) perfect in Mini Small Form Factor SFF computer pc cases & easy to build a powerful small ITX AI PC"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5050 graphics card",
       "low profile graphics card RTX 5060",
@@ -2197,7 +2267,7 @@
     "asin": "B0H4X2M3NY",
     "title": "msi Gaming GeForce RTX 3060 Ventus 2X 12G OC V1 Graphics Card - 15 Gbps GDRR6 Boost Clock: 1807 MHz 192-Bit HDMI/DP PCIe 4 Torx Twin Fan Ampere",
     "brand": "msi",
-    "price": "$455.54",
+    "price": "$453.90",
     "img": "https://m.media-amazon.com/images/I/41NpYSo+VAL._SL500_.jpg",
     "features": [
       "Chipset: NVIDIA GeForce RTX 3060",
@@ -2206,11 +2276,12 @@
       "Output: DisplayPort x 3 (v1.4a) / HDMI 2.1 x 1.Avoid using unofficial software",
       "Digital maximum resolution: 7680 x 4320"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5050 graphics card",
       "RTX 4060 graphics card",
-      "ZOTAC Gaming GeForce RTX graphics card"
+      "ZOTAC Gaming GeForce RTX graphics card",
+      "RTX 3060 graphics card"
     ]
   },
   "B0GK8N1SND": {
@@ -2370,9 +2441,10 @@
       "Memory Interface: 96-bit",
       "Output: DisplayPort x 1 (v1.4a) / HDMI 2.1a x 2"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "low profile RTX 3050 6GB"
+      "low profile RTX 3050 6GB",
+      "RTX 3060 graphics card"
     ]
   },
   "B0FD8LY1G3": {
@@ -2458,18 +2530,22 @@
       "Durable Super Alloy Construction & Metal Backplate: Built with ASRock’s Super Alloy components and a stylish metal backplate for enhanced structural rigidity, improved cooling, and long‑term reliability.",
       "High‑Resolution Multi‑Display Connectivity: Includes three DisplayPort 1.4a with DSC and one HDMI 2.1 port, supporting up to four displays simultaneously with resolutions up to 8K (7680 x 4320)."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Radeon RX 7600",
       "Radeon RX 7600 XT graphics card",
-      "Radeon RX 7600 XT 16GB graphics card"
+      "Radeon RX 7600 XT 16GB graphics card",
+      "RX 7800 XT",
+      "RX 7600 graphics card",
+      "RX 7600 XT",
+      "RX 6600 graphics card"
     ]
   },
   "B0C59RVD98": {
     "asin": "B0C59RVD98",
     "title": "XFX Speedster SWFT210 Radeon RX 7600 Graphics Card with 8GB GDDR6 HDMI 3xDP, AMD RDNA 3 RX-76PSWFTFY",
     "brand": "XFX",
-    "price": "$349.99",
+    "price": "$399.99",
     "img": "https://m.media-amazon.com/images/I/31QgX10c7RL._SL500_.jpg",
     "features": [
       "Chipset: AMD RX 7600",
@@ -2477,18 +2553,21 @@
       "XFX SWFT Dual Fan Cooling Solution",
       "Boost Clock: Up to 2655 MHz"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Radeon RX 7600",
       "Radeon RX 7600 XT graphics card",
-      "Radeon RX 7600 XT 16GB graphics card"
+      "Radeon RX 7600 XT 16GB graphics card",
+      "RX 7600 graphics card",
+      "RX 7600 XT",
+      "RX 6600 graphics card"
     ]
   },
   "B0DR25XD68": {
     "asin": "B0DR25XD68",
     "title": "XFX Speedster SWFT210 Radeon RX 7600 Graphics Card with 8GB GDDR6 HDMI 3xDP, AMD RDNA 3 RX-76PSWFTFA",
     "brand": "XFX",
-    "price": "$349.99",
+    "price": "$350.21",
     "img": "https://m.media-amazon.com/images/I/31OcTBeW76L._SL500_.jpg",
     "features": [
       "Chipset: AMD RX 7600",
@@ -2496,17 +2575,19 @@
       "XFX SWFT Dual Fan Cooling Solution",
       "Boost Clock: Up to 2655 MHz"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Radeon RX 7600",
-      "Radeon RX 7600 XT graphics card"
+      "Radeon RX 7600 XT graphics card",
+      "RX 7600 graphics card",
+      "RX 7600 XT"
     ]
   },
   "B09J8VCFWN": {
     "asin": "B09J8VCFWN",
     "title": "ASRock AMD Radeon RX 6600 Challenger D 8GB GDDR6 DisplayPort 14Gbps HDMI 0dB Silent Cooling 128-bit 7680 x 4320 Dual Fan Graphics Card PCI Express 4.0 x8 8-pin",
     "brand": "ASRock",
-    "price": "$219.99",
+    "price": "$499.99",
     "img": "https://m.media-amazon.com/images/I/41i-3GyW0UL._SL500_.jpg",
     "features": [
       "***Not compatible with all built-in computers or systems",
@@ -2520,9 +2601,10 @@
       "Dimensions: 10.59 x 5.20 x 1.61 inches",
       "If any questions about the product, contact us on amazon."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Radeon RX 7600"
+      "Radeon RX 7600",
+      "RX 6600 graphics card"
     ]
   },
   "B09RHQNT5K": {
@@ -2580,9 +2662,10 @@
       "WINDFORCE cooling system, RGB Fusion, Protection metal backplate",
       "HDMI 2.1 x1, DisplayPort 2.1 x2"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Radeon RX 7600"
+      "Radeon RX 7600",
+      "RX 7600 graphics card"
     ]
   },
   "B0DHJDQPC9": {
@@ -2592,7 +2675,7 @@
     "price": "$499.99",
     "img": "https://m.media-amazon.com/images/I/31fMp1qzOML._SL500_.jpg",
     "features": [],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4060 graphics card"
     ]
@@ -2610,7 +2693,7 @@
       "OC Mode: 2535 MHz (Boost Clock) / Default Mode: 2505 MHz (Boost Clock)",
       "Axial-tech fan design features a smaller fan hub that facilitates longer blades and a barrier ring that increases downward air pressure"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4060 graphics card"
     ]
@@ -2629,7 +2712,7 @@
       "Integrated with 8GB GDDR6 128-bit memory interface",
       "WINDFORCE Cooling System, RGB Fusion, Dual BIOS, Protection metal back plate"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4060 graphics card"
     ]
@@ -2638,7 +2721,7 @@
     "asin": "B0CVPHDLTD",
     "title": "ASUS Dual GeForce RTX 4060 Ti EVO OC Edition 8GB GDDR6 (PCIe 4.0, 8GB GDDR6, DLSS 3, HDMI 2.1a, DisplayPort 1.4a, Axial-tech Fan Design, Auto-Extreme Technology), 3 Year Warranty",
     "brand": "ASUS",
-    "price": "$639.99",
+    "price": "$639.95",
     "img": "https://m.media-amazon.com/images/I/41lu3TtBRaL._SL500_.jpg",
     "features": [
       "Powered by NVIDIA DLSS3, ultra-efficient Ada Lovelace arch, and full ray tracing",
@@ -2647,10 +2730,11 @@
       "OC edition: Boost Clock 2595 MHz (OC Mode)/ 2565 MHz (Default Mode)",
       "Axial-tech fan design features a smaller fan hub that facilitates longer blades and a barrier ring that increases downward air pressure"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4060 graphics card",
-      "RTX 4060 Ti 8GB graphics card"
+      "RTX 4060 Ti 8GB graphics card",
+      "RTX 4060 Ti 16GB"
     ]
   },
   "B0CD14QQXH": {
@@ -2679,7 +2763,7 @@
     "asin": "B0CBL3HQ68",
     "title": "msi Gaming GeForce GT 1030 4GB DDR4 64-bit HDCP Support DirectX 12 DP/HDMI Single Fan OC Graphics Card (GT 1030 4GD4 LP OC)",
     "brand": "msi",
-    "price": "$119.99",
+    "price": "$119.97",
     "img": "https://m.media-amazon.com/images/I/41W8Z7q8AdL._SL500_.jpg",
     "features": [
       "Chipset: NVIDIA GeForce GT 1030",
@@ -2688,9 +2772,10 @@
       "Memory Interface: 64-bit",
       "Output: DisplayPort x 1 (v1.4a) / HDMI 2.0b x 1"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "low profile graphics card"
+      "low profile graphics card",
+      "GTX 1650 graphics card"
     ]
   },
   "B0FCFB6Q6P": {
@@ -2841,11 +2926,12 @@
       "Integrated with 8GB GDDR7 128bit memory interface",
       "PCIe 5.0"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 5060 Ti low profile",
       "RTX 4060 Ti 8GB graphics card"
-    ]
+    ],
+    "price": "$529.99"
   },
   "B0F4RXQS6M": {
     "asin": "B0F4RXQS6M",
@@ -2865,9 +2951,10 @@
       "Dual BIOS switch lets you toggle between Quiet and Performance BIOS profiles",
       "Auto-Extreme manufacturing process for precision and reliability GPU Tweak III software provides intuitive performance tweaking, advanced thermal control, and system monitoring"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "RTX 5060 Ti low profile"
+      "RTX 5060 Ti low profile",
+      "RTX 5060 graphics card"
     ]
   },
   "B0F5B89RF5": {
@@ -2934,9 +3021,10 @@
       "Memory Interface: 192-bit GDDR6",
       "Output: 2 x HDMI, 2 x DisplayPort"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Sapphire Pulse Radeon RX 9070 XT"
+      "Sapphire Pulse Radeon RX 9070 XT",
+      "RX 9070 graphics card"
     ]
   },
   "B08R8NZB3Y": {
@@ -2979,7 +3067,7 @@
     "asin": "B0BJFRT43X",
     "title": "VIPERA NVIDIA GeForce RTX 4090 Founders Edition Graphic Card",
     "brand": "GeForce",
-    "price": "$4,299.95",
+    "price": "$4,495.00",
     "img": "https://m.media-amazon.com/images/I/31h421yMTyL._SL500_.jpg",
     "features": [
       "16.384 NVIDIA CUDA Core",
@@ -2992,7 +3080,7 @@
       "Designed for Livestream: NVIDIA Encoder",
       "8K HDR Gaming"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4090 graphics card"
     ]
@@ -3001,7 +3089,7 @@
     "asin": "B0CPKNYX6G",
     "title": "MSI GeForce RTX 4090 Gaming Slim 24GB GDDR6X Video Card",
     "brand": "msi",
-    "price": "$4,299.00",
+    "price": "$4,399.00",
     "img": "https://m.media-amazon.com/images/I/412AtzpOefL._SL500_.jpg",
     "features": [
       "Graphics processing unit: NVIDIA GeForce RTX 4090",
@@ -3010,7 +3098,7 @@
       "Memory bus: 384 bits",
       "Digital maximum resolution: 7680 x 4320"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4090 graphics card"
     ]
@@ -3037,7 +3125,7 @@
     "asin": "B09YCLG5PB",
     "title": "MSI GeForce RTX 4090 Gaming X Trio 24G Gaming Graphics Card - 24GB GDDR6X, 2595 MHz, PCI Express Gen 4, 384-bit, 3X DP v 1.4a, HDMI 2.1a (Supports 4K & 8K HDR)",
     "brand": "msi",
-    "price": "$4,390.00",
+    "price": "$4,499.00",
     "img": "https://m.media-amazon.com/images/I/51yjKlWiRvL._SL500_.jpg",
     "features": [
       "TRI FROZR 3-Stay cool and quiet. MSI’s TRI FROZR 3 thermal design enhances heat dissipation all around the graphics card.",
@@ -3046,7 +3134,7 @@
       "Core Pipe-Precision-machined heat pipes ensure max contact and spread heat along the full length of the heatsink.",
       "Airflow Control-Sections of different heatsink fins disrupt unwanted airflow harmonics and reduce noise."
     ],
-    "fetchedAt": "2026-09-28",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4090 graphics card",
       "MSI GeForce RTX 5090 Gaming Trio"
@@ -3056,7 +3144,7 @@
     "asin": "B0BGT61797",
     "title": "ASUS ROG Strix GeForce RTX 4090 OC Edition Gaming Graphics Card (PCIe 4.0, 24GB GDDR6X, HDMI 2.1a, DisplayPort 1.4a), 3 Year Warranty",
     "brand": "ASUS",
-    "price": "$4,449.99",
+    "price": "$4,499.99",
     "img": "https://m.media-amazon.com/images/I/51Biv-FVi0L._SL500_.jpg",
     "features": [
       "NVIDIA Ada Lovelace Streaming Multiprocessors: Up to 2x performance and power efficiency",
@@ -3065,7 +3153,7 @@
       "Axial-tech fans scaled up for 23% more airflow",
       "New patented vapor chamber with milled heatspreader for lower GPU temps"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4090 graphics card"
     ]
@@ -3086,10 +3174,10 @@
     "asin": "B0916ZWZ9S",
     "title": "EVGA GeForce RTX 3090 FTW3 Ultra Gaming, 24GB GDDR6X, 10496 CUDA Cores, 1800MHz Boost Clock, 3x Fans, ARGB LED, Metal Backplate, PCIe 4, HDMI, DisplayPort, Desktop Compatible",
     "brand": "EVGA",
-    "price": "$1,899.99",
+    "price": "$1,849.99",
     "img": "https://m.media-amazon.com/images/I/51ETQBf8OgL._SL500_.jpg",
     "features": [],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4090 graphics card"
     ]
@@ -3117,7 +3205,7 @@
     "asin": "B0CQPZTRL3",
     "title": "ASUS TUF Gaming NVIDIA GeForce RTX 4080 Super OC Edition Gaming Graphics Card (PCIe 4.0, 16GB GDDR6X, HDMI 2.1a, DisplayPort 1.4a), 3 Year Warranty",
     "brand": "ASUS",
-    "price": "$1,799.95",
+    "price": "$1,899.99",
     "img": "https://m.media-amazon.com/images/I/51+MS22VVZL._SL500_.jpg",
     "features": [
       "Powered by NVIDIA DLSS3, ultra-efficient Ada Lovelace arch, and full ray tracing",
@@ -3126,7 +3214,7 @@
       "OC mode: 2640 MHz (OC mode)/ 2610 MHz (Default mode)",
       "Axial-tech fans scaled up for 23% more airflow"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4080 Super graphics card",
       "RTX 4080 graphics card 16GB"
@@ -3136,7 +3224,7 @@
     "asin": "B0CS6Y6Y7M",
     "title": "PNY GeForce RTX™ 4080 Super 16GB XLR8 Gaming Verto™ Epic-X RGB™ OC Triple Fan Graphics Card DLSS 3 (ARGB, 256-bit,PCIe 4.0, GDDR6X, HDMI/DisplayPort, incl. Adapter & Support Bracket, 3.5 Slot)",
     "brand": "PNY",
-    "price": "$1,499.22",
+    "price": "$1,885.00",
     "img": "https://m.media-amazon.com/images/I/41j0N0qGMXL._SL500_.jpg",
     "features": [
       "Powered by NVIDIA DLSS 3, ultra-efficient Ada Lovelace arch, and full ray tracing.",
@@ -3145,7 +3233,7 @@
       "PCI Express 4.0 interface - Offers compatibility with a range of systems. Also includes DisplayPort and HDMI outputs for expanded connectivity.",
       "NVIDIA GeForce Experience - Capture and share videos, screenshots, and livestreams with friends. Keep your drivers up to date and optimize your game settings. It's the essential companion to your GeForce graphics card."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4080 Super graphics card"
     ]
@@ -3176,7 +3264,7 @@
       "WINDFORCE Cooling system",
       "Metal backplate"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4080 Super graphics card"
     ]
@@ -3190,7 +3278,7 @@
     "features": [
       "* Graphics Processing Unit (GPU)/Clock Speed Powered by the NVIDIA GeForce RTX 4080 SUPER graphics processing unit (GPU) with a 2.55 GHz boost clock speed.  * On-board Memory 16GB GDDR6X  * Interface Compatibility PCI Express 4.0 and earlier PCI Express 3.0. Offers compatibility with a range of systems.  * Technologies 10,240 NVIDIA CUDA Cores, 2.55 GHz Boost Clock, 3rd Gen Ray Tracing Cores, 4th Gen Tensor Cores, NVIDIA DLSS, GameReady and NVIDIA Studio Drivers, NVIDIA GeForce Experience, NVIDIA G-SYNC, NVIDIA GPU Boost, GDDR6X Graphics MemoryPCI Express Gen 4  * Microsoft Direct 12 Ultimate, Vulkan RT APIs"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4080 Super graphics card",
       "RTX 4080 graphics card 16GB"
@@ -3218,7 +3306,7 @@
     "asin": "B0BMZ9TGH1",
     "title": "NVIDIA - GeForce RTX 4080 16GB GDDR6X Graphics Card",
     "brand": "NVIDIA",
-    "price": "$1,699.95",
+    "price": "$1,979.99",
     "img": "https://m.media-amazon.com/images/I/41e1zP76o7L._SL500_.jpg",
     "features": [
       "Powered by the NVIDIA GeForce RTX 4080 (16GB) graphics processing unit (GPU) with a 2.51 GHz boost clock speed",
@@ -3226,7 +3314,7 @@
       "9,728 NVIDIA CUDA Cores, 2.51 GHz Boost Clock, Dedicated Ray Tracing Cores",
       "Microsoft DirectX 12 Ultimate, Vulkan RT APIs"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4080 Super graphics card",
       "RTX 4080 graphics card 16GB"
@@ -3400,9 +3488,10 @@
       "WINDFORCE Cooling system",
       "Metal backplate"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "RTX 4070 Ti Super graphics card"
+      "RTX 4070 Ti Super graphics card",
+      "RTX 4070 Super Gigabyte"
     ]
   },
   "B0CRW19Z5D": {
@@ -3541,7 +3630,7 @@
     "asin": "B0BZHCQ6PF",
     "title": "GIGABYTE GeForce RTX 4070 WINDFORCE OC 12G Graphics Card, 3X WINDFORCE Fans, 12GB 192-bit GDDR6X, GV-N4070WF3OC-12GD Video Card",
     "brand": "GIGABYTE",
-    "price": "$659.22",
+    "price": "$839.00",
     "img": "https://m.media-amazon.com/images/I/41sF-bpPBTL._SL500_.jpg",
     "features": [
       "Powered by NVIDIA DLSS 3, ultra-efficient Ada Lovelace architechture, and full ray tracing",
@@ -3551,11 +3640,13 @@
       "Integrated with 12GB GDDR6X 192-bit memory interface",
       "WINDFORCE Cooling System, RGB Fusion, Dual BIOS, Protection metal back plate, Anti-Sag Bracket"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4070 Ti graphics card 12GB",
       "RTX 4070 Super graphics card",
-      "RTX 4070 graphics card 12GB"
+      "RTX 4070 graphics card 12GB",
+      "RTX 4070 Super Gigabyte",
+      "RTX 4070 graphics card"
     ]
   },
   "B0BRR1MPTX": {
@@ -3619,10 +3710,14 @@
       "Graphene nano lubricant​",
       "Protection metal back plate​"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4070 Super graphics card",
-      "RTX 4070 graphics card 12GB"
+      "RTX 4070 graphics card 12GB",
+      "RTX 4070 Super Gigabyte",
+      "RTX 4070 Super MSI",
+      "RTX 4070 Super ASUS",
+      "RTX 4070 graphics card"
     ]
   },
   "B0CVCKX2GD": {
@@ -3651,7 +3746,7 @@
     "price": "$1,198.96",
     "img": "https://m.media-amazon.com/images/I/31CPsjiQYAL._SL500_.jpg",
     "features": [],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4070 Super graphics card",
       "RTX 4070 graphics card 12GB"
@@ -3670,7 +3765,7 @@
       "8K Ready, 4 Display Ready, HDCP 2.3, VR Ready",
       "3 x DisplayPort 1.4a, 1 x HDMI 2.1a, DirectX 12 Ultimate, Vulkan RT API, Vulkan 1.3, OpenGL 4.6"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4070 Super graphics card"
     ]
@@ -3707,16 +3802,17 @@
       "I/O and Connectivity: PCIE 4.0, 3 x DisplayPort 1.4a, 1 x HDMI 2.1a, DirectX 12 Ultimate",
       "Recommended power supply: 650W"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "RTX 4070 graphics card 12GB"
+      "RTX 4070 graphics card 12GB",
+      "RTX 4070 graphics card"
     ]
   },
   "B0CS3YQZQH": {
     "asin": "B0CS3YQZQH",
     "title": "MSI GeForce RTX 4070 Super 12G Ventus 2X OC Gaming Graphics Card - 12 GB GDDR6X (21Gbps / 192 Bits), PCIe 4.0-2 x TORX 4.0 Fans - HDMI 2.1a, DisplayPort 1.4a",
     "brand": "msi",
-    "price": "$1,099.63",
+    "price": "$1,225.00",
     "img": "https://m.media-amazon.com/images/I/41D7xwJyxJL._SL500_.jpg",
     "features": [
       "NVIDIA GEFORCE RTX 4070 SUPER GPU - State-of-the-art Ada Lovelace architecture for incredible 3rd generation RTX ray tracing capabilities (QHD/1440p) & 12GB (21 Gb/s) GDDR6X memory); Supports DLSS 3.0 enhanced frame rate performance",
@@ -3725,16 +3821,18 @@
       "SPARTIATE DESIGN - A robust backplate with an openwork design reinforces the chassis, while on the inside, an improved PCB includes premium electrical protectors.",
       "SFF-Ready - The 2.1-slot card (PCIe 4.0 x16) measures 242mm long and weighs 680g; Recommended PSU power of 650W or higher (16-pin, 220W power consumption); Rear ports with 3 x DisplayPort 1.4a and 1 x HDMI 2.1 (4K/4K/) 120Hz)"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "RTX 4070 graphics card 12GB"
+      "RTX 4070 graphics card 12GB",
+      "RTX 4070 Super graphics card",
+      "RTX 4070 Super MSI"
     ]
   },
   "B0BZB7DS7Q": {
     "asin": "B0BZB7DS7Q",
     "title": "MSI Gaming GeForce RTX 4070 12GB GDRR6X Extreme Clock: 2520 MHz 192-Bit HDMI/DP Nvlink TORX Fan 4.0 Ada Lovelace Architecture Graphics Card (RTX 4070 Ventus 2X 12G OC)",
     "brand": "msi",
-    "price": "$799.00",
+    "price": "$1,145.00",
     "img": "https://m.media-amazon.com/images/I/41bgv4f8VNL._SL500_.jpg",
     "features": [
       "Chipset: GeForce RTX 4070",
@@ -3743,9 +3841,10 @@
       "Output: DisplayPort x 3 (v1.4a) / HDMI 2.1 x 1",
       "Digital maximum resolution: 7680 x 4320"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "RTX 4070 graphics card 12GB"
+      "RTX 4070 graphics card 12GB",
+      "RTX 4070 graphics card"
     ]
   },
   "B0CBW16TL3": {
@@ -3762,7 +3861,7 @@
       "Integrated with 8GB GDDR6 128-bit memory interface",
       "WINDFORCE Cooling System, Protection metal back plate"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4060 Ti 8GB graphics card"
     ]
@@ -3780,7 +3879,7 @@
       "OC Edition: Boost clock 2595 MHz (OC mode)/2565 MHz (default mode)",
       "Axial Tech fan design has a smaller hub that allows longer blades and a locking ring that increases air pressure downwards"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4060 Ti 8GB graphics card"
     ]
@@ -3789,7 +3888,7 @@
     "asin": "B0DPH9V2P8",
     "title": "ASUS Dual GeForce RTX 4060 Ti V2 OC Edition 8GB GDDR6 SFF Compatible with Axial-tech Fan/DUAL-RTX4060TI-O8G-V2",
     "brand": "ASUS",
-    "price": "$444.99",
+    "price": "$443.22",
     "img": "https://m.media-amazon.com/images/I/413LTV82wuL._SL500_.jpg",
     "features": [
       "Equipped with NVIDIA DLSS3, high efficiency Ada Lovelace arch, full lay-tracing",
@@ -3801,7 +3900,7 @@
       "Dual ball fan bearings last up to 2X longer than sleeve bearing design",
       "0dB technology makes the game relatively quiet"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4060 Ti 8GB graphics card"
     ]
@@ -3813,7 +3912,7 @@
     "price": "$429.99",
     "img": "https://m.media-amazon.com/images/I/41kCrfudU6L._SL500_.jpg",
     "features": [],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4060 Ti 8GB graphics card"
     ]
@@ -3841,7 +3940,7 @@
     "asin": "B0C42GBMNZ",
     "title": "ASUS Dual GeForce RTX 4060 Ti OC Edition 8GB GDDR6 (PCIe 4.0, 8GB GDDR6, DLSS 3, HDMI 2.1, DisplayPort 1.4a, Axial-tech Fan Design, 0dB Technology), 3 Year Warranty",
     "brand": "ASUS",
-    "price": "$649.99",
+    "price": "$699.99",
     "img": "https://m.media-amazon.com/images/I/41FifucOkEL._SL500_.jpg",
     "features": [
       "Powered by NVIDIA DLSS3, ultra-efficient Ada Lovelace arch, and full ray tracing.",
@@ -3853,7 +3952,7 @@
       "Dual ball fan bearings can last up to twice as long as sleeve bearing designs.",
       "OC edition: Boost Clock 2595 MHz (OC Mode)/2565 MHz (Default Mode)"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4060 Ti 8GB graphics card"
     ]
@@ -3888,7 +3987,7 @@
       "The cooling design is equipped with TORX Fan 4.0 fans and ensures optimal cooling thanks to an efficient heatpipe system. Includes ZeroFrozr technology for ultra-quiet operation.",
       "Supports NVIDIA AI acceleration, DLSS3, DLSS2, ray tracing and reflex as well as NVIDIA encoder, broadcast and studio"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "RTX 4060 Ti 8GB graphics card"
     ]
@@ -3910,10 +4009,11 @@
       "Memory Interface: 384-bit",
       "1 x HDMI 2.1 , 3 x DisplayPort 2.1"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Radeon RX 7900 XTX graphics card",
-      "Radeon RX 7900 XT graphics card"
+      "Radeon RX 7900 XT graphics card",
+      "RX 7900 XTX"
     ]
   },
   "B0BTPK5J68": {
@@ -3934,10 +4034,12 @@
       "Compatibility Note, Verify power supply capacity (recommended 800W minimum) and chassis space before purchase",
       "Dedicated Support, Contact us directly through Amazon for any product questions or assistance"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Radeon RX 7900 XTX graphics card",
-      "Radeon RX 7900 XT graphics card"
+      "Radeon RX 7900 XT graphics card",
+      "RX 7900 XTX",
+      "RX 7900 XT"
     ]
   },
   "B0BR6JWP1Q": {
@@ -3972,10 +4074,12 @@
       "Output: 1 x HDMI, 2 x DisplayPort, 1 x USB-C",
       "PCI-Express 4.0"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Radeon RX 7900 XTX graphics card",
-      "Radeon RX 7900 XT graphics card"
+      "Radeon RX 7900 XT graphics card",
+      "RX 7900 XTX",
+      "RX 7900 XT"
     ]
   },
   "B0BNLSDRKB": {
@@ -4018,7 +4122,7 @@
     "asin": "B0BTPJBSBV",
     "title": "ASRock AMD Radeon™ RX 7900 XT Phantom Gaming 20GB OC Graphics Card GDDR6 320 Bit 3 Cooling System 7680 x 4320 0dB Silent Cooling 3 x DisplayPort™ 2.1/1 x HDMI™ 2.1",
     "brand": "ASRock",
-    "price": "$699.99",
+    "price": "$799.99",
     "img": "https://m.media-amazon.com/images/I/41uCGJF9jDL._SL500_.jpg",
     "features": [
       "High-Performance 4K Gaming: AMD Radeon RX 7900 XT GPU with 20GB GDDR6 memory on 320-bit bus delivers exceptional 4K gaming and content creation performance",
@@ -4032,9 +4136,11 @@
       "Future-Ready Technology: PCI Express 4.0 support ensures compatibility with modern systems and next-generation gaming features",
       "Memory Specifications: Features 20GB GDDR6 memory with 320-bit memory interface delivering high bandwidth for demanding gaming and professional applications"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Radeon RX 7900 XT graphics card"
+      "Radeon RX 7900 XT graphics card",
+      "RX 7900 XTX",
+      "RX 7900 XT"
     ]
   },
   "B0CST1D8CD": {
@@ -4099,7 +4205,7 @@
     "asin": "B0CHK3929K",
     "title": "ASRock Radeon RX 7800 XT Challenger 16GB OC Graphics Card, RDNA 3, 2475MHz Boost, 16GB GDDR6 256-bit, PCIe 4.0, Dual Fans, 0dB Silent, LED Indicator",
     "brand": "ASRock",
-    "price": "$519.99",
+    "price": "$539.99",
     "img": "https://m.media-amazon.com/images/I/41laaLpgEKL._SL500_.jpg",
     "features": [
       "System Compatibility Note: 2.5-slot card, 267x130x51mm, two 8-pin power, recommended 750W PSU. Verify chassis clearance before purchase.",
@@ -4113,9 +4219,10 @@
       "Durable Super Alloy & Metal Backplate: ASRock Super Alloy components with stylish metal backplate for rigidity and long-term reliability.",
       "Multi-Display Connectivity: 3x DisplayPort 2.1 with DSC and 1x HDMI 2.1, supporting up to 4 displays with resolutions up to 8K."
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Radeon RX 7800 XT graphics card"
+      "Radeon RX 7800 XT graphics card",
+      "RX 7800 XT"
     ]
   },
   "B0CGHQ32S2": {
@@ -4153,9 +4260,10 @@
       "Compatibility Note: Verify power supply with 700W minimum recommended and chassis space before purchase",
       "Overclocked Performance: Factory overclocked design provides enhanced gaming performance straight out of the box for demanding applications"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Radeon RX 7800 XT graphics card"
+      "Radeon RX 7800 XT graphics card",
+      "RX 7800 XT"
     ]
   },
   "B0DCPBWGPD": {
@@ -4233,7 +4341,7 @@
     "asin": "B0CGRMJF6C",
     "title": "GIGABYTE Radeon RX 7800 XT Gaming OC 16GB Graphics Card - 16GB GDDR6 256-bit, Windforce Cooling System, Metal Back Plate, DP 2.1, HDMI 2.1, AMD RDNA 3 Architecture, GV-R78XTGAMING OC-16GD",
     "brand": "GIGABYTE",
-    "price": "$789.99",
+    "price": "$978.98",
     "img": "https://m.media-amazon.com/images/I/51+0JMsoK4L._SL500_.jpg",
     "features": [
       "Supported Technologies: AMD RDNA 3 architecture, advanced raytracing, AI accelerator, AV1 encoding, AMD Radiance Display Engine",
@@ -4242,9 +4350,10 @@
       "I/O & Connectivity: PCIE 4.0, 2 x DisplayPort 2.1, 2 x HDMI 2.1, DirectX 12 Ultimate",
       "Recommended Power Supply: 700W.3 years Warranty"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Radeon RX 7800 XT graphics card"
+      "Radeon RX 7800 XT graphics card",
+      "RX 7800 XT"
     ]
   },
   "B0CFX69R1R": {
@@ -4380,16 +4489,19 @@
       "Auto-Extreme manufacturing process for precision and reliability",
       "GPU Tweak III software provides intuitive performance tweaking, advanced thermal control, and system monitoring"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "Radeon RX 7700 XT graphics card"
+      "Radeon RX 7700 XT graphics card",
+      "RX 9070 XT graphics card",
+      "RX 9070 graphics card",
+      "RX 7900 XTX"
     ]
   },
   "B0CSVJZNNX": {
     "asin": "B0CSVJZNNX",
     "title": "GIGABYTE Radeon RX 7600 XT Gaming OC 16G Graphics Card, 3X WINDFORCE Fans 16GB 128-bit GDDR6, GV-R76XTGAMING OC-16GD Video Card",
     "brand": "GIGABYTE",
-    "price": "$599.99",
+    "price": "$765.00",
     "img": "https://m.media-amazon.com/images/I/41WFrgs-HNL._SL500_.jpg",
     "features": [
       "Powered by Radeon RX 7600 XT",
@@ -4398,10 +4510,11 @@
       "WINDFORCE cooling system, RGB Fusion, Protection metal backplate",
       "HDMI 2.1a x2, DisplayPort 2.1 x2"
     ],
-    "fetchedAt": "2026-09-26",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Radeon RX 7600 XT graphics card",
-      "Radeon RX 7600 XT 16GB graphics card"
+      "Radeon RX 7600 XT 16GB graphics card",
+      "RX 7600 XT"
     ]
   },
   "B0CRZBXYVQ": {
@@ -4573,7 +4686,7 @@
     "asin": "B0F4ZCN7FV",
     "title": "ASUS ROG Astral GeForce RTX 5090 32GB GDDR7 White OC Edition Gaming Quad Fan Graphics Card (NVIDIA DLSS 4, 3.8 Slot Design, PCIe 5.0, 3X DP 2.1b, 2X HDMI 2.1b, White)",
     "brand": "ASUS",
-    "price": "$7,298.00",
+    "price": "$7,999.00",
     "img": "https://m.media-amazon.com/images/I/414H6MgSUcL._SL500_.jpg",
     "features": [
       "The four-fan design increases airflow and pressure by up to 20%",
@@ -4582,16 +4695,17 @@
       "3.8-Slot Design: Massive heatsink and fin arrangement optimized for the airflow of the four Axial Tech fans",
       "Secure GPU protection with GPU Guard technology, which protects the four corners of the GPU and the GPU bracket ensures stable mounting."
     ],
-    "fetchedAt": "2026-09-28",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "ASUS ROG Astral RTX 5090"
+      "ASUS ROG Astral RTX 5090",
+      "RTX 5090 graphics card"
     ]
   },
   "B0DS2X13PH": {
     "asin": "B0DS2X13PH",
     "title": "ASUS TUF Gaming GeForce RTX 5090 32GB GDDR7 OC Edition Gaming Graphics Card",
     "brand": "ASUS",
-    "price": "$6,995.95",
+    "price": "$7,250.00",
     "img": "https://m.media-amazon.com/images/I/41Nr2F9IC2L._SL500_.jpg",
     "features": [
       "AI Performance: 772 AI TOPS",
@@ -4605,12 +4719,13 @@
       "Dual BIOS switch lets you toggle between Quiet and Performance BIOS profiles",
       "Auto-Extreme manufacturing process for precision and reliability GPU Tweak III software provides intuitive performance tweaking, advanced thermal control, and system monitoring"
     ],
-    "fetchedAt": "2026-09-28",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "ASUS ROG Astral RTX 5090",
       "MSI GeForce RTX 5090 Gaming Trio",
       "Gigabyte GeForce RTX 5090 Gaming OC",
-      "PNY RTX 5090 OC"
+      "PNY RTX 5090 OC",
+      "RTX 5090 graphics card"
     ]
   },
   "B0HHSVJJ3C": {
@@ -4628,9 +4743,10 @@
       "Comprehensive Output Options: Equipped with 2x DisplayPort 2.1b ports and 3x HDMI 2.1b ports to connect up to 4 high-refresh-rate displays simultaneously.",
       "20th Anniversary Collector's Edition Extras: Comes packaged with exclusive anniversary items including an ROG Edition 20 graphics card holder, custom keycap, PCB ruler, collective coin, and velcro straps."
     ],
-    "fetchedAt": "2026-09-28",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "ASUS ROG Astral RTX 5090"
+      "ASUS ROG Astral RTX 5090",
+      "RTX 5090 graphics card"
     ]
   },
   "B0GMFLRTHL": {
@@ -5023,10 +5139,11 @@
       "6GB, 96-bit, GDDR6 memory, 15.5 Gbps graphics memory speed",
       "3x DisplayPort 2.0 ready, up to 8K@60Hz, 1x HDMI 2.0"
     ],
-    "fetchedAt": "2026-09-28",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Arc B580 graphics card",
-      "Sparkle Intel Arc B580"
+      "Sparkle Intel Arc B580",
+      "Arc B580 graphics card"
     ]
   },
   "B0GXHLFV2G": {
@@ -5070,10 +5187,11 @@
       "Broad OS and Application Support & ECC Memory: Supports Windows 10, Windows 11, and various Linux distributions with Intel-certified Arc Pro drivers for both compute and creative applications. It also includes ECC-capable memory to maintain data integrity over long periods of operation.",
       "Single 12V-2x6 Power Connector: It uses a single 12V‑2x6 power connector, simplifying cable management. The included 12V‑2x6 to 2x 8‑pin adapter ensures compatibility with most modern power supplies, making it a flexible choice for system integrations."
     ],
-    "fetchedAt": "2026-09-28",
+    "fetchedAt": "2026-10-03",
     "queries": [
       "Intel Arc B580 graphics card",
-      "ASRock Intel Arc B580"
+      "ASRock Intel Arc B580",
+      "Arc B580 graphics card"
     ]
   },
   "B092JJCHZG": {
@@ -5220,9 +5338,1408 @@
       "Ports: 1 x HDMI 2.1 Supporting HDMI 4K and 3 x DisplayPort 2.1 | Connect Up to 4 Displays: Up to 8K/60 Hz for a single display output - Up to 4K/60 Hz for 4 display output",
       "Technology: Intel Adaptive Sync, DirectX 12 Ultimate, OpenGL 4.6, OpenCL 3.0, Ray Tracing (Units 18), HDR10, HDR10+ Gaming, Dolby Vision and AI-Enhanced Upscaling with XeSS (Xe Super Sampling)"
     ],
-    "fetchedAt": "2026-09-28",
+    "fetchedAt": "2026-10-03",
     "queries": [
-      "ASRock Intel Arc B580"
+      "ASRock Intel Arc B580",
+      "Arc B580 graphics card"
+    ]
+  },
+  "B0D363JYTH": {
+    "asin": "B0D363JYTH",
+    "title": "PNY VCG4070S12DFXPB1-O RTX 4070 Super 12GB GDDR6X Graphics Card",
+    "brand": "PNY",
+    "price": "$699.22",
+    "img": "https://m.media-amazon.com/images/I/31Tnk8yHscL._SL500_.jpg",
+    "features": [
+      "Branded Graphics Card PNY",
+      "Color: Multicolor",
+      "Dimensions: 17.5 x 32.5 x 9 cm",
+      "Reference: S9910403",
+      "If what you want is quality at the best price do not keep looking!"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 Super graphics card"
+    ]
+  },
+  "B0D3JCQSJH": {
+    "asin": "B0D3JCQSJH",
+    "title": "GIGABYTE GeForce RTX 4070 Super WINDFORCE OC 12G Graphics Card, 3X WINDFORCE Fans, 12GB 192-bit GDDR6X, GV-N407SWF3OC-12GD Video Card (Renewed)",
+    "brand": "GIGABYTE",
+    "price": "$899.97",
+    "img": "https://m.media-amazon.com/images/I/41lEjwNYnYL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 Super Gigabyte"
+    ]
+  },
+  "B0CSJWWDS7": {
+    "asin": "B0CSJWWDS7",
+    "title": "GIGABYTE GeForce RTX 4070 Super Gaming OC 12G Graphics Card, 3X WINDFORCE Fans, 12GB 192-bit GDDR6X, GV-N407SGAMING OC-12GD Video Card",
+    "brand": "GIGABYTE",
+    "price": "$999.22",
+    "img": "https://m.media-amazon.com/images/I/41XYY1xuecL._SL500_.jpg",
+    "features": [
+      "Powered by GeForce RTX 4070 SUPER​",
+      "Integrated with 12GB GDDR6X 192-bit memory interface​",
+      "WINDFORCE cooling system​",
+      "Dual BIOS​",
+      "Dual BIOS​aProtection metal back plate​",
+      "4 Years Warranty (Online registration required)"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 Super Gigabyte"
+    ]
+  },
+  "B0CSK87B4R": {
+    "asin": "B0CSK87B4R",
+    "title": "GIGABYTE GeForce RTX 4070 Ti Super Eagle OC 16G Graphics Card, 3X WINDFORCE Fans, 16GB 256-bit GDDR6X, GV-N407TSEAGLE OC-16GD Video Card",
+    "brand": "GIGABYTE",
+    "price": "$1,439.00",
+    "img": "https://m.media-amazon.com/images/I/41ieZo7qvKL._SL500_.jpg",
+    "features": [
+      "Powered by GeForce RTX 4070 Ti SUPER​",
+      "Integrated with 16GB GDDR6X 256bit memory interface​",
+      "WINDFORCE cooling system​",
+      "Dual BIOS​",
+      "Protection metal back plate​",
+      "Anti-sag bracket​",
+      "4 Years Warranty (Online registration required)"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 Super Gigabyte"
+    ]
+  },
+  "B0CSJVCD3Y": {
+    "asin": "B0CSJVCD3Y",
+    "title": "GIGABYTE GeForce RTX 4070 Ti Super Gaming OC 16G Graphics Card, 3X WINDFORCE Fans, 16GB 256-bit GDDR6X, GV-N407TSGAMING OC-16GD Video Card",
+    "brand": "GIGABYTE",
+    "price": "$1,099.99",
+    "img": "https://m.media-amazon.com/images/I/41wpiSD1vEL._SL500_.jpg",
+    "features": [
+      "Powered by GeForce RTX 4070 Ti SUPER​",
+      "Integrated with 16GB GDDR6X 256bit memory interface​",
+      "WINDFORCE cooling system​",
+      "Dual BIOS​",
+      "Protection metal back plate"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 Super Gigabyte"
+    ]
+  },
+  "B0CQTNRTWR": {
+    "asin": "B0CQTNRTWR",
+    "title": "Gigabyte GeForce RTX 4070 Super WINDFORCE OC Graphics Card - 2505MHz Core, 12GB GDDR6X 21000MHz 192-bit Memory, PCI-E 4.0, 3X DP 1.4, 1x HDMI 2.1a, NVIDIA DLSS 3.5, GV-N407SWF3OC-12GD",
+    "brand": "GIGABYTE",
+    "price": "$959.00",
+    "img": "https://m.media-amazon.com/images/I/41OCTsKv8-L._SL500_.jpg",
+    "features": [
+      "Powered by NVIDIA DLSS 3, ultra-efficient Ada Lovelace arch, and full ray tracing",
+      "4th Generation Tensor Cores: Up to 4X performance with DLSS 3 vs. brute-force rendering",
+      "3rd Generation RT Cores: Up to 2X ray tracing performance",
+      "WINDFORCE Cooling system",
+      "Metal backplate"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 Super Gigabyte"
+    ]
+  },
+  "B0DZNJHF83": {
+    "asin": "B0DZNJHF83",
+    "title": "Gigabyte GeForce RTX 4070 Super AERO OC Graphics Card - 2565MHz Core, 12GB GDDR6X 21000MHz 192-bit Memory, PCI-E 4.0, 3X DP 1.4, 1x HDMI 2.1a, NVIDIA DLSS 3.5, GV-N407SAERO OC-12GD (Renewed)",
+    "brand": "GIGABYTE",
+    "price": "$899.97",
+    "img": "https://m.media-amazon.com/images/I/41bdMkklT3L._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 Super Gigabyte"
+    ]
+  },
+  "B0CSHFM3D5": {
+    "asin": "B0CSHFM3D5",
+    "title": "MSI Gaming RTX 4070 Super 12G Ventus 3X OC Graphics Card (NVIDIA RTX 4070 Super, 192-Bit, Extreme Clock: 2520 MHz, 12GB GDRR6X 21 Gbps, HDMI/DP, Ada Lovelace Architecture)",
+    "brand": "msi",
+    "price": "$809.22",
+    "img": "https://m.media-amazon.com/images/I/41t+-vrOQBL._SL500_.jpg",
+    "features": [
+      "Chipset: GeForce RTX 4070 Super",
+      "Boost Clock / Memory: 2520 MHz / 21 Gbps",
+      "Video Memory: 12GB GDDR6X",
+      "Memory Interface: 192-bit",
+      "Output: DisplayPort x 3 (v1.4a) / HDMI 2.1 x 1"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 Super MSI"
+    ]
+  },
+  "B0D3JC8Z2Y": {
+    "asin": "B0D3JC8Z2Y",
+    "title": "MSI Gaming RTX 4070 Super 12G Ventus 3X OC Graphics Card (NVIDIA RTX 4070 Super, 192-Bit, Boost Clock: 2520 MHz, 12GB GDRR6X 21 Gbps, HDMI/DP, Ada Lovelace Architecture) (Renewed), Black",
+    "brand": "msi",
+    "price": "$899.97",
+    "img": "https://m.media-amazon.com/images/I/41t+-vrOQBL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 Super MSI"
+    ]
+  },
+  "B0CS7MBND4": {
+    "asin": "B0CS7MBND4",
+    "title": "MSI Gaming RTX 4070 Super 12G Gaming X Slim Graphics Card (NVIDIA RTX 4070 Super, 192-Bit, Extreme Clock: 2655 MHz, 12GB GDRR6X 21 Gbps, HDMI/DP, Ada Lovelace Architecture)",
+    "brand": "msi",
+    "price": "$1,199.00",
+    "img": "https://m.media-amazon.com/images/I/41I8WEka8cL._SL500_.jpg",
+    "features": [
+      "Chipset: GeForce RTX 4070 Super",
+      "Boost Clock / Memory: 2655 MHz / 21 Gbps",
+      "Video Memory: 12GB GDDR6X",
+      "Memory Interface: 192-bit",
+      "Output: DisplayPort x 3 (v1.4a) / HDMI 2.1 x 1"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 Super MSI"
+    ]
+  },
+  "B0CQRT8VX5": {
+    "asin": "B0CQRT8VX5",
+    "title": "MSI GeForce RTX 4070 Super 12G Gaming X Slim",
+    "brand": "msi",
+    "price": "$1,199.00",
+    "img": "https://m.media-amazon.com/images/I/41X924Y3BxL._SL500_.jpg",
+    "features": [
+      "GeForce RTX 4070 SUPER 12G GAMING X SLIM"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 Super MSI"
+    ]
+  },
+  "B0CQMDD2WJ": {
+    "asin": "B0CQMDD2WJ",
+    "title": "MSI GeForce RTX 4070 Super 12G Ventus 3X OC Gaming Video Card - 12GB GDDR6X, PCI Express Gen 4, 192-bit, 3X DP v 1.4a, HDMI 2.1a (Supports 4K & 8K HDR)",
+    "brand": "msi",
+    "price": "$1,195.00",
+    "img": "https://m.media-amazon.com/images/I/41YH1L+sUfL._SL500_.jpg",
+    "features": [
+      "REVOLUTIONARY TRIPLE FAN - Three fans available cover considerable heat dissipation",
+      "TORX 4.0 FANS - Cool TORX 4.0 fans are based on teamwork, with pairs of fans tied together by a connected outer ring design that focuses airflow in the triple fan cooling system",
+      "COPPER BASE PLATE - The heat of the GPU and memory modules is captured by a solid nickel-plated copper base plate and then quickly transferred to a series of heat pipes; this expansion of thermal transfer systems with efficient mechanisms optimizes overall efficiency",
+      "CORE PIPE - The core tubes are precision made to make the most of the available space. The square section of the heat pipes fully touches the GPU base plate and then diffuses heat along the entire length of the radiator",
+      "AFTERBURNER - MSI Afterburner is the world-renowned and widely used graphics card overclocking software; take full control of your graphics card by monitoring key system parameters in real time. It is compatible with the graphics card part of other vendors"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 Super MSI"
+    ]
+  },
+  "B0CSGCTMT2": {
+    "asin": "B0CSGCTMT2",
+    "title": "MSI Gaming RTX 4070 Ti Super 16G Gaming X Slim Graphics Card (NVIDIA RTX 4070 Ti Super, 256-Bit, Extreme Clock: 2685 MHz, 16GB GDRR6X 21 Gbps, HDMI/DP, Ada Lovelace Architecture)",
+    "brand": "msi",
+    "price": "$1,395.00",
+    "img": "https://m.media-amazon.com/images/I/41RkM2PE1QL._SL500_.jpg",
+    "features": [
+      "Chipset: GeForce RTX 4070 Ti Super",
+      "Boost Clock / Memory: 2685 MHz / 21 Gbps",
+      "Video Memory: 16GB GDDR6X",
+      "Memory Interface: 256-bit",
+      "Output: DisplayPort x 3 (v1.4a) / HDMI x 1 (2.1a)"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 Super MSI"
+    ]
+  },
+  "B0CS77KMC2": {
+    "asin": "B0CS77KMC2",
+    "title": "MSI Gaming RTX 4070 Super 12G Ventus 2X White OC Graphics Card (NVIDIA RTX 4070 Super, 192-Bit, Extreme Clock: 2520 MHz, 12GB GDRR6X 21 Gbps, HDMI/DP, Ada Lovelace Architecture)",
+    "brand": "msi",
+    "price": "$1,185.00",
+    "img": "https://m.media-amazon.com/images/I/41nHyRU6ffL._SL500_.jpg",
+    "features": [
+      "Chipset: GeForce RTX 4070 Super",
+      "Boost Clock / Memory: 2520 MHz / 21 Gbps",
+      "Video Memory: 12GB GDDR6X",
+      "Memory Interface: 192-bit",
+      "Output: DisplayPort x 3 (v1.4a) / HDMI 2.1 x 1"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 Super MSI"
+    ]
+  },
+  "B0CSG7FJH3": {
+    "asin": "B0CSG7FJH3",
+    "title": "MSI Gaming RTX 4070 Ti Super 16G Gaming X Trio White Graphics Card (NVIDIA RTX 4070 Ti Super, 256-Bit, Extreme Clock: 2685 MHz, 16GB GDRR6X 21 Gbps, HDMI/DP, Ada Lovelace Architecture)",
+    "brand": "msi",
+    "price": "$1,689.00",
+    "img": "https://m.media-amazon.com/images/I/41l3umRgt5L._SL500_.jpg",
+    "features": [
+      "Chipset: GeForce RTX 4070 Ti Super",
+      "Boost Clock / Memory: 2685 MHz / 21 Gbps",
+      "Video Memory: 16GB GDDR6X",
+      "Memory Interface: 256-bit",
+      "Output: DisplayPort x 3 (v1.4a) / HDMI x 1 (2.1a)"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 Super MSI"
+    ]
+  },
+  "B0D3J8RM26": {
+    "asin": "B0D3J8RM26",
+    "title": "ASUS Dual GeForce RTX 4070 Super OC Edition Graphics Card - PCIe 4.0, 12GB GDDR6X, DLSS 3, HDMI 2.1, DisplayPort 1.4a, 2.56-Slot Design, Axial-tech Fan Design, Auto-Extreme Technology (Renewed)",
+    "brand": "ASUS",
+    "price": "$799.97",
+    "img": "https://m.media-amazon.com/images/I/41vYzT0KugL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 Super ASUS"
+    ]
+  },
+  "B0CQPWN1GF": {
+    "asin": "B0CQPWN1GF",
+    "title": "ASUS ROG Strix GeForce RTX 4070 Super OC Edition Gaming Graphics Card (PCIe 4.0, 12GB GDDR6X, DLSS 3, HDMI 2.1a, DisplayPort 1.4a, Massive Vented Backplate, Power Sensing, Aura Sync), 3 Year Warranty",
+    "brand": "ASUS",
+    "price": "$944.99",
+    "img": "https://m.media-amazon.com/images/I/41WHTKweYxL._SL500_.jpg",
+    "features": [
+      "Powered by NVIDIA DLSS3, ultra-efficient Ada Lovelace arch, and full ray tracing",
+      "4th Generation Tensor Cores: Up to 4x performance with DLSS 3 vs. brute-force rendering",
+      "3rd Generation RT Cores: Up to 2x ray tracing performance",
+      "OC mode: 2670 MHz (OC mode)/2640 MHz (Default mode)",
+      "Axial-tech fans scaled up for 31% more airflow",
+      "3.12-slot design: massive fin array optimized for airflow from the three Axial-tech fans",
+      "Diecast shroud, frame, and backplate add rigidity and are vented to further maximize airflow and heat dissipation",
+      "Digital power control with high-current power stages and 15K capacitors to fuel maximum performance",
+      "Auto-Extreme precision automated manufacturing for higher reliability",
+      "GPU Tweak III software provides intuitive performance tweaking, thermal controls, and system monitoring"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 Super ASUS"
+    ]
+  },
+  "B0D1B5DDVS": {
+    "asin": "B0D1B5DDVS",
+    "title": "ASUS Dual GeForce RTX 4070 Ti Super OC Edition (PCIe 4.0, 16GB GDDR6X, DLSS 3, HDMI 2.1a, DisplayPort 1.4a, 2.56-Slot Design, Axial-tech Fan Design, Auto-Extreme Technology), 3 Year Warranty",
+    "brand": "ASUS",
+    "price": "$1,029.99",
+    "img": "https://m.media-amazon.com/images/I/41k-7kLvHmL._SL500_.jpg",
+    "features": [
+      "Powered by NVIDIA DLSS3, ultra-efficient Ada Lovelace arch, and full ray tracing",
+      "4th Generation Tensor Cores: Up to 4X performance with DLSS 3 vs. brute-force rendering",
+      "3rd Generation RT Cores: Up to 2X ray tracing performance",
+      "OC edition: Boost Clock 2655MHz (OC Mode)/ 2625MHz (Default Mode)",
+      "Axial-tech fan design features a smaller fan hub that facilitates longer blades and a barrier ring that increases downward air pressure",
+      "A 2.56-slot design maximizes compatibility and cooling efficiency for superior performance in small chassis",
+      "0dB technology lets you enjoy light gaming in relative silence",
+      "Dual ball fan bearings can last up to twice as long as sleeve bearing designs",
+      "Auto-Extreme precision automated manufacturing for higher reliability"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 Super ASUS"
+    ]
+  },
+  "B0CS3X3DTG": {
+    "asin": "B0CS3X3DTG",
+    "title": "ASUS TUF Gaming GeForce RTX 4070 Ti Super 16GB GDDR6X OC Edition Gaming Graphics Card (NVIDIA GeForce RTX4070Ti DLSS 3, PCIe 4.0, 2X HDMI 2.1a, 3X DisplayPort 1.4a, TUF-RTX4070TIS-O16G-GAMING, Black)",
+    "brand": "ASUS",
+    "price": "$1,219.99",
+    "img": "https://m.media-amazon.com/images/I/51skQaiHNiL._SL500_.jpg",
+    "features": [
+      "Powered by NVIDIA DLSS3, the highly efficient Ada Lovelace architecture and full ray tracing",
+      "Tensor Cores of the 4th Generation: Up to 4x more performance with DLSS 3 compared to brute force rendering",
+      "RT cores of the 3rd Generation: Up to 2x ray tracing performance",
+      "OC mode: 2670 MHz (OC mode)/2640 MHz (standard mode)",
+      "Axial Tech fan for 21% more airflow"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 Super ASUS"
+    ]
+  },
+  "B0D8K66T3Q": {
+    "asin": "B0D8K66T3Q",
+    "title": "ASUS TUF Gaming GeForce RTX™ 4070 Ti Super OG OC Edition Gaming Graphics Card (PCIe 4.0, 16GB GDDR6X, DLSS 3, HDMI 2.1a, DisplayPort 1.4a), 3 Year Warranty",
+    "brand": "ASUS",
+    "price": "$1,229.99",
+    "img": "https://m.media-amazon.com/images/I/51PJ4GFrptL._SL500_.jpg",
+    "features": [
+      "Powered by NVIDIA DLSS3, ultra-efficient Ada Lovelace arch, and full ray tracing",
+      "4th Generation Tensor Cores: Up to 4x performance with DLSS 3 vs. brute-force rendering",
+      "3rd Generation RT Cores: Up to 2X ray tracing performance",
+      "OC mode: 2670 MHz (OC mode)/ 2640 MHz (Default mode)",
+      "Axial-tech fans scaled up to deliver 23% more airflow"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 Super ASUS"
+    ]
+  },
+  "B0CVR1TTS8": {
+    "asin": "B0CVR1TTS8",
+    "title": "ASUS ProArt GeForce RTX 4070 Super OC Edition Graphics Card (PCIe 4.0, 12GB GDDR6X, DLSS 3, HDMI 2.1a, DisplayPort 1.4a), 3 Year Warranty",
+    "brand": "ASUS",
+    "price": "$999.00",
+    "img": "https://m.media-amazon.com/images/I/411yHOGBCVL._SL500_.jpg",
+    "features": [
+      "Powered by NVIDIA DLSS3, ultra-efficient Ada Lovelace arch, and full ray tracing",
+      "4th Generation Tensor Cores: Up to 4x performance with DLSS 3 vs. brute-force rendering",
+      "3rd Generation RT Cores: Up to 2x ray tracing performance",
+      "OC Edition: 2565 MHz (OC mode)/ 2535 MHz (Default mode)",
+      "Axial-tech fans scaled up for 21% more airflow",
+      "A 2.5-slot design: allows for greater build compatibility while maintaining premium cooling",
+      "Dual Ball Fan Bearings last up to twice as long as sleeve bearing designs",
+      "Auto-Extreme precision automated manufacturing for higher reliability"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 Super ASUS"
+    ]
+  },
+  "B086ZSRZJ9": {
+    "asin": "B086ZSRZJ9",
+    "title": "ASUS TUF Gaming GeForce RTX™ 4070 Ti Super BTF White OC Edition Gaming Graphics Card (PCIe 4.0, 16GB GDDR6X, Exclusive to BTF ATX Motherboards",
+    "brand": "ASUS",
+    "price": "$1,199.99",
+    "img": "https://m.media-amazon.com/images/I/41GnyLSmx9L._SL500_.jpg",
+    "features": [
+      "Only support ASUS BTF ATX Motherboards (ROG MAXIMUS Z790 HERO BTF, TUF GAMING Z790-BTF WIFI, TUF GAMING B760M-BTF WIFI) to be compatible with ASUS BTF Graphics card high-power gold finger for power transmission",
+      "Powered by NVIDIA DLSS3, ultra-efficient Ada Lovelace arch, and full ray tracing",
+      "4th Generation Tensor Cores: Up to 4x performance with DLSS 3 vs. brute-force rendering",
+      "3rd Generation RT Cores: Up to 2x ray tracing performance",
+      "OC edition: Boost Clock 2670 MHz (OC Mode)/ 2640 MHz (Default Mode)"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 Super ASUS"
+    ]
+  },
+  "B08JGQC1D4": {
+    "asin": "B08JGQC1D4",
+    "title": "ASUS Dual GeForce RTX 4070 Super EVO White OC Edition 12GB GDDR6X Gaming Graphics Card (Nvidia RTX4070 Super DLSS 3, PCIe 4.0, 1x HDMI 2.1a, 3X DisplayPort 1.4a, DUAL-RTX4070S-O12G-EVO)",
+    "brand": "ASUS",
+    "price": "$1,299.00",
+    "img": "https://m.media-amazon.com/images/I/41IZcsNdSWL._SL500_.jpg",
+    "features": [
+      "Featuring NVIDIA DLSS3, the ultra-efficient Ada Lovelace architecture and full ray tracing",
+      "Tensor Cores of the 4th Generation: Up to 4X more performance with DLSS 3 compared to brute force rendering",
+      "RT cores of the 3rd Generation: Up to 2x ray tracing performance",
+      "OC edition: Boost clock 2550 MHz (OC mode)/2520 MHz (standard mode)",
+      "Axial Tech fan design has a smaller hub that allows longer blades and a locking ring that increases air pressure downwards"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 Super ASUS"
+    ]
+  },
+  "B0C3SPXZJ8": {
+    "asin": "B0C3SPXZJ8",
+    "title": "NVIDIA GeForce RTX 4070 Founder's Edition (FE) Graphics Card - Titanium and Black (900-1G141-2544-000)",
+    "brand": "NVIDIA",
+    "price": "$999.99",
+    "img": "https://m.media-amazon.com/images/I/41gR6BN5tZL._SL500_.jpg",
+    "features": [
+      "Graphics Processing Unit (GPU)/Clock Speed: Powered by the NVIDIA GeForce RTX 4070 graphics processing unit (GPU) with a 2.48 GHz boost clock speed.",
+      "On-board Memory: 12GB GDDR6X",
+      "Interface Compatibility: PCI Express 4.0 and earlier PCI Express 3.0. Offers compatibility with a range of systems.",
+      "Technologies: 5,888 NVIDIA CUDA Cores, 2.48 GHz Boost Clock, Dedicated Ray Tracing Cores, Dedicated Tensor Cores, NVIDIA DLSS, Game Ready and NVIDIA Studio Drivers, NVIDIA GeForce Experience, NVIDIA Broadcast, NVIDIA G-SYNC, NVIDIA GPU Boost, GDDR6X Graphics Memory, PCI Express Gen 4",
+      "HDMI and Display Port outputs: Enable flexible connectivity"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 graphics card"
+    ]
+  },
+  "B0C1PDHK2K": {
+    "asin": "B0C1PDHK2K",
+    "title": "PNY GeForce RTX™ 4070 12GB XLR8 Gaming Verto Epic-X RGB™ Triple Fan Graphics Card DLSS 3",
+    "brand": "PNY",
+    "price": "$647.22",
+    "img": "https://m.media-amazon.com/images/I/51puPFneX7L._SL500_.jpg",
+    "features": [
+      "Powered by NVIDIA DLSS 3, ultra-efficient Ada Lovelace arch, and full ray tracing",
+      "NVIDIA Ada Lovelace, with 1920MHz core clock and 2475MHz boost clock speeds to help meet the needs of demanding games.",
+      "12GB GDDR6X (192-bit) on-board memory, plus 5888 CUDA processing cores and up to 504GB/sec of memory bandwidth provide the memory needed to create striking visual realism.",
+      "PCI Express 4.0 interface - Offers compatibility with a range of systems. Also includes DisplayPort and HDMI outputs for expanded connectivity.",
+      "NVIDIA GeForce Experience - Capture and share videos, screenshots, and livestreams with friends. Keep your drivers up to date and optimize your game settings. It's the essential companion to your GeForce graphics card."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 graphics card"
+    ]
+  },
+  "B0BZTF7LFK": {
+    "asin": "B0BZTF7LFK",
+    "title": "ASUS Dual GeForce RTX 4070 OC Edition 12GB GDDR6X, IP5X, Auto-Extreme Technology, 144-Hour Validation Program, HDMI 2.1a, DP 1.4a, 3 Year Warranty",
+    "brand": "ASUS",
+    "price": "$1,195.00",
+    "img": "https://m.media-amazon.com/images/I/41crEdScVCL._SL500_.jpg",
+    "features": [
+      "Powered by NVIDIA DLSS3, ultra-efficient Ada Lovelace architecture, and full ray tracing.",
+      "4th Generation Tensor Cores: Up to 4x performance with DLSS 3 vs. brute force rendering",
+      "3rd Generation RT Cores: Up to 2x ray tracing performance",
+      "OC mode: 2505 MHz / Default Mode: 2475 MHz",
+      "Axial-tech fan design features a smaller fan hub that facilitates longer blades and a barrier ring that increases downward air pressure."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4070 graphics card"
+    ]
+  },
+  "B0C5SDCMF3": {
+    "asin": "B0C5SDCMF3",
+    "title": "ASUS Dual GeForce RTX™ 4060 Ti White OC Edition 8GB GDDR6 (PCIe 4.0, 8GB GDDR6, DLSS 3, HDMI 2.1, DisplayPort 1.4a, Axial-tech Fan Design, 0dB Technology), 3 Year Warranty",
+    "brand": "ASUS",
+    "price": "$549.00",
+    "img": "https://m.media-amazon.com/images/I/41AdWt4oxxL._SL500_.jpg",
+    "features": [
+      "Powered by NVIDIA DLSS3, ultra-efficient Ada Lovelace arch, and full ray tracing",
+      "4th Generation Tensor Cores: Up to 4x performance with DLSS 3 vs. brute-force rendering",
+      "3rd Generation RT Cores: Up to 2x ray tracing performance",
+      "Axial-tech fan design features a smaller fan hub that facilitates longer blades and a barrier ring that increases downward air pressure",
+      "New White Design: For PC builds that need a white GPU to match your gaming machine"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4060 Ti 8GB graphics card"
+    ]
+  },
+  "B0CK1D7PMF": {
+    "asin": "B0CK1D7PMF",
+    "title": "ASUS Dual GeForce RTX 4060 Ti White Edition 8GB GDDR6 (PCIe 4.0, 8GB GDDR6, DLSS 3, HDMI 2.1, DisplayPort 1.4a, Axial-tech Fan Design, 0dB Technology), 3 Year Warranty",
+    "brand": "ASUS",
+    "price": "$447.65",
+    "img": "https://m.media-amazon.com/images/I/41BHIeZPDxL._SL500_.jpg",
+    "features": [
+      "Powered by NVIDIA DLSS3, ultra-efficient Ada Lovelace arch, and full ray tracing",
+      "4th Generation Tensor Cores: Up to 4x performance with DLSS 3 vs. brute-force rendering",
+      "3rd Generation RT Cores: Up to 2x ray tracing performance",
+      "Axial-tech fan design features a smaller fan hub that facilitates longer blades and a barrier ring that increases downward air pressure",
+      "New White Design: For PC builds that need a white GPU to match your gaming machine",
+      "A 2.5-slot design maximizes compatibility and cooling efficiency for superior performance in small chassis",
+      "0dB technology lets you enjoy light gaming in relative silence",
+      "Dual ball fan bearings can last up to twice as long as sleeve bearing designs",
+      "OC Mode: 2565 MHz/ Default mode: 2535 MHz"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4060 Ti 8GB graphics card"
+    ]
+  },
+  "B0CBK8TQS1": {
+    "asin": "B0CBK8TQS1",
+    "title": "MSI GeForce RTX 4060 Ti Ventus 3X 16G OC Graphics Card -NVIDIA RTX 4060 Ti, 16GB GDDR6 Memory, 18Gbps, PCIe 4.0, DLSS3",
+    "brand": "msi",
+    "price": "$949.99",
+    "img": "https://m.media-amazon.com/images/I/41EVOdlKInL._SL500_.jpg",
+    "features": [
+      "Components",
+      "Internal Components",
+      "Graphics Cards"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4060 Ti 16GB"
+    ]
+  },
+  "B0CG2MX5H9": {
+    "asin": "B0CG2MX5H9",
+    "title": "PNY GeForce RTX™ 4060 Ti 16GB Verto™ Dual Fan Graphics Card DLSS 3 (128-bit, PCIe 4.0, GDDR6, HDMI/DisplayPort, Supports 4k, 2 Slot)",
+    "brand": "PNY",
+    "price": "$729.99",
+    "img": "https://m.media-amazon.com/images/I/51IraRbkVoL._SL500_.jpg",
+    "features": [
+      "Powered by NVIDIA DLSS 3, ultra-efficient Ada Lovelace arch, and full ray tracing",
+      "NVIDIA Ada Lovelace, with 2310MHz core clock and 2535MHz boost clock speeds to help meet the needs of demanding games.",
+      "16GB GDDR6 (128-bit) on-board memory, plus 4352 CUDA processing cores and up to 288GB/sec of memory bandwidth provide the memory needed to create striking visual realism.",
+      "PCI Express 4.0 interface - Offers compatibility with a range of systems. Also includes DisplayPort and HDMI outputs for expanded connectivity.",
+      "Engineered for maximum cooling efficiency, it features two 90mm fans, heatsink with dense fins, and 2 heat pipes. The copper base makes direct contact with the GPU for superior heat transfer, while an aluminum backplate improves structural integrity and airflow.",
+      "PCI-Express 4.0 x16 (x8 Active)"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4060 Ti 16GB"
+    ]
+  },
+  "B00JFYB8VM": {
+    "asin": "B00JFYB8VM",
+    "title": "NVIDIA GeForce RTX 4060Ti Founders Edition",
+    "brand": "Generisch",
+    "price": "$769.99",
+    "img": "https://m.media-amazon.com/images/I/31A0PRL0FaL._SL500_.jpg",
+    "features": [
+      "NVIDIA GeForce RTX 4060Ti Founders Edition",
+      "VIDEO_CARD",
+      "generisch"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4060 Ti 16GB"
+    ]
+  },
+  "B0C7W8GZMJ": {
+    "asin": "B0C7W8GZMJ",
+    "title": "MSI GeForce RTX 4060 Ventus 2X Black 8G OC Gaming Graphics Card - 8GB GDDR6X, PCI Express Gen 4, 128-bit, 3X DP v 1.4a, HDMI 2.1a (Supports 4K & 8K HDR)",
+    "brand": "msi",
+    "price": "$408.22",
+    "img": "https://m.media-amazon.com/images/I/31es4T0F7xL._SL500_.jpg",
+    "features": [
+      "Dual Fan: Two fans and a huge heatsink ensure a cool and quiet experience for you.",
+      "TORX FAN 4.0: A masterpiece of teamwork, fan blades work in pairs to create unprecedented levels of focused air pressure.",
+      "Reinforcing Backplate: The reinforcing backplate features a flow-through design that provides additional ventilation.",
+      "Zero Frozr: The fans completely stop when temperatures are relatively low, eliminating all noise."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4060 graphics card"
+    ]
+  },
+  "B0C8K441T1": {
+    "asin": "B0C8K441T1",
+    "title": "Gigabyte GeForce RTX 4060 Eagle OC 8G Graphics Card, 3X WINDFORCE Fans, 8GB 128-bit GDDR6, GV-N4060EAGLE OC-8GD Video Card",
+    "brand": "GIGABYTE",
+    "price": "$499.22",
+    "img": "https://m.media-amazon.com/images/I/417RIYIOm7L._SL500_.jpg",
+    "features": [
+      "Powered by NVIDIA DLSS 3, ultra-efficient Ada Lovelace architechture, and full ray tracing",
+      "4th Generation Tensor Cores: Up to 4x performance with DLSS 3",
+      "3rd Generation RT Cores: Up to 2x ray tracing performance",
+      "Powered by GeForce RTX 4060",
+      "Integrated with 8GB GDDR6 128-bit memory interface",
+      "WINDFORCE Cooling System, Dual BIOS, Protection metal back plate"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4060 graphics card"
+    ]
+  },
+  "B0DTJDR3V9": {
+    "asin": "B0DTJDR3V9",
+    "title": "PNY NVIDIA GeForce RTX™ 5080 Epic-X RGB™ OC Triple-Fan Graphics Card",
+    "brand": "PNY",
+    "price": "$1,780.99",
+    "img": "https://m.media-amazon.com/images/I/41uzr+ofeSL._SL500_.jpg",
+    "features": [
+      "Axial-Fan Tech Built to Endure - Triple 100mm axial fans feature refined blades for 15% more airflow, counter-rotation to cut turbulence, and durable dual-ball bearings. Stealth Mode stops fans at low temps for silent operation, boosting card longevity and performance.",
+      "Masterfully Crafted Cooling - Advanced vapor chamber and ultra-dense heatsink rapidly pull heat from the GPU, while an open aluminum backplate boosts airflow and ventilation, resulting in lower temperatures for stronger performance and stability in demanding workloads.",
+      "Epic-X ARGB Lighting 2.0 - Craft your command center with Epic-X ARGB lighting. Fully customizable LEDs illuminate your graphics card, turning your setup into a radiant centerpiece and making your gaming space a true reflection of your style.",
+      "VelocityX Software - Gain full control over your PNY graphics card to maximize its performance and Epic-X ARGB lighting. Fine-tune core and memory clocks, dial in custom fan curves, and monitor real-time temperatures and speeds, all from one intuitive interface. Save up to five profiles for instant recall.",
+      "NVIDIA Blackwell Architecture - The Ultimate Platform for Gamers and Creators. Do it all with 5th-Gen Tensor cores for Max AI performance, new streaming multiprocessors that are optimized for neural shaders, and 4th-Gen Ray Tracing cores built for Mega Geometry."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 5080 graphics card"
+    ]
+  },
+  "B0GK8D8DJH": {
+    "asin": "B0GK8D8DJH",
+    "title": "CyberGeek GeForce RTX 5090 Overclocked Triple Fan Graphics Card, 32GB GDDR7, 28 Gbps, 512-bit, 3352 AI Tops, DLSS 4, AI Content Creation, Local LLM Inference, DP 2.1b x3, HDMI 2.1b, with GPU Holder",
+    "brand": "CyberGeek",
+    "price": "$7,499.99",
+    "img": "https://m.media-amazon.com/images/I/61dgn0Ob02L._SL500_.jpg",
+    "features": [
+      "[3352 AI TOPS, 5th Gen Tensor Cores, AI Content Creation] Accelerate AI-powered photo and video workflows like upscaling, denoise, background removal, masking, and generative AI creation for faster creator productivity.",
+      "[32GB GDDR7 VRAM, Local LLM Inference, ML Workflows] Run local LLM inference and on-device AI tools with more VRAM headroom for larger models, longer context, and heavier multitasking across AI and creator apps.",
+      "[DLSS 4, Reflex 2, 4th Gen Ray Tracing Cores] Smooth modern gaming with AI-enhanced performance and responsiveness in supported titles, plus advanced ray-traced visuals for immersive experiences.",
+      "[28 Gbps, 512-bit, 1792 GB/s Bandwidth] High-throughput next-gen memory for demanding creator projects, 8K assets, complex timelines, and GPU-accelerated workloads that benefit from massive bandwidth.",
+      "[DP 2.1b UHBR20 x3, HDMI 2.1b, Bundle GPU Holder] Multi-display ready with up to 4 displays, supports up to 4K 480Hz or 8K 120Hz with DSC (display and cable dependent), plus an included GPU Holder to help reduce GPU sag and improve build stability."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 5090 graphics card"
+    ]
+  },
+  "B0GRFXRSZV": {
+    "asin": "B0GRFXRSZV",
+    "title": "ASUS ROG Matrix Platinum GeForce RTX 5090 OC 30th-Anniversary Edition Gaming Graphics Card, 32GB GDDR7, PCIe 5.0, 512-bit, Liquid Metal Cooling, DisplayPort 2.1b, HDMI 2.1b, MTX5090P32G30TH",
+    "brand": "ASUS",
+    "price": "$9,899.00",
+    "img": "https://m.media-amazon.com/images/I/41YBqRegCoL._SL500_.jpg",
+    "features": [
+      "Next-Gen Performance: Powered by the NVIDIA Blackwell architecture, featuring 32GB of ultra-fast GDDR7 memory and a 512-bit interface for unparalleled 4K and 8K gaming performance.",
+      "ROG Matrix Thermal Excellence: Featuring a massive copper vapor chamber and liquid metal thermal compound on the GPU die for breakthrough cooling efficiency and silent operation under heavy loads.",
+      "Dual-Power Innovation: Breakthrough dual-power input design (via 12V-2x6 and BTF Graphics Card High-Power Adapter) allows the card to draw up to 800W, providing 10% more overclocking headroom.",
+      "Advanced AI Features: Harness the power of 5th-Gen Tensor Cores and DLSS 4 for AI-enhanced graphics, neural rendering, and frame generation to achieve the highest possible framerates.",
+      "Enthusiast-Grade Hardware: Built with a 3-ounce copper PCB for stable power delivery and includes \"Memory Defroster\" technology to prevent memory freezes during extreme LN2 overclocking.",
+      "Comprehensive Connectivity: Equipped with 3x DisplayPort 2.1b and 2x HDMI 2.1b ports, supporting up to 4 monitors and a maximum resolution of 7680 x 4320."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 5090 graphics card"
+    ]
+  },
+  "B0F7XHBT13": {
+    "asin": "B0F7XHBT13",
+    "title": "NVIDIA - GeForce RTX 5070 12GB GDDR7 Graphics Card - Graphite Grey",
+    "brand": "NVIDIA",
+    "price": "$899.99",
+    "img": "https://m.media-amazon.com/images/I/4193yaOTBPL._SL500_.jpg",
+    "features": [
+      "* NVIDIA Blackwell Architecture  * NVIDIA DLSS 4  * On-board memory  * Game Ready and NVIDIA Studio Drivers  * NVIDIA App  * NVIDIA Studio  * NVIDIA Broadcast  * Memory Bandwidth  * Interface Compatibility  * Display Support "
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 5070 graphics card"
+    ]
+  },
+  "B0FG6164PS": {
+    "asin": "B0FG6164PS",
+    "title": "ASUS Dual GeForce RTX™ 5070 12GB GDDR7 OC Edition (PCIe 5.0, 12GB GDDR7, DLSS 4, HDMI 2.1b, DisplayPort 2.1b, Compact Dual-Fan Design, Axial-tech Fan Design, 0dB Technology, and More)",
+    "brand": "ASUS",
+    "price": "$799.99",
+    "img": "https://m.media-amazon.com/images/I/41pPyhAIeXL._SL500_.jpg",
+    "features": [
+      "AI Performance: 1000 TOPS",
+      "OC Mode boosts clock 2572MHz (OC Mode) / 2542MHz (Default Mode)",
+      "Powered by the NVIDIA Blackwell architecture and DLSS 4",
+      "Axial-tech fan design features a smaller fan hub that facilitates longer blades and a barrier ring that increases downward air pressure",
+      "0dB technology lets you enjoy light gaming in relative silence"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 5070 graphics card"
+    ]
+  },
+  "B0F45KGZPY": {
+    "asin": "B0F45KGZPY",
+    "title": "msi Gaming RTX 5060 Ti 16G Shadow 2X OC Graphics Card (16GB GDDR7, 128-bit, Extreme Performance: TBA MHz, DisplayPort x 3 2.1a, HDMI 2.1b, NVIDIA Blackwell Architecture)",
+    "brand": "msi",
+    "price": "$789.98",
+    "img": "https://m.media-amazon.com/images/I/41A4c2cdOVL._SL500_.jpg",
+    "features": [
+      "Powered by the NVIDIA Blackwell architecture and DLSS 4",
+      "SFF-Ready Enthusiast GeForce Card",
+      "TORX Fan 5.0: Fan blades linked by ring arcs work to stabilize and maintain high-pressure airflow",
+      "Nickel-plated Copper Baseplate: Heat from the GPU and memory is swiftly captured by a nickel-plated copper baseplate and transferred",
+      "Core Pipes feature a square design to maximize contact with the GPU baseplate for optimal thermal management"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 5060 Ti 16GB"
+    ]
+  },
+  "B0F4YRNHSJ": {
+    "asin": "B0F4YRNHSJ",
+    "title": "PNY NVIDIA GeForce RTX™ 5060 Ti 8GB OC Dual-Fan Graphics Card",
+    "brand": "PNY",
+    "price": "$499.99",
+    "img": "https://m.media-amazon.com/images/I/41p4uY-1aBL._SL500_.jpg",
+    "features": [
+      "Dual-Fan Cooling in a Compact Design - Two fans work together to distribute and dissipate heat efficiently across a compact design, delivering the thermal headroom to sustain boost clocks without demanding a full-length card slot.",
+      "Masterfully Crafted Cooling - A dense heatsink pulls heat away from the GPU while a vented metal backplate adds passive cooling and reinforces the card against sagging, resulting in lower temperatures for stronger performance and stability in demanding workloads.",
+      "Overclocked Out of the Box - A factory-tuned 2692 MHz boost clock delivers extra performance over reference specifications with no setup required, plus headroom to push further with VelocityX.",
+      "VelocityX Software - Gain full control over your PNY graphics card to maximize its performance. Fine-tune core and memory clocks, dial in custom fan curves, and monitor real-time temperatures and speeds, all from one intuitive interface. Save up to five profiles for instant recall.",
+      "NVIDIA Blackwell Architecture - The Ultimate Platform for Gamers and Creators. Do it all with 5th-Gen Tensor Cores for max AI performance, new streaming multiprocessors that are optimized for neural shaders, and 4th-Gen Ray Tracing Cores built for Mega Geometry."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 5060 graphics card"
+    ]
+  },
+  "B0CVVLV5TV": {
+    "asin": "B0CVVLV5TV",
+    "title": "PowerColor Hellhound AMD Radeon RX 9070 XT 16GB GDDR6",
+    "brand": "PowerColor",
+    "price": "$869.99",
+    "img": "https://m.media-amazon.com/images/I/41gTWquV9cL._SL500_.jpg",
+    "features": [
+      "Power Connector: Two 8-pin PCI Express Power Connector",
+      "Minimum System Power: 800W",
+      "Internal Card Length: 327 mm",
+      "Card Dimensions: 327 * 128 * 49 mm",
+      "Display Connectors: 1 x HDMI 2.1 , 3 x DisplayPort 2.1"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RX 9070 XT graphics card",
+      "RX 7800 XT"
+    ]
+  },
+  "B0H2X24HGM": {
+    "asin": "B0H2X24HGM",
+    "title": "GIGABYTE Gaming Radeon RX 9070 GRE 12GB GDDR6 PCI Express 5.0 ATX Graphics Card GV-R907GREGAMING OC-12GD",
+    "brand": "GIGABYTE",
+    "price": "$569.99",
+    "img": "https://m.media-amazon.com/images/I/41rVhjhf95L._SL500_.jpg",
+    "features": [
+      "Powered by Radeon RX 9070 GRE",
+      "Integrated with 12GB GDDR6 192bit memory interface",
+      "WINDFORCE cooling system: Hawk fan Server-grade Thermal conductive gel",
+      "RGB Lighting",
+      "Dual BIOS (Performance / Silent)"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RX 9070 graphics card",
+      "RX 9060 XT 16GB"
+    ]
+  },
+  "B0H2PSG4J3": {
+    "asin": "B0H2PSG4J3",
+    "title": "PowerColor Reaper AMD Radeon RX 9070 GRE 12GB GDDR6",
+    "brand": "PowerColor",
+    "price": "$569.99",
+    "img": "https://m.media-amazon.com/images/I/41XqLHumZNL._SL500_.jpg",
+    "features": [
+      "Power Connector: Two 8-pin PCI Express Power Connector",
+      "Minimum System Power: 650W",
+      "Internal Card Length: 289mm",
+      "Card Dimensions: 289*111*41mm",
+      "Display Connectors: 1 x HDMI 2.1b , 3 x DisplayPort 2.1a"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RX 9070 graphics card"
+    ]
+  },
+  "B0H84YPD63": {
+    "asin": "B0H84YPD63",
+    "title": "ASRock Radeon RX 9060 XT Challenger Pro 16GB OC Graphics Card, RDNA 4, 3290MHz Boost, 16GB GDDR6 128-bit, PCIe 5.0, Triple Fan, 0dB Silent, LED Switch",
+    "brand": "ASRock",
+    "price": "$529.99",
+    "img": "https://m.media-amazon.com/images/I/41VdpxFUWcL._SL500_.jpg",
+    "features": [
+      "System Compatibility: 2.5-slot card, 290 x 123 x 41mm, single 8-pin power, recommended 550W PSU. Verify chassis clearance before purchase.",
+      "Dedicated Support: Contact us via Amazon for any product questions or assistance.",
+      "Next-Gen AMD RDNA 4 Architecture: 32 Compute Units with 3rd Gen Ray Tracing and 2nd Gen AI Accelerators – built for high-performance 1440p gaming.",
+      "Factory Overclocked: Boost clock up to 3290 MHz, game clock 2700 MHz – delivers smooth, high-framerate gaming out of the box.",
+      "16GB GDDR6 on 128-bit Bus: 20 Gbps memory speed provides ample bandwidth for modern game textures and smooth multitasking.",
+      "PCIe 5.0 Ready: PCI Express 5.0 x16 interface delivers double the bandwidth of PCIe 4.0 for next-gen gaming.",
+      "Advanced Triple-Fan Cooling: Striped axial fans with nickel-plated copper base and ultra-fit heatpipe. 0dB Silent stops fans at low loads.",
+      "Customizable LED Indicator: Built-in LED with on/off switch – lets you enable or disable lighting based on your preference.",
+      "Durable Super Alloy Construction: SPS Dr.MOS, premium power chokes, 2oz copper PCB, and stylish metal backplate for long-term reliability.",
+      "Multi-Display Connectivity: 2x DisplayPort 2.1a and 1x HDMI 2.1b, supporting up to 3 displays with resolutions up to 8K."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RX 9060 XT 16GB"
+    ]
+  },
+  "B0FH2B479M": {
+    "asin": "B0FH2B479M",
+    "title": "XFX Swift AMD Radeon RX 9060 XT OC White Gaming Edition with 16GB GDDR6 HDMI 2xDP, AMD RDNA™ 4 (RX-96TSW16WQ)",
+    "brand": "XFX",
+    "price": "$619.99",
+    "img": "https://m.media-amazon.com/images/I/31dDopkyVzL._SL500_.jpg",
+    "features": [
+      "Base clock: up to 1900 MHz",
+      "Game clock: up to 2780 MHz",
+      "Boost Clock: Up to 3320 MHz"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RX 9060 XT 16GB"
+    ]
+  },
+  "B0G1WZMKW6": {
+    "asin": "B0G1WZMKW6",
+    "title": "ASRock Radeon AI PRO R9700 Creator 32GB Professional Graphics Card, 2920 MHz Boost Clock, GDDR6, AMD RDNA 4, AI-Accelerators, DisplayPort 2.1a, PCIe 5.0, Blower Cooler",
+    "brand": "ASRock",
+    "price": "$1,699.99",
+    "img": "https://m.media-amazon.com/images/I/41xDUZ6QFHL._SL500_.jpg",
+    "features": [
+      "Professional AI & Creator Workstation: AMD Radeon AI PRO R9700 GPU with 32GB GDDR6 is engineered for AI development, professional content creation, and compute-intensive workloads.",
+      "Massive 32GB Memory Capacity: 32GB of GDDR6 memory on a 256-bit bus provides ample bandwidth for large AI models, 8K video editing, and complex 3D rendering.",
+      "Advanced RDNA 4 with AI Accelerators: 64 Compute Units with 3rd Gen Ray Tracing and dedicated 2nd Gen AI Accelerators for groundbreaking AI performance and visual computing.",
+      "Professional Blower Cooling: Efficient single blower design exhausts heat directly out of the chassis, ideal for multi-GPU workstation and server configurations.",
+      "Enterprise-Grade Thermal Solution: Vapor chamber heatsink with industrial Honeywell PTM7950 thermal interface material ensures reliable cooling under sustained professional loads.",
+      "PCIe 5.0 & Modern Display Outputs: PCI Express 5.0 support and four DisplayPort 2.1a outputs enable high-bandwidth data transfer and support for multiple high-resolution professional displays.",
+      "Professional Build Quality: Die-cast metal shroud and metal backplate provide exceptional durability and structural integrity for 24/7 operation.",
+      "Standard 2-Slot Design: Compact two-slot form factor maximizes density in server racks and multi-GPU workstation builds.",
+      "System Compatibility Note: This professional graphics card is optimized for workstation and server environments; verify software and driver compatibility for your specific professional applications.",
+      "Dedicated Support: Contact us directly through Amazon for any product questions or assistance."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RX 7900 XTX"
+    ]
+  },
+  "B0BSPTZ4VQ": {
+    "asin": "B0BSPTZ4VQ",
+    "title": "SAPPHIRE Pulse Radeon RX 7900 XTX Gaming OC 24GB GDDR6 Graphics Board 11322-02-20G VD8403",
+    "brand": "Sapphire",
+    "price": "$1,199.99",
+    "img": "https://m.media-amazon.com/images/I/41Dg8ktpY2L._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RX 7900 XTX"
+    ]
+  },
+  "B0CHK2345D": {
+    "asin": "B0CHK2345D",
+    "title": "ASRock Radeon RX 7700 XT Challenger 12GB OC Graphics Card, AMD RDNA 3 Architecture, 12GB GDDR6, 2584 MHz Boost Clock, 3X DisplayPort 2.1, 1x HDMI 2.1, Dual Fan Cooling",
+    "brand": "ASRock",
+    "price": "$389.99",
+    "img": "https://m.media-amazon.com/images/I/41j+-YW4F4L._SL500_.jpg",
+    "features": [
+      "High-Performance GPU: AMD Radeon RX 7700 XT with AMD RDNA 3 architecture, featuring 54 Compute Units and RT+AI Accelerators for exceptional gaming and content creation performance",
+      "Blazing Fast Clock Speeds: Boost Clock up to 2584 MHz and Game Clock of 2226 MHz, ensuring smooth and responsive gameplay in demanding titles",
+      "Ample Memory Configuration: 12GB GDDR6 memory on a 192-bit bus, paired with 48MB AMD Infinity Cache for reduced latency and enhanced performance at high resolutions",
+      "Advanced Cooling Solution: Dual Fan Design with Striped Ring Fans and Ultra-fit Heatpipe technology, ensuring efficient thermal management and sustained performance during extended gaming sessions",
+      "0dB Silent Cooling: Fans remain off at low temperatures, providing silent operation during light workloads or idle states",
+      "Durable Build Quality: Stylish Metal Backplate adds structural rigidity and protects components, while also aiding in heat dissipation",
+      "Modern Display Outputs: Equipped with 3 x DisplayPort 2.1 and 1 x HDMI 2.1, supporting high-resolution and high-refresh-rate monitors for an immersive gaming experience",
+      "Power Efficiency: PCIe 4.0 Support and dual 8-pin power connectors, ensuring stable power delivery and compatibility with a wide range of systems",
+      "Compatibility Note: Not compatible with all pre-built systems; verify power supply, chassis space, and motherboard specifications before purchase",
+      "Dedicated Support, If you have any questions about this product, contact us directly through Amazon for prompt assistance."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RX 7900 XT",
+      "RX 7800 XT",
+      "RX 7600 XT"
+    ]
+  },
+  "B0CGM92TW8": {
+    "asin": "B0CGM92TW8",
+    "title": "XFX Speedster QICK319 RX 7800 XT CORE Gaming Graphics Card 16GB GDDR6 HDMI 3xDP, AMD RDNA 3 RX-78TQICKF9",
+    "brand": "XFX",
+    "price": "$619.99",
+    "img": "https://m.media-amazon.com/images/I/51sonunxrjL._SL500_.jpg",
+    "features": [
+      "Chipset: AMD RX 7800 XT",
+      "Memory: 16GB GDDR6",
+      "XFX QICK Triple Fan Cooling Solution",
+      "Boost Clock: Up to 2430 MHz"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RX 7800 XT"
+    ]
+  },
+  "B0C626FFG2": {
+    "asin": "B0C626FFG2",
+    "title": "ASRock Radeon RX 7600 Challenger 8GB OC, RDNA 3, 2695MHz Boost, 8GB GDDR6 128-bit, PCIe 4.0, Dual Fans, 0dB Silent, HDMI 2.1, DisplayPort 1.4",
+    "brand": "ASRock",
+    "price": "$339.99",
+    "img": "https://m.media-amazon.com/images/I/41Ah5BMVSbL._SL500_.jpg",
+    "features": [
+      "System Compatibility Note: 2-slot card, 269.2x131.8x40.3mm, single 8-pin power, recommended 550W PSU. Verify chassis clearance before purchase.",
+      "Dedicated Support: Please contact us directly through Amazon for any product questions or assistance you may require.",
+      "Next-Gen AMD RDNA 3 Architecture: Powered by RX 7600 GPU with 32 CUs and 2048 stream processors, delivering exceptional 1080p gaming with hardware ray tracing.",
+      "Factory Overclocked for Maximum Performance: Boost clock up to 2695MHz and game clock of 2280MHz, providing the raw power for smooth high-framerate gaming.",
+      "8GB GDDR6 Memory on 128-Bit Bus: Equipped with 8GB of high-speed GDDR6 memory running at 18 Gbps, offering ample bandwidth for modern game textures.",
+      "PCIe 4.0 Support & Efficient Power: Utilizes PCIe 4.0 x8 interface, requiring just a single 8-pin power connector for easy installation and compatibility.",
+      "Advanced Dual-Fan Cooling with 0dB Silent: Dual-fan with striped axial fans and ultra-fit heatpipe. 0dB Silent stops fans under low load for quiet operation.",
+      "Durable Super Alloy & Metal Backplate: Built with ASRock Super Alloy components and stylish metal backplate for enhanced rigidity, cooling, and long-term reliability.",
+      "Multi-Display Connectivity: Includes 3x DisplayPort 1.4a with DSC and 1x HDMI 2.1 VRR, supporting up to 4 displays with resolutions up to 8K.",
+      "DirectX 12 Ultimate & OpenGL 4.6 Support: Full support for the latest APIs ensures compatibility with current and upcoming titles for lifelike visuals."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RX 7600 graphics card",
+      "RX 7600 XT",
+      "RX 6600 graphics card"
+    ]
+  },
+  "B0D9WY8GS1": {
+    "asin": "B0D9WY8GS1",
+    "title": "GIGABYTE Radeon RX 7600 XT Gaming OC 16G Graphics Card, 3X WINDFORCE Fans 16GB 128-bit GDDR6, GV-R76XTGAMING OC-16GD Video Card (Renewed)",
+    "brand": "GIGABYTE",
+    "price": "$499.97",
+    "img": "https://m.media-amazon.com/images/I/41WFrgs-HNL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RX 7600 graphics card",
+      "RX 7600 XT"
+    ]
+  },
+  "B0CLF23DXB": {
+    "asin": "B0CLF23DXB",
+    "title": "GIGABYTE GeForce RTX 3060 WINDFORCE OC 12G (rev. 2.0) Graphics Card, 2X WINDFORCE Fans, 12GB 192-bit GDDR6, GV-N3060WF2OC-12GD Rev2.0 Video Card",
+    "brand": "GIGABYTE",
+    "price": "$459.99",
+    "img": "https://m.media-amazon.com/images/I/41iMJH0EHKL._SL500_.jpg",
+    "features": [
+      "NVIDIA Ampere Streaming Multiprocessors",
+      "2nd Generation RT Cores",
+      "3rd Generation Tensor Cores",
+      "Powered by GeForce RTX 3060",
+      "Integrated with 12GB GDDR6 192-bit memory interface"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 3060 graphics card"
+    ]
+  },
+  "B0971BG25M": {
+    "asin": "B0971BG25M",
+    "title": "GIGABYTE GeForce RTX 3060 Gaming OC 12G (REV2.0) Graphics Card, 3X WINDFORCE Fans, 12GB 192-bit GDDR6, GV-N3060 Video Card",
+    "brand": "GIGABYTE",
+    "price": "$399.00",
+    "img": "https://m.media-amazon.com/images/I/415j4KJM74L._SL500_.jpg",
+    "features": [
+      "NVIDIA Ampere Streaming Multiprocessors",
+      "2nd Generation RT Cores",
+      "3rd Generation Tensor Cores",
+      "Powered by GeForce RTX 3060.Avoid using unofficial software",
+      "Integrated with 12GB GDDR6 192-bit memory interface"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 3060 graphics card"
+    ]
+  },
+  "B08WM28PVH": {
+    "asin": "B08WM28PVH",
+    "title": "EVGA GeForce RTX 3060 XC Gaming, 12G-P5-3657-KR, 12GB GDDR6, Dual-Fan, Metal Backplate",
+    "brand": "EVGA",
+    "price": "$539.99",
+    "img": "https://m.media-amazon.com/images/I/5108HDu+WcL._SL500_.jpg",
+    "features": [
+      "Real Boost Clock: 1882 MHz; Memory Detail: 12288 MB GDDR6.",
+      "Real-Time ray tracing in games for cutting-edge, hyper-realistic graphics.",
+      "Dual Fans Cooling offer higher performance cooling and much quieter acoustic noise.",
+      "All-Metal Backplate.Avoid using unofficial software"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 3060 graphics card"
+    ]
+  },
+  "B09SZKN2NX": {
+    "asin": "B09SZKN2NX",
+    "title": "NVIDIA GeForce RTX 3060 Ti Founders Edition 8GB GDDR6 PCI Express 4.0 Graphics Card (Renewed)",
+    "brand": "GeForce",
+    "price": "$409.99",
+    "img": "https://m.media-amazon.com/images/I/41e3fFdUIKL._SL500_.jpg",
+    "features": [
+      "8GB GDDR6 256-bit Memory",
+      "7680 x 4320 Maximum Resolution",
+      "PCIe 4.0",
+      "Full Height, Dual Slot",
+      "DisplayPort 1.4a, HDMI 2.1"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 3060 graphics card"
+    ]
+  },
+  "B08WPRMVWB": {
+    "asin": "B08WPRMVWB",
+    "title": "MSI Gaming GeForce RTX 3060 12GB 15 Gbps GDRR6 192-Bit HDMI/DP PCIe 4 Torx Twin Fan Ampere OC Graphics Card",
+    "brand": "msi",
+    "price": "$479.99",
+    "img": "https://m.media-amazon.com/images/I/41eQQf1CnrL._SL500_.jpg",
+    "features": [
+      "NVIDIA GeForce RTX 3060 12GB GDDR6 dedicated graphics card",
+      "1710 MHz GPU clock speed and 1807 MHz memory clock speed",
+      "DisplayPort x 3 (v1.4a) and HDMI 2.1 x 1 output interfaces",
+      "7680 x 4320 maximum display resolution"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 3060 graphics card"
+    ]
+  },
+  "B097HVG91P": {
+    "asin": "B097HVG91P",
+    "title": "MSI Gaming GeForce RTX 3060 Ti LHR 8GB GDRR6 256-Bit HDMI/DP Nvlink Torx Fan 3 Ampere Architecture OC Graphics Card (RTX 3060 Ti Ventus 2X 8G OCV1 LHR) (Renewed)",
+    "brand": "msi",
+    "price": "$359.99",
+    "img": "https://m.media-amazon.com/images/I/4157YbcCKTS._SL500_.jpg",
+    "features": [
+      "This Renewed product is tested and certified to look and work like new, with limited to no signs of wear. The refurbishing process includes functionality testing, inspection, and repackaging. The product comes with 90-day warranty",
+      "Memory Speed: 14 Gbps. Digital Max Resolution:7680 x 4320",
+      "NVIDIA Ampere Streaming Multiprocessors: The building blocks for the world’s fastest, most efficient GPU, the all-new Ampere SM brings 2X the FP32 throughput and improved power efficiency.",
+      "2nd Generation RT Cores: Experience 2X the throughput of 1st Gen RT Cores, plus concurrent RT and shading for a whole new level of ray tracing performance.",
+      "3rd Generation Tensor Cores: Get up to 2X the throughput with structural sparsity and advanced AI algorithms such as DLSS. Now with support for up to 8K resolution, these cores deliver a massive boost in game performance and all-new AI capabilities."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 3060 graphics card"
+    ]
+  },
+  "B0D36VQ2YD": {
+    "asin": "B0D36VQ2YD",
+    "title": "PNY GeForce RTX™ 4080 Super 16GB Verto™ Overclocked Triple Fan Graphics Card DLSS 3 (Renewed)",
+    "brand": "PNY",
+    "price": "$1,399.97",
+    "img": "https://m.media-amazon.com/images/I/41reV4UJknL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4080 Super graphics card"
+    ]
+  },
+  "B0BJJPCPY2": {
+    "asin": "B0BJJPCPY2",
+    "title": "Intel Arc A750 Limited Edition 8GB PCI Express 4.0 Graphics Card",
+    "brand": "Intel",
+    "price": "$230.39",
+    "img": "https://m.media-amazon.com/images/I/31-q9-3xEFL._SL500_.jpg",
+    "features": [
+      "Intel Arc A750 8GB PCI Express 4.0 Graphics Card",
+      "Item Package Dimension: 17.519L x 11.179W x 6.33H inches",
+      "Item Package Weight - 4.64 Pounds",
+      "Item Package Quantity - 1",
+      "Product Type - VIDEO CARD"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Arc B580 graphics card"
+    ]
+  },
+  "B0FN7N4F5Y": {
+    "asin": "B0FN7N4F5Y",
+    "title": "MOUGOL AMD Radeon RX 580 8GB GDDR5 Gaming Graphics Card, HDMI/DP/DVI White",
+    "brand": "MOUGOL",
+    "price": "$134.99",
+    "img": "https://m.media-amazon.com/images/I/41Nowl4gM6L._SL500_.jpg",
+    "features": [
+      "【Ultimate Triple Display Connectivity】: Features a versatile output array including HDMI, DisplayPort (DP), and DVI. Whether you're connecting a high-refresh-rate gaming monitor via DP or a standard office screen via HDMI, this card supports triple-monitor setups for maximum productivity.",
+      "【Compact Size & Wide Compatibility】: Measuring 240x135x45mm (9.45x5.31x1.77 inches), this dual-fan RX 580 fits perfectly into standard ATX Mid-Towers, Micro-ATX (M-ATX), ideal for compact desktop PC upgrades and space-saving gaming builds.",
+      "【Optimized Gaming Performance】: With 2048 Stream Processors and a 1206 MHz core clock, this card delivers solid frame rates in popular titles like Fortnite, GTA V, Apex Legends, and Valorant. It’s the ideal budget-friendly GPU for entry-level to mid-range gaming rigs.",
+      "【Advanced Thermal Management】: Engineered with a dual-fan cooling system and high-efficiency heat pipes to ensure stable performance under heavy loads. The intelligent fan control keeps your system quiet during light office work and provides maximum airflow during intense gaming sessions.",
+      "【Ready for Content Creation】: Supports DirectX 12, Vulkan, and OpenGL 4.6, making it more than just a gaming card. It provides hardware acceleration for video editing in Premiere Pro, 3D rendering in Blender, and smooth streaming for aspiring creators."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Arc B580 graphics card"
+    ]
+  },
+  "B0CJKMNZQX": {
+    "asin": "B0CJKMNZQX",
+    "title": "Gigabyte GeForce RTX 4090 WINDFORCE V2 24G Graphics Card, 3X WINDFORCE Fans, 24GB 384-bit GDDR6X, GV-N4090WF3V2-24GD Video Card (Renewed)",
+    "brand": "GIGABYTE",
+    "price": "$3,199.99",
+    "img": "https://m.media-amazon.com/images/I/410LbQLrtJL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4090 graphics card"
+    ]
+  },
+  "B0C717J7V5": {
+    "asin": "B0C717J7V5",
+    "title": "GIGABYTE GeForce RTX 4090 WINDFORCE V2 24GB Graphics Card - 24GB DDR6X, PCI-E 4.0, Core 2520Mhz, 3 Fan Windforce Cooling System, Anti-sag Bracket, DP 1.4, HDMI 2.1a, NVIDIA DLSS 3, GV-N4090WF3V2-24GD",
+    "brand": "GIGABYTE",
+    "price": "$3,199.99",
+    "img": "https://m.media-amazon.com/images/I/51YkHpFExdL._SL500_.jpg",
+    "features": [
+      "Supported Technologies: Supporting DLSS 3, DLSS 2, Ray Tracing, NVIDIA Reflex, GeForce Experience & All NVIDIA Studio applications",
+      "Core & Clocks: 2520MHz Boost Clock, 16384 CUDA Cores, 24GB GDDR6X Memory, 384-bit Memory Bus, 21Gbps Memory Speed",
+      "Cooling: The WINDFORCE cooling system features three 100mm unique alternately spinning 3D active blade fans with 9 composite copper heat pipes, which directly touch the GPU and screen cooling to provide high efficiency heat dissipation.",
+      "I/O & Connectivity: PCIE 4.0, 3 x DisplayPort 1.4a, 1 x HDMI 2.1a, DirectX 12 Ultimate, OpenGL 4.6",
+      "Recommended Power Supply: 850W"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4090 graphics card"
+    ]
+  },
+  "B09YD4FJ5R": {
+    "asin": "B09YD4FJ5R",
+    "title": "MSI GeForce RTX 4090 SUPRIM Liquid X 24G Gaming Graphics Card - 24GB GDDR6X, 2625 MHz, PCI Express Gen 4, 384-bit, 3X DP v 1.4a, HDMI 2.1a (Supports 4K & 8K HDR)",
+    "brand": "msi",
+    "price": "$4,499.00",
+    "img": "https://m.media-amazon.com/images/I/41AfREhkMtL._SL500_.jpg",
+    "features": [
+      "Cutting-Edge GPUs NVIDIA Ada Lovelace architecture",
+      "brand: MSI",
+      "manufacturer: MSI COMPUTER"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 4090 graphics card"
+    ]
+  },
+  "B0FFVFD58L": {
+    "asin": "B0FFVFD58L",
+    "title": "msi Gaming RTX 5050 8G Shadow 2X OC Graphics Card (8GB GDDR6,128-bit, Extreme Performance: 2617 MHz, DisplayPort x3 2.1a, HDMI 2.1b, NVIDIA Blackwell Architecture)",
+    "brand": "msi",
+    "price": "$369.99",
+    "img": "https://m.media-amazon.com/images/I/41kmHFMFPOL._SL500_.jpg",
+    "features": [
+      "Powered by the NVIDIA Blackwell architecture and DLSS 4",
+      "Core Clocks: Extreme Performance: 2617 MHz (MSI Center), Boost: 2602 MHz",
+      "TORX Fan 5.0: Fan blades linked by ring arcs work to stabilize and maintain high-pressure airflow",
+      "Heat Pipe designed for efficient heat transfer, the heat pipe effectively draw thermal energy away from the GPU, improving overall cooling performance",
+      "Reinforcing Backplate: The reinforcing backplate features an airflow vent that allows exhaust air to directly pass through"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 5050 graphics card"
+    ]
+  },
+  "B0FFXDG18B": {
+    "asin": "B0FFXDG18B",
+    "title": "ASUS Prime GeForce RTX 5050 8GB GDDR6 OC Edition Gaming Graphics Card",
+    "brand": "ASUS",
+    "img": "https://m.media-amazon.com/images/I/41f0jFDvzVL._SL500_.jpg",
+    "features": [
+      "AI Performance: 439 AI TOPS",
+      "OC mode boosts clock 2707 MHz OC mode, 2677 MHz default mode",
+      "Powered by the NVIDIA Blackwell architecture and DLSS 4",
+      "SFF-Ready enthusiast GeForce card",
+      "Axial-tech fans feature a smaller fan hub that facilitates longer blades and a barrier ring that increases downward air pressure",
+      "2.5-slot design allows for greater build compatibility while maintaining cooling performance",
+      "Dual-ball fan bearings last up to twice as long as standard sleeve bearings",
+      "0dB technology lets you enjoy light gaming in relative silence",
+      "Dual BIOS switch lets you toggle between Quiet and Performance BIOS profiles",
+      "Auto-Extreme manufacturing process for precision and reliability GPU Tweak III software provides intuitive performance tweaking, advanced thermal control, and system monitoring"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 5050 graphics card"
+    ]
+  },
+  "B0FG8J867N": {
+    "asin": "B0FG8J867N",
+    "title": "GIGABYTE GeForce RTX 5050 OC Low Profile 8G Graphics Card, 8GB 128-bit GDDR6, PCIe 5.0, Supports up to 4 displays, GV-N5050OC-8GL Video Card",
+    "brand": "GIGABYTE",
+    "price": "$399.99",
+    "img": "https://m.media-amazon.com/images/I/41a7ibm7o1L._SL500_.jpg",
+    "features": [
+      "Powered by the NVIDIA Blackwell architecture and DLSS 4",
+      "Powered by GeForce RTX 5050",
+      "Integrated with 8GB GDDR6 128bit memory interface",
+      "PCIe 5.0",
+      "Low Profile Design with 182mm card length"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RTX 5050 graphics card"
+    ]
+  },
+  "B0BWBHQ2RN": {
+    "asin": "B0BWBHQ2RN",
+    "title": "Sapphire 11310-01-20G Pulse AMD Radeon RX 6600 Gaming Graphics Card with 8GB GDDR6, AMD RDNA 2 (Renewed)",
+    "brand": "Sapphire",
+    "price": "$314.99",
+    "img": "https://m.media-amazon.com/images/I/41v88+MngsL._SL500_.jpg",
+    "features": [
+      "Advanced AMD RDNA 2 Architecture: Experience cutting-edge gaming performance powered by AMD's revolutionary RDNA 2 architecture, delivering enhanced visual fidelity, improved power efficiency, and support for the latest DirectX 12 Ultimate features including hardware-accelerated ray tracing for realistic lighting and shadows",
+      "8GB GDDR6 Memory: Equipped with high-speed 8GB GDDR6 video memory that provides ample bandwidth for smooth gameplay at high resolutions, enabling you to run modern AAA titles with detailed textures and complex visual effects without compromising frame rates",
+      "Radeon RX 6600 Performance: Built on the powerful RX 6600 GPU, this graphics card delivers exceptional 1080p gaming performance with high frame rates, making it ideal for competitive gaming and immersive single-player experiences across a wide range of popular titles",
+      "Sapphire Pulse Cooling: Features Sapphire's Pulse cooling solution designed to maintain optimal operating temperatures during intense gaming sessions, with efficient heat dissipation technology that keeps the card running cool and quiet while maximizing performance stability",
+      "Renewed Quality Assurance: This professionally renewed graphics card has been thoroughly inspected, tested, and restored to full working condition, offering reliable gaming performance while providing an environmentally conscious alternative to purchasing new hardware"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RX 6600 graphics card"
+    ]
+  },
+  "B09HHLX543": {
+    "asin": "B09HHLX543",
+    "title": "XFX Speedster SWFT 210 Radeon RX 6600 CORE Gaming Graphics Card with 8GB GDDR6 HDMI 3xDP, AMD RDNA 2 RX-66XL8LFDQ",
+    "brand": "XFX",
+    "price": "$459.00",
+    "img": "https://m.media-amazon.com/images/I/51WBF48MCHL._SL500_.jpg",
+    "features": [
+      "Memory Speed:14 GBPS.Minimum Power Supply Requirement: 550 watt",
+      "Chipset: AMD RX 6600",
+      "Memory: 8GB GDDR6 AMD RDNA 2 architecture elevates and unifies the gaming",
+      "Boost Clock: Up To 2491MHz.Avoid using unofficial software",
+      "Cooling: XFX Speedster SWFT210 Dual Fan Cooling"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RX 6600 graphics card"
+    ]
+  },
+  "B09M87NQML": {
+    "asin": "B09M87NQML",
+    "title": "XFX Speedster SWFT 210 Radeon RX 6600 CORE Gaming Graphics Card with 8GB GDDR6 HDMI 3xDP, AMD RDNA 2 RX-66XL8LFDQ (Renewed)",
+    "brand": "XFX",
+    "price": "$294.97",
+    "img": "https://m.media-amazon.com/images/I/31khKUAaDDL._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RX 6600 graphics card"
+    ]
+  },
+  "B0CL5ZCH1J": {
+    "asin": "B0CL5ZCH1J",
+    "title": "ASRock AMD Radeon RX 6600 Challenger White 8GB GDDR6 Graphics Card 0dB Silent Cooling 128bit 7680 x 4320 3xDisplayPort 1.4 with DSC 1xHDMI 2.1 VRR",
+    "brand": "ASRock",
+    "price": "$595.00",
+    "img": "https://m.media-amazon.com/images/I/41yF-Yr5XgL._SL500_.jpg",
+    "features": [
+      "Stunning White Design: Premium white color scheme perfect for white-themed builds and aesthetic-focused gaming systems",
+      "Excellent 1080p Gaming Performance: AMD Radeon RX 6600 GPU with 8GB GDDR6 memory delivers smooth, high-frame-rate gaming at 1080p resolution",
+      "Advanced RDNA 2 Architecture: AMD RDNA 2 architecture with hardware-accelerated raytracing and DirectX 12 Ultimate support",
+      "High Clock Speeds: Boost clock up to 2491 MHz and game clock of 2044 MHz with 14 Gbps memory speed for responsive gameplay",
+      "Efficient Dual Fan Cooling: Dual striped axial fans with ultra-fit heatpipes and 0dB silent cooling technology maintain optimal temperatures",
+      "Modern Display Connectivity: Three DisplayPort 1.4 with DSC and one HDMI 2.1 VRR support high-refresh-rate monitors and variable refresh rate technology",
+      "Premium Build Quality: Stylish white metal backplate prevents GPU sag, enhances durability, and improves thermal dissipation",
+      "Energy Efficient Design: Single 8-pin power connector ensures compatibility with a wide range of power supplies and easy upgrade path",
+      "Quiet Operation: 0dB silent cooling feature stops fans during low-load scenarios for completely silent operation during light tasks",
+      "Dedicated Support: Contact us directly through Amazon for any product questions or assistance"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RX 6600 graphics card"
+    ]
+  },
+  "B0BS1G3B7P": {
+    "asin": "B0BS1G3B7P",
+    "title": "AISURIX RX 5500 XT 8gb GDDR6 Graphics Card,128 Bit, 3XDP, HDMI, PCI Express 4.0X8, 8pin with Fan Intelligent System,Gaming PC Computer Video Cards with 3X DisplayPort +1X HDMI (Style 1)",
+    "brand": "AISURIX",
+    "price": "$179.99",
+    "img": "https://m.media-amazon.com/images/I/514P98OEctL._SL500_.jpg",
+    "features": [
+      "🎮【New RNDA architecturearchitecture and Superior Gaminig Experience】 This RX 5500XT 8G Adopting a new RNDA architecture, which brings highly realistic gaming experience. RX 5500XT helps users to pursue the extreme picture and immersive fast game world.",
+      "🖥【Multiple Interfaces and High Defination】The 5500XT graphic card included 3X DisplayPort 1.4a. +1X HDMI 2.0b. RX 5500XT is connected to the rest of the system using a PCI-Express 3.0 x16 interface which has higher resolution,show more character action details and clearer image quality, delivers more higher definition pc gaming effect and experience.",
+      "🔌【Low Consumption and Independently Powered】Being a dual-slot card, the RX 5500XT draws power from 1x 8-pin power connector, with power draw rated at 130 W maximum.If you have any questions about the product, please contact seller support.",
+      "🔇【low noise and Durable】This rx 5500XT 8g pc gaming video card has semi-automatic intelligent fans system, which can automatically sense the GPU temperature. When the GPU temperature is low or under low load, the fans will automatically stop running, providing a comfortable office experience with zero noise and extended service life of this 8g graphic cards.",
+      "🆒【Outstanding Heat Dissipation】Composite heat pipes of this RX 5500XT can directly and greatly contact the GPU core in order to quickly export the core heat, avoiding the problems such as GPU full load frequency reduction and improving the stability and life of long-term use."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "RX 6600 graphics card"
+    ]
+  },
+  "B09K59NT37": {
+    "asin": "B09K59NT37",
+    "title": "maxsun Geforce GTX 1650 4GB Video Graphics Card GPU for Computer Gaming PC GDDR6 128-Bit Dual Fan HDMI/DP/DVI 4K HDCP DirectX 12",
+    "brand": "maxsun",
+    "price": "$199.99",
+    "img": "https://m.media-amazon.com/images/I/41LVSM12p-L._SL500_.jpg",
+    "features": [
+      "Power by All-new NVIDIA turing architecture with 1280 CUDA Cores and 4GB GDDR6 128-bit memory to give you incredible new levels of gaming realism, speed, power efficiency and immersion",
+      "3.5in dual fans offer higher performance cooling and low acoustic noise",
+      "GTX 1650 Chipset, Support Nvidia Technology, avoid using unofficial software.",
+      "Boost Clock / Memory Speed : up to 1590 MHz / 12 Gbps / 4GB GDDR6 / 128bit"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "GTX 1650 graphics card"
+    ]
+  },
+  "B0946B1C57": {
+    "asin": "B0946B1C57",
+    "title": "MSI Gaming GeForce GTX 1650 128-Bit HDMI/DP/DVI 4GB GDRR6 HDCP Support DirectX 12 VR Ready OC ITX Graphics Card (GTX 1650 D6 AERO ITX OC) (Renewed)",
+    "brand": "msi",
+    "price": "$169.97",
+    "img": "https://m.media-amazon.com/images/I/41BnlyH4kjS._SL500_.jpg",
+    "features": [],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "GTX 1650 graphics card"
+    ]
+  },
+  "B0BWMCF6GN": {
+    "asin": "B0BWMCF6GN",
+    "title": "ZER-LON GeForce GTX 1660 Super 6GB Graphics Cards, GDRR6 192Bit PCIE 3.0X16 Computer Gaming Gpu, Dual Freeze Fans Video Card with HDMI/DP/DVI Ports Support 4K and 8K HD",
+    "brand": "ZER-LON",
+    "price": "$194.99",
+    "img": "https://m.media-amazon.com/images/I/51ebJcgR1OL._SL500_.jpg",
+    "features": [
+      "【Amazing Gaminig Experience】GTX 1660 Super graphics card is a mainstream gaming GPU built on the 12 nm process, equipped with 192-Bit and 6GB GDDR6 memory with 14000 MHz. Providing computer enthusiasts with a smoother, higher quality gaming experience.",
+      "【High Definition Display Effect 】GTX 1660S 6GB Graphics Card has 3 monitor support ouput included 1X DVI Port+ 1X Display Port + 1X HDMI Port, can support three monitors. GTX 1660 super is connected to the rest of the system using a PCI-Express 3.0 x16 interface, supports up to 8K display, delivers more higher definition pc gaming effect.",
+      "【Powerful Cooling Performance】ZER LON cooling system uses a combination of traditional grooved and copper powder sintered composite heat pipes that directly contact the GPU core to quickly export core heat. At the same time, the integrated thermal design makes the core, memory, power supply MOS tube and the heatsink fully in contact, effectively reducing the working temperature, avoiding MOS tube overheating caused by full load degradation and other reasons, thus improving the stability and life",
+      "【VR-Ready Graphics】Equipped with advanced technologies, such as NVIDIA VRWorks, the GTX 1660S 6G graphics card provides an excellent virtual reality (VR) gaming experience. It ensures low latency, high compatibility, and stunning visuals for VR applications.",
+      "【What You Will Get】1x GTX 1660 Super 6GB graphics card, 2-Year Limited warranty, Before installing the driver, you must uninstall the old driver first, otherwise it may cause the driver installation to fail. You can download the driver for this graphics card directly from the official website. Select the driver corresponding to your computer's operating system for download and installation. Alternatively, you can use software that automatically installs drivers for the installation process."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "GTX 1650 graphics card"
+    ]
+  },
+  "B092PBJLS3": {
+    "asin": "B092PBJLS3",
+    "title": "MSI Gaming GeForce GTX 1650 128-Bit HDMI/DP/DVI 4GB GDRR6 HDCP Support DirectX 12 VR Ready OC Graphics Card (GTX 1650 D6 Ventus XS OC) (Renewed)",
+    "brand": "msi",
+    "price": "$169.97",
+    "img": "https://m.media-amazon.com/images/I/41tAqWHC7TL._SL500_.jpg",
+    "features": [
+      "Product Type -Video Card",
+      "Package Quantity-1",
+      "Boost Clock- 1620 Mhz",
+      "Output- Dl-Dvi-D X 1 / Displayport X 1 (V1.4) / Hdmi 2.0B X 1"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "GTX 1650 graphics card"
+    ]
+  },
+  "B0CHJF3JJQ": {
+    "asin": "B0CHJF3JJQ",
+    "title": "SRhonyra GTX 1650 4GB Low Profile Graphics Card",
+    "brand": "SRhonyra",
+    "price": "$269.59",
+    "img": "https://m.media-amazon.com/images/I/41PFXcx+pDL._SL500_.jpg",
+    "features": [
+      "Ultra Compact Size Video Card: The SRhonyra GTX 1650 dual monitors 4GB low-profile video card is merely 5.7 (length)×2.7(width)×0.7(height) inches, which is very compact, slim and smaller, you can fit it in a regulare PC or a small case one, SFF chassis, works great as a 2 monitors multitasking workstation, budget home theater system as HTPC or media source for 2 screens display.",
+      "Native 4K Resolution HDMI Output: Powered entirely by the PCIe 3.0 bus, this SFF graphics card will no require any additional power connectors, able to deliver 4K resolution video stream for both HDMI port, running at 3840×2160 @60Hz (single monitor mode) or 7680×4320 @60Hz (dual-monitor mode), worry-free for decreasing display quality.",
+      "Sturdy & Reliable: SRhonyra GTX 1650 multi monitors video card uses industrial grade SMT components, can extreme temperature fluctuations,have much wider operating temperatures,extend the use time,effectively reducing computer purchase cycles and saving the corporation money on a long-term basis on projects like digital signage,led billboard,securities multi-monitors display.",
+      "Blower Style Cooling Method: This Nvidia GTX 1650 4GB LP graphics card made by SRhonyra features blower style cooling method,which expel all their heat directly out of the case instead of releasing it inside the case,so the heat will dissipate quickly, especially useful in small form factor cases, keeping your mini desktop PC cool,ensuring its high performance stably.",
+      "Wide OS Support & Low Power Consumption: This multiple monitors graphics card works well with Windows 11,Windows 10 64bit,Windows 7 64bit,Linux aarch64,Linux 64bit and FreeBSD x64, with a excellent level of 60 Watts under full load."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "GTX 1650 graphics card"
+    ]
+  },
+  "B08CBKQV8C": {
+    "asin": "B08CBKQV8C",
+    "title": "MSI GeForce GTX 1650 Super Ventus XS OC Gaming GeForce GTX 1650 Super 128-Bit HDMI/DP/DVI 4GB GDRR6 HDCP Support DirectX 12 Dual Fan VR Ready OC Graphics Card (GTX 1650 Super Ventus XS OC) (Renewed)",
+    "brand": "msi",
+    "price": "$164.97",
+    "img": "https://m.media-amazon.com/images/I/41j2BVECqWL._SL500_.jpg",
+    "features": [
+      "Chipset: NVIDIA GeForce GTX 1650 Super",
+      "Boost Clock: 1740 MHz",
+      "Memory Interface: 128-bit",
+      "Video Memory: 4GB GDDR6",
+      "Output: DisplayPort x 1 (V1. 4)/ HDMI 2. 0B x 1/ DL-DVI-D x 1"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "GTX 1650 graphics card"
+    ]
+  },
+  "B0CHJKP3S5": {
+    "asin": "B0CHJKP3S5",
+    "title": "SRhonyra GTX 1650 4GB Low Profile Graphics Card",
+    "brand": "SRhonyra",
+    "price": "$258.79",
+    "img": "https://m.media-amazon.com/images/I/31LSAsJ4QUL._SL500_.jpg",
+    "features": [
+      "New Turing Architecture: This GTX 1650 low profile graphics card adopting TU117 12nm technologies processor, 896 CUDA cores, paired with 4GB GDDR5 128 Bit high speed video memory.",
+      "SFF (Small Form Factor) Design: SRhonyra GTX 1650 low profile video card takes 1 slot, 5.7\" in length, 0.71\" thickness, as small as your cell phone, fits well with most small form factor PC cases that might be able to carry in your bag.",
+      "PCI-e Bus Powered: Powered entirely by the PCIe 3.0 bus x16, no require any additional power connectors, allows you plug and play, easy to use. Max power consumption is only 60W.",
+      "Dual-Monitor Outputs: Supports 2-screen outputs simultaneously, HDMI 2.0b supports 4k@60Hz , Display Port 1.4 supports 8k@60Hz, give you more screen real estate, increasing your productivity. Also a good stream source for HTPC, Projector.",
+      "OS Support: This dual display video card can work with OS below: Windows 11/Windows 10 64bit/Windows 7 64bit/Linux aarch64/Linux 64bit/FreeBSD x64. If you have any questions, please feel free to contact us. We will reply you in 48 hours."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "GTX 1650 graphics card"
+    ]
+  },
+  "B0CS68S77J": {
+    "asin": "B0CS68S77J",
+    "title": "GIGABYTE GeForce GTX 1650 D6 OC 4G (rev. 4.0) Graphics Card, 4GB GDDR6 128-bit, GV-N1656OC-4GD REV4.0 Video Card",
+    "brand": "GIGABYTE",
+    "price": "$129.99",
+    "img": "https://m.media-amazon.com/images/I/41bNCEMJoiL._SL500_.jpg",
+    "features": [
+      "Powered by GeForce GTX 1650",
+      "NVIDIA Turing architecture and GeForce Experience",
+      "Integrated with 4GB GDDR6 128bit memory interface",
+      "90mm unique blade fan",
+      "170 mm compact card size"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "GTX 1650 graphics card"
     ]
   }
 }

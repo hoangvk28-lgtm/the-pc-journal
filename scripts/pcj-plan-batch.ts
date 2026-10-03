@@ -17,11 +17,12 @@ import { PLAN as PLAN24 } from "@/data/clusters/batch24-plan";
 import { PLAN as PLAN25 } from "@/data/clusters/batch25-plan";
 import { PLAN as PLAN26 } from "@/data/clusters/batch26-plan";
 import { PLAN as PLAN27 } from "@/data/clusters/batch27-plan";
+import { PLAN as PLAN28 } from "@/data/clusters/batch28-plan";
 import { GROUPS } from "@/data/clusters/batch17-groups";
 import type { Fact } from "@/lib/pc-compose/generic";
 
 const BATCH = process.argv[2] ?? "batch17";
-const PLAN = ({ batch17: PLAN17, batch18: PLAN18, batch19: PLAN19, batch20: PLAN20, batch21: PLAN21, batch22: PLAN22, batch23: PLAN23, batch24: PLAN24, batch25: PLAN25, batch26: PLAN26, batch27: PLAN27 } as const)[BATCH as "batch17" | "batch18" | "batch19" | "batch20" | "batch21" | "batch22" | "batch23" | "batch24" | "batch25" | "batch26" | "batch27"];
+const PLAN = ({ batch17: PLAN17, batch18: PLAN18, batch19: PLAN19, batch20: PLAN20, batch21: PLAN21, batch22: PLAN22, batch23: PLAN23, batch24: PLAN24, batch25: PLAN25, batch26: PLAN26, batch27: PLAN27, batch28: PLAN28 } as const)[BATCH as "batch17" | "batch18" | "batch19" | "batch20" | "batch21" | "batch22" | "batch23" | "batch24" | "batch25" | "batch26" | "batch27" | "batch28"];
 if (!PLAN) throw new Error(`unknown batch ${BATCH}`);
 
 /** Products whose listings are too thin to give three listed strengths; excluded rather than padded. */
@@ -56,6 +57,13 @@ function choose(cands: Fact[], count: number): string[] {
   return [];
 }
 
+// Optional: PREV=<old batch file>. A guide never loses picks on a re-plan: when the new set is smaller than the previous one
+// (and every previous ASIN still exists in the group's facts), the previous ASIN list is kept.
+const prev = new Map<string, string[]>();
+if (process.env.PREV && fs.existsSync(process.env.PREV)) {
+  const text = fs.readFileSync(process.env.PREV, "utf-8");
+  for (const m of text.matchAll(/slug: "([^"]+)"[^\n]*?asins: \[([^\]]*)\]/g)) prev.set(m[1], [...m[2].matchAll(/"([A-Z0-9]{10})"/g)].map((x) => x[1]));
+}
 const out: string[] = [];
 const skipped: string[] = [];
 const usedGroups = new Set<string>();
@@ -63,7 +71,9 @@ for (const item of PLAN) {
   if (existing.has(item.slug) && !planned.has(item.slug)) { skipped.push(`${item.slug}: slug already exists`); continue; }
   const g = GROUPS[item.g];
   const cands = Object.values(g.facts).filter((f) => !EXCLUDE.has(f.asin) && price(f) < Infinity && (item.where ? item.where(f) : true)).sort(sorter(item.sort));
-  const asins = cands.length >= 3 ? choose(cands, item.count ?? 5) : [];
+  let asins = cands.length >= 3 ? choose(cands, item.count ?? 5) : [];
+  const old = prev.get(item.slug);
+  if (old && old.length > asins.length && old.every((a) => g.facts[a])) asins = old;
   if (asins.length < 3) { skipped.push(`${item.slug}: ${cands.length} candidates, no valid set`); continue; }
   sets.push(asins);
   usedGroups.add(item.g);

@@ -1,0 +1,82 @@
+import pool from "@/data/pcj-pool/chairs.json";
+import type { Fact } from "@/lib/pc-compose/generic";
+import { withPool } from "./helpers";
+
+/**
+ * Batch 28 chair fact sheets for chairSchema: name-brand gaming chairs, ergonomic mesh chairs, big-and-tall, folding and
+ * armless chairs. Listing titles and bullets only, reviewed by hand; unstated fields stay undefined. Kids' chairs,
+ * cushions, bundles and listings with no bullets (Secretlab) are skipped.
+ */
+const F = (asin: string, name: string, short: string, specs: Fact["specs"], notes: string[]) => ({ asin, name, short, specs, notes });
+
+export const expand28ChairFacts: Record<string, Fact> = withPool(pool as Record<string, { img?: string; price?: string }>, [
+  // Gaming chairs
+  F("B0BN7FDFVP", "Corsair TC100 Relaxed Gaming Chair (Fabric)", "Corsair TC100 Relaxed", { material: "Fabric", lumbar: "Pillow" }, ["a detachable memory foam neck pillow", "a wide seat with a soft fabric exterior"]),
+  F("B0D47FMZH3", "Corsair TC500 Luxe Gaming Chair", "Corsair TC500 Luxe", { material: "Breathable fabric", arms: "5-way", lumbar: "Built-in, 4-way" }, ["a quilted seat and backrest", "a wide seat"]),
+  F("B0BMBJ1CRF", "Corsair T3 Rush Fabric Gaming Chair (2023)", "Corsair T3 Rush", { material: "Fabric", arms: "4D", lumbar: "Memory-foam pillow" }, ["a padded neck cushion", "a breathable soft fabric exterior"]),
+  F("B0GFPWZ82H", "Razer Iskur V2 X NewGen Gaming Chair", "Razer Iskur V2 X", { capacity: 299, recline: 152, arms: "2D", lumbar: "Built-in", material: "EPU leather" }, ["a butterfly tilt mechanism", "CoolTouch Gen-2 EPU leather"]),
+  F("B0CGH3KY8Y", "Razer Enki Gaming Chair", "Razer Enki", { recline: 152, arms: "4D", lumbar: "Built-in arch", material: "Synthetic leather and fabric" }, ["a wide seat for all-day sitting", "a plush textured fabric core with leather-lined edges"]),
+  F("B0H3XDND95", "Razer Soma Chroma Gaming Chair", "Razer Soma Chroma", { recline: 155, lumbar: "Built-in arch" }, ["reactive RGB lighting", "a backrest that reclines up to 155 degrees"]),
+  F("B0FMYHMVHT", "Anda Seat Kaiser 4 Large (Fabric)", "Anda Kaiser 4 Large", { capacity: 260, recline: 135, arms: "6D", lumbar: "4-level pop-out", material: "Linen fabric" }, ["a 15-degree rocking mode", "a headrest cushion and neck pillow"]),
+  F("B0F8BYWH6N", "Anda Seat Novis Fabric Gaming Chair", "Anda Novis", { capacity: 198, recline: 155, arms: "1D", lumbar: "Raised", material: "Linen fabric" }, ["a 15-degree rocking mode", "a linen fabric that is easy to clean"]),
+  F("B0GWHYT5Q7", "Anda Seat MANA Gaming Chair", "Anda MANA", { capacity: 300, recline: 135, arms: "1D", lumbar: "Lumbar support", material: "PVC leather" }, ["a recline that locks between 60 and 135 degrees", "motorized embroidery on the PVC leather"]),
+  F("B0FYMNRS8Q", "Anda Seat Kaiser 3E Gaming Chair", "Anda Kaiser 3E", { capacity: 265, recline: 155, arms: "4D", material: "PVC leather" }, ["a 15-degree rocking mode", "a fit for users from 5'1\" to 6'11\""]),
+  F("B0GZSSC9HN", "Anda Seat Phantom 4 Pro Fabric Gaming Chair", "Anda Phantom 4 Pro", { capacity: 220, recline: 135, arms: "3D", lumbar: "Auto-tracking", material: "Fabric" }, ["a dynamic auto-tracking lumbar", "a 15-degree rocking mode"]),
+  F("B09SVTX23Y", "Respawn 110 Pro Gaming Chair", "Respawn 110 Pro", { capacity: 275, recline: 155, footrest: "Retractable", lumbar: "Lumbar support" }, ["a cushioned headrest", "a reinforced retractable footrest"]),
+  F("B0D9H3PDSY", "Respawn 900 Gaming Recliner", "Respawn 900", { capacity: 275, recline: 135, footrest: "Built-in", lumbar: "Lumbar support" }, ["a cup holder", "a recliner base without wheels"]),
+  F("B0CK2SXH4G", "Respawn 3085 Gaming Chair", "Respawn 3085", { capacity: 275, arms: "Flip-up", material: "Bonded leather" }, ["an integrated headrest", "flip-up arms for tucking under the desk"]),
+  F("B0DFWGTMBJ", "Homall Gaming Chair with Massage Lumbar Support", "Homall massage chair", { recline: 135, lumbar: "Massage pillow", footrest: "Pull-out", material: "PU leather" }, ["a flexible headrest", "high-density foam padding"]),
+  F("B0DDCKHK1Y", "Dowinx Gaming Chair with Footrest", "Dowinx footrest chair", { recline: 135, lumbar: "Pillow", footrest: "Extendable", material: "Breathable fabric" }, ["a double-layer breathable fabric", "a headrest and lumbar pillow"]),
+  F("B0FKM9BX3Y", "Dowinx Big and Tall Gaming Chair (Suede Fabric)", "Dowinx Big and Tall suede", { capacity: 440, lumbar: "Adjustable pillow", footrest: "Retractable", material: "Suede fabric" }, ["a pocket spring seat cushion", "a 3-inch adjustable lumbar pillow"]),
+  F("B0F4Y4XJKK", "Dowinx Big and Tall Office Chair", "Dowinx Big and Tall", { recline: 135 }, ["a pocket spring seat cushion", "a choice of PU leather or tech cloth"]),
+  F("B0CRYVHQTW", "AutoFull M6 Pro Gaming Chair", "AutoFull M6 Pro", { capacity: 397, recline: 160, arms: "6D", lumbar: "Auto-tracking", footrest: "Integrated", material: "Leather" }, ["ventilated seat heating", "a 3-year warranty"]),
+  F("B0GTLC4DTB", "AutoFull M6 Gaming Chair with Climate Control", "AutoFull M6 Climate", { lumbar: "Active, 3rd-generation", footrest: "Integrated" }, ["a ventilated and heated seat", "lumbar and leg massage and a 3-year warranty"]),
+  F("B0DTT4CSZ6", "GTPLAYER Mesh Back Gaming Chair", "GTPLAYER mesh gaming", { capacity: 300, lumbar: "Pillow", footrest: "Extendable", material: "Mesh" }, ["a breathable mesh back and seat", "an adjustable headrest"]),
+  F("B089B17Z21", "X Rocker Eclipse Gaming Floor Chair", "X Rocker Eclipse", { material: "Vegan leather and mesh" }, ["two headrest-mounted speakers with Bluetooth", "a foldable floor-rocker design"]),
+  F("B0C5QGDSJ9", "X Rocker G-Force RGB Gaming Floor Chair", "X Rocker G-Force RGB", { material: "Vegan leather" }, ["built-in Bluetooth audio with two headrest speakers", "RGB LED lighting and armrests"]),
+  // Office chairs, name brands
+  F("B01DGI2CZ8", "Herman Miller Classic Aeron Chair, Size B", "Herman Miller Aeron", { arms: "Adjustable", lumbar: "Adjustable" }, ["a Posture Fit back support", "sizing for users 5'5\" to 6'2\""]),
+  F("B07NH4GJNZ", "Herman Miller Sayl Chair", "Herman Miller Sayl", { capacity: 350 }, ["an unframed 3D Intelligent suspension back", "adjustable arm height"]),
+  F("B00GBUQ13S", "Steelcase Amia Office Chair", "Steelcase Amia", { arms: "4D", lumbar: "LiveLumbar" }, ["a hidden LiveLumbar system that follows your movement", "4D arm support"]),
+  F("B078HG8HWF", "Steelcase Series 1 Office Chair", "Steelcase Series 1", { lumbar: "Adjustable" }, ["an adjustable headrest", "a carpet-floor caster set"]),
+  F("B0C15C11D9", "Branch Ergonomic Chair", "Branch Ergonomic Chair", { lumbar: "Adjustable", material: "Mesh" }, ["a breathable mesh back", "adjustable seat height"]),
+  F("B0FMGZFVK9", "Branch Ergonomic Chair Pro", "Branch Ergonomic Chair Pro", { arms: "5D", lumbar: "Two-way padded cushion", material: "Mesh" }, ["14 points of adjustment", "a padded two-way lumbar cushion"]),
+  F("B0BWDQX8RH", "Hbada P5 Ergonomic Office Chair", "Hbada P5", { arms: "3D", lumbar: "3D adjustable", footrest: "Yes", material: "Mesh" }, ["a dual-back mesh design", "360-degree rotating armrests"]),
+  F("B0H9RW6V3N", "Hbada E3 Air Ergonomic Office Chair", "Hbada E3 Air", { recline: 140, arms: "4D", lumbar: "3-zone dynamic", material: "Mesh" }, ["a 3D adjustable headrest with 70-degree rotation", "floating lumbar wings that rotate 40 degrees"]),
+  F("B08H1Y8S21", "Hbada Ergonomic Office Chair with Flip-Up Armrests", "Hbada flip-up chair", { arms: "Flip-up", lumbar: "Adjustable", material: "Mesh" }, ["a 5cm lumbar height adjustment", "silent PU wheels"]),
+  F("B07GNDDNMW", "SIHOO M18 Ergonomic Office Chair", "SIHOO M18", { capacity: 330, lumbar: "Adjustable", material: "Mesh" }, ["an adjustable headrest", "a BIFMA-tested build"]),
+  F("B07BDFW1Y7", "SIHOO M57 Ergonomic Office Chair", "SIHOO M57", { capacity: 330, recline: 126, arms: "3D", lumbar: "Adjustable", material: "Mesh" }, ["a headrest that tilts and lifts", "a 90 to 126 degree recline"]),
+  F("B0G5WQ65P2", "SIHOO B100 Mesh Ergonomic Office Chair", "SIHOO B100", { capacity: 300, recline: 135, lumbar: "Adaptive", material: "Mesh" }, ["three lockable recline angles at 110, 125 and 135 degrees", "an adjustable headrest"]),
+  F("B0HBVQYZ42", "SIHOO B300 Pro Ergonomic Office Chair", "SIHOO B300 Pro", { recline: 135, arms: "6D", lumbar: "4D spring-assisted", material: "Mesh" }, ["an oversized 3D headrest", "6D armrests that rotate, slide, lift and flip up"]),
+  F("B0H7HS5JN1", "SIHOO Doro C300 Pro V2", "SIHOO Doro C300 Pro V2", { recline: 135, arms: "8D", lumbar: "Self-adaptive 2.0" }, ["a 3D superwide headrest", "recline locks at 105, 125 and 135 degrees"]),
+  F("B0FXRQQKQK", "ELABEST X100 Ergonomic Mesh Office Chair with Footrest", "ELABEST X100", { arms: "5D flip-up", lumbar: "3D synchro-tilt", footrest: "Extends 18 in", material: "Mesh" }, ["a 28cm 3D headrest", "an 18-inch footrest with two angles"]),
+  // Mid-range, big-and-tall, folding and small
+  F("B00KUPS3JU", "Flash Furniture Mid-Back Mesh Task Chair with Flip-Up Arms", "Flash Furniture mesh task", { arms: "Flip-up", lumbar: "Integrated", material: "Mesh" }, ["a ventilated curved mesh back", "a tilt lock and tension knob"]),
+  F("B008OTQ864", "Flash Furniture Mid-Back Mesh Executive Chair", "Flash Furniture mesh executive", { arms: "Adjustable", material: "Mesh" }, ["a ventilated curved mesh back"]),
+  F("B081P5G756", "Flash Furniture High Back Mesh Executive Chair", "Flash Furniture high-back mesh", { lumbar: "Curved back", material: "Mesh" }, ["a ventilated curved back"]),
+  F("B0764685MJ", "Serta Bryce Executive Office Chair", "Serta Bryce", { capacity: 275, lumbar: "Patented AIR lumbar", material: "Bonded leather" }, ["a well-padded headrest", "perforated bonded leather with mesh surrounds"]),
+  F("B00AVUQQES", "Serta Big and Tall Executive Chair", "Serta Big and Tall", { capacity: 350, lumbar: "Lumbar support", material: "Bonded leather" }, ["a 28.5-inch tall backrest", "a cushioned headrest"]),
+  F("B075B2W56H", "Serta Armless Small Home Desk Chair", "Serta armless mesh", { lumbar: "Lumbar support", material: "Mesh" }, ["an armless frame for small spaces", "a mesh back for airflow"]),
+  F("B00OCSNMO2", "Staples Hyken Ergonomic Mesh Task Chair", "Staples Hyken", { capacity: 250, lumbar: "Lumbar support", material: "Mesh" }, ["a high mesh back", "carpet casters"]),
+  F("B0FY3Z3T4L", "Staples Hyken Ergonomic Mesh Office Chair", "Staples Hyken 400 lb", { capacity: 400, lumbar: "Height-adjustable", material: "Mesh" }, ["a reinforced base for the 400 lb rating", "a durable mesh back"]),
+  F("B0BQBZFM8H", "Big and Tall Home Office Mesh Chair, 400 lb", "400 lb mesh chair", { capacity: 400, recline: 120, lumbar: "Lumbar support", material: "Mesh" }, ["a stepless 90 to 120 degree recline", "a wide mesh seat"]),
+  F("B0DK1RH376", "600 lb Large Heavy Duty Office Chair with 5D Flip Arms", "600 lb flip-arm chair", { capacity: 600, arms: "5D flip-up", lumbar: "Inflatable", material: "PU leather" }, ["a pocket spring seat", "an inflatable lumbar support"]),
+  F("B0GHRWHRJ1", "Furmax Big and Tall Office Chair 500 lb", "Furmax 500 lb", { capacity: 500, arms: "3D flip-up", lumbar: "Inflatable" }, ["an adjustable headrest", "a high-back executive design"]),
+  F("B07KG1GX34", "Big and Tall Office Chair 400 lb with Wide Seat", "400 lb wide-seat chair", { capacity: 400, lumbar: "Lumbar support", arms: "Adjustable" }, ["a wide seat", "adjustable arms"]),
+  F("B0H6D4WCMZ", "Cosauary Big and Tall Office Chair 500 lb", "Cosauary 500 lb", { capacity: 500, arms: "3D", lumbar: "Adjustable", material: "Breathable fabric" }, ["a reinforced base", "SGS-certified components"]),
+  F("B0DK4R3575", "400 lb Executive Office Chair with Flip-Up Armrests", "400 lb flip-up executive", { recline: 120, arms: "Flip-up" }, ["a 90 to 120 degree recline with adjustable rocking tension", "flip-up armrests"]),
+  F("B0D7PLKZFS", "FYLICA Stackable and Foldable Office Chair", "FYLICA folding", { capacity: 300, arms: "Flip-up (90°)", material: "Mesh" }, ["a 15-degree tilt and rock", "a stackable, foldable frame"]),
+  F("B0DHH8CPVR", "Tervo Model U Folding Office Chair", "Tervo Model U", { lumbar: "Detachable", material: "Mesh" }, ["a folding frame for small spaces", "a removable lumbar support"]),
+  F("B0HCZT6JSX", "NEO CHAIR Small Armless Mesh Chair", "NEO CHAIR armless", { material: "Mesh" }, ["an armless design", "a wide high-resilience cushion"]),
+  F("B0GL1Z3MDS", "DUMOS Armless Small Desk Chair", "DUMOS armless", { capacity: 250, material: "Mesh" }, ["an armless design", "a breathable mesh back"]),
+  F("B0HGDLLCRY", "NEO CHAIR Mesh Chair with Flip-Up Arms", "NEO CHAIR flip-up", { arms: "Flip-up", material: "Mesh" }, ["flip-up arms that tuck under the desk", "an elastic mesh back"]),
+  F("B0H32NFNGG", "Ergonomic Mesh Chair with 4D Flip-Up Arms and 3D Headrest", "4D flip-up mesh chair", { arms: "4D flip-up", lumbar: "8-position", material: "Mesh" }, ["a removable 11-position 3D headrest", "an 8-position lumbar with 2.36 inches of travel"]),
+  F("B0DGK4LBX9", "Ergonomic Mesh Chair 330 lb with Flip-Up Armrests", "330 lb flip-up mesh chair", { capacity: 330, recline: 135, arms: "Flip-up (90°)", lumbar: "Adjustable", material: "Mesh" }, ["a 3-inch thick foam seat", "90-degree flip-up armrests"]),
+  F("B092LM15MY", "Yaheetech Ergonomic Office Chair with Headrest", "Yaheetech headrest chair", { capacity: 300, lumbar: "Movable pillow", arms: "Retractable", material: "Mesh" }, ["a large adjustable headrest", "a rocking function"]),
+  F("B0FF3XBWFY", "Marsail Ergonomic Office Chair with 2D Headrest", "Marsail 2D headrest", { capacity: 300, lumbar: "Adjustable pad", material: "Mesh" }, ["a 2D headrest with 45 degrees of movement", "a gas lift and metal base"]),
+  F("B0GKLX951M", "SONGMICS Ergonomic Mesh Office Chair", "SONGMICS mesh chair", { capacity: 331, recline: 105, arms: "Flip-up", lumbar: "Adjustable foam", material: "Mesh" }, ["a headrest and lumbar pad", "a 90 to 105 degree tilt"]),
+  F("B0FN7DY2V7", "Marsail Ergonomic Office Chair with 3D Armrests", "Marsail 3D arms", { capacity: 330, recline: 120, arms: "3D flip-up", lumbar: "Adjustable", material: "Mesh" }, ["an adjustable 2D headrest", "a 90 to 120 degree recline"]),
+  F("B07T291QPJ", "Furmax Executive High Back Chair", "Furmax executive", { lumbar: "Contoured back", material: "PU leather" }, ["a swivel and adjustable tilt"]),
+  F("B0H25BZ1L5", "MALOL Ergonomic Mesh Chair with Footrest", "MALOL footrest chair", { footrest: "Retractable", lumbar: "5-level", material: "Mesh" }, ["a 3D adjustable headrest", "a reclining backrest with a 3-zone lumbar system"]),
+  F("B0BG1H99FB", "FelixKing Ergonomic Mesh Office Chair", "FelixKing mesh chair", { capacity: 300, arms: "Flip-up", lumbar: "Adjustable", material: "Mesh" }, ["a high back with adjustable tilt angles", "flip-up armrests"]),
+]);
