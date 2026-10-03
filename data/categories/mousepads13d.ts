@@ -52,7 +52,7 @@ export const padSchema: CategorySchema = {
 };
 
 export const pad13dFacts: Record<string, Fact> = withPool(P, [
-  F("B0G717LM2Q", "AREYLO Extended Gaming Mouse Pad", "AREYLO", { width: 31.5, depth: 15.7, surface: "Cloth", edge: "Stitched", extra: "Waterproof coating" }, ["stitched edges", "a waterproof coating", "a 31.5 x 15.7 inch size"]),
+  F("B0G717LM2Q", "AREYLO Extended Gaming Mouse Pad", "AREYLO", { width: 31.5, depth: 15.7, thick: 2.5, surface: "Cloth", edge: "Stitched", extra: "Waterproof coating" }, ["stitched edges", "a waterproof coating", "a 31.5 x 15.7 inch size"]),
   F("B08V8BNPR6", "Large Extended Gaming Mouse Pad (31.5 x 15.75 in)", "31.5 x 15.75 pad", { width: 31.5, depth: 15.75, surface: "Cloth", edge: "Stitched", extra: "Water-resistant" }, ["stitched edges", "a water-resistant surface", "a 15.75 inch depth"]),
   F("B0DYK8D295", "Razer Gigantus V2 XXL Mouse Pad", "Gigantus V2 XXL", { thick: 4, surface: "Cloth" }, ["a 4mm thick foam base", "XXL desk coverage"]),
   F("B0885NTLKJ", "Razer Gigantus V2 Large Mouse Pad", "Gigantus V2 Large", { thick: 3, surface: "Cloth" }, ["a 3mm foam base", "a mouse-only large size"]),

@@ -53,7 +53,7 @@ export const keyboards13cFacts: Record<string, Fact> = {
     F("B07G11G2X8", "Redragon K580 VATA", "K580", { layout: "Full-size (104 keys)", switch: "Blue clicky", connection: "Wired" }, ["5 dedicated macro keys", "a media wheel", "on-the-fly macro recording without software"]),
     F("B01NAI2TXC", "Redragon K556 Devarajas", "K556", { layout: "Full-size (104 keys)", switch: "Brown tactile", connection: "Wired" }, ["an aluminum top plate", "hot-swap for 3-pin and 5-pin switches", "plug and play on Windows and Mac"]),
     F("B0FDKPF9QJ", "Redragon K745 PRO Wireless", "K745 PRO", { layout: "Full-size (108 keys)", connection: "2.4GHz, Bluetooth, wired", keycaps: "Translucent PBT" }, ["a gasket mount", "4 hotkeys", "hot-swap for 3-pin and 5-pin switches"]),
-    F("B0GPX33BS2", "Redragon K768 PRO Wireless", "K768 PRO", { layout: "96% (100 keys)", switch: "Custom linear", connection: "2.4GHz, Bluetooth, wired", keycaps: "PBT" }, ["an 8000mAh battery, the largest here", "a control knob", "a gasket mount"]),
+    F("B0GPX33BS2", "Redragon K768 PRO Wireless", "K768 PRO", { layout: "100 keys", switch: "Custom linear", connection: "2.4GHz, Bluetooth, wired", keycaps: "PBT" }, ["an 8000mAh battery, the largest here", "a control knob", "a gasket mount"]),
     F("B0G56TCBT6", "TECKNET Wireless Gaming Keyboard", "TECKNET wireless", { layout: "Full-size", switch: "Quiet membrane", connection: "2.4GHz, wired" }, ["a 4000mAh rechargeable battery", "quick switching between wired and 2.4GHz", "near-silent keys"]),
     F("B08Z6X4NK3", "Logitech G413 SE", "G413 SE", { layout: "Full-size", switch: "Tactile mechanical", connection: "Wired", keycaps: "PBT" }, ["an aluminum top case", "anti-ghosting on gaming keys", "white LED backlighting"]),
   ]),

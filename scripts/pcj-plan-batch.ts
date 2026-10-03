@@ -41,7 +41,7 @@ const maxShared = (pick: string[]) => Math.max(0, ...sets.map((s) => s.filter((x
 const same = (pick: string[]) => sets.some((s) => s.length === pick.length && s.every((x) => pick.includes(x)));
 
 /** Colour or lighting variants of one product must not count as two picks. */
-const colourKey = (f: Fact) => f.name.toLowerCase().replace(/\((white|black|silver|gr[ae]y|off-white)[^)]*\)/g, "").replace(/\b(white|black|silver|gr[ae]y|rgb|argb|pink|blue|red|green|purple|reverse|lcd|snow|evo|digital|v2|oc|se)\b/g, "").replace(/\s+/g, " ").trim();
+const colourKey = (f: Fact) => f.name.toLowerCase().replace(/\((white|black|silver|gr[ae]y|off-white|pink|blue|red|green|purple)[^)]*\)/g, "").replace(/\b(white|black|silver|gr[ae]y|rgb|argb|pink|blue|red|green|purple|reverse|lcd|snow|evo|digital|v2|oc|se)\b/g, "").replace(/\s+/g, " ").trim();
 function choose(cands: Fact[], count: number): string[] {
   for (const limit of [2, 3]) {
     const pick: string[] = [];

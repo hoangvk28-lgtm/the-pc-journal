@@ -330,7 +330,7 @@ export const PLAN: PlanItem[] = [
     "The PS5 needs a Gen4 drive of 5,500MB/s or more with a heatsink. Every pick meets that, ordered from the lowest price.", "Update the PS5 firmware before installing."),
   E("best-gaming-ssd-nvme-gen3", "gaming ssd nvme gen3", "ssd", (f) => /4\.0/.test(s(f, "pcie")) && p(f) <= 90, "price", "Best Budget NVMe SSDs for Older PCs",
     "Gen3 drives are fading; a budget Gen4 drive works in Gen3 slots at Gen3 speed. Every pick is a Gen4 drive that cost $90 or less.", "A Gen4 drive in a Gen3 slot still beats SATA."),
-  E("best-gaming-ssd-portable-usb-c", "gaming ssd portable usb c", "storage", re(/USB-C/i), "price", "Best Portable USB-C SSDs for Gaming",
+  E("best-gaming-ssd-portable-usb-c", "gaming ssd portable usb c", "storage", (f) => re(/USB-C/i)(f) && s(f, "kind") === "SSD", "price", "Best Portable USB-C SSDs for Gaming",
     "A portable USB-C SSD carries a game library between PCs and consoles. Every pick connects over USB-C, ordered from the lowest price.", "Format it for the console before storing games."),
   E("best-128gb-ram", "128gb ram", "ram", (f) => n(f, "capacity") >= 64, "-capacity", "Best High-Capacity RAM Kits",
     "128GB builds usually use two 64GB kits or four sticks; the largest kits here start at 64GB. Every pick is 64GB or more, ordered by capacity.", "Four DIMMs often run slower; check your board's support list."),

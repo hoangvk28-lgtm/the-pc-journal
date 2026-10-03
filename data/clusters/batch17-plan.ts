@@ -71,7 +71,7 @@ export const PLAN: PlanItem[] = [
   { slug: "best-wired-gaming-keyboard", kw: "wired gaming keyboard", g: "gkb", where: wired, sort: "-polling",
     lead: "A wired gaming keyboard never needs charging and usually costs less than a wireless twin. These list a wired connection and are ordered by polling rate.", close: "A detachable cable makes a wired keyboard easier to move and replace." },
   { slug: "best-mechanical-keyboard-for-mac", kw: "mechanical keyboard for mac", g: "gkb", where: re(/mac/i), sort: "price",
-    lead: "A mechanical keyboard for a Mac should list macOS support, so the Command and Option keys map correctly. Every pick here mentions Mac support in its listing.", close: "Look for Mac keycaps or a Mac mode switch if the legends matter to you." },
+    lead: "A mechanical keyboard for a Mac should list macOS support, so the Command and Option keys map correctly. Every pick is sold with macOS support.", close: "Look for Mac keycaps or a Mac mode switch if the legends matter to you." },
   { slug: "best-keyboard-for-gaming", kw: "keyboard for gaming", g: "gkb", sort: "-polling",
     lead: "For gaming, switch type, layout and connection matter more than extra lighting. This set is ordered by listed polling rate.", close: "Hall effect boards with rapid trigger help most in competitive shooters." },
   { slug: "best-gaming-keyboards", kw: "gaming keyboards", g: "gkb", sort: "-price",
@@ -126,7 +126,7 @@ export const PLAN: PlanItem[] = [
   { slug: "best-light-wireless-gaming-headset", kw: "light wireless gaming headset", g: "headset", where: (f) => !wired(f) && n(f, "weight") > 0, sort: "weight",
     lead: "A lighter headset puts less pressure on the top of your head over a long session. These wireless headsets are ordered from the lightest listed weight.", close: "Clamp force matters as much as weight; check for adjustable headbands." },
   { slug: "best-gaming-earbuds", kw: "gaming earbuds", g: "headset", where: inEar, sort: "price",
-    lead: "Gaming earbuds and in-ear monitors trade the boom microphone for a lighter fit and passive noise isolation. Every pick is an in-ear design.", close: "Check whether the listing includes a microphone; many IEMs do not." },
+    lead: "Gaming earbuds and in-ear monitors trade the boom microphone for a lighter fit and passive noise isolation. Every pick is an in-ear design.", close: "Check whether the earbuds include a microphone; many IEMs do not." },
   { slug: "best-bluetooth-headphones-with-mic", kw: "bluetooth headphones with mic", g: "headset", where: (f) => bt(f) && mic(f), sort: "price",
     lead: "Bluetooth headphones with a microphone pair with a phone and a PC for calls and music. These are ordered from the lowest listed price.", close: "For games, a 2.4GHz or wired connection avoids Bluetooth delay." },
   { slug: "best-headset-with-mic-for-pc", kw: "headset with mic for pc", g: "headset", where: (f) => mic(f) && !inEar(f), sort: "price",
@@ -317,7 +317,7 @@ export const PLAN: PlanItem[] = [
 
   // ---------------- Prebuilt and mini PCs ----------------
   { slug: "best-gaming-pc", kw: "gaming pc", g: "prebuilt", sort: "-vram",
-    lead: "A prebuilt gaming PC saves the build but should name every part in its listing. Every pick names its CPU, graphics card, memory and SSD, ordered by VRAM.", close: "Check the warranty terms and who handles repairs." },
+    lead: "A prebuilt gaming PC saves the build but should name every part it contains. Every pick names its CPU, graphics card, memory and SSD, ordered by VRAM.", close: "Check the warranty terms and who handles repairs." },
   { slug: "best-small-form-factor-pc", kw: "small form factor pc", g: "prebuilt", where: re(/mini|sff|compact|small/i), sort: "-vram",
     lead: "A small form factor PC fits a desk or TV stand where a tower will not. Every pick has a mini, compact or small form factor design.", close: "Small cases limit upgrades; buy the configuration you need now." },
   { slug: "best-compact-mini-pc", kw: "compact mini pc", g: "prebuilt", where: re(/mini|compact/i), sort: "price",

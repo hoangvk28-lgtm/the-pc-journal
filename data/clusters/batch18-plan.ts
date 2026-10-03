@@ -59,7 +59,7 @@ export const PLAN: PlanItem[] = [
     lead: "Hall effect keyboards sense key position with magnets instead of metal contacts. Every pick has Hall effect or magnetic switches, ordered by polling rate.", close: "Set actuation per key in the software; deeper settings reduce accidental presses while typing." },
 
   // ---------------- Headsets ----------------
-  { slug: "best-detachable-mic-headsets", kw: "detachable mic headsets", g: "headset", where: re(/detach|removable/i), sort: "price",
+  { slug: "best-detachable-mic-headsets", kw: "detachable mic headsets", g: "headset", where: (f) => re(/detach|removable/i)(f) && !/none/i.test(s(f, "mic")) && !/in-ear/i.test(s(f, "design")), sort: "price",
     lead: "A detachable microphone lets a gaming headset double as everyday headphones. Every pick has a detachable or removable mic.", close: "Keep the mic port cover if one is supplied; it keeps dust out when the mic is off." },
   { slug: "best-wireless-gaming-headsets-2-4ghz", kw: "wireless gaming headsets 2.4ghz", g: "headset", where: (f) => /2\.4|lightspeed|hyperspeed/i.test(s(f, "connection")), sort: "-battery", seo: "Best 2.4GHz Wireless Gaming Headsets",
     lead: "A 2.4GHz dongle gives lower delay than Bluetooth, which matters in games. Every pick has a 2.4GHz connection, ordered by listed battery life.", close: "Plug the dongle into a front USB port or an extension to avoid dropouts." },
@@ -166,7 +166,7 @@ export const PLAN: PlanItem[] = [
   { slug: "best-pny-graphics-cards", kw: "pny graphics cards", g: "gpu", where: re(/\bpny\b/i), sort: "-vram",
     lead: "PNY builds NVIDIA GeForce cards, including compact and XLR8 models. Every pick is a PNY card, ordered by VRAM.", close: "Check card length; PNY's high-end models are long." },
   { slug: "best-cyberpowerpc-gaming-pcs", kw: "cyberpowerpc gaming pcs", g: "prebuilt", where: re(/cyberpower/i), sort: "price", seo: "Best CyberPowerPC Gaming PCs",
-    lead: "CyberPowerPC sells prebuilt systems from RTX 5060 entry builds upward. Every pick is a CyberPowerPC listing that names its CPU, GPU, memory and SSD.", close: "Confirm the warranty terms in the listing you buy." },
+    lead: "CyberPowerPC sells prebuilt systems from RTX 5060 entry builds upward. Every pick is a CyberPowerPC listing that names its CPU, GPU, memory and SSD.", close: "Confirm the warranty terms before you buy." },
   { slug: "best-prebuilt-gaming-pc-under-500", kw: "prebuilt gaming pc under 500", g: "prebuilt", where: (f) => p(f) <= 500, sort: "-ram", seo: "Best Prebuilt Gaming PCs Under $500",
     lead: "Under $500, most gaming PCs are mini PCs with integrated or laptop-class graphics rather than towers with a desktop card. Every pick was $500 or less at the time of writing.", close: "At this price, expect lighter games and esports titles at modest settings." },
   { slug: "best-prebuilt-gaming-pc-under-800", kw: "prebuilt gaming pc under 800", g: "prebuilt", where: (f) => p(f) <= 800, sort: "-vram", seo: "Best Prebuilt Gaming PCs Under $800",

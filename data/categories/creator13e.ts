@@ -54,17 +54,17 @@ export const webcam13eSchema: CategorySchema = {
 
 export const webcam13eFacts = withPool(webcamPool as Pool, [
   F("B09NBWWP79", "Logitech Brio 4K Webcam", "Brio 4K", { res: "4K30", fps: 60, sensor: "Not stated", focus: "Autofocus, 5x digital zoom", privacy: "Privacy shade" }, ["65, 78 and 90-degree field-of-view settings", "Windows Hello face sign-in", "dual microphones"]),
-  F("B0DVZG36J8", "Elgato Facecam 4K", "Facecam 4K", { res: "4K60", fps: 60, sensor: "Sony STARVIS 2", focus: "Fixed focus", privacy: "Lens cap" }, ["4K60 output with HDR", "49mm threads for lens filters", "onboard memory for settings"]),
+  F("B0DVZG36J8", "Elgato Facecam 4K", "Facecam 4K", { res: "4K60", fps: 60, sensor: "Sony STARVIS 2", focus: "Fixed", privacy: "Lens cap" }, ["4K60 output with HDR", "49mm threads for lens filters", "onboard memory for settings"]),
   F("B0CZ6XY78Y", "OBSBOT Tiny 2 Lite 4K PTZ Webcam", "Tiny 2 Lite", { res: "4K30", sensor: "1/2in", focus: "PTZ AI tracking", privacy: "Points down" }, ["AI tracking on a motorized gimbal", "gesture control", "preset positions"]),
   F("B0DDTGY8FG", "Insta360 Link 2C 4K Webcam", "Link 2C", { res: "4K30", sensor: "1/2in", focus: "PDAF, AI auto framing", privacy: "Magnetic privacy cover" }, ["phase-detect autofocus", "HDR", "AI noise cancelling on the mic"]),
   F("B0DDTH3HX8", "Insta360 Link 2 4K PTZ Webcam", "Link 2", { res: "4K30", sensor: "1/2in", focus: "PTZ AI tracking", privacy: "Points down" }, ["a PTZ gimbal with AI tracking", "a 1/2in sensor", "gesture control"]),
-  F("B0CYQ5P6T7", "EMEET S600 4K Webcam", "EMEET S600", { res: "4K30", sensor: "Sony 1/2.55in", focus: "PDAF", privacy: "Privacy cover" }, ["a Sony sensor", "phase-detect autofocus", "a privacy cover"]),
+  F("B0CYQ5P6T7", "EMEET S600 4K Webcam", "EMEET S600", { res: "4K30", fps: 60, sensor: "Sony 1/2.55in", focus: "PDAF", privacy: "Privacy cover" }, ["a Sony sensor", "phase-detect autofocus", "a privacy cover"]),
   F("B0FNBLG4SB", "Razer Kiyo V2 4K Webcam", "Kiyo V2", { res: "4K30", sensor: "Sony STARVIS", focus: "AI framing", privacy: "Not stated" }, ["HDR", "ISO and shutter control in Synapse", "AI framing"]),
-  F("B0CW1S7XP5", "Elgato Facecam MK.2", "Facecam MK.2", { res: "1080p60", fps: 60, sensor: "Not stated", focus: "Fixed focus", privacy: "Privacy shutter" }, ["uncompressed 1080p60 output", "HDR at 1080p30", "a built-in privacy shutter"]),
+  F("B0CW1S7XP5", "Elgato Facecam MK.2", "Facecam MK.2", { res: "1080p60", fps: 60, sensor: "Not stated", focus: "Fixed", privacy: "Privacy shutter" }, ["uncompressed 1080p60 output", "HDR at 1080p30", "a built-in privacy shutter"]),
   F("B0FNBLG4SD", "Razer Kiyo V2 X Webcam", "Kiyo V2 X", { res: "1440p60", fps: 60, sensor: "Not stated", focus: "Autofocus", privacy: "Privacy shutter" }, ["1440p at 60fps", "a built-in microphone", "a privacy shutter"]),
   F("B01LXCDPPK", "Logitech C922x Pro Stream Webcam", "C922x", { res: "1080p30", fps: 60, sensor: "Not stated", focus: "Autofocus", privacy: "None" }, ["720p60 for smoother motion", "dual microphones", "a long track record as a streaming webcam"]),
   F("B0DQ196WLW", "OBSBOT Meet SE Webcam", "Meet SE", { res: "1080p100", fps: 150, sensor: "1/2.8in", focus: "Autofocus", privacy: "Not stated" }, ["1080p at 100fps", "720p at 150fps", "a 1/2.8in sensor"]),
-  F("B09XRC3N91", "Elgato Facecam", "Facecam", { res: "1080p60", fps: 60, sensor: "Not stated", focus: "Fixed focus", privacy: "Lens cover" }, ["an f/2.4 lens", "an 82-degree field of view", "settings stored in onboard memory"]),
+  F("B09XRC3N91", "Elgato Facecam", "Facecam", { res: "1080p60", fps: 60, sensor: "Not stated", focus: "Fixed", privacy: "Lens cover" }, ["an f/2.4 lens", "an 82-degree field of view", "settings stored in onboard memory"]),
   F("B0DMF4GLR8", "OBSBOT Tiny SE Webcam", "Tiny SE", { res: "1080p100", fps: 100, sensor: "Not stated", focus: "PTZ AI tracking", privacy: "Points down" }, ["PTZ AI tracking", "1080p at 100fps", "a compact gimbal"]),
 ]);
 

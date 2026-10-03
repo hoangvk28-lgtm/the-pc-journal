@@ -47,13 +47,13 @@ export const floorMatSchema: CategorySchema = {
 };
 
 export const floorMat13dFacts: Record<string, Fact> = withPool(P, [
-  F("B0893BD69B", "Kuyal Clear Chair Mat for Hardwood Floor (36 x 48 in)", "Kuyal hard floor", { size: "36 x 48 in", area: 1728, floor: "Hard floor", lip: "No" }, ["a clear finish", "a 36 x 48 inch size", "a hard-floor design"]),
+  F("B0893BD69B", "Kuyal Clear Chair Mat for Hardwood Floor (36 x 48 in)", "Kuyal hard floor", { size: "36 x 48 in", area: 1728, floor: "Hard", lip: "No" }, ["a clear finish", "a 36 x 48 inch size", "a hard-floor design"]),
   F("B0CC1ZLDL2", "BesWin Office Chair Mat for Carpet (30 x 48 in)", "BesWin 30 x 48", { size: "30 x 48 in", area: 1440, thick: 2.2, floor: "Carpet" }, ["2.2mm thickness", "3mm studs underneath", "a 30 x 48 inch size"]),
   F("B01N99XMM2", "HON Heavy Duty Chair Mat for Carpet", "HON", { size: "36 x 48 in", area: 1728, thick: 2.2, floor: "Carpet up to 1/4 in", lip: "Yes" }, ["an extended lip", "a 2.2mm plastic mat", "carpet up to 1/4 inch pile"]),
-  F("B08FCDNGYB", "Yecaye Office Chair Mat for Hardwood Floor", "Yecaye", { size: "36 x 48 in", area: 1728, thick: 1.8, floor: "Hard floor" }, ["a 48 x 36 inch size", "a 0.07 inch profile", "a hard-floor design"]),
+  F("B08FCDNGYB", "Yecaye Office Chair Mat for Hardwood Floor", "Yecaye", { size: "36 x 48 in", area: 1728, thick: 1.8, floor: "Hard" }, ["a 48 x 36 inch size", "a 0.07 inch profile", "a hard-floor design"]),
   F("B0C8M2JCHR", "Chair Mat for Low Pile Carpet (47.5 x 35.5 in)", "low-pile carpet mat", { size: "47.5 x 35.5 in", area: 1686, floor: "Carpet up to 1/4 in" }, ["studs on the underside", "low-pile carpet up to 1/4 inch", "a 47.5 x 35.5 inch size"]),
   F("B0F1R227SY", "Staples Office Chair Mat with Lip for Flat-Pile Carpet", "Staples", { size: "48 x 36 in", area: 1728, floor: "Carpet up to 1/8 in", lip: "Yes" }, ["a lip", "flat-pile commercial carpet up to 1/8 inch", "a 48 x 36 inch size"]),
-  F("B0CSKKMDSP", "MuArts Thick Crystal Clear Chair Mat", "MuArts", { size: "Four sizes, 32 x 54 to 47 x 59 in", thick: 5, floor: "Carpet or hard floor" }, ["a 1/5 inch thickness", "a 14 lb weighted build", "sizes from 32 x 54 to 47 x 59 inches"]),
+  F("B0CSKKMDSP", "MuArts Thick Crystal Clear Chair Mat", "MuArts", { size: "Four sizes, 32 x 54 to 47 x 59 in", thick: 5, floor: "Carpet or hard" }, ["a 1/5 inch thickness", "a 14 lb weighted build", "sizes from 32 x 54 to 47 x 59 inches"]),
   F("B0CC1ZGMKV", "BesWin Office Chair Mat for Carpet (48 x 60 in)", "BesWin 48 x 60", { size: "48 x 60 in", area: 2880, thick: 2.2, floor: "Carpet" }, ["a 48 x 60 inch size", "2.2mm thickness", "3mm studs underneath"]),
   F("B0BNP1BX45", "Gorilla Grip Office Chair Mat for Carpet", "Gorilla Grip", { size: "29 x 47 in", area: 1363, thick: 2.3, floor: "Carpet", lip: "No" }, ["a 400 lb tested load", "a 0.09 inch thickness", "a 29 x 47 inch size without a lip"]),
 ]);
