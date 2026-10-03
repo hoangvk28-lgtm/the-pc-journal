@@ -60,8 +60,8 @@ export const PLAN: PlanItem[] = [
     [250, 100, "-cores", "Under $250 a CPU covers mid-range processors from both AMD and Intel for gaming and everyday work.", "Match the socket to your motherboard, and check whether the cooler is in the box."],
     [350, 250, "-boost", "From $250 to $350 you find higher-core-count processors from AMD and Intel.", "Check that your motherboard's BIOS supports the processor before you buy."],
   ], "Every processor cost $LO to $N when we checked and lists its core count and socket."),
-  ...tiers("graphics-cards", "graphics cards", "Graphics Cards", "gpu", any, [
-    [350, 0, "price", "Under $350 a graphics card is aimed at 1080p play, with 4GB to 12GB of video memory.", "Check the card's length and your power supply's connectors before ordering."],
+  ...tiers("graphics-cards", "graphics cards", "Graphics Cards", "gpu", (f: Fact) => Number(f.specs.vram ?? 0) >= 8, [
+    [350, 220, "price", "From $220 to $350 a graphics card is aimed at 1080p and entry 1440p play, with 8GB or more of video memory.", "Check the card's length and your power supply's connectors before ordering."],
     [1200, 700, "-vram", "Up to $1,200 you reach high-end cards with 16GB or more of video memory for 1440p and 4K play.", "Check case clearance and power connectors; these cards are large and draw a lot of power."],
   ], "Every card cost $LO to $N when we checked and lists its chip and video memory."),
   ...tiers("gaming-mice", "gaming mice", "Gaming Mice", "gmouse", any, [

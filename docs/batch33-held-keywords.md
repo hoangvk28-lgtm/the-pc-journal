@@ -15,3 +15,4 @@ Tiers planned for batch 33 that were not published. No new Amazon searches were 
 
 Skipped because the slug already exists under another wording: none of the requested tiers.
 Removed from the pool for thin listings (under 100 words of "Why we like it") or wrong audience: see `data/clusters/exclude-thin.json`.
+- best-graphics-cards-under-350: dropped after requiring 8GB or more of video memory (too few distinct 8GB cards in the band; the site already has GPU guides under $300 and $400).
