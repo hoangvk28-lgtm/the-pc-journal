@@ -792,4 +792,8 @@ export const WHY_EXTRA: Record<string, string> = {
   B0F9T177KZ: "Dual-angle tilt support lets you raise the back of the board for typing or leave it lower for games. The maker's software handles macros, key remapping and 16 RGB lighting effects.",
   B0FKCYLM55: "The halves are a split mechanical design with hot-swap sockets, so you can change the switches later. Every key is programmable, and a detachable palm support is included.",
   B0H4V55VTL: "It has 46 keys in a columnar-staggered layout, so numbers, function keys and most symbols live on layers you set up in QMK or VIA. The maker gives the thickness as 1.72cm, which keeps it easy to carry.",
+  // Batch 36
+  B0H29LQLF6: "It doubles as a portable dock, and its compact size fits a backpack for travel. It accepts a USB-C source at up to 4K at 60Hz or 1440p at 120Hz and passes it through to a display over HDMI. USB-A recording tops out at 4K30 or 1080p60, and it works with OBS Studio on Windows, macOS and Linux without drivers.",
+  B0GHV4K8ZF: "It mirrors your game to a TV or monitor at up to 4K at 60Hz over HDMI while it captures through the USB-C port. Capture formats include MJPEG up to 4K60 and YUY2 up to 4K at 25Hz. The listing names Switch 2 in dock mode, Steam, laptops, tablets and phones that send video over USB-C DisplayPort Alt Mode.",
+  B0F9FN7PYY: "HDR applies to the pass-through signal only; the recording or stream is up to 1080p at 60fps. Its HDMI 2.0 pass-through supports up to 1440p144 HDR or 1080p240 HDR, and a USB 3.0 Type-C cable carries the capture to a Windows or macOS computer. AVerMedia says it is made in Taiwan and tested to FCC Part 15 Class B limits.",
 };

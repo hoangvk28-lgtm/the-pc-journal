@@ -145,7 +145,7 @@ export const ssdSchema: CategorySchema = {
   id: "ssd",
   plural: "Drives",
   fields: [
-    { key: "read", label: "Sequential read", noun: "rated read speed", better: "higher", superlative: ["fastest", "slowest"], fmt: (v) => `${Number(v).toLocaleString("en-US")}MB/s`, strength: (v) => (Number(v) >= 14000 ? `PCIe 5.0 read speeds up to ${Number(v).toLocaleString("en-US")}MB/s` : undefined), weakness: (v) => (Number(v) <= 5500 ? `Slower ${Number(v).toLocaleString("en-US")}MB/s rated reads` : undefined) },
+    { key: "read", label: "Sequential read", noun: "rated read speed", better: "higher", superlative: ["fastest", "slowest"], fmt: (v) => `${Number(v).toLocaleString("en-US")}MB/s`, strength: (v) => (Number(v) >= 14000 ? `PCIe 5.0 read speeds up to ${Number(v).toLocaleString("en-US")}MB/s` : undefined), weakness: (v) => (Number(v) <= 5500 && Number(v) > 700 ? `Slower ${Number(v).toLocaleString("en-US")}MB/s rated reads` : undefined) },
     { key: "write", label: "Sequential write", noun: "rated write speed", better: "higher", superlative: ["fastest", "slowest"], fmt: (v) => `${Number(v).toLocaleString("en-US")}MB/s` },
     { key: "tbw", label: "Endurance", noun: "rated endurance", better: "higher", superlative: ["highest", "lowest"], fmt: (v) => `${Number(v).toLocaleString("en-US")}TBW`, strength: (v) => (Number(v) >= 2000 ? `${Number(v).toLocaleString("en-US")}TBW endurance rating` : undefined) },
     { key: "pcie", label: "Interface", fmt: (v) => String(v), weakness: (v) => (/5\.0/.test(String(v)) ? "Needs a PCIe 5.0 M.2 slot to reach its rated speed" : undefined) },
@@ -155,6 +155,16 @@ export const ssdSchema: CategorySchema = {
     { key: "capacity", label: "Capacity", fmt: (v) => `${v}TB` },
   ],
   compat: (f) => {
+    const form = String(f.specs.pcie);
+    if (/SATA/i.test(form)) {
+      return ["It is a SATA 2.5-inch drive, so it needs a free 2.5-inch bay or a mounting bracket plus a SATA data port and a SATA power connector from the power supply.", "Its speed is capped by the SATA interface at about 560MB/s, so it runs the same in any SATA III port."];
+    }
+    if (/2230|2242/.test(form)) {
+      const len = /2230/.test(form) ? "2230 (30mm)" : "2242 (42mm)";
+      const s = [`It is an M.2 ${len} drive, shorter than the 2280 drives in most desktops; check your device's documentation for the M.2 length it accepts before ordering.`];
+      s.push(f.specs.heatsink ? "It ships with its own heatsink, so check the clearance under your handheld's SSD shield or cover before fitting it." : "It has no bulky heatsink, which helps it fit under a handheld's SSD shield; move the original thermal pad or shielding across if your device uses one.");
+      return s;
+    }
     const s = ["It is an M.2 2280 drive, the standard length on desktop boards; check which of your board's slots it goes in, as some share lanes with SATA ports."];
     if (/5\.0/.test(String(f.specs.pcie))) s.push("Use a PCIe 5.0 M.2 slot, usually the one closest to the CPU, and a board heatsink or the drive's own; in a PCIe 4.0 slot it runs at 4.0 speed.");
     else s.push("It runs at full speed in any PCIe 4.0 M.2 slot and still works, slower, in a PCIe 3.0 slot.");

@@ -58,6 +58,10 @@ import { expand28WebcamFacts } from "@/data/categories/expand28-webcam";
 import { expand28PadFacts } from "@/data/categories/expand28-pad";
 import { expand28CaseFacts } from "@/data/categories/expand28-case";
 import { expand28SpeakerFacts } from "@/data/categories/expand28-speaker";
+import { m2SinkSchema, m2SinkFacts } from "@/data/categories/acc36-m2sink";
+import { handheld36Facts, sata36Facts, ssd8tb36Facts, laptop36Facts, tagLaptop } from "@/data/categories/acc36-ssd";
+import { microsdSchema, microsdFacts, nasSchema, nasFacts } from "@/data/categories/acc36-storage";
+import { hubSchema, hubFacts, usbCardSchema, usbCardFacts, capture36Facts } from "@/data/categories/acc36-pc";
 import type { Group } from "./batch17-lib";
 
 /** Fact groups for the batch 17 pipeline: each pairs a schema with the reviewed facts older guides already use. */
@@ -111,6 +115,14 @@ export const GROUPS = {
   aio: { schema: aioSchema, facts: aioFacts, category: "components", noun: "liquid coolers", related: ["best-360mm-aio-coolers", "best-240mm-aio-coolers", "best-cpu-coolers"] },
   paste: { schema: pasteSchema, facts: { ...pasteFacts, ...paste20Facts }, category: "components", noun: "thermal pastes", related: ["best-thermal-pastes", "best-cpu-coolers", "best-air-coolers"] },
   psu: { schema: psuGenericSchema, facts: psuGenericFacts, category: "components", noun: "power supplies", related: ["best-power-supplies", "best-850w-power-supplies", "best-sfx-power-supplies"] },
+  // ---- batch 36 groups
+  ssd36: { schema: ssdxSchema, facts: { ...tagLaptop({ ...ssd18Facts, ...expand28SsdFacts, ...fill34SsdFacts }), ...handheld36Facts, ...sata36Facts, ...ssd8tb36Facts, ...laptop36Facts }, category: "components", noun: "SSDs", related: ["best-ssds", "best-ssds-for-gaming", "best-2230-ssds-for-steam-deck"] },
+  microsd: { schema: microsdSchema, facts: microsdFacts, category: "components", noun: "microSD cards", related: ["best-portable-ssds-for-steam-deck", "best-2230-ssds-for-steam-deck", "best-external-ssd-for-gaming"] },
+  nas: { schema: nasSchema, facts: nasFacts, category: "components", noun: "NAS hard drives", related: ["best-hard-drives-for-gaming", "best-external-hard-drive-for-backup", "how-to-choose-drives-for-a-nas"] },
+  m2sink: { schema: m2SinkSchema, facts: m2SinkFacts, category: "components", noun: "M.2 SSD heatsinks", related: ["best-gaming-ssd-with-heatsink", "best-ssds-for-gaming", "do-you-need-an-m-2-ssd-heatsink"] },
+  hub: { schema: hubSchema, facts: hubFacts, category: "peripherals", noun: "USB-C hubs", related: ["usb-hub-vs-usb-c-dock", "best-external-storage-for-laptop", "best-pc-cases-with-usb-c"] },
+  usbcard: { schema: usbCardSchema, facts: usbCardFacts, category: "components", noun: "PCIe USB cards", related: ["how-to-choose-a-pcie-usb-expansion-card", "best-motherboards-with-fast-networking", "best-external-ssd"] },
+  stream36: { schema: stream13eSchema, facts: { ...stream18Facts, B0FFTFYGLV: { ...stream18Facts.B0FFTFYGLV, specs: { ...stream18Facts.B0FFTFYGLV.specs, switch2: true } }, ...capture36Facts } as Record<string, Fact>, category: "peripherals", noun: "capture cards", related: ["best-capture-card-for-streaming", "best-capture-cards-for-ps5", "best-usb-c-capture-cards"] },
 } satisfies Record<string, Group>;
 
 export type GroupId = keyof typeof GROUPS;
