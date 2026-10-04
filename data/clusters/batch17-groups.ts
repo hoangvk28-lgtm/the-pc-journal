@@ -62,6 +62,13 @@ import { m2SinkSchema, m2SinkFacts } from "@/data/categories/acc36-m2sink";
 import { handheld36Facts, sata36Facts, ssd8tb36Facts, laptop36Facts, tagLaptop } from "@/data/categories/acc36-ssd";
 import { microsdSchema, microsdFacts, nasSchema, nasFacts } from "@/data/categories/acc36-storage";
 import { hubSchema, hubFacts, usbCardSchema, usbCardFacts, capture36Facts } from "@/data/categories/acc36-pc";
+import { padsSchema, pads37Facts } from "@/data/categories/acc37-thermal";
+import { hubSchema as fanHubSchema, argbSchema, hub37Facts, argb37Facts } from "@/data/categories/acc37-hubs";
+import { riserSchema37, riser37Facts } from "@/data/categories/acc37-riser";
+import { wifiSchema, wifi37Facts } from "@/data/categories/acc37-wifi";
+import { upsSchema, surgeSchema, ups37Facts, surge37Facts } from "@/data/categories/acc37-power";
+import { lightBarSchema, matSchema, lightBar37Facts, mat37Facts } from "@/data/categories/acc37-desk";
+import { fans37Facts } from "@/data/categories/acc37-fans";
 import type { Group } from "./batch17-lib";
 
 /** Fact groups for the batch 17 pipeline: each pairs a schema with the reviewed facts older guides already use. */
@@ -123,6 +130,16 @@ export const GROUPS = {
   hub: { schema: hubSchema, facts: hubFacts, category: "peripherals", noun: "USB-C hubs", related: ["usb-hub-vs-usb-c-dock", "best-external-storage-for-laptop", "best-pc-cases-with-usb-c"] },
   usbcard: { schema: usbCardSchema, facts: usbCardFacts, category: "components", noun: "PCIe USB cards", related: ["how-to-choose-a-pcie-usb-expansion-card", "best-motherboards-with-fast-networking", "best-external-ssd"] },
   stream36: { schema: stream13eSchema, facts: { ...stream18Facts, B0FFTFYGLV: { ...stream18Facts.B0FFTFYGLV, specs: { ...stream18Facts.B0FFTFYGLV.specs, switch2: true } }, ...capture36Facts } as Record<string, Fact>, category: "peripherals", noun: "capture cards", related: ["best-capture-card-for-streaming", "best-capture-cards-for-ps5", "best-usb-c-capture-cards"] },
+  tpad: { schema: padsSchema, facts: pads37Facts, category: "components", noun: "GPU thermal pads", related: ["best-thermal-pastes", "best-thermal-paste-for-cpu", "best-graphics-cards"] },
+  revfan: { schema: fanSchema, facts: { ...fans37Facts, ...only({ ...fans18Facts, ...fans31Facts }, (f) => /reverse/i.test(f.name)) }, category: "components", noun: "reverse-blade fans", related: ["best-case-fans", "best-argb-case-fans", "best-pc-cooling-fan"] },
+  fanhub: { schema: fanHubSchema, facts: hub37Facts, category: "components", noun: "PWM fan hubs", related: ["best-case-fans", "best-argb-case-fans", "best-pc-cases"] },
+  argbctl: { schema: argbSchema, facts: argb37Facts, category: "components", noun: "ARGB controllers", related: ["best-argb-case-fans", "best-case-fans", "best-pc-cases"] },
+  riser37: { schema: riserSchema37, facts: riser37Facts, category: "components", noun: "PCIe riser cables", related: ["best-graphics-cards", "best-pc-cases", "best-case-fans"] },
+  wifi: { schema: wifiSchema, facts: wifi37Facts, category: "components", noun: "PCIe Wi-Fi cards", related: ["best-motherboards-with-fast-networking", "best-am5-motherboards", "best-motherboards-with-pcie-5-0"] },
+  ups: { schema: upsSchema, facts: ups37Facts, category: "components", noun: "UPS units", related: ["best-power-supplies", "best-850w-power-supplies", "best-pc-cases"] },
+  surge: { schema: surgeSchema, facts: surge37Facts, category: "peripherals", noun: "surge protectors", related: ["best-power-supplies", "best-850w-power-supplies", "best-monitor-arm"] },
+  lightbar: { schema: lightBarSchema, facts: lightBar37Facts, category: "peripherals", noun: "monitor light bars", related: ["best-monitor-arm", "best-monitor-stand-riser", "best-gaming-monitor"] },
+  smat: { schema: matSchema, facts: mat37Facts, category: "peripherals", noun: "standing desk mats", related: ["best-floor-mat-for-office-chair", "best-monitor-arm", "best-office-chair-for-lower-back-pain"] },
 } satisfies Record<string, Group>;
 
 export type GroupId = keyof typeof GROUPS;

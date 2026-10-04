@@ -17,7 +17,8 @@
       "Arctic MX-4 thermal paste 4g",
       "Thermalright TF7 thermal paste",
       "Arctic Silver Ceramique 2",
-      "be quiet DC2 thermal paste"
+      "be quiet DC2 thermal paste",
+      "ARCTIC MX-6 thermal paste"
     ]
   },
   "B0795DP124": {
@@ -35,7 +36,8 @@
     ],
     "fetchedAt": "2026-09-27",
     "queries": [
-      "Arctic MX-4 thermal paste 4g"
+      "Arctic MX-4 thermal paste 4g",
+      "ARCTIC MX-6 thermal paste"
     ]
   },
   "B09VDL3CW6": {
@@ -54,7 +56,8 @@
     "fetchedAt": "2026-09-27",
     "queries": [
       "Arctic MX-4 thermal paste 4g",
-      "Arctic MX-6 thermal paste 8g"
+      "Arctic MX-6 thermal paste 8g",
+      "ARCTIC MX-6 thermal paste"
     ]
   },
   "B07LDK4F5R": {
@@ -92,7 +95,8 @@
     "fetchedAt": "2026-09-27",
     "queries": [
       "Arctic MX-6 thermal paste 8g",
-      "Arctic Silver 5 thermal compound"
+      "Arctic Silver 5 thermal compound",
+      "ARCTIC MX-6 thermal paste"
     ]
   },
   "B09VDKSMQL": {
@@ -129,7 +133,8 @@
     ],
     "fetchedAt": "2026-09-27",
     "queries": [
-      "Arctic MX-6 thermal paste 8g"
+      "Arctic MX-6 thermal paste 8g",
+      "ARCTIC MX-6 thermal paste"
     ]
   },
   "B0FT2TC2NW": {
@@ -155,7 +160,8 @@
       "Thermalright TF7 thermal paste",
       "be quiet DC2 thermal paste",
       "SYY thermal paste",
-      "ID-COOLING Frost X45 thermal paste"
+      "ID-COOLING Frost X45 thermal paste",
+      "ARCTIC MX-6 thermal paste"
     ]
   },
   "B0FT2TYMR6": {
@@ -174,7 +180,8 @@
     "fetchedAt": "2026-09-27",
     "queries": [
       "Arctic MX-7 thermal paste 20g",
-      "Arctic MX-4 thermal paste kit with cleaning wipes"
+      "Arctic MX-4 thermal paste kit with cleaning wipes",
+      "ARCTIC MX-6 thermal paste"
     ]
   },
   "B0FT2XSPSN": {
@@ -193,7 +200,8 @@
     "fetchedAt": "2026-09-27",
     "queries": [
       "Arctic MX-7 thermal paste 20g",
-      "Arctic Silver Ceramique 2"
+      "Arctic Silver Ceramique 2",
+      "ARCTIC MX-6 thermal paste"
     ]
   },
   "B0B1DMJQZ1": {
@@ -359,7 +367,8 @@
     ],
     "fetchedAt": "2026-09-27",
     "queries": [
-      "Thermal Grizzly Kryonaut 5.55g"
+      "Thermal Grizzly Kryonaut 5.55g",
+      "thermal paste for GPU repaste"
     ]
   },
   "B00ZJS8Q6S": {
@@ -398,7 +407,8 @@
     ],
     "fetchedAt": "2026-09-27",
     "queries": [
-      "Thermal Grizzly Kryonaut Extreme"
+      "Thermal Grizzly Kryonaut Extreme",
+      "thermal paste for GPU repaste"
     ]
   },
   "B08T1K4NJ1": {
@@ -434,7 +444,9 @@
     ],
     "fetchedAt": "2026-09-27",
     "queries": [
-      "Thermal Grizzly Kryonaut Extreme"
+      "Thermal Grizzly Kryonaut Extreme",
+      "thermal paste for GPU repaste",
+      "ARCTIC MX-6 thermal paste"
     ]
   },
   "B0DJ3HNF7F": {
@@ -720,7 +732,8 @@
     "fetchedAt": "2026-09-27",
     "queries": [
       "Corsair XTM50 thermal paste",
-      "Corsair XTM70 thermal paste"
+      "Corsair XTM70 thermal paste",
+      "thermal paste for GPU repaste"
     ]
   },
   "B07KQ1T158": {
@@ -741,7 +754,8 @@
     "fetchedAt": "2026-09-27",
     "queries": [
       "Corsair XTM50 thermal paste",
-      "Corsair XTM70 thermal paste"
+      "Corsair XTM70 thermal paste",
+      "thermal paste for GPU repaste"
     ]
   },
   "B0BFF1T9PD": {
@@ -974,7 +988,8 @@
     ],
     "fetchedAt": "2026-09-27",
     "queries": [
-      "Thermalright TFX thermal paste"
+      "Thermalright TFX thermal paste",
+      "thermal paste for GPU repaste"
     ]
   },
   "B0BPKTNPL3": {
@@ -1260,7 +1275,8 @@
     ],
     "fetchedAt": "2026-09-27",
     "queries": [
-      "Honeywell PTM7950 thermal pad"
+      "Honeywell PTM7950 thermal pad",
+      "thermal paste for GPU repaste"
     ]
   },
   "B0BRJB8JNX": {
@@ -1661,6 +1677,81 @@
     "fetchedAt": "2026-09-27",
     "queries": [
       "Arctic TP-3 thermal pad"
+    ]
+  },
+  "B0GY46NH4P": {
+    "asin": "B0GY46NH4P",
+    "title": "TR AT7 Thermal Paste 2.5g, 12.9W/mK CPU GPU Compound",
+    "brand": "TR",
+    "price": "$3.99",
+    "img": "https://m.media-amazon.com/images/I/31r7pl7bD6L._SL500_.jpg",
+    "features": [
+      "Made for CPU and GPU repasting, AT7 helps fill the gap between the chip surface and cooler base for better heat transfer during PC builds, upgrades, or maintenance",
+      "12.9W/mK thermal conductivity gives this paste a solid performance base for desktop CPUs, graphics cards, chipsets, laptops, and heatsink contact surfaces",
+      "Smooth texture spreads more easily than thick, dry paste, making it easier to apply a thin layer when installing a new cooler or replacing old compound",
+      "Non-conductive formula is easier to handle around nearby motherboard, CPU, and GPU components during careful installation or routine repair work",
+      "Includes one 2.5g tube of AT7 thermal paste and one spatula, giving you what you need for a CPU cooler install, GPU repaste, or basic PC maintenance"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "thermal paste for GPU repaste"
+    ]
+  },
+  "B0F4M5DZK9": {
+    "asin": "B0F4M5DZK9",
+    "title": "Thermal Paste for Computer CPU GPU Laptop 12.8W/mk Made in USA 4 Gram High Thermal Conductivity - Non Corrosive/Non-Conductive All Processor",
+    "brand": "Meta Online LLC",
+    "price": "$5.49",
+    "img": "https://m.media-amazon.com/images/I/21ZEMAzNKoL._SL500_.jpg",
+    "features": [
+      "Thermal Conductity 12.8 W/mK - 4 Gram Compound - USA Made With Premium Materials",
+      "Non-Conductive Formula: Safe to use on all types of CPUs and GPUs without the risk of electrical shorts.",
+      "Model Name USTP128-4 / Great for Laptop, Desktop, Graphics card, Game consoles etc.",
+      "Easy to Apply :Comes with a user-friendly syringe for precise application, minimizing mess and waste. It has great viscosity to spread on the area(CPU, GPU or IC Chips)",
+      "Excellent Performance for most electronics devices: Laptop, Desktop, Xbox series S, Xbox Series X, Xbox One X, One S, Graphics Cards(GPU), PS4 series (Not for PS5)",
+      "Easy to Apply: The thixotropic index of 340-380 and low viscosity make it easy to apply and remove, reducing the risk of damaging the components",
+      "Long-Lasting Performance: Formulated to withstand high temperatures and maintain its effectiveness over time."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "thermal paste for GPU repaste"
+    ]
+  },
+  "B0GR9ND7ZC": {
+    "asin": "B0GR9ND7ZC",
+    "title": "HiSolo 2‑Pack 8g Total (4g Each) 13W/m‑K High‑Grade Thermal Paste Kit",
+    "brand": "HiSolo",
+    "price": "$3.32",
+    "img": "https://m.media-amazon.com/images/I/41xCru-nL2L._SL500_.jpg",
+    "features": [
+      "EFFICIENT HEAT TRANSFER: Carbon-based thermal compound fills microscopic surface gaps to conduct heat between processor and cooler. Suitable for PC builders, Overclockers And Technical Staff, it works for daily hardware upgrades, equipment maintenance and high-load computing scenarios",
+      "ULTRA-SMOOTH CONSISTENCY: We refined our silicone oil formula after gathering countless real-user pain points and complaints. This creamy thermal paste spreads effortlessly without stiffening, efficiently filling tiny surface gaps to deliver excellent heat dissipation, with a maximum thermal conductivity of 13W/mk",
+      "COMPLETE CLEAN APPLICATION KIT: Includes two 4g thermal paste tubes for repeated use, 3 different-sized precision spreaders for even application on most CPUs, 12 cleaning wipes to wipe away residual old thermal paste, and 6 finger cots for contamination-free installation",
+      "UNIVERSAL FIT, GREAT VALUE: Compatible with Intel/AMD CPUs, GPUs, laptops, PS5, Xbox, as well as 3D printer hot blocks, thermowells, RTD sensors and thermistors. 8g total delivers about 5-6 desktop or 8-9 laptop CPU applications, a smart upgrade over single-tube purchases",
+      "SAFE & LONG-LASTING - Non-conductive: metal-free formula avoids short circuits. Resists drying and cracking for long-term stable performance, reducing frequent reapplication. Works for CPU, GPU, desktop, laptop, PS5 and Xbox cooling maintenance",
+      "WIDE SCENE & CROWD APPLICATION: Thermal Paste for All Cooler Heatsinks Compatible with most CPU and GPU cooler heatsinks as well as air coolers. Perfect for DIY PC builders, gamers, professional repair technicians, corporate IT maintenance engineers, school computer lab administrators, live streamers and regular office users for computer and gaming equipment maintenance"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "thermal paste for GPU repaste"
+    ]
+  },
+  "B0FT2TSY47": {
+    "asin": "B0FT2TSY47",
+    "title": "ARCTIC MX-7 (2 g) - Ultimate Performance Thermal Paste, Long Durability",
+    "brand": "ARCTIC",
+    "price": "$6.89",
+    "img": "https://m.media-amazon.com/images/I/31KQDmcmq9L._SL500_.jpg",
+    "features": [
+      "NEXT-LEVEL THERMAL PERFORMANCE: MX-7 features a performance-optimized, dense, and highly viscous consistency. Its high filler content ensures exceptional heat transfer",
+      "LONG-TERM STABILITY: High cohesion prevents pump-out, dry-out, or bleeding even under repeated thermal cycles, ensuring long-lasting and consistent performance without the need for frequent reapplication",
+      "PERFECT APPLICATION: MX-7 cannot be spread manually by design. Its low adhesion allows the paste to distribute naturally under cooler pressure, forming a thin bond line without trapping air bubbles",
+      "SAFE FOR ALL DEVICES: MX-7 is electrically non-conductive and non-capacitive, making it completely safe for CPUs, GPUs, laptops, consoles, and other, no risk of short circuits or electrical discharge",
+      "EFFORTLESS CLEANING WITH MX CLEANER: Removes old thermal paste thoroughly, preparing contact surfaces for optimal performance. Also available as a convenient bundle with MX-7"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "ARCTIC MX-6 thermal paste"
     ]
   }
 }

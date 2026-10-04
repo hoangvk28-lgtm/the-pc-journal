@@ -831,7 +831,9 @@
     "fetchedAt": "2026-10-03",
     "queries": [
       "Lian Li UNI FAN SL120 V2",
-      "Lian Li UNI FAN TL 120"
+      "Lian Li UNI FAN TL 120",
+      "reverse fan PWM 120mm ARGB reverse blade",
+      "Lian Li UNI FAN reverse"
     ]
   },
   "B0B4SJVQKY": {
@@ -867,7 +869,8 @@
     ],
     "fetchedAt": "2026-10-03",
     "queries": [
-      "Lian Li UNI FAN SL120 V2"
+      "Lian Li UNI FAN SL120 V2",
+      "Lian Li UNI FAN reverse"
     ]
   },
   "B09B2LNFV4": {
@@ -883,7 +886,8 @@
     "fetchedAt": "2026-10-03",
     "queries": [
       "Phanteks T30-120",
-      "Phanteks T30-120 fan"
+      "Phanteks T30-120 fan",
+      "Phanteks T30 reverse"
     ]
   },
   "B0FPVJYRNZ": {
@@ -901,7 +905,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "Phanteks T30-120"
+      "Phanteks T30-120",
+      "Phanteks T30 reverse"
     ]
   },
   "B0D9YG7JH9": {
@@ -978,7 +983,9 @@
     "fetchedAt": "2026-10-03",
     "queries": [
       "Corsair RS120 ARGB fan 3 pack",
-      "Corsair AF120 Elite"
+      "Corsair AF120 Elite",
+      "reverse blade case fan 120mm",
+      "reverse fan PWM 120mm ARGB reverse blade"
     ]
   },
   "B0D49P43QP": {
@@ -1018,7 +1025,8 @@
     ],
     "fetchedAt": "2026-09-26",
     "queries": [
-      "Corsair RS120 ARGB fan 3 pack"
+      "Corsair RS120 ARGB fan 3 pack",
+      "reverse fan PWM 120mm ARGB reverse blade"
     ]
   },
   "B0D49PZ1HM": {
@@ -1458,7 +1466,8 @@
     ],
     "fetchedAt": "2026-10-03",
     "queries": [
-      "be quiet! Pure Wings 3 120mm PWM"
+      "be quiet! Pure Wings 3 120mm PWM",
+      "reverse blade case fan 120mm"
     ]
   },
   "B0FV3BHCM1": {
@@ -1886,7 +1895,8 @@
     ],
     "fetchedAt": "2026-10-03",
     "queries": [
-      "Lian Li UNI FAN SL120 V2"
+      "Lian Li UNI FAN SL120 V2",
+      "Lian Li UNI FAN reverse"
     ]
   },
   "B0GVQR1W6L": {
@@ -1977,7 +1987,8 @@
     ],
     "fetchedAt": "2026-10-03",
     "queries": [
-      "Lian Li UNI FAN TL 120"
+      "Lian Li UNI FAN TL 120",
+      "Lian Li UNI FAN reverse"
     ]
   },
   "B0DMVXDXKJ": {
@@ -2052,7 +2063,8 @@
     ],
     "fetchedAt": "2026-10-03",
     "queries": [
-      "Phanteks T30-120 fan"
+      "Phanteks T30-120 fan",
+      "Phanteks T30 reverse"
     ]
   },
   "B0DJDC74BP": {
@@ -3273,6 +3285,371 @@
     "fetchedAt": "2026-10-03",
     "queries": [
       "radiator fan high static pressure 120mm"
+    ]
+  },
+  "B0FJS2TH73": {
+    "asin": "B0FJS2TH73",
+    "title": "ARCTIC P12 Pro Reverse – 120 mm Premium Fan with Reverse Airflow",
+    "brand": "ARCTIC",
+    "price": "$6.49",
+    "img": "https://m.media-amazon.com/images/I/41WBhc15sAL._SL500_.jpg",
+    "features": [
+      "REVERSED AIRFLOW: Special design that draws in air from the back side. Ideal for glass fronted designs and PC builds where conventional fans would spoil the appearance",
+      "HIGH STATIC PRESSURE: Efficient even with resistance – the generated airflow easily penetrates dense radiators, narrow perforated panels and mesh structures and ensures reliable cooling",
+      "PWM CONTROL WITH WIDE SPEED RANGE: The speed can be progressively adjusted up to 3000 rpm via the 4-pin PWM connection – the fan stops completely at less than 5% PWM",
+      "PRECISE MANUFACTURING FOR MAXIMUM SMOOTH RUNNING: Minimal gaps, automatic balancing and high-precision measurement noticeably reduce vibrations – for quiet, efficient and long-lasting performance",
+      "SMOOTH-RUNNING FLUID DYNAMIC BEARING (FDB): The self-lubricating bearing minimizes noise during operation – ideal for quiet, efficient cooling and a long, reliable service life"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "reverse blade case fan 120mm"
+    ]
+  },
+  "B0DB6LBS6T": {
+    "asin": "B0DB6LBS6T",
+    "title": "ASUS TUF Gaming TR120 ARGB Reverse Fan Triple Pack",
+    "brand": "ASUS",
+    "price": "$54.99",
+    "img": "https://m.media-amazon.com/images/I/31uq05R79xL._SL500_.jpg",
+    "features": [
+      "Higher cooling performance with an extra-thick 28mm fan frame",
+      "Class-leading static pressure at 2.75mm H2O with 76.3 CFM airflow",
+      "Exclusive double-layer LED Matrix design with individual 16 Addressable RGB LEDs",
+      "Personalized aesthetics with a flexible side pattern on the frame",
+      "PWM control with an ultra-wide RPM range that allows optimal cooling for all types of workloads",
+      "Aura Sync compatibility that lets you coordinate colors and lighting effects with a huge range of hardware",
+      "Available in black and white and in normal and reverse orientation to suit a variety of PC builds"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "reverse blade case fan 120mm",
+      "reverse fan PWM 120mm ARGB reverse blade"
+    ]
+  },
+  "B0GC66NV13": {
+    "asin": "B0GC66NV13",
+    "title": "Thermalright TL-M12QR-S X3 120mm Reverse Case Fans, 3-Pack",
+    "brand": "Thermalright",
+    "price": "$27.90",
+    "img": "https://m.media-amazon.com/images/I/41KqrjgAvwL._SL500_.jpg",
+    "features": [
+      "3-pack 120mm reverse airflow PWM ARGB case fans with lighted fan blades and infinity mirror lighting for display-focused PC builds",
+      "Daisy chain PWM and ARGB connections keep multi-fan wiring cleaner than running separate cables from each fan",
+      "Reverse blade layout is made for side or bottom intake positions where the lighting side faces the glass panel",
+      "Runs up to 1500RPM with 47.6CFM airflow for steady case ventilation in reverse airflow fan layouts",
+      "4-pin PWM speed control and 3-pin 5V ARGB connection work with compatible motherboard headers and lighting software"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "reverse blade case fan 120mm"
+    ]
+  },
+  "B0DFPCKZ2Y": {
+    "asin": "B0DFPCKZ2Y",
+    "title": "DARKROCK White R120 2-Pack 120mm Reverse Blade Infinite Design PC Fan",
+    "brand": "DARKROCK",
+    "price": "$14.99",
+    "img": "https://m.media-amazon.com/images/I/41WXy0LMq4L._SL500_.jpg",
+    "features": [
+      "Reverse Installation: The reverse mounting fan blade design not only shows off the front of the fan to its fullest, but also changes the air duct to a front air outlet",
+      "Infinity Mirror Design: The sides and center of the fan are designed with infinite mirrors, which provide Infinity visualization",
+      "ARGB Lighting: The frame of the fan as well as the fan blades offer colorful adjustable LED lighting to personalize the color design of the chassis",
+      "Optimal Cooling Effect: PWM control coupled with nine fan blades provides optimal cooling performance, allowing the fan to automatically adjust fan speed from 800 - 1600 RPM ± 10%",
+      "Low Noise Running: Eight rubber pads and hydraulic bearings support the fan to run in a low-noise, stable, and durable way. The maximum noise level is 27.7 dBA"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "reverse blade case fan 120mm",
+      "reverse fan PWM 120mm ARGB reverse blade"
+    ]
+  },
+  "B0C9YKPGZK": {
+    "asin": "B0C9YKPGZK",
+    "title": "Lian Li UNI Fan SL-Infinity 120 Reverse Blade-Black-UF-RSLIN120-1B",
+    "brand": "Lian Li",
+    "price": "$29.40",
+    "img": "https://m.media-amazon.com/images/I/41xSs-N6cVL._SL500_.jpg",
+    "features": [
+      "An all-around infinity mirror design creates a multi-layer effect visible from any angle emphasizing the 40 LEDs in each fan.",
+      "When installed as an intake fan with the reverse blade this increases the airflow and lowers the wind noise.",
+      "The use of one cable to connect up to 4 fans in a cluster and pin-to-pad contact point ensures simple cable management.",
+      "The removable keylock and reversible cable module allows for improved compatibility with radiator fittings.",
+      "The fan blades and the fan frame inner edges can be customized with individual lighting modes or choose from the pre-set combined lighting effects options. Embedded magnetic Fluid Dynamic Bearing provides stability, durability, and longevity.",
+      "Features a start/ stop mode to completely stop the fan when the CPU or GPU is running below the system's set temperature"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "reverse blade case fan 120mm",
+      "Lian Li UNI FAN reverse"
+    ]
+  },
+  "B0C4JJ6VZG": {
+    "asin": "B0C4JJ6VZG",
+    "title": "Thermalright TL-C12RB-S V2 CPU Fan Case Cooler PWM Fan, 4pin PWM Connector Computer Fan with ARGB Aperture, 1500RPM Speed PC Cooling Reverse Fan(120mm,Black)",
+    "brand": "Thermalright",
+    "price": "$6.59",
+    "img": "https://m.media-amazon.com/images/I/41EVajn4ofL._SL500_.jpg",
+    "features": [
+      "[Brand Overview] Thermalright is a Taiwan brand with more than 20 years of development. It has a certain popularity in the domestic and foreign markets and has a pivotal influence in the player market. We have been focusing on the research and development of computer accessories. R & D product lines include: CPU air-cooler heatsink, case fan, thermal silicone pad, thermal silicone grease, CPU fan controller, anti falling off mounting bracket etc",
+      "【High Performance Cooling Fan】 Automatic speed control of the motherboard through the 4PIN PWM fan cable interface, which can determine the speed according to the temperature of the motherboard, with a maximum speed of 1500RPM. Configured with up to 55cm of cable for PWM series control of fans, ideal for cases , liquid cooler and CPU coolers.",
+      "【Quality Bearings】The carefully developed quality S-FDB bearings solve the problem of pc cooling fan blade shaking in lifting mode, keeping fan noise to a minimum while providing maximum cooling performance when needed and extending the life of the PC fan.",
+      "【Reverse wind design】 and the standard steering is different, the fan blade surface for the direction of the wind, for the chassis air duct and light effect of the unity of the reverse wind design, high air volume can provide cooling effect.",
+      "【Perfect Match】The PC fan can be used not only as a case fan, but is also suitable for use with a cpu cooler to create a cooling effect together, which can take away the dry heat from the case and the high temperature generated by the CPU in operation, allowing for maximum cooling; Ideal for cases, heatsink cooler and CPU air coolers."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "reverse blade case fan 120mm",
+      "reverse fan PWM 120mm ARGB reverse blade"
+    ]
+  },
+  "B0F1WG529J": {
+    "asin": "B0F1WG529J",
+    "title": "be quiet! Light Wings LX 120mm Black PWM Silent Reverse Gaming PC Case Fan",
+    "brand": "be quiet!",
+    "price": "$19.68",
+    "img": "https://m.media-amazon.com/images/I/31cDd9xEk7L._SL500_.jpg",
+    "features": [
+      "Light Wings LX 120mm PWM Reverse Black undeniably upgrades all kind of PC cases with its spectacular lighting. Especially show cases with an emphasis on ARGB illumination benefit from this fan. Add a bunch of them to your show case and let friends and family gaze in awe.",
+      "16 LEDs are located inside the hub of the impeller of the Light Wings LX 120mm PWM Reverse Black and shine outwards onto the frosted fan blades. This creates an unmistakable look and enables you to express your creativity.",
+      "Light Wings LX 120mm PWM Reversed Black features a fan frame outlet that minimizes air leaks. In addition, the fan blades are optimized for maximum airflow, making this fan the best-in-class choice for virtually any case configuration: especially in show cases like the Light Base series as a side or bottom intake.",
+      "The ARGB connection cable comes with an input and an output connector. The input can be used to connect the fan to your motherboard or to an ARGB controller, but also to daisy-chain it with the output connector of other Light Wings LX fans.",
+      "Light Wings LX 120mm PWM Reversed Black is built to last. With the proven rifle bearing technology, on average, this fan offers a lifespan of 60,000 hours."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "reverse blade case fan 120mm"
+    ]
+  },
+  "B0FMF5PQXL": {
+    "asin": "B0FMF5PQXL",
+    "title": "Tryx 120mm Case Fan Reverse Blade ARGB PC Computer Quiet Fan 3in1 Cooler, Upgraded Pogo-Pin Connection with Magnetic Cable，ARGB Gen2 LEDs，New Version ROTA SL，Black",
+    "brand": "TRYX",
+    "price": "$79.99",
+    "img": "https://m.media-amazon.com/images/I/41TLZsNAh+L._SL500_.jpg",
+    "features": [
+      "TRYX 120mm Case Fan – Reverse Blade",
+      "GEN2 ARGB LIGHTING – Each fan is equipped with 8 Gen2 ARGB LEDs, delivering up to 16.7 million colors when synchronized through the motherboard and fully customized via KANALI software.",
+      "POGO-PIN CONNECTION – The fans connect directly via pogo-pin contact points, allowing multiple fans to be daisy-chained for a clean, modular setup.",
+      "MAGNETIC CABLE – A single magnetic cable controls all fan lighting effects and speeds, greatly simplifying installation and cable management.",
+      "QUIETER THAN EVER – FDB (Fluid Dynamic Bearing) technology delivers enhanced durability and ultra-quiet operation. Four enlarged noise-damping pads absorb vibration.",
+      "STABLE PERFORMANCE – TRYX ROTA SL ARGB Black Reverse 120mm case fan 3-in-1 delivers 2.49mmAq static pressure with 68.44 CFM airflow, building a stable cooling system in PC cases.",
+      "COMPATIBILITY – Standard 120×120×25mm dimensions make the ROTA SL ARGB Black Reverse 120mm case fan widely compatible with PC cases."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "reverse blade case fan 120mm"
+    ]
+  },
+  "B0FHQBNFSS": {
+    "asin": "B0FHQBNFSS",
+    "title": "MUSETEX 3 Pack PC Case Fans, 120MM PWM ARGB Reverse Blade Computer Case Fans, Adjustable Speed, Customizable Lighting and with Excellent Cooling Performance, Black",
+    "brand": "MUSETEX",
+    "price": "$29.99",
+    "img": "https://m.media-amazon.com/images/I/41ygbUWH6gL._SL500_.jpg",
+    "features": [
+      "120MM PWM ARGB Reverse Blade PC Fans, Black, Pack of 3",
+      "Adjustable Speed",
+      "Customizable Lighting",
+      "Excellent Cooling Performance"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "reverse fan PWM 120mm ARGB reverse blade"
+    ]
+  },
+  "B0GVQMM2GY": {
+    "asin": "B0GVQMM2GY",
+    "title": "Lian Li UNI Fan CL Flex 120 Reverse Blade ARGB PWM Fan, Single Pack, Black",
+    "brand": "Lian Li",
+    "price": "$17.54",
+    "img": "https://m.media-amazon.com/images/I/41DCqMu-a+L._SL500_.jpg",
+    "features": [
+      "Controller Not Included. Please double-check the airflow direction and model type before purchase to avoid ordering the incorrect version.",
+      "Wireless Control: All fans support wireless control, allowing users to easily adjust fan speed and RGB lighting effects.",
+      "ARGB Lighting Control: 5V 3-Pin ARGB Control Mode allows users to manage fan lighting via motherboard software while controlling fan speed through PWM or wireless options.",
+      "Support flexible control options, allowing users to choose between motherboard PWM or L-Connect 3 control while maintaining wireless functionality and simplified cable management.",
+      "Enhanced Control: Features a new Flex receiver for expanded control options."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "reverse fan PWM 120mm ARGB reverse blade"
+    ]
+  },
+  "B0GVQK6BFX": {
+    "asin": "B0GVQK6BFX",
+    "title": "Lian Li UNI Fan TL LCD Flex 120 Reverse Blade ARGB PWM Fan, Black",
+    "brand": "Lian Li",
+    "price": "$48.99",
+    "img": "https://m.media-amazon.com/images/I/315XlAYGc-L._SL500_.jpg",
+    "features": [
+      "Controller NOT Included. Please double-check the airflow direction and model type before purchase to avoid ordering the incorrect version.",
+      "1.8-Inch High-Resolution Display: Features a 400 x 400 resolution and 60Hz refresh rate, supporting MP4, GIF, JPG, and PNG files for clear monitoring and personalized visuals.",
+      "ARGB Lighting Control: 5V 3-Pin ARGB Control Mode allows users to manage fan lighting via motherboard software while controlling fan speed through PWM or wireless options.",
+      "USB Control Mode (LCD Flex Receiver Only): When the USB 9-pin cable is connected, it unlocks full LCD functionality through L-Connect 3, enabling support for video and photo uploads as well as complete display customization for maximum personalization.",
+      "Support flexible control options, allowing users to choose between motherboard PWM or L-Connect 3 control while maintaining wireless functionality and simplified cable management."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "reverse fan PWM 120mm ARGB reverse blade"
+    ]
+  },
+  "B0DDP7JG6V": {
+    "asin": "B0DDP7JG6V",
+    "title": "Thermalright TL-S12RW X3 CPU Fan 120mm Reverse Fan Case Cooler Fan Comes with ARGB Lighting,CPU Cooling Fan with 1500RPM Speed,White PC PWM Silent Computer Fan,Set of Fans",
+    "brand": "Thermalright",
+    "price": "$14.89",
+    "img": "https://m.media-amazon.com/images/I/412PAyIv0AL._SL500_.jpg",
+    "features": [
+      "[PWM Function] CPU fan with PWM function, the fan can automatically adjust the speed according to the temperature of the motherboard, no need to manually adjust the fixed speed, 47.6CFM airflow can provide the desired cooling effect.",
+      "[ARGB Lighting Effect] Double-sided ARGB thin light strip adopts UPT process technology, the width of the light bar is 0.6mm, which presents seamless and delicate lighting effects for the chassis. It is recommended that the number of fans in series is less than 6.",
+      "[Detailed Optimisation] The desktop fan is paired with a 55CM long cable, 4PIN PWM connector is the fan's power supply connector, and 5V 3PIN ARGB is the light connector, supporting PWM/ARGB serial control of the fan, please connect the fan's connector to the corresponding connector on the motherboard.",
+      "[Silent Fan Size] Model: TL-S12RW X3, Size: 120*120*25mm, Speed: 1500RPM±10%, Noise ≤ 23.2dBA Connector: 4pin pwm, Current: 0.15A, Air Pressure: 1.31mm H2O, Air Flow: 47.6 CFM, Higher air flow for improved cooling performance.",
+      "[Perfect Match] The PC fan can be used not only as a case fan, but is also suitable for use with a cpu cooler to create a cooling effect together, which can take away the dry heat from the case and the high temperature generated by the CPU in operation, allowing for maximum cooling; Ideal for cases, heatsink cooler and CPU air coolers."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "reverse fan PWM 120mm ARGB reverse blade"
+    ]
+  },
+  "B0DZHGFXZC": {
+    "asin": "B0DZHGFXZC",
+    "title": "Lian Li UNI Fan SL-Infinity 120 Reverse Blade Triple Pack, 120mm ARGB PWM Case Fans with Controller, Daisy-Chain, Infinity Mirror, Black, UF-RSLIN120-3B / 12RSLIN3B",
+    "brand": "Lian Li",
+    "price": "$64.99",
+    "img": "https://m.media-amazon.com/images/I/31LypGyZpNL._SL500_.jpg",
+    "features": [
+      "INFINITY MIRROR FAN - A combination of the original UNI FAN SL and AL with a touch of infinity mirror, the SL-Infinity fans glow clear with multi-layer effects from any visible angle.",
+      "CENTERED INFINITY MIRROR ARGB - The circular-shaped infinity mirror at the center of the fan is tuned to have multiple layers spaced 0.5mm apart.",
+      "SIDE FRAME ARGB - Following the iconic angular lighting style of SL fans, the SL-Infinity fans have 2 thin LED strips on both sides of the fan blade.",
+      "ALUMINUM TRIM SURROUNDED INFINITY MIRROR - Surrounding aluminum trims are located on both sides of the frame. The geometric shape of the infinity mirror follows the front ARG lighting strip in a top and bottom pattern that creates a 3D indented look.",
+      "REAR RIM OF LED AROUND THE ALUMINUM LOGO - Inspired by AL fans, there is a bright ARGB rim of light around the LIAN LI logo at the rear.",
+      "120mm SL Infinity 3 Pack with controller"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Lian Li UNI FAN reverse"
+    ]
+  },
+  "B0C9YNQJ36": {
+    "asin": "B0C9YNQJ36",
+    "title": "Lian Li UNI Fan SL-Infinity 120 Single Pack-White-UF-RSLIN120-1W",
+    "brand": "Lian Li",
+    "price": "$27.80",
+    "img": "https://m.media-amazon.com/images/I/41x-oJ6yNcL._SL500_.jpg",
+    "features": [
+      "An all-around infinity mirror design creates a multi-layer effect visible from any angle emphasizing the 40 LEDs in each fan.",
+      "When installed as an intake fan with the reverse blade this increases the airflow and lowers the wind noise.",
+      "The use of one cable to connect up to 4 fans in a cluster and pin-to-pad contact point ensures simple cable management.",
+      "The removable keylock and reversible cable module allows for improved compatibility with radiator fittings.",
+      "The fan blades and the fan frame inner edges can be customized with individual lighting modes or choose from the pre-set combined lighting effects options. Embedded magnetic Fluid Dynamic Bearing provides stability, durability, and longevity."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Lian Li UNI FAN reverse"
+    ]
+  },
+  "B0FD48XYP4": {
+    "asin": "B0FD48XYP4",
+    "title": "Lian Li UNI Fan CL120 ARGB 120mm PWM Fans - Triple Pack (Reverse Blade) - 2.4 GHz Wireless Signal RGB & PC Case Fans Control - Daisy-Chain - Controller Included and Required - Black (12RCL1W3B)",
+    "brand": "Lian Li",
+    "price": "$57.00",
+    "img": "https://m.media-amazon.com/images/I/31J17cZXPPL._SL500_.jpg",
+    "features": [
+      "Optimized Airflow: 28mm thickness ensures improved airflow and cooling efficiency. Available in both standard and reverse airflow configurations for optimal cooling performance. Fan Size: 124x120x28mm. High Static Pressure and RPM: 2.52 mm H2O / 2150 RPM (Normal), 2.38 mm H2O / 2100 RPM (Reverse).",
+      "Customizable Lighting Zones: Features two distinct light zones for personalized visual effects. Zone 1 illuminates the fan blades for a striking appearance. Zone 2 offers a smooth glow with diffused lighting on both sides of the fan.",
+      "Advanced Wireless Receiver: Comes with a wireless receiver for easy installation and setup. PWM Recognition Automatically identified as PWM in BIOS, ensuring optimal power delivery. 12V Compatibility: Designed to work seamlessly with standard 12V PWM motherboard headers.",
+      "2.4 GHz Wireless Control: Experience the freedom of true wireless control with UNI FAN LED/LCD Wireless series. Advanced wireless technology, these fans eliminate cable clutter while seamlessly managing fan speed, RGB lighting.",
+      "L-Connect 3 Control Software: Gain complete control of your fans with L-Connect 3 software. Easily customize fan settings, RGB presets, and light zone to achieve a optimal performance."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Lian Li UNI FAN reverse"
+    ]
+  },
+  "B0GVR42F49": {
+    "asin": "B0GVR42F49",
+    "title": "Lian Li UNI Fan TL LCD Flex 120 Reverse ARGB PWM Fan, 3 Pack, White",
+    "brand": "Lian Li",
+    "price": "$134.99",
+    "img": "https://m.media-amazon.com/images/I/31mrhZ0PTWL._SL500_.jpg",
+    "features": [
+      "Controller NOT Included. Please double-check the airflow direction and model type before purchase to avoid ordering the incorrect version.",
+      "1.8-Inch High-Resolution Display: Features a 400 x 400 resolution and 60Hz refresh rate, supporting MP4, GIF, JPG, and PNG files for clear monitoring and personalized visuals.",
+      "ARGB Lighting Control: 5V 3-Pin ARGB Control Mode allows users to manage fan lighting via motherboard software while controlling fan speed through PWM or wireless options.",
+      "USB Control Mode (LCD Flex Receiver Only): When the USB 9-pin cable is connected, it unlocks full LCD functionality through L-Connect 3, enabling support for video and photo uploads as well as complete display customization for maximum personalization.",
+      "Support flexible control options, allowing users to choose between motherboard PWM or L-Connect 3 control while maintaining wireless functionality and simplified cable management."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Lian Li UNI FAN reverse"
+    ]
+  },
+  "B0BZCJ7LLV": {
+    "asin": "B0BZCJ7LLV",
+    "title": "Phanteks D30 120mm Reverse Airflow ARGB PWM PC Fan, 3-Pack, Black",
+    "brand": "Phanteks",
+    "price": "$89.94",
+    "img": "https://m.media-amazon.com/images/I/4124Ai9j2-L._SL500_.jpg",
+    "features": [
+      "Regular & Reverse airflow models available: With regular and reverse airflow models available, the D30 fan allows for the perfect configuration without obstructing the fan blade lighting effect.",
+      "Easy and clean fan linking system: Linking multiple fans together reduces cable clutter considerably while the screw cover plates, and bridge connectors make multiple D30 fans work as one clean unit.",
+      "The D-RGB lighting is integrated and visible from all sides of the D30-120 fan. The blades reflect the light coming from the Halos lighting ring inside the frame. Compatible with Digital-RGB equipped motherboards and Phanteks Digital-RGB products.",
+      "30 mm of performance: On a radiator or behind restrictive mesh/dust filters, the 30 mm thick frame and blades provide plenty of air pressure to keep things cool."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Phanteks T30 reverse"
+    ]
+  },
+  "B0CJZYQHRM": {
+    "asin": "B0CJZYQHRM",
+    "title": "Phanteks D30-140 DRGB PWM Fan 3Pack, Reverse Airflow Model, Premium D-RGB Performance Fans, Halos Lighting Effect, ARGB/DRGB Lighting, Daisy-Chain Fan Linking System, 3Pack (Black)",
+    "brand": "Phanteks",
+    "price": "$89.99",
+    "img": "https://m.media-amazon.com/images/I/31xZzbjXtSL._SL500_.jpg",
+    "features": [
+      "Regular & Reverse airflow models available: With regular and reverse airflow models available, the D30 fan allows for the perfect configuration without obstructing the fan blade lighting effect.",
+      "Easy and clean fan linking system: Linking multiple fans together reduces cable clutter considerably while the screw cover plates, and bridge connectors make multiple D30 fans work as one clean unit.",
+      "The D-RGB lighting is integrated and visible from all sides of the D30-140 fan. The blades reflect the light coming from the Halos lighting ring inside the frame. Compatible with Digital-RGB equipped motherboards and Phanteks Digital-RGB products.",
+      "30 mm of performance: On a radiator or behind restrictive mesh/dust filters, the 30 mm thick frame and blades provide plenty of air pressure to keep things cool."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Phanteks T30 reverse"
+    ]
+  },
+  "B0GYJW493B": {
+    "asin": "B0GYJW493B",
+    "title": "PHANTEKS T30 120X120X30MM 12CM PWM Water Air Cooling Fan with Dual Vapo Bearing Compatible with Industrial Grade Pressure Cooling Systems(T30 x1)",
+    "brand": "DorkTees",
+    "price": "$256.27",
+    "img": "https://m.media-amazon.com/images/I/418DgJygsGL._SL500_.jpg",
+    "features": [
+      "Model PHANTEKS T30 — a 120×120×30 mm industrial-grade cooling fan designed for --pressure applications such as radiators, heatsinks, and custom water-cooling loops",
+      "Dual Vapo Bearing technology ensures extended operational life and consistent rotational stability under continuous heavy-load conditions",
+      "PWM (Pulse Width Modulation) control enables precise speed adjustment from 500 to 2, 200 RPM, supporting dynamic thermal management across diverse system configurations",
+      "Rated at 72.6 CFM airflow and 3.43 mmH₂O pressure, this fan delivers robust cooling function suitable for densely packed PC builds and server environments",
+      "Compatible with standard 12V DC power inputs and 4-pin PWM motherboard headers, making it suitable for mainstream and enthusiast-grade desktop platforms"
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Phanteks T30 reverse"
+    ]
+  },
+  "B0CK47G989": {
+    "asin": "B0CK47G989",
+    "title": "Phanteks (PH-F140D30R_DRGB_PWM_BK01) D30-140 DRGB PWM Fan, Reverse Airflow Model, Premium D-RGB Performance Fan, ARGB/DRGB Lighting, Daisy-Chain Fan Linking System (Black)",
+    "brand": "Phanteks",
+    "img": "https://m.media-amazon.com/images/I/41aheCTfX0L._SL500_.jpg",
+    "features": [
+      "Regular & Reverse airflow models available: With regular and reverse airflow models available, the D30 fan allows for the perfect configuration without obstructing the fan blade lighting effect.",
+      "Easy and clean fan linking system: Linking multiple fans together reduces cable clutter considerably while the screw cover plates, and bridge connectors make multiple D30 fans work as one clean unit.",
+      "The D-RGB lighting is integrated and visible from all sides of the D30-140 fan. The blades reflect the light coming from the Halos lighting ring inside the frame. Compatible with Digital-RGB equipped motherboards and Phanteks Digital-RGB products.",
+      "30 mm of performance: On a radiator or behind restrictive mesh/dust filters, the 30 mm thick frame and blades provide plenty of air pressure to keep things cool."
+    ],
+    "fetchedAt": "2026-10-03",
+    "queries": [
+      "Phanteks T30 reverse"
     ]
   }
 }
