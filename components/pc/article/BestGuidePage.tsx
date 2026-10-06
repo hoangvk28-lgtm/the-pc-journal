@@ -2,8 +2,12 @@ import Link from "next/link";
 import { SITE_NAME, SITE_URL } from "@/lib/seo";
 import { formatDate } from "@/lib/utils";
 import { guideSectionHeadings } from "@/lib/guide-headings";
-import { GuideQuickPicks } from "@/components/guide/editorial/GuideQuickPicks";
-import { GuideProductPick } from "@/components/guide/editorial/GuideProductPick";
+import Image from "next/image";
+import { PcQuickPicks } from "@/components/pc/article/PcQuickPicks";
+import { PcProductPick } from "@/components/pc/article/PcProductPick";
+import { AuthorAvatar, AuthorBox } from "@/components/pc/article/AuthorBox";
+import { DEFAULT_GUIDE_AUTHOR, authorHref } from "@/lib/authors";
+import { guideHero } from "@/lib/guide-hero";
 import { GuideJumpTo, GuideTocSidebar, type TocItem } from "@/components/guide/editorial/GuideToc";
 import type { BestGuide } from "@/lib/pc-content";
 import { articleHref, categoryHref, categoryLabel, relatedArticles } from "@/lib/pc-content";
@@ -21,6 +25,8 @@ export function BestGuidePage({ article, sample }: { article: BestGuide; sample?
   const canonicalUrl = `${SITE_URL}${articleHref(article)}`;
   const updated = article.updatedAt ?? article.publishedAt;
   const related = relatedArticles(article, 3).map((r) => ({ href: articleHref(r), title: r.title }));
+  const author = DEFAULT_GUIDE_AUTHOR;
+  const hero = guideHero(article);
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -29,7 +35,8 @@ export function BestGuidePage({ article, sample }: { article: BestGuide; sample?
     description: article.metaDescription ?? article.dek,
     ...(article.publishedAt ? { datePublished: article.publishedAt } : {}),
     ...(updated ? { dateModified: updated } : {}),
-    author: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
+    author: { "@type": "Person", name: author.name, jobTitle: author.role, url: `${SITE_URL}${authorHref(author)}` },
+    image: `${SITE_URL}${hero.src}`,
     publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
     mainEntityOfPage: { "@type": "WebPage", "@id": canonicalUrl },
     about: [{ "@type": "Thing", name: breadcrumbTitle }],
@@ -90,16 +97,26 @@ export function BestGuidePage({ article, sample }: { article: BestGuide; sample?
           <p className="eyebrow mt-5">Buying Guide</p>
           <h1 className="mt-3 text-[2.125rem] leading-[1.1] sm:text-[2.75rem] lg:text-[3rem]">{article.title}</h1>
           <p className="mt-3 text-[1.125rem] leading-relaxed sm:text-[1.25rem]">{article.dek}</p>
-          <div className="mt-4 text-sm leading-relaxed text-ink-secondary">
-            <p>By <Link prefetch={false} href="/about-the-pc-journal" className="font-medium !text-ink">The PC Journal</Link> editorial team</p>
+          <div className="mt-5 flex items-center gap-3 text-sm leading-relaxed text-ink-secondary">
+            <AuthorAvatar author={author} size={44} />
+            <div>
+            <p>By <Link prefetch={false} href={authorHref(author)} rel="author" className="font-medium !text-ink hover:!text-brand">{author.name}</Link><span>, {author.role}</span></p>
             <p>
               {updated && (<><time dateTime={updated}>Updated {formatDate(updated)}</time><span aria-hidden> · </span></>)}
               {article.readTime}
               <span aria-hidden> · </span>
               {products.length} products evaluated
             </p>
+            </div>
           </div>
         </header>
+
+        <figure className="mt-7 lg:mt-9">
+          <div className="relative aspect-[16/9] overflow-hidden bg-surface">
+            <Image src={hero.src} alt={hero.alt} fill priority sizes="(max-width: 1120px) 100vw, 1072px" className="object-cover" />
+          </div>
+          {hero.caption && <figcaption className="mt-2 text-xs text-ink-secondary">{hero.caption}</figcaption>}
+        </figure>
 
         <div className="mt-6 lg:mt-8 lg:grid lg:grid-cols-[minmax(0,760px)_220px] lg:justify-between lg:gap-12">
           <div className="min-w-0">
@@ -120,21 +137,21 @@ export function BestGuidePage({ article, sample }: { article: BestGuide; sample?
 
             <section aria-labelledby="quick-picks" className="mt-12">
               <h2 id="quick-picks" className={sectionTitle}>Quick Picks</h2>
-              <p className="mt-2 mb-5">Our {products.length} recommendations at a glance. Tap a pick for the full verdict.</p>
-              <GuideQuickPicks products={products} />
+              <p className="mt-2 mb-5">Which of the {products.length} picks to look at first. Tap a name for the full analysis.</p>
+              <PcQuickPicks products={products} />
             </section>
 
             <section aria-labelledby="our-picks" className="mt-14">
               <h2 id="our-picks" className={`${sectionTitle} border-b border-ink pb-3`}>Our Picks</h2>
               <div className="mt-6">
-                {products.map((product) => <GuideProductPick key={product.id} product={product} total={products.length} />)}
+                {products.map((product) => <PcProductPick key={product.id} product={product} total={products.length} />)}
               </div>
             </section>
 
             {howWeEvaluated.length > 0 && (
               <section aria-labelledby="how-we-chose" className="mt-14">
                 <h2 id="how-we-chose" className={sectionTitle}>{headings.howWeChose}</h2>
-                <p className="mt-2">Each pick was assessed across {howWeEvaluated.length} criteria weighted for real-world use.</p>
+                <p className="mt-2 max-w-[68ch]">{author.name} compared the manufacturer specifications, connectivity, warranty terms and compatibility of every pick. Figures come from the makers unless a third-party source is named; we did not test these products ourselves.</p>
                 <dl className="mt-6 divide-y divide-border border-y border-border">
                   {howWeEvaluated.map((item, i) => (
                     <div key={i} className="py-5 sm:grid sm:grid-cols-[200px_1fr] sm:gap-8">
@@ -252,6 +269,8 @@ export function BestGuidePage({ article, sample }: { article: BestGuide; sample?
                 </ul>
               </section>
             )}
+
+            <AuthorBox author={author} />
           </div>
 
           <aside className="hidden lg:block">

@@ -772,12 +772,17 @@ export function composeGuide(cfg: GenericArticleConfig, schema: CategorySchema, 
       `The main gap: ${lc(altCon.con)}. If that matters, ${altCon.alt}.`,
       `What it gives up: ${lc(altCon.con)}; by contrast, ${altCon.alt}.`,
     ], seed + "t2") : undefined);
-    const paras = whyParagraphs({
+    const whyInput = {
       take: take ?? `The ${f.short} is a ${lab.badge.toLowerCase()} in this guide.`,
       ranking, descriptive: descriptiveSentences(f, facts, schema, seed), notes, compat,
-      price: priceSentence(f, facts, seed), trade,
+      price: priceSentence(f, facts, seed),
       extras: whyExtras(f, facts, schema, lab, seed, cmpCons.map((c) => c.con)),
-    });
+    };
+    // The trade-off moves to "The catch" only when "Why we like it" stays at 100+ words without it.
+    const withoutTrade = whyParagraphs({ ...whyInput, trade: undefined });
+    const whyWords = (ps: string[]) => ps.join(" ").replace(/^[^.!?]+[.!?]\s*/, "").split(/\s+/).filter(Boolean).length;
+    const catchText = trade && whyWords(withoutTrade) >= 115 ? trade : undefined;
+    const paras = catchText ? withoutTrade : whyParagraphs({ ...whyInput, trade });
 
     const specs = schema.fields.map((fd) => (f.specs[fd.key] !== undefined ? `${fd.label}: ${fd.fmt(f.specs[fd.key]!)}` : "")).filter(Boolean);
     const pros = dedupePhrases([...schema.fields.map((fd) => (!missingVal(f.specs[fd.key]) ? fd.strength?.(f.specs[fd.key]!) : undefined)).filter(Boolean) as string[], ...f.notes.map((n) => cap(n.replace(/^an? /, ""))), ...comparativePros(f, facts, schema)]);
@@ -801,6 +806,7 @@ export function composeGuide(cfg: GenericArticleConfig, schema: CategorySchema, 
       specs,
       pros: ((base) => (base.length >= 3 ? base : dedupePhrases([...base, ...specPros(f, schema)])))(dedupePhrases([...pros, ...(lab.reason && (pros.length < 3 || !reasonCovered(lab.reason, pros)) ? [cap(lab.reason)] : [])])).slice(0, 4),
       cons: [...new Set(allCons)].slice(0, 3),
+      ...(catchText ? { catch: catchText } : {}),
     };
   });
 

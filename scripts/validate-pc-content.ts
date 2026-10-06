@@ -50,7 +50,8 @@ for (const t of templatedDescriptions) cross.push(`WARNING template description 
 for (const a of best) for (const p of a.products) {
   for (const t of [p.description, ...p.pros, ...p.cons, ...p.specs, p.bestFor, p.skipIf ?? ""]) {
     if (/[【】]|^[A-Z0-9 &-]{8,}:/.test(t)) cross.push(`ERROR ${a.slug} ${p.id}: listing bullet artifact "${t.slice(0, 60)}"`);
-    if (/\b(a|an|the|and|with|for|of|to)\.?$/i.test(t.trim())) cross.push(`ERROR ${a.slug} ${p.id}: truncated "${t.slice(-60)}"`);
+    // Lower-case only: a model name ending in "-A." (e.g. "Strix Z890-A.") is not a truncated article.
+    if (/(?<![-\w])(a|an|the|and|with|for|of|to)\.?$/.test(t.trim())) cross.push(`ERROR ${a.slug} ${p.id}: truncated "${t.slice(-60)}"`);
   }
 }
 

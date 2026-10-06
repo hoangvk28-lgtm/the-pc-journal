@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { ArticleTemplate } from "@/components/pc/article/ArticleTemplate";
 import { articleHref, getPublishedArticle, publishedArticles } from "@/lib/pc-content";
 import { buildMetadata } from "@/lib/seo";
+import { guideHero } from "@/lib/guide-hero";
 
 export function generateStaticParams() { return publishedArticles.map(({ slug }) => ({ slug })); }
 export const dynamicParams = false;
@@ -15,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: article.seoTitle,
     description: article.metaDescription ?? article.dek,
     path: articleHref(article),
-    image: article.hero?.src,
+    image: article.type === "best-guide" ? guideHero(article).src : article.hero?.src,
     type: "article",
   });
 }

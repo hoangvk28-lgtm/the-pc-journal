@@ -137,6 +137,8 @@ export interface BestProduct {
   skipIf?: string;
   /** One-line reason the pick is in the guide (Quick Picks). */
   summary?: string;
+  /** Optional 1-2 sentence "The catch": the most important real trade-off, naming the pick that covers it. */
+  catch?: string;
 }
 
 export interface HowToChooseSection {

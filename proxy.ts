@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { AUTHORS } from "@/lib/authors";
 import { publishedArticles, PC_CATEGORIES } from "@/lib/pc-content";
 
 const publicPages = new Set([
@@ -9,6 +10,7 @@ const publicPages = new Set([
 ]);
 const guideSlugs = new Set(publishedArticles.map((a) => a.slug));
 const topicSlugs = new Set<string>(PC_CATEGORIES);
+const authorSlugs = new Set(Object.keys(AUTHORS));
 
 export function proxy(request: NextRequest) {
   const ua = request.headers.get("user-agent") ?? "";
@@ -19,7 +21,8 @@ export function proxy(request: NextRequest) {
   // absent from this publication's public inventory.
   const publicPath = publicPages.has(pathname)
     || (pathname.startsWith("/guides/") && guideSlugs.has(pathname.slice("/guides/".length)))
-    || (pathname.startsWith("/topics/") && topicSlugs.has(pathname.slice("/topics/".length)));
+    || (pathname.startsWith("/topics/") && topicSlugs.has(pathname.slice("/topics/".length)))
+    || (pathname.startsWith("/author/") && authorSlugs.has(pathname.slice("/author/".length)));
   // Drafts and fixtures only when preview is explicitly enabled.
   const fixturePath = pathname.startsWith("/dev/preview/") && process.env.PCJ_ENABLE_PREVIEW === "true";
   const infrastructurePath = pathname.startsWith("/_next/") || pathname.startsWith("/images/pcj/")
