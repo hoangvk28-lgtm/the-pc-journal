@@ -1,6 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import { AUTHORS } from "@/lib/authors";
-import { publishedArticles, PC_CATEGORIES } from "@/lib/pc-content";
 
 const publicPages = new Set([
   "/", "/guides", "/how-we-review", "/about-the-pc-journal",
@@ -8,9 +6,10 @@ const publicPages = new Set([
   "/pc-mark.svg", "/pc-og.svg", "/pc-og.png", "/pc-apple-icon.png", "/pc-logo.png", "/pc-icon-512.png", "/favicon-16x16.png", "/favicon-32x32.png",
   "/f734233bb0bf4a4eb7a09e0dfa6a9ec9.txt",
 ]);
-const guideSlugs = new Set(publishedArticles.map((a) => a.slug));
-const topicSlugs = new Set<string>(PC_CATEGORIES);
-const authorSlugs = new Set(Object.keys(AUTHORS));
+// Keep this file free of content imports: the proxy runs on every request, and importing the
+// article registry made each invocation compose 2,000+ guides (Vercel Fluid CPU blew past the
+// free tier). Unknown slugs under these prefixes already 404 via `dynamicParams = false`.
+const dynamicPrefix = /^\/(guides|topics|author)\/[a-z0-9-]+$/;
 
 export function proxy(request: NextRequest) {
   const ua = request.headers.get("user-agent") ?? "";
@@ -20,9 +19,7 @@ export function proxy(request: NextRequest) {
   // Old Office Journal pages remain in the clone for editorial review, but are
   // absent from this publication's public inventory.
   const publicPath = publicPages.has(pathname)
-    || (pathname.startsWith("/guides/") && guideSlugs.has(pathname.slice("/guides/".length)))
-    || (pathname.startsWith("/topics/") && topicSlugs.has(pathname.slice("/topics/".length)))
-    || (pathname.startsWith("/author/") && authorSlugs.has(pathname.slice("/author/".length)));
+    || dynamicPrefix.test(pathname);
   // Drafts and fixtures only when preview is explicitly enabled.
   const fixturePath = pathname.startsWith("/dev/preview/") && process.env.PCJ_ENABLE_PREVIEW === "true";
   const infrastructurePath = pathname.startsWith("/_next/") || pathname.startsWith("/images/pcj/")
