@@ -1,7 +1,7 @@
-﻿export const AMAZON_TAG = process.env.AMAZON_PAAPI_PARTNER_TAG || "";
+﻿export const AMAZON_TAG = process.env.AMAZON_PAAPI_PARTNER_TAG || "thepcjournal-20";
 
 /**
- * Central URL builder - swap out AMAZON_TAG once your Associates account is approved.
+ * Central URL builder. The tag is public (it appears in every link), so it has a hard-coded fallback.
  * ASIN is the 10-character Amazon product identifier (e.g. "B076HCCQZQ").
  */
 export function buildAmazonUrl(asin: string): string {
