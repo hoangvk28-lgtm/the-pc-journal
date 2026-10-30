@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/seo";
 import { AUTHORS, authorHref } from "@/lib/authors";
+import { liveSubtopics } from "@/lib/pc-content/linking";
+import { subtopicHref } from "@/lib/pc-content/subtopics";
 import { articleHref, articlesInCategory, categoryHref, PC_CATEGORIES, publishedArticles } from "@/lib/pc-content";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -15,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...Object.values(AUTHORS).map((a) => ({ url: `${SITE_URL}${authorHref(a)}`, priority: 0.4, changeFrequency: "monthly" as const })),
     // Topic pages are listed only once they have published articles.
     ...PC_CATEGORIES.filter((c) => articlesInCategory(c).length > 0).map((c) => ({ url: `${SITE_URL}${categoryHref(c)}`, priority: 0.7, changeFrequency: "monthly" as const })),
+    ...liveSubtopics().map((s) => ({ url: `${SITE_URL}${subtopicHref(s)}`, priority: 0.7, changeFrequency: "weekly" as const })),
     ...publishedArticles.map((a) => ({
       url: `${SITE_URL}${articleHref(a)}`,
       priority: 0.8,

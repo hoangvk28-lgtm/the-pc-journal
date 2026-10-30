@@ -85,6 +85,8 @@ export interface ArticleBase {
   sources?: SourceRef[];
   /** Slugs of related articles; unpublished targets are dropped and flagged. */
   related?: string[];
+  /** Sub-topic hub slug (lib/pc-content/subtopics.ts); overrides slug-based classification. */
+  subtopic?: string;
 }
 
 /* ─────────────────────────── Informational Guide ─────────────────────────── */

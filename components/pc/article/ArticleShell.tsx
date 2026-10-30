@@ -5,11 +5,18 @@ import { DISCLOSURE_SHORT } from "@/lib/affiliate";
 import { SITE_NAME, SITE_URL } from "@/lib/seo";
 import { formatDate } from "@/lib/utils";
 import type { PcArticle, SourceRef } from "@/lib/pc-content";
-import { articleHref, categoryHref, categoryLabel, relatedArticles } from "@/lib/pc-content";
+import { articleHref, categoryHref, categoryLabel } from "@/lib/pc-content";
+import { articleSubtopic, contextualLinks, hubLink } from "@/lib/pc-content/linking";
+import { subtopicHref } from "@/lib/pc-content/subtopics";
 
 export interface TocEntry {
   id: string;
   label: string;
+}
+
+function hubCrumb(article: PcArticle): { label: string; href: string }[] {
+  const sub = articleSubtopic(article);
+  return sub ? [{ label: sub.title, href: subtopicHref(sub) }] : [];
 }
 
 export function headingId(text: string): string {
@@ -40,7 +47,8 @@ function ArticleSchema({ article, path }: { article: PcArticle; path: string }) 
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
         { "@type": "ListItem", position: 2, name: categoryLabel(article.category), item: `${SITE_URL}${categoryHref(article.category)}` },
-        { "@type": "ListItem", position: 3, name: article.title, item: url },
+        ...hubCrumb(article).map((h) => ({ "@type": "ListItem", position: 3, name: h.label, item: `${SITE_URL}${h.href}` })),
+        { "@type": "ListItem", position: hubCrumb(article).length ? 4 : 3, name: article.title, item: url },
       ],
     },
   ];
@@ -85,19 +93,19 @@ export function SourcesList({ sources }: { sources?: SourceRef[] }) {
 }
 
 export function RelatedArticles({ article }: { article: PcArticle }) {
-  const items = relatedArticles(article);
+  const sub = articleSubtopic(article);
+  const items = [...contextualLinks(article), ...(sub ? [hubLink(sub)] : [])];
   if (items.length === 0) return null;
   return (
     <section aria-labelledby="related" className="border-t border-ink pt-6">
       <h2 id="related" className="text-2xl">Related guides</h2>
       <ul className="mt-4 grid gap-x-8 gap-y-1 sm:grid-cols-2 lg:grid-cols-3">
         {items.map((r) => (
-          <li key={r.slug} className="group relative border-b border-border py-4">
-            <p className="eyebrow">{categoryLabel(r.category)}</p>
-            <Link prefetch={false} href={articleHref(r)} className="mt-1 block text-[1.0625rem] font-semibold leading-snug !text-ink group-hover:!text-brand focus-ring after:absolute after:inset-0">
+          <li key={r.href} className="group relative border-b border-border py-4">
+            <p className="eyebrow">{r.reason}</p>
+            <Link prefetch={false} href={r.href} className="mt-1 block text-[1.0625rem] font-semibold leading-snug !text-ink group-hover:!text-brand focus-ring after:absolute after:inset-0">
               {r.title}
             </Link>
-            {r.teaser && <p className="mt-1.5 line-clamp-2 text-sm text-ink-secondary">{r.teaser}</p>}
           </li>
         ))}
       </ul>
@@ -148,7 +156,7 @@ export function ArticleShell({
             : "Draft for editorial review. Not published, not linked from the site and never indexed."}
         </p>
       )}
-      <Breadcrumbs crumbs={[{ label: categoryLabel(article.category), href: categoryHref(article.category) }, { label: article.title }]} />
+      <Breadcrumbs crumbs={[{ label: categoryLabel(article.category), href: categoryHref(article.category) }, ...hubCrumb(article), { label: article.title }]} />
 
       <header className={`mt-6 grid gap-8 ${article.hero ? "lg:grid-cols-[minmax(0,6fr)_minmax(0,5fr)] lg:items-center lg:gap-12" : "max-w-3xl"}`}>
         <div className="min-w-0">

@@ -6,6 +6,8 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { ArticleCardMedium } from "@/components/editorial/ArticleCards";
 import { articlesInCategory, categoryHref, categoryLabel, PC_CATEGORIES, type PcCategory } from "@/lib/pc-content";
 import { toCardView } from "@/lib/pc-content/views";
+import { articlesInSubtopic, liveSubtopics } from "@/lib/pc-content/linking";
+import { subtopicHref } from "@/lib/pc-content/subtopics";
 import { buildMetadata } from "@/lib/seo";
 
 export function generateStaticParams() { return topics.map(({ slug }) => ({ slug })); }
@@ -25,6 +27,9 @@ export default async function TopicPage({ params }: { params: Promise<{ slug: st
   const category = topic.slug as PcCategory;
   const articles = articlesInCategory(category);
   const otherTopics = PC_CATEGORIES.filter((c) => c !== category);
+  const hubs = liveSubtopics().filter((s) => s.category === category);
+  // With hubs, the category page lists hubs plus a short "start here" set instead of every guide.
+  const featured = hubs.length > 0 ? [...articles.filter((a) => a.type !== "best-guide"), ...articles.filter((a) => a.type === "best-guide")].slice(0, 6) : articles;
 
   return <div className="mx-auto w-full max-w-[1280px] px-4 pb-16 pt-6 sm:px-6 lg:px-8">
     <Breadcrumbs crumbs={[{ label: topic.title }]} />
@@ -34,11 +39,26 @@ export default async function TopicPage({ params }: { params: Promise<{ slug: st
       <p className="mt-4 text-lg leading-relaxed">{topic.summary}</p>
     </header>
 
+    {hubs.length > 0 && (
+      <nav aria-labelledby="topic-hubs" className="mt-10">
+        <h2 id="topic-hubs" className="border-b border-ink pb-3 text-[1.75rem]">Browse {topic.title.toLowerCase()} by topic</h2>
+        <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {hubs.map((s) => (
+            <li key={s.slug} className="group relative border border-border bg-surface p-5 hover:border-brand">
+              <Link prefetch={false} href={subtopicHref(s)} className="text-[1.125rem] font-semibold !text-ink group-hover:!text-brand focus-ring after:absolute after:inset-0">{s.title}</Link>
+              <p className="mt-2 line-clamp-3 text-sm text-ink-secondary">{s.intro}</p>
+              <p className="mt-3 font-mono text-xs text-brand">{articlesInSubtopic(s).length} guides</p>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    )}
+
     <section aria-labelledby="topic-articles" className="mt-10">
-      <h2 id="topic-articles" className="border-b border-ink pb-3 text-[1.75rem]">{articles.length > 0 ? `${topic.title} guides` : "Guides in progress"}</h2>
+      <h2 id="topic-articles" className="border-b border-ink pb-3 text-[1.75rem]">{articles.length > 0 ? (hubs.length > 0 ? "Start here" : `${topic.title} guides`) : "Guides in progress"}</h2>
       {articles.length > 0 ? (
         <div className="mt-6 grid gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
-          {articles.map((a) => <ArticleCardMedium key={a.slug} article={toCardView(a)} />)}
+          {featured.map((a) => <ArticleCardMedium key={a.slug} article={toCardView(a)} />)}
         </div>
       ) : (
         <p className="mt-5 max-w-2xl">We have not published a {topic.title.toLowerCase()} guide yet. Articles appear here once their research and compatibility notes have been reviewed. Meanwhile, the checklist below covers what to verify first.</p>

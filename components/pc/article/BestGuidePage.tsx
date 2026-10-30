@@ -10,7 +10,9 @@ import { DEFAULT_GUIDE_AUTHOR, authorHref } from "@/lib/authors";
 import { guideHero } from "@/lib/guide-hero";
 import { GuideJumpTo, GuideTocSidebar, type TocItem } from "@/components/guide/editorial/GuideToc";
 import type { BestGuide } from "@/lib/pc-content";
-import { articleHref, categoryHref, categoryLabel, relatedArticles } from "@/lib/pc-content";
+import { articleHref, categoryHref, categoryLabel } from "@/lib/pc-content";
+import { articleSubtopic, contextualLinks, hubLink } from "@/lib/pc-content/linking";
+import { subtopicHref } from "@/lib/pc-content/subtopics";
 
 /**
  * The Office Journal's Best X template (components/guide/RichGuidePage), adapted for
@@ -24,7 +26,9 @@ export function BestGuidePage({ article, sample }: { article: BestGuide; sample?
   const parent = { name: categoryLabel(article.category), href: categoryHref(article.category) };
   const canonicalUrl = `${SITE_URL}${articleHref(article)}`;
   const updated = article.updatedAt ?? article.publishedAt;
-  const related = relatedArticles(article, 3).map((r) => ({ href: articleHref(r), title: r.title }));
+  const sub = articleSubtopic(article);
+  const hub = sub ? { name: sub.title, href: subtopicHref(sub) } : undefined;
+  const related = [...contextualLinks(article), ...(sub ? [hubLink(sub)] : [])];
   const author = DEFAULT_GUIDE_AUTHOR;
   const hero = guideHero(article);
 
@@ -47,7 +51,8 @@ export function BestGuidePage({ article, sample }: { article: BestGuide; sample?
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: parent.name, item: `${SITE_URL}${parent.href}` },
-      { "@type": "ListItem", position: 3, name: breadcrumbTitle, item: canonicalUrl },
+      ...(hub ? [{ "@type": "ListItem", position: 3, name: hub.name, item: `${SITE_URL}${hub.href}` }] : []),
+      { "@type": "ListItem", position: hub ? 4 : 3, name: breadcrumbTitle, item: canonicalUrl },
     ],
   };
   const itemListSchema = {
@@ -91,6 +96,7 @@ export function BestGuidePage({ article, sample }: { article: BestGuide; sample?
               <li aria-hidden>/</li>
               <li><Link prefetch={false} href={parent.href} className="!text-ink-secondary hover:!text-ink">{parent.name}</Link></li>
               <li aria-hidden>/</li>
+              {hub && <><li><Link prefetch={false} href={hub.href} className="!text-ink-secondary hover:!text-ink">{hub.name}</Link></li><li aria-hidden>/</li></>}
               <li aria-current="page" className="text-ink">{breadcrumbTitle}</li>
             </ol>
           </nav>
@@ -261,7 +267,7 @@ export function BestGuidePage({ article, sample }: { article: BestGuide; sample?
                   {related.map((g) => (
                     <li key={g.href}>
                       <Link prefetch={false} href={g.href} className="group flex items-baseline justify-between gap-4 py-4 font-[family-name:var(--font-display)] text-[1.125rem] leading-snug !text-ink hover:!text-brand focus-ring">
-                        {g.title}
+                        <span><span className="block font-[family-name:var(--font-body)] text-xs font-semibold uppercase tracking-wide text-ink-secondary">{g.reason}</span>{g.title}</span>
                         <span aria-hidden className="shrink-0 font-[family-name:var(--font-body)] text-ink-secondary transition-transform group-hover:translate-x-0.5">→</span>
                       </Link>
                     </li>

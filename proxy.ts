@@ -9,7 +9,7 @@ const publicPages = new Set([
 // Keep this file free of content imports: the proxy runs on every request, and importing the
 // article registry made each invocation compose 2,000+ guides (Vercel Fluid CPU blew past the
 // free tier). Unknown slugs under these prefixes already 404 via `dynamicParams = false`.
-const dynamicPrefix = /^\/(guides|topics|author)\/[a-z0-9-]+$/;
+const dynamicPrefix = /^\/((guides|topics|author)\/[a-z0-9-]+|topics\/[a-z0-9-]+\/[a-z0-9-]+)$/;
 
 export function proxy(request: NextRequest) {
   const ua = request.headers.get("user-agent") ?? "";
