@@ -1,4 +1,5 @@
 import type { GuideModule, InformationalGuide, SourceRef } from "@/lib/pc-content/types";
+import { peripheralsWave1Extra } from "@/data/info/peripherals-wave1-extra";
 
 const AUTHOR = { name: "The PC Journal", url: "/about-the-pc-journal" };
 
@@ -23,7 +24,7 @@ const next = (items: [string, string][]): GuideModule => ({
   items: items.map(([label, slug]) => ({ label, href: `/guides/${slug}` })),
 });
 
-export const peripheralsWave1Guides: InformationalGuide[] = [
+const baseGuides: InformationalGuide[] = [
   /* 1 */
   {
     slug: "mouse-polling-rate-and-dpi-explained",
@@ -1078,3 +1079,12 @@ export const peripheralsWave1Guides: InformationalGuide[] = [
     ],
   },
 ];
+
+/** Base records plus deepening modules (data/info/peripherals-wave1-extra.ts), inserted before "next-steps". */
+export const peripheralsWave1Guides: InformationalGuide[] = baseGuides.map((g) => {
+  const extra = peripheralsWave1Extra[g.slug];
+  if (!extra?.length) return g;
+  const i = g.modules.findIndex((m) => m.kind === "next-steps");
+  const at = i < 0 ? g.modules.length : i;
+  return { ...g, modules: [...g.modules.slice(0, at), ...extra, ...g.modules.slice(at)] };
+});

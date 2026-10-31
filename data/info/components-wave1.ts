@@ -1,3 +1,9 @@
+import { componentsExtraA } from "./components-wave1-extra-a";
+import { componentsExtraB } from "./components-wave1-extra-b";
+import { componentsExtraC } from "./components-wave1-extra-c";
+import { componentsExtraD } from "./components-wave1-extra-d";
+import { componentsExtraE } from "./components-wave1-extra-e";
+import { componentsExtraF } from "./components-wave1-extra-f";
 import type { InformationalGuide, SourceRef } from "@/lib/pc-content/types";
 
 const author = { name: "The PC Journal", url: "/about-the-pc-journal" };
@@ -32,7 +38,7 @@ const NVME = ref("nvme", "NVM Express specifications", "https://nvmexpress.org",
 const JEDEC = ref("jedec", "JEDEC standards", "https://www.jedec.org", "JEDEC");
 const USBIF = ref("usbif", "USB Implementers Forum", "https://www.usb.org", "USB-IF");
 
-export const componentsWave1Guides: InformationalGuide[] = [
+const baseGuides: InformationalGuide[] = [
   /* ───────────────────────── power-supplies ───────────────────────── */
   {
     slug: "psu-transient-power-spikes-and-atx-3-explained",
@@ -156,6 +162,63 @@ export const componentsWave1Guides: InformationalGuide[] = [
         ],
       },
       {
+        "kind": "check-your-pc",
+        "heading": "Check what your current system actually draws",
+        "intro": "Software cannot see microsecond spikes, but it can show you sustained draw and whether your hardware is already near its limits.",
+        "items": [
+          {
+            "label": "GPU power draw under load",
+            "how": "Run a game or a graphics benchmark you actually use with HWiNFO or GPU-Z open, and watch the GPU power reading and its maximum. These tools sample about once a second by default, so treat the maximum as a floor for the real peak, not the peak itself."
+          },
+          {
+            "label": "CPU package power",
+            "how": "In HWiNFO sensors, find CPU Package Power while running a long all-core task such as a video export. If the value sits well above the box TDP, your board is running with raised limits and the CPU belongs in your budget at that higher number."
+          },
+          {
+            "label": "Your current PSU model and age",
+            "how": "The label is on the unit, and many cases show it through the PSU window or on the side facing the rear. Note the wattage, the ATX version if printed, and the manufacture date. Capacitor ageing lowers the real headroom of a unit that has run for many years."
+          },
+          {
+            "label": "Power limit options on your GPU",
+            "how": "Most cards let you lower the power limit in the maker's tuning tool. If a restart only happens at full limit, that points toward a PSU margin problem rather than a software fault."
+          }
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "What a spike-related shutdown looks like",
+        "paragraphs": [
+          "The typical pattern is a PC that powers off or restarts abruptly at the moment a game loads a heavy scene, a benchmark starts or a render begins, while idle and light use are fine. There is usually no blue screen, because the PSU cut output before Windows could react. Fans stop at once and the system may need the power switch on the PSU toggled before it starts again.",
+          "Other faults look similar, so rule them out before buying anything. A loose or daisy-chained GPU power cable, a CPU running into thermal shutdown, unstable memory overclocks and a failing PSU all end in sudden shutdowns. Check the event log for a Kernel-Power event 41 entry, which Windows writes after an unexpected power loss, and note whether the problem follows a particular program.",
+          "A useful test is to lower the GPU power limit a notch or two, or apply a modest undervolt through the maker's tool, and repeat the trigger. If the shutdowns stop, the unit is probably short on margin for that card. That is a diagnosis, not a cure: it tells you the PSU is the limiting part, and you can then choose between living with a lower limit or replacing the unit."
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Cabling choices that change how the PSU copes",
+        "paragraphs": [
+          "Give each PCIe 8-pin socket on the card its own cable from the PSU, rather than one cable with two plugs on a pigtail, whenever the unit supplies enough separate outputs. A pigtail shares one wire run between two connectors, which adds resistance and voltage drop at the moment of a peak. Cards that draw heavily are where this matters most.",
+          "If your GPU uses a 12V-2x6 or 12VHPWR socket and your PSU lacks that output, a maker-supplied adapter is the usual route. Prefer the adapter that came with the card or with the PSU for that purpose, connect every 8-pin lead it asks for, and never plug fewer in than it was built for. The sense wires in the connector tell the card how much power the cable can carry, so a missing lead can force a lower limit or a refusal to start under load.",
+          "Keep cables seated fully and avoid sharp bends right behind the plug. Repeated tight bending near a connector stresses the crimp and the contacts. Route the cable with room to curve gently, and check clearance with the side panel before closing the case."
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Questions readers ask",
+        "paragraphs": [
+          "Can an older ATX 2.x PSU run a modern graphics card? Often yes, if it has the right connectors and enough 12V capacity, and many people run them without trouble. The risk is the one described above, where a short excursion trips protection on a unit that was never specified for it. If you see shutdowns only under the heaviest loads, that is the signal to consider an ATX 3.x unit, not a reason to replace a working PSU in advance.",
+          "Does ATX 3.x mean the PSU will never shut down? No. It describes a design target for tolerating short excursions, and implementations differ between models. Read the maker's own statement of supported excursion levels and the connector it ships with, and treat third-party measurements as supporting evidence where they exist.",
+          "Is a higher wattage the same as better spike handling? Not necessarily. A larger unit often gives more margin because the peak is a smaller share of its capability, but a well-designed 750 W unit can handle a peak better than a poorly designed 1000 W one. Wattage and spike handling are separate lines on the spec sheet.",
+          "Should I buy a PSU for the GPU I plan to buy next year? Only if you know the card's connector and power class. Buying one size above your present needs is a reasonable margin; buying for an unknown future part tends to cost more than it saves, because connectors and standards can change in between."
+        ]
+      },
+      {
+        "kind": "callout",
+        "tone": "note",
+        "heading": "When to stop and ask the maker",
+        "body": "If a unit is under warranty and shuts down in a way you can reproduce with a card the maker lists as supported, contact the PSU maker's support with your parts list before replacing anything. They can often confirm whether the model is rated for your GPU, and a replacement under warranty costs nothing."
+      },
+      {
         kind: "next-steps",
         heading: "Where to go next",
         items: [
@@ -267,6 +330,73 @@ export const componentsWave1Guides: InformationalGuide[] = [
         ],
       },
       {
+        "kind": "explanation",
+        "heading": "Telling the three connectors apart by sight",
+        "paragraphs": [
+          "A PCIe 8-pin connector is the familiar rectangular plug with a latch on one side, built for three 12 V pins and several grounds, and it is specified to carry 150 W. A 6-pin is the smaller sibling at 75 W. Cards with several of these connectors, commonly two or three, take the sum, so a card with two 8-pin sockets can draw up to 300 W from the cables plus up to 75 W from the slot.",
+          "The 12VHPWR and 12V-2x6 plug is a single compact connector with 12 larger power pins in two rows and a small row of four sideband pins above them. It is specified for up to 600 W. From the outside the two revisions look nearly identical. The change in 12V-2x6 is that the power pins are slightly longer and the sense pins slightly shorter, so that a plug that is not fully seated is less likely to deliver power.",
+          "Because the housings are physically compatible, a 12V-2x6 cable can fit a 12VHPWR socket and the other way around. Compatibility on the page is not the same as a guarantee from the maker, so check the card's and PSU's documentation for the cable they intend you to use."
+        ]
+      },
+      {
+        "kind": "check-your-pc",
+        "heading": "Inspecting the connection you already have",
+        "intro": "If your build already uses a 12-pin style connector, these checks take a few minutes with the case open and the PC powered off and unplugged.",
+        "items": [
+          {
+            "label": "Full seating",
+            "how": "The plug should sit flush against the socket with no visible gap between the housing and the card's connector, and the latch should have clicked. A plug left slightly out is the commonly reported cause of overheated connectors, so reseat it if you are unsure."
+          },
+          {
+            "label": "Cable bend distance",
+            "how": "Look at where the cable leaves the plug. Many card and cable makers publish a minimum straight length before any bend. Check your maker's own figure, and if you cannot reach it, use a cable or adapter designed for a right-angle exit."
+          },
+          {
+            "label": "Which cable is it",
+            "how": "Identify whether the cable came from the PSU maker, the card maker or a third party. Use the one specified for your exact PSU model, because pin layouts at the PSU end differ between brands and product lines."
+          },
+          {
+            "label": "Adapter leads",
+            "how": "If the card shipped with an adapter, count how many 8-pin leads it wants and confirm that each one is plugged into its own PSU output, not into a splitter."
+          },
+          {
+            "label": "Signs of heat",
+            "how": "Look for discolouration, softened plastic or a smell on the plug and socket. If you see them, stop using the card and contact the card and cable makers."
+          }
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "What the sideband pins do",
+        "paragraphs": [
+          "The four small sideband pins let the cable tell the card how much power it can supply. On adapters that turn several 8-pin leads into one 12-pin plug, the pins are wired so that the number of connected leads sets the limit the card sees. This is why leaving one lead unplugged can lower the allowed power or stop the card working at load.",
+          "Native cables from a modern PSU do the same job through the PSU's own design. You do not configure anything, but you should know why the system may behave differently when a cable is swapped for a cheaper lookalike without proper sense wiring."
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Choosing between native cable and adapter",
+        "paragraphs": [
+          "A native 12V-2x6 cable from the PSU maker removes one connection point and usually gives a cleaner run with a shorter path between supply and card. Choose a PSU with this output when you are buying a unit for a card that uses the connector, or when you plan to move to one within the life of the PSU.",
+          "An adapter is a sound and ordinary solution for an existing PSU with enough PCIe 8-pin outputs. Its weaknesses are bulk and the extra bend radius needed behind the plug, which matters in narrow cases. Check the clearance between the card's connector and the side panel before you commit, and read the case maker's stated GPU width and connector clearance where one exists."
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Questions readers ask",
+        "paragraphs": [
+          "Can I plug a 12V-2x6 cable into a card that has the older 12VHPWR socket? Physically the connectors are designed to mate, and the revised plug is intended to be backward compatible. Confirm with the card maker if you plan to rely on it.",
+          "Do I need a new PSU for a card with a 12-pin connector? Not always. If your PSU has enough 8-pin outputs and the card ships with a suitable adapter, it may work, but check the card maker's minimum PSU wattage and the number of 8-pin leads the adapter needs.",
+          "Is it safe to reuse an old modular cable? Not between brands. The PSU-side pin layout differs, and plugging a cable into the wrong socket can damage parts. Use only the cables for your model."
+        ]
+      },
+      {
+        "kind": "callout",
+        "tone": "caution",
+        "heading": "Disconnect power before touching connectors",
+        "body": "Switch the PSU off and unplug it from the wall before you reseat any graphics card cable. Press the power button once afterward to discharge stored energy, and do not work on the cable with the PC running."
+      },
+      {
         kind: "next-steps",
         heading: "Where to go next",
         items: [
@@ -349,6 +479,72 @@ export const componentsWave1Guides: InformationalGuide[] = [
           { mistake: "Ignoring cooling", instead: "Plan the heatsink and case airflow, since a hot drive may reduce its speed." },
           { mistake: "Buying less capacity to afford Gen5", instead: "Capacity usually serves a library better than extra bandwidth does." },
         ],
+      },
+      {
+        "kind": "explanation",
+        "heading": "What the bandwidth numbers mean",
+        "paragraphs": [
+          "PCIe 4.0 runs each lane at 16 GT/s and PCIe 5.0 at 32 GT/s. An NVMe drive normally uses four lanes, which gives a theoretical ceiling of roughly 7.9 GB/s for PCIe 4.0 x4 and roughly 15.8 GB/s for PCIe 5.0 x4, before protocol overhead. Drive makers print peak sequential read and write figures that approach those ceilings.",
+          "Those are best-case figures for large sequential transfers at a high queue depth. Everyday work, such as loading an application, opening a project or booting Windows, is mostly small reads at low queue depths where the interface limit is rarely reached. That is why a faster interface does not translate into proportionally faster everyday use."
+        ]
+      },
+      {
+        "kind": "check-your-pc",
+        "heading": "Check what your board and slot support",
+        "intro": "A fast drive only runs fast when the slot and CPU can carry it.",
+        "items": [
+          {
+            "label": "Which M.2 slot is Gen 5",
+            "how": "Open the motherboard manual or product page and find the M.2 section. Boards list each slot's interface and whether it is wired to the CPU or the chipset. On many boards only one slot is PCIe 5.0, and some boards have none."
+          },
+          {
+            "label": "Lane sharing with the graphics slot",
+            "how": "Some boards split CPU lanes between the top PCIe slot and a Gen 5 M.2 slot, so populating the M.2 slot can drop the GPU slot from x16 to x8. The manual's lane table states this."
+          },
+          {
+            "label": "What your current drive negotiates",
+            "how": "CrystalDiskInfo shows the transfer mode of an NVMe drive, such as PCIe 4.0 x4. If it reports a lower link than expected, the slot, the BIOS setting or the drive is the limit."
+          },
+          {
+            "label": "CPU generation",
+            "how": "Look at your CPU's product page on Intel ARK or the AMD site for its PCIe version and lane count, which sets what the CPU-attached slots can do."
+          },
+          {
+            "label": "Heatsink space",
+            "how": "Gen 5 drives run hot. Check whether the board's M.2 heatsink is included and whether a large graphics card will cover the slot."
+          }
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Heat and throttling",
+        "paragraphs": [
+          "Faster controllers draw more power, and many PCIe 5.0 drives ship with large heatsinks or ask for active airflow. A drive that overheats lowers its speed to protect itself, which can leave it no faster than a good PCIe 4.0 drive in a long transfer. Read the maker's cooling guidance and the thermal throttle behaviour in independent reviews of the exact model.",
+          "If your case has little airflow around the M.2 slot, or the slot sits under a graphics card, the cooler PCIe 4.0 drive is often the better engineering choice for that build."
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Where Gen 5 can pay off",
+        "paragraphs": [
+          "The workloads that can use the extra bandwidth are those moving large files between fast sources, for example copying multi-hundred-gigabyte video projects from one NVMe drive to another, working with very large scratch files, or loading large datasets. The source or destination must also be fast, because a transfer is limited by the slower side.",
+          "For most gaming, browsing and office use, the real-world gain is small, so compare total cost per terabyte and the risk of throttling before paying more. A Gen 5 drive in a Gen 4 slot works but runs at Gen 4 speed."
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Questions readers ask",
+        "paragraphs": [
+          "Will a Gen 5 drive damage anything in an older board? No. The standard is backward compatible, so the drive links at the highest speed both sides support. You pay for speed you will not use, though.",
+          "Does DirectStorage need Gen 5? No. It reduces CPU load for asset loading and is designed to work on fast NVMe drives generally; check each game's own requirements.",
+          "Is the price premium falling? Prices change, so compare cost per terabyte at the time you buy rather than relying on any figure printed in an article."
+        ]
+      },
+      {
+        "kind": "callout",
+        "tone": "note",
+        "heading": "A practical rule",
+        "body": "Pick the platform and slot first, then pick the drive. If you have a PCIe 4.0 slot and no workload that moves huge files, a high-quality PCIe 4.0 drive from a maker with strong endurance and warranty terms usually serves you better than a hotter, dearer Gen 5 model."
       },
       {
         kind: "next-steps",
@@ -441,6 +637,55 @@ export const componentsWave1Guides: InformationalGuide[] = [
         ],
       },
       {
+        "kind": "check-your-pc",
+        "heading": "Find out what your drive really is",
+        "intro": "Marketing names rarely say what memory or cache a drive uses.",
+        "items": [
+          {
+            "label": "Exact model and firmware",
+            "how": "CrystalDiskInfo shows the model string and firmware. Use the exact string when you search for reviews, because makers sometimes change controllers or NAND under the same product name."
+          },
+          {
+            "label": "Rated endurance",
+            "how": "Look up the TBW or DWPD figure on the maker's data sheet. This is the amount of data written that the warranty covers and it varies a lot between models."
+          },
+          {
+            "label": "Free space",
+            "how": "Open File Explorer and check how full the drive is. A drive close to full has little room for dynamic SLC cache, which affects sustained write speed."
+          },
+          {
+            "label": "Sustained write behaviour",
+            "how": "Find a review of your exact model that graphs write speed over a long transfer. Those graphs show how fast the drive writes once its cache is full, which is the figure the spec sheet usually omits."
+          }
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Why speed drops during a long copy",
+        "paragraphs": [
+          "Most consumer drives write incoming data into a fast mode first. They treat part of the NAND as single-bit-per-cell storage, called an SLC cache, and move it into its final denser form later. A copy that fits inside the cache runs at the quoted speed, then falls to the drive's native write speed when the cache fills.",
+          "On TLC drives the drop is often moderate, while on QLC drives it can be steep, because storing four bits per cell is slower to write. The size of the cache can also depend on how much free space the drive has. A fuller drive can have a smaller cache and drop sooner.",
+          "This only matters if you write large amounts at a time. Saving documents, installing games and normal browsing seldom exceed the cache, so most people never see the drop. Video editors, people who copy whole libraries, and anyone using the drive as a capture target are the readers who should look at sustained write data."
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "DRAM-less drives and host memory buffer",
+        "paragraphs": [
+          "A DRAM chip on the drive stores the table that maps logical addresses to physical locations. Drives without it can keep part of that table in system memory through the NVMe Host Memory Buffer feature, using a modest slice of RAM. For light use that works well, and many good budget drives are built this way.",
+          "The trade-off shows under heavy random work and when the drive is mostly full, where a DRAM-equipped drive tends to stay more consistent. If the drive is a scratch or project disk, DRAM is a sensible thing to want. If it is a secondary game library, DRAM-less is often fine."
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Questions readers ask",
+        "paragraphs": [
+          "Is QLC bad? It is not unreliable by definition, but it usually has lower endurance and slower sustained writes than TLC. It suits read-heavy storage such as game libraries and archives.",
+          "Does a bigger drive write faster? Often yes within a product line, because a larger drive has more NAND dies working in parallel and a larger cache. Check the maker's table of speeds by capacity.",
+          "Does keeping some space free help? Yes. Leaving a reasonable share of the drive free gives the controller room to manage cache and wear, and keeps long writes closer to the best case."
+        ]
+      },
+      {
         kind: "next-steps",
         heading: "Where to go next",
         items: [
@@ -525,6 +770,54 @@ export const componentsWave1Guides: InformationalGuide[] = [
         ],
       },
       {
+        "kind": "steps",
+        "heading": "Measure instead of guessing",
+        "intro": "Four numbers settle most fit questions. Gather them before you order.",
+        "steps": [
+          {
+            "title": "Card length from the maker's page",
+            "body": "Use the exact partner model's published length, which includes the cooler and sometimes the backplate. Reference-design numbers are not reliable for a custom card."
+          },
+          {
+            "title": "Case clearance, front to back",
+            "body": "Find the maximum GPU length in the case specification and then subtract anything that you plan to mount in front, such as a thick radiator and fans. Some specifications give two figures, one with and one without a front fan."
+          },
+          {
+            "title": "Card thickness and height",
+            "body": "Cards are described by slot width, such as two or three slots, and may rise above the bracket. Check the case's expansion slot count and the space between the card and the side panel, and the width of the PSU shroud."
+          },
+          {
+            "title": "Power connector position and bend room",
+            "body": "Note where the power socket sits on the card and how much space the cable needs before it meets the side panel. A 12-pin plug at the top edge needs extra room behind it."
+          }
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Windows tools to identify what you have now",
+        "paragraphs": [
+          "Press Windows and R, type msinfo32 and read the Components then Display page for the current graphics model. GPU-Z shows the exact card, its bus interface and its BIOS version. In Task Manager's Performance tab, the GPU entry shows the model and dedicated memory.",
+          "For the PSU there is no software readout of the model. Read the label on the unit, which gives wattage and the number of connectors printed on the cable sockets. If the PSU is modular, the cable set in the box tells you which PCIe cables you own."
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Fits in the case but not the PSU, and the reverse",
+        "paragraphs": [
+          "A card can physically fit and still lack power. Check the number of PCIe power connectors the card needs and the number your PSU provides on separate cables. A PSU might list four PCIe sockets but only supply two cables, with each carrying two plugs, and the maker's manual shows how each socket is meant to be used.",
+          "The reverse also happens: the PSU is fine but a long PSU blocks drive cages or limits cable routing near the card. Add margin to the PSU length figure, and check the case's maximum PSU length."
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Questions readers ask",
+        "paragraphs": [
+          "Can I mount the card vertically to save space? Only with a case and riser designed for it, and you need to confirm that the riser supports the PCIe generation the card uses.",
+          "Do I need a support bracket? Heavy cards can sag, which stresses the slot. A bracket or the case's own support helps, and it is cheap compared with replacing a board.",
+          "Will a three-slot card block my other slots? Yes, it covers adjacent slots and may block the first of them. Plan your add-in cards around it, as described in our PCIe slots guide."
+        ]
+      },
+      {
         kind: "next-steps",
         heading: "Where to go next",
         items: [
@@ -602,6 +895,82 @@ export const componentsWave1Guides: InformationalGuide[] = [
           { mistake: "Comparing partner cards by clock speed alone", instead: "Compare cooling, noise and size, since the clock gap is usually small." },
           { mistake: "Skipping the VRAM line", instead: "Confirm the memory size and bus on the exact listing." },
         ],
+      },
+      {
+        "kind": "check-your-pc",
+        "heading": "Identify the card you already own",
+        "intro": "Names on boxes and receipts are often shortened. These checks give the exact model.",
+        "items": [
+          {
+            "label": "Task Manager",
+            "how": "Open Task Manager, go to Performance and select GPU. The model name and dedicated memory are at the top right, which separates, for example, an 8 GB variant from a 16 GB one."
+          },
+          {
+            "label": "GPU-Z",
+            "how": "The free GPU-Z tool lists the GPU chip, memory size and type, bus width and the partner BIOS version. The Lookup button opens a database entry for the exact board."
+          },
+          {
+            "label": "The card's sticker or backplate",
+            "how": "The product number printed on the card or its box is the identifier to use when you look up the cooler, power connectors and length on the maker's page."
+          },
+          {
+            "label": "Device Manager",
+            "how": "The Display adapters entry confirms the driver sees the same chip you think you bought, which helps when a listing was vague."
+          }
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Reading the naming layers in order",
+        "paragraphs": [
+          "A graphics card name stacks several pieces of information. The chip family comes first, such as GeForce RTX or Radeon RX. Then comes a model number, whose first digits normally indicate the generation and whose last digits indicate where the card sits in that generation's range. After that may come a suffix such as Ti, SUPER, XT or XTX, which marks a variant of the same number.",
+          "Finally the board partner adds its own series name and sometimes OC or a similar tag, for example a gaming, strix or windforce style label. Those series names describe the cooler, the board and the factory settings, and they differ between partners even for the same chip. Two cards with the same chip can differ in length, thickness, fan count, noise and power connectors.",
+          "The one reliable habit is to compare the specification sheet, not the name. Look at memory capacity, memory bus width, memory type, board power and the connector. Those fields describe what the card is, and naming conventions change from one generation to the next."
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "When one name hides different products",
+        "paragraphs": [
+          "Some model numbers have been sold with more than one memory capacity, and the capacity alone can change how the card performs in memory-hungry software. Always read the memory figure from the product page, not just from the headline name.",
+          "Laptop GPUs often reuse desktop-style names while being different parts with lower power limits. If a listing is for a laptop or a pre-built system, the name does not describe the same product as a desktop card with the same number.",
+          "Refurbished and OEM cards sometimes have a different cooler or board than the retail version and may come without the retail accessories or warranty terms. Check what the seller states about the exact model and its warranty."
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "What OC and factory overclocks are worth",
+        "paragraphs": [
+          "An OC card is the same chip with a higher clock set at the factory. The gain is typically small and depends on the workload, the power limit and the cooler. The cooler and board quality that usually come with an OC model can matter more than the clock offset, for example in noise.",
+          "Pay for an OC card when the cooler, size or noise of that model is what you want. Do not pay a large premium for the clock alone, because most cards can be tuned manually within their own limits."
+        ]
+      },
+      {
+        "kind": "choose-if",
+        "heading": "How to choose between similar names",
+        "options": [
+          {
+            "choice": "Pick the base model",
+            "when": [
+              "You want the lowest price for the chip and the card fits your case.",
+              "You plan to tune the card yourself or leave it at stock."
+            ]
+          },
+          {
+            "choice": "Pick a partner model with a bigger cooler",
+            "when": [
+              "Noise matters to you and your case has the clearance.",
+              "Your workload runs the card at full load for hours."
+            ]
+          },
+          {
+            "choice": "Pick the suffix variant",
+            "when": [
+              "The spec sheet shows more memory or a wider bus that your software uses.",
+              "The price gap is small compared with what the spec sheet adds."
+            ]
+          }
+        ]
       },
       {
         kind: "next-steps",
@@ -693,6 +1062,56 @@ export const componentsWave1Guides: InformationalGuide[] = [
         ],
       },
       {
+        "kind": "check-your-pc",
+        "heading": "Find your exact CPU and what it supports",
+        "intro": "The suffix is only a hint. The specification page is the source.",
+        "items": [
+          {
+            "label": "Task Manager",
+            "how": "Open Task Manager, go to Performance and select CPU. The full model name is at the top, including any suffix."
+          },
+          {
+            "label": "CPU-Z",
+            "how": "The CPU tab lists the name, socket, core count and the code name, which helps you open the right product page."
+          },
+          {
+            "label": "Product page",
+            "how": "Search the model on Intel ARK or the AMD product page and read the graphics line. Intel lists processor graphics, and an F model shows none. AMD pages state whether the chip has integrated graphics."
+          },
+          {
+            "label": "Motherboard CPU support list",
+            "how": "Your motherboard maker's support page lists which CPUs a board accepts and the BIOS version needed. A newer chip in an older board may need a BIOS update first."
+          }
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Intel suffixes in practice",
+        "paragraphs": [
+          "On Intel desktop chips, K marks a model with an unlocked multiplier, meaning you can raise the clock on a board that allows it. KF is the same with the integrated graphics disabled. F alone is a locked chip without integrated graphics. T denotes a lower-power variant, and a model with no suffix is a locked chip with graphics.",
+          "Overclocking the CPU on Intel needs both an unlocked chip and a board whose chipset supports it, which has traditionally been the higher-end chipsets. Memory tuning rules differ by generation, so check the board's own documentation.",
+          "If you do not overclock, the K premium buys little in itself, though K models often are the higher-clocked parts in a line. An F or KF chip needs a graphics card or the screen will stay dark, so keep that in mind for a build that must boot without a GPU installed."
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "AMD suffixes in practice",
+        "paragraphs": [
+          "AMD's X marks a higher-clocked model in a family. Most Ryzen desktop chips are unlocked for overclocking, but the practice varies by product, so check the specification. X3D models use stacked cache that raises cache capacity, a design aimed at workloads that benefit from a big cache. Their tuning options are more limited than other chips, and the product page states what is allowed.",
+          "G models in several generations pair the CPU with a stronger integrated graphics part and are useful for builds without a separate GPU. Newer desktop Ryzen chips often include a small integrated graphics part as standard, and an F model has none. Read the graphics line on the product page.",
+          "AMD sockets have remained in use across several generations, so compatibility depends on the chip generation and the board's BIOS as well as the socket name."
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Questions readers ask",
+        "paragraphs": [
+          "Is a KF chip a bad deal? It is the K chip without integrated graphics, usually at a slightly lower price. It is fine if you have a GPU and do not need a display fallback.",
+          "Does X3D always beat a plain X chip? Not in every workload. It helps where extra cache is useful, and other tasks may favour higher clocks or more cores. Look at independent results for your own software.",
+          "Do I need a better cooler for a K or X chip? Those chips often draw more power at full load, so check the cooler's stated capacity against the CPU's maximum power."
+        ]
+      },
+      {
         kind: "next-steps",
         heading: "Where to go next",
         items: [
@@ -773,6 +1192,55 @@ export const componentsWave1Guides: InformationalGuide[] = [
           { mistake: "Ignoring SATA port loss", instead: "Count your SATA devices against what remains after the M.2 drives are installed." },
           { mistake: "Trusting a retailer's bullet list", instead: "Read the maker's manual footnotes for the lane rules." },
         ],
+      },
+      {
+        "kind": "check-your-pc",
+        "heading": "Read the manual before you plug drives in",
+        "intro": "Lane sharing is documented, but the page is easy to miss.",
+        "items": [
+          {
+            "label": "The storage section of the manual",
+            "how": "Look for a table or footnote saying that one M.2 slot shares bandwidth with specific SATA ports or with a PCIe slot. It names the ports that are disabled when the slot is used."
+          },
+          {
+            "label": "Slot wiring",
+            "how": "Note which slots connect to the CPU and which to the chipset. A CPU-connected slot gets dedicated lanes, while chipset slots share an uplink to the CPU."
+          },
+          {
+            "label": "SATA or NVMe in the M.2 slot",
+            "how": "Some M.2 slots take both SATA and NVMe drives and a SATA drive may disable different ports from an NVMe one. Check the manual's wording for each type."
+          },
+          {
+            "label": "What the BIOS reports",
+            "how": "Open the BIOS storage page and confirm each drive appears. In Windows, Disk Management lists the drives that were detected."
+          }
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "What sharing looks like when it goes wrong",
+        "paragraphs": [
+          "A typical symptom is a SATA drive that stops appearing after you add an M.2 drive. The board has routed the lanes to the M.2 slot and turned off the SATA ports that share them. Moving the SATA drive to a different port, or the M.2 drive to a different slot, normally fixes it.",
+          "Another case is a graphics card running at x8 instead of x16 after a fast M.2 drive is installed in a slot that takes lanes from the top slot. For most graphics cards the loss is small, but it is worth knowing so you can read the correct number in GPU-Z, which reports the current link width.",
+          "Chipset-attached devices all share one link back to the CPU. Several fast drives copying at once between chipset slots can therefore compete for that link, which matters only when you move big files between them."
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Planning your drive layout",
+        "paragraphs": [
+          "Put the fastest drive, usually your operating system and active projects, in the slot wired to the CPU. Put secondary storage on chipset slots or SATA ports. If you need all SATA ports, choose an M.2 slot that does not share with them, or pick an adapter-card solution.",
+          "Before buying a board for a storage-heavy build, count the M.2 slots, the SATA ports and the sharing rules together. A board with many connectors on paper may expose fewer when they are all used."
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Questions readers ask",
+        "paragraphs": [
+          "Can I use an M.2 SATA drive in an NVMe-only slot? No. The slot must support SATA to run one.",
+          "Does a heatsink cover change anything? It affects temperature, not lanes. Check that it does not block a PCIe slot.",
+          "Can an adapter card add more NVMe drives? Yes where the slot has enough lanes, and some cards need the board to support splitting the slot into smaller links, which the manual calls bifurcation."
+        ]
       },
       {
         kind: "next-steps",
@@ -861,6 +1329,61 @@ export const componentsWave1Guides: InformationalGuide[] = [
         ],
       },
       {
+        "kind": "explanation",
+        "heading": "DDR4 and DDR5 do not mix",
+        "paragraphs": [
+          "DDR4 and DDR5 modules have the notch in different places, so one cannot be forced into the other's slot. Your board supports one generation only, and the board's specification page names it. Check this before you check speed or capacity.",
+          "The CPU also limits memory. The processor's product page lists supported memory types and a maximum official speed. Speeds above that are overclocks using XMP or EXPO profiles, which the board and chip must handle.",
+          "Note the board's maximum capacity and the maximum per slot. Many boards have four slots but a limit for the whole system, and some handle a pair of modules better than four."
+        ]
+      },
+      {
+        "kind": "check-your-pc",
+        "heading": "See what is installed now",
+        "intro": "Check this before ordering an upgrade so you can match or replace sensibly.",
+        "items": [
+          {
+            "label": "Task Manager",
+            "how": "The Memory tab on the Performance page shows total capacity, speed, slots used and form factor."
+          },
+          {
+            "label": "CPU-Z",
+            "how": "The SPD tab shows each module's size, type, maker and part number, and the Memory tab shows the speed the system actually runs at."
+          },
+          {
+            "label": "BIOS version",
+            "how": "Press Win and R, type msinfo32 and read the BIOS version line. Compare it with the latest on the board's support page."
+          },
+          {
+            "label": "Slot labels",
+            "how": "The manual shows which slots to fill first for two modules, which is usually the second and fourth from the CPU on a four-slot board."
+          }
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Enabling the advertised speed",
+        "paragraphs": [
+          "A kit sold as a high speed often runs slower by default. The speed shown on the box needs an XMP profile on Intel boards or an EXPO profile on AMD boards, turned on in the BIOS. After enabling it, confirm in CPU-Z or Task Manager that the new speed applied.",
+          "If the PC fails to start after enabling a profile, the board usually falls back to a safe setting after a few attempts. Clear the CMOS using the board's jumper or button and try a lower speed, or update the BIOS and try again.",
+          "Newer platforms may take several minutes at first boot to train memory, with a blank screen and no beep. Wait before assuming the kit is faulty, and look for the board's debug light for a status."
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Mixing modules and filling every slot",
+        "paragraphs": [
+          "Use a matched kit rather than combining separate modules. Two modules from the same kit are tested together, while separate purchases can differ in timings or chips even under the same name.",
+          "Filling all four slots usually asks more of the memory controller than two modules, so the stable speed can be lower. The board's memory support list or the CPU maker's guidance states the speeds for each case."
+        ]
+      },
+      {
+        "kind": "callout",
+        "tone": "note",
+        "heading": "Use the qualified vendor list as a guide, not a gate",
+        "body": "A kit on the board's memory list was tested with that board. A kit missing from it may still work, particularly if it is newer than the list, but BIOS version and the CPU's memory controller also matter. When in doubt, check the maker's own compatibility tool."
+      },
+      {
         kind: "next-steps",
         heading: "Where to go next",
         items: [
@@ -943,6 +1466,55 @@ export const componentsWave1Guides: InformationalGuide[] = [
         ],
       },
       {
+        "kind": "explanation",
+        "heading": "Which header feeds the front USB-C port",
+        "paragraphs": [
+          "A front USB-C port on a case needs a matching header on the motherboard, normally a 20-pin key-A style header that supports USB 3.2 Gen 2 or faster. The cable from the case ends in a small keyed plug that fits only one way. A 19-pin USB 3.0 header is a different connector and cannot run a front USB-C port.",
+          "If your board lacks the header, a PCIe adapter card with the header can add it, and some cards add faster USB ports too. Check that the card matches the front port's speed and draws power from the PSU where needed.",
+          "The USB 2.0 header is a separate nine-pin connector. It serves older front ports and many internal devices, such as RGB controllers. Plug each cable into its own matching header and never force a plug."
+        ]
+      },
+      {
+        "kind": "steps",
+        "heading": "Connecting front-panel cables in order",
+        "intro": "Do this with the PC off and unplugged, with the board manual open.",
+        "steps": [
+          {
+            "title": "Find the headers in the manual's diagram",
+            "body": "The manual labels each header and shows pin one. The cable plugs are keyed, but the manual removes guesswork for the small switch and LED plugs."
+          },
+          {
+            "title": "Connect the USB 3 and USB-C cables",
+            "body": "Seat the large keyed plugs firmly into their headers, keeping them away from the graphics card's slot area."
+          },
+          {
+            "title": "Connect audio and USB 2.0",
+            "body": "The HD audio plug goes to its header at the board's bottom edge. Match each USB 2.0 plug to a header."
+          },
+          {
+            "title": "Connect the power and reset switches and LEDs",
+            "body": "The switch plugs have no polarity. The LED plugs do, so match the plus and minus marks in the manual, or the lights will not turn on."
+          }
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "What speed to expect",
+        "paragraphs": [
+          "A front USB-C port's speed is limited by the slowest piece: the port on the case, the cable, the header and the controller behind the header. A case that markets USB-C may carry a 10 Gbps link, and a board with only a lower-speed header would reduce it.",
+          "Power delivery is another separate question. A front port may carry data at high speed and still not charge a phone as fast as a rear port. Read the case and board specification for charging figures and do not assume them."
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Questions readers ask",
+        "paragraphs": [
+          "Why does my front USB-C port not work? Check that the cable is firmly in the header, that the header is enabled in the BIOS if it has a setting, and that the Windows driver for the board's USB controller is installed.",
+          "Can I convert a USB 3.0 header to USB-C? Only with a controller card or hub designed for it. A passive cable cannot change the connector type.",
+          "Will a front port match a rear port's speed? Not necessarily. Compare the rear port's controller with the header's controller in the manual."
+        ]
+      },
+      {
         kind: "next-steps",
         heading: "Where to go next",
         items: [
@@ -1023,6 +1595,58 @@ export const componentsWave1Guides: InformationalGuide[] = [
           { mistake: "Ignoring RAM height", instead: "Check the clearance figure before choosing tall kits." },
           { mistake: "Forgetting the fan on top of the radiator", instead: "Add the fan thickness to the radiator thickness when measuring." },
         ],
+      },
+      {
+        "kind": "check-your-pc",
+        "heading": "Gather the numbers for your own build",
+        "intro": "Compatibility is a list of five checks. Note each one.",
+        "items": [
+          {
+            "label": "Socket",
+            "how": "Your CPU and board name the socket, such as AM5 or LGA1700. The cooler's product page lists the sockets its mounting kit supports. Coolers for one socket often support the next generation if the hole pattern is shared, but confirm on the cooler maker's page."
+          },
+          {
+            "label": "Cooler height versus the case",
+            "how": "Find the case's maximum CPU cooler height in its specification. Compare it with the cooler's height from the cooler page and leave a little margin for the side panel."
+          },
+          {
+            "label": "Memory clearance",
+            "how": "Tall air coolers can overhang the first memory slot. Check the cooler's stated memory clearance and the height of your memory modules."
+          },
+          {
+            "label": "Radiator support for liquid coolers",
+            "how": "The case lists the radiator sizes it can hold at the front, top or rear. Check which positions allow the size you want and how much space the thickness leaves for memory."
+          },
+          {
+            "label": "Cooling capacity versus the CPU",
+            "how": "Read the cooler's stated capacity if given and compare it with the CPU's maximum power from its product page."
+          }
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Air coolers and liquid coolers",
+        "paragraphs": [
+          "Air coolers have fewer parts to fail and need a case with enough height. Their performance varies mostly with fin area, heat pipes and fan quality, and independent test sites compare them in controlled conditions.",
+          "All-in-one liquid coolers move heat to a radiator that you mount in the case. They need a clear mounting position and tubing length that reaches it. The pump and fans add noise sources, so read measured results for the exact model, and check the warranty length."
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Installation details that cause trouble",
+        "paragraphs": [
+          "Check whether the board has a backplate fitted and whether the cooler uses it or needs its own. Fitting a bracket for the wrong socket stops the cooler making full contact.",
+          "Apply thermal paste in a small amount as the cooler maker describes and tighten the screws gradually in a cross pattern. Plug the cooler's fan or pump into the header the board labels for the CPU fan so the BIOS can control it."
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Questions readers ask",
+        "paragraphs": [
+          "Can I reuse my old cooler on a new CPU? Only if its kit supports the new socket. If not, the maker may offer a bracket.",
+          "Is a bigger cooler always better? A bigger cooler may cool better, but only if it fits the case and memory. A mid-size cooler suits a CPU that does not draw much power.",
+          "Why are my temperatures high with a new cooler? Check that the plastic film is removed, that all screws are even and that the fan header reports speed."
+        ]
       },
       {
         kind: "next-steps",
@@ -1108,6 +1732,62 @@ export const componentsWave1Guides: InformationalGuide[] = [
         ],
       },
       {
+        "kind": "explanation",
+        "heading": "Physical size versus electrical lanes",
+        "paragraphs": [
+          "The x in a slot name counts the lanes it was built for, and a slot can be physically longer than its electrical wiring. A long x16 slot may carry only four lanes and be labelled x16 slot running at x4 in the manual.",
+          "A card is designed to fit a slot at least as long as its connector, and many slots are also open at the end so a longer card can rest in them. A card that is shorter than the slot fits and runs at its own width. Cards also negotiate with older slots at older speeds, which works but limits bandwidth."
+        ]
+      },
+      {
+        "kind": "check-your-pc",
+        "heading": "See what each slot is really doing",
+        "intro": "The manual gives the wiring, and software confirms what is negotiated.",
+        "items": [
+          {
+            "label": "The slot table in the manual",
+            "how": "It lists each slot's physical size, lane count, PCIe generation and whether it shares lanes with M.2 slots or SATA ports."
+          },
+          {
+            "label": "GPU-Z bus interface",
+            "how": "GPU-Z shows the graphics card's current link, such as PCIe x16 4.0. A short render test inside GPU-Z wakes the link up, because it lowers speed at idle."
+          },
+          {
+            "label": "HWiNFO",
+            "how": "Its PCIe section shows the width and speed of other devices, so you can check that a network or capture card is on a full link."
+          },
+          {
+            "label": "Case brackets",
+            "how": "Count the expansion slots in the case, and check which are covered by the graphics card's cooler."
+          }
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Which cards suit which slots",
+        "paragraphs": [
+          "Network cards, sound cards and USB controllers normally need x1 to x4. Capture cards and fast network cards often want x4 or more. NVMe adapter cards use x4 for a single drive. Check each card's own specification for the lane count and generation it needs.",
+          "The graphics card should have the best slot, normally the top x16 slot wired to the CPU. Other devices should go to chipset slots unless they need CPU lanes for speed."
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Space and spacing",
+        "paragraphs": [
+          "A large graphics card covers the neighbouring slots. If you plan several add-in cards, check which slots remain clear after the card is in and whether the card's cooler blocks an x1 slot completely.",
+          "A card that is longer than the slot can interfere with the case's other parts. Check clearance near the front, and cables near the card's edge."
+        ]
+      },
+      {
+        "kind": "explanation",
+        "heading": "Questions readers ask",
+        "paragraphs": [
+          "Can I put an x1 card in an x16 slot? Yes. It will run at x1. The slot supports it, and the wiring is standard.",
+          "Can a PCIe 3.0 card use a PCIe 5.0 slot? Yes, at its own speed.",
+          "Does a graphics card lose speed in an x8 slot? Often only a small amount, depending on the card and workload, but check independent testing for your model."
+        ]
+      },
+      {
         kind: "next-steps",
         heading: "Where to go next",
         items: [
@@ -1119,3 +1799,14 @@ export const componentsWave1Guides: InformationalGuide[] = [
     ],
   },
 ];
+
+const extras: Record<string, InformationalGuide["modules"]> = { ...componentsExtraA, ...componentsExtraB, ...componentsExtraC };
+for (const part of [componentsExtraD, componentsExtraE, componentsExtraF]) for (const [k, v] of Object.entries(part)) extras[k] = [...(extras[k] ?? []), ...v];
+
+export const componentsWave1Guides: InformationalGuide[] = baseGuides.map((g) => {
+  const add = extras[g.slug];
+  if (!add) return g;
+  const i = g.modules.findIndex((m) => m.kind === "next-steps");
+  const at = i < 0 ? g.modules.length : i;
+  return { ...g, modules: [...g.modules.slice(0, at), ...add, ...g.modules.slice(at)] };
+});

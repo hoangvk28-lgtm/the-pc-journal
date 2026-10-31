@@ -2,6 +2,9 @@ import Link from "next/link";
 import type { GuideModule, InformationalGuide } from "@/lib/pc-content";
 import { ArticleShell, RelatedArticles, SourcesList, headingId, type TocEntry } from "./ArticleShell";
 import { EvidenceList } from "./EvidenceList";
+import { SectionPhoto } from "./SectionPhoto";
+import { sectionPhotos } from "@/lib/guide-hero";
+import { Fragment } from "react";
 
 const defaultHeadings: Partial<Record<GuideModule["kind"], string>> = {
   "key-takeaway": "The short answer",
@@ -174,6 +177,7 @@ export function GuideTemplate({ article, sample }: { article: InformationalGuide
   const lead = first?.kind === "key-takeaway" ? first : undefined;
   const body = lead ? rest : article.modules;
   const toc = buildToc(article.modules, !!article.sources?.length);
+  const photos = sectionPhotos(article);
   const cites = article.modules.some((m) => m.kind === "explanation" && m.evidence?.length);
 
   return (
@@ -185,7 +189,13 @@ export function GuideTemplate({ article, sample }: { article: InformationalGuide
       intro={lead && <Module m={lead} article={article} />}
     >
       <div className="mt-12 max-w-3xl space-y-12">
-        {body.map((m, i) => <Module key={i} m={m} article={article} />)}
+        {body.map((m, i) => (
+          <Fragment key={i}>
+            <Module m={m} article={article} />
+            {/* a real photo after every second section, while the guide's photo set lasts */}
+            {i % 2 === 1 && i < body.length - 1 && <SectionPhoto photo={photos[(i - 1) / 2]} className="" />}
+          </Fragment>
+        ))}
         <SourcesList sources={article.sources} />
         {!cites && <p className="text-sm text-ink-secondary">
           This guide explains a decision process. It does not contain product rankings, benchmark results or hands-on measurements.{" "}

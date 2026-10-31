@@ -7,7 +7,8 @@ import { PcQuickPicks } from "@/components/pc/article/PcQuickPicks";
 import { PcProductPick } from "@/components/pc/article/PcProductPick";
 import { AuthorAvatar, AuthorBox } from "@/components/pc/article/AuthorBox";
 import { DEFAULT_GUIDE_AUTHOR, authorHref } from "@/lib/authors";
-import { guideHero } from "@/lib/guide-hero";
+import { guideHero, sectionPhotos } from "@/lib/guide-hero";
+import { SectionPhoto } from "@/components/pc/article/SectionPhoto";
 import { GuideJumpTo, GuideTocSidebar, type TocItem } from "@/components/guide/editorial/GuideToc";
 import type { BestGuide } from "@/lib/pc-content";
 import { articleHref, categoryHref, categoryLabel } from "@/lib/pc-content";
@@ -30,6 +31,7 @@ export function BestGuidePage({ article, sample }: { article: BestGuide; sample?
   const hub = sub ? { name: sub.title, href: subtopicHref(sub) } : undefined;
   const related = [...contextualLinks(article), ...(sub ? [hubLink(sub)] : [])];
   const author = DEFAULT_GUIDE_AUTHOR;
+  const photos = sectionPhotos(article);
   const hero = guideHero(article);
 
   const articleSchema = {
@@ -158,6 +160,7 @@ export function BestGuidePage({ article, sample }: { article: BestGuide; sample?
               <section aria-labelledby="how-we-chose" className="mt-14">
                 <h2 id="how-we-chose" className={sectionTitle}>{headings.howWeChose}</h2>
                 <p className="mt-2 max-w-[68ch]">{author.name} compared the manufacturer specifications, connectivity, warranty terms and compatibility of every pick. Figures come from the makers unless a third-party source is named; we did not test these products ourselves.</p>
+                <SectionPhoto photo={photos[0]} className="mt-6" />
                 <dl className="mt-6 divide-y divide-border border-y border-border">
                   {howWeEvaluated.map((item, i) => (
                     <div key={i} className="py-5 sm:grid sm:grid-cols-[200px_1fr] sm:gap-8">
@@ -183,6 +186,8 @@ export function BestGuidePage({ article, sample }: { article: BestGuide; sample?
                       <div className="mt-3 max-w-[68ch] space-y-4 text-base leading-relaxed">
                         {item.explanation.split("\n\n").map((para, pi) => <p key={pi}>{para}</p>)}
                       </div>
+                      {i === 1 && <SectionPhoto photo={photos[1]} className="mt-6" />}
+                      {i === 3 && <SectionPhoto photo={photos[2]} className="mt-6" />}
                     </li>
                   ))}
                 </ol>
@@ -233,6 +238,8 @@ export function BestGuidePage({ article, sample }: { article: BestGuide; sample?
                         </dl>
                       )}
                       {sub.note && <p className="mt-3 text-sm leading-relaxed text-ink-secondary">{sub.note}</p>}
+                      {i === 0 && <SectionPhoto photo={photos[3]} />}
+                      {i === 2 && <SectionPhoto photo={photos[4]} />}
                     </div>
                   ))}
                 </div>
@@ -242,6 +249,7 @@ export function BestGuidePage({ article, sample }: { article: BestGuide; sample?
             {faq.length > 0 && (
               <section aria-labelledby="faq" className="mt-14">
                 <h2 id="faq" className={sectionTitle}>Frequently Asked Questions</h2>
+                <SectionPhoto photo={photos[5]} className="mt-6" />
                 <div className="mt-6 divide-y divide-border border-y border-border">
                   {faq.map((item, i) => (
                     <div key={i} className="py-5">

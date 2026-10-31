@@ -1,3 +1,4 @@
+import { wave1Extras } from "./monitors-builds-wave1-extra";
 import type { GuideModule, InformationalGuide, PcCategory, SourceRef } from "@/lib/pc-content/types";
 
 /**
@@ -1172,7 +1173,7 @@ const activation = mk({
   ],
 });
 
-export const monitorsBuildsWave1Guides: InformationalGuide[] = [
+const base: InformationalGuide[] = [
   hdmiVsDp,
   vrr,
   burnIn,
@@ -1186,3 +1187,13 @@ export const monitorsBuildsWave1Guides: InformationalGuide[] = [
   miniVsSff,
   activation,
 ];
+
+const deepen = (g: InformationalGuide): InformationalGuide => {
+  const extra = wave1Extras[g.slug];
+  if (!extra) return g;
+  const last = g.modules.length - 1;
+  const closing = g.modules[last]?.kind === "next-steps" ? [g.modules[last]] : [];
+  return { ...g, modules: [...g.modules.slice(0, closing.length ? last : g.modules.length), ...extra, ...closing] };
+};
+
+export const monitorsBuildsWave1Guides: InformationalGuide[] = base.map(deepen);

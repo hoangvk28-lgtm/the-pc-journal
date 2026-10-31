@@ -1,0 +1,36 @@
+import type { ArticleImage } from "@/lib/pc-content/types";
+
+/** Lead section photo for each informational guide (the rest of its hub set follows), from public/images/pcj/hubs/. */
+const h = (file: string, alt: string): ArticleImage => ({ src: `/images/pcj/hubs/${file}.webp`, alt });
+
+export const infoPhotos: Record<string, ArticleImage> = {
+  "psu-transient-power-spikes-and-atx-3-explained": h("power-supplies-5", "Modular cable sockets on the back of a power supply"),
+  "12v-2x6-vs-12vhpwr-vs-8-pin-psu-cables": h("power-supplies-4", "An 8-pin power connector held up to the camera"),
+  "pcie-5-vs-pcie-4-ssd-when-the-difference-matters": h("storage-1", "An M.2 SSD going into a motherboard slot"),
+  "ssd-dram-cache-slc-cache-and-nand-types-explained": h("storage-5", "An M.2 SSD installed on a motherboard"),
+  "will-this-gpu-fit-my-case-and-psu": h("pc-cases-2", "A case interior with a tower cooler and a graphics card installed"),
+  "how-to-read-graphics-card-names-ti-super-xt-oc": h("power-supplies-6", "An MSI GeForce graphics card installed in a PC with power cables attached"),
+  "cpu-name-suffixes-explained-k-kf-f-x-x3d-g": h("processors-1", "A desktop CPU seated in its motherboard socket with the retention frame open"),
+  "motherboard-m-2-sata-and-pcie-lane-sharing-explained": h("storage-2", "The M.2 slot and standoff on a motherboard"),
+  "how-to-check-ram-compatibility-with-your-motherboard": h("memory-1", "Memory modules installed in a motherboard's DIMM slots"),
+  "front-panel-usb-c-and-motherboard-headers-explained": h("upgrade-guides-4", "A USB 3.0 front-panel cable plugged into a motherboard header"),
+  "how-to-check-cpu-cooler-compatibility": h("cpu-coolers-2", "A tower air cooler with brown fans installed in a PC"),
+  "pcie-slots-explained-x1-x4-x16-and-what-fits": h("pcie-slots-1", "PCIe expansion slots on a motherboard"),
+  "g-sync-vs-freesync-vs-hdmi-vrr": h("gaming-monitors-2", "A gaming monitor on a desk with purple bias lighting"),
+  "monitor-size-and-pixel-density-for-text": h("monitors-general-2", "A desk with a monitor showing code next to a laptop"),
+  "displayhdr-ratings-explained-for-pc-monitors": h("4k-monitors-1", "A 4K monitor showing a detailed landscape wallpaper"),
+  "ultrawide-monitor-resolutions-explained": h("desk-setup-3", "A white desk with an ultrawide monitor, a PC and plants"),
+  "what-a-prebuilt-pc-listing-leaves-out": h("prebuilt-pcs-3", "A white desktop PC beside a monitor on a bright home-office desk"),
+  "first-boot-checklist-after-building-a-pc": h("pc-cases-3", "An open case with the motherboard installed and the side panel off"),
+  "mini-pc-vs-small-form-factor-pc-build": h("pc-cases-6", "A compact black PC case beside a speaker on a desk"),
+  "mouse-polling-rate-and-dpi-explained": h("mice-3", "A hand on a white gaming mouse, and the same mouse shown from below"),
+  "wired-vs-2-4-ghz-vs-bluetooth-mice-and-keyboards": h("mice-1", "A hand next to a black wireless mouse on a blue mousepad"),
+  "keyboard-layouts-compared-full-size-tkl-75-65-60": h("keyboards-3", "A grey mechanical keyboard beside a mouse on a wooden desk"),
+  "usb-vs-xlr-microphones": h("streaming-gear-1", "A desk with a microphone arm, a ring light and two monitors"),
+  "headset-connection-types-for-pc-ps5-and-xbox": h("headsets-4", "A headset hanging on a PC case next to a monitor"),
+  "usb-speed-names-for-external-ssds-decoded": h("external-storage-1", "An M.2 SSD inside a clear external enclosure"),
+  "portable-ssd-vs-external-hard-drive": h("external-storage-2", "A small M.2 SSD next to an external drive enclosure"),
+  "how-to-size-an-office-chair-to-your-height-and-desk": h("desk-setup-1", "A desk setup with a monitor riser, ergonomic chair and blue backlight"),
+  "how-to-choose-a-monitor-arm-vesa-weight-and-desk-clamps": h("desk-setup-4", "A wooden desk with a monitor on an arm, a desk mat and a compact keyboard"),
+  "pc-speaker-connections-3-5mm-usb-optical-bluetooth": h("speakers-4", "White bookshelf speakers either side of a monitor"),
+};
