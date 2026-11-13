@@ -10,7 +10,8 @@
     "seed:products": "npx tsx scripts/seed-products.ts",
     "seed:guides": "npx tsx scripts/seed-guides.ts",
     "seed:deals": "npx tsx scripts/seed-deals.ts",
-    "seed:settings": "npx tsx scripts/seed-site-settings.ts"
+    "seed:settings": "npx tsx scripts/seed-site-settings.ts",
+    "postbuild": "node scripts/prune-export.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.106.1",
@@ -46,4 +47,3 @@
     "typescript": "^5"
   }
 }
-
